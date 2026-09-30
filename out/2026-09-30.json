@@ -1,9 +1,9 @@
 {
  "ngay": "2026-09-30",
- "bat_dau_luc": "2026-09-30T23:05+07:00",
+ "bat_dau_luc": "2026-09-30T23:47+07:00",
  "cua_so": {
   "tu": "2026-09-29T23:05+07:00",
-  "den": "2026-09-30T23:05+07:00"
+  "den": "2026-09-30T23:47+07:00"
  },
  "nguon_web": [
   {
@@ -17,7 +17,7 @@
    "id": "cafef_vimo",
    "name": "CafeF — Vĩ mô",
    "group": "bao_vn",
-   "n": 33,
+   "n": 34,
    "err": null
   },
   {
@@ -150,35 +150,40 @@
    "balance": 0,
    "anh_kem": 0
   },
-  "heartbeat": null,
-  "listener_version": null,
-  "listener_song": false,
-  "nhom_da_nghe": {}
+  "heartbeat": "2026-09-30T16:45:15.074Z",
+  "listener_version": "1.0.0",
+  "listener_song": true,
+  "nhom_da_nghe": {
+   "money_noobs": "MONEY NOOBS",
+   "finsuccess": "FinSuccess 4",
+   "lavender": "[Room 7] Cộng đồng đợi đáy Lavender",
+   "balance": "Balance - Nền tảng đầu tư định lượng và số hóa"
+  }
  },
  "vi_mo": {
   "so_lieu": {
-   "at": "2026-09-30T23:05+07:00",
-   "dxy": 101.359,
-   "dxy_chg5_pct": 0.256,
-   "dxy_chg20_pct": 1.695,
-   "us10y": 5.283,
-   "us10y_chg5_bp": 16.9,
-   "us10y_chg20_bp": 48.7,
+   "at": "2026-09-30T23:47+07:00",
+   "dxy": 101.414,
+   "dxy_chg5_pct": 0.311,
+   "dxy_chg20_pct": 1.75,
+   "us10y": 5.293,
+   "us10y_chg5_bp": 17.9,
+   "us10y_chg20_bp": 49.7,
    "usdvnd": 25959.0,
    "usdvnd_chg5_pct": -0.208,
    "usdvnd_chg20_pct": -0.426,
-   "brent": 98.78,
-   "brent_chg5_pct": -4.172,
-   "brent_chg20_pct": 4.363,
-   "gold": 4185.6001,
-   "gold_chg5_pct": -3.075,
-   "gold_chg20_pct": -4.795,
-   "vix": 15.89,
-   "vix_chg5_pct": 4.677,
-   "vix_chg20_pct": 4.539,
-   "spx": 7717.21,
-   "spx_chg5_pct": 0.145,
-   "spx_chg20_pct": 1.124,
+   "brent": 98.85,
+   "brent_chg5_pct": -4.104,
+   "brent_chg20_pct": 4.437,
+   "gold": 4191.8999,
+   "gold_chg5_pct": -2.929,
+   "gold_chg20_pct": -4.652,
+   "vix": 15.9,
+   "vix_chg5_pct": 4.743,
+   "vix_chg20_pct": 4.605,
+   "spx": 7707.0801,
+   "spx_chg5_pct": 0.014,
+   "spx_chg20_pct": 0.991,
    "vnindex": 1768.62,
    "vnindex_chg5_pct": -1.833,
    "vnindex_chg20_pct": -3.466,
@@ -602,6 +607,17 @@
     "url": "https://www.tinnhanhchungkhoan.vn/dong-tien-toan-cau-dich-chuyen-viet-nam-van-cho-tin-hieu-ro-hon-post398568.html",
     "summary": "(ĐTCK) Báo cáo mới đây về dòng vốn các quỹ ETF tuần từ 21/9-25/9 của Công ty Chứng khoán Yuanta Việt Nam cho thấy dòng vốn trên thị trường tài chính toàn cầu đang cho thấy sự phân hóa rõ nét khi nhà đầu tư thận trọng hơn với các tài sản rủi ro tại Mỹ, trong khi dòng tiền tiếp tục tìm kiếm cơ hội tại các thị trường ngoài Mỹ. SSI ước tính các quỹ ETF sẽ mua ròng 240 triệu USD trong đợt giải ngân đầu tiên Dòng vốn quỹ ETF hội tụ trong tháng 9, cổ phiếu nào hưởng lợi? Tiếp đà hồi phục, dòng tiền…",
     "published": "2026-09-30T14:07+07:00",
+    "score": 3
+   },
+   {
+    "id": "w9a2a8835c4bf",
+    "src": "inv_eco",
+    "src_name": "Investing — Kinh tế",
+    "group": "quoc_te",
+    "title": "Fed seen on pause in October after inflation data",
+    "url": "https://www.investing.com/news/economy-news/fed-seen-on-pause-in-october-after-inflation-data-4925578",
+    "summary": "",
+    "published": "2026-09-30T16:01+07:00",
     "score": 3
    },
    {
@@ -1595,6 +1611,17 @@
     "score": 0
    },
    {
+    "id": "wbeb8ab1440e9",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Cần Thơ có khu tái định cư mới với vốn đầu tư gần 1.000 tỷ đồng",
+    "url": "https://cafef.vn/can-tho-co-khu-tai-dinh-cu-moi-voi-von-dau-tu-gan-1000-ty-dong-188260930134134202.chn",
+    "summary": "Ngày 30/9, UBND TP Cần Thơ tổ chức Lễ khởi công dự án Khu tái định cư Vĩnh Thạnh (giai đoạn 2) tại xã Vĩnh Trinh. Dự án có tổng mức đầu tư gần 977 tỷ đồng, được xây dựng đồng bộ hệ thống hạ tầng kỹ thuật, tạo lập quỹ đất tái định cư để phục vụ bố trí cho các hộ dân bị ảnh hưởng bởi các dự án trên địa bàn.",
+    "published": "2026-09-30T23:21+07:00",
+    "score": 0
+   },
+   {
     "id": "wf1cf7830dc3e",
     "src": "cafef_vimo",
     "src_name": "CafeF — Vĩ mô",
@@ -1802,38 +1829,63 @@
     "summary": "Từ tháng 10/2026, nhiều chính sách có hiệu lực như: Thí điểm chế định luật sư công từ 1/10; Tăng mức chuẩn trợ giúp xã hội lên 540.000 đồng/tháng; Mức chuẩn trợ cấp ưu đãi người có công; Quy định mới về quản lý và sử dụng Quỹ Học bổng Quốc gia...",
     "published": "2026-09-30T09:21+07:00",
     "score": 0
-   },
-   {
-    "id": "wa2b1a81e9e30",
-    "src": "cafef_vimo",
-    "src_name": "CafeF — Vĩ mô",
-    "group": "bao_vn",
-    "title": "Cầu Mai Lĩnh tăng tốc thi công, dự kiến thông tuyến bên phải đầu tháng 12",
-    "url": "https://cafef.vn/cau-mai-linh-tang-toc-thi-cong-du-kien-thong-tuyen-ben-phai-dau-thang-12-188260930080132696.chn",
-    "summary": "Hà Nội đang đẩy nhanh tiến độ dự án cải tạo, nâng cấp và mở rộng quốc lộ 6 đoạn Hà Đông - Xuân Mai, trong đó tập trung tháo gỡ điểm nghẽn tại cầu Mai Lĩnh, phấn đấu đầu tháng 12/2026 thông tuyến bên phải cầu.",
-    "published": "2026-09-30T08:30+07:00",
-    "score": 0
-   },
-   {
-    "id": "wdad307c9ed29",
-    "src": "cafef_vimo",
-    "src_name": "CafeF — Vĩ mô",
-    "group": "bao_vn",
-    "title": "Việt Nam cần bao nhiêu tiền để hoàn thành 5.000 km cao tốc?",
-    "url": "https://cafef.vn/viet-nam-can-bao-nhieu-tien-de-hoan-thanh-5000-km-cao-toc-188260929232006991.chn",
-    "summary": "Việt Nam đặt mục tiêu hoàn thành khoảng 5.000 km cao tốc vào năm 2030, nhưng để xây mới và mở rộng hơn 4.000 km trong 5 năm tới cần khoảng 1.269.000 tỷ đồng, trong đó 846.000 tỷ đồng phải huy động ngoài ngân sách.",
-    "published": "2026-09-30T08:19+07:00",
-    "score": 0
    }
-  ]
+  ],
+  "kind": "web",
+  "n_items": 140,
+  "topics": [],
+  "loi": "AI lỗi: HTTP 404: {\n  \"error\": {\n    \"code\": 404,\n    \"message\": \"This model models/gemini-2.5-flash-lite is no longer available to new users. Please update your code to use models/gemini-3.5-flash-lite for the latest "
  },
  "zalo": {
-  "items": []
+  "items": [],
+  "kind": "zalo",
+  "n_items": 0,
+  "topics": [],
+  "loi": "không có tin trong cửa sổ"
  },
- "ai": null,
- "trang_thai_chay": "dry",
+ "ai": {
+  "models": [
+   "gemini-3-flash-preview",
+   "gemini-2.5-flash"
+  ],
+  "so_luot": 1,
+  "token_vao": 1052,
+  "token_ra": 856
+ },
+ "trang_thai_chay": "mot_phan",
  "pb_ver": 1,
- "xong_luc": "2026-09-30T23:07+07:00",
- "chay_giay": 104,
+ "tong_hop": {
+  "trang_thai": "trung_tinh",
+  "tieu_de": "Áp lực tỷ giá và lợi suất trái phiếu Mỹ duy trì ở mức cao gây sức ép lên định giá",
+  "ba_dieu_can_biet": [
+   "Tỷ giá USD/VND đang neo ở mức rất cao 25.959 đồng, gây áp lực trực tiếp lên dự trữ ngoại hối và buộc Ngân hàng Nhà nước phải duy trì trạng thái thanh khoản thận trọng. Điều này có nghĩa là dư địa để nới lỏng tiền tệ trong nước bị thu hẹp đáng kể, làm tăng chi phí cơ hội cho dòng vốn đầu tư cổ phiếu.",
+   "Lợi suất trái phiếu Chính phủ Mỹ kỳ hạn 10 năm (US10Y) đã tăng mạnh gần 50 điểm cơ bản trong 20 ngày qua, đạt mức 5.293%. Khi lợi suất phi rủi ro tăng cao, định giá của các cổ phiếu (đặc biệt là nhóm tăng trưởng) sẽ bị chiết khấu sâu hơn, gây áp lực giảm giá lên bình diện chung của thị trường.",
+   "Giá dầu Brent tiệm cận ngưỡng 100 USD/thùng làm dấy lên lo ngại về lạm phát toàn cầu khó hạ nhiệt bền vững. Tình trạng này củng cố kịch bản lãi suất cao kéo dài, khiến tâm lý nhà đầu tư trở nên phòng thủ hơn và hạn chế các vị thế mua đuổi trong các phiên bùng nổ."
+  ],
+  "doi_chieu_web_zalo": [
+   "Hiện tại cả hai nguồn tin TAB WEB và TAB ZALO đều không ghi nhận thông tin mới, cho thấy sự đồng nhất trong trạng thái chờ đợi các tín hiệu vĩ mô tiếp theo từ thị trường."
+  ],
+  "viec_hom_nay": [
+   "Quan sát kỹ phản ứng của VN-Index tại các ngưỡng hỗ trợ khi áp lực tỷ giá chưa hạ nhiệt. Ưu tiên quản trị rủi ro danh mục hiện tại, chỉ giải ngân thăm dò ở những mã có nền tảng cơ bản cực tốt và thuộc nhóm dẫn đầu thanh khoản nếu có điểm breakout thuyết phục."
+  ],
+  "canh_bao": "Rủi ro tỷ giá USD/VND duy trì ở mức cao và đà tăng của US10Y có thể kích hoạt đà bán ròng của khối ngoại.",
+  "bai_luyen_vi_mo": {
+   "tinh_huong": "Lợi suất trái phiếu Chính phủ Mỹ (US10Y) tăng sốc 50 điểm cơ bản trong thời gian ngắn trong khi tỷ giá trong nước đang ở vùng đỉnh lịch sử.",
+   "cau_hoi": "Chuỗi nhân quả nào dẫn đến việc sụt giảm định giá cổ phiếu trên thị trường chứng khoán Việt Nam trong bối cảnh này?",
+   "dap_an": "Khi US10Y tăng, chi phí vốn toàn cầu tăng khiến dòng vốn rút khỏi các thị trường mới nổi như Việt Nam để quay về Mỹ, gây áp lực lên tỷ giá. Để giữ tỷ giá, NHNN buộc phải hút tiền về hoặc tăng lãi suất liên ngân hàng, dẫn đến lãi suất chiết khấu trong mô hình định giá tăng lên, trực tiếp làm giảm giá trị hiện tại của các dòng tiền tương lai của doanh nghiệp.",
+   "chuoi_nhan_qua": [
+    "US10Y tăng mạnh",
+    "Dòng vốn rút khỏi thị trường mới nổi (EM)",
+    "Áp lực tỷ giá USD/VND tăng cao",
+    "NHNN thắt chặt thanh khoản VND để bảo vệ tỷ giá",
+    "Lãi suất chiết khấu (r) trong mô hình định giá tăng",
+    "Định giá cổ phiếu (P/E) bị nén lại"
+   ],
+   "luat_lien_quan": "LNH_CANG_KEO_DAI"
+  },
+  "_model": "gemini-3-flash-preview"
+ },
+ "xong_luc": "2026-09-30T23:50+07:00",
+ "chay_giay": 214,
  "dung_han": false
 }

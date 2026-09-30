@@ -1,0 +1,91 @@
+{
+  "_nguyen_tac": [
+    "Đây là CỜ MỀM, không phải cổng chặn. Không cờ nào được tự động chặn lệnh mua của bộ máy 9 lớp.",
+    "Không cờ nào được hạ cỡ lệnh thăm dò (probe/stage1 = 1.0) — ràng buộc chủ hệ thống.",
+    "Mức cao nhất một cờ được gợi ý: không pyramid / không top-up mới, và soi tay kỹ hơn. Muốn nâng lên thành luật phải qua research/macro_research.py: A/B mức deal, bootstrap, walk-forward lồng, bỏ deal tốt nhất, trượt giá 0,2%.",
+    "Mức cao thường KHÔNG phải tín hiệu (thị trường đã phản ánh). Cú SỐC / thay đổi nhanh mới là tín hiệu (surprise > level).",
+    "Cờ thiếu dữ liệu thì hiện 'thiếu dữ liệu', không được coi là tắt."
+  ],
+  "muc": {
+    "thong_tin":      {"ten": "Thông tin",        "thu_tu": 0},
+    "khong_hanh_dong":{"ten": "Không hành động",  "thu_tu": 0},
+    "theo_doi":       {"ten": "Theo dõi",         "thu_tu": 1},
+    "than_trong":     {"ten": "Thận trọng",       "thu_tu": 2},
+    "han_che_rui_ro": {"ten": "Hạn chế rủi ro",   "thu_tu": 3},
+    "tich_cuc":       {"ten": "Tích cực",         "thu_tu": 0}
+  },
+  "rules": [
+    {
+      "id": "LS_CAO_ON_DINH",
+      "ten": "Lãi suất LNH cao nhưng ổn định",
+      "khi": {"all": [["lnh_on", ">=", 4.0], ["abs_lnh_on_chg20_bp", "<", 50]]},
+      "muc": "khong_hanh_dong",
+      "doc": "Mặt bằng cao đã nằm trong giá. Không có cú sốc mới → không hành động, bộ máy chạy bình thường.",
+      "vi_mo_to_vi_mo": "Chi phí vốn cao đều → ưu tiên DN ít nợ, CFO dương (bộ máy đã có cổng CFO/ICR/DE).",
+      "goi_y_he_thong": "Không đổi gì."
+    },
+    {
+      "id": "LNH_SOC_NGAN",
+      "ten": "Lãi suất LNH qua đêm tăng sốc",
+      "khi": {"any": [["lnh_on_chg5_bp", ">=", 150], ["lnh_on_vs_ma20", ">=", 2.0]]},
+      "muc": "than_trong",
+      "doc": "Thanh khoản hệ thống căng ngắn hạn. Thường do tỷ giá (NHNN hút VND), mùa vụ (cuối quý/Tết) hoặc đáo hạn OMO. Phải xem NHNN có bơm OMO lại không.",
+      "vi_mo_to_vi_mo": "CTCK: chi phí vốn margin tăng, có thể siết margin → nhóm đầu cơ, penny chịu bán. Ngân hàng nhỏ vốn mỏng chịu COF. BĐS nợ vay cao nhạy nhất.",
+      "goi_y_he_thong": "Không pyramid/top-up mới trong 5 phiên; soi tay mã CK/BĐS trước khi vào. Lệnh thăm dò giữ nguyên cỡ."
+    },
+    {
+      "id": "LNH_CANG_KEO_DAI",
+      "ten": "LNH neo cao và tăng kéo dài",
+      "khi": {"all": [["lnh_on", ">=", 5.0], ["lnh_on_chg20_bp", ">=", 200]]},
+      "muc": "han_che_rui_ro",
+      "doc": "Căng thanh khoản không còn là mùa vụ. Kết hợp tỷ giá căng thì NHNN mất room nới lỏng (bộ ba bất khả thi).",
+      "vi_mo_to_vi_mo": "Dòng tiền margin co lại → thanh khoản toàn thị trường giảm → breakout dễ thất bại. Ngành hưởng lợi tương đối: xuất khẩu thu USD, DN tiền mặt ròng lớn.",
+      "goi_y_he_thong": "Không pyramid/top-up; chú ý đèn thị trường. Không tự hạ probe. Đây là cờ ứng viên số 1 để kiểm bằng research."
+    },
+    {
+      "id": "LNH_HA_NHIET",
+      "ten": "LNH hạ nhiệt sau đợt căng",
+      "khi": {"all": [["lnh_on_chg5_bp", "<=", -150], ["lnh_on_max20", ">=", 5.0]]},
+      "muc": "tich_cuc",
+      "doc": "Áp lực thanh khoản qua đỉnh. Thường đi trước một nhịp hồi của nhóm CK/NH.",
+      "vi_mo_to_vi_mo": "CTCK, ngân hàng, BĐS nhạy lãi suất hồi trước.",
+      "goi_y_he_thong": "Không đổi luật; ưu tiên soi tín hiệu nhóm CK/NH."
+    },
+    {
+      "id": "TY_GIA_CANG",
+      "ten": "USD/VND tăng nhanh",
+      "khi": {"any": [["usdvnd_chg20_pct", ">=", 1.0], ["usdvnd_chg5_pct", ">=", 0.5]]},
+      "muc": "than_trong",
+      "doc": "Tỷ giá căng → NHNN ưu tiên ổn định tỷ giá, hút VND, lãi suất LNH có thể bị đẩy lên. Khối ngoại thường bán ròng.",
+      "vi_mo_to_vi_mo": "Hại: DN nợ USD lớn (điện, hàng không, thép nhập nguyên liệu). Lợi: xuất khẩu (thuỷ sản, dệt may, gỗ), DN thu USD.",
+      "goi_y_he_thong": "Theo dõi cặp cờ TY_GIA_CANG + LNH_SOC_NGAN: cặp này mới đáng lo."
+    },
+    {
+      "id": "DXY_US10Y_CUNG_TANG",
+      "ten": "DXY và lợi suất Mỹ 10 năm cùng tăng",
+      "khi": {"all": [["dxy_chg20_pct", ">=", 2.0], ["us10y_chg20_bp", ">=", 25]]},
+      "muc": "than_trong",
+      "doc": "Điều kiện tài chính toàn cầu thắt lại, vốn rút khỏi thị trường mới nổi.",
+      "vi_mo_to_vi_mo": "Truyền về VN qua tỷ giá (4–8 quý mới vào lợi nhuận DN, nhưng vào giá cổ phiếu ngay).",
+      "goi_y_he_thong": "Theo dõi; chỉ đáng kể nếu kéo theo TY_GIA_CANG."
+    },
+    {
+      "id": "DAU_SOC",
+      "ten": "Giá dầu Brent biến động mạnh",
+      "khi": {"any": [["brent_chg20_pct", ">=", 10], ["brent_chg20_pct", "<=", -10]]},
+      "muc": "theo_doi",
+      "doc": "Cú sốc hàng hoá: tác động vi mô theo ngành rõ hơn tác động vĩ mô.",
+      "vi_mo_to_vi_mo": "Dầu tăng: lợi PVS, PVD, GAS, BSR (crack spread), hại HVN, VJC, nhựa, phân bón (khí đầu vào). Dầu giảm: ngược lại; CPI dịu.",
+      "goi_y_he_thong": "Không đổi luật; ghi chú khi bộ máy báo mua mã trong nhóm dầu khí/hàng không."
+    },
+    {
+      "id": "VIX_CAO",
+      "ten": "Chỉ số sợ hãi VIX cao",
+      "khi": {"all": [["vix", ">=", 25]]},
+      "muc": "theo_doi",
+      "doc": "Risk-off toàn cầu. VN thường phản ứng trễ và yếu hơn.",
+      "vi_mo_to_vi_mo": "Khối ngoại bán nhóm vốn hoá lớn trước.",
+      "goi_y_he_thong": "Không đổi luật."
+    }
+  ]
+}

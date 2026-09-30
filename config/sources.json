@@ -1,0 +1,33 @@
+{
+  "_ghi_chu": "Nguồn tab TIN WEB. type=rss: đọc RSS. type=html_list: đọc trang danh sách, lấy link theo regex, mở từng bài lấy og:title/og:description + thân bài. group dùng để chia nhóm trên trang. Thêm/bớt nguồn chỉ sửa file này.",
+  "web": [
+    {"id": "cafef_ck",    "group": "bao_vn",     "name": "CafeF — Chứng khoán",       "type": "rss", "url": "https://cafef.vn/thi-truong-chung-khoan.rss"},
+    {"id": "cafef_vimo",  "group": "bao_vn",     "name": "CafeF — Vĩ mô",             "type": "rss", "url": "https://cafef.vn/vi-mo-dau-tu.rss"},
+    {"id": "cafef_nh",    "group": "bao_vn",     "name": "CafeF — Tài chính NH",      "type": "rss", "url": "https://cafef.vn/tai-chinh-ngan-hang.rss"},
+    {"id": "cafef_dn",    "group": "bao_vn",     "name": "CafeF — Doanh nghiệp",      "type": "rss", "url": "https://cafef.vn/doanh-nghiep.rss"},
+    {"id": "vnx_kd",      "group": "bao_vn",     "name": "VnExpress — Kinh doanh",    "type": "rss", "url": "https://vnexpress.net/rss/kinh-doanh.rss"},
+    {"id": "vs_cp",       "group": "bao_vn",     "name": "Vietstock — Cổ phiếu",      "type": "rss", "url": "https://vietstock.vn/830/chung-khoan/co-phieu.rss"},
+    {"id": "vs_vimo",     "group": "bao_vn",     "name": "Vietstock — Vĩ mô",         "type": "rss", "url": "https://vietstock.vn/761/kinh-te/vi-mo.rss"},
+    {"id": "vs_nh",       "group": "bao_vn",     "name": "Vietstock — Ngân hàng",     "type": "rss", "url": "https://vietstock.vn/757/tai-chinh/ngan-hang.rss"},
+    {"id": "vne_ck",      "group": "bao_vn",     "name": "VnEconomy — Chứng khoán",   "type": "rss", "url": "https://vneconomy.vn/chung-khoan.rss"},
+    {"id": "vne_tc",      "group": "bao_vn",     "name": "VnEconomy — Tài chính",     "type": "rss", "url": "https://vneconomy.vn/tai-chinh.rss"},
+    {"id": "tnck",        "group": "bao_vn",     "name": "Tin nhanh CK",              "type": "rss", "url": "https://tinnhanhchungkhoan.vn/rss/chung-khoan-1.rss"},
+    {"id": "sbv_lnh",     "group": "chinh_thuc", "name": "NHNN — Lãi suất LNH",       "type": "sbv_lnh", "url": "https://dttktt.sbv.gov.vn/webcenter/portal/vi/menu/rm/ls/lsttlnh"},
+    {"id": "fed",         "group": "quoc_te",    "name": "Fed — Chính sách tiền tệ",  "type": "rss", "url": "https://www.federalreserve.gov/feeds/press_monetary.xml"},
+    {"id": "mw_top",      "group": "quoc_te",    "name": "MarketWatch — Top",         "type": "rss", "url": "https://feeds.content.dowjones.io/public/rss/mw_topstories"},
+    {"id": "mw_pulse",    "group": "quoc_te",    "name": "MarketWatch — Pulse",       "type": "rss", "url": "https://feeds.content.dowjones.io/public/rss/mw_marketpulse"},
+    {"id": "inv_eco",     "group": "quoc_te",    "name": "Investing — Kinh tế",       "type": "rss", "url": "https://www.investing.com/rss/news_14.rss"},
+    {"id": "inv_fx",      "group": "quoc_te",    "name": "Investing — Ngoại hối",     "type": "rss", "url": "https://www.investing.com/rss/news_1.rss"},
+    {"id": "vnx_tg",      "group": "quoc_te",    "name": "VnExpress — Thế giới",      "type": "rss", "url": "https://vnexpress.net/rss/the-gioi.rss", "keywords_required": true},
+    {"id": "fisc",        "group": "nguon_5",    "name": "FinSuccess (fisc.vn)",      "type": "html_list", "url": "https://fisc.vn/blog",
+      "link_regex": "https://fisc\\.vn/[a-z-]+/[a-z0-9-]+-p[0-9]+\\.html", "max_articles": 8, "fetch_body": true}
+  ],
+  "_them_nguon_5": "Money Noobs / Balance / Ánh Kem / Lavender chưa tìm thấy web công khai có bài viết (Lavender chỉ có linktr.ee → Zalo). Có web thì thêm 1 dòng html_list như fisc ở trên, group nguon_5.",
+  "groups": {
+    "bao_vn": "Báo tài chính VN",
+    "chinh_thuc": "Nguồn chính thức",
+    "quoc_te": "Quốc tế",
+    "nguon_5": "Web 5 nguồn"
+  },
+  "gioi_han": {"web_toi_da_vao_ai": 140, "zalo_toi_da_vao_ai": 220, "cua_so_gio_mac_dinh": 24}
+}

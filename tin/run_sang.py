@@ -128,16 +128,22 @@ def main(argv=None) -> int:
             print("5) Debate tab ZALO")
             zalo_tab = run_tab(g, zalo_items, "zalo", ctx, a.max_topics)
             print("6) Tổng hợp sáng")
-            try:
-                th = tong_hop(g, ctx, web_tab, zalo_tab)
-            except GeminiError as e:
-                th = {"loi": str(e)[:300]}
+            if not web_tab.get("topics") and not zalo_tab.get("topics"):
+                th = {"loi": "bỏ qua tổng hợp vì cả hai tab không có chủ đề (tránh AI viết khi không có tin)"}
+            else:
+                try:
+                    th = tong_hop(g, ctx, web_tab, zalo_tab)
+                except GeminiError as e:
+                    th = {"loi": str(e)[:300]}
             result["web"].update(web_tab)
             result["zalo"].update(zalo_tab)
             result["tong_hop"] = th
             result["ai"] = {"models": g.models[:2], "so_luot": g.calls, "token_vao": g.tokens_in, "token_ra": g.tokens_out}
-            ok = not web_tab.get("loi") or web_tab.get("topics")
-            result["trang_thai_chay"] = "dat" if ok and "loi" not in th else "mot_phan"
+            if not web_tab.get("topics") and not zalo_tab.get("topics"):
+                result["trang_thai_chay"] = "loi_ai"
+            else:
+                ok = not web_tab.get("loi") or web_tab.get("topics")
+                result["trang_thai_chay"] = "dat" if ok and "loi" not in th else "mot_phan"
         except GeminiError as e:
             result["ai"] = {"loi": str(e)[:300]}
             result["trang_thai_chay"] = "loi_ai"

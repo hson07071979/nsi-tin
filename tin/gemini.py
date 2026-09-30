@@ -1,5 +1,11 @@
-"""Client Gemini REST (không cần SDK). Tự chọn model flash tốt nhất đang có, giãn nhịp theo hạn mức free tier,
-thử lại khi 429/5xx, ép trả JSON."""
+"""Client Gemini REST (không cần SDK).
+
+Bản 2 (30-09 tối) sau lần chạy thật đầu tiên: model cố định trong danh sách bị Google khai tử
+("gemini-2.5-flash-lite is no longer available to new users") và lượt lọc tin thất bại không rõ lý do.
+- Tự dò model: lấy MỌI model gemini-*-flash* key đang dùng được, xếp bản mới nhất lên đầu.
+- Hạn ra 65k token + giảm 'thinking' để JSON không bị cắt cụt vì model nghĩ hết ngân sách.
+- Ghi lỗi của TỪNG model vào thông báo (hiện trên trang) để lần sau biết ngay hỏng ở đâu.
+"""
 from __future__ import annotations
 
 import json
@@ -10,13 +16,28 @@ import time
 import requests
 
 API = "https://generativelanguage.googleapis.com/v1beta"
-# Ưu tiên từ trên xuống; model nào key không có quyền thì tự bỏ qua.
-PREF = ["gemini-3-flash", "gemini-3-flash-preview", "gemini-2.5-flash", "gemini-2.5-flash-preview",
-        "gemini-2.0-flash", "gemini-2.5-flash-lite", "gemini-2.0-flash-lite"]
+_FLASH = re.compile(r"^gemini-(\d+(?:\.\d+)?)-flash(-lite)?(?:-preview(?:-[\w-]+)?)?(?:-\d{2,})?$")
+_BO = ("image", "tts", "audio", "live", "embedding", "exp", "thinking")
 
 
 class GeminiError(RuntimeError):
     pass
+
+
+def rank_models(names: list[str]) -> list[str]:
+    """Chỉ giữ gemini-X-flash[-lite][-preview…]; xếp: bản số lớn trước, flash trước lite, bản chính thức trước preview."""
+    ok = []
+    for n in names:
+        if any(b in n for b in _BO):
+            continue
+        m = _FLASH.match(n)
+        if not m:
+            continue
+        ver = float(m.group(1))
+        lite = bool(m.group(2))
+        preview = "preview" in n
+        ok.append(((-ver, lite, preview, len(n)), n))
+    return [n for _, n in sorted(ok)]
 
 
 class Gemini:
@@ -29,18 +50,21 @@ class Gemini:
         self.calls = 0
         self.tokens_in = 0
         self.tokens_out = 0
+        self.no_thinking_cfg: set[str] = set()
         env_models = os.environ.get("GEMINI_MODELS")
         self.models = models or (env_models.split(",") if env_models else self._pick())
 
     def _pick(self) -> list[str]:
+        have: list[str] = []
         try:
-            r = requests.get(f"{API}/models", params={"key": self.key, "pageSize": 200}, timeout=20)
-            have = {m["name"].split("/")[-1] for m in r.json().get("models", [])
-                    if "generateContent" in m.get("supportedGenerationMethods", [])}
+            url, params = f"{API}/models", {"key": self.key, "pageSize": 1000}
+            r = requests.get(url, params=params, timeout=20)
+            have = [m["name"].split("/")[-1] for m in r.json().get("models", [])
+                    if "generateContent" in m.get("supportedGenerationMethods", [])]
         except Exception:  # noqa: BLE001
-            have = set()
-        chosen = [m for m in PREF if m in have] or ["gemini-2.5-flash", "gemini-2.5-flash-lite"]
-        print(f"  [gemini] model: {chosen[:3]}")
+            pass
+        chosen = rank_models(have)[:4] or ["gemini-2.5-flash"]
+        print(f"  [gemini] model: {chosen}")
         return chosen
 
     def _wait(self):
@@ -49,55 +73,69 @@ class Gemini:
             time.sleep(self.gap - dt)
         self._last = time.time()
 
+    @staticmethod
+    def _thinking(model: str) -> dict:
+        # Gemini 3.x dùng thinkingLevel; 2.5 dùng thinkingBudget. Để thấp: việc này là tóm tắt/phân tích có khuôn.
+        if re.match(r"gemini-[3-9]", model):
+            return {"thinkingLevel": "low"}
+        if model.startswith("gemini-2.5"):
+            return {"thinkingBudget": 1024}
+        return {}
+
     def json(self, system: str, prompt: str, *, temperature: float = 0.4, max_out: int = 8192) -> dict:
-        body = {
-            "systemInstruction": {"parts": [{"text": system}]},
-            "contents": [{"role": "user", "parts": [{"text": prompt}]}],
-            "generationConfig": {"temperature": temperature, "maxOutputTokens": max_out,
-                                 "responseMimeType": "application/json"},
-        }
-        last = None
+        errs: dict[str, str] = {}
         for model in self.models:
+            gen = {"temperature": temperature, "maxOutputTokens": 65536, "responseMimeType": "application/json"}
+            th = self._thinking(model)
+            if th and model not in self.no_thinking_cfg:
+                gen["thinkingConfig"] = th
+            body = {"systemInstruction": {"parts": [{"text": system}]},
+                    "contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": gen}
             for attempt in range(4):
                 self._wait()
                 try:
                     r = requests.post(f"{API}/models/{model}:generateContent", params={"key": self.key},
-                                      json=body, timeout=180)
+                                      json=body, timeout=300)
                 except requests.RequestException as e:
-                    last = str(e)[:200]
+                    errs[model] = f"mạng: {str(e)[:120]}"
                     time.sleep(5 * (attempt + 1))
                     continue
                 if r.status_code == 200:
-                    self.calls += 1
                     j = r.json()
                     u = j.get("usageMetadata", {})
                     self.tokens_in += u.get("promptTokenCount", 0)
                     self.tokens_out += u.get("candidatesTokenCount", 0)
                     try:
-                        text = "".join(p.get("text", "") for p in j["candidates"][0]["content"]["parts"])
+                        cand = j["candidates"][0]
+                        text = "".join(p.get("text", "") for p in cand["content"]["parts"])
                     except (KeyError, IndexError):
-                        last = f"trả rỗng: {json.dumps(j)[:200]}"
+                        errs[model] = f"trả rỗng ({(j.get('promptFeedback') or {}).get('blockReason') or j.get('candidates', [{}])[0].get('finishReason')})"
                         break
                     out = parse_json_loose(text)
                     if out is not None:
+                        self.calls += 1
                         out.setdefault("_model", model)
                         return out
-                    last = "JSON hỏng"
-                    body["generationConfig"]["temperature"] = 0.2
+                    errs[model] = f"JSON hỏng (finishReason={cand.get('finishReason')}, {len(text)} ký tự)"
+                    gen["temperature"] = 0.2
                     continue
-                last = f"HTTP {r.status_code}: {r.text[:200]}"
+                msg = r.text[:220].replace("\n", " ")
+                errs[model] = f"HTTP {r.status_code}: {msg}"
+                if r.status_code == 400 and "thinking" in r.text.lower() and "thinkingConfig" in gen:
+                    self.no_thinking_cfg.add(model)       # model không nhận tham số thinking → bỏ đi, thử lại
+                    gen.pop("thinkingConfig", None)
+                    continue
                 if r.status_code == 429:
-                    m = re.search(r'"retryDelay":\s*"(\d+)s"', r.text)
-                    wait = int(m.group(1)) + 2 if m else 20 * (attempt + 1)
                     if "PerDay" in r.text or "per day" in r.text.lower():
                         break  # hết hạn mức ngày của model này → sang model sau
-                    time.sleep(min(wait, 90))
+                    m = re.search(r'"retryDelay":\s*"(\d+)s"', r.text)
+                    time.sleep(min(int(m.group(1)) + 2 if m else 20 * (attempt + 1), 90))
                     continue
                 if r.status_code in (500, 502, 503, 504):
                     time.sleep(8 * (attempt + 1))
                     continue
                 break  # 400/403/404 → model này không dùng được
-        raise GeminiError(last or "không gọi được Gemini")
+        raise GeminiError(" | ".join(f"{k}: {v}" for k, v in errs.items()) or "không gọi được Gemini")
 
 
 def parse_json_loose(text: str):

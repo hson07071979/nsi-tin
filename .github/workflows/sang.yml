@@ -1,0 +1,61 @@
+name: Ban tin sang
+
+# Đồng hồ ảo (Cloudflare Worker nsi-dong-ho) gọi workflow_dispatch:
+#   07:00 VN  che_do=chay   → cào + debate, xong ~07:10–07:25
+#   07:45 VN  che_do=gac    → hôm nay chưa có bản đạt thì chạy lại
+#   08:15 VN  che_do=gac    → lần gác cuối trước hạn 8h30
+# Cron dưới đây chỉ là DỰ PHÒNG khi đồng hồ ảo chết (GitHub cron trễ 0,5–6h nên không tin được giờ).
+on:
+  workflow_dispatch:
+    inputs:
+      che_do:
+        description: "chay | gac | dry"
+        default: "chay"
+  schedule:
+    - cron: "10 0 * * 1-5"   # 07:10 VN dự phòng (chạy ở chế độ gác)
+
+concurrency:
+  group: ban-tin-sang
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  sang:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Chạy bản tin
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_RPM: "8"
+          NSI_THRESHOLDS_URL: ${{ secrets.NSI_THRESHOLDS_URL }}
+          NSI_PORTFOLIO_URL: ${{ secrets.NSI_PORTFOLIO_URL }}
+        run: |
+          MODE="${{ github.event.inputs.che_do }}"
+          [ -z "$MODE" ] && MODE=gac
+          case "$MODE" in
+            gac) python -m tin.run_sang --gac ;;
+            dry) python -m tin.run_sang --dry ;;
+            *)   python -m tin.run_sang ;;
+          esac
+      - name: Chấm điểm bản tin cũ (was_i_right)
+        if: always()
+        continue-on-error: true
+        run: python -m tin.cham_diem
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git config user.name "nsi-tin-bot"
+          git config user.email "nsi-tin-bot@users.noreply.github.com"
+          git add out data
+          git diff --cached --quiet && exit 0
+          git commit -m "ban tin $(TZ=Asia/Ho_Chi_Minh date +%F_%H%M)"
+          for i in 1 2 3; do git pull --rebase -X theirs && git push && exit 0; sleep 5; done
+          exit 1

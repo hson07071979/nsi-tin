@@ -42,6 +42,7 @@ Repo **PRIVATE**. Chứa tin nhóm Zalo kín — không bao giờ để public.
 | `config/macro_playbook.json` | sổ luật vĩ mô mềm |
 | `zalo-listener/` | chạy trên laptop Windows (Node 18+, zca-js) |
 | `worker/tin_page.js` | trang /tin cho Worker nsi-quantri |
+| `worker/raw_goc.js` | dán cuối `src/index.js` của nsi-quantri: chế độ admin lấy web thẳng từ raw GitHub (né cổng nsi-cong) |
 | `worker/dong_ho_tin.js` | thêm vào Worker nsi-dong-ho |
 | `research/macro_research.py` | kiểm cờ vĩ mô trên deal thật |
 | `tests/` | `python -m pytest -q tests` (13 test, không gọi mạng) |

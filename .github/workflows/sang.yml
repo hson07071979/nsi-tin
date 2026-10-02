@@ -12,7 +12,7 @@ on:
         description: "chay | gac | dry"
         default: "chay"
   schedule:
-    - cron: "10 0 * * 1-5"   # 07:10 VN dự phòng (chạy ở chế độ gác)
+    - cron: "10 0 * * *"   # 07:10 VN mỗi ngày, dự phòng (chạy ở chế độ gác)
 
 concurrency:
   group: ban-tin-sang

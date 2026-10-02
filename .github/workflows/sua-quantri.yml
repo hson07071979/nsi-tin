@@ -1,0 +1,29 @@
+name: sua-quantri
+# Sửa Worker nsi-quantri (trang quản trị): Xem web đọc thẳng GitHub, thêm trang /tin.
+# Push → chỉ chạy thử. Deploy thật chỉ khi người bấm Run workflow và chọn deploy.
+on:
+  push:
+    branches: [claude/gallant-meitner-ymyzqc]
+    paths: [tools/quantri/**, .github/workflows/sua-quantri.yml]
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Deploy thật lên nsi-quantri? (bỏ chọn = chỉ chạy thử)'
+        type: boolean
+        default: false
+jobs:
+  sua:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node tools/quantri/deploy.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          TIN_TOKEN: ${{ secrets.TIN_TOKEN }}
+          DEPLOY: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy && '1' || '0' }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: worker-goc-va-da-sua, path: tools/quantri/out/, if-no-files-found: ignore }

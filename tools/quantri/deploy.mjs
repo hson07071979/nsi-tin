@@ -57,6 +57,9 @@ for (const k of ['RAW_GOC', 'LOAI_RAW', 'duongRaw', 'suaRaw', 'TIN_MOD']) {
   if (n !== 1) throw new Error(`"${k}" được khai báo ${n} lần — trùng tên với code cũ`);
 }
 if (!/\bADMIN\b/.test(code)) throw new Error('Code cũ không có biến ADMIN — khác với hướng dẫn, dừng');
+try { execFileSync('diff', ['-U2', `${OUT}/goc-${entry}`, sua], { encoding: 'utf8' }); }
+catch (e) { console.log('--- Phần thay đổi (không gồm đoạn dán cuối file) ---\n' + e.stdout.split('// ===== THEM 02/10')[0]); }
+console.log('Khai báo ADMIN trong code cũ:', (code.match(/^.*\bADMIN\s*=.*$/m) || ['(không thấy dòng gán)'])[0].trim());
 console.log('Kiểm tra: OK. Bản gốc và bản đã sửa nằm trong mục Artifacts của lần chạy này.');
 
 if (!DEPLOY) { console.log('CHẠY THỬ → không deploy. Muốn deploy: Actions → sua-quantri → Run workflow → chọn deploy.'); process.exit(0); }

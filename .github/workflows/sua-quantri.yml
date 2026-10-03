@@ -2,9 +2,6 @@ name: sua-quantri
 # Sửa Worker nsi-quantri (trang quản trị): Xem web đọc thẳng GitHub, thêm trang /tin.
 # Push → chỉ chạy thử. Deploy thật chỉ khi người bấm Run workflow và chọn deploy.
 on:
-  push:
-    branches: [claude/gallant-meitner-ymyzqc]
-    paths: [tools/quantri/**, .github/workflows/sua-quantri.yml]
   workflow_dispatch:
     inputs:
       deploy:

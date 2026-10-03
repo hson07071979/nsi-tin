@@ -44,7 +44,7 @@ fs.writeFileSync(`${OUT}/goc-${entry}`, code); // bản gốc để lùi lại n
 // 2) Áp 5 chỗ sửa + dán cuối file
 const sua = `${OUT}/${entry}`;
 fs.writeFileSync(sua, code);
-execFileSync('node', [DIR + 'ap-dung.mjs', sua], { stdio: 'inherit' });
+execFileSync('node', [process.env.PATCH || DIR + 'ap-dung.mjs', sua], { stdio: 'inherit' });
 
 // 3) Kiểm cú pháp + trùng tên với code cũ
 const chk = `${OUT}/kiem.${isModule ? 'mjs' : 'cjs'}`;
@@ -52,14 +52,14 @@ fs.copyFileSync(sua, chk);
 execFileSync('node', ['--check', chk], { stdio: 'inherit' });
 fs.rmSync(chk);
 const fixed = fs.readFileSync(sua, 'utf8');
-for (const k of ['RAW_GOC', 'LOAI_RAW', 'duongRaw', 'suaRaw', 'TIN_MOD']) {
+if (SCRIPT === 'nsi-quantri') for (const k of ['RAW_GOC', 'LOAI_RAW', 'duongRaw', 'suaRaw', 'TIN_MOD']) {
   const n = (fixed.match(new RegExp(`(?:const|let|var|function)\\s+${k}\\b`, 'g')) || []).length;
   if (n !== 1) throw new Error(`"${k}" được khai báo ${n} lần — trùng tên với code cũ`);
 }
-if (!/\bADMIN\b/.test(code)) throw new Error('Code cũ không có biến ADMIN — khác với hướng dẫn, dừng');
+if (SCRIPT === 'nsi-quantri' && !/\bADMIN\b/.test(code)) throw new Error('Code cũ không có biến ADMIN — khác với hướng dẫn, dừng');
 try { execFileSync('diff', ['-U2', `${OUT}/goc-${entry}`, sua], { encoding: 'utf8' }); }
 catch (e) { console.log('--- Phần thay đổi (không gồm đoạn dán cuối file) ---\n' + e.stdout.split('// ===== THEM 02/10')[0]); }
-console.log('Khai báo ADMIN trong code cũ:', (code.match(/^.*\bADMIN\s*=.*$/m) || ['(không thấy dòng gán)'])[0].trim());
+if (SCRIPT === 'nsi-quantri') console.log('Khai báo ADMIN trong code cũ:', (code.match(/^.*\bADMIN\s*=.*$/m) || ['(không thấy dòng gán)'])[0].trim());
 console.log('Kiểm tra: OK. Bản gốc và bản đã sửa nằm trong mục Artifacts của lần chạy này.');
 
 if (!DEPLOY) { console.log('CHẠY THỬ → không deploy. Muốn deploy: Actions → sua-quantri → Run workflow → chọn deploy.'); process.exit(0); }
@@ -72,7 +72,9 @@ await cf(`${base}/content`, { method: 'PUT', body: fd });
 console.log(`Đã deploy ${SCRIPT}`);
 
 // 5) Secret TIN_TOKEN (nếu có)
-if (process.env.TIN_TOKEN) {
+if (SCRIPT !== 'nsi-quantri') {
+  // TIN_TOKEN chỉ dành cho trang quản trị
+} else if (process.env.TIN_TOKEN) {
   await cf(`${base}/secrets`, { method: 'PUT', headers: { 'content-type': 'application/json' },
     body: JSON.stringify({ name: 'TIN_TOKEN', text: process.env.TIN_TOKEN, type: 'secret_text' }) });
   console.log('Đã đặt secret TIN_TOKEN');

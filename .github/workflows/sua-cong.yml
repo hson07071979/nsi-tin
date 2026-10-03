@@ -1,0 +1,30 @@
+name: sua-cong
+# Cổng khách nsi-cong: thêm nút Nhắn Zalo cho anh Sơn sau khi gửi yêu cầu mở tài khoản.
+# Push → chỉ chạy thử. Deploy thật chỉ khi Run workflow và chọn deploy.
+on:
+  push:
+    branches: [claude/gallant-meitner-ymyzqc]
+    paths: [tools/cong/**, .github/workflows/sua-cong.yml]
+  workflow_dispatch:
+    inputs:
+      deploy:
+        description: 'Deploy thật lên nsi-cong? (bỏ chọn = chỉ chạy thử)'
+        type: boolean
+        default: false
+jobs:
+  sua:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: node tools/quantri/deploy.mjs
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          SCRIPT: nsi-cong
+          PATCH: tools/cong/ap-dung.mjs
+          DEPLOY: ${{ github.event_name == 'workflow_dispatch' && inputs.deploy && '1' || '0' }}
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with: { name: nsi-cong-goc-va-da-sua, path: tools/quantri/out/, if-no-files-found: ignore }

@@ -1,10 +1,11 @@
 name: Ban tin sang
 
 # Đồng hồ ảo (Cloudflare Worker nsi-dong-ho) gọi workflow_dispatch:
-#   07:00 VN  che_do=chay   → cào + debate, xong ~07:10–07:25
-#   07:45 VN  che_do=gac    → hôm nay chưa có bản đạt thì chạy lại
-#   08:15 VN  che_do=gac    → lần gác cuối trước hạn 8h30
+#   07:00 VN  che_do=chay → cào + debate, xong ~07:10–07:25
+#   07:45 VN  che_do=gac  → hôm nay chưa có bản thì chạy lại
+#   08:15 VN  che_do=gac  → lần gác cuối trước hạn 8h30
 # Cron dưới đây chỉ là DỰ PHÒNG khi đồng hồ ảo chết (GitHub cron trễ 0,5–6h nên không tin được giờ).
+# 04/10/2026: cron chỉ thứ 2–6; lần gác thấy đã có bản "mot_phan" cũng thoát — chạy lại chỉ đốt thêm hạn mức Gemini.
 on:
   workflow_dispatch:
     inputs:
@@ -12,7 +13,7 @@ on:
         description: "chay | gac | dry"
         default: "chay"
   schedule:
-    - cron: "10 0 * * *"   # 07:10 VN mỗi ngày, dự phòng (chạy ở chế độ gác)
+    - cron: "10 0 * * 1-5"   # 07:10 VN thứ 2–6, dự phòng (chạy ở chế độ gác)
 
 concurrency:
   group: ban-tin-sang
@@ -35,11 +36,28 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_RPM: "8"
+          DEBATE_CHE_DO: "gon"
           NSI_THRESHOLDS_URL: ${{ secrets.NSI_THRESHOLDS_URL }}
           NSI_PORTFOLIO_URL: ${{ secrets.NSI_PORTFOLIO_URL }}
         run: |
           MODE="${{ github.event.inputs.che_do }}"
           [ -z "$MODE" ] && MODE=gac
+          if [ "$MODE" = "gac" ]; then
+            DA_CO=$(python - <<'PY'
+          import json, datetime as dt, pathlib
+          d = (dt.datetime.utcnow() + dt.timedelta(hours=7)).date().isoformat()
+          p = pathlib.Path("out") / f"{d}.json"
+          try:
+              print(json.loads(p.read_text(encoding="utf-8")).get("trang_thai_chay", ""))
+          except Exception:
+              print("")
+          PY
+          )
+            if [ "$DA_CO" = "dat" ] || [ "$DA_CO" = "mot_phan" ]; then
+              echo "GÁC: hôm nay đã có bản ($DA_CO) — không chạy lại để giữ hạn mức Gemini."
+              exit 0
+            fi
+          fi
           case "$MODE" in
             gac) python -m tin.run_sang --gac ;;
             dry) python -m tin.run_sang --dry ;;

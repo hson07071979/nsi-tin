@@ -1,10 +1,40 @@
 {
   "_ghi_chu": "Tên nhóm Zalo để listener lọc. So khớp không dấu, không phân biệt hoa thường, chỉ cần CHỨA chuỗi 'match'. Chạy `node listener.mjs --liet-ke` để in toàn bộ nhóm nick phụ đang ở kèm threadId, rồi dán threadId vào 'id' cho chắc (khi có id thì bỏ qua match).",
   "groups": [
-    {"key": "money_noobs", "name": "Money Noobs",                   "match": ["money noobs", "moneynoobs"], "id": ""},
-    {"key": "finsuccess",  "name": "FinSuccess",                    "match": ["finsuccess", "fin success"], "id": ""},
-    {"key": "lavender",    "name": "Cộng đồng đợi đáy Lavender",    "match": ["lavender", "doi day"],       "id": ""},
-    {"key": "balance",     "name": "Balance — Nền tảng đầu tư",     "match": ["balance"],                   "id": ""},
-    {"key": "anh_kem",     "name": "Đầu tư cùng Ánh Kem",           "match": ["anh kem"],                   "id": ""}
+    {
+      "key": "money_noobs",
+      "name": "Money Noobs",
+      "match": [
+        "money noobs",
+        "moneynoobs"
+      ],
+      "id": "6945023652464326622"
+    },
+    {
+      "key": "finsuccess",
+      "name": "FinSuccess",
+      "match": [
+        "finsuccess",
+        "fin success"
+      ],
+      "id": "1317251430550742008"
+    },
+    {
+      "key": "lavender",
+      "name": "Cộng đồng đợi đáy Lavender",
+      "match": [
+        "lavender",
+        "doi day"
+      ],
+      "id": "56008116789391481"
+    },
+    {
+      "key": "balance",
+      "name": "Balance — Nền tảng đầu tư",
+      "match": [
+        "balance"
+      ],
+      "id": "5871586553296739267"
+    }
   ]
 }

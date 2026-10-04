@@ -1,23 +1,29 @@
-"""AI debate, bản 2 (01-10-2026, theo góp ý anh Sơn: 'ngắn quá, không biết tin đó là cái gì, chỉ có 1 tin').
+"""AI debate, bản 3 (04-10-2026): mặc định chế độ GỌN — mỗi lô 1 lượt "hội đồng" (diễn giải + 3 phe + phản biện + trọng tài
+trong cùng một câu trả lời) để vừa hạn mức Gemini miễn phí: ~9 lượt/ngày thay vì ~35. Đặt DEBATE_CHE_DO=day_du để quay lại bản 2.
+
+Bản 2 (01-10-2026, theo góp ý anh Sơn: 'ngắn quá, không biết tin đó là cái gì, chỉ có 1 tin').
 
 Mỗi tab:
-  1. LỌC      gom tối đa 15 chủ đề, XẾP HẠNG theo mức quan trọng, ghi lý do lọt top            (1 lượt)
-  2. ĐỌC BÀI  (web) tải thân bài của các tin thuộc top chủ đề                                  (không gọi AI)
-  3. DIỄN GIẢI  viết kỹ 'chuyện gì xảy ra' bằng lời dễ hiểu, số liệu chính, bối cảnh, thuật ngữ  (lô 8 chủ đề/lượt)
-  4. 3 PHE    lạc quan / thận trọng / vĩ mô phân tích                                         (3 × lô)
-  5. PHẢN BIỆN chéo                                                                           (3 × lô)
-  6. TRỌNG TÀI chốt                                                                           (lô)
-15 chủ đề → 2 lô → ~17 lượt/tab, ~35 lượt/ngày: vẫn xa hạn mức free.
+  1. LỌC gom tối đa 15 chủ đề, XẾP HẠNG theo mức quan trọng, ghi lý do lọt top (1 lượt)
+  2. ĐỌC BÀI (web) tải thân bài của các tin thuộc top chủ đề (không gọi AI)
+  3. DIỄN GIẢI viết kỹ 'chuyện gì xảy ra' bằng lời dễ hiểu, số liệu chính, bối cảnh, thuật ngữ (lô 8 chủ đề/lượt)
+  4. 3 PHE lạc quan / thận trọng / vĩ mô phân tích (3 × lô)
+  5. PHẢN BIỆN chéo (3 × lô)
+  6. TRỌNG TÀI chốt (lô)
+15 chủ đề → 2 lô → ~17 lượt/tab, ~35 lượt/ngày (bản 2 — vượt hạn mức free từ 04/10/2026).
 """
 from __future__ import annotations
 
 import json
+import os
 
 from .fetch_web import fetch_bodies
 from .gemini import Gemini, GeminiError
 
 TOP_N = 15
-LO = 8  # số chủ đề mỗi lượt gọi — tránh JSON dài bị cắt cụt
+LO = 8        # số chủ đề mỗi lượt gọi — tránh JSON dài bị cắt cụt
+LO_GON = 5    # chế độ gọn: 5 chủ đề/lượt hội đồng (15 chủ đề → 3 lượt/tab)
+CHE_DO = os.environ.get("DEBATE_CHE_DO", "gon")   # gon | day_du
 
 NEN = """Bạn là thành viên hội đồng phân tích của Nguyễn Sơn Invest — hệ thống giao dịch cổ phiếu Việt Nam
 theo CANSLIM/breakout (vũ trụ TOP thanh khoản HOSE/HNX, vào lệnh trong phiên bùng nổ, bộ thoát MA/van thời gian,
@@ -199,6 +205,47 @@ Trả JSON:
     return g.json(NEN, prompt, temperature=0.2, max_out=24576)
 
 
+def hoi_dong(g: Gemini, ctx: str, topics: list[dict], by_id: dict, kind: str) -> dict:
+    """Chế độ gọn: MỘT lượt làm trọn diễn giải + 3 phe + phản biện + trọng tài cho cả lô."""
+    zalo_note = ("Đây là tin NHÓM ZALO: phân biệt rõ ai nói, nói gì, có dẫn nguồn không. Ý kiến cá nhân phải ghi là ý kiến."
+                 if kind == "zalo" else "")
+    vai = "\n".join(f"- {k} = {ten}: {mo_ta}" for k, (ten, mo_ta) in PHE.items())
+    prompt = f"""Bạn điều phối hội đồng phân tích. Với TỪNG chủ đề, làm đủ 4 bước TRONG MỘT câu trả lời. {zalo_note}
+B1 DIỄN GIẢI cho anh Sơn đọc hiểu mà không cần mở bài báo:
+  "chuyen_gi" 4–6 câu (ai làm gì, khi nào, số liệu cụ thể, so với trước, vì sao); "so_lieu_chinh" các con số quan trọng;
+  "boi_canh" 2 câu (kiến thức nền thì ghi "(nền)"); "vi_sao_quan_trong" 2 câu; "thuat_ngu" tối đa 3 thuật ngữ khó.
+B2 BA PHE phân tích ĐỘC LẬP, mỗi phe giữ đúng vai, không phe nào được nhại phe khác:
+{vai}
+  Mỗi phe: nhan_dinh, do_manh 1-3, lap_luan 2–4 câu có số liệu, chuoi_truyen_dan, anh_huong, rui_ro, do_tin_cay 0-100.
+B3 PHẢN BIỆN: mỗi phe chỉ ra chỗ sai/thiếu cụ thể của phe khác (nêu tên phe), được đổi ý nếu bị thuyết phục.
+B4 TRỌNG TÀI chốt — cân lập luận, không đếm phiếu. Tin chỉ có trong nhóm Zalo mà không có nguồn xác nhận thì
+  xac_minh="tin_don" và hạ độ tin cậy. "vi_mo_to_vi_mo"/"vi_mo_vi_mo" là đoạn 2–3 câu giải thích CƠ CHẾ.
+  "can_trong" là việc làm cụ thể, không viết chung chung. "kiem_chung_sau" = dấu hiệu T+1/T+5 để chấm đúng/sai.
+  "nganh_ma" ưu tiên MÃ cổ phiếu 3 chữ cái khi có cơ sở.
+
+BỐI CẢNH (số liệu định lượng sáng nay + cờ vĩ mô mềm + hệ thống):
+{ctx}
+
+CÁC CHỦ ĐỀ:
+{_topics_block(topics, by_id, kind, 2500)}
+
+Trả JSON:
+{{"chu_de":[{{"id":"t1","chuyen_gi":"...","so_lieu_chinh":["..."],"boi_canh":"...","vi_sao_quan_trong":"...",
+"thuat_ngu":[{{"tu":"...","nghia":"..."}}],
+"phe":{{"lac_quan":{{"nhan_dinh":"tot|xau|trung_tinh","do_manh":1,"lap_luan":"...","chuoi_truyen_dan":["a → b → c"],
+"anh_huong":[{{"ten":"<ngành hoặc mã>","chieu":"+|-","ly_do":"<ngắn>"}}],"rui_ro":"...","do_tin_cay":60}},
+"than_trong":{{...cùng khuôn...}},"vi_mo":{{...cùng khuôn...}}}},
+"phan_bien":{{"lac_quan":{{"phan_bac":"<2 câu, nêu phe nào>","nhan_dinh_cuoi":"tot|xau|trung_tinh","doi_y":false,"ly_do_doi_y":""}},
+"than_trong":{{...}},"vi_mo":{{...}}}},
+"danh_gia":"tot|xau|trung_tinh","muc_do":"thap|vua|cao","vi_mo_to_vi_mo":"...","vi_mo_vi_mo":"...",
+"nganh_ma":[{{"ten":"...","chieu":"+|-","ly_do":"..."}}],"rui_ro":["..."],"can_trong":"...",
+"hanh_dong":"khong_hanh_dong|theo_doi|than_trong|han_che_rui_ro|co_hoi","xac_minh":"da_xac_minh|mot_nguon|tin_don",
+"dong_thuan":"<phe nào thuyết phục hơn, vì sao — 2 câu>","lien_he_he_thong":"<gợi ý soi tay>",
+"kiem_chung_sau":"...","do_tin_cay":0}}],
+"tong_ket":"<1-2 câu cho lô này>"}}"""
+    return g.json(NEN, prompt, temperature=0.35, max_out=32768)
+
+
 def tong_hop(g: Gemini, ctx: str, web: dict, zalo: dict) -> dict:
     def brief(tab):
         return [{"hang": t.get("hang"), "tieu_de": t.get("tieu_de"), "chuyen_gi": (t.get("chuyen_gi") or "")[:400],
@@ -225,6 +272,14 @@ def _pick(lst, key, tid):
     return next((x for x in (lst or []) if x.get(key) == tid), None)
 
 
+def _nguon(by_id: dict, t: dict) -> list[dict]:
+    return [{"id": i, "title": by_id[i].get("title") or "", "text": by_id[i].get("text", "")[:900],
+             "author": by_id[i].get("author"), "summary": by_id[i].get("summary", ""),
+             "url": by_id[i].get("url"), "src_name": by_id[i]["src_name"],
+             "published": by_id[i].get("published")}
+            for i in t.get("item_ids", []) if i in by_id]
+
+
 def run_tab(g: Gemini, items: list[dict], kind: str, ctx: str, max_topics: int = TOP_N) -> dict:
     """Chạy trọn một tab. Lỗi giữa chừng thì trả phần đã có + ghi lỗi (không bao giờ ném ra ngoài)."""
     tab: dict = {"kind": kind, "n_items": len(items), "topics": [], "loi": None}
@@ -239,7 +294,7 @@ def run_tab(g: Gemini, items: list[dict], kind: str, ctx: str, max_topics: int =
         topics = topics[:max_topics]
         for i, t in enumerate(topics, 1):
             t["hang"] = i
-            t["id"] = f"t{i}"  # id ổn định theo hạng
+            t["id"] = f"t{i}"   # id ổn định theo hạng
         tab["so_lieu"] = tri.get("so_lieu") or {}
         tab["topics"] = [dict(t) for t in topics]
         tab["so_tin_bo_qua"] = tri.get("so_tin_bo_qua")
@@ -250,47 +305,59 @@ def run_tab(g: Gemini, items: list[dict], kind: str, ctx: str, max_topics: int =
             ids = [i for t in topics for i in t["item_ids"][:3]]
             tab["so_bai_doc_duoc"] = fetch_bodies(items, ids, max_n=45)
 
-        # 3. diễn giải
-        for lo in _chunks(tab["topics"]):
-            try:
-                ex = explain(g, lo, by_id, kind)
-                for t in lo:
-                    d = _pick(ex.get("dien_giai"), "id", t["id"])
-                    if d:
-                        t.update({k: v for k, v in d.items() if k != "id"})
-            except GeminiError as e:
-                tab["loi_dien_giai"] = str(e)[:200]
-
-        # 4–6. tranh luận theo lô
-        for lo in _chunks(tab["topics"]):
-            ttxt = _topics_block(lo, by_id, kind)
-            r1 = {p: round1(g, p, ctx, ttxt) for p in PHE}
-            r2 = {}
-            for p in PHE:
+        if CHE_DO != "day_du":
+            # chế độ gọn: 1 lượt/lô
+            for lo in _chunks(tab["topics"], LO_GON):
                 try:
-                    r2[p] = round2(g, p, ctx, ttxt, r1)
+                    h = hoi_dong(g, ctx, lo, by_id, kind)
                 except GeminiError as e:
-                    r2[p] = {"loi": str(e)[:200]}
-            j = judge(g, ctx, ttxt, r1, r2)
-            tab.setdefault("tong_ket_lo", []).append(j.get("tong_ket"))
-            for t in lo:
-                k = _pick(j.get("ket_luan"), "id", t["id"]) or {}
-                t.update({kk: vv for kk, vv in k.items() if kk != "id"})
-                t["phe"] = {p: _pick(r1[p].get("phan_tich"), "id", t["id"]) for p in PHE}
-                t["phan_bien"] = {p: _pick(r2[p].get("phan_bien"), "id", t["id"]) for p in PHE if isinstance(r2.get(p), dict)}
+                    tab["loi_hoi_dong"] = str(e)[:200]
+                    if "429" in str(e):
+                        break   # hết hạn mức: các lô sau cũng sẽ hỏng, dừng cho đỡ tốn thời gian
+                    continue
+                tab.setdefault("tong_ket_lo", []).append(h.get("tong_ket"))
+                for t in lo:
+                    k = dict(_pick(h.get("chu_de"), "id", t["id"]) or {})
+                    phe = k.pop("phe", None) or {}
+                    pb = k.pop("phan_bien", None) or {}
+                    t.update({kk: vv for kk, vv in k.items() if kk != "id"})
+                    t["phe"] = {p: phe.get(p) for p in PHE}
+                    t["phan_bien"] = {p: pb.get(p) for p in PHE if isinstance(pb.get(p), dict)}
+        else:
+            # 3. diễn giải
+            for lo in _chunks(tab["topics"]):
+                try:
+                    ex = explain(g, lo, by_id, kind)
+                    for t in lo:
+                        d = _pick(ex.get("dien_giai"), "id", t["id"])
+                        if d:
+                            t.update({k: v for k, v in d.items() if k != "id"})
+                except GeminiError as e:
+                    tab["loi_dien_giai"] = str(e)[:200]
+
+            # 4–6. tranh luận theo lô
+            for lo in _chunks(tab["topics"]):
+                ttxt = _topics_block(lo, by_id, kind)
+                r1 = {p: round1(g, p, ctx, ttxt) for p in PHE}
+                r2 = {}
+                for p in PHE:
+                    try:
+                        r2[p] = round2(g, p, ctx, ttxt, r1)
+                    except GeminiError as e:
+                        r2[p] = {"loi": str(e)[:200]}
+                j = judge(g, ctx, ttxt, r1, r2)
+                tab.setdefault("tong_ket_lo", []).append(j.get("tong_ket"))
+                for t in lo:
+                    k = _pick(j.get("ket_luan"), "id", t["id"]) or {}
+                    t.update({kk: vv for kk, vv in k.items() if kk != "id"})
+                    t["phe"] = {p: _pick(r1[p].get("phan_tich"), "id", t["id"]) for p in PHE}
+                    t["phan_bien"] = {p: _pick(r2[p].get("phan_bien"), "id", t["id"]) for p in PHE if isinstance(r2.get(p), dict)}
         for t in tab["topics"]:
-            t["nguon"] = [{"id": i, "title": by_id[i].get("title") or "", "text": by_id[i].get("text", "")[:900],
-                           "author": by_id[i].get("author"), "summary": by_id[i].get("summary", ""),
-                           "url": by_id[i].get("url"), "src_name": by_id[i]["src_name"],
-                           "published": by_id[i].get("published")}
-                          for i in t.get("item_ids", []) if i in by_id]
+            t["nguon"] = _nguon(by_id, t)
         xs = [t.get("danh_gia") for t in tab["topics"] if t.get("danh_gia")]
         tab["dem"] = {k: xs.count(k) for k in ("tot", "xau", "trung_tinh")}
     except GeminiError as e:
         tab["loi"] = f"AI lỗi: {str(e)[:300]}"
         for t in tab["topics"]:
-            t.setdefault("nguon", [{"id": i, "title": by_id[i].get("title") or "", "text": by_id[i].get("text", "")[:900],
-                                    "author": by_id[i].get("author"), "summary": by_id[i].get("summary", ""),
-                                    "url": by_id[i].get("url"), "src_name": by_id[i]["src_name"],
-                                    "published": by_id[i].get("published")} for i in t.get("item_ids", []) if i in by_id])
+            t.setdefault("nguon", _nguon(by_id, t))
     return tab

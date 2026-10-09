@@ -1,6 +1,417 @@
 {
- "cap_nhat": "2026-10-08T12:58+07:00",
- "tong_ket": {},
- "chi_tiet": [],
+ "cap_nhat": "2026-10-09T07:41+07:00",
+ "tong_ket": {
+  "phe_lac_quan": {
+   "n": 17,
+   "ty_le_dung": 64.7
+  },
+  "phe_than_trong": {
+   "n": 14,
+   "ty_le_dung": 57.1
+  },
+  "phe_vi_mo": {
+   "n": 9,
+   "ty_le_dung": 66.7
+  },
+  "tab_web": {
+   "n": 19,
+   "ty_le_dung": 73.7
+  },
+  "tab_zalo": {
+   "n": 3,
+   "ty_le_dung": 66.7
+  },
+  "trong_tai": {
+   "n": 22,
+   "ty_le_dung": 72.7
+  },
+  "xac_minh_da_xac_minh": {
+   "n": 20,
+   "ty_le_dung": 75.0
+  },
+  "xac_minh_mot_nguon": {
+   "n": 1,
+   "ty_le_dung": 0.0
+  },
+  "xac_minh_tin_don": {
+   "n": 1,
+   "ty_le_dung": 100.0
+  }
+ },
+ "chi_tiet": [
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Lãi suất liên ngân hàng tăng vọt lên 7%, NHNN bơm ròng OMO và ban hành Thông tư 50",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -1.61,
+   "vuot_t4": -2.74,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Lãi suất liên ngân hàng tăng vọt lên 7%, NHNN bơm ròng OMO và ban hành Thông tư 50",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "HDB",
+   "du_bao": 1,
+   "vuot_t0": 2.27,
+   "vuot_t4": 0.59,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "VN-Index thủng mốc 1.750 điểm do áp lực bán lan rộng và sức nặng từ trụ VIC",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": -1,
+   "vuot_t0": 2.48,
+   "vuot_t4": 4.23,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "VN-Index thủng mốc 1.750 điểm do áp lực bán lan rộng và sức nặng từ trụ VIC",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "STB",
+   "du_bao": -1,
+   "vuot_t0": -2.04,
+   "vuot_t4": -3.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "VN-Index thủng mốc 1.750 điểm do áp lực bán lan rộng và sức nặng từ trụ VIC",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "LPB",
+   "du_bao": -1,
+   "vuot_t0": -3.62,
+   "vuot_t4": -2.62,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Trái phiếu toàn cầu bị bán tháo, USD lập đỉnh 1,5 năm gây áp lực tỷ giá",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -0.59,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Cổ phiếu PNJ xuất hiện lực cầu giải cứu sau 4 phiên giảm sàn, khối ngoại xả ròng mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -6.21,
+   "vuot_t4": -25.67,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Khối ngoại mua ròng thỏa thuận hơn 3.200 tỷ đồng cổ phiếu MSR",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MSR",
+   "du_bao": 1,
+   "vuot_t0": 3.56,
+   "vuot_t4": 16.97,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Khối ngoại mua ròng thỏa thuận hơn 3.200 tỷ đồng cổ phiếu MSR",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MSN",
+   "du_bao": 1,
+   "vuot_t0": 0.38,
+   "vuot_t4": 5.24,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Khối ngoại mua ròng thỏa thuận hơn 3.200 tỷ đồng cổ phiếu MSR",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TCB",
+   "du_bao": -1,
+   "vuot_t0": -1.61,
+   "vuot_t4": -2.74,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Ngân hàng và VinFast đẩy mạnh kế hoạch tăng vốn quy mô hàng chục ngàn tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 2.48,
+   "vuot_t4": 4.23,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Vinhomes phát hành 8.000 tỷ đồng trái phiếu và nâng vốn dự án Cam Ranh lên 7,5 tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -0.07,
+   "vuot_t4": -3.36,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Dự báo kết quả kinh doanh quý III phân hóa, ngành xây dựng chịu sức ép chi phí",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "CTD",
+   "du_bao": 1,
+   "vuot_t0": -1.87,
+   "vuot_t4": 5.65,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Dự báo kết quả kinh doanh quý III phân hóa, ngành xây dựng chịu sức ép chi phí",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": 0.66,
+   "vuot_t4": 1.09,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Dự báo kết quả kinh doanh quý III phân hóa, ngành xây dựng chịu sức ép chi phí",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VCG",
+   "du_bao": -1,
+   "vuot_t0": -1.9,
+   "vuot_t4": 0.22,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Dự báo kết quả kinh doanh quý III phân hóa, ngành xây dựng chịu sức ép chi phí",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "CII",
+   "du_bao": -1,
+   "vuot_t0": -3.42,
+   "vuot_t4": -3.9,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Tín dụng bất động sản khu công nghiệp tăng 32% trong quý II/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "IDC",
+   "du_bao": 1,
+   "vuot_t0": 0.96,
+   "vuot_t4": 4.46,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Tín dụng bất động sản khu công nghiệp tăng 32% trong quý II/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "KBC",
+   "du_bao": 1,
+   "vuot_t0": -0.12,
+   "vuot_t4": 0.59,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "web",
+   "chu_de": "Tín dụng bất động sản khu công nghiệp tăng 32% trong quý II/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "BCM",
+   "du_bao": 1,
+   "vuot_t0": -1.36,
+   "vuot_t4": -0.3,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "zalo",
+   "chu_de": "Khối ngoại bán ròng hơn 900 tỷ đồng phiên cuối tháng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VHM",
+   "du_bao": -1,
+   "vuot_t0": -0.07,
+   "vuot_t4": -3.36,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "zalo",
+   "chu_de": "Nhận định rủi ro nhóm Vin và kịch bản VN-Index",
+   "xac_minh": "tin_don",
+   "loai": "thi_truong",
+   "doi_tuong": "VHM",
+   "du_bao": -1,
+   "vuot_t0": -0.07,
+   "vuot_t4": -3.36,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-02",
+   "tab": "zalo",
+   "chu_de": "Áp lực chốt lời BSR theo dự báo dầu thô",
+   "xac_minh": "mot_nguon",
+   "loai": "nganh",
+   "doi_tuong": "BSR",
+   "du_bao": -1,
+   "vuot_t0": -2.21,
+   "vuot_t4": 2.66,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  }
+ ],
  "ghi_chu": "Chấm trên giá thật; trung tính không chấm; mẫu < 30 thì chưa kết luận được gì."
 }

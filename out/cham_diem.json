@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-09T13:04+07:00",
+ "cap_nhat": "2026-10-10T07:41+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 17,
-   "ty_le_dung": 64.7
+   "n": 30,
+   "ty_le_dung": 60.0
   },
   "phe_than_trong": {
-   "n": 14,
-   "ty_le_dung": 57.1
+   "n": 28,
+   "ty_le_dung": 64.3
   },
   "phe_vi_mo": {
-   "n": 9,
-   "ty_le_dung": 66.7
+   "n": 25,
+   "ty_le_dung": 64.0
   },
   "tab_web": {
-   "n": 19,
-   "ty_le_dung": 73.7
+   "n": 37,
+   "ty_le_dung": 67.6
   },
   "tab_zalo": {
    "n": 3,
    "ty_le_dung": 66.7
   },
   "trong_tai": {
-   "n": 22,
-   "ty_le_dung": 72.7
+   "n": 40,
+   "ty_le_dung": 67.5
   },
   "xac_minh_da_xac_minh": {
-   "n": 20,
-   "ty_le_dung": 75.0
+   "n": 38,
+   "ty_le_dung": 68.4
   },
   "xac_minh_mot_nguon": {
    "n": 1,
@@ -410,6 +410,307 @@
     "lac_quan": null,
     "than_trong": null,
     "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "GDP quý 3/2026 tăng 9.95%, 9 tháng tăng 9.01%",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -0.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Tín dụng 9 tháng tăng 10.89%, huy động vốn tăng 9.78%",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": -0.45,
+   "vuot_t4": 4.08,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "VN-Index giảm 5 phiên liên tiếp, khối ngoại xả ròng 3.300 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -6.97,
+   "vuot_t4": -15.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "PNJ giao dịch kỷ lục 76 triệu cổ phiếu, khối ngoại tháo chạy",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -6.97,
+   "vuot_t4": -15.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Bộ Tài chính ban hành khung pháp lý cơ chế bù trừ trung tâm CCP",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -0.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Giá dầu thế giới sụt giảm do các nước tính xả dự trữ",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -0.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Tăng trưởng việc làm Mỹ hạ nhiệt, Fed có thể giữ nguyên lãi suất",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -0.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "MB vượt mốc 100.000 tỷ đồng vốn điều lệ, HDBank chuẩn bị tăng vốn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MBB",
+   "du_bao": 1,
+   "vuot_t0": -0.63,
+   "vuot_t4": -0.11,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "MB vượt mốc 100.000 tỷ đồng vốn điều lệ, HDBank chuẩn bị tăng vốn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HDB",
+   "du_bao": 1,
+   "vuot_t0": -2.3,
+   "vuot_t4": 2.51,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Dự báo lợi nhuận bất động sản quý 3 phân hóa mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -0.3,
+   "vuot_t4": -2.65,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Dự báo lợi nhuận bất động sản quý 3 phân hóa mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "DXG",
+   "du_bao": -1,
+   "vuot_t0": -0.99,
+   "vuot_t4": -2.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Dự báo lợi nhuận bất động sản quý 3 phân hóa mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "KDH",
+   "du_bao": -1,
+   "vuot_t0": -1.55,
+   "vuot_t4": -2.23,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Dự báo lợi nhuận bất động sản quý 3 phân hóa mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "NLG",
+   "du_bao": -1,
+   "vuot_t0": -1.8,
+   "vuot_t4": 0.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Cán cân thương mại tháng 9 xuất siêu 1,27 tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -0.15,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Lọc hóa dầu Nghi Sơn lần đầu báo lãi gần 14.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PLX",
+   "du_bao": 1,
+   "vuot_t0": -1.73,
+   "vuot_t4": 4.48,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Lọc hóa dầu Nghi Sơn lần đầu báo lãi gần 14.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "OIL",
+   "du_bao": 1,
+   "vuot_t0": -1.64,
+   "vuot_t4": 3.16,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Gỗ Trường Thành (TTF) bị đưa vào diện kiểm soát từ 07/10",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TTF",
+   "du_bao": -1,
+   "vuot_t0": -4.36,
+   "vuot_t4": -13.04,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-03",
+   "tab": "web",
+   "chu_de": "Chứng khoán LPS mất 41% thị giá sau 1,5 tháng lên sàn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "LPS",
+   "du_bao": -1,
+   "vuot_t0": 0.8,
+   "vuot_t4": -2.96,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
    }
   }
  ],

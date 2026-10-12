@@ -89,3 +89,27 @@ def test_ghi_khong_de_latest(tmp_path, monkeypatch):
     import json
     assert json.loads((tmp_path / "latest.json").read_text())["ngay"] == "2026-10-12"
     assert len(json.loads((tmp_path / "index.json").read_text())) == 2
+
+
+def test_khong_ai_va_uu_tien(monkeypatch):
+    """Gemini chết hẳn → vẫn có bản phân tích số liệu (UT1), không có lời thoại."""
+    import json as _j
+    from pathlib import Path
+    from daily import khong_ai
+    a = tech.analyse(_bars(), _bars(), is_index=True)
+    s = tech.analyse(_bars(), _bars())
+    facts = {"ngay": "2026-10-12", "vnindex": {"dong_cua": a["dong_cua"], "diem": -5, "pct": -0.3, "ky_thuat": a},
+             "breadth_hose": {"tang": 100, "giam": 200, "dung": 50, "tran": 1, "san": 2},
+             "thanh_khoan_hose": {"gt_khop": 10000, "khop_so_tb20": 0.8}, "khoi_ngoai": {"phien": {"rong": -500}},
+             "dong_gop_diem": {"am": [{"ma": "VIC", "diem": -3}], "duong": [], "nhom_vin": -3, "phan_con_lai": -2},
+             "ma": [{"ma": "SSI", "nhom": "Chứng khoán", **s}], "the_gioi": {}, "nganh": []}
+    pt = khong_ai.phan_tich(facts)
+    assert pt["ky_thuat_chi_so"]["moc_chinh"] and pt["nganh"][0]["ma"][0]["ma"] == "SSI"
+    _j.dumps(pt, ensure_ascii=False)
+
+    def chet():
+        raise ai.GeminiError("thiếu GEMINI_API_KEY")
+    monkeypatch.setattr(ai, "new_client", chet)
+    ket, meta = ai.chay_hai_ban({"ngay": "2026-10-12"}, {}, facts=facts)
+    assert any(b["cach"] == "so_lieu_khong_ai" and b["phan_tich"] for b in ket)
+    assert not any((b.get("script") or {}).get("phan") for b in ket)

@@ -79,7 +79,7 @@ const DAILY_HTML = `<!doctype html><html lang="vi"><head><meta charset="utf-8">
 .top{display:flex;gap:10px;align-items:center;flex-wrap:wrap}.top .sp{flex:1}.mut{color:var(--mut);font-size:13px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:10px 0}
 .pill{display:inline-block;padding:1px 9px;border-radius:99px;font-size:12px;font-weight:600;background:var(--chip)}
-.dat{color:var(--up)}.mot_phan,.dry{color:var(--warn)}.loi_ai{color:var(--dn)}
+.dat{color:var(--up)}.mot_phan,.dry,.chi_so_lieu{color:var(--warn)}.loi_ai{color:var(--dn)}
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;font:inherit;cursor:pointer}
 .tabs button.on{background:var(--acc);border-color:var(--acc);color:#fff}
 .sec{border-left:3px solid var(--acc);padding:2px 0 2px 12px;margin:14px 0}.sec .h{font-weight:650}.sec .hinh{font-size:12.5px;color:var(--mut);font-style:italic;margin-top:4px}
@@ -101,7 +101,7 @@ select{font:inherit;padding:5px 8px;border-radius:8px;border:1px solid var(--lin
 <script>
 const $=s=>document.querySelector(s), esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 let D=null, banOn=0, cho=null;
-const TT={dat:'Đạt',mot_phan:'Một phần',loi_ai:'Lỗi AI',dry:'Chạy thử',khong_phien:'Không có phiên',dang_chay:'Đang chạy'};
+const TT={dat:'Đạt',mot_phan:'Một phần',chi_so_lieu:'Chỉ có phân tích số liệu',loi_du_lieu:'Lỗi nguồn dữ liệu',loi_ai:'Lỗi AI',dry:'Chạy thử',khong_phien:'Không có phiên',dang_chay:'Đang chạy'};
 const so=(x,n=1)=>x==null?'—':Number(x).toLocaleString('vi-VN',{maximumFractionDigits:n});
 const linkMa=s=>s.replace(/(^|[^\\/\\w])([A-Z]{3})(?![\\w\\/])/g,(all,a,m)=>(D&&D.fc&&maSet().has(m))?a+'<a href="/index.html?ma='+m+'#bieudo" target="_blank">'+m+'</a>':all);
 function maSet(){const s=new Set();Object.values((D.fc||{}).ma_theo_nhom||{}).forEach(a=>a.forEach(r=>s.add(r.ma)));return s}

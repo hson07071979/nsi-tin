@@ -80,7 +80,7 @@ def chay(a, cfg: dict) -> int:
     today = now.date().isoformat()
     log: list[str] = []
     cur = read_json(OUT / f"{today}.json", None)
-    if a.gac and cur and cur.get("trang_thai_chay") in ("dat", "mot_phan"):
+    if a.gac and cur and cur.get("trang_thai_chay") in ("dat", "mot_phan"):   # chi_so_lieu → gác thử AI lại
         print(f"GÁC: {today} đã có bản ({cur['trang_thai_chay']}) — thoát.")
         return 0
     if now.weekday() >= 5 and not a.ep:
@@ -124,15 +124,17 @@ def chay(a, cfg: dict) -> int:
         from . import ai  # noqa: PLC0415
         print("3) Gemini: hai cách chạy")
         try:
-            ban, meta = ai.chay_hai_ban(fc, so, cfg.get("ai_phut_toi_da", 32), cfg.get("cach_chay"))
+            ban, meta = ai.chay_hai_ban(fc, so, cfg.get("ai_phut_toi_da", 32), cfg.get("cach_chay"), facts=fct)
             res["ban"], res["ai"] = ban, meta
             # chạy lại trong ngày (gác/bấm tay) thì thay dòng sổ của lần trước, không cộng dồn
-            so_rows[:] = [r for r in so_rows if not (r.get("ngay_ghi") == today and r.get("ban") in ("cach_2_buoc", "cach_1_luot"))]
+            so_rows[:] = [r for r in so_rows if not (r.get("ngay_ghi") == today and r.get("ban") in ("cach_2_buoc", "cach_1_luot", "so_lieu_khong_ai"))]
             for b in ban:
                 forecast.add(so_rows, today, (b.get("phan_tich") or {}).get("du_bao_moi"), b["cach"])
             ok = [b for b in ban if (b.get("script") or {}).get("phan")]
             sach = [b for b in ok if not b.get("loi")]
-            res["trang_thai_chay"] = "dat" if sach and len(sach) == len(ban) else "mot_phan" if ok else "loi_ai"
+            co_pt = [b for b in ban if b.get("phan_tich")]
+            res["trang_thai_chay"] = ("dat" if sach and len(sach) == len(ban) else "mot_phan" if ok
+                                      else "chi_so_lieu" if co_pt else "loi_ai")
         except GeminiError as e:
             res["ai"] = {"loi": str(e)[:300]}
             res["trang_thai_chay"] = "loi_ai"

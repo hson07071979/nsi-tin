@@ -39,7 +39,7 @@ def pick_models(key: str) -> list[str]:
         m = _PRO.match(n)
         if m and not any(b in n for b in ("image", "tts", "audio", "live", "exp")):
             pros.append(((-float(m.group(1)), "preview" in n, len(n)), n))
-    chosen = [n for _, n in sorted(pros)[:1]] + rank_models(have)[:3]
+    chosen = [n for _, n in sorted(pros)[:1]] + rank_models(have)[:6]   # flash + flash-lite: mỗi model một hạn mức riêng
     return chosen or ["gemini-2.5-flash"]
 
 
@@ -335,18 +335,83 @@ def cach_1_luot(g: GeminiDaily, fc: dict, so: dict) -> dict:
 CACH = {"cach_2_buoc": cach_2_buoc, "cach_1_luot": cach_1_luot}
 
 
-def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30,
-                 cach: list[str] | None = None) -> tuple[list[dict], dict]:
-    """Chạy các cách trong `cach` (mặc định cả hai để so). Chọn xong một cách thì sửa config/daily.json → 'cach_chay'."""
-    g = new_client()
-    g.han = time.time() + phut_toi_da * 60
+def con_luot(g: GeminiDaily, phut_du_tru: float = 5) -> bool:
+    """Còn model sống và còn thời gian thì mới gọi tiếp."""
+    if not [m for m in g.models if m not in g.chet]:
+        return False
+    return not (g.han and time.time() > g.han - phut_du_tru * 60)
+
+
+def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30, cach: list[str] | None = None,
+                 facts: dict | None = None) -> tuple[list[dict], dict]:
+    """Chạy theo THỨ TỰ ƯU TIÊN (anh Sơn chốt 12/10/2026):
+      UT1  phân tích số liệu  — AI (bước 1 của cách 2 bước); AI hỏng hết thì dựng bằng code (khong_ai), luôn có bản này
+      UT2  viết lời thoại từ bản phân tích — chỉ khi còn lượt
+      UT3  cách 1 lượt (để so) — chỉ khi còn lượt và còn thời gian
+    """
+    from . import khong_ai  # noqa: PLC0415
     ds = [c for c in (cach or list(CACH)) if c in CACH] or list(CACH)
-    ket = [CACH[c](g, fc, so) for c in ds]
-    random.shuffle(ket)
+    ket: list[dict] = []
+    try:
+        g = new_client()
+    except GeminiError as e:
+        g = None
+        loi_khoi_tao = str(e)[:200]
+    if g:
+        g.han = time.time() + phut_toi_da * 60
+
+    # ---- UT1 + UT2
+    if "cach_2_buoc" in ds or (g is None) or not con_luot(g):
+        b = {"cach": "cach_2_buoc", "loi": []}
+        pt = None
+        if g and con_luot(g):
+            g.muc_nghi = None
+            try:
+                pt = g.json(prompts.LUAT, prompts.prompt_phan_tich(fc, so), temperature=0.4)
+                b["loi"] += check_phan_tich(pt)
+                b["model"] = pt.get("_model")
+            except GeminiError as e:
+                b["loi"].append(f"AI phân tích hỏng: {str(e)[:200]}")
+        if not pt:
+            if facts:
+                pt = khong_ai.phan_tich(facts)
+                b["cach"] = "so_lieu_khong_ai"
+                b["loi"].append("Gemini hết lượt/lỗi — bản phân tích số liệu dựng bằng code, chưa có lời thoại AI"
+                                + (f" ({loi_khoi_tao})" if g is None else ""))
+        b["phan_tich"] = pt or {}
+        if pt and g and con_luot(g):
+            g.muc_nghi = "low"
+            try:
+                sc = g.json(prompts.LUAT, prompts.prompt_script_tu_phan_tich(fc, so, pt), temperature=0.75)
+                sc = lam_sach(sc)
+                loi = check_script(sc)
+                if loi and con_luot(g, 8):
+                    sc = lam_sach(_sua_script(g, sc, loi, fc))
+                    loi = check_script(sc)
+                b["script"] = sc
+                b["loi"] += loi
+            except GeminiError as e:
+                b["loi"].append(f"bỏ qua lời thoại (hết lượt/lỗi): {str(e)[:200]}")
+        elif pt:
+            b["loi"].append("bỏ qua lời thoại: không còn lượt Gemini hoặc hết quỹ thời gian")
+        ket.append(b)
+
+    # ---- UT3
+    if "cach_1_luot" in ds and g and con_luot(g, 10):
+        ket.append(cach_1_luot(g, fc, so))
+    elif "cach_1_luot" in ds:
+        ket.append({"cach": "cach_1_luot", "loi": ["bỏ qua: hết lượt Gemini hoặc hết quỹ thời gian (đã ưu tiên bản phân tích)"]})
+
+    if facts and not any(b.get("phan_tich") for b in ket):      # UT1 phải luôn có
+        ket.append({"cach": "so_lieu_khong_ai", "phan_tich": khong_ai.phan_tich(facts),
+                    "loi": ["AI không ra được bản phân tích — bản số liệu dựng bằng code"]})
+    if len(ket) > 1:
+        random.shuffle(ket)
     for i, b in enumerate(ket, 1):
-        b["nhan"] = f"Bản {i}"
-    ai = {"models": g.models, "so_luot": g.calls, "token_vao": g.tokens_in, "token_ra": g.tokens_out,
-          "nhat_ky": g.nhat_ky[-30:]}
+        b["nhan"] = f"Bản {i}" if b.get("cach") != "so_lieu_khong_ai" else f"Bản {i} · số liệu (không AI)"
+    ai = {"models": g.models if g else [], "so_luot": g.calls if g else 0,
+          "token_vao": g.tokens_in if g else 0, "token_ra": g.tokens_out if g else 0,
+          "nhat_ky": (g.nhat_ky[-30:] if g else [f"không khởi tạo được Gemini: {loi_khoi_tao}"])}
     return ket, ai
 
 

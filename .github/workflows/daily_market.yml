@@ -1,0 +1,81 @@
+name: NSI Daily Market
+
+# Đồng hồ ảo (Cloudflare Worker nsi-dong-ho) gọi workflow_dispatch:
+#   15:20 VN  che_do=chay → chờ VNDirect công bố đủ phiên (tối đa 25') → FACT → Gemini 2 cách → out/daily/
+#   16:00 VN  che_do=gac  → hôm nay chưa có bản thì chạy lại
+# Trang quản trị /daily gọi che_do=viet_lai kèm view anh Sơn gõ.
+# Cron dưới đây chỉ là DỰ PHÒNG khi đồng hồ ảo chết (GitHub cron trễ tùy hứng).
+on:
+  workflow_dispatch:
+    inputs:
+      che_do:
+        description: "chay | gac | dry | viet_lai"
+        default: "chay"
+      view:
+        description: "view của anh Sơn (chỉ dùng khi che_do=viet_lai)"
+        default: ""
+      ngay:
+        description: "ngày cần viết lại, YYYY-MM-DD (trống = bản mới nhất)"
+        default: ""
+  schedule:
+    - cron: "40 9 * * 1-5"   # 16:40 VN thứ 2–6, dự phòng (chế độ gác)
+
+concurrency:
+  group: nsi-daily-market
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Lấy kho nến (cào một lần, các ngày sau chỉ nối thêm)
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/daily_nen
+          key: daily-nen-${{ github.run_id }}
+          restore-keys: daily-nen-
+      - name: Chạy NSI Daily Market
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_RPM: "8"
+          DAILY_THINKING: "medium"
+          NSI_THRESHOLDS_URL: ${{ secrets.NSI_THRESHOLDS_URL }}
+          NSI_PORTFOLIO_URL: ${{ secrets.NSI_PORTFOLIO_URL }}
+          CHE_DO: ${{ github.event.inputs.che_do }}
+          DAILY_VIEW: ${{ github.event.inputs.view }}
+          DAILY_NGAY: ${{ github.event.inputs.ngay }}
+        run: |
+          MODE="$CHE_DO"
+          [ -z "$MODE" ] && MODE=gac
+          case "$MODE" in
+            gac)      python -m daily.run_daily --gac ;;
+            dry)      python -m daily.run_daily --dry ;;
+            viet_lai) python -m daily.run_daily --viet-lai ;;
+            *)        python -m daily.run_daily ;;
+          esac
+      - name: Giữ kho nến cho lần sau
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: .cache/daily_nen
+          key: daily-nen-${{ github.run_id }}
+      - name: Lưu kết quả
+        if: always()
+        run: |
+          git config user.name "nsi-daily-bot"
+          git config user.email "nsi-daily-bot@users.noreply.github.com"
+          git add out/daily data/daily 2>/dev/null || true
+          git diff --cached --quiet && exit 0
+          git commit -m "daily market $(TZ=Asia/Ho_Chi_Minh date +%F_%H%M)"
+          for i in 1 2 3 4; do git pull --rebase -X theirs && git push && exit 0; sleep 7; done
+          exit 1

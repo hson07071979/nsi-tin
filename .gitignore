@@ -7,3 +7,4 @@ zalo-listener/.env
 zalo-listener/qr.png
 zalo-listener/du-lieu/
 zalo-listener/*.log
+.cache/

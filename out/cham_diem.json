@@ -1,41 +1,41 @@
 {
- "cap_nhat": "2026-10-11T08:16+07:00",
+ "cap_nhat": "2026-10-12T07:10+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 30,
-   "ty_le_dung": 60.0
+   "n": 53,
+   "ty_le_dung": 60.4
   },
   "phe_than_trong": {
-   "n": 28,
-   "ty_le_dung": 64.3
+   "n": 45,
+   "ty_le_dung": 55.6
   },
   "phe_vi_mo": {
-   "n": 25,
-   "ty_le_dung": 64.0
+   "n": 39,
+   "ty_le_dung": 61.5
   },
   "tab_web": {
-   "n": 37,
-   "ty_le_dung": 67.6
+   "n": 61,
+   "ty_le_dung": 68.9
   },
   "tab_zalo": {
-   "n": 3,
-   "ty_le_dung": 66.7
+   "n": 8,
+   "ty_le_dung": 37.5
   },
   "trong_tai": {
-   "n": 40,
-   "ty_le_dung": 67.5
+   "n": 69,
+   "ty_le_dung": 65.2
   },
   "xac_minh_da_xac_minh": {
-   "n": 38,
-   "ty_le_dung": 68.4
+   "n": 62,
+   "ty_le_dung": 69.4
   },
   "xac_minh_mot_nguon": {
-   "n": 1,
-   "ty_le_dung": 0.0
+   "n": 3,
+   "ty_le_dung": 33.3
   },
   "xac_minh_tin_don": {
-   "n": 1,
-   "ty_le_dung": 100.0
+   "n": 4,
+   "ty_le_dung": 25.0
   }
  },
  "chi_tiet": [
@@ -711,6 +711,499 @@
     "lac_quan": true,
     "than_trong": true,
     "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Lãi suất TPCP 10 năm lập đỉnh 4,43%, chi phí vốn tăng",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VCB",
+   "du_bao": 1,
+   "vuot_t0": -1.07,
+   "vuot_t4": -0.55,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Lãi suất TPCP 10 năm lập đỉnh 4,43%, chi phí vốn tăng",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "DXG",
+   "du_bao": -1,
+   "vuot_t0": -0.99,
+   "vuot_t4": -2.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Dư nợ margin lập kỷ lục, VN-Index gãy MA50 và hỗ trợ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "SSI",
+   "du_bao": -1,
+   "vuot_t0": -1.15,
+   "vuot_t4": -3.4,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Dư nợ margin lập kỷ lục, VN-Index gãy MA50 và hỗ trợ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -6.97,
+   "vuot_t4": -15.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Bộ Tài chính triển khai 4 nhóm giải pháp sau nâng hạng",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": -1.15,
+   "vuot_t4": -3.4,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "GDP 9 tháng tăng 9,01%, quý IV chịu áp lực tăng 12,5%",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": 1.35,
+   "vuot_t4": 0.4,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Thị trường quốc tế chờ biên bản họp Fed giữa áp lực lợi suất",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "BSR",
+   "du_bao": 1,
+   "vuot_t0": -1.06,
+   "vuot_t4": 2.12,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Đẩy mạnh tiến độ hạ tầng sân bay Long Thành và đường sắt",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "ACV",
+   "du_bao": 1,
+   "vuot_t0": -0.89,
+   "vuot_t4": 4.49,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Đẩy mạnh tiến độ hạ tầng sân bay Long Thành và đường sắt",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VCG",
+   "du_bao": 1,
+   "vuot_t0": 0.24,
+   "vuot_t4": 2.78,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Đẩy mạnh tiến độ hạ tầng sân bay Long Thành và đường sắt",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "KSB",
+   "du_bao": 1,
+   "vuot_t0": -0.89,
+   "vuot_t4": 2.92,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Giá cước vận tải biển lập đỉnh, nghịch lý giá tàu cũ",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "PVT",
+   "du_bao": 1,
+   "vuot_t0": 2.09,
+   "vuot_t4": 7.38,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Giá cước vận tải biển lập đỉnh, nghịch lý giá tàu cũ",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VTO",
+   "du_bao": 1,
+   "vuot_t0": 3.11,
+   "vuot_t4": 4.15,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Trung Quốc dẫn dắt hơn 60% tăng trưởng xuất khẩu thủy sản",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "ANV",
+   "du_bao": 1,
+   "vuot_t0": 1.46,
+   "vuot_t4": 9.86,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Trung Quốc dẫn dắt hơn 60% tăng trưởng xuất khẩu thủy sản",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VHC",
+   "du_bao": -1,
+   "vuot_t0": -1.29,
+   "vuot_t4": 3.5,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Vingroup huy động 9.000 người làm siêu dự án 18 tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -0.3,
+   "vuot_t4": -2.65,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Vingroup huy động 9.000 người làm siêu dự án 18 tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 2.68,
+   "vuot_t4": 0.82,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "HDBank vào Top 3 vốn hóa tư nhân, Vietjet mở rộng đội bay",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HDB",
+   "du_bao": 1,
+   "vuot_t0": -2.3,
+   "vuot_t4": 2.51,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "HDBank vào Top 3 vốn hóa tư nhân, Vietjet mở rộng đội bay",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VJC",
+   "du_bao": 1,
+   "vuot_t0": -1.36,
+   "vuot_t4": -0.16,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Gelex Infra giải ngân xong 2.882 tỷ đồng sau IPO",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "GEX",
+   "du_bao": 1,
+   "vuot_t0": 0.42,
+   "vuot_t4": -2.69,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Gelex Infra giải ngân xong 2.882 tỷ đồng sau IPO",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "GEL",
+   "du_bao": 1,
+   "vuot_t0": 0.9,
+   "vuot_t4": 0.51,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Cổ phiếu VPG bị chuyển sang diện kiểm soát từ 9/10",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPG",
+   "du_bao": -1,
+   "vuot_t0": -3.08,
+   "vuot_t4": -16.64,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Hàn Quốc sắp vận hành nhà máy kim loại đất hiếm tại VN",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "KBC",
+   "du_bao": 1,
+   "vuot_t0": -1.88,
+   "vuot_t4": 1.34,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Hàn Quốc sắp vận hành nhà máy kim loại đất hiếm tại VN",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "SZC",
+   "du_bao": 1,
+   "vuot_t0": -2.38,
+   "vuot_t4": 0.75,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "web",
+   "chu_de": "Giá vàng miếng vượt mốc 143,5 triệu đồng mỗi lượng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": 1,
+   "vuot_t0": -6.97,
+   "vuot_t4": -15.25,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "zalo",
+   "chu_de": "Rò rỉ thông tin NVL chịu áp lực thanh khoản 2.500 tỷ đồng Q3",
+   "xac_minh": "tin_don",
+   "loai": "tin_don",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": 0.07,
+   "vuot_t4": 4.94,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "zalo",
+   "chu_de": "Rò rỉ thông tin NVL chịu áp lực thanh khoản 2.500 tỷ đồng Q3",
+   "xac_minh": "tin_don",
+   "loai": "tin_don",
+   "doi_tuong": "PDR",
+   "du_bao": -1,
+   "vuot_t0": -0.89,
+   "vuot_t4": 1.04,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "zalo",
+   "chu_de": "Rò rỉ thông tin NVL chịu áp lực thanh khoản 2.500 tỷ đồng Q3",
+   "xac_minh": "tin_don",
+   "loai": "tin_don",
+   "doi_tuong": "VPB",
+   "du_bao": -1,
+   "vuot_t0": -0.45,
+   "vuot_t4": 4.08,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "zalo",
+   "chu_de": "Thống kê lịch sử giao dịch cổ phiếu HPG của ông Trần Vũ Minh",
+   "xac_minh": "mot_nguon",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": 1.35,
+   "vuot_t4": 0.4,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-05",
+   "tab": "zalo",
+   "chu_de": "Thống kê lịch sử giao dịch cổ phiếu HPG của ông Trần Vũ Minh",
+   "xac_minh": "mot_nguon",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HSG",
+   "du_bao": 1,
+   "vuot_t0": -0.69,
+   "vuot_t4": -0.65,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
    }
   }
  ],

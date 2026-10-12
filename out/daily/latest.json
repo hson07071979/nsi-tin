@@ -6303,7 +6303,227 @@
    "nhan": "Bản 2"
   }
  ],
- "viet_lai": [],
+ "viet_lai": [
+  {
+   "luc": "2026-10-12T18:53+07:00",
+   "view": "Bank kênh trên khỏe (VPB, TCB, HDB), chứng khoán chưa tạo đáy, Vin kéo index nên thị trường thật ra không xấu. Em nghĩ 1720 sẽ giữ được và tuần này hồi lên 1750.",
+   "ket_qua": {
+    "loi": [],
+    "thesis_check": [
+     {
+      "y": "Bank kênh trên khỏe (VPB, TCB, HDB)",
+      "ung_ho": [
+       "VPB tăng 2,52%, đóng 24,4, nằm trên toàn bộ MA10, MA20, MA50, MA200, rs_20p đạt +16,83%.",
+       "TCB tăng 0,77%, đóng 32,6, nằm trên MA10 (+0,46%) và MA200 (+0,99%), rs_20p đạt +6,11%.",
+       "HDB tăng 0,89%, đóng 22,6, nằm trên toàn bộ các đường MA, vừa có nến phát động ngày 09/10 tại chân 21,35."
+      ],
+      "chong_lai": [
+       "Khối ngoại xả ròng mạnh TCB (-114,91 tỷ) và VPB (-23,01 tỷ).",
+       "Nhóm ngân hàng quốc doanh và kênh dưới như BID, CTG, VCB, LPB vẫn chật vật dưới MA10."
+      ],
+      "thieu_du_lieu": [
+       "Chưa có số liệu tự doanh phiên hôm nay để kiểm tra mức độ đối ứng dòng tiền."
+      ],
+      "ket_luan": "ĐỒNG Ý",
+      "tu_tin": "cao"
+     },
+     {
+      "y": "Chứng khoán chưa tạo đáy",
+      "ung_ho": [
+       "Toàn bộ các mã lớn trong ngành đều nằm dưới MA10 nhiều phiên liên tiếp: SSI (12 phiên), VIX (26 phiên), VND (28 phiên), SHS (27 phiên).",
+       "Khối lượng khớp lệnh toàn ngành rất thấp, SSI chỉ đạt 0,51 lần TB20, VND đạt 0,48 lần TB20, chưa xuất hiện nến bùng nổ hay dòng tiền bắt đáy quyết liệt."
+      ],
+      "chong_lai": [
+       "Một số mã dừng đà giảm điểm sâu, SSI tăng nhẹ 0,26%, VIX tăng 0,43%."
+      ],
+      "thieu_du_lieu": [],
+      "ket_luan": "ĐỒNG Ý",
+      "tu_tin": "cao"
+     },
+     {
+      "y": "Vin kéo index nên thị trường thật ra không xấu",
+      "ung_ho": [
+       "Riêng nhóm Vin (VIC, VHM, VRE, VPL) đã lấy đi -14,83 điểm của VN-Index.",
+       "Phần còn lại của thị trường đóng góp dương +0,72 điểm.",
+       "Độ rộng sàn HOSE vẫn giữ được thế cân bằng với 154 mã tăng so với 148 mã giảm."
+      ],
+      "chong_lai": [
+       "Thanh khoản khớp lệnh HOSE sụt giảm mạnh chỉ còn 10.645 tỷ (bằng 0,81 lần TB20), xác nhận trạng thái thiếu tiền rõ rệt.",
+       "Khối ngoại tiếp tục bán ròng 584 tỷ trên sàn, lũy kế tháng 10 bán ròng hơn 17.900 tỷ.",
+       "VN-Index đã gãy chân nến phát động ngày 21/08 tại mốc 1.725,4 điểm.",
+       "Xuất hiện hiện tượng bán sàn giải chấp tại PNJ (-6,92%)."
+      ],
+      "thieu_du_lieu": [],
+      "ket_luan": "ĐỒNG Ý MỘT PHẦN",
+      "tu_tin": "vừa"
+     },
+     {
+      "y": "1720 sẽ giữ được và tuần này hồi lên 1750",
+      "ung_ho": [
+       "VN-Index đóng cửa tại 1.720,98 điểm, rút chân nhẹ từ đáy phiên 1.716,85 điểm."
+      ],
+      "chong_lai": [
+       "Chân nến phát động ngày 21/08 tại mốc 1.725,4 điểm đã chính thức bị gãy trong phiên hôm nay.",
+       "Mốc cấu trúc cứng tiếp theo thị trường cùng nhìn thấy là 1.701,14 điểm (chân nến phát động 30/07), không phải 1.720.",
+       "Thanh khoản khớp lệnh thấp hơn trung bình 20 phiên tới 19%, thị trường thiếu tiền thì việc kỳ vọng hồi ngay lên kháng cự MA10 quanh 1.750 là thiếu cơ sở dữ liệu."
+      ],
+      "thieu_du_lieu": [],
+      "ket_luan": "KHÔNG ĐỒNG Ý",
+      "tu_tin": "cao"
+     }
+    ],
+    "view_sau_phan_bien": "Chỉ số bị bóp méo nặng bởi họ Vin làm mất gần 15 điểm, trong khi độ rộng vẫn cân bằng và nhóm thép cùng bank kênh trên (VPB, TCB, HDB) có nỗ lực giữ nhịp. Tuy nhiên, không thể nói thị trường không xấu khi thanh khoản khớp lệnh chỉ đạt hơn 10.600 tỷ (thiếu tiền), khối ngoại xả ròng miệt mài và quan trọng nhất là chân nến phát động 1.725,4 đã bị gãy. Mốc quan sát cấu trúc thực sự phải là vùng 1.700–1.701 điểm. Việc kỳ vọng bật thẳng lên 1.750 khi chưa có dòng tiền xác nhận là võ đoán.",
+    "script": {
+     "tieu_de_youtube": "VN-Index mất 14 điểm vì họ Vin hay thị trường đang thiếu tiền thật sự?",
+     "thoi_luong_phut": 20,
+     "phan": [
+      {
+       "ten": "Hook",
+       "phut": 0.8,
+       "loi_thoai": "Chào anh chị, em là Sơn. Hôm nay nhìn bảng điện, bảng điểm hiện màu đỏ với mức giảm hơn 14 điểm, về sát mốc 1.721. Nhưng anh chị nhìn sang bảng độ rộng thì lại thấy có 154 mã tăng, trong khi chỉ có 148 mã giảm. Vậy câu hỏi lớn nhất của ngày hôm nay là: thị trường đang bị họ Vin đè điểm số hay bên trong thật sự đang thiếu tiền? Và khi chân nến phát động 1.725 đã chính thức bị gãy, mốc cấu trúc nào mới là nơi chúng ta cần phải theo dõi tiếp theo? Hôm nay em cùng anh chị rà soát lại từng con số.",
+       "chen_hinh": "Bảng giá VN-Index, biểu đồ nhiệt ngành và tỷ lệ mã tăng/giảm HOSE."
+      },
+      {
+       "ten": "Thế giới",
+       "phut": 2.2,
+       "loi_thoai": "Trước khi vào chi tiết thị trường trong nước, em điểm qua các biến liên thị trường có kênh truyền dẫn trực tiếp sang Việt Nam mình. Đầu tiên là chỉ số DXY. Lúc 18h25 tối nay, DXY đang giao dịch quanh 102,4 điểm, tức là chạm đúng vùng đỉnh 20 phiên và đỉnh 3 tháng. Trong bản tin sáng lúc 7h chụp được là 102,2 điểm. Kênh truyền dẫn ở đây rất rõ: đồng đô la mạnh lên đẩy tỷ giá trong nước chịu nhiệt. Tỷ giá USD/VND niêm yết sáng nay ở mức 25.879 đồng, nhưng tin tức thị trường tự do đã ghi nhận mức 25.900 đến 26.200 đồng. Đi cùng với đó, lợi suất trái phiếu chính phủ Mỹ 10 năm đêm qua chốt ở mức 5,244%, tiệm cận đỉnh 3 tháng là 5,311%. Khi điều kiện tài chính toàn cầu thắt chặt như thế này, dòng vốn ngoại rút ròng khỏi các thị trường mới nổi và cận biên là áp lực chúng ta nhìn thấy rõ ràng. Đêm qua chứng khoán Mỹ vẫn tăng điểm, Dow Jones tăng hơn 0,8%, S&P 500 tăng gần 0,6%, hợp đồng tương lai S&P 500 chiều nay vẫn xanh nhẹ quanh 7.864 điểm, chỉ số sợ hãi VIX ở mức 15,45 điểm, tức là khẩu vị rủi ro quốc tế chưa hề hoảng loạn. Về hàng hóa, giá dầu Brent đang neo cao ở mức gần 106 USD một thùng, tăng hơn 5,6% trong 5 phiên vừa qua và áp sát đỉnh 3 tháng quanh 108,7 USD. Giá dầu cao là biến số gây sức ép lên lạm phát và chi phí đầu vào. Giá thép HRC Mỹ tăng lên 1.297 USD một tấn, giá đồng tăng gần 2% lên 6,76 USD một pound, nhưng giá thép xây dựng trong nước và giá urê thì hiện tại chưa có dữ liệu cập nhật nên em không suy diễn tác động lên doanh nghiệp nội địa.",
+       "chen_hinh": "Chart DXY chạm đỉnh 3 tháng, lợi suất US10Y và đồ thị giá dầu Brent."
+      },
+      {
+       "ten": "Thị trường Việt Nam",
+       "phut": 3.0,
+       "loi_thoai": "Quay trở lại với sàn HOSE hôm nay. VN-Index đóng cửa tại 1.720,98 điểm, giảm 14,11 điểm, tương ứng giảm 0,81%. Độ rộng toàn sàn có 154 mã tăng so với 148 mã giảm, có 4 mã tăng trần và 6 mã giảm sàn. Rõ ràng độ rộng không hề đồng thuận với mức giảm hơn 14 điểm của chỉ số. Nhưng điểm mấu chốt anh chị phải nhìn vào hôm nay là thanh khoản thực. Tổng giá trị giao dịch trên HOSE đạt khoảng 12.977 tỷ, nhưng giao dịch thỏa thuận đã chiếm tới 2.332 tỷ, tức là 18% tổng giá trị. Con số khớp lệnh thực tế trên bảng điện chỉ đạt khoảng 10.645 tỷ thôi. Con số này giảm rất sâu so với mức gần 14.700 tỷ của phiên liền trước, thấp hơn trung bình 5 phiên quanh 12.900 tỷ và thấp hơn trung bình 20 phiên quanh 13.200 tỷ. Tỷ lệ khớp lệnh hôm nay chỉ bằng 0,81 lần trung bình 20 phiên. Theo quy chuẩn của hệ thống, thị trường đang ở trạng thái thiếu tiền. Thiếu tiền nghĩa là dòng tiền không đủ sức để kéo lan tỏa, lực cầu giá cao gần như mất hút. Về dòng tiền lớn, khối ngoại hôm nay tiếp tục bán ròng 584 tỷ trên HOSE, họ mua 1.249 tỷ nhưng bán ra tới 1.833 tỷ. Lũy kế mới qua 8 phiên của tháng 10 mà khối ngoại đã bán ròng hơn 17.933 tỷ, còn lũy kế cả năm đã vượt con số 115.800 tỷ đồng. Hôm nay họ bán ròng mạnh nhất ở TCB gần 115 tỷ, PNJ gần 105 tỷ, FPT hơn 91 tỷ, VIX hơn 60 tỷ. Ở chiều mua, họ gom đối ứng duy nhất HPG với hơn 128 tỷ và HDB hơn 31 tỷ. Khối ngoại vẫn đang duy trì vị thế rút vốn rất quyết liệt. Về khối tự doanh, phiên hôm nay hiện chưa có dữ liệu công bố, số liệu gần nhất là phiên thứ Sáu ngày 09/10 họ mua ròng 234 tỷ. Với thanh khoản hụt gần 20% và khối ngoại miệt mài xả ròng, chúng ta phải thừa nhận thị trường đang chịu sức ép phòng thủ rất lớn.",
+       "chen_hinh": "Biểu đồ thanh khoản khớp lệnh HOSE so với TB20 phiên và biểu đồ bán ròng khối ngoại lũy kế tháng 10."
+      },
+      {
+       "ten": "Index thật sự giảm/tăng bao nhiêu",
+       "phut": 1.8,
+       "loi_thoai": "Bây giờ chúng ta bóc tách sự méo mó của điểm số hôm nay. Chỉ số giảm 14,11 điểm, nhưng riêng 4 cổ phiếu họ Vin đã lấy đi bao nhiêu điểm? Thưa anh chị, nhóm Vin lấy đi tới 14,83 điểm. Cụ thể, VIC giảm 2,88% lấy đi 10,37 điểm, VHM giảm 3,18% lấy đi 3,57 điểm, VPL giảm 2,23% lấy đi 0,7 điểm và VRE giảm 1,73% lấy đi gần 0,2 điểm. Nếu chúng ta trừ sạch mức ảnh hưởng của nhóm Vin ra khỏi bảng điện, phần còn lại của toàn bộ thị trường hôm nay thực tế đóng góp tăng 0,72 điểm. Con số này giải thích rất rõ vì sao chỉ số giảm đỏ lòm mà độ rộng vẫn nghiêng nhẹ về số mã xanh với 154 mã tăng. Tuy nhiên, anh chị đừng vội kết luận là thị trường bình yên. Phần còn lại giữ được điểm số chủ yếu nhờ lực nâng cục bộ của nhóm Thép với HPG tăng đóng góp hơn 1 điểm và nhóm Ngân hàng tư nhân như VPB đóng góp hơn 1,2 điểm. Nhưng một khi thanh khoản chung chỉ có hơn 10.600 tỷ, thì sự gánh gánh này chỉ mang tính chất cục bộ, không thể che giấu được việc thiếu hụt dòng tiền trên diện rộng.",
+       "chen_hinh": "Biểu đồ tác động điểm số: Nhóm Vin (-14,83 điểm) đối ứng với phần còn lại (+0,72 điểm)."
+      },
+      {
+       "ten": "Bản đồ kỹ thuật",
+       "phut": 2.2,
+       "loi_thoai": "Về mặt kỹ thuật, hôm nay có một thông tin cấu trúc rất quan trọng mà dân phân tích chúng em đều phải nhìn thẳng vào sự thật: VN-Index đã chính thức đóng cửa dưới chân cây nến phát động ngày 21/08 tại mốc 1.725,4 điểm. Cây nến phát động đó tăng gần 2% với khối lượng gấp 1,24 lần trung bình, là bệ đỡ cho nhịp vượt đỉnh trước đó, và hôm nay nó đã bị gãy hoàn toàn. Chỉ số cũng đã nằm dưới MA10 liên tiếp 14 phiên, MA20 đang cắm xuống. Vậy mốc cấu trúc chính em theo dõi tiếp theo cho chỉ số là gì? Em chốt lại một mốc duy nhất: mốc quan sát 1.701,14 điểm, tức là vùng quanh 1.700 đến 1.701 điểm. Mốc này từ đâu ra? Đây chính là chân cây nến phát động bùng nổ ngày 30/07, phiên mà chỉ số tăng 2,35% với khối lượng gấp 1,21 lần trung bình. Thị trường cùng nhìn thấy mốc này vì đây là nền giá khởi đầu cho cả nhịp sóng tăng tháng 8. Nếu VN-Index giữ được vùng 1.700 đến 1.701 này, chỉ số sẽ có cơ hội cân bằng, cưa chân bàn tích lũy lại để dòng tiền phân hóa tìm cơ hội. Nhưng nếu để thủng dứt khoát mốc 1.701, toàn bộ cấu trúc sóng tăng cuối tháng 7 sẽ bị phủ nhận sạch sẽ, khi đó nguy cơ chỉ số phải trượt về kiểm định vùng đáy 60 phiên quanh 1.651 điểm là rất cao. Tín hiệu xác nhận thủng mốc là một phiên đóng cửa dưới 1.701 kèm thanh khoản khớp lệnh bán dội lên trên trung bình 20 phiên, tức là trên 13.200 tỷ. Còn tín hiệu để vô hiệu hóa rủi ro ngắn hạn là chỉ số phải có một phiên bùng nổ lấy lại và đóng cửa dứt khoát trên mốc 1.725,4 điểm.",
+       "chen_hinh": "Chart kỹ thuật VN-Index chỉ rõ chân nến 21/08 (1.725,4) bị gãy và mốc hỗ trợ cấu trúc 30/07 (1.701,14)."
+      },
+      {
+       "ten": "Quét ngành",
+       "phut": 6.0,
+       "loi_thoai": "Bây giờ em quét qua từng nhóm ngành theo đúng thứ tự rổ để xem bên trong các nhóm cổ phiếu đang vận động thế nào. Đầu tiên là nhóm Ngân hàng. Ngành này có giá trị khớp lệnh lớn nhất thị trường đạt gần 3.460 tỷ, tăng 0,44% với 14 mã tăng và 7 mã giảm. Sự phân hóa ở đây cực kỳ sâu sắc giữa nhóm kênh trên và nhóm kênh dưới. Ở nhóm kênh trên, VPB hôm nay là ngôi sao sáng khi tăng 2,52%, đóng cửa 24,4, khối lượng gấp 1,39 lần trung bình 20 phiên, nằm trên toàn bộ các đường MA lớn và chỉ cách đỉnh 60 phiên có 2,2%. TCB cũng giữ được sắc xanh tăng 0,77%, đóng 32,6, khối lượng cao hơn trung bình gần 30%, nằm vững trên MA10 và MA200 dù bị khối ngoại xả ròng gần 115 tỷ. HDB tiếp tục giữ xu hướng tăng 0,89%, đóng 22,6, bảo toàn nguyên vẹn cây nến phát động ngày 09/10. Ngược lại, nhóm ngân hàng quốc doanh và kênh dưới lại rất nặng nề: VCB đứng giá tham chiếu 56,7, đã nằm dưới MA10 suốt 16 phiên liên tiếp. BID giảm nhẹ 0,15% về 33,85, nằm dưới MA200 tới 12,6%. ACB dù hồi phục 1,49% lên 20,45 nhưng đường MA20 và MA50 vẫn đang cắm dốc xuống. Riêng SHB hôm nay hồi mạnh 4% lên 10,4, nhưng cấu trúc dài hạn vẫn là cổ phiếu nhóm đáy, nằm dưới MA200 gần 25%. Sang nhóm Chứng khoán, đây là thước đo độ nhạy tâm lý của thị trường. Nhóm này hôm nay chỉ tăng nhẹ 0,16% với giá trị khớp lệnh vỏn vẹn 901 tỷ. Tín hiệu rõ ràng nhất là toàn bộ nhóm chứng khoán chưa hề lấy lại được đường MA10 và khối lượng hoàn toàn mất hút. SSI đóng 19,05, tăng nhẹ 0,26% nhưng khối lượng chỉ bằng một nửa trung bình 20 phiên, nằm dưới MA10 tới 12 phiên và dưới MA200 gần 14%. VCI giảm 0,54% về 18,45, nằm dưới MA200 tới 24%. VND giảm 0,38% về 13,15, đã nằm dưới MA10 suốt 28 phiên. VIX đóng 11,7, SHS đóng 11,7, MBS đóng 14,6, CTS đóng 19,5, tất cả đều đang cắm đầu dưới các đường trung bình lớn và chưa hề có dòng tiền lớn kích hoạt. Khi thước đo độ nhạy chưa xác nhận tạo đáy, thị trường chung chưa thể có sóng tăng bền vững được. Ở nhóm Bất động sản, ngành này giảm sâu nhất thị trường với mức giảm 2,55%, thanh khoản khớp gần 1.750 tỷ. Áp lực bán dồn toàn bộ vào các mã vốn hóa lớn họ Vin. VIC giảm 2,88% về 219, mở một gap giảm đầu phiên và lấy đi hơn 10 điểm của chỉ số. VHM giảm 3,18% về 63,9, đóng cửa sát đáy 20 phiên và thủng luôn MA200. VRE giảm 1,73% về 22,75, nằm dưới MA10 liên tiếp 22 phiên. Tuy nhiên, các mã bất động sản tầm trung lại có sự hồi phục kỹ thuật nhẹ: NVL tăng 1,83% lên 11,15, giữ được chân nến phát động ngày 09/10; KDH tăng 2,24% lên 13,7; DXG tăng 1,54% lên 9,9. Nhưng nhìn chung nhóm này vẫn nằm sâu dưới MA200 và mang tính hồi phục kỹ thuật ngắn hạn. Đến nhóm Thép, đây chính là tâm điểm sáng nhất của phiên hôm nay khi cả ngành tăng 2,87% với thanh khoản khớp lệnh hơn 827 tỷ. HPG làm điểm tựa tuyệt vời cho chỉ số khi tăng gần 3% lên 20,7, khối lượng nổ gấp 1,75 lần trung bình 20 phiên, lấy lại cả MA10 lẫn MA20 và được khối ngoại gom ròng hơn 128 tỷ. Ấn tượng nhất là NKG khi đóng cửa tăng kịch trần 6,89% lên 9,93, khối lượng gấp gần 3 lần trung bình, tạo hẳn một cây nến phát động mới. HSG cũng tăng tốt 3,54% lên 10,25 với thanh khoản gấp 2,6 lần trung bình. Nhóm Khu công nghiệp có sự phân hóa nhẹ: VGC giữ kênh trên tăng 0,46% lên 43,3; SZC bật tăng 3,25% lên 17,45; trong khi KBC giảm 0,39% về 25,4 và IDC giảm 0,56% về 35,3. Nhóm Đầu tư công hôm nay cũng có dòng tiền bắt đáy ngắn hạn: VCG tăng gần 3% lên 14,05, khối lượng gấp hơn 2 lần trung bình; HHV tăng 2,86% lên 9,0; CII tăng 2,93% lên 12,3. Nhóm Dầu khí chịu áp lực chốt lời ngắn hạn dù giá dầu thế giới tăng: GAS giảm hơn 2,1% về 79,0; BSR giảm 1,45% về 30,6; PVD giảm 1,65% về 17,9; chỉ có PVT giữ được sắc xanh nhẹ với khối lượng cao. Nhóm Bán lẻ ghi nhận sự cố cá biệt tại PNJ khi bị bán giải chấp nằm sàn giảm 6,92% về 18,15, khối ngoại xả ròng hơn 100 tỷ; trong khi MWG vẫn neo vững ở vùng nền cao đóng 75,6, FRT giữ giá quanh 149,5. Nhóm Vận tải biển giữ nhịp phân hóa, HAH giảm 2,78% về 48,9 trong khi VOS tăng 0,83% lên 12,2. Nhóm Phân bón và hóa chất chịu rung lắc, DCM giảm hơn 3% về 33,75, DGC giảm 2,37% về 33,0, riêng CSV chỉ giảm nhẹ giữ nền 22,55. Các nhóm ngóc ngách như Thủy sản có ANV giảm nhẹ về 18,5, VHC đóng 52,0; Dệt may có TNG tăng tốt 2,73% lên 18,8; nhóm Điện có NT2 bật tăng gần 2% lên 23,3; Cao su có DRI giữ giá 16,8. Cuối cùng là nhóm Công nghệ, FPT hôm nay giảm tiếp 1,38% về đúng đáy 20 phiên tại 57,1, nằm dưới MA10 suốt 14 phiên và bị khối ngoại bán ròng hơn 91 tỷ.",
+       "chen_hinh": "Lướt nhanh chart các nhóm ngành: Bank (VPB, TCB), Thép (HPG, NKG trần), Chứng khoán (SSI dưới MA10), Bán lẻ (PNJ sàn)."
+      },
+      {
+       "ten": "Mã đáng nói",
+       "phut": 2.2,
+       "loi_thoai": "Trong bức tranh ngày hôm nay, có 3 cổ phiếu anh chị cần phải đặc biệt lưu tâm vì chúng kể câu chuyện đại diện cho thị trường. Thứ nhất là HPG. Cổ phiếu này hôm nay đóng vai trò mốc neo tâm lý cho cả sàn. HPG tăng gần 3%, khối lượng khớp hơn 638 tỷ, đóng cửa ở 20,7 và lấy lại MA20. Mốc em theo dõi sát cho HPG là hỗ trợ 20,1. Nếu giữ được 20,1, cấu trúc hồi phục tạo đáy ngắn hạn được bảo lưu. Nhưng nếu thủng 20,1, cấu trúc gãy và cổ phiếu sẽ quay lại vùng đáy 19,6. Anh chị nào đang nắm giữ nên có điểm dừng quanh mốc 20,1 này, mức dừng lỗ tính từ giá đóng cửa chỉ cách khoảng 2,9%, hoàn toàn nằm trong chuẩn kiểm soát rủi ro. Định giá P/B hiện tại của HPG là 1,21 lần, P/E là 7,3 lần. Cổ phiếu thứ hai là VPB. Đây là đại diện tiêu biểu cho nhóm ngân hàng kênh trên còn giữ được sức mạnh. VPB tăng 2,52% lên 24,4, nằm trên toàn bộ các đường MA lớn. Mốc em theo dõi cho VPB là đường MA20 tại vùng 22,8. Thủng 22,8 thì cấu trúc tăng ngắn hạn bị bẻ gãy, hỗ trợ kế tiếp sẽ rơi về chân nến phát động quanh 22,0. Mốc 22,8 này cách giá hiện tại khoảng 6,4%, cũng nằm trong ngưỡng kỷ luật 7%. Định giá P/B của VPB là 1,33 lần, P/E ở mức 8,0 lần. Mã thứ ba là câu chuyện cảnh báo: PNJ. Hôm nay PNJ giảm sàn 6,92% xuống 18,15 với khối lượng khớp lệnh hơn 356 tỷ, khối ngoại bán ròng gần 105 tỷ giữa thông tin lãnh đạo bị bán giải chấp. PNJ đã nằm dưới MA200 suốt 28 phiên, cách MA200 tới gần 70%. Mốc hỗ trợ cuối cùng của PNJ là đáy 250 phiên tại 17,8 lập ngày 08/10. Thủng 17,8 thì PNJ hoàn toàn rơi vào vùng mất đáy, rủi ro bán tháo giải chấp chéo sẽ rất khó lường. PNJ nhắc nhở chúng ta một bài học: trong một thị trường thiếu tiền, những cổ phiếu đã gãy cấu trúc dài hạn thì bắt đáy luôn là con dao hai lưỡi.",
+       "chen_hinh": "Chart kỹ thuật chi tiết 3 mã: HPG (vượt MA20), VPB (kênh trên), PNJ (sàn thủng đáy)."
+      },
+      {
+       "ten": "Regime và phiên tới",
+       "phut": 1.2,
+       "loi_thoai": "Tổng hợp lại bức tranh toàn cảnh, trạng thái thị trường hôm nay được phân loại là Phân hóa xoay vòng trong bối cảnh Thiếu tiền. Bằng chứng ủng hộ là thị trường bị đè trụ Vin làm méo mó điểm số, trong khi độ rộng vẫn cân bằng và tiền có sự xoay vòng sang nhóm Thép và Ngân hàng tư nhân. Nhưng bằng chứng cảnh báo là thanh khoản khớp lệnh hụt gần 20% so với trung bình 20 phiên và chỉ số đã gãy chân nến phát động 1.725,4 điểm. Đèn hệ thống NSI phiên hôm nay ghi nhận không đọc được dữ liệu. Cho phiên ngày mai và những phiên tới, mốc chính anh chị cần ghi nhớ duy nhất là mốc 1.701,14 điểm. Điều kiện củng cố cho thị trường là nhóm Thép và Bank kênh trên tiếp tục giữ nhịp, VN-Index bật tăng lấy lại và đóng cửa trên mốc 1.725,4 điểm. Ngược lại, kịch bản làm yếu thị trường là khi áp lực bán giải chấp lan rộng, VN-Index đóng cửa thủng dứt khoát mốc 1.701 kèm thanh khoản bán lớn hơn 13.200 tỷ, khi đó toàn bộ nhịp tích lũy sẽ thất bại và thị trường sẽ phải tìm về vùng 1.651 điểm.",
+       "chen_hinh": "Bảng tổng hợp kịch bản phiên tới: Mốc quan sát 1.701,14 điểm, điều kiện củng cố và điều kiện vô hiệu."
+      },
+      {
+       "ten": "Chào",
+       "phut": 0.4,
+       "loi_thoai": "Thị trường đoạn này thiếu tiền nên quản trị rủi ro và quan sát chuẩn các mốc cấu trúc luôn là ưu tiên số một. Cảm ơn anh chị đã theo dõi video hôm nay, chúc anh chị có những quyết định thật kỷ luật và hẹn gặp lại anh chị trong bản tin ngày mai nhé.",
+       "chen_hinh": "Thông tin liên hệ, logo kênh và lời chào kết thúc."
+      }
+     ],
+     "tiktok": [
+      {
+       "tieu_de": "Chỉ số giảm 14 điểm nhưng sao tài khoản nhiều người không đỏ?",
+       "goc": "Giải thích hiện tượng biến dạng chỉ số do nhóm cổ phiếu vốn hóa lớn chi phối.",
+       "giay": 55,
+       "loi_thoai": "Có bao giờ anh chị mở bảng điện thấy chỉ số giảm hơn 14 điểm mà tài khoản của mình lại không giảm, thậm chí còn xanh nhẹ không? Phiên hôm nay chính là ví dụ kinh điển. VN-Index hôm nay giảm 14,11 điểm, nhưng riêng 4 mã họ Vin đã lấy đi tới 14,83 điểm của thị trường. Nghĩa là nếu bỏ nhóm Vin ra, phần còn lại của thị trường thực tế tăng 0,72 điểm. Độ rộng sàn HOSE vẫn có 154 mã tăng so với 148 mã giảm, nhiều mã thép như NKG còn tăng kịch trần. Điểm số giảm không phải lúc nào cũng là bán tháo toàn thị trường, mà đôi khi chỉ là câu chuyện cơ cấu ở một vài cổ phiếu trụ cực lớn. Để ý gì tiếp theo? Hãy nhìn vào thanh khoản thực tế, hôm nay khớp lệnh chỉ có hơn 10.600 tỷ, tức là tiền vào vẫn còn rất dè dặt anh chị nhé.",
+       "du_lieu_dung": [
+        "VN-Index giảm 14,11 điểm",
+        "Nhóm Vin lấy đi -14,83 điểm",
+        "Phần còn lại tăng +0,72 điểm",
+        "Khớp lệnh 10.645 tỷ"
+       ]
+      },
+      {
+       "tieu_de": "Tỷ giá chợ đen vượt 26.000 đồng ảnh hưởng gì đến túi tiền của bạn?",
+       "goc": "Kênh truyền dẫn từ tỷ giá USD tự do và áp lực thanh khoản tài chính đời thường.",
+       "giay": 55,
+       "loi_thoai": "Tỷ giá USD tự do vừa vượt mốc 26.000 đồng, leo lên vùng 25.900 đến 26.200 đồng, thì người bình thường không mua đô có bị ảnh hưởng không? Câu trả lời là có, và ảnh hưởng rất nhanh. Khi chỉ số đồng đô la Mỹ DXY chạm đỉnh 3 tháng ở mức 102,4 điểm, áp lực tỷ giá sẽ khiến giá nguyên liệu nhập khẩu đắt đỏ hơn. Chưa hết, khối ngoại trên sàn chứng khoán tháng 10 này đã bán ròng kỷ lục hơn 17.900 tỷ đồng chỉ sau 8 phiên để rút vốn về thị trường Mỹ khi lãi suất trái phiếu Mỹ lên tới 5,24%. Khi dòng tiền ngoại rút ra và tỷ giá căng thẳng, các ngân hàng trong nước sẽ phải rục rịch nâng lãi suất huy động, hiện nhóm Big4 đã niêm yết mức 6,8% một năm. Tiền gửi tiết kiệm tăng lãi thì chi phí vay kinh doanh, vay mua nhà cũng sẽ tăng theo. Để ý gì tiếp theo? Hãy theo dõi động thái hút tiền của Ngân hàng Nhà nước trong những ngày tới.",
+       "du_lieu_dung": [
+        "DXY đạt 102,439 điểm",
+        "USD tự do 25.900 - 26.200 đồng",
+        "Khối ngoại bán ròng tháng 10 hơn 17.933 tỷ",
+        "Lãi suất Big4 niêm yết 6,8%"
+       ]
+      },
+      {
+       "tieu_de": "Giá dầu vượt 105 USD một thùng: Áp lực nào đang đợi giá xăng?",
+       "goc": "Giá năng lượng thế giới tăng cao và độ trễ phản ánh vào chi phí sinh hoạt.",
+       "giay": 50,
+       "loi_thoai": "Giá dầu thô Brent thế giới vừa chạm mốc gần 106 USD một thùng, tăng hơn 5,6% chỉ trong vòng 5 phiên vừa qua. Nhiều anh chị nghĩ giá dầu tăng thì cổ phiếu dầu khí trong nước sẽ tăng vọt, nhưng hôm nay cổ phiếu GAS hay BSR lại quay đầu giảm từ 1 đến 2%. Tại sao lại như vậy? Vì giá hàng hóa thế giới tăng chỉ tác động ngay tức thì đến kỳ vọng lạm phát và chi phí vận tải, còn lợi nhuận doanh nghiệp thì cần độ trễ vài quý để kiểm chứng. Khi giá dầu thô leo sát đỉnh 3 tháng ở 108,7 USD, thứ phản ánh nhanh nhất vào đời sống chính là giá xăng dầu trong các kỳ điều hành tới, kéo theo cước vận chuyển và giá hàng tiêu dùng nhích lên. Để ý gì tiếp theo? Theo dõi xem giá dầu có vượt đỉnh 108,7 USD không, vì đó là ngưỡng tâm lý sẽ kích hoạt áp lực lạm phát toàn cầu đấy nhé.",
+       "du_lieu_dung": [
+        "Dầu Brent giá 105,97 USD/thùng",
+        "Tăng 5,63% trong 5 phiên",
+        "Đỉnh 3 tháng ở mức 108,75 USD/thùng"
+       ]
+      }
+     ]
+    },
+    "du_bao_moi": [
+     {
+      "doi_tuong": "VNINDEX",
+      "loai": "giu",
+      "moc": 1701.14,
+      "han_phien": 5,
+      "loai_moc": "QS",
+      "noi_dung": "VN-Index giữ được mốc cấu trúc 1.701,14 điểm trong 5 phiên tới."
+     },
+     {
+      "doi_tuong": "HPG",
+      "loai": "giu",
+      "moc": 20.1,
+      "han_phien": 5,
+      "loai_moc": "QS",
+      "noi_dung": "HPG giữ được hỗ trợ 20,1 trong 5 phiên tới."
+     },
+     {
+      "doi_tuong": "VPB",
+      "loai": "giu",
+      "moc": 22.83,
+      "han_phien": 5,
+      "loai_moc": "QS",
+      "noi_dung": "VPB giữ được đường MA20 tại 22,83 trong 5 phiên tới."
+     },
+     {
+      "doi_tuong": "NKG",
+      "loai": "giu",
+      "moc": 9.3,
+      "han_phien": 5,
+      "loai_moc": "CAN",
+      "noi_dung": "NKG giữ được chân nến phát động 9,3 trong 5 phiên tới."
+     }
+    ],
+    "model": "gemini-3.7-flash"
+   },
+   "ai": {
+    "models": [
+     "gemini-3.1-pro-preview",
+     "gemini-3.8-flash",
+     "gemini-3.7-flash",
+     "gemini-3.6-flash"
+    ],
+    "so_luot": 1,
+    "token_vao": 67652,
+    "token_ra": 8265,
+    "nhat_ky": [
+     "11:52:07 gemini-3.1-pro-preview 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+     "11:52:14 gemini-3.8-flash 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+     "11:53:18 gemini-3.7-flash 57s — ok, ra 8265 token"
+    ]
+   }
+  }
+ ],
  "trang_thai_chay": "mot_phan",
  "ai": {
   "models": [

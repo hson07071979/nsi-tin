@@ -103,7 +103,7 @@ const $=s=>document.querySelector(s), esc=s=>String(s==null?'':s).replace(/[&<>"
 let D=null, banOn=0, cho=null;
 const TT={dat:'Đạt',mot_phan:'Một phần',loi_ai:'Lỗi AI',dry:'Chạy thử',khong_phien:'Không có phiên',dang_chay:'Đang chạy'};
 const so=(x,n=1)=>x==null?'—':Number(x).toLocaleString('vi-VN',{maximumFractionDigits:n});
-const linkMa=s=>s.replace(/\\b([A-Z]{3})\\b/g,(m)=>(D&&D.fc&&maSet().has(m))?'<a href="/index.html?ma='+m+'#bieudo" target="_blank">'+m+'</a>':m);
+const linkMa=s=>s.replace(/(^|[^\\/\\w])([A-Z]{3})(?![\\w\\/])/g,(all,a,m)=>(D&&D.fc&&maSet().has(m))?a+'<a href="/index.html?ma='+m+'#bieudo" target="_blank">'+m+'</a>':all);
 function maSet(){const s=new Set();Object.values((D.fc||{}).ma_theo_nhom||{}).forEach(a=>a.forEach(r=>s.add(r.ma)));return s}
 async function j(u,o){const r=await fetch(u,o);const t=await r.json().catch(()=>({loi:'trả về không phải JSON'}));if(!r.ok)throw new Error(t.loi||r.status);return t}
 async function napNgay(){try{const ix=await j('/daily/index');$('#ngay').innerHTML=ix.map(x=>'<option value="'+x.ngay+'">'+x.ngay+' · '+(TT[x.trang_thai_chay]||x.trang_thai_chay)+(x.so_lan_viet_lai?' · '+x.so_lan_viet_lai+' lần viết lại':'')+'</option>').join('')}catch(e){}}

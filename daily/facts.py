@@ -84,7 +84,9 @@ def sector_table(prices: dict, ratios: dict, sector: dict, fstocks: dict) -> lis
 def collect(today: date, cfg: dict, log: list[str]) -> dict:
     t = today.isoformat()
     idx_days = sources.vnindex_days(sources.days_ago(today, 50))
-    if not idx_days or idx_days[0]["date"] != t:
+    if not idx_days:
+        return {"loi_nguon": True, "ngay": t}
+    if idx_days[0]["date"] != t:
         return {"khong_phien": True, "ngay": t, "phien_gan_nhat": idx_days[0]["date"] if idx_days else None}
     s0 = idx_days[0]
     prev_session = idx_days[1]["date"] if len(idx_days) > 1 else None

@@ -67,6 +67,7 @@ class GeminiDaily(Gemini):
                     status_code = r.status_code
                     text = r.text
                 return r.status_code, "", {}, None, _E()
+            r.encoding = "utf-8"               # SSE không ghi charset → requests mặc định latin-1 → hỏng dấu
             parts, usage, fin = [], {}, None
             t_end = time.time() + 600
             for line in r.iter_lines(decode_unicode=True):
@@ -178,7 +179,7 @@ def check_script(script: dict) -> list[str]:
     if not isinstance(script, dict) or not script.get("phan"):
         return ["thiếu lời thoại"]
     n = _so_chu(script)
-    if n < 1800:
+    if n < 2400:
         loi.append(f"lời thoại ngắn ({n} chữ, cần ~3.000 cho 20 phút)")
     tk = script.get("tiktok") or []
     if len(tk) < 3:

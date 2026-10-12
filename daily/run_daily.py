@@ -23,8 +23,20 @@ from . import forecast, prompts, sources
 OUT = ROOT / "out" / "daily"
 
 
+def _co_phien_hom_nay(today: str) -> bool | None:
+    """dchart cập nhật nến VN-Index ngay trong phiên → hôm nay không có nến = ngày nghỉ.
+    None = không hỏi được (mạng hỏng) — không kết luận."""
+    b = sources.dchart("VNINDEX", days=5)
+    if not b:
+        return None
+    return b[-1]["d"] == today
+
+
 def _cho_du_lieu(today: str, phut: int, nhip: int, log: list[str]) -> None:
     """Chờ VNDirect công bố đủ phiên (chỉ số + khối ngoại). Hết giờ thì chạy với phần đã có."""
+    if _co_phien_hom_nay(today) is False:
+        log.append("dchart không có nến VN-Index hôm nay → ngày nghỉ, không chờ")
+        return
     han = time.time() + phut * 60
     while True:
         d = sources.vnindex_days(today)
@@ -66,7 +78,7 @@ def chay(a, cfg: dict) -> int:
     today = now.date().isoformat()
     log: list[str] = []
     cur = read_json(OUT / f"{today}.json", None)
-    if a.gac and cur and cur.get("trang_thai_chay") in ("dat", "mot_phan", "khong_phien"):
+    if a.gac and cur and cur.get("trang_thai_chay") in ("dat", "mot_phan"):
         print(f"GÁC: {today} đã có bản ({cur['trang_thai_chay']}) — thoát.")
         return 0
     if now.weekday() >= 5 and not a.ep:
@@ -77,6 +89,12 @@ def chay(a, cfg: dict) -> int:
 
     print("1) Dựng FACT")
     fct = F.collect(now.date(), cfg, log)
+    if fct.get("loi_nguon"):
+        res = {"ngay": today, "trang_thai_chay": "loi_du_lieu", "xong_luc": iso(now_vn()), "nhat_ky": log[-40:],
+               "ghi_chu": "Không đọc được VN-Index từ VNDirect (mạng/nguồn hỏng). Lần gác sau sẽ thử lại."}
+        _ghi(today, res)
+        print(res["ghi_chu"])
+        return 2
     if fct.get("khong_phien"):
         res = {"ngay": today, "trang_thai_chay": "khong_phien", "xong_luc": iso(now_vn()),
                "ghi_chu": f"Không có phiên hôm nay (phiên gần nhất {fct.get('phien_gan_nhat')}) — nghỉ lễ hoặc VNDirect chưa có số."}
@@ -115,6 +133,9 @@ def chay(a, cfg: dict) -> int:
             res["trang_thai_chay"] = "dat" if len(sach) == 2 else "mot_phan" if ok else "loi_ai"
         except GeminiError as e:
             res["ai"] = {"loi": str(e)[:300]}
+            res["trang_thai_chay"] = "loi_ai"
+        except Exception as e:  # noqa: BLE001 — lỗi lạ vẫn phải ghi ra trang, không im lặng
+            res["ai"] = {"loi": f"{type(e).__name__}: {str(e)[:300]}"}
             res["trang_thai_chay"] = "loi_ai"
     forecast.save(so_rows)
     res["so_du_bao"]["vua_cham_hom_nay"] = vua_cham or res["so_du_bao"]["vua_cham_hom_nay"]

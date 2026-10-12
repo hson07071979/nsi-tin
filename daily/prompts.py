@@ -142,9 +142,11 @@ KHUON_SCRIPT = {
 }
 
 YEU_CAU_SCRIPT = """YÊU CẦU LỜI THOẠI:
-- Video YouTube khoảng 20 phút ≈ 3.000–3.400 chữ lời thoại. Phân bổ gợi ý: Hook 0,5' · Đối chiếu dự báo 0,5' (bỏ nếu sổ
-  trống) · Thế giới 2' · Thị trường VN 3' · Index thật sự 1,5' · Bản đồ kỹ thuật 2' · Quét ngành 7' (nhiều mã, nhịp nhanh) ·
-  Mã đáng nói 2,5' (2–3 mã làm rõ câu chuyện ngày) · Regime và phiên tới 1' · Chào ngắn.
+- Video YouTube khoảng 20 phút → TỔNG LỜI THOẠI TỐI THIỂU 3.000 CHỮ (mục tiêu 3.000–3.400). Viết đủ độ dài từng phần:
+  Hook ~80 chữ · Đối chiếu dự báo ~80 chữ (bỏ nếu sổ trống) · Thế giới ~300 chữ · Thị trường VN ~450 chữ ·
+  Index thật sự ~220 chữ · Bản đồ kỹ thuật ~300 chữ · Quét ngành ~1.100 chữ (đi qua MỌI nhóm trong rổ, nhóm nào cũng ít
+  nhất 1–2 câu; nhóm có chuyện thì 3–6 mã) · Mã đáng nói ~400 chữ (2–3 mã làm rõ câu chuyện ngày) ·
+  Regime và phiên tới ~150 chữ · Chào ~30 chữ. Lời thoại ngắn hơn 2.400 chữ là KHÔNG ĐẠT.
 - Hook là MỘT câu hỏi trung tâm lấy từ chỗ Index / Cổ phiếu / Dòng tiền lệch nhau, có số chống lưng.
 - Phần cuối nhắc lại mốc chính + điều gì củng cố / làm yếu / xác nhận / vô hiệu cho phiên tới.
 - 3 clip TikTok 45–60 giây: tài chính ĐỜI THƯỜNG, rộng hơn chứng khoán, người không chơi chứng khoán vẫn thấy liên quan

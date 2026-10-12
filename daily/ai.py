@@ -97,9 +97,10 @@ class GeminiDaily(Gemini):
             return {"thinkingBudget": {"low": 1024, "medium": 4096, "high": 8192}.get(lv, 4096)}
         return {}
 
-    def json(self, system: str, prompt: str, *, temperature: float = 0.4, max_out: int = 8192) -> dict:  # noqa: C901
+    def json(self, system: str, prompt: str, *, temperature: float = 0.4, max_out: int = 8192,  # noqa: C901
+             models: list[str] | None = None) -> dict:
         errs: dict[str, str] = {}
-        for model in [m for m in self.models if m not in self.chet]:
+        for model in [m for m in (models or self.models) if m not in self.chet]:
             gen = {"temperature": temperature, "maxOutputTokens": 65536, "responseMimeType": "application/json"}
             th = self._thinking(model)
             if th and model not in self.no_thinking_cfg:
@@ -163,6 +164,28 @@ class GeminiDaily(Gemini):
         line = f"{time.strftime('%H:%M:%S')} {model} {round(time.time() - t0)}s — {msg}"
         self.nhat_ky.append(line)
         print("  [gemini]", line, flush=True)
+
+
+def tang_model(g: GeminiDaily) -> tuple[list[str], list[str]]:
+    """(13/10) Sơn chốt: LỜI THOẠI phải do model tốt nhất viết. Model "tốt" = bản pro (nếu có hạn mức) + 2 bản flash
+    (không lite) có số phiên bản cao nhất. Trả (tot, du_phong)."""
+    flash = [m for m in g.models if "-pro" not in m and "lite" not in m]
+    pro = [m for m in g.models if "-pro" in m]
+    tot = pro + flash[:2]
+    return tot, [m for m in g.models if m not in tot]
+
+
+def thu_tu_phan_tich(g: GeminiDaily) -> list[str]:
+    """Bước phân tích dùng model tốt thứ 2 trước, để lượt của model tốt nhất dành cho lời thoại."""
+    tot, du = tang_model(g)
+    flash_tot = [m for m in tot if "-pro" not in m]
+    if len(flash_tot) >= 2:
+        return [flash_tot[1], flash_tot[0]] + du
+    return tot + du
+
+
+def con_model_tot(g: GeminiDaily) -> bool:
+    return any(m not in g.chet for m in tang_model(g)[0] if "-pro" not in m)
 
 
 def new_client() -> GeminiDaily:
@@ -267,7 +290,7 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
             can_sua.append({"ten": p.get("ten"), "ly_do": "; ".join(ly), "loi_thoai_cu": p.get("loi_thoai")})
     if not can_sua:
         return script
-    g.muc_nghi = "low"
+    g.muc_nghi = "medium"
     khuon = {"phan": [{"ten": "giữ đúng tên phần", "loi_thoai": "lời thoại mới đầy đủ", "chen_hinh": ""}]}
     p = (f"Các PHẦN lời thoại dưới đây chưa đạt. Viết lại ĐÚNG các phần này (giữ tên phần), đủ độ dài yêu cầu, cùng giọng, "
          f"không lặp ý các phần khác. Quét ngành thì đi qua mọi nhóm trong rổ, nhóm có chuyện thì nhiều mã hơn. "
@@ -275,7 +298,7 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
          f"PHẦN CẦN SỬA: {prompts._j(can_sua)}\nFACT: {prompts._j(fc)}\n{prompts.MAU_GIONG}\n"
          f"Trả JSON đúng khuôn: {prompts._j(khuon)}")
     try:
-        out = g.json(prompts.LUAT, p, temperature=0.7)
+        out = g.json(prompts.LUAT, p, temperature=0.7, models=tang_model(g)[0])
     except GeminiError:
         return script
     moi = {str(x.get("ten", "")).strip().lower(): x for x in out.get("phan") or [] if x.get("loi_thoai")}
@@ -323,7 +346,7 @@ def cach_1_luot(g: GeminiDaily, fc: dict, so: dict) -> dict:
     res: dict = {"cach": "cach_1_luot", "loi": []}
     g.muc_nghi = None
     try:
-        out = g.json(prompts.LUAT, prompts.prompt_mot_luot(fc, so), temperature=0.65)
+        out = g.json(prompts.LUAT, prompts.prompt_mot_luot(fc, so), temperature=0.65, models=tang_model(g)[0])
     except GeminiError as e:
         res["loi"].append(str(e)[:300])
         return res
@@ -376,9 +399,10 @@ def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30, cach: list[str] | 
         if g and con_luot(g):
             g.muc_nghi = None
             try:
-                pt = g.json(prompts.LUAT, prompts.prompt_phan_tich(fc, so), temperature=0.4)
+                pt = g.json(prompts.LUAT, prompts.prompt_phan_tich(fc, so), temperature=0.4, models=thu_tu_phan_tich(g))
                 b["loi"] += check_phan_tich(pt)
                 b["model"] = pt.get("_model")
+                b["model_phan_tich"] = pt.get("_model")
             except GeminiError as e:
                 b["loi"].append(f"AI phân tích hỏng: {str(e)[:200]}")
         if not pt:
@@ -389,9 +413,19 @@ def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30, cach: list[str] | 
                                 + (f" ({loi_khoi_tao})" if g is None else ""))
         b["phan_tich"] = pt or {}
         if pt and g and con_luot(g):
-            g.muc_nghi = "low"
+            g.muc_nghi = "medium"              # 13/10: lời thoại cần câu chữ tốt → nghĩ vừa, model tốt nhất
+            tot, du = tang_model(g)
             try:
-                sc = g.json(prompts.LUAT, prompts.prompt_script_tu_phan_tich(fc, so, pt), temperature=0.75)
+                try:
+                    sc = g.json(prompts.LUAT, prompts.prompt_script_tu_phan_tich(fc, so, pt), temperature=0.75, models=tot)
+                except GeminiError:
+                    if not con_luot(g, 8):
+                        raise
+                    sc = g.json(prompts.LUAT, prompts.prompt_script_tu_phan_tich(fc, so, pt), temperature=0.75, models=du)
+                    b["loi"].append(f"Lời thoại viết bằng model dự phòng {sc.get('_model')} vì các model tốt "
+                                    f"({', '.join(m for m in tot if '-pro' not in m)}) đã hết lượt hôm nay — câu chữ sẽ kém hơn")
+                b["model"] = sc.get("_model")
+                b["model_loi_thoai"] = sc.get("_model")
                 sc = lam_sach(sc)
                 loi = check_script(sc)
                 if loi and con_luot(g, 8):
@@ -408,7 +442,7 @@ def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30, cach: list[str] | 
     # ---- UT3
     # bản thứ hai chỉ chạy khi chắc còn lượt: không model flash nào bị báo hết hạn mức trong lần chạy này
     co_ban_script = any((b.get("script") or {}).get("phan") for b in ket)
-    if "cach_1_luot" in ds and g and con_luot(g, 10) and (g.bi_429 == 0 or not co_ban_script):
+    if "cach_1_luot" in ds and g and con_luot(g, 10) and con_model_tot(g) and (g.bi_429 == 0 or not co_ban_script):
         ket.append(cach_1_luot(g, fc, so))
     elif "cach_1_luot" in ds and co_ban_script:
         pass                                   # đã có 1 bản đủ lời thoại → im lặng bỏ bản so sánh cho đỡ lượt
@@ -432,8 +466,15 @@ def viet_lai(fc: dict, so: dict, view: str, pt_cu: dict | None) -> tuple[dict, d
     g = new_client()
     g.han = time.time() + 25 * 60
     res: dict = {"loi": []}
+    g.muc_nghi = "medium"
+    tot, du = tang_model(g)
     try:
-        out = g.json(prompts.LUAT, prompts.prompt_viet_lai(fc, so, view, pt_cu), temperature=0.65)
+        try:
+            out = g.json(prompts.LUAT, prompts.prompt_viet_lai(fc, so, view, pt_cu), temperature=0.65, models=tot)
+        except GeminiError:
+            out = g.json(prompts.LUAT, prompts.prompt_viet_lai(fc, so, view, pt_cu), temperature=0.65, models=du)
+            res["loi"].append(f"Viết lại bằng model dự phòng {out.get('_model')} vì các model tốt đã hết lượt hôm nay "
+                              f"— câu chữ sẽ kém hơn; nên viết lại sau 14:00 hôm sau")
     except GeminiError as e:
         res["loi"].append(str(e)[:300])
         return res, {"so_luot": g.calls, "nhat_ky": g.nhat_ky[-30:]}

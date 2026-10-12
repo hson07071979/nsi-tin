@@ -153,3 +153,45 @@ def test_tin_tho_du_phong_ban_tin_sang():
     usd = next(t for t in tab["topics"] if "USD" in t["tieu_de"])
     assert len(usd["item_ids"]) == 2 and usd["nguon"][0]["url"]
     assert tab["tin_tho"] and "429" in tab["loi"]
+
+
+def test_loi_thoai_do_model_tot_nhat_viet(monkeypatch):
+    """13/10: phân tích → model tốt thứ 2; lời thoại → model tốt nhất; model tốt hết lượt → dự phòng + cảnh báo."""
+    from daily import ai as A
+
+    def lam(het_tot: bool):
+        g = A.GeminiDaily.__new__(A.GeminiDaily)
+        g.models = ["gemini-3.1-pro-preview", "gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.6-flash",
+                    "gemini-3.8-flash-lite"]
+        g.chet, g.nhat_ky, g.han, g.bi_429, g.calls, g.tokens_in, g.tokens_out = set(), [], None, 0, 0, 0, 0
+        goi = []
+
+        def fake_json(system, prompt, *, temperature=0.4, max_out=8192, models=None):
+            ds = [m for m in (models or g.models) if m not in g.chet]
+            if het_tot:
+                for m in ("gemini-3.1-pro-preview", "gemini-3.8-flash", "gemini-3.7-flash"):
+                    g.chet.add(m)
+                ds = [m for m in ds if m not in g.chet]
+            if not ds:
+                raise A.GeminiError("hết lượt")
+            goi.append(ds[0])
+            if len(goi) == 1:
+                return {"_model": ds[0], "signature": 1, "ky_thuat_chi_so": 1, "regime": 1, "nganh": [1],
+                        "luan_diem_chinh": [1], "phien_toi": 1}
+            return {"_model": ds[0], "phan": [{"ten": "Hook", "loi_thoai": "chữ " * 3100}], "tiktok": [{}, {}, {}]}
+        g.json = fake_json
+        return g, goi
+
+    g, goi = lam(False)
+    monkeypatch.setattr(A, "new_client", lambda: g)
+    ket, _ = A.chay_hai_ban({"ngay": "2026-10-13"}, {}, cach=["cach_2_buoc"])
+    assert goi[0] == "gemini-3.7-flash"                   # phân tích: model tốt thứ 2
+    assert goi[1] == "gemini-3.1-pro-preview"             # lời thoại: tầng tốt (pro → 3.8 → 3.7)
+    assert ket[0]["model_loi_thoai"] == goi[1] and not any("dự phòng" in x for x in ket[0]["loi"])
+
+    g, goi = lam(True)
+    monkeypatch.setattr(A, "new_client", lambda: g)
+    ket, _ = A.chay_hai_ban({"ngay": "2026-10-13"}, {}, cach=["cach_2_buoc", "cach_1_luot"])
+    assert ket[0]["model_loi_thoai"] == "gemini-3.6-flash"
+    assert any("dự phòng" in x for x in ket[0]["loi"])
+    assert len(ket) == 1                                   # hết model tốt → không chạy bản 2 bằng model kém

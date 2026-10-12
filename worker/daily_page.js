@@ -91,7 +91,7 @@ const DAILY_HTML = `<!doctype html><html lang="vi"><head><meta charset="utf-8">
 .tabs{display:flex;gap:6px;flex-wrap:wrap;margin:12px 0}.tabs button{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:6px 12px;font:inherit;cursor:pointer}
 .tabs button.on{background:var(--acc);border-color:var(--acc);color:#fff}
 .sec{border-left:3px solid var(--acc);padding:2px 0 2px 12px;margin:14px 0}.sec .h{font-weight:650}.sec .hinh{font-size:12.5px;color:var(--mut);font-style:italic;margin-top:4px}
-.loi{white-space:pre-wrap}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
+.loi{white-space:pre-wrap}b.ma{color:var(--acc);background:var(--chip);padding:0 4px;border-radius:4px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px}
 table{border-collapse:collapse;width:100%;font-size:13.5px}td,th{border-bottom:1px solid var(--line);padding:5px 6px;text-align:left;vertical-align:top}
 textarea{width:100%;min-height:110px;border:1px solid var(--line);border-radius:8px;padding:10px;font:inherit;background:var(--card);color:var(--ink)}
 .btn{border:0;background:var(--acc);color:#fff;border-radius:8px;padding:8px 14px;font:inherit;cursor:pointer}.btn.g{background:var(--chip);color:var(--ink)}
@@ -111,7 +111,7 @@ const $=s=>document.querySelector(s), esc=s=>String(s==null?'':s).replace(/[&<>"
 let D=null, banOn=0, cho=null;
 const TT={dat:'Đạt',mot_phan:'Một phần',chi_so_lieu:'Chỉ có phân tích số liệu',loi_du_lieu:'Lỗi nguồn dữ liệu',loi_ai:'Lỗi AI',dry:'Chạy thử',khong_phien:'Không có phiên',dang_chay:'Đang chạy'};
 const so=(x,n=1)=>x==null?'—':Number(x).toLocaleString('vi-VN',{maximumFractionDigits:n});
-const linkMa=s=>s.replace(/(^|[^\\/\\w])([A-Z]{3})(?![\\w\\/])/g,(all,a,m)=>(D&&D.fc&&maSet().has(m))?a+'<a href="/index.html?ma='+m+'#bieudo" target="_blank">'+m+'</a>':all);
+const linkMa=s=>s.replace(/(^|[^\\/\\w])([A-Z]{3})(?![\\w\\/])/g,(all,a,m)=>(D&&D.fc&&maSet().has(m))?a+'<b class="ma">'+m+'</b>':all);
 function maSet(){const s=new Set();Object.values((D.fc||{}).ma_theo_nhom||{}).forEach(a=>a.forEach(r=>s.add(r.ma)));return s}
 async function j(u,o){const r=await fetch(u,o);const t=await r.json().catch(()=>({loi:'trả về không phải JSON'}));if(!r.ok)throw new Error(t.loi||r.status);return t}
 async function napNgay(){try{const ix=await j('/daily/index');$('#ngay').innerHTML=ix.map(x=>'<option value="'+x.ngay+'">'+x.ngay+' · '+(TT[x.trang_thai_chay]||x.trang_thai_chay)+(x.so_lan_viet_lai?' · '+x.so_lan_viet_lai+' lần viết lại':'')+'</option>').join('')}catch(e){}}
@@ -125,7 +125,7 @@ return '<h3>'+esc(sc.tieu_de_youtube||'')+'</h3><div class="mut">~'+chu+' chữ 
 +sc.phan.map(p=>'<div class="sec"><div class="h">'+esc(p.ten)+(p.phut?' <span class="mut">· '+esc(p.phut)+"'</span>":'')+'</div><div class="loi">'+linkMa(esc(p.loi_thoai))+'</div>'+(p.chen_hinh?'<div class="hinh">Chèn hình: '+esc(p.chen_hinh)+'</div>':'')+'</div>').join('')
 +'<h2>3 clip TikTok</h2><div class="grid">'+(sc.tiktok||[]).map(t=>'<div class="card"><b>'+esc(t.tieu_de)+'</b><div class="mut">'+esc(t.goc||'')+' · '+esc(t.giay||'')+'s</div><div class="loi" style="margin-top:6px">'+esc(t.loi_thoai)+'</div></div>').join('')+'</div>'}
 function phanTich(pt){if(!pt||!Object.keys(pt).length)return'';const kt=pt.ky_thuat_chi_so||{},rg=pt.regime||{};
-const ng=(pt.nganh||[]).map(n=>'<h3>'+esc(n.nhom)+'</h3><p>'+linkMa(esc(n.nhan_dinh||''))+'</p>'+((n.ma||[]).length?'<table><tr><th>Mã</th><th>Cấu trúc</th><th>Mốc theo dõi</th><th>Thủng thì</th><th>Xác nhận</th><th>Định giá</th></tr>'+(n.ma||[]).map(m=>'<tr><td>'+linkMa(esc(m.ma))+'</td><td>'+esc(m.cau_truc)+'</td><td>'+esc(m.moc_theo_doi)+(m.rong_hon_chuan_7?' <span class="warn">(rộng hơn 7%)</span>':'')+'</td><td>'+esc(m.thung_thi)+'</td><td>'+esc(m.xac_nhan)+'</td><td>'+esc(m.dinh_gia)+'</td></tr>').join('')+'</table>':'')).join('');
+const ng=(pt.nganh||[]).map(n=>'<h3>'+esc(n.nhom)+'</h3><p>'+linkMa(esc(n.nhan_dinh||''))+'</p>'+((n.ma||[]).length?'<table><tr><th>Mã</th><th>Cấu trúc</th><th>Mốc theo dõi</th><th>SL</th><th>Mục tiêu</th><th>Thủng thì</th><th>Xác nhận</th><th>Định giá</th></tr>'+(n.ma||[]).map(m=>'<tr><td>'+linkMa(esc(m.ma))+'</td><td>'+esc(m.cau_truc)+'</td><td>'+esc(m.moc_theo_doi)+(m.rong_hon_chuan_7?' <span class="warn">(rộng hơn 7%)</span>':'')+'</td><td>'+esc(m.sl==null?'':m.sl)+'</td><td>'+esc(m.muc_tieu==null?'':m.muc_tieu)+'</td><td>'+esc(m.thung_thi)+'</td><td>'+esc(m.xac_nhan)+'</td><td>'+esc(m.dinh_gia)+'</td></tr>').join('')+'</table>':'')).join('');
 return '<details><summary>Bản phân tích 9 tầng</summary>'
 +(pt.signature?'<p><b>Index:</b> '+esc(pt.signature.index_noi_gi)+'<br><b>Cổ phiếu:</b> '+esc(pt.signature.co_phieu_noi_gi)+'<br><b>Dòng tiền:</b> '+esc(pt.signature.dong_tien_noi_gi)+'</p>':'')
 +'<h3>Mốc chính</h3><p><b>'+esc(kt.moc_chinh)+'</b> ('+esc(kt.loai_moc)+') — '+esc(kt.nguon_goc)+'<br>Giữ: '+esc(kt.neu_giu)+'<br>Thủng: '+esc(kt.neu_thung)+'<br>Xác nhận: '+esc(kt.xac_nhan)+' · Vô hiệu: '+esc(kt.vo_hieu)+'</p>'

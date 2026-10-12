@@ -59,8 +59,11 @@ def _ma_row(r: dict) -> dict:
     cach = round((close / sup - 1) * 100, 1) if sup else None
     gay = [x for x in r.get("nen_phat_dong") or [] if x["da_gay"]]
     ct = _cau_truc(r) + (f"; đã gãy chân nến phát động {gay[-1]['ngay']}" if gay else "")
+    sl = round(max(sup, close * 0.93), 2) if sup else round(close * 0.93, 2)       # SL theo mốc, không quá 7%
+    tren = sorted(z["gia"] for z in r.get("khang_cu_gan") or [] if z["gia"] > close * 1.005)
+    muc_tieu = tren[0] if tren else None
     return {
-        "ma": r["ma"], "cau_truc": ct, "moc_theo_doi": sup,
+        "ma": r["ma"], "cau_truc": ct, "moc_theo_doi": sup, "sl": sl, "muc_tieu": muc_tieu,
         "thung_thi": f"về vùng {_f(ke, 2)}" if ke else "chưa có hỗ trợ gần hơn trong dữ liệu",
         "xac_nhan": f"lấy lại MA20 ({_f(r.get('ma20'), 2)})" if (r.get("so_ma20_pct") or 0) < 0 else
                     f"giữ trên MA20 ({_f(r.get('ma20'), 2)}) với khối lượng ≥ trung bình",

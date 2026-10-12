@@ -5,7 +5,8 @@ Nguồn luật: 00_PROJECT_INSTRUCTIONS (9 tầng, nhãn, 6 câu hỏi của m�
 và lựa chọn của anh Sơn ngày 12/10/2026:
   - giọng "nhịp ALV, não NSI": đời thường, câu ngắn, một mốc nhắc đi nhắc lại, quét nhanh nhiều mã, có ví von;
     nhưng mọi nhận định có điều kiện + số liệu, không "chắc chắn", luận chu kỳ là giả thuyết.
-  - mỗi mã: "mốc em theo dõi + thủng thì cấu trúc gãy + ai đang nắm nên có điểm dừng riêng quanh đó" — không ra lệnh.
+  - mỗi mã: mốc theo dõi / SL (≤7%) / mục tiêu theo kháng cự / chốt lời một phần — nói như mức tham chiếu có điều kiện
+    (sửa 12/10 tối: SL, chốt lời, target là bình thường); chỉ cấm hô hào mua/bán, tỷ trọng, margin.
   - xưng "em", gọi người xem "anh chị"; video YouTube ~20 phút; 3 clip TikTok 45–60 giây về tài chính đời thường.
 """
 from __future__ import annotations
@@ -88,9 +89,12 @@ GIỌNG LỜI THOẠI — "nhịp ALV, não NSI":
   - Con số nào cũng kèm ý nghĩa của nó, nhưng không đọc dồn quá 3 con số trong một câu.
   - Câu nối giữa các phần nói vì sao chuyển ("Index thì vậy, nhưng cổ phiếu nói gì?").
   - Mọi nhận định có điều kiện: "nếu giữ được…, còn nếu thủng…". Dùng chữ "thủng", không dùng "vỡ".
-  - Với từng mã: "mốc em theo dõi là X; thủng X thì cấu trúc gãy, anh chị nào đang nắm nên có điểm dừng của mình quanh
-    đó". KHÔNG nói "mua", "bán", "chốt", "cài SL", "giải ngân", không nói tỷ trọng % hay margin. Chỉ nói mức rủi ro
-    của thị trường.
+  - Với từng mã: mốc theo dõi, SL, mục tiêu, chốt lời là chuyện bình thường khi nói với khách (Sơn chốt 12/10/2026) —
+    nói như MỨC THAM CHIẾU CÓ ĐIỀU KIỆN, ví dụ: "mốc em theo dõi là X; thủng X thì cấu trúc gãy, SL quanh X; nếu vượt Y
+    thì mục tiêu gần nhất là Z, anh chị nào đang có lãi có thể chốt lời một phần quanh đó". SL theo mốc kỹ thuật nhưng
+    không quá 7% từ giá đóng cửa; mục tiêu phải là một kháng cự/đỉnh có trong dữ liệu.
+    KHÔNG HÔ HÀO: không "mua ngay", "bán ngay", "múc", "all-in", "nên mua/nên bán", "giải ngân", không nói tỷ trọng %
+    hay margin, không giật tít.
   - Cấm: "chắc chắn", "100%", "thế lực", "gap nào cũng lấp", xác suất tự nghĩ ra, giật tít, quảng cáo nhóm/khóa học,
     câu cửa miệng của kênh khác, nhắc tên kênh/người khác.
   - Nhận định cũ sai thì nói thẳng trên sóng — đó là thứ tạo uy tín.
@@ -123,7 +127,7 @@ KHUON_PHAN_TICH = {
     "ky_thuat_chi_so": {"moc_chinh": "số hoặc vùng", "loai_moc": "CAN|QS", "nguon_goc": "", "vi_sao_thi_truong_nhan_ra": "",
                         "neu_giu": "", "neu_thung": "", "xac_nhan": "", "vo_hieu": "", "ho_tro_ke_tiep": ""},
     "regime": {"ten": "", "co_tien": "có tiền|thiếu tiền", "ung_ho": [""], "phan_bac": [""], "so_voi_den_nsi": ""},
-    "nganh": [{"nhom": "", "nhan_dinh": "1–2 câu", "ma": [{"ma": "", "cau_truc": "", "moc_theo_doi": 0, "thung_thi": "",
+    "nganh": [{"nhom": "", "nhan_dinh": "1–2 câu", "ma": [{"ma": "", "cau_truc": "", "moc_theo_doi": 0, "sl": 0, "muc_tieu": 0, "thung_thi": "",
                                                        "xac_nhan": "", "diem_dung_cach_pct": 0, "rong_hon_chuan_7": False,
                                                        "dinh_gia": "", "nhan": "OBSERVATION|INTERPRETATION|HYPOTHESIS"}]}],
     "xoay_vong": "đoạn ngắn: nền cao vs nhóm đáy, tiền vào đâu, tài chính có xác nhận chỉ số không",

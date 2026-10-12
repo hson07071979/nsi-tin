@@ -55,7 +55,7 @@ def test_forecast_thung_sai():
 
 
 def test_check_script_flags():
-    sc = {"phan": [{"ten": "a", "loi_thoai": "mốc này chắc chắn sẽ giữ, anh chị cài SL ở 27"}], "tiktok": []}
+    sc = {"phan": [{"ten": "a", "loi_thoai": "mốc này chắc chắn sẽ giữ, anh chị nên mua ngay ở 27"}], "tiktok": []}
     loi = ai.check_script(sc)
     assert any("ngắn" in x for x in loi) and any("cụm cấm" in x for x in loi) and any("TikTok" in x for x in loi)
     ok = {"phan": [{"ten": "a", "loi_thoai": "khối ngoại bán ra mạnh. " * 700}], "tiktok": [{}, {}, {}]}
@@ -73,11 +73,11 @@ def test_compact_has_no_key_collision():
 
 
 def test_lam_sach():
-    sc = {"phan": [{"ten": "a", "loi_thoai": "gấp 1,3 lần TB20 (FACT). sổ dự báo hôm qua. cài SL ở 27"}],
+    sc = {"phan": [{"ten": "a", "loi_thoai": "gấp 1,3 lần TB20 (FACT). sổ dự báo hôm qua. SL ở 27"}],
           "tiktok": [{"loi_thoai": "trong dữ liệu FACT có 3 số"}]}
     out = ai.lam_sach(sc)
     t = out["phan"][0]["loi_thoai"]
-    assert "TB20" not in t and "FACT" not in t and "cài SL" not in t and t.startswith("Gấp")
+    assert "TB20" not in t and "FACT" not in t and "SL ở 27" in t and t.startswith("Gấp")
     assert "FACT" not in out["tiktok"][0]["loi_thoai"]
 
 

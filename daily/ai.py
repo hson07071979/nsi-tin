@@ -179,7 +179,7 @@ THAY_CO_DINH = [
     (re.compile(r"\s*\(?\b(FACT|OBSERVATION|INTERPRETATION|HYPOTHESIS|CONFIRMATION)\b\)?:?", re.I), ""),
     (re.compile(r"(trong|theo|từ) (bộ )?dữ liệu FACT", re.I), r"\1 dữ liệu"), (re.compile(r"\bFACT\b"), "dữ liệu"),
     (re.compile(r"sổ dự báo", re.I), "những mốc em đã nói"),
-    (re.compile(r"chắc chắn sẽ", re.I), "nhiều khả năng sẽ"), (re.compile(r"cài SL", re.I), "đặt điểm dừng"),
+    (re.compile(r"chắc chắn sẽ", re.I), "nhiều khả năng sẽ"),
     (re.compile(r"[ \t]{2,}"), " "),
 ]
 
@@ -215,7 +215,7 @@ def check_script(script: dict) -> list[str]:
     if len(tk) < 3:
         loi.append(f"chỉ có {len(tk)} clip TikTok")
     # "khối ngoại mua vào/bán ra" là mô tả hợp lệ nên không cấm; cấm lời khuyên hành động và độ chắc tuyệt đối
-    cam = re.compile(r"(?<!\w)(cài SL|giải ngân|margin|nên mua|nên bán|canh mua|canh bán|nên chốt|chốt ngay)(?!\w)",
+    cam = re.compile(r"(?<!\w)(giải ngân|margin|nên mua|nên bán|mua ngay|bán ngay|all[- ]in|canh mua|canh bán)(?!\w)",
                      re.I)
     for p in script["phan"]:
         m = cam.search(str(p.get("loi_thoai", "")))
@@ -243,7 +243,7 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
     Ra ít chữ hơn viết lại cả bài → nhanh, ít hỏng JSON, đỡ tốn hạn mức. Sắp hết quỹ thời gian thì bỏ qua."""
     if g.han and time.time() > g.han - 6 * 60:
         return script
-    cam = re.compile(r"(?<!\w)(cài SL|giải ngân|margin|nên mua|nên bán|canh mua|canh bán|nên chốt|chốt ngay)(?!\w)",
+    cam = re.compile(r"(?<!\w)(giải ngân|margin|nên mua|nên bán|mua ngay|bán ngay|all[- ]in|canh mua|canh bán)(?!\w)",
                      re.I)
     can_sua = []
     for p in script.get("phan") or []:
@@ -253,7 +253,7 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
         if mt and n < 0.7 * mt:
             ly.append(f"mới {n} chữ, cần khoảng {mt} chữ")
         if cam.search(str(p.get("loi_thoai", ""))):
-            ly.append("có cụm cấm (khuyên mua/bán/SL/chắc chắn)")
+            ly.append("có câu hô hào mua/bán hoặc nói tỷ trọng/margin")
         if ly:
             can_sua.append({"ten": p.get("ten"), "ly_do": "; ".join(ly), "loi_thoai_cu": p.get("loi_thoai")})
     if not can_sua:
@@ -262,7 +262,7 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
     khuon = {"phan": [{"ten": "giữ đúng tên phần", "loi_thoai": "lời thoại mới đầy đủ", "chen_hinh": ""}]}
     p = (f"Các PHẦN lời thoại dưới đây chưa đạt. Viết lại ĐÚNG các phần này (giữ tên phần), đủ độ dài yêu cầu, cùng giọng, "
          f"không lặp ý các phần khác. Quét ngành thì đi qua mọi nhóm trong rổ, nhóm có chuyện thì nhiều mã hơn. "
-         f"Thay cụm cấm bằng 'mốc em theo dõi + ai đang nắm nên có điểm dừng riêng'. Số liệu chỉ lấy từ FACT.\n"
+         f"Thay câu hô hào bằng mức tham chiếu có điều kiện (mốc theo dõi / SL / mục tiêu). Số liệu chỉ lấy từ FACT.\n"
          f"PHẦN CẦN SỬA: {prompts._j(can_sua)}\nFACT: {prompts._j(fc)}\n{prompts.MAU_GIONG}\n"
          f"Trả JSON đúng khuôn: {prompts._j(khuon)}")
     try:

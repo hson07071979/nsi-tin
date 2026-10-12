@@ -199,19 +199,55 @@ def check_phan_tich(pt: dict) -> list[str]:
     return [f"phân tích thiếu '{k}'" for k in need if not (pt or {}).get(k)]
 
 
+MUC_TIEU_CHU = [("hook", 80), ("đối chiếu", 80), ("thế giới", 300), ("thị trường việt nam", 450), ("index", 220),
+                ("bản đồ", 300), ("quét ngành", 1100), ("mã đáng nói", 400), ("regime", 150)]
+
+
+def _muc_tieu(ten: str) -> int | None:
+    t = (ten or "").lower()
+    return next((n for k, n in MUC_TIEU_CHU if k in t), None)
+
+
 def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
-    """Một lượt sửa khi lời thoại hụt chữ / dính cụm cấm. Sắp hết quỹ thời gian thì bỏ qua."""
+    """Sửa có chọn lọc: chỉ viết lại các PHẦN hụt chữ hoặc dính cụm cấm, rồi ghép vào bản cũ.
+    Ra ít chữ hơn viết lại cả bài → nhanh, ít hỏng JSON, đỡ tốn hạn mức. Sắp hết quỹ thời gian thì bỏ qua."""
     if g.han and time.time() > g.han - 6 * 60:
         return script
+    cam = re.compile(r"(?<!\w)(chắc chắn sẽ|100%|cài SL|giải ngân|margin|chốt lời|nên mua|nên bán|canh mua|canh bán)(?!\w)",
+                     re.I)
+    can_sua = []
+    for p in script.get("phan") or []:
+        n = len(str(p.get("loi_thoai", "")).split())
+        mt = _muc_tieu(p.get("ten", ""))
+        ly = []
+        if mt and n < 0.7 * mt:
+            ly.append(f"mới {n} chữ, cần khoảng {mt} chữ")
+        if cam.search(str(p.get("loi_thoai", ""))):
+            ly.append("có cụm cấm (khuyên mua/bán/SL/chắc chắn)")
+        if ly:
+            can_sua.append({"ten": p.get("ten"), "ly_do": "; ".join(ly), "loi_thoai_cu": p.get("loi_thoai")})
+    if not can_sua:
+        return script
     g.muc_nghi = "low"
-    p = (f"Lời thoại dưới đây chưa đạt: {'; '.join(loi)}.\nSửa lại cho đạt (giữ nội dung, viết dài đủ ~3.000 chữ nếu thiếu, "
-         f"thay cụm cấm bằng cách nói mốc theo dõi + điểm dừng riêng). Số liệu chỉ lấy từ FACT.\n"
-         f"LỜI THOẠI: {prompts._j(script)}\nFACT: {prompts._j(fc)}\nTrả JSON đúng khuôn: {prompts._j(prompts.KHUON_SCRIPT)}")
+    khuon = {"phan": [{"ten": "giữ đúng tên phần", "loi_thoai": "lời thoại mới đầy đủ", "chen_hinh": ""}]}
+    p = (f"Các PHẦN lời thoại dưới đây chưa đạt. Viết lại ĐÚNG các phần này (giữ tên phần), đủ độ dài yêu cầu, cùng giọng, "
+         f"không lặp ý các phần khác. Quét ngành thì đi qua mọi nhóm trong rổ, nhóm có chuyện thì nhiều mã hơn. "
+         f"Thay cụm cấm bằng 'mốc em theo dõi + ai đang nắm nên có điểm dừng riêng'. Số liệu chỉ lấy từ FACT.\n"
+         f"PHẦN CẦN SỬA: {prompts._j(can_sua)}\nFACT: {prompts._j(fc)}\n{prompts.MAU_GIONG}\n"
+         f"Trả JSON đúng khuôn: {prompts._j(khuon)}")
     try:
-        out = g.json(prompts.LUAT, p, temperature=0.6)
-        return out if out.get("phan") else script
+        out = g.json(prompts.LUAT, p, temperature=0.7)
     except GeminiError:
         return script
+    moi = {str(x.get("ten", "")).strip().lower(): x for x in out.get("phan") or [] if x.get("loi_thoai")}
+    sc = dict(script)
+    sc["phan"] = []
+    for ph in script.get("phan") or []:
+        x = moi.get(str(ph.get("ten", "")).strip().lower())
+        if x and len(str(x["loi_thoai"]).split()) >= len(str(ph.get("loi_thoai", "")).split()) * 0.9:
+            ph = {**ph, "loi_thoai": x["loi_thoai"], **({"chen_hinh": x["chen_hinh"]} if x.get("chen_hinh") else {})}
+        sc["phan"].append(ph)
+    return sc
 
 
 # ------------------------------------------------------------------ hai cách chạy
@@ -262,10 +298,16 @@ def cach_1_luot(g: GeminiDaily, fc: dict, so: dict) -> dict:
     return res
 
 
-def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30) -> tuple[list[dict], dict]:
+CACH = {"cach_2_buoc": cach_2_buoc, "cach_1_luot": cach_1_luot}
+
+
+def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30,
+                 cach: list[str] | None = None) -> tuple[list[dict], dict]:
+    """Chạy các cách trong `cach` (mặc định cả hai để so). Chọn xong một cách thì sửa config/daily.json → 'cach_chay'."""
     g = new_client()
     g.han = time.time() + phut_toi_da * 60
-    ket = [cach_2_buoc(g, fc, so), cach_1_luot(g, fc, so)]
+    ds = [c for c in (cach or list(CACH)) if c in CACH] or list(CACH)
+    ket = [CACH[c](g, fc, so) for c in ds]
     random.shuffle(ket)
     for i, b in enumerate(ket, 1):
         b["nhan"] = f"Bản {i}"

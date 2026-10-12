@@ -41,6 +41,8 @@
   "khong_co_nguon_mien_phi": ["Giá urê", "Giá cao su", "Giá thép xây dựng trong nước"],
   "cho_du_lieu": {"phut_toi_da": 20, "nhip_giay": 60},
   "ai_phut_toi_da": 32,
+  "cach_chay": ["cach_2_buoc", "cach_1_luot"],
+  "_ghi_chu_cach_chay": "Đang chạy cả 2 cách để anh so. Chọn xong thì để lại 1 cách cho đỡ hạn mức Gemini, ví dụ [\"cach_2_buoc\"].",
   "lich_su_phien": 300,
   "ma_noi_bat_toi_da": 10,
   "link_chi_tiet_ma": "/index.html?ma={ma}#bieudo"

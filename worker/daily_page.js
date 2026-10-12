@@ -47,13 +47,21 @@ async function vietLai(req, env, url) {
   // chống gửi chéo trang: chỉ nhận yêu cầu từ chính trang quản trị
   const origin = req.headers.get('Origin') || ''
   if (origin && origin !== url.origin) return jErr(403, 'sai nguồn gửi')
-  if (!env.DAILY_DISPATCH_TOKEN) return jErr(500, 'Worker chưa có DAILY_DISPATCH_TOKEN (Actions: Read and write, repo nsi-tin)')
   let b
   try { b = await req.json() } catch (e) { return jErr(400, 'JSON sai') }
   const view = String(b.view || '').trim().slice(0, 2500)
   const ngay = String(b.ngay || '').trim()
   if (view.length < 10) return jErr(400, 'view quá ngắn')
   if (ngay && !/^\d{4}-\d{2}-\d{2}$/.test(ngay)) return jErr(400, 'ngày sai dạng')
+  // Cách 1 (đang dùng): gọi Worker nsi-dong-ho qua Service binding DONG_HO (entrypoint DaiLyDispatch) — dùng token sẵn có
+  // của đồng hồ ảo, không cần token mới, không có đường công khai.
+  if (env.DONG_HO && typeof env.DONG_HO.vietLai === 'function') {
+    const kq = await env.DONG_HO.vietLai(view, ngay)
+    if (!kq || !kq.ok) return jErr(502, (kq && kq.loi) || 'đồng hồ ảo không trả lời')
+    return new Response(JSON.stringify({ ok: true }), { headers: { 'content-type': 'application/json; charset=utf-8' } })
+  }
+  // Cách 2 (dự phòng): token riêng DAILY_DISPATCH_TOKEN (Actions: Read and write, repo nsi-tin)
+  if (!env.DAILY_DISPATCH_TOKEN) return jErr(500, 'Worker chưa có Service binding DONG_HO (hoặc DAILY_DISPATCH_TOKEN)')
   const repo = env.TIN_REPO || 'hson07071979/nsi-tin'
   const r = await fetch(`https://api.github.com/repos/${repo}/actions/workflows/daily_market.yml/dispatches`, {
     method: 'POST',

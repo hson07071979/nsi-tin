@@ -55,6 +55,7 @@ class GeminiDaily(Gemini):
         self.chet: set[str] = set()
         self.nhat_ky: list[str] = []
         self.han: float | None = None          # mốc giờ (time.time()) phải dừng gọi AI
+        self.bi_429 = 0                        # số lần bị báo hết hạn mức trong lần chạy (model tốt nhất)
 
     def _stream(self, model: str, body: dict):
         """Gọi dạng stream (SSE) để kết nối không bị cắt khi lời thoại dài (bản thường bị ngắt ở ~270 giây).
@@ -143,6 +144,8 @@ class GeminiDaily(Gemini):
                     gen.pop("thinkingConfig", None)
                     continue
                 if r.status_code == 429:
+                    if model != "gemini-2.5-flash" and "-pro" not in model:
+                        self.bi_429 += 1
                     if "PerDay" in r.text or "per day" in r.text.lower() or "limit: 0" in r.text:
                         self.chet.add(model)          # hết hạn mức ngày / không có hạn mức free → bỏ hẳn
                         break
@@ -397,8 +400,12 @@ def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30, cach: list[str] | 
         ket.append(b)
 
     # ---- UT3
-    if "cach_1_luot" in ds and g and con_luot(g, 10):
+    # bản thứ hai chỉ chạy khi chắc còn lượt: không model flash nào bị báo hết hạn mức trong lần chạy này
+    co_ban_script = any((b.get("script") or {}).get("phan") for b in ket)
+    if "cach_1_luot" in ds and g and con_luot(g, 10) and (g.bi_429 == 0 or not co_ban_script):
         ket.append(cach_1_luot(g, fc, so))
+    elif "cach_1_luot" in ds and co_ban_script:
+        pass                                   # đã có 1 bản đủ lời thoại → im lặng bỏ bản so sánh cho đỡ lượt
     elif "cach_1_luot" in ds:
         ket.append({"cach": "cach_1_luot", "loi": ["bỏ qua: hết lượt Gemini hoặc hết quỹ thời gian (đã ưu tiên bản phân tích)"]})
 

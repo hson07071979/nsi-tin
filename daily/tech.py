@@ -46,6 +46,125 @@ def _gom(levels: list[dict], tol: float = 0.015) -> list[dict]:
     return out
 
 
+def _vol_nodes(bars: list[dict], look: int = 120, bins: int = 40) -> list[dict]:
+    """Vùng khối lượng lớn (volume-by-price) từ nến ngày: rải khối lượng mỗi phiên đều trên [thấp, cao],
+    lấy các đỉnh cục bộ của phân bố ≥ 1,3 lần mức trung bình. Đây là nơi nhiều người đã mua/bán → hay thành hỗ trợ/kháng cự."""
+    b = bars[-look:]
+    lo, hi = min(x["l"] for x in b), max(x["h"] for x in b)
+    if hi <= lo:
+        return []
+    step = (hi - lo) / bins
+    hist = [0.0] * bins
+    for x in b:
+        i0 = min(bins - 1, int((x["l"] - lo) / step))
+        i1 = min(bins - 1, int((x["h"] - lo) / step))
+        share = (x["v"] or 0) / (i1 - i0 + 1)
+        for i in range(i0, i1 + 1):
+            hist[i] += share
+    avg = sum(hist) / bins or 1
+    out = []
+    for i in range(bins):
+        left = hist[i - 1] if i else 0
+        right = hist[i + 1] if i < bins - 1 else 0
+        if hist[i] >= 1.3 * avg and hist[i] >= left and hist[i] >= right:
+            out.append({"gia": round(lo + (i + 0.5) * step, 2), "suc": round(hist[i] / avg, 2)})
+    return out
+
+
+def vung_ho_tro_khang_cu(bars: list[dict], close: float, mas: dict, tol: float = 0.015,
+                         extra: list[dict] | None = None) -> tuple[list, list, dict | None]:
+    """Hỗ trợ / kháng cự dạng VÙNG, chấm điểm độ mạnh (Sơn chốt 12/10: phân tích dựa vào hỗ trợ–kháng cự).
+
+    Nguồn gom chung (một đỉnh cũ nằm dưới giá thì thành hỗ trợ — đổi vai):
+      - đỉnh/đáy cục bộ ±3 phiên và ±8 phiên trong 250 phiên (±8 nặng gấp đôi; 60 phiên gần nhất nặng 1,5 lần)
+      - vùng khối lượng lớn 120 phiên
+      - MA50 / MA200 nằm trong vùng thì cộng điểm (hợp lưu)
+    Điểm → độ mạnh 1–5. Mỗi phía trả tối đa 3 vùng gần giá nhất có độ mạnh ≥ 2."""
+    b = bars[-250:]
+    n = len(b)
+    pts = []
+    for w, wt in ((3, 1.0), (8, 2.0)):
+        for i in range(w, n - w):
+            seg = b[i - w:i + w + 1]
+            rec = 1.5 if i >= n - 60 else 1.0
+            if b[i]["l"] == min(x["l"] for x in seg):
+                pts.append({"gia": b[i]["l"], "ngay": b[i]["d"], "loai": "đáy cũ", "w": wt * rec})
+            if b[i]["h"] == max(x["h"] for x in seg):
+                pts.append({"gia": b[i]["h"], "ngay": b[i]["d"], "loai": "đỉnh cũ", "w": wt * rec})
+    for vn in _vol_nodes(bars):
+        pts.append({"gia": vn["gia"], "ngay": "", "loai": "vùng khối lượng lớn", "w": 1.0 + vn["suc"]})
+    # đáy/đỉnh 20 phiên (bắt cả đáy vừa tạo mấy phiên gần đây mà cửa sổ ±w chưa xác nhận)
+    lo20 = min(b[-20:], key=lambda x: x["l"])
+    hi20 = max(b[-20:], key=lambda x: x["h"])
+    pts.append({"gia": lo20["l"], "ngay": lo20["d"], "loai": "đáy 20 phiên", "w": 1.5})
+    pts.append({"gia": hi20["h"], "ngay": hi20["d"], "loai": "đỉnh 20 phiên", "w": 1.5})
+    # chân các cây nến tăng mạnh có khối lượng (nơi tiền vào) — chỉ là MỘT nguồn của vùng hỗ trợ
+    for x in extra or []:
+        pts.append({"gia": x["chan"], "ngay": x["ngay"], "loai": "chân nến tăng mạnh", "w": 1.5})
+    pts.sort(key=lambda x: x["gia"])
+    zones: list[dict] = []
+    for p in pts:
+        z = zones[-1] if zones else None
+        # vùng không được kéo dài quá 2×tol (tránh nối chuỗi thành một vùng khổng lồ)
+        if z and p["gia"] <= z["den"] * (1 + tol) and p["gia"] <= z["tu"] * (1 + 2 * tol):
+            z["den"] = max(z["den"], p["gia"])
+            z["diem"] += p["w"]
+            z["nguon"].add(p["loai"])
+            if p["loai"] != "vùng khối lượng lớn":
+                z["cham"] += 1
+                z["ngay_gan_nhat"] = max(z["ngay_gan_nhat"], p["ngay"])
+        else:
+            zones.append({"tu": p["gia"], "den": p["gia"], "diem": p["w"], "nguon": {p["loai"]},
+                          "cham": 0 if p["loai"] == "vùng khối lượng lớn" else 1, "ngay_gan_nhat": p["ngay"]})
+    for z in zones:
+        for k in ("ma50", "ma200"):
+            m = mas.get(k)
+            if m and z["tu"] * (1 - tol) <= m <= z["den"] * (1 + tol):
+                z["diem"] += 1.5
+                z["nguon"].add(k.upper())
+        z["gia"] = round((z["tu"] + z["den"]) / 2, 2)
+        z["tu"], z["den"] = round(z["tu"], 2), round(z["den"], 2)
+        z["do_manh"] = 1 if z["diem"] < 2.5 else 2 if z["diem"] < 4 else 3 if z["diem"] < 6 else 4 if z["diem"] < 9 else 5
+        z["nguon"] = sorted(z["nguon"])
+        z["cach_pct"] = _pct(close, z["gia"])
+        del z["diem"]
+    # giữ vùng mạnh (≥2 sao); vùng yếu chỉ giữ nếu là vùng gần giá nhất (trong 5%) để không bỏ sót mốc sát chân
+    def chon(ds, gan_truoc):
+        ds = sorted(ds, key=gan_truoc)
+        out = [z for z in ds if z["do_manh"] >= 2]
+        if ds and ds[0] not in out and abs(ds[0]["cach_pct"] or 99) <= 5:
+            out = [ds[0]] + out
+        return out[:3]
+    sup = chon([z for z in zones if z["den"] < close * 0.998], lambda z: -z["gia"])
+    res = chon([z for z in zones if z["tu"] > close * 1.002], lambda z: z["gia"])
+    # vùng đang chứa giá đóng cửa (giá đang "test" vùng này) — báo riêng, không bỏ sót
+    trong = [z for z in zones if z["tu"] <= close * 1.002 and z["den"] >= close * 0.998]
+    vung_dang_test = max(trong, key=lambda z: z["do_manh"]) if trong else None
+    return sup, res, vung_dang_test
+
+
+def bollinger(c: list[float], n: int = 20, k: float = 2.0) -> dict | None:
+    """Dải Bollinger (20, 2): dải BIẾN ĐỘNG động quanh MA20 — dùng bổ trợ, KHÔNG thay hỗ trợ/kháng cự cấu trúc."""
+    if len(c) < n + 120:
+        return None
+    def band(seg):
+        m = mean(seg)
+        sd = (sum((x - m) ** 2 for x in seg) / len(seg)) ** 0.5
+        return m, m + k * sd, m - k * sd
+    m, up, lo = band(c[-n:])
+    bw = (up - lo) / m if m else None
+    hist_bw = []
+    for i in range(len(c) - 120, len(c)):
+        mm, uu, ll = band(c[i - n + 1:i + 1])
+        if mm:
+            hist_bw.append((uu - ll) / mm)
+    rank = sum(1 for x in hist_bw if x <= bw) / len(hist_bw) if hist_bw and bw is not None else None
+    return {"tren": round(up, 2), "giua": round(m, 2), "duoi": round(lo, 2),
+            "pct_b": round((c[-1] - lo) / (up - lo), 2) if up > lo else None,
+            "do_rong_pct": round(bw * 100, 2) if bw is not None else None,
+            "bop_chat": bool(rank is not None and rank <= 0.1)}
+
+
 def launch_candles(bars: list[dict], min_pct: float, look: int = 120, vol_x: float = 1.3) -> list[dict]:
     """Cây nến phát động: tăng >= min_pct với khối lượng >= vol_x × TB20. Chân nến = giá thấp nhất phiên đó."""
     out = []
@@ -99,15 +218,14 @@ def analyse(bars: list[dict], index_bars: list[dict] | None = None, is_index: bo
         hi = max(seg, key=lambda x: x["h"])
         d[f"day_{k}"] = {"gia": lo["l"], "ngay": lo["d"], "cach_pct": _pct(close, lo["l"])}
         d[f"dinh_{k}"] = {"gia": hi["h"], "ngay": hi["d"], "cach_pct": _pct(close, hi["h"])}
-    lows, highs = pivots(bars)
-    sup = [z for z in _gom(lows) if z["den"] < close]
-    res = [z for z in _gom(highs) if z["tu"] > close]
-    d["ho_tro_gan"] = [dict(z, cach_pct=_pct(close, z["gia"])) for z in sorted(sup, key=lambda z: -z["gia"])[:3]]
-    d["khang_cu_gan"] = [dict(z, cach_pct=_pct(close, z["gia"])) for z in sorted(res, key=lambda z: z["gia"])[:3]]
     lc = launch_candles(bars, 1.5 if is_index else 4.0, vol_x=1.1 if is_index else 1.3)
     for x in lc:
         x["da_gay"] = close < x["chan"]
     d["nen_phat_dong"] = lc
+    sup, res, dang = vung_ho_tro_khang_cu(bars, close, {"ma50": d.get("ma50"), "ma200": d.get("ma200")},
+                                          tol=0.008 if is_index else 0.015, extra=lc)
+    d["ho_tro_gan"], d["khang_cu_gan"], d["vung_dang_test"] = sup, res, dang
+    d["bollinger"] = bollinger(c)
     # khoảng trống giá chưa lấp trong 60 phiên (gap xuống/lên)
     gaps = []
     for i in range(max(1, len(bars) - 60), len(bars)):

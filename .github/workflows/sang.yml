@@ -36,6 +36,7 @@ jobs:
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GEMINI_RPM: "8"
+          GEMINI_DE_DANH_CHIEU: "1"
           DEBATE_CHE_DO: "gon"
           NSI_THRESHOLDS_URL: ${{ secrets.NSI_THRESHOLDS_URL }}
           NSI_PORTFOLIO_URL: ${{ secrets.NSI_PORTFOLIO_URL }}

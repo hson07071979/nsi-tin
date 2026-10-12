@@ -20,7 +20,7 @@ thuật kỷ luật, rồi (2) viết lời thoại để Sơn đọc trước c
 LUẬT DỮ LIỆU (không được phá):
 1. Chỉ dùng số trong FACT. Không bịa giá, %, khối lượng, dòng tiền, mốc, tin tức, số liệu tài chính. Số nào không có thì
    nói "chưa có dữ liệu", không đoán. Không tự tính chỉ báo mới; các mốc đã có sẵn trong FACT (MA, đỉnh/đáy, hỗ trợ,
-   kháng cự, chân nến phát động, gap).
+   kháng cự dạng vùng có chấm sao, dải Bollinger, gap).
 2. Hai nguồn lệch nhau thì nói cả hai, không lặng lẽ chọn một.
 3. Tương quan ≠ nhân quả. Không viết "VN-Index giảm vì DXY tăng". Chỉ được nói: DXY là một áp lực cần theo dõi, kênh
    truyền dẫn là gì, còn cấu trúc bán trong nước hôm nay chưa đủ chứng minh nó là nguyên nhân.
@@ -43,12 +43,17 @@ KHUNG LẬP LUẬN (top-down, theo đúng thứ tự):
   T4 Dòng tiền: khối ngoại (phiên, lũy kế tháng, lũy kế năm, mã chính), tự doanh (ghi rõ phiên nào). Kết luận
      risk-on / trung tính / risk-off / mua-bán tập trung.
   T5 Index distortion: nhóm Vin và top đóng góp; ước "phần còn lại của thị trường" — kiểm chéo bằng breadth và ngành.
-  T6 Kỹ thuật VN-Index: chốt MỘT mốc chính. Ưu tiên mốc CẤU TRÚC mà người trong nghề cùng nhìn thấy: chân cây nến
-     phát động (nhất là cây vừa bị gãy — gãy chân nến phát động là thông tin lớn, phải nói), vùng đáy/đỉnh chạm nhiều
-     lần, MA lớn, gap. Không lấy giá thấp nhất trong ngày hôm nay làm mốc chính trừ khi không còn mốc cấu trúc nào gần.
-     Có thể nói mốc dạng vùng (ví dụ "vùng 1.700–1.725"). Trả lời đủ 6 câu: mốc từ đâu, vì sao thị trường nhận ra nó, giữ thì sao,
-     thủng thì sao (hệ quả cho breadth + nhóm ngành), tín hiệu xác nhận, tín hiệu vô hiệu. Ghi rõ CẦN (điều kiện cần để
-     hành động) hay QS (vùng quan sát).
+  T6 Kỹ thuật VN-Index: chốt MỘT mốc chính = một VÙNG HỖ TRỢ hoặc KHÁNG CỰ trong dữ liệu (Sơn chốt 12/10: phân tích dựa
+     vào hỗ trợ – kháng cự). Dữ liệu đã chấm sẵn từng vùng: khoảng giá, độ mạnh 1–5 sao, số lần chạm, nguồn (đỉnh cũ,
+     đáy cũ, vùng khối lượng lớn, MA50/MA200, chân nến tăng mạnh). Nếu giá đang nằm trong một vùng ("vung_dang_test")
+     thì đó thường là mốc chính của ngày. Ưu tiên vùng nhiều sao, nhiều lần chạm, có hợp lưu (nhiều nguồn trùng nhau).
+     Nói mốc dạng VÙNG ("vùng 1.700–1.725"), giải thích bằng ngôn ngữ hỗ trợ/kháng cự ("đáy cũ đã chạm 3 lần", "nơi khối
+     lượng giao dịch dày nhất 6 tháng", "hỗ trợ cũ bị thủng nay thành kháng cự"). KHÔNG giải thích khái niệm "nến phát
+     động"; chân nến tăng mạnh chỉ là một nguồn của vùng. Trả lời đủ 6 câu: vùng từ đâu, vì sao thị trường nhận ra nó,
+     giữ thì sao, thủng thì sao (vùng kế tiếp + hệ quả cho breadth và nhóm ngành), tín hiệu xác nhận, tín hiệu vô hiệu.
+     Ghi rõ CẦN (điều kiện cần để hành động) hay QS (vùng quan sát).
+     Dải Bollinger (20,2) chỉ là dải biến động bổ trợ: dùng để nói giá đang sát dải dưới/trên (%B) hay dải đang bóp chặt
+     (sắp có biến động mạnh) — KHÔNG thay hỗ trợ/kháng cự cấu trúc.
   T7 Regime: một trong Risk-on/Trend · Rotation/Divergence · Distribution · Capitulation · Technical rebound ·
      Bottoming process. Bằng chứng ủng hộ + bằng chứng làm phân loại sai. Đối chiếu đèn NSI nếu FACT có
      (đèn là FACT, regime là diễn giải; lệch thì nói). Có tiền → ưu tiên dòng tiền & mẫu hình; thiếu tiền → timing,
@@ -63,7 +68,8 @@ KHUNG LẬP LUẬN (top-down, theo đúng thứ tự):
 
 KHI NÓI VỀ MỘT MÃ (ngắn gọn, mỗi mã 2–5 câu trong script):
   cấu trúc (trên/dưới MA nào, ở nền cao hay nhóm đáy, cách đáy/đỉnh bao nhiêu) → sức mạnh tương đối (rs_5p, rs_20p) →
-  giá-khối lượng hôm nay → MỐC THEO DÕI (lấy từ hỗ trợ/kháng cự/chân nến phát động/đáy 60 phiên/MA có sẵn) →
+  giá-khối lượng hôm nay → MỐC THEO DÕI = vùng hỗ trợ gần nhất có độ mạnh (hoặc vùng đang test); MỤC TIÊU = vùng kháng cự
+  gần nhất →
   thủng mốc thì cấu trúc gãy, hỗ trợ kế tiếp ở đâu → điều kiện xác nhận → một dòng định giá (P/B, P/E trong FACT;
   không có thì nói chưa có) → vì sao mã này quan trọng với thị trường chung.
   Điểm dừng theo chuẩn của Sơn: theo mốc kỹ thuật nhưng không lỗ quá 7% tính từ giá đóng cửa hôm nay; mốc xa hơn 7%
@@ -173,8 +179,15 @@ def compact(facts: dict) -> dict:
     """Thu gọn FACT cho AI (~20k token): mã gom theo nhóm, mốc viết gọn 'giá(số lần chạm·ngày·cách%)'."""
     nam = facts["ngay"][:4]
 
-    def mocs(xs):
-        return [f"{x['gia']}({x['cham']}·{_ng(x['ngay_gan_nhat'], nam)}·{x['cach_pct']:+}%)" for x in (xs or [])[:2]]
+    def vung(x):
+        if not x:
+            return None
+        khoang = f"{x['tu']}–{x['den']}" if x["tu"] != x["den"] else f"{x['gia']}"
+        return (f"{khoang} {'★' * x.get('do_manh', 1)} ({x['cham']} lần chạm, {', '.join(x.get('nguon', []))}, "
+                f"cách {x['cach_pct']:+}%)")
+
+    def mocs(xs, k=2):
+        return [vung(x) for x in (xs or [])[:k]]
 
     def ddd(x):
         return f"{x['gia']}·{_ng(x['ngay'], nam)}·{x['cach_pct']:+}%" if x else None
@@ -190,9 +203,10 @@ def compact(facts: dict) -> dict:
             "duong_ma": ma, "doc_ma20_ma50": f"{a.get('ma20_doc')}/{a.get('ma50_doc')}", "phien_duoi_ma10": a["so_phien_duoi_ma10"],
             "day_20_60_250p": [ddd(a["day_20p"]), ddd(a["day_60p"]), ddd(a["day_250p"])],
             "dinh_60_250p": [ddd(a["dinh_60p"]), ddd(a["dinh_250p"])],
+            "vung_dang_test": vung(a.get("vung_dang_test")),
             "ho_tro": mocs(a.get("ho_tro_gan")), "khang_cu": mocs(a.get("khang_cu_gan")),
-            "nen_phat_dong": [f"{_ng(x['ngay'], nam)} chân {x['chan']} (+{x['pct']}% KLx{x['kl_x_tb20']})"
-                              + (" ĐÃ GÃY" if x["da_gay"] else "") for x in a.get("nen_phat_dong") or []],
+            "bollinger": (lambda bb: f"trên {bb['tren']} · giữa {bb['giua']} · dưới {bb['duoi']} · %B {bb['pct_b']}"
+                          + (" · ĐANG BÓP CHẶT" if bb.get("bop_chat") else "") if bb else None)(a.get("bollinger")),
             "gap": [f"{g['loai']} {g['tu']}–{g['den']} ({_ng(g['ngay'], nam)})" for g in a.get("gap") or []],
             "rs_5p_20p": [a.get("rs_5p"), a.get("rs_20p")],
         }
@@ -207,8 +221,8 @@ def compact(facts: dict) -> dict:
     vn["ky_thuat"] = ky(vn.get("ky_thuat"))
     if isinstance(facts["vnindex"].get("ky_thuat"), dict):
         k = facts["vnindex"]["ky_thuat"]
-        vn["ky_thuat"]["ho_tro"] = mocs(k.get("ho_tro_gan")) + mocs((k.get("ho_tro_gan") or [])[2:])
-        vn["ky_thuat"]["khang_cu"] = mocs(k.get("khang_cu_gan")) + mocs((k.get("khang_cu_gan") or [])[2:])
+        vn["ky_thuat"]["ho_tro"] = mocs(k.get("ho_tro_gan"), 3)
+        vn["ky_thuat"]["khang_cu"] = mocs(k.get("khang_cu_gan"), 3)
         vn["ky_thuat"]["dinh_20p"] = ddd(k.get("dinh_20p"))
     tg = {k: {kk: vv for kk, vv in v.items() if vv is not None} for k, v in (facts.get("the_gioi") or {}).items()}
     return {
@@ -218,7 +232,8 @@ def compact(facts: dict) -> dict:
         "nganh_hose": facts.get("nganh"), "the_gioi_luc_chay": tg, "khong_co_nguon": facts.get("khong_co_nguon"),
         "ban_tin_sang_7h": facts.get("ban_tin_sang"), "den_nsi": facts.get("den_nsi") or "không đọc được",
         "thieu_du_lieu": facts.get("thieu_du_lieu"),
-        "chu_giai": "mốc 'giá(số lần chạm·ngày gần nhất·cách % so giá đóng cửa)'; MA=giá(cách%); "
+        "chu_giai": "hỗ trợ/kháng cự là VÙNG 'từ–đến ★độ mạnh (số lần chạm, nguồn, cách % so giá đóng cửa)'; "
+                    "vung_dang_test = vùng giá đóng cửa đang nằm trong; MA=giá(cách%); "
                     "pct_5p_20p_60p = % thay đổi 5/20/60 phiên; rs = hơn/kém VN-Index (điểm %)",
         "ma_theo_nhom": nhom,
     }

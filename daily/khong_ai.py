@@ -16,7 +16,15 @@ def _f(x, n=1):
 
 
 def _moc_chinh(kt: dict, close: float) -> dict:
-    """Ưu tiên chân nến phát động gần (trong 3%), rồi hỗ trợ gần nhất có ≥2 lần chạm, rồi đáy 20 phiên."""
+    """Ưu tiên vùng giá đang test (≥3 sao), rồi vùng hỗ trợ gần nhất ≥3 sao, rồi chân nến tăng mạnh gần, rồi đáy 20 phiên."""
+    z = kt.get("vung_dang_test")
+    if z and z.get("do_manh", 0) >= 3:
+        return {"gia": z["tu"], "nguon": f"vùng {z['tu']}–{z['den']} {'★' * z['do_manh']} ({', '.join(z['nguon'])}) — giá đang test",
+                "da_gay": False}
+    for z in kt.get("ho_tro_gan") or []:
+        if z.get("do_manh", 0) >= 3:
+            return {"gia": z["gia"], "nguon": f"vùng hỗ trợ {z['tu']}–{z['den']} {'★' * z['do_manh']} ({', '.join(z['nguon'])})",
+                    "da_gay": False}
     for x in reversed(kt.get("nen_phat_dong") or []):
         if abs(close / x["chan"] - 1) <= 0.03:
             return {"gia": x["chan"], "nguon": f"chân cây nến phát động ngày {x['ngay']} (+{x['pct']}%)",

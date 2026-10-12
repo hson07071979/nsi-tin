@@ -70,3 +70,22 @@ def test_compact_has_no_key_collision():
     row = fc["ma_theo_nhom"]["Chứng khoán"][0]
     assert row["ma"] == "SSI" and "duong_ma" in row
     assert prompts.prompt_mot_luot(fc, {}) and prompts.prompt_viet_lai(fc, {}, "bank yếu", None)
+
+
+def test_lam_sach():
+    sc = {"phan": [{"ten": "a", "loi_thoai": "gấp 1,3 lần TB20 (FACT). sổ dự báo hôm qua. cài SL ở 27"}],
+          "tiktok": [{"loi_thoai": "trong dữ liệu FACT có 3 số"}]}
+    out = ai.lam_sach(sc)
+    t = out["phan"][0]["loi_thoai"]
+    assert "TB20" not in t and "FACT" not in t and "cài SL" not in t and t.startswith("Gấp")
+    assert "FACT" not in out["tiktok"][0]["loi_thoai"]
+
+
+def test_ghi_khong_de_latest(tmp_path, monkeypatch):
+    from daily import run_daily
+    monkeypatch.setattr(run_daily, "OUT", tmp_path)
+    run_daily._ghi("2026-10-12", {"ngay": "2026-10-12", "trang_thai_chay": "dat", "ban": [1]})
+    run_daily._ghi("2026-10-13", {"ngay": "2026-10-13", "trang_thai_chay": "khong_phien"})
+    import json
+    assert json.loads((tmp_path / "latest.json").read_text())["ngay"] == "2026-10-12"
+    assert len(json.loads((tmp_path / "index.json").read_text())) == 2

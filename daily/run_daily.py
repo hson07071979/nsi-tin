@@ -139,6 +139,13 @@ def chay(a, cfg: dict) -> int:
         except Exception as e:  # noqa: BLE001 — lỗi lạ vẫn phải ghi ra trang, không im lặng
             res["ai"] = {"loi": f"{type(e).__name__}: {str(e)[:300]}"}
             res["trang_thai_chay"] = "loi_ai"
+    # chạy lại trong ngày mà AI hỏng thì GIỮ bản tốt đã có, chỉ ghi chú lỗi của lần chạy lại
+    if res["trang_thai_chay"] == "loi_ai" and cur and cur.get("ngay") == today and \
+            any((b.get("script") or {}).get("phan") for b in cur.get("ban") or []):
+        loi_moi = res.get("ai")
+        res["ban"], res["trang_thai_chay"] = cur["ban"], cur.get("trang_thai_chay", "mot_phan")
+        res["ai"] = cur.get("ai")
+        res["lan_chay_lai_loi"] = {"luc": iso(now_vn()), "ai": loi_moi}
     forecast.save(so_rows)
     res["so_du_bao"]["vua_cham_hom_nay"] = vua_cham or res["so_du_bao"]["vua_cham_hom_nay"]
     res["xong_luc"] = iso(now_vn())

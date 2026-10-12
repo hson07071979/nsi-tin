@@ -106,6 +106,8 @@ def chay(a, cfg: dict) -> int:
         try:
             ban, meta = ai.chay_hai_ban(fc, so)
             res["ban"], res["ai"] = ban, meta
+            # chạy lại trong ngày (gác/bấm tay) thì thay dòng sổ của lần trước, không cộng dồn
+            so_rows[:] = [r for r in so_rows if not (r.get("ngay_ghi") == today and r.get("ban") in ("cach_2_buoc", "cach_1_luot"))]
             for b in ban:
                 forecast.add(so_rows, today, (b.get("phan_tich") or {}).get("du_bao_moi"), b["cach"])
             ok = [b for b in ban if (b.get("script") or {}).get("phan")]

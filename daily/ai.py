@@ -10,10 +10,11 @@ from __future__ import annotations
 import os
 import random
 import re
+import time
 
 import requests
 
-from tin.gemini import API, Gemini, GeminiError, rank_models
+from tin.gemini import API, Gemini, GeminiError, parse_json_loose, rank_models
 
 from . import prompts
 
@@ -42,7 +43,16 @@ def pick_models(key: str) -> list[str]:
 
 
 class GeminiDaily(Gemini):
-    """Như Gemini của nsi-tin, nhưng nghĩ kỹ hơn (viết script cần lập luận) và không tự dò lại model."""
+    """Như Gemini của nsi-tin, thêm 3 thứ cho việc viết script dài:
+    - nghĩ kỹ hơn (DAILY_THINKING, mặc định medium);
+    - model nào hỏng cứng (hết hạn mức ngày, 4xx) thì gạch khỏi danh sách cho cả lần chạy → không đốt thời gian thử lại;
+    - ghi nhật ký từng lượt (model, giây, lỗi) để trang /daily và log Actions thấy được.
+    """
+
+    def __init__(self, *a, **kw):
+        super().__init__(*a, **kw)
+        self.chet: set[str] = set()
+        self.nhat_ky: list[str] = []
 
     @staticmethod
     def _thinking(model: str) -> dict:
@@ -52,6 +62,74 @@ class GeminiDaily(Gemini):
         if model.startswith("gemini-2.5"):
             return {"thinkingBudget": {"low": 1024, "medium": 4096, "high": 8192}.get(lv, 4096)}
         return {}
+
+    def json(self, system: str, prompt: str, *, temperature: float = 0.4, max_out: int = 8192) -> dict:  # noqa: C901
+        errs: dict[str, str] = {}
+        for model in [m for m in self.models if m not in self.chet]:
+            gen = {"temperature": temperature, "maxOutputTokens": 65536, "responseMimeType": "application/json"}
+            th = self._thinking(model)
+            if th and model not in self.no_thinking_cfg:
+                gen["thinkingConfig"] = th
+            body = {"systemInstruction": {"parts": [{"text": system}]},
+                    "contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": gen}
+            for attempt in range(3):
+                self._wait()
+                t0 = time.time()
+                try:
+                    r = requests.post(f"{API}/models/{model}:generateContent", params={"key": self.key},
+                                      json=body, timeout=420)
+                except requests.RequestException as e:
+                    errs[model] = f"mạng: {str(e)[:120]}"
+                    self._log(model, t0, errs[model])
+                    time.sleep(5 * (attempt + 1))
+                    continue
+                if r.status_code == 200:
+                    j = r.json()
+                    u = j.get("usageMetadata", {})
+                    self.tokens_in += u.get("promptTokenCount", 0)
+                    self.tokens_out += u.get("candidatesTokenCount", 0)
+                    try:
+                        cand = j["candidates"][0]
+                        text = "".join(p.get("text", "") for p in cand["content"]["parts"])
+                    except (KeyError, IndexError):
+                        errs[model] = "trả rỗng"
+                        self._log(model, t0, errs[model])
+                        break
+                    out = parse_json_loose(text)
+                    if out is not None:
+                        self.calls += 1
+                        out["_model"] = model
+                        self._log(model, t0, f"ok, ra {u.get('candidatesTokenCount', 0)} token")
+                        return out
+                    errs[model] = f"JSON hỏng (finishReason={cand.get('finishReason')}, {len(text)} ký tự)"
+                    self._log(model, t0, errs[model])
+                    gen["temperature"] = 0.2
+                    continue
+                msg = r.text[:200].replace("\n", " ")
+                errs[model] = f"HTTP {r.status_code}: {msg}"
+                self._log(model, t0, errs[model])
+                if r.status_code == 400 and "thinking" in r.text.lower() and "thinkingConfig" in gen:
+                    self.no_thinking_cfg.add(model)
+                    gen.pop("thinkingConfig", None)
+                    continue
+                if r.status_code == 429:
+                    if "PerDay" in r.text or "per day" in r.text.lower() or "limit: 0" in r.text:
+                        self.chet.add(model)          # hết hạn mức ngày / không có hạn mức free → bỏ hẳn
+                        break
+                    m = re.search(r'"retryDelay":\s*"(\d+)s"', r.text)
+                    time.sleep(min(int(m.group(1)) + 2 if m else 20 * (attempt + 1), 75))
+                    continue
+                if r.status_code in (500, 502, 503, 504):
+                    time.sleep(8 * (attempt + 1))
+                    continue
+                self.chet.add(model)                  # 400/403/404: model không dùng được với key này
+                break
+        raise GeminiError(" | ".join(f"{k}: {v}" for k, v in errs.items()) or "không gọi được Gemini")
+
+    def _log(self, model: str, t0: float, msg: str) -> None:
+        line = f"{time.strftime('%H:%M:%S')} {model} {round(time.time() - t0)}s — {msg}"
+        self.nhat_ky.append(line)
+        print("  [gemini]", line, flush=True)
 
 
 def new_client() -> GeminiDaily:
@@ -154,7 +232,8 @@ def chay_hai_ban(fc: dict, so: dict) -> tuple[list[dict], dict]:
     random.shuffle(ket)
     for i, b in enumerate(ket, 1):
         b["nhan"] = f"Bản {i}"
-    ai = {"models": g.models[:3], "so_luot": g.calls, "token_vao": g.tokens_in, "token_ra": g.tokens_out}
+    ai = {"models": g.models, "so_luot": g.calls, "token_vao": g.tokens_in, "token_ra": g.tokens_out,
+          "nhat_ky": g.nhat_ky[-30:]}
     return ket, ai
 
 
@@ -165,7 +244,7 @@ def viet_lai(fc: dict, so: dict, view: str, pt_cu: dict | None) -> tuple[dict, d
         out = g.json(prompts.LUAT, prompts.prompt_viet_lai(fc, so, view, pt_cu), temperature=0.65)
     except GeminiError as e:
         res["loi"].append(str(e)[:300])
-        return res, {"so_luot": g.calls}
+        return res, {"so_luot": g.calls, "nhat_ky": g.nhat_ky[-30:]}
     sc = out.get("script") or {}
     loi = check_script(sc)
     if loi:
@@ -174,4 +253,5 @@ def viet_lai(fc: dict, so: dict, view: str, pt_cu: dict | None) -> tuple[dict, d
     res.update({"thesis_check": out.get("thesis_check") or [], "view_sau_phan_bien": out.get("view_sau_phan_bien"),
                 "script": sc, "du_bao_moi": out.get("du_bao_moi") or [], "model": out.get("_model")})
     res["loi"] += loi
-    return res, {"models": g.models[:3], "so_luot": g.calls, "token_vao": g.tokens_in, "token_ra": g.tokens_out}
+    return res, {"models": g.models, "so_luot": g.calls, "token_vao": g.tokens_in, "token_ra": g.tokens_out,
+                 "nhat_ky": g.nhat_ky[-30:]}

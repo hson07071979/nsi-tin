@@ -1,0 +1,15 @@
+--- a/site/p21.js
++++ b/site/p21.js
+@@ -END @@
++
++/* ---- Mở thẳng trang Chi tiết mã từ link "?ma=XXX#bieudo" (trang /daily của NSI Daily Market, 12/10/2026).
++   Phải nằm TRƯỚC p7.js (bộ điều hướng vẽ trang đầu tiên) và SAU p9.js (khai báo _chartSym).
++   Không có ?ma= thì không làm gì. Mã lạ thì pageChart tự rơi về mã mặc định như cũ. */
++(function () {
++  try {
++    const m = (new URLSearchParams(location.search).get('ma') || '').toUpperCase();
++    if (!/^[A-Z0-9]{3,10}$/.test(m)) return;
++    _chartSym = m;
++    if (!location.hash) location.hash = '#bieudo';
++  } catch (e) {}
++})();

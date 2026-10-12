@@ -270,6 +270,7 @@ def _nsi_tin(today: str) -> dict:
                        if tp.get(k) not in (None, "", [])})
     return {
         "co": True, "chup_luc": j.get("bat_dau_luc"),
+        "ban_tho_khong_ai": bool((j.get("web") or {}).get("tin_tho")),   # chủ đề là tin thô xếp bằng code, chưa có nhận định
         "so_lieu_7h": {k: v for k, v in (vm.get("so_lieu") or {}).items()
                        if k in ("lnh_on", "lnh_on_chg5_bp", "lnh_on_chg20_bp", "usdvnd", "usdvnd_chg20_pct", "dxy",
                                 "dxy_chg20_pct", "us10y", "us10y_chg20_bp", "brent", "brent_chg20_pct", "vix")},

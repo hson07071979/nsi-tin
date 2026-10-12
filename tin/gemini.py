@@ -63,7 +63,7 @@ class Gemini:
                     if "generateContent" in m.get("supportedGenerationMethods", [])]
         except Exception:  # noqa: BLE001
             pass
-        chosen = rank_models(have)[:4] or ["gemini-2.5-flash"]
+        chosen = rank_models(have)[:7] or ["gemini-2.5-flash"]   # 12/10: 4→7 để còn model lite dự phòng
         # 12/10/2026: để dành model tốt nhất cho NSI Daily Market buổi chiều (viết script cần nó nhất).
         # Bản tin sáng chạy bằng các model kế tiếp; model tốt nhất chỉ dùng khi các model kia hỏng hết.
         if os.environ.get("GEMINI_DE_DANH_CHIEU") == "1" and len(chosen) > 1:

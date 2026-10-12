@@ -151,7 +151,7 @@ KHUON_SCRIPT = {
     "phan": [{"ten": "Hook|Đối chiếu dự báo|Thế giới|Thị trường Việt Nam|Index thật sự giảm/tăng bao nhiêu|"
                      "Bản đồ kỹ thuật|Quét ngành|Mã đáng nói|Regime và phiên tới|Chào",
               "phut": 0.5, "loi_thoai": "lời thoại đầy đủ để đọc", "chen_hinh": "gợi ý hình cần chiếu (chart mã nào, bảng nào)"}],
-    "tiktok": [{"tieu_de": "", "goc": "1 câu: ý chính của clip", "giay": 55, "loi_thoai": "130–170 chữ, mở bằng câu hỏi",
+    "tiktok": [{"tieu_de": "", "goc": "1 câu: ý chính của clip", "nguon_chuyen": "ban_tin_sang|the_gioi|phien", "giay": 55, "loi_thoai": "130–170 chữ, mở bằng câu hỏi",
                 "du_lieu_dung": ["con số lấy từ FACT"]}],
 }
 
@@ -163,10 +163,17 @@ YEU_CAU_SCRIPT = """YÊU CẦU LỜI THOẠI:
   Regime và phiên tới ~150 chữ · Chào ~30 chữ. Lời thoại ngắn hơn 2.400 chữ là KHÔNG ĐẠT.
 - Hook là MỘT câu hỏi trung tâm lấy từ chỗ Index / Cổ phiếu / Dòng tiền lệch nhau, có số chống lưng.
 - Phần cuối nhắc lại mốc chính + điều gì củng cố / làm yếu / xác nhận / vô hiệu cho phiên tới.
-- 3 clip TikTok 45–60 giây: tài chính ĐỜI THƯỜNG, rộng hơn chứng khoán, người không chơi chứng khoán vẫn thấy liên quan
-  (giá dầu → giá xăng, tỷ giá & DXY → tiền đô/hàng nhập, vàng, lãi suất liên ngân hàng, khối ngoại rút vốn nghĩa là gì,
-  "chỉ số giảm nhưng phần lớn cổ phiếu không giảm" …). Mỗi clip một ý, mở bằng câu hỏi, có ít nhất 2 con số từ FACT,
-  kết bằng một câu "để ý gì tiếp theo". Không giật tít, không khuyên mua bán."""
+- 3 clip TikTok 45–60 giây: tài chính ĐỜI THƯỜNG, rộng hơn chứng khoán, người không chơi chứng khoán vẫn thấy liên quan.
+  NGUỒN CHUYỆN (Sơn chốt 12/10, mẫu ưng ý: "Tỷ giá USD tự do vượt 26.000 đồng ảnh hưởng gì đến túi tiền?"):
+  ƯU TIÊN BẢN TIN SÁNG ("ban_tin_sang_7h": chủ đề tin web + số liệu vĩ mô 7h) hơn diễn biến trong phiên.
+  · Ít nhất 2/3 clip lấy chuyện từ bản tin sáng, kể theo góc "chuyện này chạm vào túi tiền anh chị thế nào"
+    (tỷ giá → tiền đô, hàng nhập, du học; dầu → giá xăng; lãi suất → tiền gửi, khoản vay nhà; vàng; giá nhà; chính sách mới…).
+  · Tối đa 1 clip về diễn biến phiên (ví dụ "chỉ số giảm nhưng phần lớn cổ phiếu không giảm", khối ngoại rút vốn nghĩa là gì).
+  · "ban_tho_khong_ai": true nghĩa là sáng nay AI không chạy, chủ đề chỉ là tiêu đề + tóm tắt gốc của báo: vẫn dùng,
+    nhưng chỉ dùng con số có trong tóm tắt, không thêm chi tiết.
+  · Bản tin sáng không có hoặc quá ít chủ đề → dùng số liệu thế giới/vĩ mô lúc chạy, cuối cùng mới đến diễn biến phiên.
+  Mỗi clip một ý, mở bằng câu hỏi, có ít nhất 2 con số từ FACT (số từ tin sáng ghi đúng như tin), kết bằng một câu
+  "để ý gì tiếp theo". Không giật tít, không khuyên mua bán."""
 
 
 def _ng(d: str, nam: str) -> str:

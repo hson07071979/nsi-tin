@@ -147,6 +147,17 @@ def main(argv=None) -> int:
         except GeminiError as e:
             result["ai"] = {"loi": str(e)[:300]}
             result["trang_thai_chay"] = "loi_ai"
+        # Dự phòng 12/10/2026: AI hỏng / hết lượt → vẫn có bản tin sáng dạng THÔ (tin thật, xếp bằng code, không nhận định).
+        # Không cập nhật state nên lần gác 7h45 / 8h15 / 14h05 vẫn chạy lại bản AI đầy đủ.
+        if not a.dry and (result["trang_thai_chay"] == "loi_ai" or not result["web"].get("topics")):
+            from . import tin_tho  # noqa: PLC0415
+            ly_do = (result.get("ai") or {}).get("loi") or result["web"].get("loi") or "AI không trả chủ đề"
+            tho = tin_tho.dung_tab(web_items, a.max_topics, str(ly_do))
+            if tho["topics"]:
+                result["web"].update(tho)
+                if result["trang_thai_chay"] == "loi_ai":
+                    result["trang_thai_chay"] = "chi_tin_tho"
+                print(f"  [dự phòng] bản tin thô: {len(tho['topics'])} chủ đề")
 
     done = now_vn()
     result["xong_luc"] = iso(done)
@@ -164,7 +175,7 @@ def main(argv=None) -> int:
         seen |= {it["id"][1:] for it in web_items}
         write_json(data_dir / "seen.json", sorted(seen)[-5000:])
     print(json.dumps({k: result[k] for k in ("trang_thai_chay", "xong_luc", "chay_giay", "dung_han")}, ensure_ascii=False))
-    return 0 if result["trang_thai_chay"] in ("dat", "mot_phan", "dry") else 2
+    return 0 if result["trang_thai_chay"] in ("dat", "mot_phan", "dry", "chi_tin_tho") else 2
 
 
 if __name__ == "__main__":

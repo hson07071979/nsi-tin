@@ -135,3 +135,21 @@ def test_bb_fallback_khi_khong_co_vung():
     r = {"ma": "XYZ", "dong_cua": 104.0, "ho_tro_gan": sup, "khang_cu_gan": res, "ma20": 100.0, "so_ma20_pct": 4}
     row = _ma_row(r)
     assert row["muc_tieu"] == 110.0 and "mốc động" in row["cau_truc"]
+
+
+def test_tin_tho_du_phong_ban_tin_sang():
+    from tin import tin_tho
+    items = [
+        {"id": "w1", "title": "Giá USD tự do vượt ngân hàng", "summary": "USD tự do 26.200 đồng", "group": "bao_vn",
+         "src_name": "A", "url": "u1", "published": "2026-10-12T06:00"},
+        {"id": "w2", "title": "Giá USD tự do vượt ngân hàng sáng nay", "summary": "", "group": "bao_vn",
+         "src_name": "B", "url": "u2", "published": "2026-10-12T06:10"},
+        {"id": "w3", "title": "Hoa hậu đi chơi", "summary": "", "group": "bao_vn", "src_name": "C", "url": "u3"},
+        {"id": "w4", "title": "Lãi suất huy động tăng", "summary": "", "group": "bao_vn", "src_name": "D", "url": "u4"},
+    ]
+    tab = tin_tho.dung_tab(items, 10, "HTTP 429")
+    tds = [t["tieu_de"] for t in tab["topics"]]
+    assert len(tds) == 2 and "Hoa hậu đi chơi" not in tds      # tin không liên quan bị loại, 2 tin USD gộp một
+    usd = next(t for t in tab["topics"] if "USD" in t["tieu_de"])
+    assert len(usd["item_ids"]) == 2 and usd["nguon"][0]["url"]
+    assert tab["tin_tho"] and "429" in tab["loi"]

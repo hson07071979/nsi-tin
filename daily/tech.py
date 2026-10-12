@@ -178,7 +178,7 @@ def bb_lam_ho_tro_khang_cu(sup: list, res: list, bb: dict | None, close: float, 
     def z(k):
         g = bb[k]
         return {"gia": g, "tu": g, "den": g, "cham": 0, "ngay_gan_nhat": None, "nguon": [ten[k]],
-                "do_manh": 2, "cach_pct": _pct(g, close), "bb": True}
+                "do_manh": 2, "cach_pct": _pct(close, g), "bb": True}
 
     def ro(ds):
         return any(x.get("do_manh", 0) >= 2 and abs(x.get("cach_pct") or 99) <= gan_pct for x in ds)

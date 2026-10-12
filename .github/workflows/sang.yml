@@ -4,6 +4,7 @@ name: Ban tin sang
 #   07:00 VN  che_do=chay → cào + debate, xong ~07:10–07:25
 #   07:45 VN  che_do=gac  → hôm nay chưa có bản thì chạy lại
 #   08:15 VN  che_do=gac  → lần gác cuối trước hạn 8h30
+#   14:05 VN  cron gac    → (12/10) lượt Gemini hồi lúc ~14h; sáng chỉ có bản tin thô thì làm lại bản AI cho Daily Market
 # Cron dưới đây chỉ là DỰ PHÒNG khi đồng hồ ảo chết (GitHub cron trễ 0,5–6h nên không tin được giờ).
 # 04/10/2026: cron chỉ thứ 2–6; lần gác thấy đã có bản "mot_phan" cũng thoát — chạy lại chỉ đốt thêm hạn mức Gemini.
 on:
@@ -14,6 +15,7 @@ on:
         default: "chay"
   schedule:
     - cron: "10 0 * * 1-5"   # 07:10 VN thứ 2–6, dự phòng (chạy ở chế độ gác)
+    - cron: "5 7 * * 1-5"    # 14:05 VN: lượt Gemini vừa hồi → sáng hỏng/chỉ có bản thô thì chạy lại bản AI (gác)
 
 concurrency:
   group: ban-tin-sang

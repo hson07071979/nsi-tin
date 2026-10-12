@@ -65,7 +65,9 @@ def _closes(fct: dict) -> dict[str, float]:
 
 def _ghi(today: str, res: dict) -> None:
     write_json(OUT / f"{today}.json", res)
-    write_json(OUT / "latest.json", res)
+    # ngày nghỉ / hỏng nguồn không đè latest.json — trang vẫn mở bản của phiên gần nhất
+    if res.get("trang_thai_chay") not in ("khong_phien", "loi_du_lieu") or not (OUT / "latest.json").exists():
+        write_json(OUT / "latest.json", res)
     idx = [x for x in read_json(OUT / "index.json", []) if x.get("ngay") != today]
     idx.append({"ngay": today, "trang_thai_chay": res.get("trang_thai_chay"), "xong_luc": res.get("xong_luc"),
                 "so_lan_viet_lai": len(res.get("viet_lai") or [])})

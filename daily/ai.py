@@ -183,6 +183,12 @@ THAY_CO_DINH = [
     (re.compile(r"(trong|theo|từ) (bộ )?dữ liệu FACT", re.I), r"\1 dữ liệu"), (re.compile(r"\bFACT\b"), "dữ liệu"),
     (re.compile(r"sổ dự báo", re.I), "những mốc em đã nói"),
     (re.compile(r"chắc chắn sẽ", re.I), "nhiều khả năng sẽ"),
+    # độ mạnh vùng: bảng điểm nội bộ → lời nói
+    (re.compile(r"\s*\(?★+\)?"), ""),
+    (re.compile(r"\b5 sao\b"), "rất mạnh"), (re.compile(r"\b4 sao\b"), "mạnh"),
+    (re.compile(r"\b3 sao\b"), "khá mạnh"), (re.compile(r"\b[12] sao\b"), "vừa"),
+    # số chỉ số hàng nghìn đọc tròn: 1.701,14 → 1.701
+    (re.compile(r"\b(\d{1,2}\.\d{3}),\d{1,2}\b"), r"\1"),
     (re.compile(r"[ \t]{2,}"), " "),
 ]
 

@@ -7,6 +7,7 @@ Trang hiện "Bản 1 / Bản 2" xáo ngẫu nhiên; cách chạy chỉ lộ khi
 """
 from __future__ import annotations
 
+import json
 import os
 import random
 import re
@@ -53,10 +54,41 @@ class GeminiDaily(Gemini):
         super().__init__(*a, **kw)
         self.chet: set[str] = set()
         self.nhat_ky: list[str] = []
+        self.han: float | None = None          # mốc giờ (time.time()) phải dừng gọi AI
 
-    @staticmethod
-    def _thinking(model: str) -> dict:
-        lv = os.environ.get("DAILY_THINKING", "medium")
+    def _stream(self, model: str, body: dict):
+        """Gọi dạng stream (SSE) để kết nối không bị cắt khi lời thoại dài (bản thường bị ngắt ở ~270 giây).
+        Trả (mã HTTP, chữ, usage, finishReason, đối tượng lỗi có .status_code/.text)."""
+        url = f"{API}/models/{model}:streamGenerateContent"
+        with requests.post(url, params={"key": self.key, "alt": "sse"}, json=body, stream=True,
+                           timeout=(20, 300)) as r:
+            if r.status_code != 200:
+                class _E:
+                    status_code = r.status_code
+                    text = r.text
+                return r.status_code, "", {}, None, _E()
+            parts, usage, fin = [], {}, None
+            t_end = time.time() + 600
+            for line in r.iter_lines(decode_unicode=True):
+                if time.time() > t_end:
+                    raise requests.ReadTimeout("quá 10 phút cho một lượt")
+                if not line or not line.startswith("data:"):
+                    continue
+                try:
+                    j = json.loads(line[5:].strip())
+                except ValueError:
+                    continue
+                if j.get("usageMetadata"):
+                    usage = j["usageMetadata"]
+                for c in j.get("candidates") or []:
+                    fin = c.get("finishReason") or fin
+                    for p in (c.get("content") or {}).get("parts") or []:
+                        if p.get("text") and not p.get("thought"):
+                            parts.append(p["text"])
+            return 200, "".join(parts), usage, fin, None
+
+    def _thinking(self, model: str) -> dict:  # type: ignore[override]
+        lv = getattr(self, "muc_nghi", None) or os.environ.get("DAILY_THINKING", "medium")
         if re.match(r"gemini-[3-9]", model):
             return {"thinkingLevel": lv}
         if model.startswith("gemini-2.5"):
@@ -73,26 +105,22 @@ class GeminiDaily(Gemini):
             body = {"systemInstruction": {"parts": [{"text": system}]},
                     "contents": [{"role": "user", "parts": [{"text": prompt}]}], "generationConfig": gen}
             for attempt in range(3):
+                if self.han and time.time() > self.han:
+                    raise GeminiError("hết quỹ thời gian của lần chạy")
                 self._wait()
                 t0 = time.time()
                 try:
-                    r = requests.post(f"{API}/models/{model}:generateContent", params={"key": self.key},
-                                      json=body, timeout=420)
+                    st, text, u, fin, raw = self._stream(model, body)
                 except requests.RequestException as e:
                     errs[model] = f"mạng: {str(e)[:120]}"
                     self._log(model, t0, errs[model])
                     time.sleep(5 * (attempt + 1))
                     continue
-                if r.status_code == 200:
-                    j = r.json()
-                    u = j.get("usageMetadata", {})
+                if st == 200:
                     self.tokens_in += u.get("promptTokenCount", 0)
                     self.tokens_out += u.get("candidatesTokenCount", 0)
-                    try:
-                        cand = j["candidates"][0]
-                        text = "".join(p.get("text", "") for p in cand["content"]["parts"])
-                    except (KeyError, IndexError):
-                        errs[model] = "trả rỗng"
+                    if not text:
+                        errs[model] = f"trả rỗng ({fin})"
                         self._log(model, t0, errs[model])
                         break
                     out = parse_json_loose(text)
@@ -101,10 +129,11 @@ class GeminiDaily(Gemini):
                         out["_model"] = model
                         self._log(model, t0, f"ok, ra {u.get('candidatesTokenCount', 0)} token")
                         return out
-                    errs[model] = f"JSON hỏng (finishReason={cand.get('finishReason')}, {len(text)} ký tự)"
+                    errs[model] = f"JSON hỏng (finishReason={fin}, {len(text)} ký tự)"
                     self._log(model, t0, errs[model])
                     gen["temperature"] = 0.2
                     continue
+                r = raw
                 msg = r.text[:200].replace("\n", " ")
                 errs[model] = f"HTTP {r.status_code}: {msg}"
                 self._log(model, t0, errs[model])
@@ -170,7 +199,10 @@ def check_phan_tich(pt: dict) -> list[str]:
 
 
 def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
-    """Một lượt sửa khi lời thoại hụt chữ / dính cụm cấm."""
+    """Một lượt sửa khi lời thoại hụt chữ / dính cụm cấm. Sắp hết quỹ thời gian thì bỏ qua."""
+    if g.han and time.time() > g.han - 6 * 60:
+        return script
+    g.muc_nghi = "low"
     p = (f"Lời thoại dưới đây chưa đạt: {'; '.join(loi)}.\nSửa lại cho đạt (giữ nội dung, viết dài đủ ~3.000 chữ nếu thiếu, "
          f"thay cụm cấm bằng cách nói mốc theo dõi + điểm dừng riêng). Số liệu chỉ lấy từ FACT.\n"
          f"LỜI THOẠI: {prompts._j(script)}\nFACT: {prompts._j(fc)}\nTrả JSON đúng khuôn: {prompts._j(prompts.KHUON_SCRIPT)}")
@@ -184,6 +216,7 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
 # ------------------------------------------------------------------ hai cách chạy
 def cach_2_buoc(g: GeminiDaily, fc: dict, so: dict) -> dict:
     res: dict = {"cach": "cach_2_buoc", "loi": []}
+    g.muc_nghi = None                       # phân tích: nghĩ theo DAILY_THINKING (medium)
     try:
         pt = g.json(prompts.LUAT, prompts.prompt_phan_tich(fc, so), temperature=0.4)
     except GeminiError as e:
@@ -191,6 +224,7 @@ def cach_2_buoc(g: GeminiDaily, fc: dict, so: dict) -> dict:
         return res
     res["phan_tich"] = pt
     res["loi"] += check_phan_tich(pt)
+    g.muc_nghi = "low"                      # viết lời thoại từ bản phân tích đã chốt: không cần nghĩ lâu
     try:
         sc = g.json(prompts.LUAT, prompts.prompt_script_tu_phan_tich(fc, so, pt), temperature=0.75)
     except GeminiError as e:
@@ -208,6 +242,7 @@ def cach_2_buoc(g: GeminiDaily, fc: dict, so: dict) -> dict:
 
 def cach_1_luot(g: GeminiDaily, fc: dict, so: dict) -> dict:
     res: dict = {"cach": "cach_1_luot", "loi": []}
+    g.muc_nghi = None
     try:
         out = g.json(prompts.LUAT, prompts.prompt_mot_luot(fc, so), temperature=0.65)
     except GeminiError as e:
@@ -226,8 +261,9 @@ def cach_1_luot(g: GeminiDaily, fc: dict, so: dict) -> dict:
     return res
 
 
-def chay_hai_ban(fc: dict, so: dict) -> tuple[list[dict], dict]:
+def chay_hai_ban(fc: dict, so: dict, phut_toi_da: float = 30) -> tuple[list[dict], dict]:
     g = new_client()
+    g.han = time.time() + phut_toi_da * 60
     ket = [cach_2_buoc(g, fc, so), cach_1_luot(g, fc, so)]
     random.shuffle(ket)
     for i, b in enumerate(ket, 1):
@@ -239,6 +275,7 @@ def chay_hai_ban(fc: dict, so: dict) -> tuple[list[dict], dict]:
 
 def viet_lai(fc: dict, so: dict, view: str, pt_cu: dict | None) -> tuple[dict, dict]:
     g = new_client()
+    g.han = time.time() + 25 * 60
     res: dict = {"loi": []}
     try:
         out = g.json(prompts.LUAT, prompts.prompt_viet_lai(fc, so, view, pt_cu), temperature=0.65)

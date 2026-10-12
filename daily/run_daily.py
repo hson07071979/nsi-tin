@@ -104,7 +104,7 @@ def chay(a, cfg: dict) -> int:
         from . import ai  # noqa: PLC0415
         print("3) Gemini: hai cách chạy")
         try:
-            ban, meta = ai.chay_hai_ban(fc, so)
+            ban, meta = ai.chay_hai_ban(fc, so, cfg.get("ai_phut_toi_da", 32))
             res["ban"], res["ai"] = ban, meta
             # chạy lại trong ngày (gác/bấm tay) thì thay dòng sổ của lần trước, không cộng dồn
             so_rows[:] = [r for r in so_rows if not (r.get("ngay_ghi") == today and r.get("ban") in ("cach_2_buoc", "cach_1_luot"))]

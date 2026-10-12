@@ -39,7 +39,8 @@
     {"key": "btc", "sym": "BTC-USD", "ten": "Bitcoin", "don_vi": "USD"}
   ],
   "khong_co_nguon_mien_phi": ["Giá urê", "Giá cao su", "Giá thép xây dựng trong nước"],
-  "cho_du_lieu": {"phut_toi_da": 25, "nhip_giay": 60},
+  "cho_du_lieu": {"phut_toi_da": 20, "nhip_giay": 60},
+  "ai_phut_toi_da": 32,
   "lich_su_phien": 300,
   "ma_noi_bat_toi_da": 10,
   "link_chi_tiet_ma": "/index.html?ma={ma}#bieudo"

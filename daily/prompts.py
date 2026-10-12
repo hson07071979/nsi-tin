@@ -78,6 +78,9 @@ GIỌNG LỜI THOẠI — "nhịp ALV, não NSI":
     tỷ", "gần 600 tỷ"; giá cổ phiếu nói gọn không kèm "nghìn đồng" ("SSI đóng 19,05", "mốc 18,6", "vùng 17–17,5");
     phần trăm làm tròn tới một chữ số hoặc nói bằng lời ("tăng hơn 2%", "thấp hơn trung bình cỡ một phần năm").
     Không đọc hai chữ số thập phân cho chỉ số, không đọc "14,11 điểm", "10.645,1 tỷ", "0,81 lần".
+  - Viết số bằng CHỮ SỐ (19,05 · 1.725 · 10.600 tỷ), không viết số bằng chữ ("hai mươi tư phẩy bốn") — Sơn tự đọc.
+  - Sổ dự báo gọi là "mốc em đã nói", không gọi là "vị thế". Sổ trống (không có dòng vừa chấm, không có dòng đang mở
+    từ phiên trước) thì BỎ hẳn phần đối chiếu dự báo.
   - Câu tối đa khoảng 25 chữ. Không viết văn báo: cấm "bốc hơi", "nghịch lý", "bóc tách", "sát sao", "then chốt",
     "vỏn vẹn", "rơi thẳng đứng", "chính thức", "kịch bản cơ sở", "đáng chú ý là", "có thể thấy", "nhìn chung",
     "quy chuẩn phân tích", "điều kiện CẦN" (thay bằng "mốc quan trọng nhất"). Không mở đầu bằng "Chào anh chị, em là Sơn"

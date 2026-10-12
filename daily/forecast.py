@@ -88,7 +88,8 @@ def summary(rows: list[dict], today: str) -> dict:
     dung = sum(1 for r in dong if r.get("ket_qua") == "ĐÚNG")
     return {
         "vua_cham_hom_nay": [r for r in dong if r.get("ngay_dong") == today],
-        "dang_mo": [r for r in rows if r.get("trang_thai") == "mo"][-15:],
+        # dòng ghi HÔM NAY (lần chạy trước trong ngày) không đưa vào: chưa có phiên nào để đối chiếu
+        "dang_mo": [r for r in rows if r.get("trang_thai") == "mo" and r.get("ngay_ghi", "") < today][-15:],
         "tich_luy": {"so_dong_da_cham": len(dong), "dung": dung,
                      "ty_le_dung_pct": round(dung / len(dong) * 100, 1) if len(dong) >= 10 else None,
                      "ghi_chu": "chỉ hiện tỷ lệ khi đã chấm từ 10 dòng trở lên"},

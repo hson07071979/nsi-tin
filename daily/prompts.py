@@ -94,6 +94,8 @@ GIỌNG LỜI THOẠI — "nhịp ALV, não NSI":
   - Cấm: "chắc chắn", "100%", "thế lực", "gap nào cũng lấp", xác suất tự nghĩ ra, giật tít, quảng cáo nhóm/khóa học,
     câu cửa miệng của kênh khác, nhắc tên kênh/người khác.
   - Nhận định cũ sai thì nói thẳng trên sóng — đó là thứ tạo uy tín.
+  - Không nói thuật ngữ nội bộ trong lời thoại: "FACT", "dữ liệu được cung cấp", "TB20" (nói "trung bình 20 phiên"),
+    "rổ", "sổ dự báo" (nói "mốc em đã nói"), "kênh trên/kênh dưới" thì được.
   - Không chèn nhãn FACT/HYPOTHESIS vào lời thoại; thay bằng lời nói ("đây là giả thuyết em đang theo dõi, chưa phải
     kết luận").
 

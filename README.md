@@ -52,3 +52,29 @@ Repo **PRIVATE**. Chứa tin nhóm Zalo kín — không bao giờ để public.
 - **Free tier: Google có thể dùng nội dung gửi lên để cải thiện model.** Tức là tin nhắn 5 nhóm Zalo sẽ đi qua Google.
   Muốn tránh: bật billing cho project Gemini (bản trả phí không dùng dữ liệu để train; ~17 lượt/ngày tốn rất ít).
 - Free tier không dành cho mục đích thương mại — ở đây chỉ anh Sơn đọc ở trang quản trị, không bán cho khách.
+
+---
+
+# nsi-daily — NSI Daily Market (thêm 12/10/2026)
+
+Bản nháp phân tích + lời thoại YouTube ~20' + 3 clip TikTok sau mỗi phiên. Chỉ hiện ở trang quản trị `/daily`.
+
+```
+15:20  đồng hồ ảo → daily_market.yml che_do=chay
+         1. chờ VNDirect công bố đủ phiên (tối đa 20'; ngày nghỉ thì không chờ)
+         2. FACT: VN-Index + breadth + khớp/thỏa thuận + khối ngoại + tự doanh (VNDirect), đóng góp điểm, ngành,
+            ~95 mã rổ + ≤10 mã nổi bật (kỹ thuật tính bằng code), liên thị trường (Yahoo), vĩ mô 7h + tin WEB của nsi-tin
+         3. chấm sổ dự báo bằng giá thật (data/daily/so_du_bao.json)
+         4. Gemini 2 cách (2 bước / 1 lượt) → "Bản 1 / Bản 2" xáo ngẫu nhiên
+       → out/daily/<ngày>.json + latest.json (xong ~5–15')
+16:00  gác: chưa có bản thì chạy lại · 16:40 cron GitHub dự phòng
+bất kỳ: trang /daily → che_do=viet_lai (THESIS CHECK view của anh + viết lại lời thoại)
+```
+
+- Kho nến: cào lịch sử một lần, sau đó mỗi ngày chỉ nối nến phiên; tự dựng lại khi thiếu phiên hoặc có quyền (giá tham chiếu lệch).
+  Lưu bằng actions/cache, không commit.
+- Tin Zalo **không bao giờ** đi vào nsi-daily.
+- Chọn xong cách chạy thì sửa `config/daily.json` → `cach_chay` còn một cách cho đỡ hạn mức Gemini.
+- Rổ mã: `config/daily.json` → `ro`. Ngành ICB: `config/daily_sector.json` (chép từ nsi-bot).
+- Kiểm offline: `python -m pytest -q tests/test_daily.py`. Chạy thử không gọi AI: `python -m daily.run_daily --dry`.
+- Nối Cloudflare (đồng hồ ảo 15:20, trang /daily): xem `worker/LAM-NGAY-daily.md`.

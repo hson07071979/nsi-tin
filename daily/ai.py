@@ -174,6 +174,36 @@ def _so_chu(script: dict) -> int:
     return sum(len(str(p.get("loi_thoai", "")).split()) for p in (script or {}).get("phan", []) or [])
 
 
+THAY_CO_DINH = [
+    (re.compile(r"\bTB ?20\b"), "trung bình 20 phiên"), (re.compile(r"\bTB ?5\b"), "trung bình 5 phiên"),
+    (re.compile(r"\s*\(?\b(FACT|OBSERVATION|INTERPRETATION|HYPOTHESIS|CONFIRMATION)\b\)?:?", re.I), ""),
+    (re.compile(r"(trong|theo|từ) (bộ )?dữ liệu FACT", re.I), r"\1 dữ liệu"), (re.compile(r"\bFACT\b"), "dữ liệu"),
+    (re.compile(r"sổ dự báo", re.I), "những mốc em đã nói"),
+    (re.compile(r"chắc chắn sẽ", re.I), "nhiều khả năng sẽ"), (re.compile(r"cài SL", re.I), "đặt điểm dừng"),
+    (re.compile(r"[ \t]{2,}"), " "),
+]
+
+
+def lam_sach(script: dict) -> dict:
+    """Làm sạch chắc chắn bằng code (không tốn lượt AI): bỏ nhãn nội bộ, đổi viết tắt sang lời nói."""
+    if not isinstance(script, dict):
+        return script
+
+    def sach(t):
+        t = str(t or "")
+        for rx, rep in THAY_CO_DINH:
+            t = rx.sub(rep, t)
+        # viết hoa lại chữ đầu câu sau khi thay
+        return re.sub(r"(^|[.!?]\s+)(\w)", lambda m: m.group(1) + m.group(2).upper(), t.strip())
+
+    for p in script.get("phan") or []:
+        p["loi_thoai"] = sach(p.get("loi_thoai"))
+    for t in script.get("tiktok") or []:
+        if isinstance(t, dict):
+            t["loi_thoai"] = sach(t.get("loi_thoai"))
+    return script
+
+
 def check_script(script: dict) -> list[str]:
     loi = []
     if not isinstance(script, dict) or not script.get("phan"):
@@ -185,7 +215,7 @@ def check_script(script: dict) -> list[str]:
     if len(tk) < 3:
         loi.append(f"chỉ có {len(tk)} clip TikTok")
     # "khối ngoại mua vào/bán ra" là mô tả hợp lệ nên không cấm; cấm lời khuyên hành động và độ chắc tuyệt đối
-    cam = re.compile(r"(?<!\w)(chắc chắn sẽ|100%|cài SL|giải ngân|margin|chốt lời|nên mua|nên bán|canh mua|canh bán)(?!\w)",
+    cam = re.compile(r"(?<!\w)(cài SL|giải ngân|margin|nên mua|nên bán|canh mua|canh bán|nên chốt|chốt ngay)(?!\w)",
                      re.I)
     for p in script["phan"]:
         m = cam.search(str(p.get("loi_thoai", "")))
@@ -213,7 +243,7 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
     Ra ít chữ hơn viết lại cả bài → nhanh, ít hỏng JSON, đỡ tốn hạn mức. Sắp hết quỹ thời gian thì bỏ qua."""
     if g.han and time.time() > g.han - 6 * 60:
         return script
-    cam = re.compile(r"(?<!\w)(chắc chắn sẽ|100%|cài SL|giải ngân|margin|chốt lời|nên mua|nên bán|canh mua|canh bán)(?!\w)",
+    cam = re.compile(r"(?<!\w)(cài SL|giải ngân|margin|nên mua|nên bán|canh mua|canh bán|nên chốt|chốt ngay)(?!\w)",
                      re.I)
     can_sua = []
     for p in script.get("phan") or []:
@@ -244,7 +274,9 @@ def _sua_script(g: GeminiDaily, script: dict, loi: list[str], fc: dict) -> dict:
     sc["phan"] = []
     for ph in script.get("phan") or []:
         x = moi.get(str(ph.get("ten", "")).strip().lower())
-        if x and len(str(x["loi_thoai"]).split()) >= len(str(ph.get("loi_thoai", "")).split()) * 0.9:
+        cu = str(ph.get("loi_thoai", ""))
+        if x and (len(str(x["loi_thoai"]).split()) >= len(cu.split()) * 0.9
+                  or (cam.search(cu) and not cam.search(str(x["loi_thoai"])) and len(str(x["loi_thoai"]).split()) >= len(cu.split()) * 0.75)):
             ph = {**ph, "loi_thoai": x["loi_thoai"], **({"chen_hinh": x["chen_hinh"]} if x.get("chen_hinh") else {})}
         sc["phan"].append(ph)
     return sc
@@ -267,9 +299,10 @@ def cach_2_buoc(g: GeminiDaily, fc: dict, so: dict) -> dict:
     except GeminiError as e:
         res["loi"].append(f"bước viết lời thoại: {str(e)[:300]}")
         return res
+    sc = lam_sach(sc)
     loi = check_script(sc)
     if loi:
-        sc = _sua_script(g, sc, loi, fc)
+        sc = lam_sach(_sua_script(g, sc, loi, fc))
         loi = check_script(sc)
     res["script"] = sc
     res["loi"] += loi
@@ -288,9 +321,10 @@ def cach_1_luot(g: GeminiDaily, fc: dict, so: dict) -> dict:
     res["phan_tich"] = out.get("phan_tich") or {}
     sc = out.get("script") or {}
     res["loi"] += check_phan_tich(res["phan_tich"])
+    sc = lam_sach(sc)
     loi = check_script(sc)
     if loi:
-        sc = _sua_script(g, sc, loi, fc)
+        sc = lam_sach(_sua_script(g, sc, loi, fc))
         loi = check_script(sc)
     res["script"] = sc
     res["loi"] += loi
@@ -326,9 +360,10 @@ def viet_lai(fc: dict, so: dict, view: str, pt_cu: dict | None) -> tuple[dict, d
         res["loi"].append(str(e)[:300])
         return res, {"so_luot": g.calls, "nhat_ky": g.nhat_ky[-30:]}
     sc = out.get("script") or {}
+    sc = lam_sach(sc)
     loi = check_script(sc)
     if loi:
-        sc = _sua_script(g, sc, loi, fc)
+        sc = lam_sach(_sua_script(g, sc, loi, fc))
         loi = check_script(sc)
     res.update({"thesis_check": out.get("thesis_check") or [], "view_sau_phan_bien": out.get("view_sau_phan_bien"),
                 "script": sc, "du_bao_moi": out.get("du_bao_moi") or [], "model": out.get("_model")})

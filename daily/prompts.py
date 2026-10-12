@@ -52,8 +52,10 @@ KHUNG LẬP LUẬN (top-down, theo đúng thứ tự):
      động"; chân nến tăng mạnh chỉ là một nguồn của vùng. Trả lời đủ 6 câu: vùng từ đâu, vì sao thị trường nhận ra nó,
      giữ thì sao, thủng thì sao (vùng kế tiếp + hệ quả cho breadth và nhóm ngành), tín hiệu xác nhận, tín hiệu vô hiệu.
      Ghi rõ CẦN (điều kiện cần để hành động) hay QS (vùng quan sát).
-     Dải Bollinger (20,2) chỉ là dải biến động bổ trợ: dùng để nói giá đang sát dải dưới/trên (%B) hay dải đang bóp chặt
-     (sắp có biến động mạnh) — KHÔNG thay hỗ trợ/kháng cự cấu trúc.
+     Dải Bollinger (20,2): khi đã có vùng hỗ trợ/kháng cự rõ thì BB là bổ trợ (giá sát dải dưới/trên, dải đang bóp chặt
+     = sắp có biến động mạnh). Khi KHÔNG nhận diện được vùng rõ ở một phía, dữ liệu đã tự điền dải Bollinger làm mốc
+     động cho phía đó (ghi "dải Bollinger dưới/giữa/trên — mốc động"): dùng nó làm hỗ trợ/kháng cự, nói rõ là mốc động
+     ("dải Bollinger dưới quanh 1.690, mốc động vì phía dưới chưa có đáy cũ rõ") và mốc này dịch chuyển theo từng phiên.
   T7 Regime: một trong Risk-on/Trend · Rotation/Divergence · Distribution · Capitulation · Technical rebound ·
      Bottoming process. Bằng chứng ủng hộ + bằng chứng làm phân loại sai. Đối chiếu đèn NSI nếu FACT có
      (đèn là FACT, regime là diễn giải; lệch thì nói). Có tiền → ưu tiên dòng tiền & mẫu hình; thiếu tiền → timing,
@@ -182,6 +184,8 @@ def compact(facts: dict) -> dict:
     def vung(x):
         if not x:
             return None
+        if x.get("bb"):
+            return f"{x['gia']} ({x['nguon'][0]} — mốc động vì không có vùng rõ, cách {x['cach_pct']:+}%)"
         khoang = f"{x['tu']}–{x['den']}" if x["tu"] != x["den"] else f"{x['gia']}"
         return (f"{khoang} {'★' * x.get('do_manh', 1)} ({x['cham']} lần chạm, {', '.join(x.get('nguon', []))}, "
                 f"cách {x['cach_pct']:+}%)")
@@ -233,7 +237,8 @@ def compact(facts: dict) -> dict:
         "ban_tin_sang_7h": facts.get("ban_tin_sang"), "den_nsi": facts.get("den_nsi") or "không đọc được",
         "thieu_du_lieu": facts.get("thieu_du_lieu"),
         "chu_giai": "hỗ trợ/kháng cự là VÙNG 'từ–đến ★độ mạnh (số lần chạm, nguồn, cách % so giá đóng cửa)'; "
-                    "vung_dang_test = vùng giá đóng cửa đang nằm trong; MA=giá(cách%); "
+                    "vung_dang_test = vùng giá đóng cửa đang nằm trong; mốc ghi 'dải Bollinger … mốc động' = không có vùng rõ "
+                    "nên dùng dải Bollinger làm hỗ trợ/kháng cự; MA=giá(cách%); "
                     "pct_5p_20p_60p = % thay đổi 5/20/60 phiên; rs = hơn/kém VN-Index (điểm %)",
         "ma_theo_nhom": nhom,
     }

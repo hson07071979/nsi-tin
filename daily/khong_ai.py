@@ -22,7 +22,7 @@ def _moc_chinh(kt: dict, close: float) -> dict:
         return {"gia": z["tu"], "nguon": f"vùng {z['tu']}–{z['den']} {'★' * z['do_manh']} ({', '.join(z['nguon'])}) — giá đang test",
                 "da_gay": False}
     for z in kt.get("ho_tro_gan") or []:
-        if z.get("do_manh", 0) >= 3:
+        if z.get("do_manh", 0) >= 3 and not z.get("bb"):
             return {"gia": z["gia"], "nguon": f"vùng hỗ trợ {z['tu']}–{z['den']} {'★' * z['do_manh']} ({', '.join(z['nguon'])})",
                     "da_gay": False}
     for x in reversed(kt.get("nen_phat_dong") or []):
@@ -32,6 +32,9 @@ def _moc_chinh(kt: dict, close: float) -> dict:
     for z in kt.get("ho_tro_gan") or []:
         if z["cham"] >= 2:
             return {"gia": z["gia"], "nguon": f"vùng đáy chạm {z['cham']} lần, gần nhất {z['ngay_gan_nhat']}", "da_gay": False}
+    for z in kt.get("ho_tro_gan") or []:
+        if z.get("bb"):
+            return {"gia": z["gia"], "nguon": f"{z['nguon'][0]} — mốc động vì chưa có vùng hỗ trợ rõ", "da_gay": False}
     d = kt.get("day_20p") or {}
     return {"gia": d.get("gia"), "nguon": f"đáy 20 phiên ngày {d.get('ngay')}", "da_gay": False}
 
@@ -70,6 +73,10 @@ def _ma_row(r: dict) -> dict:
     sl = round(max(sup, close * 0.93), 2) if sup else round(close * 0.93, 2)       # SL theo mốc, không quá 7%
     tren = sorted(z["gia"] for z in r.get("khang_cu_gan") or [] if z["gia"] > close * 1.005)
     muc_tieu = tren[0] if tren else None
+    bb_gia = {z["gia"]: z["nguon"][0] for z in (r.get("ho_tro_gan") or []) + (r.get("khang_cu_gan") or []) if z.get("bb")}
+    dong = [f"{'mốc' if g == sup else 'mục tiêu'} theo {bb_gia[g]}" for g in (sup, muc_tieu) if g in bb_gia]
+    if dong:
+        ct += "; chưa có vùng rõ nên " + ", ".join(dong) + " (mốc động)"
     return {
         "ma": r["ma"], "cau_truc": ct, "moc_theo_doi": sup, "sl": sl, "muc_tieu": muc_tieu,
         "thung_thi": f"về vùng {_f(ke, 2)}" if ke else "chưa có hỗ trợ gần hơn trong dữ liệu",

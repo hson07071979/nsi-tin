@@ -144,8 +144,9 @@ def vung_ho_tro_khang_cu(bars: list[dict], close: float, mas: dict, tol: float =
 
 
 def bollinger(c: list[float], n: int = 20, k: float = 2.0) -> dict | None:
-    """Dải Bollinger (20, 2): dải BIẾN ĐỘNG động quanh MA20 — dùng bổ trợ, KHÔNG thay hỗ trợ/kháng cự cấu trúc."""
-    if len(c) < n + 120:
+    """Dải Bollinger (20, 2) quanh MA20. Có vùng hỗ trợ/kháng cự cấu trúc thì BB là bổ trợ; KHÔNG nhận diện được vùng
+    thì dải BB được dùng làm hỗ trợ/kháng cự động (Sơn chốt 12/10). Cần ≥20 phiên; 'bóp chặt' cần ≥140 phiên."""
+    if len(c) < n:
         return None
     def band(seg):
         m = mean(seg)
@@ -154,7 +155,7 @@ def bollinger(c: list[float], n: int = 20, k: float = 2.0) -> dict | None:
     m, up, lo = band(c[-n:])
     bw = (up - lo) / m if m else None
     hist_bw = []
-    for i in range(len(c) - 120, len(c)):
+    for i in (range(len(c) - 120, len(c)) if len(c) >= n + 120 else ()):
         mm, uu, ll = band(c[i - n + 1:i + 1])
         if mm:
             hist_bw.append((uu - ll) / mm)
@@ -163,6 +164,37 @@ def bollinger(c: list[float], n: int = 20, k: float = 2.0) -> dict | None:
             "pct_b": round((c[-1] - lo) / (up - lo), 2) if up > lo else None,
             "do_rong_pct": round(bw * 100, 2) if bw is not None else None,
             "bop_chat": bool(rank is not None and rank <= 0.1)}
+
+
+def bb_lam_ho_tro_khang_cu(sup: list, res: list, bb: dict | None, close: float, gan_pct: float = 7.0,
+                           dang: dict | None = None):
+    """Không có vùng hỗ trợ (hoặc kháng cự) ≥2 sao trong phạm vi gan_pct% → vẽ dải Bollinger làm mốc động cho phía đó.
+    Dải dưới/giữa nằm dưới giá → hỗ trợ; dải giữa/trên nằm trên giá → kháng cự. Trả (sup, res, dùng_bb)."""
+    dung = {"ho_tro": False, "khang_cu": False}
+    if not bb or not close:
+        return sup, res, dung
+    ten = {"duoi": "dải Bollinger dưới", "giua": "dải Bollinger giữa (MA20)", "tren": "dải Bollinger trên"}
+
+    def z(k):
+        g = bb[k]
+        return {"gia": g, "tu": g, "den": g, "cham": 0, "ngay_gan_nhat": None, "nguon": [ten[k]],
+                "do_manh": 2, "cach_pct": _pct(g, close), "bb": True}
+
+    def ro(ds):
+        return any(x.get("do_manh", 0) >= 2 and abs(x.get("cach_pct") or 99) <= gan_pct for x in ds)
+
+    co_vung_test = bool(dang and dang.get("do_manh", 0) >= 2)   # giá đang test vùng rõ → phía hỗ trợ đã có mốc
+    if not ro(sup) and not co_vung_test:
+        them = [z(k) for k in ("giua", "duoi") if bb[k] < close * 0.998]
+        if them:
+            sup = sorted(them + list(sup), key=lambda x: -x["gia"])[:3]
+            dung["ho_tro"] = True
+    if not ro(res):
+        them = [z(k) for k in ("giua", "tren") if bb[k] > close * 1.002]
+        if them:
+            res = sorted(them + list(res), key=lambda x: x["gia"])[:3]
+            dung["khang_cu"] = True
+    return sup, res, dung
 
 
 def launch_candles(bars: list[dict], min_pct: float, look: int = 120, vol_x: float = 1.3) -> list[dict]:
@@ -224,8 +256,10 @@ def analyse(bars: list[dict], index_bars: list[dict] | None = None, is_index: bo
     d["nen_phat_dong"] = lc
     sup, res, dang = vung_ho_tro_khang_cu(bars, close, {"ma50": d.get("ma50"), "ma200": d.get("ma200")},
                                           tol=0.008 if is_index else 0.015, extra=lc)
+    bb = bollinger(c)
+    sup, res, d["sr_tu_bb"] = bb_lam_ho_tro_khang_cu(sup, res, bb, close, dang=dang)
     d["ho_tro_gan"], d["khang_cu_gan"], d["vung_dang_test"] = sup, res, dang
-    d["bollinger"] = bollinger(c)
+    d["bollinger"] = bb
     # khoảng trống giá chưa lấp trong 60 phiên (gap xuống/lên)
     gaps = []
     for i in range(max(1, len(bars) - 60), len(bars)):

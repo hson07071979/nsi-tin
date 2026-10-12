@@ -113,3 +113,25 @@ def test_khong_ai_va_uu_tien(monkeypatch):
     ket, meta = ai.chay_hai_ban({"ngay": "2026-10-12"}, {}, facts=facts)
     assert any(b["cach"] == "so_lieu_khong_ai" and b["phan_tich"] for b in ket)
     assert not any((b.get("script") or {}).get("phan") for b in ket)
+
+
+def test_bb_fallback_khi_khong_co_vung():
+    from daily import tech
+    bb = {"tren": 110.0, "giua": 100.0, "duoi": 90.0, "pct_b": 0.6, "do_rong_pct": 20.0, "bop_chat": False}
+    # không có vùng nào → BB điền cả hai phía
+    sup, res, dung = tech.bb_lam_ho_tro_khang_cu([], [], bb, 104.0)
+    assert dung == {"ho_tro": True, "khang_cu": True}
+    assert [z["gia"] for z in sup] == [100.0, 90.0] and [z["gia"] for z in res] == [110.0]
+    assert all(z["bb"] for z in sup + res)
+    # có vùng hỗ trợ 3 sao gần → giữ nguyên phía hỗ trợ, chỉ điền kháng cự
+    vung = {"gia": 101.0, "tu": 100.5, "den": 101.5, "cham": 3, "ngay_gan_nhat": "2026-10-01",
+            "nguon": ["đáy cũ"], "do_manh": 3, "cach_pct": -2.9}
+    sup, res, dung = tech.bb_lam_ho_tro_khang_cu([vung], [], bb, 104.0)
+    assert sup == [vung] and dung["ho_tro"] is False and dung["khang_cu"] is True
+    # bollinger chạy được với lịch sử ngắn
+    assert tech.bollinger([float(x) for x in range(30)]) is not None
+    # prompt và bản không AI nói đúng là mốc động
+    from daily.khong_ai import _ma_row
+    r = {"ma": "XYZ", "dong_cua": 104.0, "ho_tro_gan": sup, "khang_cu_gan": res, "ma20": 100.0, "so_ma20_pct": 4}
+    row = _ma_row(r)
+    assert row["muc_tieu"] == 110.0 and "mốc động" in row["cau_truc"]

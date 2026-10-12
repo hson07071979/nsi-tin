@@ -1,6 +1,6 @@
 {
  "ngay": "2026-10-12",
- "bat_dau_luc": "2026-10-12T18:17+07:00",
+ "bat_dau_luc": "2026-10-12T18:28+07:00",
  "fc": {
   "ngay": "2026-10-12",
   "vnindex": {
@@ -449,11 +449,11 @@
    "brent": {
     "ten": "Dầu Brent",
     "don_vi": "USD/thùng",
-    "gia": 106.09,
-    "luc_vn": "2026-10-12T18:07+07:00",
-    "pct_1p": 1.31,
-    "pct_5p": 5.75,
-    "pct_20p": 0.39,
+    "gia": 105.94,
+    "luc_vn": "2026-10-12T18:18+07:00",
+    "pct_1p": 1.17,
+    "pct_5p": 5.6,
+    "pct_20p": 0.25,
     "cao_20p": 108.75,
     "thap_20p": 99.25,
     "cao_3t": 108.75,
@@ -462,11 +462,11 @@
    "wti": {
     "ten": "Dầu WTI",
     "don_vi": "USD/thùng",
-    "gia": 93.02,
-    "luc_vn": "2026-10-12T18:07+07:00",
-    "pct_1p": 1.27,
-    "pct_5p": 4.01,
-    "pct_20p": -8.26,
+    "gia": 92.96,
+    "luc_vn": "2026-10-12T18:18+07:00",
+    "pct_1p": 1.21,
+    "pct_5p": 3.95,
+    "pct_20p": -8.31,
     "cao_20p": 105.83,
     "thap_20p": 88.28,
     "cao_3t": 105.83,
@@ -475,14 +475,14 @@
    "dxy": {
     "ten": "DXY",
     "don_vi": "điểm",
-    "gia": 102.431,
-    "luc_vn": "2026-10-12T18:07+07:00",
-    "pct_1p": 0.22,
-    "pct_5p": 0.26,
+    "gia": 102.429,
+    "luc_vn": "2026-10-12T18:18+07:00",
+    "pct_1p": 0.21,
+    "pct_5p": 0.25,
     "pct_20p": 2.99,
-    "cao_20p": 102.431,
+    "cao_20p": 102.429,
     "thap_20p": 99.65,
-    "cao_3t": 102.431,
+    "cao_3t": 102.429,
     "thap_3t": 98.77
    },
    "us10y": {
@@ -516,10 +516,10 @@
    "gold": {
     "ten": "Vàng thế giới",
     "don_vi": "USD/oz",
-    "gia": 4197.5,
-    "luc_vn": "2026-10-12T18:07+07:00",
+    "gia": 4197.2,
+    "luc_vn": "2026-10-12T18:18+07:00",
     "pct_1p": -0.45,
-    "pct_5p": 0.98,
+    "pct_5p": 0.97,
     "pct_20p": -3.55,
     "cao_20p": 4424.8999,
     "thap_20p": 4140.7002,
@@ -568,11 +568,11 @@
    "es_fut": {
     "ten": "Hợp đồng tương lai S&P 500 (đang chạy)",
     "don_vi": "điểm",
-    "gia": 7860.75,
-    "luc_vn": "2026-10-12T18:07+07:00",
-    "pct_1p": 0.01,
-    "pct_5p": 0.44,
-    "pct_20p": 3.09,
+    "gia": 7864.75,
+    "luc_vn": "2026-10-12T18:18+07:00",
+    "pct_1p": 0.06,
+    "pct_5p": 0.49,
+    "pct_20p": 3.14,
     "cao_20p": 7874.0,
     "thap_20p": 7556.5,
     "cao_3t": 7874.0,
@@ -581,11 +581,11 @@
    "vix": {
     "ten": "VIX",
     "don_vi": "điểm",
-    "gia": 15.49,
-    "luc_vn": "2026-10-12T18:02+07:00",
-    "pct_1p": 4.38,
-    "pct_5p": -0.19,
-    "pct_20p": -9.42,
+    "gia": 15.48,
+    "luc_vn": "2026-10-12T18:13+07:00",
+    "pct_1p": 4.31,
+    "pct_5p": -0.26,
+    "pct_20p": -9.47,
     "cao_20p": 17.71,
     "thap_20p": 14.21,
     "cao_3t": 20.66,
@@ -634,7 +634,7 @@
     "ten": "KOSPI",
     "don_vi": "điểm",
     "gia": 6384.24,
-    "luc_vn": "2026-10-12T13:32+07:00",
+    "luc_vn": "2026-10-12T18:05+07:00",
     "pct_1p": -3.65,
     "pct_5p": -8.42,
     "pct_20p": -8.2,
@@ -672,12 +672,12 @@
    "copper": {
     "ten": "Đồng",
     "don_vi": "USD/lb",
-    "gia": 6.766,
-    "luc_vn": "2026-10-12T18:07+07:00",
-    "pct_1p": 1.86,
-    "pct_5p": 2.74,
-    "pct_20p": 6.89,
-    "cao_20p": 6.7655,
+    "gia": 6.774,
+    "luc_vn": "2026-10-12T18:17+07:00",
+    "pct_1p": 1.98,
+    "pct_5p": 2.86,
+    "pct_20p": 7.01,
+    "cao_20p": 6.7745,
     "thap_20p": 6.3685,
     "cao_3t": 6.8035,
     "thap_3t": 6.22
@@ -685,11 +685,11 @@
    "btc": {
     "ten": "Bitcoin",
     "don_vi": "USD",
-    "gia": 83336.09,
-    "luc_vn": "2026-10-12T18:15+07:00",
-    "pct_1p": -0.41,
-    "pct_5p": 0.07,
-    "pct_20p": -3.29,
+    "gia": 83323.52,
+    "luc_vn": "2026-10-12T18:28+07:00",
+    "pct_1p": -0.43,
+    "pct_5p": 0.06,
+    "pct_20p": -3.31,
     "cao_20p": 86480.3047,
     "thap_20p": 81676.3359,
     "cao_3t": 86602.9141,
@@ -5164,7 +5164,7 @@
   }
  },
  "nhat_ky": [
-  "đủ dữ liệu lúc 18:17"
+  "đủ dữ liệu lúc 18:28"
  ],
  "so_du_bao": {
   "vua_cham_hom_nay": [],
@@ -5179,869 +5179,484 @@
  "ban": [
   {
    "cach": "cach_1_luot",
-   "loi": [],
+   "loi": [
+    "lời thoại ngắn (1983 chữ, cần ~3.000 cho 20 phút)"
+   ],
    "phan_tich": {
     "signature": {
-     "index_noi_gi": "VN-Index giáº£m 14,11 Äiá»m (-0,81%) ÄÃ³ng cá»­a táº¡i 1720,98 nhÆ°ng má»©c giáº£m bá» chi phá»i náº·ng ná» bá»i nhÃ³m Vin, trong khi chá» sá» chÃ­nh thá»©c ÄÃ³ng náº¿n dÆ°á»i chÃ¢n náº¿n phÃ¡t Äá»ng 21/08 táº¡i má»c 1725,4.",
-     "co_phieu_noi_gi": "Äá» rá»ng thá» trÆ°á»ng cÃ¢n báº±ng vá»i 154 mÃ£ tÄng so vá»i 148 mÃ£ giáº£m, dÃ²ng tiá»n cÃ³ sá»± phÃ¢n hÃ³a máº¡nh máº½ khi thÃ©p vÃ  Äáº§u tÆ° cÃ´ng báº­t tÄng báº¥t cháº¥p chá» sá» giáº£m.",
-     "dong_tien_noi_gi": "Thanh khoáº£n khá»p lá»nh HOSE sá»¥t giáº£m cÃ²n 10.645 tá»· Äá»ng (báº±ng 0,81 láº§n trung bÃ¬nh 20 phiÃªn), pháº£n Ã¡nh tráº¡ng thÃ¡i thiáº¿u tiá»n, lá»±c bÃ¡n khÃ´ng lan rá»ng nhÆ°ng cáº§u giÃ¡ cao tháº­n trá»ng."
+     "index_noi_gi": "VN-Index giảm hơn 14 điểm, lùi về 1.720,98 và đánh mất chân nến phát động ngày 21/08 tại mốc 1.725,4.",
+     "co_phieu_noi_gi": "Bảng điện phân hóa sâu sắc nhưng không hoảng loạn với 154 mã tăng so kè cùng 148 mã giảm, áp lực giảm điểm gần như tập trung toàn bộ ở nhóm Vin.",
+     "dong_tien_noi_gi": "Thanh khoản khớp lệnh co hẹp chỉ đạt 10.645,1 tỷ, hụt gần một phần năm so với bình quân hai mươi phiên, cho thấy tâm lý thận trọng và thiếu tiền đẩy giá diện rộng."
     },
     "doi_chieu_du_bao": [],
     "the_gioi": [
      {
       "bien": "DXY",
-      "muc": "102,431 Äiá»m lÃºc 18:07",
-      "nguong": "102,431 (cháº¡m Äá»nh 20 phiÃªn vÃ  3 thÃ¡ng)",
-      "kenh_truyen_dan": "Tá»· giÃ¡ vÃ  dÃ²ng vá»n ngoáº¡i",
-      "he_qua_neu_vuot": "Neo cao duy trÃ¬ sá»©c Ã©p rÃºt rÃ²ng cá»§a dÃ²ng vá»n ngoáº¡i FII vÃ  táº¡o Ã¡p lá»±c lÃªn tá»· giÃ¡ USD/VND trong nÆ°á»c.",
+      "muc": "102,429 điểm lúc 18h18",
+      "nguong": "102,429 điểm (đỉnh cao nhất 20 phiên và 3 tháng)",
+      "kenh_truyen_dan": "Tỷ giá USD/VND và áp lực rút vốn của dòng tiền ngoại gián tiếp",
+      "he_qua_neu_vuot": "Nếu neo cao trên đỉnh 102,4 sẽ duy trì áp lực mất giá lên VND, hạn chế dư địa nới lỏng tiền tệ của Ngân hàng Nhà nước",
       "nhan": "FACT"
      },
      {
-      "bien": "Lá»£i suáº¥t TPCP Má»¹ 10 nÄm (US10Y)",
-      "muc": "5,244% (chá»¥p lÃºc 01:59 ngÃ y 10/10)",
-      "kenh_truyen_dan": "Chi phÃ­ vá»n toÃ n cáº§u vÃ  Äá»nh giÃ¡ thá» trÆ°á»ng má»i ná»i",
-      "he_qua_neu_vuot": "VÆ°á»£t Äá»nh 20 phiÃªn (5,311%) sáº½ gia tÄng má»©c chiáº¿t kháº¥u Äá»nh giÃ¡ lÃªn cÃ¡c thá» trÆ°á»ng cáº­n biÃªn.",
+      "bien": "US10Y",
+      "muc": "5,244% lúc 1h59 sáng 10/10",
+      "nguong": "5,311% (đỉnh 20 phiên và 3 tháng)",
+      "kenh_truyen_dan": "Chiết khấu định giá cổ phiếu toàn cầu và chi phí vốn quốc tế",
+      "he_qua_neu_vuot": "Gây áp lực tái định giá P/E của thị trường cổ phiếu, thúc đẩy khối ngoại duy trì bán ròng rổ tài sản thị trường mới nổi",
       "nhan": "FACT"
      },
      {
-      "bien": "Dáº§u Brent",
-      "muc": "106,09 USD/thÃ¹ng lÃºc 18:07",
-      "kenh_truyen_dan": "Chi phÃ­ nÄng lÆ°á»£ng vÃ  ká»³ vá»ng láº¡m phÃ¡t",
-      "he_qua_neu_vuot": "Gáº§n sÃ¡t Äá»nh 20 phiÃªn vÃ  3 thÃ¡ng táº¡i 108,75 USD/thÃ¹ng, gia tÄng Ã¡p lá»±c Äáº§u vÃ o cho cÃ¡c ngÃ nh sáº£n xuáº¥t vÃ  váº­n táº£i.",
+      "bien": "Dầu Brent",
+      "muc": "105,94 USD/thùng lúc 18h18",
+      "nguong": "108,75 USD/thùng (đỉnh 20 phiên và 3 tháng)",
+      "kenh_truyen_dan": "Chi phí năng lượng, logistics và nguy cơ lạm phát nhập khẩu",
+      "he_qua_neu_vuot": "Bào mòn biên lợi nhuận của doanh nghiệp sản xuất và làm chậm tiến trình hạ lãi suất",
       "nhan": "FACT"
      },
      {
-      "bien": "ThÃ©p cuá»n cÃ¡n nÃ³ng HRC Má»¹",
-      "muc": "1297,0 USD/táº¥n lÃºc 13:01",
-      "kenh_truyen_dan": "TÃ¢m lÃ½ nhÃ³m ngÃ nh thÃ©p vÃ  biÃªn lá»£i nhuáº­n xuáº¥t kháº©u",
-      "he_qua_neu_vuot": "Neo á» Äá»nh 3 thÃ¡ng táº¡o tÃ¢m lÃ½ há» trá»£ nhÃ³m thÃ©p ná»i Äá»a (HPG, HSG, NKG).",
+      "bien": "USD/VND",
+      "muc": "25.879 đồng chụp lúc 9h54",
+      "nguong": "26.020 đồng (cao 20 phiên) và 26.330 đồng (cao 3 tháng)",
+      "kenh_truyen_dan": "Dòng vốn đầu tư gián tiếp và thanh khoản tiền đồng trong hệ thống ngân hàng",
+      "he_qua_neu_vuot": "Nếu tỷ giá tự do vượt 26.000 kéo theo tỷ giá niêm yết tăng, NHNN có thể phải can thiệp hút bớt thanh khoản tiền đồng",
       "nhan": "FACT"
      }
     ],
-    "suc_khoe_vn": "VN-Index giáº£m 14,11 Äiá»m (-0,81%) vá» 1720,98 Äiá»m. Tuy nhiÃªn Äá» rá»ng HOSE khÃ´ng Äá»ng thuáº­n vá»i ÄÃ  giáº£m khi cÃ³ 154 mÃ£ tÄng, 148 mÃ£ giáº£m, 4 tráº§n vÃ  6 sÃ n. ÄÃ  giáº£m cá»§a chá» sá» mang tÃ­nh cá»¥c bá» chá»© khÃ´ng pháº£n Ã¡nh sá»± hoáº£ng loáº¡n trÃªn diá»n rá»ng.",
-    "thanh_khoan": "Tá»ng giÃ¡ trá» giao dá»ch HOSE Äáº¡t 12.977,9 tá»· Äá»ng, trong ÄÃ³ thá»a thuáº­n chiáº¿m 2.332,9 tá»· Äá»ng (18%). Thanh khoáº£n khá»p lá»nh Äáº¡t 10.645,1 tá»· Äá»ng, giáº£m 27,6% so vá»i phiÃªn trÆ°á»c (14.694,5 tá»·) vÃ  chá» Äáº¡t 0,81 láº§n má»©c trung bÃ¬nh 20 phiÃªn (13.198 tá»·). Thá» trÆ°á»ng Äang á» tráº¡ng thÃ¡i thiáº¿u tiá»n, khÃ´ng cÃ³ Ã¡p lá»±c bÃ¡n thÃ¡o nhÆ°ng cáº§u mua lÃªn dÃ¨ dáº·t.",
-    "dong_tien": "Khá»i ngoáº¡i bÃ¡n rÃ²ng 584,0 tá»· Äá»ng trÃªn HOSE (mua 1.249,3 tá»·, bÃ¡n 1.833,3 tá»·); lÅ©y káº¿ thÃ¡ng 10 bÃ¡n rÃ²ng 17.933 tá»· Äá»ng. BÃ¡n máº¡nh TCB (-114,9 tá»·), PNJ (-105,0 tá»·), FPT (-91,2 tá»·); mua rÃ²ng HPG (+128,1 tá»·). Tá»± doanh phiÃªn hÃ´m nay chÆ°a cÃ³ dá»¯ liá»u (phiÃªn 09/10 mua rÃ²ng 234,4 tá»·). Káº¿t luáº­n: Khá»i ngoáº¡i tiáº¿p tá»¥c tráº¡ng thÃ¡i bÃ¡n táº­p trung vÃ o cÃ¡c mÃ£ vá»n hÃ³a lá»n, kháº©u vá» rá»§i ro toÃ n thá» trÆ°á»ng á» má»©c trung tÃ­nh thiÃªn phÃ²ng thá»§.",
-    "index_distortion": "Äá» mÃ©o chá» sá» cá»±c lá»n: riÃªng nhÃ³m Vin ÄÃ£ kÃ©o giáº£m -14,83 Äiá»m (VIC giáº£m 2,88% láº¥y Äi -10,37 Äiá»m; VHM giáº£m 3,18% láº¥y Äi -3,57 Äiá»m; VPL -0,7 Äiá»m; VRE -0,19 Äiá»m). Náº¿u loáº¡i trá»« nhÃ³m Vin, pháº§n cÃ²n láº¡i cá»§a thá» trÆ°á»ng thá»±c cháº¥t tÄng nháº¹ +0,72 Äiá»m, ÄÆ°á»£c nÃ¢ng Äá»¡ bá»i VPB (+1,24 Äiá»m), HPG (+1,05 Äiá»m), SHB (+0,4 Äiá»m) vÃ  TCB (+0,37 Äiá»m).",
+    "suc_khoe_vn": "VN-Index giảm 14,11 điểm (-0,81%) đóng cửa tại 1.720,98. Độ rộng sàn HOSE ghi nhận 154 mã tăng so với 148 mã giảm, 60 mã đứng giá, 4 mã trần và 6 mã sàn. Breadth hoàn toàn cân bằng và không đồng thuận với mức giảm mạnh của chỉ số.",
+    "thanh_khoan": "Tổng giá trị giao dịch sàn HOSE đạt 12.977,9 tỷ, trong đó thỏa thuận chiếm 2.332,9 tỷ (18%). Giá trị khớp lệnh thực đạt 10.645,1 tỷ, giảm đáng kể so với mức 14.694,5 tỷ phiên trước và chỉ đạt 81% so với trung bình 20 phiên (13.198 tỷ). Thị trường ở trạng thái thiếu tiền rõ rệt.",
+    "dong_tien": "Khối ngoại bán ròng 584,0 tỷ trên HOSE, lũy kế tháng 10 bán ròng 17.933 tỷ và lũy kế năm bán ròng 115.834,2 tỷ; bán mạnh TCB (-114,91 tỷ), PNJ (-104,95 tỷ), FPT (-91,16 tỷ) nhưng mua ròng HPG (+128,14 tỷ). Khối tự doanh chưa có dữ liệu phiên hôm nay (phiên 09/10 mua ròng 234,4 tỷ). Khẩu vị dòng tiền ngoại thể hiện trạng thái risk-off rút vốn bền bỉ.",
+    "index_distortion": "Nhóm Vin lấy đi tổng cộng 14,83 điểm của chỉ số (VIC -10,37 điểm, VHM -3,57 điểm, VPL -0,7 điểm, VRE -0,19 điểm). Phần còn lại của thị trường thực chất tăng nhẹ +0,72 điểm. Mức giảm của chỉ số bị bóp méo cục bộ bởi nhóm vốn hóa lớn họ Vin.",
     "ky_thuat_chi_so": {
-     "moc_chinh": "1.725 Äiá»m (vÃ¹ng chÃ¢n náº¿n phÃ¡t Äá»ng 21/08 táº¡i 1.725,4)",
-     "loai_moc": "CAN",
-     "nguon_goc": "ChÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 21/08 táº¡i 1725,4 (+1,95% vá»i khá»i lÆ°á»£ng gáº¥p 1,24 láº§n trung bÃ¬nh).",
-     "vi_sao_thi_truong_nhan_ra": "ÄÃ¢y lÃ  bá» Äá»¡ xÃ¡c nháº­n sÃ³ng tÄng há»i thÃ¡ng 8 mÃ  bÃªn mua tá»«ng bá» tiá»n báº£o vá» quyáº¿t liá»t.",
-     "neu_giu": "Náº¿u nhanh chÃ³ng láº¥y láº¡i trÃªn 1.725 Äiá»m, thá» trÆ°á»ng duy trÃ¬ ÄÆ°á»£c tháº¿ cÃ¢n báº±ng Äi ngang tÃ­ch lÅ©y quanh vÃ¹ng 1.725â1.750.",
-     "neu_thung": "Viá»c ÄÃ³ng náº¿n phiÃªn nay táº¡i 1720,98 ÄÃ£ chÃ­nh thá»©c ÄÃ¡nh gÃ£y chÃ¢n 1725,4; náº¿u khÃ´ng vÃ¡ láº¡i sá»m, Ã¡p lá»±c bÃ¡n cÃ³ thá» kÃ©o chá» sá» vá» kiá»m Äá»nh chÃ¢n náº¿n phÃ¡t Äá»ng 30/07 táº¡i 1.701,14 Äiá»m.",
-     "xac_nhan": "Má»t phiÃªn ÄÃ³ng cá»­a dá»©t khoÃ¡t trÃªn 1.730 Äiá»m vá»i thanh khoáº£n khá»p lá»nh quay láº¡i trÃªn má»©c trung bÃ¬nh 20 phiÃªn.",
-     "vo_hieu": "ÄÃ³ng cá»­a thá»§ng sÃ¢u dÆ°á»i 1.716,85 (ÄÃ¡y ngÃ y hÃ´m nay) vÃ  hÆ°á»ng tháº³ng vá» 1.701 Äiá»m.",
-     "ho_tro_ke_tiep": "1.701,14 Äiá»m (chÃ¢n náº¿n phÃ¡t Äá»ng 30/07) vÃ  1.650,97 Äiá»m (há» trá»£ ÄÃ¡y thÃ¡ng 7)."
+     "moc_chinh": "1.701,14",
+     "loai_moc": "QS",
+     "nguon_goc": "Chân nến phát động ngày 30/07 (phiên tăng 2,35% đi kèm khối lượng gấp 1,21 lần bình quân)",
+     "vi_sao_thi_truong_nhan_ra": "Sau khi nến ngày 21/08 tại mốc 1.725,4 đã chính thức bị xuyên thủng hôm nay, mốc 1.701 là phòng tuyến nâng đỡ tạo xu hướng duy nhất còn lại của đợt phục hồi quý 3",
+     "neu_giu": "Thị trường duy trì trạng thái tích lũy cân bằng vùng 1.700-1.720, các nhóm cổ phiếu có câu chuyện riêng như thép, xuất khẩu, đầu tư công tiếp tục phân hóa đi lên",
+     "neu_thung": "Cấu trúc đáy ngắn hạn bị bẻ gãy hoàn toàn, tâm lý phòng thủ lan rộng khiến độ rộng thị trường xấu đi nhanh chóng, kích hoạt đà rơi về đáy 60 phiên quanh 1.651",
+     "xac_nhan": "Xuất hiện lực cầu bắt đáy đưa thanh khoản khớp lệnh vượt trung bình 20 phiên và chỉ số giữ vững trên 1.701",
+     "vo_hieu": "Đóng cửa dưới 1.700 với khối lượng bán gia tăng dứt khoát",
+     "ho_tro_ke_tiep": "1.650,97 (đáy ngày 28/07)"
     },
     "regime": {
      "ten": "Rotation/Divergence",
-     "co_tien": "thiáº¿u tiá»n",
+     "co_tien": "thiếu tiền",
      "ung_ho": [
-      "Chá» sá» giáº£m máº¡nh do nhÃ³m trá»¥ Vin nhÆ°ng Äá» rá»ng thá» trÆ°á»ng cÃ¢n báº±ng (154 tÄng / 148 giáº£m).",
-      "CÃ³ sá»± phÃ¢n hÃ³a luÃ¢n chuyá»n rÃµ nÃ©t: ThÃ©p, Äáº§u tÆ° cÃ´ng hÃºt tiá»n trong khi Báº¥t Äá»ng sáº£n dÃ¢n sinh vÃ  BÃ¡n láº» bá» ÄÃ¨ náº·ng."
+      "Breadth sàn HOSE cân bằng với 154 mã tăng và 148 mã giảm dù chỉ số mất hơn 14 điểm",
+      "Nhóm Vin chịu áp lực giảm sâu đơn lẻ khiến chỉ số méo mó, trong khi nhóm thép và đầu tư công đón dòng tiền ngược dòng",
+      "Khớp lệnh thấp chỉ bằng 81% trung bình 20 phiên phản ánh sự chắt chiu, chọn lọc của dòng tiền"
      ],
      "phan_bac": [
-      "Thanh khoáº£n khá»p lá»nh sá»¥t giáº£m sÃ¢u (0,81 láº§n TB20) cho tháº¥y dÃ²ng tiá»n chÆ°a lan tá»a rá»ng kháº¯p mÃ  chá» co cá»¥m cá»¥c bá»."
+      "Chân nến phát động 21/08 tại 1.725,4 đã bị gãy, cảnh báo áp lực lan tỏa tiêu cực nếu tâm lý hoảng loạn gia tăng",
+      "Khối ngoại tiếp tục bán ròng mạnh gần 600 tỷ và chuỗi rút ròng chưa có tín hiệu dừng"
      ],
-     "so_voi_den_nsi": "Há» thá»ng NSI ghi nháº­n tráº¡ng thÃ¡i ÄÃ¨n 'khÃ´ng Äá»c ÄÆ°á»£c', cáº§n tháº­n trá»ng Äá»i chiáº¿u quáº£n trá» rá»§i ro trÃªn tá»«ng cá» phiáº¿u riÃªng láº»."
+     "so_voi_den_nsi": "Hệ thống NSI báo đèn 'không đọc được', phản ánh đúng sự xung đột sâu sắc giữa điểm số chỉ số và độ rộng cổ phiếu bên dưới"
     },
     "nganh": [
      {
-      "nhom": "NgÃ¢n hÃ ng",
-      "nhan_dinh": "PhÃ¢n hÃ³a rÃµ nÃ©t; nhÃ³m giá»¯ ÄÆ°á»£c xu hÆ°á»ng (VPB, TCB, HDB) Äá»¡ thá» trÆ°á»ng, nhÃ³m gÃ£y MA tiáº¿p tá»¥c dÃ² ÄÃ¡y.",
+      "nhom": "Ngân hàng",
+      "nhan_dinh": "Phân hóa gay gắt giữa nhóm cổ phiếu bứt phá đỉnh ngắn hạn và nhóm suy yếu tiệm cận đáy cũ; lực đỡ từ VPB, TCB, SHB giúp cân bằng áp lực giảm.",
       "ma": [
        {
         "ma": "VPB",
-        "cau_truc": "Ná»n giÃ¡ cao, náº±m trÃªn toÃ n bá» MA10/20/50/200; rs_20p Äáº¡t +16,83.",
-        "moc_theo_doi": 23.38,
-        "thung_thi": "GÃ£y MA10, kiá»m Äá»nh láº¡i há» trá»£ 22,2.",
-        "xac_nhan": "VÆ°á»£t Äá»nh 60 phiÃªn 24,95.",
-        "diem_dung_cach_pct": 4.18,
+        "cau_truc": "Nền cao, nằm trên toàn bộ MA10, MA20, MA50, MA200; rs_20p đạt +16,83 điểm",
+        "moc_theo_doi": 22.83,
+        "thung_thi": "Gãy MA20, mất đà tăng dẫn dắt, hỗ trợ kế tiếp tại vùng đỉnh cũ 22,2",
+        "xac_nhan": "Vượt đỉnh 24,95 với thanh khoản duy trì trên bình quân 20 phiên",
+        "diem_dung_cach_pct": 6.43,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,33; P/E 8,0",
+        "dinh_gia": "P/B 1,33 · P/E 8,0",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "TCB",
-        "cau_truc": "Giá»¯ trÃªn MA10 vÃ  MA20; khá»i lÆ°á»£ng Äáº¡t 1,29 láº§n TB20 dÃ¹ khá»i ngoáº¡i bÃ¡n rÃ²ng 114,9 tá»·.",
+        "cau_truc": "Giữ trên toàn bộ các đường MA, rs_20p đạt +6,11 điểm dù chịu áp lực khối ngoại xả ròng mạnh",
         "moc_theo_doi": 32.25,
-        "thung_thi": "GÃ£y há» trá»£ 32,25 sáº½ lui vá» ná»n 31,4.",
-        "xac_nhan": "ÄÃ³ng cá»­a vÆ°á»£t khÃ¡ng cá»± 33,99.",
+        "thung_thi": "Gãy hỗ trợ 32,25 sẽ lui về kiểm tra nền giá 31,4",
+        "xac_nhan": "Hấp thụ xong lực bán ròng ngoại và vượt cản 33,99",
         "diem_dung_cach_pct": 1.07,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,28; P/E 8,5",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VCB",
-        "cau_truc": "Náº±m dÆ°á»i MA10 suá»t 16 phiÃªn, gÃ£y toÃ n bá» cÃ¡c náº¿n phÃ¡t Äá»ng cÅ©.",
-        "moc_theo_doi": 55.83,
-        "thung_thi": "Máº¥t há» trá»£ 55,83 sáº½ tÃ¬m vá» ÄÃ¡y thÃ¡ng 7 táº¡i 52,6.",
-        "xac_nhan": "Láº¥y láº¡i MA10 táº¡i 57,22.",
-        "diem_dung_cach_pct": 1.53,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,94; P/E 11,4",
+        "dinh_gia": "P/B 1,28 · P/E 8,5",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "SHB",
-        "cau_truc": "Há»i phá»¥c ká»¹ thuáº­t +4,0% tá»« ÄÃ¡y 250 phiÃªn (9,55), váº«n dÆ°á»i MA200 (-24,8%).",
+        "cau_truc": "Thuộc nhóm vùng đáy sâu dưới MA200 (-24,8%), nến bật hồi kỹ thuật 4% từ đáy 250 phiên",
         "moc_theo_doi": 9.55,
-        "thung_thi": "Thá»§ng ÄÃ¡y lá»ch sá»­ 9,55, tiáº¿p tá»¥c xu hÆ°á»ng dÃ² ÄÃ¡y.",
-        "xac_nhan": "VÆ°á»£t khÃ¡ng cá»± MA10 táº¡i 10,87.",
+        "thung_thi": "Thủng đáy lịch sử 9,55, tiếp diễn xu hướng dò đáy không có hỗ trợ gần",
+        "xac_nhan": "Vượt trở lại MA10 tại 10,87",
         "diem_dung_cach_pct": 8.17,
         "rong_hon_chuan_7": true,
-        "dinh_gia": "P/B 0,65; P/E 4,0",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Chá»©ng khoÃ¡n",
-      "nhan_dinh": "Thanh khoáº£n teo tÃ³p, pháº§n lá»n mÃ£ náº±m dÆ°á»i MA10/MA20 vÃ  chÆ°a phÃ¡t tÃ­n hiá»u Äáº£o chiá»u.",
-      "ma": [
-       {
-        "ma": "SSI",
-        "cau_truc": "Náº±m dÆ°á»i MA10 ÄÆ°á»£c 12 phiÃªn, khá»i lÆ°á»£ng cáº¡n kiá»t chá» Äáº¡t 0,51 láº§n TB20.",
-        "moc_theo_doi": 18.65,
-        "thung_thi": "Thá»§ng ÄÃ¡y 20 phiÃªn 18,65 sáº½ lÃ¹i vá» há» trá»£ 17,35.",
-        "xac_nhan": "Láº¥y láº¡i MA10 táº¡i 19,62.",
-        "diem_dung_cach_pct": 2.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,5; P/E 11,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VIX",
-        "cau_truc": "26 phiÃªn náº±m dÆ°á»i MA10, ná» lá»±c giá»¯ chÃ¢n náº¿n phÃ¡t Äá»ng cÅ© 11,0.",
-        "moc_theo_doi": 11.0,
-        "thung_thi": "Thá»§ng ÄÃ¡y 11,0 cáº¥u trÃºc phá»¥c há»i bá» báº» gÃ£y hoÃ n toÃ n.",
-        "xac_nhan": "VÆ°á»£t MA10 táº¡i 11,88.",
-        "diem_dung_cach_pct": 5.98,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,92; P/E 7,6",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Báº¥t Äá»ng sáº£n",
-      "nhan_dinh": "Chá»u sá»©c Ã©p bÃ¡n lá»n tá»« nhÃ³m vá»n hÃ³a lá»n (VIC, VHM); nhÃ³m vá»«a vÃ  nhá» cÃ³ lá»±c há»i phá»¥c ká»¹ thuáº­t nháº¹.",
-      "ma": [
-       {
-        "ma": "VIC",
-        "cau_truc": "Xuáº¥t hiá»n gap giáº£m 225,4â225,5, kÃ©o chá» sá» giáº£m máº¡nh nháº¥t phiÃªn.",
-        "moc_theo_doi": 213.5,
-        "thung_thi": "Máº¥t há» trá»£ 213,5 sáº½ tÃ¬m vá» vÃ¹ng 206,5.",
-        "xac_nhan": "Láº¥p gap giáº£m táº¡i 225,5.",
-        "diem_dung_cach_pct": 2.51,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 10,16; P/E 81,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VHM",
-        "cau_truc": "ÄÃ³ng cá»­a táº¡i ÄÃ¡y 20 phiÃªn (63,9), náº±m sÃ¡t ÄÃ¡y thÃ¡ng 7 (63,3).",
-        "moc_theo_doi": 63.3,
-        "thung_thi": "Thá»§ng 63,3 sáº½ kÃ­ch hoáº¡t nhá»p bÃ¡n má» biÃªn xuá»ng há» trá»£ 62,1.",
-        "xac_nhan": "Láº¥y láº¡i MA10 táº¡i 67,55.",
-        "diem_dung_cach_pct": 0.94,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,06; P/E 6,8",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "NVL",
-        "cau_truc": "VÆ°á»£t MA10 (+6,29%), xÃ¡c nháº­n chÃ¢n náº¿n phÃ¡t Äá»ng 09/10 táº¡i 10,05.",
-        "moc_theo_doi": 10.53,
-        "thung_thi": "Thá»§ng 10,53 sáº½ phá»§ nháº­n ná» lá»±c há»i phá»¥c.",
-        "xac_nhan": "VÆ°á»£t MA20 táº¡i 11,31.",
-        "diem_dung_cach_pct": 5.56,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,62; P/E 8,3",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "ThÃ©p",
-      "nhan_dinh": "NhÃ³m dáº«n dáº¯t máº¡nh nháº¥t thá» trÆ°á»ng phiÃªn nay; dÃ²ng tiá»n ná»i vÃ  ngoáº¡i Äá»ng thuáº­n gia tÄng.",
-      "ma": [
-       {
-        "ma": "HPG",
-        "cau_truc": "ÄÃ³ng cá»­a láº¥y láº¡i MA10 vÃ  MA20, khá»i lÆ°á»£ng gáº¥p 1,75 láº§n TB20, khá»i ngoáº¡i mua rÃ²ng 128,1 tá»·.",
-        "moc_theo_doi": 20.1,
-        "thung_thi": "Máº¥t há» trá»£ 20,1 sáº½ kiá»m Äá»nh láº¡i ÄÃ¡y 19,6.",
-        "xac_nhan": "Bá»©t phÃ¡ qua khÃ¡ng cá»± 21,6.",
-        "diem_dung_cach_pct": 2.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,21; P/E 7,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "NKG",
-        "cau_truc": "TÄng tráº§n +6,89%, khá»i lÆ°á»£ng gáº¥p 2,93 láº§n TB20, táº¡o náº¿n phÃ¡t Äá»ng má»i chÃ¢n 9,3.",
-        "moc_theo_doi": 9.3,
-        "thung_thi": "Thá»§ng chÃ¢n náº¿n phÃ¡t Äá»ng 9,3 cáº¥u trÃºc bÃ¹ng ná» bá» phá»§ nháº­n.",
-        "xac_nhan": "VÆ°á»£t khÃ¡ng cá»± MA50 táº¡i 10,38.",
-        "diem_dung_cach_pct": 6.34,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,6; P/E 27,5",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Äáº§u tÆ° cÃ´ng",
-      "nhan_dinh": "DÃ²ng tiá»n tÃ¬m Äáº¿n nhÃ³m trÅ©ng giÃ¡; khá»i lÆ°á»£ng ná» máº¡nh trÃªn ná»n ÄÃ¡y.",
-      "ma": [
-       {
-        "ma": "VCG",
-        "cau_truc": "Láº¥y láº¡i MA10 vÃ  MA20 (+2,93%), khá»i lÆ°á»£ng gáº¥p 2,04 láº§n TB20.",
-        "moc_theo_doi": 13.15,
-        "thung_thi": "Thá»§ng ÄÃ¡y 13,15 sáº½ há»§y bá» tÃ­n hiá»u táº¡o ÄÃ¡y ngáº¯n háº¡n.",
-        "xac_nhan": "Tiáº¿p cáº­n cáº£n MA50 quanh 15,0.",
-        "diem_dung_cach_pct": 6.41,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,88; P/E 2,3",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "BÃ¡n láº»",
-      "nhan_dinh": "PhÃ¢n hÃ³a máº¡nh; PNJ chá»u Ã¡p lá»±c bÃ¡n giáº£i cháº¥p giáº£m sÃ n, trong khi FRT vÃ  MWG neo ná»n cao.",
-      "ma": [
-       {
-        "ma": "PNJ",
-        "cau_truc": "Giáº£m sÃ n vá» 18,15, khá»i ngoáº¡i xáº£ 105 tá»·, cÃ¡ch Äá»nh 60 phiÃªn -60,15%.",
-        "moc_theo_doi": 17.8,
-        "thung_thi": "Thá»§ng 17,8 bÆ°á»c vÃ o nhá»p rÆ¡i tá»± do má»i.",
-        "xac_nhan": "Chá»¯ng ÄÃ  giáº£m vÃ  háº¥p thá»¥ háº¿t lÆ°á»£ng sÃ n.",
-        "diem_dung_cach_pct": 1.93,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,74; P/E 4,1",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "FRT",
-        "cau_truc": "Neo ná»n cao sÃ¡t Äá»nh 60 phiÃªn (-2,16%), náº±m trÃªn toÃ n bá» MA.",
-        "moc_theo_doi": 139.7,
-        "thung_thi": "GÃ£y há» trá»£ 139,7 cáº¥u trÃºc uptrend bá» Äe dá»a.",
-        "xac_nhan": "VÆ°á»£t Äá»nh 152,8.",
-        "diem_dung_cach_pct": 6.56,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 5,57; P/E 23,5",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "CÃ´ng nghá»",
-      "nhan_dinh": "FPT tiáº¿p tá»¥c chá»u Ã¡p lá»±c bÃ¡n rÃ²ng tá»« khá»i ngoáº¡i, cáº¥u trÃºc ká»¹ thuáº­t suy yáº¿u.",
-      "ma": [
-       {
-        "ma": "FPT",
-        "cau_truc": "14 phiÃªn dÆ°á»i MA10, ÄÃ³ng cá»­a táº¡i ÄÃ¡y 20 phiÃªn 57,1; khá»i ngoáº¡i bÃ¡n rÃ²ng 91,2 tá»·.",
-        "moc_theo_doi": 55.91,
-        "thung_thi": "Thá»§ng ÄÃ¡y thÃ¡ng 7 táº¡i 55,91 xu hÆ°á»ng giáº£m trung háº¡n má» rá»ng.",
-        "xac_nhan": "Láº¥y láº¡i MA10 táº¡i 60,77.",
-        "diem_dung_cach_pct": 2.08,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,74; P/E 10,9",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     }
-    ],
-    "xoay_vong": "DÃ²ng tiá»n khÃ´ng rÃºt khá»i thá» trÆ°á»ng mÃ  xoay tua rÃµ rá»t tá»« nhÃ³m chá»u Ã¡p lá»±c margin/khá»i ngoáº¡i xáº£ (BÃ¡n láº» PNJ, Báº¥t Äá»ng sáº£n Vin, CÃ´ng nghá» FPT) sang nhÃ³m Äá»nh giÃ¡ ráº» á» vÃ¹ng ÄÃ¡y sÃ¢u (ThÃ©p HPG, NKG vÃ  Äáº§u tÆ° cÃ´ng VCG, HHV). Tuy nhiÃªn ÄÃ¢y má»i lÃ  pháº£n á»©ng trong má»t phiÃªn thiáº¿u thanh khoáº£n, chÆ°a Äá»§ cÆ¡ sá» xÃ¡c nháº­n chÃ¢n sÃ³ng xoay vÃ²ng bá»n vá»¯ng.",
-    "luan_diem_chinh": [
-     "Äá» mÃ©o chá» sá» cá»±c cao: nhÃ³m Vin láº¥y Äi -14,83 Äiá»m, pháº§n cÃ²n láº¡i cá»§a thá» trÆ°á»ng thá»±c cháº¥t tÄng +0,72 Äiá»m vá»i 154 mÃ£ tÄng so vá»i 148 mÃ£ giáº£m.",
-     "Thanh khoáº£n khá»p lá»nh giáº£m sÃ¢u cÃ²n 10.645 tá»· Äá»ng, chá» báº±ng 0,81 láº§n trung bÃ¬nh 20 phiÃªn, xÃ¡c nháº­n thá» trÆ°á»ng Äang trong cháº¿ Äá» thiáº¿u tiá»n.",
-     "VN-Index ÄÃ£ ÄÃ³ng náº¿n dÆ°á»i má»c 1.725 Äiá»m (chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 21/08), Äáº·t vÃ¹ng há» trá»£ 1.701 Äiá»m vÃ o táº§m ngáº¯m náº¿u khÃ´ng sá»m vÃ¡ láº¡i.",
-     "NhÃ³m ThÃ©p (HPG, NKG) vÃ  NgÃ¢n hÃ ng khá»e (VPB, TCB) giá»¯ nhá»p tÃ¢m lÃ½, ngÄn ÄÃ  bÃ¡n thÃ¡o lan rá»ng."
-    ],
-    "phien_toi": {
-     "cung_co": [
-      "NhÃ³m ThÃ©p vÃ  NgÃ¢n hÃ ng phÃ¢n hÃ³a tiáº¿p tá»¥c duy trÃ¬ ÄÆ°á»£c sáº¯c xanh vÃ  giá»¯ ná»n giÃ¡.",
-      "Thanh khoáº£n bÃªn bÃ¡n khÃ´ng gia tÄng khi thá» trÆ°á»ng rung láº¯c quanh 1.720."
-     ],
-     "lam_yeu": [
-      "Khá»i ngoáº¡i tiáº¿p tá»¥c bÃ¡n rÃ²ng quy mÃ´ lá»n trÃªn 500 tá»· Äá»ng táº­p trung vÃ o nhÃ³m VN30.",
-      "NhÃ³m Vin (VIC, VHM) tiáº¿p tá»¥c táº¡o ÄÃ¡y má»i vÃ  kÃ©o chá» sá» thá»§ng má»c 1.716."
-     ],
-     "xac_nhan": [
-      "VN-Index ÄÃ³ng cá»­a láº¥y láº¡i dá»©t khoÃ¡t trÃªn má»c 1.725 Äiá»m vá»i thanh khoáº£n cáº£i thiá»n."
-     ],
-     "vo_hieu": [
-      "VN-Index ÄÃ³ng cá»­a ÄÃ¡nh máº¥t vÃ¹ng 1.716 Äiá»m vÃ  hÆ°á»ng vá» chÃ¢n náº¿n 1.701 Äiá»m."
-     ]
-    },
-    "du_bao_moi": [
-     {
-      "doi_tuong": "VNINDEX",
-      "loai": "giu",
-      "moc": 1701.14,
-      "han_phien": 5,
-      "loai_moc": "CAN",
-      "noi_dung": "VN-Index giá»¯ ÄÆ°á»£c trÃªn chÃ¢n náº¿n phÃ¡t Äá»ng 1.701,14 Äiá»m trong 5 phiÃªn tá»i."
-     },
-     {
-      "doi_tuong": "HPG",
-      "loai": "giu",
-      "moc": 20.1,
-      "han_phien": 3,
-      "loai_moc": "QS",
-      "noi_dung": "HPG duy trÃ¬ ÄÃ³ng cá»­a trÃªn má»c há» trá»£ 20,1 trong 3 phiÃªn tá»i."
-     },
-     {
-      "doi_tuong": "VIC",
-      "loai": "duoi",
-      "moc": 225.5,
-      "han_phien": 3,
-      "loai_moc": "QS",
-      "noi_dung": "VIC chÆ°a láº¥p ÄÆ°á»£c khoáº£ng trá»ng giÃ¡ giáº£m 225,5 trong 3 phiÃªn tá»i."
-     }
-    ]
-   },
-   "script": {
-    "tieu_de_youtube": "VN-Index Giáº£m 14 Äiá»m: Thá» TrÆ°á»ng GÃ£y Hay Chá» Do NhÃ³m Trá»¥ ÄÃ¨?",
-    "thoi_luong_phut": 20,
-    "phan": [
-     {
-      "ten": "Hook",
-      "phut": 0.5,
-      "loi_thoai": "ChÃ o anh chá», em lÃ  SÆ¡n. HÃ´m nay báº£ng Äiá»n hiá»n thá» VN-Index giáº£m hÆ¡n 14 Äiá»m, ÄÃ³ng cá»­a táº¡i 1.721. Nghe qua con sá» thÃ¬ ráº¥t náº·ng ná» ÄÃºng khÃ´ng áº¡? NhÆ°ng anh chá» nhÃ¬n ká»¹ vÃ o bÃªn trong: riÃªng má»t mÃ¬nh nhÃ³m Vin hÃ´m nay ÄÃ£ láº¥y Äi gáº§n 15 Äiá»m cá»§a chá» sá». NghÄ©a lÃ  náº¿u bá» nhÃ³m nÃ y ra, toÃ n bá» pháº§n cÃ²n láº¡i cá»§a thá» trÆ°á»ng thá»±c cháº¥t tÄng nháº¹ gáº§n 1 Äiá»m, vá»i 154 mÃ£ tÄng so vá»i 148 mÃ£ giáº£m. Váº­y cÃ¢u há»i lá»n nháº¥t hÃ´m nay khÃ´ng pháº£i lÃ  chá» sá» giáº£m bao nhiÃªu, mÃ  lÃ : thá» trÆ°á»ng Äang tháº­t sá»± khá»e Äá» cáº§m cá»±, hay ÄÃ¢y chá» lÃ  nhá»p gá»ng gÆ°á»£ng táº¡m thá»i khi dÃ²ng tiá»n Äang rÃºt cáº¡n? ChÃºng ta cÃ¹ng rÃ  soÃ¡t chi tiáº¿t ngay sau ÄÃ¢y.",
-      "chen_hinh": "Báº£ng Äiá»n VN-Index káº¿t phiÃªn, biá»u Äá» ÄÃ³ng gÃ³p Äiá»m sá» cá»§a nhÃ³m Vin (-14,83 Äiá»m)."
-     },
-     {
-      "ten": "Tháº¿ giá»i",
-      "phut": 2.0,
-      "loi_thoai": "TrÆ°á»c khi vÃ o chi tiáº¿t thá» trÆ°á»ng trong nÆ°á»c, em Äiá»m nhanh qua bá»©c tranh liÃªn thá» trÆ°á»ng Äá» anh chá» náº¯m cÃ¡c kÃªnh truyá»n dáº«n rá»§i ro. Chá» sá» DXY Äo sá»©c máº¡nh Äá»ng USD chiá»u nay lÃºc 18h Äang cháº¡y á» má»©c 102,43 Äiá»m, chÃ­nh thá»©c cháº¡m Äá»nh cao nháº¥t trong 20 phiÃªn vÃ  cáº£ 3 thÃ¡ng qua. DXY neo cao thÃ¬ kÃªnh truyá»n dáº«n tháº³ng thá»«ng nháº¥t lÃ  Ã¡p lá»±c lÃªn tá»· giÃ¡ USD/VND vÃ  hÃ nh vi bÃ¡n rÃ²ng cá»§a dÃ²ng vá»n ngoáº¡i. Tá»· giÃ¡ USD/VND ngÃ¢n hÃ ng sÃ¡ng nay á» má»©c 25.879 Äá»ng, nhÆ°ng tin tá»©c thá» trÆ°á»ng tá»± do ÄÃ£ ghi nháº­n vÃ¹ng 25.900 Äáº¿n 26.200 Äá»ng. ÄÃ¢y lÃ  biáº¿n sá» vÄ© mÃ´ hÃ ng Äáº§u cáº§n theo dÃµi, vÃ¬ náº¿u tá»· giÃ¡ tiáº¿p tá»¥c cÄng tháº³ng, thanh khoáº£n há» thá»ng sáº½ khÃ³ cÃ³ sá»± ná»i lá»ng.\nVá» lá»£i suáº¥t trÃ¡i phiáº¿u chÃ­nh phá»§ Má»¹ 10 nÄm, sá» liá»u ghi nháº­n lÃºc ráº¡ng sÃ¡ng thá»© báº£y lÃ  5,24%. Lá»£i suáº¥t neo trÃªn vÃ¹ng 5,2% tiáº¿p tá»¥c lÃ  lá»±c cáº£n lá»n vá»i Äá»nh giÃ¡ cÃ¡c thá» trÆ°á»ng má»i ná»i. CÃ²n giÃ¡ dáº§u Brent chiá»u nay Äang á» má»©c 106,09 USD/thÃ¹ng, tÄng nháº¹ hÆ¡n 1% vÃ  tiá»m cáº­n Äá»nh 3 thÃ¡ng quanh 108,7 USD/thÃ¹ng. Dáº§u neo cao lÃ  Ã¡p lá»±c chi phÃ­ Äáº§u vÃ o lÃªn láº¡m phÃ¡t toÃ n cáº§u. Äiá»m tÃ­ch cá»±c duy nháº¥t tá»« hÃ ng hÃ³a lÃ  giÃ¡ thÃ©p HRC Má»¹ Äang neo á» Äá»nh 3 thÃ¡ng quanh 1.297 USD/táº¥n, pháº§n nÃ o há» trá»£ tÃ¢m lÃ½ cho nhÃ³m thÃ©p xuáº¥t kháº©u hÃ´m nay.",
-      "chen_hinh": "Biá»u Äá» DXY 3 thÃ¡ng cháº¡m Äá»nh 102,43; biá»u Äá» giÃ¡ dáº§u Brent vÃ  lá»£i suáº¥t US10Y."
-     },
-     {
-      "ten": "Thá» trÆ°á»ng Viá»t Nam",
-      "phut": 3.0,
-      "loi_thoai": "Quay trá» láº¡i vá»i sÃ n HOSE hÃ´m nay. Tá»ng giÃ¡ trá» giao dá»ch Äáº¡t gáº§n 13.000 tá»· Äá»ng, nhÆ°ng thá»a thuáº­n ÄÃ£ chiáº¿m hÆ¡n 2.300 tá»·, tá»©c lÃ  18% tá»ng sÃ n. Khá»p lá»nh thá»±c táº¿ trÃªn báº£ng Äiá»n hÃ´m nay chá» Äáº¡t 10.645 tá»· Äá»ng. Con sá» nÃ y nÃ³i lÃªn Äiá»u gÃ¬? NÃ³ giáº£m hÆ¡n má»t pháº§n tÆ° so vá»i phiÃªn thá»© sÃ¡u tuáº§n trÆ°á»c, vÃ  chá» báº±ng khoáº£ng 0,81 láº§n má»©c trung bÃ¬nh 20 phiÃªn gáº§n nháº¥t lÃ  13.200 tá»·. NghÄ©a lÃ  thá» trÆ°á»ng hÃ´m nay Äang á» tráº¡ng thÃ¡i cá»±c ká»³ thiáº¿u tiá»n.\nKhi thiáº¿u tiá»n mÃ  chá» sá» rÆ¡i 14 Äiá»m, thÃ´ng thÆ°á»ng anh chá» sáº½ sá»£ bÃ¡n thÃ¡o. NhÆ°ng Äá» rá»ng láº¡i cÃ³ 154 mÃ£ tÄng, 148 mÃ£ giáº£m, 4 mÃ£ tráº§n vÃ  6 mÃ£ sÃ n. BÃªn bÃ¡n khÃ´ng há» Ã©p lá»nh diá»n rá»ng, vÃ  bÃªn mua thÃ¬ kÃª lá»nh giÃ¡ tháº¥p chá»© khÃ´ng vá»i vÃ ng mua Äuá»i.\nVá» dÃ²ng tiá»n ngoáº¡i, khá»i ngoáº¡i hÃ´m nay tiáº¿p tá»¥c bÃ¡n rÃ²ng 584 tá»· Äá»ng trÃªn HOSE. LÅ©y káº¿ chá» má»i 8 phiÃªn Äáº§u thÃ¡ng 10 há» ÄÃ£ bÃ¡n rÃ²ng tá»i gáº§n 18.000 tá»· Äá»ng, vÃ  tÃ­nh tá»« Äáº§u nÄm lÃ  hÆ¡n 115.800 tá»·. HÃ´m nay há» bÃ¡n máº¡nh TCB gáº§n 115 tá»·, PNJ gáº§n 105 tá»·, FPT hÆ¡n 91 tá»·. á» chiá»u ngÆ°á»£c láº¡i, há» quay láº¡i mua rÃ²ng duy nháº¥t HPG vá»i hÆ¡n 128 tá»· Äá»ng. Khá»i tá»± doanh thÃ¬ phiÃªn hÃ´m nay chÆ°a cÃ³ dá»¯ liá»u, má»i chá» cÃ³ sá» liá»u phiÃªn thá»© sÃ¡u vá»i má»©c mua rÃ²ng nháº¹ 234 tá»·. DÃ²ng tiá»n lá»n nhÃ¬n chung váº«n Äang á» tháº¿ phÃ²ng thá»§, chá» gom cá»¥c bá» má»t vÃ i mÃ£ cÆ¡ báº£n sÃ¢u dÆ°á»i ÄÃ¡y.",
-      "chen_hinh": "Báº£ng thanh khoáº£n khá»p lá»nh HOSE so vá»i TB20; báº£ng mua bÃ¡n rÃ²ng khá»i ngoáº¡i."
-     },
-     {
-      "ten": "Index tháº­t sá»± giáº£m/tÄng bao nhiÃªu",
-      "phut": 1.5,
-      "loi_thoai": "BÃ¢y giá» chÃºng ta bÃ³c tÃ¡ch pháº§n mÃ©o mÃ³ nháº¥t cá»§a phiÃªn hÃ´m nay. VN-Index giáº£m 14,11 Äiá»m. NhÆ°ng anh chá» nhÃ¬n vÃ o rá» ÄÃ³ng gÃ³p: riÃªng VIC giáº£m gáº§n 3%, láº¥y Äi 10,37 Äiá»m. VHM giáº£m hÆ¡n 3%, láº¥y Äi 3,57 Äiá»m. ThÃªm VPL vÃ  VRE ná»¯a thÃ¬ tá»ng cá»ng nhÃ³m Vin ÄÃ£ láº¥y Äi tá»i 14,83 Äiá»m cá»§a thá» trÆ°á»ng. \nNÃ³i má»t cÃ¡ch sÃ²ng pháº³ng: náº¿u cá» phiáº¿u há» Vin hÃ´m nay chá» Äá»©ng tham chiáº¿u, thÃ¬ VN-Index thá»±c táº¿ ÄÃ£ ÄÃ³ng cá»­a xanh nháº¹ 0,72 Äiá»m. CÃ¡c mÃ£ nhÆ° VPB ÄÃ³ng gÃ³p kÃ©o tÄng 1,24 Äiá»m, HPG kÃ©o hÆ¡n 1 Äiá»m, rá»i SHB, TCB, ACB, VNM Äá»u xanh nháº¹. RÃµ rÃ ng, chá» sá» hÃ´m nay bá» bÃ³p mÃ©o hoÃ n toÃ n bá»i nhÃ³m trá»¥. NgÆ°á»i nhÃ¬n Äiá»m sá» thÃ¬ tháº¥y bi quan, nhÆ°ng ngÆ°á»i cáº§m cá» phiáº¿u ngÃ nh thÃ©p hay Äáº§u tÆ° cÃ´ng hÃ´m nay tÃ i khoáº£n láº¡i tÄng. ÄÃ¢y lÃ  hiá»n tÆ°á»£ng phÃ¢n hÃ³a Äiá»n hÃ¬nh trong giai Äoáº¡n thá» trÆ°á»ng thiáº¿u tiá»n.",
-      "chen_hinh": "Biá»u Äá» nhiá»t ÄÃ³ng gÃ³p Äiá»m sá» VN-Index: nhÃ³m Vin Äá» Äáº­m láº¥n Ã¡t pháº§n cÃ²n láº¡i."
-     },
-     {
-      "ten": "Báº£n Äá» ká»¹ thuáº­t",
-      "phut": 2.0,
-      "loi_thoai": "DÃ¹ chá» sá» bá» mÃ©o do trá»¥, nhÆ°ng trÃªn Äá» thá» ká»¹ thuáº­t, má»t má»c gÃ£y lÃ  má»t má»c gÃ£y. Má»c quan trá»ng nháº¥t em theo dÃµi hÃ´m nay lÃ  1.725 Äiá»m. ÄÃ¢y chÃ­nh lÃ  chÃ¢n cÃ¢y náº¿n phÃ¡t Äá»ng ngÃ y 21/08 táº¡i 1.725,4 Äiá»m, cÃ¢y náº¿n tá»«ng má» ra nhá»p tÄng vá»i khá»i lÆ°á»£ng vÆ°á»£t 1,2 láº§n trung bÃ¬nh. \nHÃ´m nay VN-Index ÄÃ³ng cá»­a táº¡i 1.720,98 Äiá»m, tá»©c lÃ  ÄÃ£ chÃ­nh thá»©c ÄÃ³ng náº¿n dÆ°á»i má»c 1.725. Khi chÃ¢n náº¿n phÃ¡t Äá»ng 1.725 bá» ÄÃ¡nh gÃ£y, cáº¥u trÃºc phÃ²ng thá»§ ngáº¯n háº¡n cá»§a chá» sá» ÄÃ£ yáº¿u Äi má»t báº­c. VÃ¹ng há» trá»£ cáº¥u trÃºc tiáº¿p theo mÃ  thá» trÆ°á»ng báº¯t buá»c pháº£i nhÃ¬n tháº¥y lÃ  má»c 1.701 Äiá»m â chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 30/07. \nKá»ch báº£n em Äang theo dÃµi cÃ³ Äiá»u kiá»n rÃµ rÃ ng: Trong 1 Äáº¿n 2 phiÃªn tá»i, náº¿u chá» sá» nhanh chÃ³ng cÃ³ dÃ²ng tiá»n kÃ©o giáº­t ngÆ°á»£c trá» láº¡i trÃªn 1.725 Äiá»m, tráº¡ng thÃ¡i cÃ¢n báº±ng Äi ngang sáº½ ÄÆ°á»£c báº£o toÃ n. CÃ²n náº¿u tiáº¿p tá»¥c bá» ÄÃ¨ dÆ°á»i 1.725 vÃ  thá»§ng ÄÃ¡y tháº¥p nháº¥t hÃ´m nay lÃ  1.716, chá» sá» sáº½ trÃ´i vá» kiá»m Äá»nh vÃ¹ng 1.701 Äiá»m. Anh chá» nhá» ká»¹ má»c 1.725 Äiá»m nÃ y nhÃ©.",
-      "chen_hinh": "Chart ká»¹ thuáº­t VN-Index khung ngÃ y, ÄÃ¡nh dáº¥u chÃ¢n náº¿n phÃ¡t Äá»ng 21/08 táº¡i 1725,4 vÃ  chÃ¢n náº¿n 30/07 táº¡i 1701."
-     },
-     {
-      "ten": "QuÃ©t ngÃ nh",
-      "phut": 7.0,
-      "loi_thoai": "Index thÃ¬ váº­y, nhÆ°ng cá» phiáº¿u bÃªn trong Äang váº­n Äá»ng tháº¿ nÃ o? Em quÃ©t nhanh qua cÃ¡c nhÃ³m ngÃ nh chÃ­nh.\nÄáº§u tiÃªn lÃ  NgÃ¢n hÃ ng. NhÃ³m nÃ y hÃ´m nay phÃ¢n hÃ³a thÃ nh hai thÃ¡i cá»±c rÃµ rá»t. MÃ£ khá»e nháº¥t lÃ  VPB, tÄng 2,5% lÃªn 24,4, khá»i lÆ°á»£ng gáº¥p gáº§n 1,4 láº§n trung bÃ¬nh, náº±m hoÃ n toÃ n trÃªn cÃ¡c ÄÆ°á»ng MA. Má»c em theo dÃµi cho VPB lÃ  23,38 quanh MA10, thá»§ng má»c nÃ y má»i suy yáº¿u, cÃ²n hiá»n táº¡i Äang hÆ°á»ng vá» Äá»nh cÅ© 24,95. TCB hÃ´m nay cÅ©ng giá»¯ sáº¯c xanh 32,6 dÃ¹ khá»i ngoáº¡i xáº£ rÃ²ng gáº§n 115 tá»·; má»c giá»¯ nhá»p lÃ  32,25. NgÆ°á»£c láº¡i, VCB ÄÃ£ cÃ³ 16 phiÃªn náº±m dÆ°á»i MA10, ÄÃ³ng 56,7; má»c há» trá»£ lÃ  55,8, thá»§ng má»c nÃ y sáº½ vá» láº¡i ÄÃ¡y thÃ¡ng 7 quanh 52,6. SHB hÃ´m nay há»i 4% lÃªn 10,4 nhÆ°ng cáº¥u trÃºc váº«n náº±m sÃ¢u dÆ°á»i MA200, má»c ÄÃ¡y sinh tá»­ lÃ  9,55.\nSang nhÃ³m Chá»©ng khoÃ¡n â thÆ°á»c Äo tÃ¢m lÃ½ thá» trÆ°á»ng. HÃ´m nay nhÃ³m nÃ y ráº¥t áº£m Äáº¡m, khá»i lÆ°á»£ng toÃ n ngÃ nh tá»¥t Ã¡p. SSI nhÃ­ch nháº¹ lÃªn 19,05 nhÆ°ng thanh khoáº£n chá» báº±ng má»t ná»­a trung bÃ¬nh 20 phiÃªn, ÄÃ£ 12 phiÃªn náº±m dÆ°á»i MA10; má»c há» trá»£ lÃ  18,65, náº¿u thá»§ng sáº½ lÃ¹i vá» 17,35. VIX ÄÃ³ng 11,7, cÅ©ng 26 phiÃªn dÆ°á»i MA10; má»c theo dÃµi lÃ  11,0. NhÃ¬n chung nhÃ³m chá»©ng khoÃ¡n chÆ°a láº¥y láº¡i ÄÆ°á»£c MA10 hay MA20, chÆ°a cÃ³ dÃ²ng tiá»n kÃ­ch hoáº¡t nÃªn váº«n á» tráº¡ng thÃ¡i quan sÃ¡t.\nNhÃ³m Báº¥t Äá»ng sáº£n dÃ¢n sinh lÃ  tÃ¢m Äiá»m kÃ©o lÃ¹i chá» sá» hÃ´m nay. VIC rÆ¡i vá» 219, Äá» láº¡i má»t khoáº£ng trá»ng giÃ¡ giáº£m quanh 225,5; má»c há» trá»£ tiáº¿p theo lÃ  213,5, thá»§ng má»c nÃ y sáº½ vá» 206. VHM ÄÃ³ng táº¡i ÄÃ¡y 63,9, náº±m sÃ¡t sÃ n sáº¡t há» trá»£ ÄÃ¡y thÃ¡ng 7 táº¡i 63,3; thá»§ng 63,3 thÃ¬ Ã¡p lá»±c bÃ¡n sáº½ má» rá»ng vá» 62. Äiá»m sÃ¡ng le lÃ³i lÃ  NVL há»i gáº§n 2% lÃªn 11,15, táº¡m giá»¯ trÃªn chÃ¢n náº¿n phÃ¡t Äá»ng tuáº§n trÆ°á»c táº¡i 10,05.\nBÃ¢y giá» sang nhÃ³m khá»e nháº¥t phiÃªn: ThÃ©p. HPG hÃ´m nay ÄÃ³ng 20,7, tÄng gáº§n 3% vá»i thanh khoáº£n gáº¥p 1,75 láº§n trung bÃ¬nh, ÄÆ°á»£c khá»i ngoáº¡i mua rÃ²ng 128 tá»·. HPG ÄÃ£ láº¥y láº¡i MA10 vÃ  MA20; má»c quan sÃ¡t cá»§a HPG lÃ  20,1, giá»¯ ÄÆ°á»£c má»c nÃ y thÃ¬ má»¥c tiÃªu hÆ°á»ng vá» cáº£n 21,6. NKG tháº­m chÃ­ tÄng tráº§n lÃªn 9,93 vá»i thanh khoáº£n gáº¥p gáº§n 3 láº§n trung bÃ¬nh, táº¡o háº³n má»t cÃ¢y náº¿n phÃ¡t Äá»ng má»i chÃ¢n 9,3; thá»§ng 9,3 thÃ¬ cÃ¢y tráº§n hÃ´m nay bá» phá»§ nháº­n.\nNhÃ³m Äáº§u tÆ° cÃ´ng hÃ´m nay Än theo dÃ²ng tiá»n ÄÃ¡y: VCG tÄng gáº§n 3% lÃªn 14,05, khá»i lÆ°á»£ng gáº¥p ÄÃ´i trung bÃ¬nh; má»c theo dÃµi lÃ  ÄÃ¡y cÅ© 13,15. HHV tÄng 2,8% lÃªn 9,0; CII tÄng gáº§n 3% lÃªn 12,3. NhÃ³m nÃ y báº­t lÃªn tá»« ÄÃ¡y sÃ¢u khi cÃ³ dÃ²ng tiá»n ná»i tÃ¬m kiáº¿m sá»± an toÃ n vá» Äá»nh giÃ¡.\ná» chiá»u ngÆ°á»£c láº¡i, BÃ¡n láº» chá»©ng kiáº¿n PNJ giáº£m sÃ n vá» 18,15 vá»i khá»i lÆ°á»£ng lá»n vÃ  khá»i ngoáº¡i bÃ¡n rÃ²ng 105 tá»·. Tin tá»©c lÃ£nh Äáº¡o bá» bÃ¡n giáº£i cháº¥p Äang ÄÃ¨ náº·ng mÃ£ nÃ y; má»c theo dÃµi lÃ  17,8, náº¿u thá»§ng 17,8 thÃ¬ chÆ°a biáº¿t ÄÃ¡y á» ÄÃ¢u. Trong khi ÄÃ³ FRT váº«n neo ráº¥t cao quanh 149,5, má»c há» trá»£ lÃ  139,7.\nCuá»i cÃ¹ng lÃ  CÃ´ng nghá»: FPT giáº£m tiáº¿p vá» 57,1, náº±m báº¹p dÆ°á»i MA10 suá»t 14 phiÃªn vÃ  bá» khá»i ngoáº¡i bÃ¡n hÆ¡n 91 tá»·; má»c theo dÃµi sá»ng cÃ²n lÃ  ÄÃ¡y thÃ¡ng 7 quanh 55,9, thá»§ng má»c nÃ y thÃ¬ cáº¥u trÃºc trung háº¡n sáº½ chuyá»n xáº¥u.",
-      "chen_hinh": "Láº§n lÆ°á»£t chiáº¿u chart cÃ¡c mÃ£: VPB, TCB, SSI, VIC, VHM, HPG, NKG, VCG, PNJ, FPT."
-     },
-     {
-      "ten": "MÃ£ ÄÃ¡ng nÃ³i",
-      "phut": 2.5,
-      "loi_thoai": "Trong má»t phiÃªn nhÆ° hÃ´m nay, cÃ³ 2 mÃ£ anh chá» báº¯t buá»c pháº£i nhÃ¬n ká»¹ Äá» hiá»u cÃ¢u chuyá»n thá» trÆ°á»ng.\nThá»© nháº¥t lÃ  HPG. Táº¡i sao HPG quan trá»ng? VÃ¬ ÄÃ¢y lÃ  mÃ£ cÃ³ vá»n hÃ³a lá»n duy nháº¥t phiÃªn nay nháº­n ÄÆ°á»£c sá»± Äá»ng thuáº­n cá»§a cáº£ dÃ²ng tiá»n ná»i vÃ  khá»i ngoáº¡i. Khá»p lá»nh Äáº¡t gáº§n 640 tá»· Äá»ng, khá»i ngoáº¡i gom rÃ²ng 128 tá»·, giÃºp cá» phiáº¿u láº¥y láº¡i cáº£ MA10 vÃ  MA20. Äá»nh giÃ¡ P/B cá»§a HPG hiá»n á» má»©c 1,21 láº§n, P/E 7,3 láº§n â ÄÃ¢y lÃ  vÃ¹ng Äá»nh giÃ¡ mÃ  tiá»n lá»n sáºµn sÃ ng vÃ o Äá»¡ khi thá» trÆ°á»ng chung biáº¿n Äá»ng. Má»c em theo dÃµi cho HPG lÃ  20,1; anh chá» nÃ o Äang náº¯m giá»¯ thÃ¬ thá»§ng 20,1 cáº¥u trÃºc ngáº¯n háº¡n sáº½ gÃ£y, cÃ²n giá»¯ ÄÆ°á»£c thÃ¬ ÄÃ¢y lÃ  má» neo tÃ¢m lÃ½ cho cáº£ thá» trÆ°á»ng.\nMÃ£ thá»© hai lÃ  PNJ â cÃ¢u chuyá»n cáº£nh bÃ¡o vá» rá»§i ro thanh khoáº£n. PNJ hÃ´m nay giáº£m sÃ n vá» 18,15, ÄÃ£ rÆ¡i gáº§n 50% chá» trong 20 phiÃªn. DÃ¹ Äá»nh giÃ¡ P/E chá» cÃ²n 4,1 láº§n vÃ  P/B 0,74 láº§n, nhÆ°ng khi tin tá»©c giáº£i cháº¥p xuáº¥t hiá»n vÃ  khá»i ngoáº¡i bÃ¡n dá»n dáº­p, Äá»nh giÃ¡ ráº» chÆ°a thá» táº¡o ÄÃ¡y ngay láº­p tá»©c. Má»c em theo dÃµi lÃ  17,8; thá»§ng má»c nÃ y thÃ¬ Ã¡p lá»±c giáº£i cháº¥p chÆ°a dá»©t. ÄÃ¢y lÃ  bÃ i há»c ráº¥t rÃµ: khi thá» trÆ°á»ng thiáº¿u tiá»n, Äá»«ng vá»i báº¯t dao rÆ¡i nhá»¯ng cá» phiáº¿u Äang trong vÃ²ng xoÃ¡y bÃ¡n giáº£i cháº¥p.",
-      "chen_hinh": "Chart ká»¹ thuáº­t HPG (vÆ°á»£t MA20 kÃ¨m vol) vÃ  chart PNJ (náº¿n sÃ n, volume bÃ¡n lá»n)."
-     },
-     {
-      "ten": "Regime vÃ  phiÃªn tá»i",
-      "phut": 1.0,
-      "loi_thoai": "Tá»ng há»£p láº¡i, thá» trÆ°á»ng hÃ´m nay Äang á» tráº¡ng thÃ¡i PhÃ¢n hÃ³a vÃ  Xoay vÃ²ng trong bá»i cáº£nh thiáº¿u tiá»n. Tiá»n khÃ´ng rÃºt cháº¡y tÃ¡n loáº¡n mÃ  Äang nÃ© nhÃ³m trá»¥ bá» ÄÃ¨ Äá» tÃ¬m vÃ o nhÃ³m ÄÃ¡y nhÆ° ThÃ©p vÃ  Äáº§u tÆ° cÃ´ng.\nMá»c chÃ­nh cá»§a chá» sá» váº«n lÃ  1.725 Äiá»m. PhiÃªn ngÃ y mai, Äiá»u lÃ m suy yáº¿u thá» trÆ°á»ng lÃ  náº¿u nhÃ³m Vin tiáº¿p tá»¥c rÆ¡i thá»§ng ÄÃ¡y vÃ  khá»i ngoáº¡i duy trÃ¬ bÃ¡n rÃ²ng trÃªn 500 tá»·. NgÆ°á»£c láº¡i, tÃ­n hiá»u xÃ¡c nháº­n cÃ¢n báº±ng lÃ  VN-Index pháº£i cÃ³ má»t cÃ¢y náº¿n xanh kÃ©o ngÆ°á»£c ÄÃ³ng cá»­a trÃªn 1.725 Äiá»m, Äi kÃ¨m vá»i viá»c nhÃ³m ThÃ©p vÃ  NgÃ¢n hÃ ng tiáº¿p tá»¥c giá»¯ vá»¯ng tráº­n Äá»a. Náº¿u khÃ´ng láº¥y láº¡i ÄÆ°á»£c 1.725, vÃ¹ng quan sÃ¡t tiáº¿p theo sáº½ lÃ  1.701 Äiá»m. Anh chá» quáº£n trá» rá»§i ro cháº·t cháº½ theo tá»«ng mÃ£ nhÃ©.",
-      "chen_hinh": "Báº£ng tá»ng há»£p má»c 1.725 Äiá»m vÃ  cÃ¡c Äiá»u kiá»n cá»§ng cá»/lÃ m yáº¿u cho phiÃªn tá»i."
-     },
-     {
-      "ten": "ChÃ o",
-      "phut": 0.5,
-      "loi_thoai": "Cáº£m Æ¡n anh chá» ÄÃ£ theo dÃµi buá»i rÃ  soÃ¡t hÃ´m nay. ChÃºc anh chá» cÃ³ nhá»¯ng quyáº¿t Äá»nh ká»· luáº­t vÃ  háº¹n gáº·p láº¡i anh chá» trong báº£n tin ngÃ y mai.",
-      "chen_hinh": "Logo kÃªnh, thÃ´ng tin liÃªn há»."
-     }
-    ],
-    "tiktok": [
-     {
-      "tieu_de": "Chá» sá» giáº£m 14 Äiá»m nhÆ°ng cá» phiáº¿u khÃ´ng giáº£m: Chuyá»n gÃ¬ Äang xáº£y ra?",
-      "goc": "Giáº£i thÃ­ch hiá»n tÆ°á»£ng mÃ©o chá» sá» do cá» phiáº¿u trá»¥ cho ngÆ°á»i xem Äáº¡i chÃºng.",
-      "giay": 55,
-      "loi_thoai": "Táº¡i sao hÃ´m nay má» báº£ng Äiá»n tháº¥y VN-Index giáº£m táº­n 14 Äiá»m mÃ  tÃ i khoáº£n nhiá»u ngÆ°á»i láº¡i khÃ´ng Äá»? CÃ¢u tráº£ lá»i náº±m á» Äá» mÃ©o cá»§a chá» sá». HÃ´m nay, chá» riÃªng nhÃ³m cá» phiáº¿u Vin ÄÃ£ láº¥y Äi gáº§n 15 Äiá»m cá»§a thá» trÆ°á»ng, trong ÄÃ³ VIC giáº£m gáº§n 3% láº¥y Äi hÆ¡n 10 Äiá»m. Náº¿u trá»« nhÃ³m nÃ y ra, toÃ n bá» pháº§n cÃ²n láº¡i cá»§a thá» trÆ°á»ng thá»±c cháº¥t tÄng gáº§n 1 Äiá»m, vá»i 154 mÃ£ tÄng so vá»i 148 mÃ£ giáº£m. Cá» phiáº¿u thÃ©p nhÆ° HPG tháº­m chÃ­ tÄng gáº§n 3%, NKG tÄng ká»ch tráº§n. Äiá»m sá» giáº£m khÃ´ng pháº£i lÃºc nÃ o cÅ©ng lÃ  bÃ¡n thÃ¡o. Äá» Ã½ gÃ¬ tiáº¿p theo? Xem ngÃ y mai cÃ¡c mÃ£ trá»¥ cÃ³ ngá»«ng rÆ¡i quanh vÃ¹ng há» trá»£ Äá» tráº£ láº¡i Äiá»m sá» tháº­t cho thá» trÆ°á»ng hay khÃ´ng nhÃ©.",
-      "du_lieu_dung": [
-       "VN-Index giáº£m 14,11 Äiá»m",
-       "NhÃ³m Vin láº¥y Äi -14,83 Äiá»m",
-       "Äá» rá»ng 154 mÃ£ tÄng / 148 mÃ£ giáº£m",
-       "HPG tÄng 2,99%"
-      ]
-     },
-     {
-      "tieu_de": "ÄÃ´ la Má»¹ láº­p Äá»nh 3 thÃ¡ng: VÃ¬ sao tÃºi tiá»n cá»§a báº¡n bá» áº£nh hÆ°á»ng?",
-      "goc": "KÃªnh truyá»n dáº«n tá»« chá» sá» DXY lÃªn tá»· giÃ¡ vÃ  dÃ²ng vá»n ngoáº¡i.",
-      "giay": 55,
-      "loi_thoai": "Chá» sá» Äá»ng ÄÃ´ la Má»¹ DXY chiá»u nay vá»«a cháº¡m 102,43 Äiá»m â má»©c cao nháº¥t trong 3 thÃ¡ng qua. Con sá» nÃ y thÃ¬ liÃªn quan gÃ¬ Äáº¿n chÃºng ta? Khi Äá»ng ÄÃ´ la tÄng giÃ¡, Ã¡p lá»±c tá»· giÃ¡ USD/VND láº­p tá»©c nÃ³ng lÃªn. SÃ¡ng nay tá»· giÃ¡ ngoÃ i thá» trÆ°á»ng tá»± do ÄÃ£ cháº¡m má»c 25.900 Äáº¿n 26.200 Äá»ng. ÄÃ´ la Äáº¯t lÃªn khiáº¿n cÃ¡c quá»¹ ngoáº¡i cÃ³ xu hÆ°á»ng rÃºt tiá»n vá» nÆ°á»c. RiÃªng 8 phiÃªn Äáº§u thÃ¡ng 10 nÃ y, khá»i ngoáº¡i ÄÃ£ bÃ¡n rÃ²ng tá»i gáº§n 18.000 tá»· Äá»ng trÃªn sÃ n chá»©ng khoÃ¡n. Khi dÃ²ng tiá»n ngoáº¡i rÃºt bá»t, thá» trÆ°á»ng thiáº¿u tiá»n vÃ  giÃ¡ cáº£ hÃ ng hÃ³a nháº­p kháº©u cÅ©ng chá»u Ã¡p lá»±c. Äá» Ã½ gÃ¬ tiáº¿p theo? Theo dÃµi xem tá»· giÃ¡ ngÃ¢n hÃ ng cÃ³ vÆ°á»£t ngÆ°á»¡ng 26.000 Äá»ng trong nhá»¯ng ngÃ y tá»i hay khÃ´ng nhÃ©.",
-      "du_lieu_dung": [
-       "DXY Äáº¡t 102,431 Äiá»m",
-       "Tá»· giÃ¡ tá»± do 25.900 - 26.200 Äá»ng/USD",
-       "Khá»i ngoáº¡i bÃ¡n rÃ²ng lÅ©y káº¿ thÃ¡ng gáº§n 18.000 tá»· Äá»ng"
-      ]
-     },
-     {
-      "tieu_de": "GiÃ¡ dáº§u Brent vÆ°á»£t 106 USD: Ãp lá»±c giÃ¡ xÄng dáº§u sáº¯p tá»i ra sao?",
-      "goc": "TÃ¡c Äá»ng cá»§a giÃ¡ dáº§u tháº¿ giá»i neo cao tá»i chi phÃ­ Äá»i sá»ng vÃ  giao thÃ´ng.",
-      "giay": 50,
-      "loi_thoai": "Báº¡n cÃ³ Äá» Ã½ giÃ¡ xÄng dáº§u tháº¿ giá»i Äang leo thang khÃ´ng? Chiá»u nay, giÃ¡ dáº§u Brent ÄÃ£ cháº¡m má»c 106,09 USD má»t thÃ¹ng, tÄng gáº§n 6% chá» trong 5 phiÃªn vá»«a qua vÃ  Ã¡p sÃ¡t Äá»nh 3 thÃ¡ng quanh 108,7 USD. Dáº§u thÃ´ tháº¿ giá»i neo á» má»©c ba chá»¯ sá» lÃ  má»t tÃ­n hiá»u ráº¥t ÄÃ¡ng chÃº Ã½. KÃªnh truyá»n dáº«n trá»±c tiáº¿p nháº¥t chÃ­nh lÃ  giÃ¡ xÄng dáº§u bÃ¡n láº» trong nÆ°á»c á» cÃ¡c ká»³ Äiá»u hÃ nh tá»i, kÃ©o theo chi phÃ­ váº­n táº£i vÃ  giÃ¡ cáº£ hÃ ng hÃ³a tiÃªu dÃ¹ng. TrÃªn thá» trÆ°á»ng tÃ i chÃ­nh, láº¡m phÃ¡t nÄng lÆ°á»£ng cÅ©ng khiáº¿n cÃ¡c ngÃ¢n hÃ ng trung Æ°Æ¡ng khÃ³ háº¡ lÃ£i suáº¥t sá»m. Äá» Ã½ gÃ¬ tiáº¿p theo? Quan sÃ¡t xem giÃ¡ dáº§u Brent cÃ³ vÆ°á»£t qua ngÆ°á»¡ng cáº£n 108,7 USD/thÃ¹ng trong tuáº§n nÃ y hay khÃ´ng nhÃ©.",
-      "du_lieu_dung": [
-       "GiÃ¡ dáº§u Brent 106,09 USD/thÃ¹ng",
-       "TÄng 5,75% trong 5 phiÃªn",
-       "Äá»nh 3 thÃ¡ng á» má»©c 108,75 USD/thÃ¹ng"
-      ]
-     }
-    ]
-   },
-   "model": "gemini-3.8-flash",
-   "nhan": "Bản 1"
-  },
-  {
-   "cach": "cach_2_buoc",
-   "loi": [],
-   "phan_tich": {
-    "signature": {
-     "index_noi_gi": "VN-Index giáº£m 14,11 Äiá»m (-0,81%) ÄÃ³ng cá»­a 1.720,98 nhÆ°ng má»©c giáº£m bá» chi phá»i bá»i nhÃ³m Vin kÃ©o tá»¥t gáº§n 15 Äiá»m, lÃ m gÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng 1.725,4.",
-     "co_phieu_noi_gi": "Äá» rá»ng thá» trÆ°á»ng cÃ¢n báº±ng vá»i 154 mÃ£ tÄng so vá»i 148 mÃ£ giáº£m, cho tháº¥y pháº§n cÃ²n láº¡i váº«n trá»¥ vá»¯ng vÃ  phÃ¢n hÃ³a thay vÃ¬ bÃ¡n thÃ¡o diá»n rá»ng.",
-     "dong_tien_noi_gi": "Thanh khoáº£n khá»p lá»nh HOSE sá»¥t vá» 10.645,1 tá»· Äá»ng (chá» báº±ng 0,81 láº§n trung bÃ¬nh 20 phiÃªn), khá»i ngoáº¡i tiáº¿p tá»¥c bÃ¡n rÃ²ng 584 tá»· Äá»ng xÃ¡c nháº­n tráº¡ng thÃ¡i thiáº¿u tiá»n."
-    },
-    "doi_chieu_du_bao": [],
-    "the_gioi": [
-     {
-      "bien": "DXY",
-      "muc": "102,431 Äiá»m lÃºc 18:07 ngÃ y 12/10 (tÄng 0,22% trong phiÃªn, cháº¡m Äá»nh 20 phiÃªn vÃ  Äá»nh 3 thÃ¡ng)",
-      "nguong": "102,431 Äiá»m",
-      "kenh_truyen_dan": "Tá»· giÃ¡ vÃ  dÃ²ng vá»n ngoáº¡i",
-      "he_qua_neu_vuot": "Duy trÃ¬ Ã¡p lá»±c chÃªnh lá»ch lÃ£i suáº¥t, gia tÄng Ã¡p lá»±c rÃºt vá»n cá»§a khá»i ngoáº¡i khá»i thá» trÆ°á»ng cáº­n biÃªn/má»i ná»i",
-      "nhan": "FACT"
-     },
-     {
-      "bien": "Lá»£i suáº¥t TPCP Má»¹ 10 nÄm (US10Y)",
-      "muc": "5,244% (dá»¯ liá»u chá»t phiÃªn 10/10, tÄng 26,9 Äiá»m cÆ¡ báº£n trong 20 phiÃªn)",
-      "nguong": "5,311% (Äá»nh 20 phiÃªn vÃ  3 thÃ¡ng)",
-      "kenh_truyen_dan": "Chi phÃ­ vá»n vÃ  Äá»nh giÃ¡ tÃ i sáº£n",
-      "he_qua_neu_vuot": "Tháº¯t cháº·t Äiá»u kiá»n tÃ i chÃ­nh toÃ n cáº§u, gÃ¢y sá»©c Ã©p nÃ¢ng máº·t báº±ng chiáº¿t kháº¥u Äá»nh giÃ¡ cá» phiáº¿u",
-      "nhan": "FACT"
-     },
-     {
-      "bien": "Tá»· giÃ¡ USD/VND niÃªm yáº¿t",
-      "muc": "25.879 Äá»ng lÃºc 09:54 ngÃ y 12/10 (ÄÃ¡y 20 phiÃªn lÃ  25.879, Äá»nh 20 phiÃªn 26.020)",
-      "nguong": "26.020 Äá»ng",
-      "kenh_truyen_dan": "Thanh khoáº£n há» thá»ng vÃ  chÃ­nh sÃ¡ch tiá»n tá»",
-      "he_qua_neu_vuot": "Náº¿u tá»· giÃ¡ chÃ­nh thá»©c tÄng vÆ°á»£t 26.000 Äá»ng theo ÄÃ  tá»· giÃ¡ tá»± do (25.900-26.200 theo tin sÃ¡ng), NHNN cÃ³ thá» pháº£i hÃºt thanh khoáº£n VND",
-      "nhan": "INTERPRETATION"
-     },
-     {
-      "bien": "Dáº§u Brent",
-      "muc": "106,09 USD/thÃ¹ng lÃºc 18:07 ngÃ y 12/10 (tÄng 1,31% trong phiÃªn, tÄng 5,75% trong 5 phiÃªn)",
-      "nguong": "108,75 USD/thÃ¹ng (Äá»nh 20 phiÃªn vÃ  3 thÃ¡ng)",
-      "kenh_truyen_dan": "Láº¡m phÃ¡t vÃ  chi phÃ­ Äáº§u vÃ o váº­n táº£i, hÃ³a cháº¥t",
-      "he_qua_neu_vuot": "Neo cao chi phÃ­ nÄng lÆ°á»£ng toÃ n cáº§u; tuy nhiÃªn giÃ¡ urÃª trong nÆ°á»c chÆ°a cÃ³ nguá»n Äá»i chiáº¿u nÃªn khÃ´ng káº¿t luáº­n nhÃ³m phÃ¢n Äáº¡m hÆ°á»ng lá»£i",
-      "nhan": "INTERPRETATION"
-     }
-    ],
-    "suc_khoe_vn": "VN-Index giáº£m 14,11 Äiá»m (-0,81%) xuá»ng 1.720,98 Äiá»m. Äá» rá»ng sÃ n HOSE ghi nháº­n 154 mÃ£ tÄng, 148 mÃ£ giáº£m, 60 mÃ£ Äá»©ng giÃ¡, 4 mÃ£ tráº§n vÃ  6 mÃ£ sÃ n. Breadth hoÃ n toÃ n khÃ´ng Äá»ng thuáº­n vá»i biÃªn Äá» giáº£m Äiá»m sÃ¢u cá»§a chá» sá», phÃ¡t tÃ­n hiá»u phÃ¢n hÃ³a ná»i bá» máº¡nh máº½ thay vÃ¬ Ã¡p lá»±c bÃ¡n hoáº£ng loáº¡n toÃ n thá» trÆ°á»ng.",
-    "thanh_khoan": "Tá»ng giÃ¡ trá» giao dá»ch HOSE Äáº¡t 12.977,9 tá»· Äá»ng, trong ÄÃ³ giao dá»ch thá»a thuáº­n chiáº¿m 2.332,9 tá»· Äá»ng (tá»· trá»ng 18,0%). Thanh khoáº£n khá»p lá»nh thá»±c táº¿ chá» Äáº¡t 10.645,1 tá»· Äá»ng, giáº£m máº¡nh so vá»i má»©c 14.694,5 tá»· Äá»ng phiÃªn trÆ°á»c, tháº¥p hÆ¡n TB5 (12.905,0 tá»·) vÃ  chá» Äáº¡t 0,81 láº§n TB20 (13.198,0 tá»·). Thá» trÆ°á»ng rÆ¡i vÃ o tráº¡ng thÃ¡i thiáº¿u tiá»n rÃµ rá»t.",
-    "dong_tien": "Khá»i ngoáº¡i bÃ¡n rÃ²ng 584,0 tá»· Äá»ng trÃªn HOSE (mua 1.249,3 tá»·, bÃ¡n 1.833,3 tá»·), lÅ©y káº¿ thÃ¡ng 10 rÃºt rÃ²ng 17.933,0 tá»· Äá»ng vÃ  lÅ©y káº¿ nÄm rÃºt 115.834,2 tá»· Äá»ng. BÃ¡n táº­p trung á» TCB (-114,91 tá»·), PNJ (-104,95 tá»·), FPT (-91,16 tá»·), VIX (-60,52 tá»·). Tá»± doanh phiÃªn 09/10 mua rÃ²ng 234,4 tá»· Äá»ng (chÆ°a cÃ³ sá» liá»u phiÃªn hÃ´m nay). DÃ²ng tiá»n duy trÃ¬ tráº¡ng thÃ¡i risk-off tá»« khá»i ngoáº¡i káº¿t há»£p bÃ¡n thÃ¡o táº­p trung á» má»t sá» mÃ£ trá»¥.",
-    "index_distortion": "Chá» sá» bá» bÃ³p mÃ©o cá»±c lá»n bá»i nhÃ³m Vin: VIC giáº£m -2,88% láº¥y Äi 10,37 Äiá»m, VHM giáº£m -3,18% láº¥y Äi 3,57 Äiá»m, VPL láº¥y Äi 0,70 Äiá»m vÃ  VRE láº¥y Äi 0,19 Äiá»m, tá»ng cá»ng nhÃ³m Vin kÃ©o lÃ¹i chá» sá» 14,83 Äiá»m. Pháº§n cÃ²n láº¡i cá»§a thá» trÆ°á»ng ÄÃ³ng gÃ³p dÆ°Æ¡ng +0,72 Äiá»m, kiá»m chá»©ng chÃ©o khá»p vá»i Äá» rá»ng cÃ¢n báº±ng 154 mÃ£ tÄng/148 mÃ£ giáº£m.",
-    "ky_thuat_chi_so": {
-     "moc_chinh": "1.725,4 (chÃ¢n náº¿n phÃ¡t Äá»ng 21/08 ÄÃ£ gÃ£y) vÃ  vÃ¹ng 1.700â1.701,14",
-     "loai_moc": "CAN",
-     "nguon_goc": "ChÃ¢n cÃ¢y náº¿n phÃ¡t Äá»ng ngÃ y 21/08 táº¡i 1.725,4 (+1,95%, KLx1,24) vÃ  chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 30/07 táº¡i 1.701,14 (+2,35%, KLx1,21).",
-     "vi_sao_thi_truong_nhan_ra": "1.725,4 tá»«ng lÃ  Äiá»m bá»©t phÃ¡ kÃ­ch hoáº¡t nhá»p tÄng thÃ¡ng 8; ÄÃ³ng cá»­a dÆ°á»i má»c nÃ y xÃ¡c nháº­n ná» lá»±c báº£o vá» ngÆ°á»¡ng Äá»m tháº¥t báº¡i. VÃ¹ng 1.701,14 lÃ  chÃ¢n sÃ³ng phÃ¡t Äá»ng lá»n trÆ°á»c ÄÃ³.",
-     "neu_giu": "Náº¿u chá» sá» sá»m láº¥y láº¡i 1.725,4 trong phiÃªn tá»i, thá» trÆ°á»ng duy trÃ¬ ÄÆ°á»£c tháº¿ cÃ¢n báº±ng biÃªn Äá» Äi ngang trÃªn 1.700.",
-     "neu_thung": "Náº¿u tiáº¿p tá»¥c thoÃ¡i lui vÃ  thá»§ng vÃ¹ng chÃ¢n náº¿n phÃ¡t Äá»ng 1.701,14, breadth thá» trÆ°á»ng sáº½ tiÃªu cá»±c nhanh chÃ³ng vÃ  kÃ­ch hoáº¡t Äá»£t bÃ¡n giáº£m tá»· trá»ng vá» vÃ¹ng há» trá»£ sÃ¢u 1.650,97.",
-     "xac_nhan": "ÄÃ³ng cá»­a dÆ°á»i 1.701 kÃ¨m khá»i lÆ°á»£ng khá»p lá»nh vÆ°á»£t trung bÃ¬nh 20 phiÃªn (trÃªn 13.200 tá»· Äá»ng).",
-     "vo_hieu": "Láº¥y láº¡i má»c 1.725,4 vÃ  vÆ°á»£t trá» láº¡i MA10 táº¡i 1.749,41 Äiá»m.",
-     "ho_tro_ke_tiep": "1.701,14 (chÃ¢n náº¿n 30/07) vÃ  1.650,97 (ÄÃ¡y ngÃ y 28/07)."
-    },
-    "regime": {
-     "ten": "Rotation/Divergence",
-     "co_tien": "thiáº¿u tiá»n",
-     "ung_ho": [
-      "Äá» rá»ng cÃ¢n báº±ng 154 tÄng / 148 giáº£m báº¥t cháº¥p Äiá»m sá» giáº£m sÃ¢u 14,11 Äiá»m.",
-      "Pháº§n cÃ²n láº¡i ngoÃ i nhÃ³m Vin tÄng +0,72 Äiá»m, tiá»n xoay vÃ²ng sang ThÃ©p, XÃ¢y dá»±ng, Dá»t may, Äiá»n.",
-      "Thanh khoáº£n khá»p lá»nh tháº¥p chá» Äáº¡t 0,81 láº§n TB20, tiá»n co cá»¥m vÃ o nhÃ³m vá»n hÃ³a vá»«a vÃ  nhá»."
-     ],
-     "phan_bac": [
-      "VN-Index ÄÃ£ náº±m dÆ°á»i MA10 liÃªn tiáº¿p 14 phiÃªn vÃ  gÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng 1.725,4.",
-      "Khá»i ngoáº¡i tiáº¿p tá»¥c bÃ¡n rÃ²ng quy mÃ´ lá»n, táº¡o nguy cÆ¡ phÃ¢n hÃ³a biáº¿n thÃ nh Äiá»u chá»nh diá»n rá»ng náº¿u trá»¥ khÃ´ng ngá»«ng rÆ¡i."
-     ],
-     "so_voi_den_nsi": "Há» thá»ng bÃ¡o ÄÃ¨n NSI khÃ´ng Äá»c ÄÆ°á»£c; phÃ¢n loáº¡i dá»±a trÃªn dá»¯ liá»u giÃ¡, khá»i lÆ°á»£ng vÃ  cáº¥u trÃºc ngÃ nh phÃ¢n hÃ³a."
-    },
-    "nganh": [
-     {
-      "nhom": "NgÃ¢n hÃ ng",
-      "nhan_dinh": "PhÃ¢n hÃ³a máº¡nh máº½; nhÃ³m quá»c doanh vÃ  cÃ¡c mÃ£ gÃ£y MA10 giáº±ng co thanh khoáº£n tháº¥p, trong khi VPB, TCB, HDB giá»¯ cáº¥u trÃºc tÄng trÃªn cÃ¡c ÄÆ°á»ng trung bÃ¬nh.",
-      "ma": [
-       {
-        "ma": "VPB",
-        "cau_truc": "Ná»n cao, náº±m trÃªn toÃ n bá» MA10, MA20, MA50, MA200; MA20 dá»c lÃªn.",
-        "moc_theo_doi": 22.0,
-        "thung_thi": "GÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 25/09, há» trá»£ káº¿ tiáº¿p lÃ  gap 20,39â20,55.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 22,0.",
-        "diem_dung_cach_pct": 6.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,33, P/E 8,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "TCB",
-        "cau_truc": "Náº±m trÃªn MA10 (+0,46%), MA20 (+0,28%) vÃ  MA200 (+0,99%), giá»¯ cáº¥u trÃºc tÄng ngáº¯n háº¡n.",
-        "moc_theo_doi": 31.4,
-        "thung_thi": "Thá»§ng há» trá»£ ÄÃ¡y gáº§n nháº¥t, cáº¥u trÃºc tÄng bá» báº» gÃ£y vá» vÃ¹ng 29,5.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 31,4.",
-        "diem_dung_cach_pct": 3.68,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,28, P/E 8,5",
+        "dinh_gia": "P/B 0,65 · P/E 4,0",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "VCB",
-        "cau_truc": "NhÃ³m ÄÃ¡y, náº±m dÆ°á»i MA10 16 phiÃªn, cÃ¡ch MA200 -6,54%, 3 náº¿n phÃ¡t Äá»ng Äá»u ÄÃ£ gÃ£y.",
+        "cau_truc": "Dưới MA200 (-6,54%), 16 phiên dưới MA10, thanh khoản kiệt quệ chỉ bằng một nửa bình quân",
         "moc_theo_doi": 55.83,
-        "thung_thi": "Thá»§ng há» trá»£ 4 láº§n cháº¡m, má» biÃªn rÆ¡i vá» ÄÃ¡y cÅ© 52,6.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 55,83.",
+        "thung_thi": "Thủng hỗ trợ 55,83 sẽ tìm về đáy 60 phiên tại 52,6",
+        "xac_nhan": "Lấy lại MA10 tại 57,22",
         "diem_dung_cach_pct": 1.53,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,94, P/E 11,4",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "STB",
-        "cau_truc": "Náº±m dÆ°á»i MA10 (-3,39%), MA20 (-8,33%) vÃ  MA200 (-1,25%), náº¿n phÃ¡t Äá»ng 07/05 ÄÃ£ gÃ£y.",
-        "moc_theo_doi": 65.5,
-        "thung_thi": "Thá»§ng ÄÃ¡y 20 phiÃªn, lÃ¹i vá» há» trá»£ 63,5.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 65,5.",
-        "diem_dung_cach_pct": 2.09,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,02, P/E 41,2",
+        "dinh_gia": "P/B 1,94 · P/E 11,4",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Chá»©ng khoÃ¡n",
-      "nhan_dinh": "Thanh khoáº£n kiá»t quá» chá» báº±ng má»t ná»­a trung bÃ¬nh 20 phiÃªn, háº§u háº¿t náº±m sÃ¢u dÆ°á»i MA10 vÃ  MA20, chÆ°a cÃ³ tÃ­n hiá»u dÃ²ng tiá»n xÃ¡c nháº­n Äáº£o chiá»u.",
+      "nhom": "Chứng khoán",
+      "nhan_dinh": "Thước đo độ nhạy thị trường đang đồng loạt nằm sâu dưới MA20 và MA200, thanh khoản giao dịch teo tóp chỉ bằng 50-60% trung bình 20 phiên.",
       "ma": [
        {
         "ma": "SSI",
-        "cau_truc": "NhÃ³m ÄÃ¡y, 12 phiÃªn dÆ°á»i MA10 (-2,91%), dÆ°á»i MA200 (-13,96%), náº¿n phÃ¡t Äá»ng 21/08 ÄÃ£ gÃ£y.",
+        "cau_truc": "12 phiên nằm dưới MA10, cách MA200 -13,96%, thanh khoản teo tóp chỉ đạt 0,51 lần bình quân",
         "moc_theo_doi": 18.65,
-        "thung_thi": "Thá»§ng ÄÃ¡y phiÃªn 09/10, lui vá» há» trá»£ ÄÃ¡y cÅ© 17,35.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 18,65.",
+        "thung_thi": "Thủng đáy 20 phiên 18,65 sẽ tìm về hỗ trợ đáy tháng 7 tại 17,35",
+        "xac_nhan": "Lấy lại MA10 tại 19,62 kèm thanh khoản bùng nổ",
         "diem_dung_cach_pct": 2.1,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,5, P/E 11,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VCI",
-        "cau_truc": "12 phiÃªn dÆ°á»i MA10, dÆ°á»i MA200 (-24,07%), náº¿n phÃ¡t Äá»ng 06/10 chÃ¢n 18,15 Äang nÃ¢ng Äá»¡.",
-        "moc_theo_doi": 18.05,
-        "thung_thi": "Thá»§ng ÄÃ¡y 20 phiÃªn vÃ  gÃ£y chÃ¢n náº¿n 06/10, rá»§i ro tÃ¬m ÄÃ¡y má»i.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 18,05.",
-        "diem_dung_cach_pct": 2.17,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,25, P/E 14,7",
+        "dinh_gia": "P/B 1,50 · P/E 11,9",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "VIX",
-        "cau_truc": "26 phiÃªn dÆ°á»i MA10, dÆ°á»i MA200 (-25,76%), khá»i ngoáº¡i bÃ¡n rÃ²ng 60,52 tá»·.",
+        "cau_truc": "26 phiên dưới MA10, cách MA200 -25,76%, khối ngoại bán ròng hơn 60 tỷ",
         "moc_theo_doi": 11.0,
-        "thung_thi": "Thá»§ng vÃ¹ng há» trá»£ ÄÃ¡y 60 phiÃªn, xÃ¡c láº­p xu hÆ°á»ng giáº£m dÃ i háº¡n.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 11,0.",
+        "thung_thi": "Thủng đáy cứng 11,0 sẽ mở ra nhịp giảm dò đáy mới",
+        "xac_nhan": "Cắt lên MA10 tại 11,88",
         "diem_dung_cach_pct": 5.98,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,92, P/E 7,6",
+        "dinh_gia": "P/B 0,92 · P/E 7,6",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "HCM",
+        "cau_truc": "Mã duy nhất trong nhóm còn giữ được trên MA200 (+1,93%), nhưng đã có 13 phiên dưới MA10",
+        "moc_theo_doi": 22.76,
+        "thung_thi": "Thủng MA200 tại 22,76 sẽ kích hoạt bán kỹ thuật về hỗ trợ 22,24",
+        "xac_nhan": "Lấy lại MA20 tại 24,27",
+        "diem_dung_cach_pct": 1.9,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,51 · P/E 19,3",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Báº¥t Äá»ng sáº£n",
-      "nhan_dinh": "Ãp lá»±c táº­p trung táº¡i bá» ÄÃ´i VIC vÃ  VHM lÃ m mÃ©o mÃ³ chá» sá», trong khi cÃ¡c mÃ£ táº§m trung nhÆ° NVL, KDH, DXG xuáº¥t hiá»n nhá»p há»i ká»¹ thuáº­t ngáº¯n.",
+      "nhom": "Bất động sản",
+      "nhan_dinh": "Sức ép tập trung nặng nề tại VIC và VHM khiến chỉ số lao dốc; các mã vốn hóa vừa như NVL, KDH, DIG lại phát tín hiệu hồi phục ngắn hạn.",
       "ma": [
        {
         "ma": "VIC",
-        "cau_truc": "Thá»§ng MA10 (-3,46%), MA20 (-5,64%), má» gap xuá»ng táº¡i 225,4â225,5; náº¿n phÃ¡t Äá»ng 26/08 ÄÃ£ gÃ£y.",
+        "cau_truc": "Nền cao nhưng rơi 3 phiên dưới MA10, lấy đi hơn 10 điểm của Index, tạo gap giảm tại 225,4-225,5",
         "moc_theo_doi": 213.5,
-        "thung_thi": "Thá»§ng há» trá»£ 2 láº§n cháº¡m, kiá»m Äá»nh há» trá»£ tiáº¿p theo táº¡i 206,5.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 213,5.",
+        "thung_thi": "Thủng hỗ trợ 213,5 sẽ tìm về hỗ trợ nền dưới quanh 206,5",
+        "xac_nhan": "Lấp xong gap giảm 225,5 và lấy lại MA10",
         "diem_dung_cach_pct": 2.51,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 10,16, P/E 81,6",
+        "dinh_gia": "P/B 10,16 · P/E 81,6",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "VHM",
-        "cau_truc": "Náº±m dÆ°á»i MA10, MA20, cháº¡m ÄÃ¡y 20 phiÃªn táº¡i 63,9; 3 náº¿n phÃ¡t Äá»ng trÆ°á»c ÄÃ³ Äá»u ÄÃ£ gÃ£y.",
+        "cau_truc": "Rơi về đáy 20 phiên tại 63,9, sát MA200 (-1,07%), lấy đi 3,57 điểm của thị trường",
         "moc_theo_doi": 63.3,
-        "thung_thi": "Thá»§ng ÄÃ¡y 60 phiÃªn ngÃ y 23/07, rÆ¡i vá» há» trá»£ 62,11.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 63,3.",
+        "thung_thi": "Thủng hỗ trợ 63,3 sẽ kích hoạt nhịp rơi về 62,1",
+        "xac_nhan": "Vượt trở lại MA200 tại 64,59",
         "diem_dung_cach_pct": 0.94,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,06, P/E 6,8",
+        "dinh_gia": "P/B 2,06 · P/E 6,8",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "NVL",
-        "cau_truc": "TrÃªn MA10 (+6,29%), cÃ³ náº¿n phÃ¡t Äá»ng ngÃ y 09/10 chÃ¢n 10,05 (+6,83%, KLx3,12), khá»i ngoáº¡i mua rÃ²ng 18 tá»·.",
-        "moc_theo_doi": 10.53,
-        "thung_thi": "Thá»§ng há» trá»£ MA10 vÃ  má»c 10,53, cáº¥u trÃºc phá»¥c há»i suy yáº¿u.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 10,53.",
-        "diem_dung_cach_pct": 5.56,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,62, P/E 8,3",
+        "cau_truc": "Phát tín hiệu nến phát động ngày 09/10 tại chân 10,05, vượt dứt khoát MA10 (+6,29%)",
+        "moc_theo_doi": 10.05,
+        "thung_thi": "Gãy chân nến phát động 10,05, quay lại rủi ro thủng đáy 9,6",
+        "xac_nhan": "Vượt qua MA20 tại 11,31",
+        "diem_dung_cach_pct": 9.87,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,62 · P/E 8,3",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "ThÃ©p",
-      "nhan_dinh": "TÃ¢m Äiá»m thu hÃºt dÃ²ng tiá»n phiÃªn hÃ´m nay; khá»i lÆ°á»£ng bÃ¹ng ná», HPG vÆ°á»£t MA10 vÃ  MA20, NKG xuáº¥t hiá»n náº¿n phÃ¡t Äá»ng má»i.",
+      "nhom": "Thép",
+      "nhan_dinh": "Điểm sáng dẫn dắt mạnh mẽ nhất phiên hôm nay với sự đồng thuận cả giá và thanh khoản cao đột biến.",
       "ma": [
        {
         "ma": "HPG",
-        "cau_truc": "VÆ°á»£t MA10 (+2,02%) vÃ  MA20 (+0,29%), khá»i lÆ°á»£ng Äáº¡t 1,75 láº§n TB20, khá»i ngoáº¡i mua rÃ²ng 128,14 tá»·.",
+        "cau_truc": "Vượt lại trên MA10 và MA20, khối lượng gấp 1,75 lần trung bình 20 phiên, khối ngoại mua ròng 128,14 tỷ",
         "moc_theo_doi": 20.1,
-        "thung_thi": "Thá»§ng há» trá»£ MA20 vÃ  má»c 20,1, nhá»p báº­t tháº¥t báº¡i vÃ  quay láº¡i ÄÃ¡y 19,6.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 20,1.",
+        "thung_thi": "Mất hỗ trợ 20,1 sẽ quay lại kiểm định đáy 19,6",
+        "xac_nhan": "Vượt kháng cự ngắn hạn 21,6",
         "diem_dung_cach_pct": 2.9,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,21, P/E 7,3",
+        "dinh_gia": "P/B 1,21 · P/E 7,3",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "NKG",
-        "cau_truc": "TÄng tráº§n +6,89%, hÃ¬nh thÃ nh náº¿n phÃ¡t Äá»ng ngÃ y 12/10 chÃ¢n 9,30 (KLx2,93), láº¥y láº¡i MA10 vÃ  MA20.",
+        "cau_truc": "Tăng kịch trần tạo nến phát động ngày 12/10 chân 9,3 với khối lượng gấp 2,93 lần bình quân",
         "moc_theo_doi": 9.3,
-        "thung_thi": "Thá»§ng chÃ¢n náº¿n phÃ¡t Äá»ng vá»«a táº¡o, cáº¥u trÃºc bá»©t phÃ¡ bá» vÃ´ hiá»u hÃ³a.",
-        "xac_nhan": "ÄÃ³ng cá»­a dÆ°á»i 9,3.",
+        "thung_thi": "Gãy chân nến phát động 9,3, cấu trúc bùng nổ bị phủ nhận",
+        "xac_nhan": "Duy trì giữ giá trên mốc MA20 tại 9,64",
         "diem_dung_cach_pct": 6.34,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,6, P/E 27,5",
+        "dinh_gia": "P/B 0,60 · P/E 27,5",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "HSG",
+        "cau_truc": "Tăng 3,54%, khối lượng gấp 2,6 lần bình quân 20 phiên, lấy lại MA10 và MA20",
+        "moc_theo_doi": 10.0,
+        "thung_thi": "Thủng hỗ trợ 10,0 sẽ quay về đáy cũ 9,7",
+        "xac_nhan": "Chinh phục cản 11,07",
+        "diem_dung_cach_pct": 2.44,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 0,67 · P/E 12,2",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Khu cÃ´ng nghiá»p",
-      "nhan_dinh": "PhÃ¢n hÃ³a theo mÃ£ riÃªng láº»; IDC vÃ  VGC giá»¯ kÃªnh tÄng trÃªn MA200, trong khi KBC vÃ  GVR tÃ­ch lÅ©y biÃªn dÆ°á»i.",
+      "nhom": "Khu công nghiệp",
+      "nhan_dinh": "Giữ nhịp phân hóa tốt, IDC và VGC duy trì kênh tăng phía trên MA200 trong khi nhóm dưới như SZC bật tăng nhẹ.",
       "ma": [
        {
         "ma": "IDC",
-        "cau_truc": "KÃªnh trÃªn, MA20 dá»c lÃªn, trÃªn MA10 (+2,8%) vÃ  MA20 (+5,31%), náº¿n phÃ¡t Äá»ng 07/10 chÃ¢n 33,70.",
+        "cau_truc": "Kênh trên vững chắc, trên MA10/MA20/MA50, chân nến phát động 07/10 tại 33,7 được bảo vệ",
         "moc_theo_doi": 33.7,
-        "thung_thi": "GÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 07/10, há» trá»£ tiáº¿p theo táº¡i 29,1.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 33,7.",
+        "thung_thi": "Thủng chân nến 33,7 sẽ thoái lui về nền 31,6",
+        "xac_nhan": "Vượt đỉnh ngắn hạn 35,8",
         "diem_dung_cach_pct": 4.53,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,39, P/E 6,8",
+        "dinh_gia": "P/B 2,39 · P/E 6,8",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "VGC",
+        "cau_truc": "Trên MA200 (+3,66%), gap tăng 41,1-41,15 chưa bị lấp",
+        "moc_theo_doi": 42.28,
+        "thung_thi": "Thủng hỗ trợ 42,28 sẽ kiểm tra lại gap quanh 41,1",
+        "xac_nhan": "Vượt đỉnh 46,35",
+        "diem_dung_cach_pct": 2.36,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 2,61 · P/E 13,6",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Äáº§u tÆ° cÃ´ng",
-      "nhan_dinh": "Nhiá»u mÃ£ báº­t tÄng vá»i thanh khoáº£n gáº¥p ÄÃ´i trung bÃ¬nh nhÆ° VCG, HHV, CTD tiáº¿p tá»¥c giá»¯ xu hÆ°á»ng tÃ­ch cá»±c.",
+      "nhom": "Đầu tư công",
+      "nhan_dinh": "Đồng thuận hồi phục kỹ thuật với khối lượng gia tăng tích cực, dẫn đầu bởi VCG, HHV và CII.",
       "ma": [
        {
         "ma": "VCG",
-        "cau_truc": "Láº¥y láº¡i MA10 (+3,16%) vÃ  MA20 (+0,86%), khá»i lÆ°á»£ng báº±ng 2,04 láº§n TB20.",
+        "cau_truc": "Bật tăng 2,93% với khối lượng gấp 2,04 lần bình quân, vượt lên trên MA10 và MA20",
         "moc_theo_doi": 13.15,
-        "thung_thi": "Thá»§ng ÄÃ¡y 20 phiÃªn, cáº¥u trÃºc há»i phá»¥c bá» phá»§ nháº­n.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 13,15.",
+        "thung_thi": "Thủng đáy 13,15 sẽ tái lập xu hướng giảm",
+        "xac_nhan": "Tiếp tục hướng tới kiểm định vùng cản 16,2",
         "diem_dung_cach_pct": 6.41,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,88, P/E 2,3",
+        "dinh_gia": "P/B 0,88 · P/E 2,3",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "CTD",
-        "cau_truc": "Ná»n cao, trÃªn MA10 (+4,54%), MA20 (+5,98%), náº¿n phÃ¡t Äá»ng 07/10 chÃ¢n 59,0 cÃ²n nguyÃªn hiá»u lá»±c.",
-        "moc_theo_doi": 58.9,
-        "thung_thi": "Láº¥p gap vÃ  thá»§ng chÃ¢n náº¿n 59,0, rá»§i ro Äiá»u chá»nh vá» MA50 quanh 60,76 rá»i vá» ÄÃ¡y 56,8.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 58,9.",
-        "diem_dung_cach_pct": 6.36,
+        "cau_truc": "Kênh giá tích lũy trên MA50, gap tăng 58,9-59,0 bảo toàn tốt, rs_20p đạt +12,21 điểm",
+        "moc_theo_doi": 60.8,
+        "thung_thi": "Mất hỗ trợ 60,8 sẽ quay về lấp gap tại 58,9",
+        "xac_nhan": "Vượt đỉnh 66,5",
+        "diem_dung_cach_pct": 3.34,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,72, P/E 8,8",
+        "dinh_gia": "P/B 0,72 · P/E 8,8",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Dáº§u khÃ­",
-      "nhan_dinh": "Äá»ng loáº¡t Äiá»u chá»nh nháº¹ dÃ¹ giÃ¡ dáº§u Brent neo cao; BSR má» gap giáº£m, PVT duy trÃ¬ xu hÆ°á»ng tÄng máº¡nh nháº¥t nhÃ³m.",
+      "nhom": "Dầu khí",
+      "nhan_dinh": "Chịu áp lực điều chỉnh ngắn hạn dù giá dầu Brent neo trên 105 USD; BSR và GAS thoái lui nhẹ.",
       "ma": [
        {
         "ma": "BSR",
-        "cau_truc": "TrÃªn MA50 (+8,2%) vÃ  MA200 (+17,06%), vá»«a má» gap xuá»ng 30,85â31,05, dÆ°á»i MA10 (-2,11%).",
+        "cau_truc": "Nền cao trên MA50 và MA200, tạo gap giảm nhỏ tại 30,85-31,05",
         "moc_theo_doi": 28.25,
-        "thung_thi": "GÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 15/09, rá»§i ro lui vá» há» trá»£ 27,14.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 28,25.",
+        "thung_thi": "Mất chân nến phát động 28,25 sẽ gãy cấu trúc tăng trung hạn",
+        "xac_nhan": "Lấp gap 31,05 và quay lại đỉnh 33,45",
         "diem_dung_cach_pct": 7.68,
         "rong_hon_chuan_7": true,
-        "dinh_gia": "P/B 2,13, P/E 7,8",
+        "dinh_gia": "P/B 2,13 · P/E 7,8",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "PVT",
-        "cau_truc": "Cá»±c khá»e, trÃªn MA200 (+24,5%), trÃªn MA10 vÃ  MA20, náº¿n phÃ¡t Äá»ng ngÃ y 29/09 chÃ¢n 23,5.",
+        "cau_truc": "Rất khỏe trên MA200 (+24,5%), khối lượng trên bình quân, giữ nhịp tích lũy đỉnh 60 phiên",
         "moc_theo_doi": 23.5,
-        "thung_thi": "GÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng 29/09, há» trá»£ káº¿ tiáº¿p lÃ  22,25.",
-        "xac_nhan": "ÄÃ³ng cá»­a dÆ°á»i 23,5.",
+        "thung_thi": "Gãy chân nến phát động 23,5 sẽ mất xu hướng tăng mạnh",
+        "xac_nhan": "Vượt đỉnh 26,35",
         "diem_dung_cach_pct": 6.56,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,37, P/E 9,1",
+        "dinh_gia": "P/B 1,37 · P/E 9,1",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "BÃ¡n láº»",
-      "nhan_dinh": "PhÃ¢n hÃ³a cá»±c Äoan; PNJ giáº£m sÃ n (-6,92%) trÆ°á»c Ã¡p lá»±c giáº£i cháº¥p vÃ  khá»i ngoáº¡i xáº£ rÃ²ng, trong khi MWG, FRT duy trÃ¬ cáº¥u trÃºc ná»n trÃªn.",
+      "nhom": "Bán lẻ",
+      "nhan_dinh": "Biến động tiêu cực cục bộ khi PNJ giảm sàn do thông tin giải chấp lãnh đạo; MWG và FRT giữ nền giá ổn định.",
       "ma": [
        {
         "ma": "PNJ",
-        "cau_truc": "RÆ¡i tá»± do vá» ÄÃ¡y má»i, cÃ¡ch MA200 -69,16%, 28 phiÃªn dÆ°á»i MA10, ngoáº¡i bÃ¡n rÃ²ng 104,95 tá»·.",
+        "cau_truc": "Giảm sàn -6,92% xuống 18,15, cách MA200 -69,16%, khối ngoại bán ròng 104,95 tỷ",
         "moc_theo_doi": 17.8,
-        "thung_thi": "Thá»§ng ÄÃ¡y ngÃ y 08/10, tiáº¿p tá»¥c quÃ¡n tÃ­nh giáº£m giáº£i cháº¥p.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 17,8.",
+        "thung_thi": "Thủng đáy 17,8 sẽ tiếp tục rơi tự do trong vòng xoáy giải chấp",
+        "xac_nhan": "Xuất hiện lực cầu bắt đáy giải cứu đóng trần trở lại",
         "diem_dung_cach_pct": 1.93,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,74, P/E 4,1",
+        "dinh_gia": "P/B 0,74 · P/E 4,1",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "MWG",
-        "cau_truc": "TrÃªn MA10 (+2,27%), MA20 (+3,99%), gap tÄng 72,43â72,73 ngÃ y 05/10 chÆ°a láº¥p.",
-        "moc_theo_doi": 72.43,
-        "thung_thi": "Láº¥p gap tÄng vÃ  gÃ£y MA20, kiá»m tra ÄÃ¡y 68,88.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 72,43.",
-        "diem_dung_cach_pct": 4.19,
+        "cau_truc": "Giữ trên MA10, MA20, MA50, gap tăng 72,43-72,72 chưa bị chạm tới",
+        "moc_theo_doi": 74.72,
+        "thung_thi": "Thủng hỗ trợ 74,72 sẽ quay về kiểm tra gap quanh 72,7",
+        "xac_nhan": "Vượt đỉnh 77,3 để tiến về cản 79,0",
+        "diem_dung_cach_pct": 1.16,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 3,27, P/E 11,4",
+        "dinh_gia": "P/B 3,27 · P/E 11,4",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Váº­n táº£i",
-      "nhan_dinh": "GMD vÃ  HAH gáº·p Ã¡p lá»±c chá»t lá»i ngáº¯n háº¡n sau nhá»p tÄng, VOS duy trÃ¬ ÄÃ  tÄng trÃªn MA200.",
+      "nhom": "Vận tải",
+      "nhan_dinh": "Áp lực chốt lời ngắn hạn xuất hiện tại HAH và GMD sau nhịp tăng vượt đỉnh.",
       "ma": [
        {
-        "ma": "HAH",
-        "cau_truc": "Thá»§ng MA10 (-4,73%) vÃ  MA20 (-2,26%), náº¿n phÃ¡t Äá»ng 25/09 chÃ¢n 49,05 ÄÃ£ bá» gÃ£y.",
-        "moc_theo_doi": 47.74,
-        "thung_thi": "Thá»§ng há» trá»£ ká»¹ thuáº­t, lÃ¹i vá» vÃ¹ng ÄÃ¡y cÅ© 45,60.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 47,74.",
-        "diem_dung_cach_pct": 2.37,
+        "ma": "GMD",
+        "cau_truc": "Trên MA200 (+10,66%), gap mở ngày 07/10 tại 52,27-52,4 đang đóng vai trò nâng đỡ",
+        "moc_theo_doi": 52.4,
+        "thung_thi": "Thủng 52,4 sẽ lấp gap hoàn toàn về hỗ trợ 50,8",
+        "xac_nhan": "Vượt đỉnh 56,0",
+        "diem_dung_cach_pct": 3.14,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,04, P/E 7,5",
+        "dinh_gia": "P/B 2,61 · P/E 13,9",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "PhÃ¢n bÃ³n - hÃ³a cháº¥t",
-      "nhan_dinh": "BFC vÃ  CSV giá»¯ quÃ¡n tÃ­nh bá»©t phÃ¡ tá»t; DCM vÃ  DPM suy yáº¿u nháº¹ thanh khoáº£n tháº¥p, thiáº¿u Äá»ng lá»±c giÃ¡ urÃª trong nÆ°á»c.",
+      "nhom": "Phân bón - hóa chất",
+      "nhan_dinh": "DCM và DPM điều chỉnh nhẹ sau chuỗi tăng; BFC tiếp tục duy trì sức mạnh kênh trên.",
       "ma": [
        {
         "ma": "DCM",
-        "cau_truc": "Náº±m sÃ¡t MA10 (-0,21%) vÃ  MA20 (-0,27%), náº¿n phÃ¡t Äá»ng 15/09 chÃ¢n 32,3 váº«n ÄÆ°á»£c giá»¯.",
-        "moc_theo_doi": 32.1,
-        "thung_thi": "Thá»§ng ÄÃ¡y 20 phiÃªn, láº¥p gap 31,1â31,2 ngÃ y 03/09.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 32,1.",
-        "diem_dung_cach_pct": 4.89,
+        "cau_truc": "Điều chỉnh về sát MA10 và MA20, bảo toàn gap ngày 03/09 tại 31,1-31,2",
+        "moc_theo_doi": 32.57,
+        "thung_thi": "Mất hỗ trợ 32,57 sẽ về lấp gap 31,2",
+        "xac_nhan": "Vượt lại đỉnh cũ 35,4",
+        "diem_dung_cach_pct": 3.5,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,77, P/E 7,1",
+        "dinh_gia": "P/B 1,77 · P/E 7,1",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Thá»§y sáº£n - dá»t may",
-      "nhan_dinh": "NhÃ³m ngÃ³c ngÃ¡ch hÃºt tiá»n rÃµ nÃ©t ÄÃ³n ká»³ vá»ng káº¿t quáº£ kinh doanh; TNG tÄng +2,73% ná» vol, ANV duy trÃ¬ cáº¥u trÃºc tÄng.",
+      "nhom": "Thủy sản - dệt may",
+      "nhan_dinh": "Nhóm xuất khẩu giữ xung lực tốt trước kỳ vọng kết quả kinh doanh quý 3, tiêu biểu là TNG và ANV.",
       "ma": [
        {
         "ma": "TNG",
-        "cau_truc": "VÆ°á»£t MA200 (+0,91%), trÃªn MA10 (+7,67%), khá»i lÆ°á»£ng gáº¥p 2,57 láº§n TB20, náº¿n phÃ¡t Äá»ng 07/10 chÃ¢n 17,2.",
+        "cau_truc": "Vượt MA200, nổ khối lượng gấp 2,57 lần bình quân, rs_20p đạt +21,26 điểm",
         "moc_theo_doi": 17.2,
-        "thung_thi": "GÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng 07/10, nhá»p vÆ°á»£t MA200 bá» phá»§ Äá»nh.",
-        "xac_nhan": "ÄÃ³ng cá»­a dÆ°á»i 17,2.",
+        "thung_thi": "Gãy chân nến phát động 17,2 sẽ mất đà bứt phá",
+        "xac_nhan": "Vượt đỉnh 19,1 để hướng tới cản 19,9",
         "diem_dung_cach_pct": 8.51,
         "rong_hon_chuan_7": true,
-        "dinh_gia": "P/B 1,25, P/E 5,4",
+        "dinh_gia": "P/B 1,25 · P/E 5,4",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "Äiá»n - nÄng lÆ°á»£ng",
-      "nhan_dinh": "NT2 tÄng tÃ­ch cá»±c +1,97% vÆ°á»£t MA10/MA20 vá»i thanh khoáº£n cao gáº¥p 2,4 láº§n TB20, ÄÃ³ng vai trÃ² Äiá»m Äáº¿n phÃ²ng thá»§.",
+      "nhom": "Điện - năng lượng",
+      "nhan_dinh": "Duy trì phòng thủ, NT2 bứt phá vượt trội nhờ dòng tiền vào mạnh.",
       "ma": [
        {
         "ma": "NT2",
-        "cau_truc": "TrÃªn MA10 (+4,48%), MA20 (+8,27%), náº¿n phÃ¡t Äá»ng 30/09 chÃ¢n 21,25, gap tÄng 21,15â21,25 chÆ°a láº¥p.",
-        "moc_theo_doi": 22.32,
-        "thung_thi": "Thá»§ng há» trá»£ ká»¹ thuáº­t 8 láº§n cháº¡m, kiá»m Äá»nh láº¡i chÃ¢n náº¿n 21,25.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 22,32.",
-        "diem_dung_cach_pct": 4.21,
+        "cau_truc": "Tăng 1,97% với khối lượng gấp 2,4 lần bình quân, gap tăng 21,15-21,25 vững chắc",
+        "moc_theo_doi": 22.3,
+        "thung_thi": "Mất hỗ trợ 22,3 sẽ lui về MA20 quanh 21,5",
+        "xac_nhan": "Vượt cản 23,6 để áp sát MA200",
+        "diem_dung_cach_pct": 4.29,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,31, P/E 5,2",
+        "dinh_gia": "P/B 1,31 · P/E 5,2",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
-      "nhom": "CÃ´ng nghá»",
-      "nhan_dinh": "FPT tiáº¿p tá»¥c bá» khá»i ngoáº¡i xáº£ rÃ²ng 91,16 tá»·, ÄÃ³ng cá»­a táº¡i ÄÃ¡y 20 phiÃªn vÃ  Äe dá»a vÃ¹ng há» trá»£ ÄÃ¡y thÃ¡ng 7.",
+      "nhom": "Cao su",
+      "nhan_dinh": "Giao dịch trầm lắng thanh khoản thấp, DRI giữ nền giá cao vượt trội trong khi DRC, PHR đi ngang.",
+      "ma": [
+       {
+        "ma": "PHR",
+        "cau_truc": "Tích lũy sát MA20 và MA50, khối lượng dưới trung bình",
+        "moc_theo_doi": 32.56,
+        "thung_thi": "Thủng hỗ trợ 32,56 sẽ lui về nền 30,7",
+        "xac_nhan": "Vượt cản 34,0",
+        "diem_dung_cach_pct": 0.88,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,72 · P/E 8,6",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Công nghệ",
+      "nhan_dinh": "FPT chịu áp lực bán ròng ngoại lớn khiến toàn ngành chịu sức ép điều chỉnh tiệm cận đáy tháng 7.",
       "ma": [
        {
         "ma": "FPT",
-        "cau_truc": "NhÃ³m ÄÃ¡y, 14 phiÃªn dÆ°á»i MA10, dÆ°á»i MA200 (-19,26%), 3 náº¿n phÃ¡t Äá»ng Äá»u ÄÃ£ gÃ£y, ÄÃ³ng cá»­a 57,1 cháº¡m ÄÃ¡y 20 phiÃªn.",
+        "cau_truc": "14 phiên dưới MA10, rơi về sát đáy 60 phiên 55,91, khối ngoại bán ròng 91,16 tỷ",
         "moc_theo_doi": 55.91,
-        "thung_thi": "Thá»§ng há» trá»£ ÄÃ¡y 60 phiÃªn ngÃ y 28/07, má» rá»ng nhá»p giáº£m trung háº¡n.",
-        "xac_nhan": "ÄÃ³ng cá»­a thá»§ng 55,91.",
+        "thung_thi": "Thủng hỗ trợ 55,91 sẽ bẻ gãy nền giá hỗ trợ dài hạn",
+        "xac_nhan": "Lấy lại MA10 tại 60,77",
         "diem_dung_cach_pct": 2.08,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,74, P/E 10,9",
+        "dinh_gia": "P/B 2,74 · P/E 10,9",
         "nhan": "OBSERVATION"
        }
       ]
      }
     ],
-    "xoay_vong": "DÃ²ng tiá»n thá» hiá»n rÃµ tráº¡ng thÃ¡i rÃºt khá»i cÃ¡c mÃ£ trá»¥ lá»n vÃ  nhÃ³m bá» ÄÃ¨ nÃ©n (Vin, FPT, PNJ) Äá» xoay vÃ²ng cá»¥c bá» sang nhÃ³m cá» phiáº¿u thá» giÃ¡ vá»«a vÃ  nhá» cÃ³ cÃ¢u chuyá»n riÃªng (ThÃ©p nhÆ° HPG/NKG, Äáº§u tÆ° cÃ´ng VCG, Dá»t may TNG, Äiá»n NT2). NhÃ³m tÃ i chÃ­nh chÆ°a cÃ³ sá»± Äá»ng thuáº­n khi Chá»©ng khoÃ¡n kiá»t thanh khoáº£n náº±m sÃ¢u dÆ°á»i MA20, cÃ²n NgÃ¢n hÃ ng chá» cÃ³ vÃ i mÃ£ riÃªng láº» (VPB, TCB) giá»¯ nhá»p. ÄÃ¢y lÃ  biá»u hiá»n xoay vÃ²ng phÃ¢n hÃ³a trong bá»i cáº£nh tá»ng thanh khoáº£n thiáº¿u há»¥t.",
+    "xoay_vong": "Dòng tiền dịch chuyển rõ nét từ nhóm công nghệ, bán lẻ đang chịu áp lực rút vốn sang nhóm tài nguyên cơ bản (thép) và đầu tư công có định giá rẻ P/B dưới 1. Nhóm dẫn dắt tăng trước như Vin và FPT đang yếu đi rõ rệt. Nhóm tài chính phân hóa mạnh khi chứng khoán chưa xác nhận đáy, trong khi một vài mã ngân hàng riêng lẻ như VPB, TCB đang nỗ lực gánh đỡ chỉ số.",
     "luan_diem_chinh": [
-     "VN-Index giáº£m 14,11 Äiá»m (-0,81%) xuá»ng 1.720,98 nhÆ°ng má»©c giáº£m mang tÃ­nh mÃ©o mÃ³ khi riÃªng bá» tá»© nhÃ  Vin láº¥y Äi 14,83 Äiá»m.",
-     "Thanh khoáº£n khá»p lá»nh HOSE chá» Äáº¡t 10.645,1 tá»· Äá»ng (0,81 láº§n TB20), xÃ¡c nháº­n thá» trÆ°á»ng thiáº¿u tiá»n vÃ  khá»i ngoáº¡i duy trÃ¬ bÃ¡n rÃ²ng 584 tá»· Äá»ng.",
-     "Chá» sá» ÄÃ£ chÃ­nh thá»©c ÄÃ³ng cá»­a dÆ°á»i chÃ¢n cÃ¢y náº¿n phÃ¡t Äá»ng 21/08 táº¡i 1.725,4 Äiá»m, Äáº·t vÃ¹ng 1.700â1.701,14 vÃ o vá» trÃ­ phÃ²ng thá»§ quan trá»ng nháº¥t.",
-     "Äá» rá»ng thá» trÆ°á»ng cÃ¢n báº±ng (154 tÄng / 148 giáº£m) cÃ¹ng dÃ²ng tiá»n cá»¥c bá» tÃ¬m Äáº¿n ThÃ©p (HPG khá»p 638,6 tá»·) vÃ  Äáº§u tÆ° cÃ´ng cho tháº¥y khÃ´ng cÃ³ hiá»n tÆ°á»£ng bÃ¡n thÃ¡o hoáº£ng loáº¡n lan rá»ng."
+     "VN-Index giảm 14,11 điểm nhưng nhóm Vin đã chiếm tới -14,83 điểm, phần còn lại của thị trường thực chất tăng 0,72 điểm.",
+     "Độ rộng thị trường đạt 154 mã tăng so với 148 mã giảm, cho thấy không có hiện tượng bán tháo hoảng loạn trên diện rộng.",
+     "Thanh khoản khớp lệnh HOSE chỉ đạt 10.645,1 tỷ, hụt gần một phần năm so với bình quân 20 phiên, xác nhận thị trường đang trong chế độ thiếu tiền rõ rệt.",
+     "Chân nến phát động ngày 21/08 tại mốc 1.725,4 đã bị xuyên thủng, đưa vùng 1.700-1.701 (chân nến ngày 30/07) thành mốc quan sát trọng yếu bảo vệ xu hướng phục hồi.",
+     "Sự phân hóa diễn ra cực đoan: nhóm thép bùng nổ dẫn sóng ngược dòng trong khi cổ phiếu dính tin giải chấp như PNJ giảm sàn."
     ],
     "phien_toi": {
      "cung_co": [
-      "NhÃ³m Vin (VIC, VHM) chá»¯ng ÄÃ  giáº£m Äiá»m, ngá»«ng táº¡o Ã¡p lá»±c mÃ©o mÃ³ lÃªn chá» sá».",
-      "DÃ²ng tiá»n táº¡i nhÃ³m ThÃ©p vÃ  Äáº§u tÆ° cÃ´ng duy trÃ¬ ÄÆ°á»£c khá»i lÆ°á»£ng cao Äá» lan tá»a sang cÃ¡c ngÃ nh khÃ¡c."
+      "Nhóm thép và đầu tư công tiếp tục duy trì thanh khoản mua chủ động và giữ vững sắc xanh",
+      "Khối ngoại giảm tốc độ bán ròng tại nhóm vốn hóa lớn"
      ],
      "lam_yeu": [
-      "Khá»i ngoáº¡i tiáº¿p tá»¥c bÃ¡n rÃ²ng quy mÃ´ lá»n trÃªn cÃ¡c cá» phiáº¿u vá»n hÃ³a lá»n nhÆ° TCB, FPT, PNJ.",
-      "Thanh khoáº£n khá»p lá»nh tiáº¿p tá»¥c sá»¥t giáº£m dÆ°á»i 10.000 tá»· Äá»ng khiáº¿n lá»±c cáº§u Äá»¡ giÃ¡ táº¡i cÃ¡c vÃ¹ng há» trá»£ bá» bÃ o mÃ²n."
+      "Nhóm Vin tiếp tục bị ép bán giải chấp hoặc áp lực xả ròng ngoại nới rộng",
+      "Thanh khoản tiếp tục sụt giảm dưới 10.000 tỷ khiến lực cầu đỡ giá tại các vùng hỗ trợ bị bào mòn"
      ],
      "xac_nhan": [
-      "VN-Index láº¥y láº¡i vÃ  ÄÃ³ng cá»­a trÃªn má»c 1.725,4 Äiá»m vá»i thanh khoáº£n khá»p lá»nh cáº£i thiá»n vá» trÃªn 12.000 tá»· Äá»ng.",
-      "NhÃ³m chá»©ng khoÃ¡n cÃ³ phiÃªn ná» khá»i lÆ°á»£ng láº¥y láº¡i ÄÆ°á»ng MA10."
+      "Chỉ số bật hồi dứt khoát lấy lại mốc 1.725,4 với thanh khoản khớp lệnh quay lại trên 13.000 tỷ"
      ],
      "vo_hieu": [
-      "VN-Index ÄÃ³ng cá»­a thá»§ng chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 30/07 táº¡i 1.701,14 Äiá»m."
+      "VN-Index đóng cửa gãy mốc 1.701 kèm theo độ rộng nghiêng hẳn về bên bán với trên 250 mã giảm"
      ]
     },
     "du_bao_moi": [
@@ -6049,142 +5664,140 @@
       "doi_tuong": "VNINDEX",
       "loai": "giu",
       "moc": 1701.14,
-      "han_phien": 5,
-      "loai_moc": "CAN",
-      "noi_dung": "VN-Index giá»¯ ÄÆ°á»£c chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 30/07 táº¡i 1.701,14 Äiá»m trong 5 phiÃªn tá»i."
+      "han_phien": 3,
+      "loai_moc": "QS",
+      "noi_dung": "VN-Index sẽ giữ vững trên chân nến phát động 1.701 trong 3 phiên tới bất chấp áp lực từ nhóm vốn hóa lớn."
      },
      {
       "doi_tuong": "HPG",
       "loai": "giu",
       "moc": 20.1,
       "han_phien": 5,
-      "loai_moc": "QS",
-      "noi_dung": "HPG giá»¯ vá»¯ng má»c há» trá»£ 20,1 sau phiÃªn bá»©t phÃ¡ vÆ°á»£t cÃ¡c ÄÆ°á»ng MA ngáº¯n háº¡n."
+      "loai_moc": "CAN",
+      "noi_dung": "HPG sẽ giữ vững trên vùng hỗ trợ 20,1 để duy trì vai trò dẫn dắt nhóm tài nguyên cơ bản."
      },
      {
       "doi_tuong": "FPT",
       "loai": "giu",
       "moc": 55.91,
-      "han_phien": 5,
+      "han_phien": 3,
       "loai_moc": "CAN",
-      "noi_dung": "FPT khÃ´ng ÄÃ³ng cá»­a thá»§ng má»c ÄÃ¡y 60 phiÃªn táº¡i 55,91 Äiá»m."
-     },
-     {
-      "doi_tuong": "VIC",
-      "loai": "giu",
-      "moc": 213.5,
-      "han_phien": 5,
-      "loai_moc": "QS",
-      "noi_dung": "VIC duy trÃ¬ trÃªn má»c há» trá»£ 213,5 Äá» giáº£i tá»a Ã¡p lá»±c mÃ©o mÃ³ chá» sá» cho thá» trÆ°á»ng."
+      "noi_dung": "FPT không đóng cửa thủng vùng đáy 60 phiên tại 55,91 trong 3 phiên tới."
      }
-    ],
-    "_model": "gemini-3.8-flash"
+    ]
    },
    "script": {
-    "tieu_de_youtube": "VN-Index giáº£m 14 Äiá»m nhÆ°ng cá» phiáº¿u cÃ³ thá»±c sá»± hoáº£ng loáº¡n?",
+    "tieu_de_youtube": "VN-Index giảm 14 điểm do nhóm Vin: Bảng điện phân hóa hay áp lực lan rộng?",
     "thoi_luong_phut": 20,
     "phan": [
      {
       "ten": "Hook",
-      "phut": 0.5,
-      "loi_thoai": "ChÃ o anh chá», em lÃ  SÆ¡n. HÃ´m nay báº£ng Äiá»n Äá» lá»­a, VN-Index bá»c hÆ¡i hÆ¡n 14 Äiá»m, thá»§ng luÃ´n má»c há» trá»£ 1.725. Tháº¿ nhÆ°ng, anh chá» nhÃ¬n vÃ o sá» lÆ°á»£ng mÃ£ xem: 154 mÃ£ tÄng, 148 mÃ£ giáº£m, cÃ¢n báº±ng cháº±n cháº·n. Váº­y chá» sá» Äang dá»a chÃºng ta, hay thá» trÆ°á»ng thá»±c sá»± Äang á»n bÃªn dÆ°á»i bá» máº·t bá» mÃ©o mÃ³? CÃ¢u tráº£ lá»i náº±m á» dÃ²ng tiá»n 10.600 tá»· hÃ´m nay.",
-      "chen_hinh": "Báº£ng Äiá»n HOSE káº¿t phiÃªn 12/10, hiá»n thá» VN-Index giáº£m 14,11 Äiá»m vÃ  Äá» rá»ng 154 tÄng / 148 giáº£m."
-     },
-     {
-      "ten": "Tháº¿ giá»i",
-      "phut": 2.0,
-      "loi_thoai": "TrÆ°á»c khi vÃ o chi tiáº¿t trong nÆ°á»c, em Äiá»m qua bá»©c tranh liÃªn thá» trÆ°á»ng vÃ¬ cÃ³ máº¥y kÃªnh truyá»n dáº«n Äang gÃ¢y sá»©c Ã©p tháº­t sá»±. Äáº§u tiÃªn lÃ  chá» sá» Äá»ng USD DXY lÃºc chiá»u nay cháº¡m 102,43 Äiá»m, tÄng 0,2% trong phiÃªn vÃ  cháº¡m Äá»nh 20 phiÃªn láº«n Äá»nh 3 thÃ¡ng. Khi DXY neo Äá»nh, kÃªnh truyá»n dáº«n tá»· giÃ¡ láº­p tá»©c nÃ³ng lÃªn. Tá»· giÃ¡ USD/VND niÃªm yáº¿t sÃ¡ng nay á» má»©c 25.879 Äá»ng, nhÆ°ng thá» trÆ°á»ng tá»± do theo báº£n tin sÃ¡ng ÄÃ£ nháº£y lÃªn 25.900 Äáº¿n 26.200 Äá»ng. Náº¿u tá»· giÃ¡ chÃ­nh thá»©c vÆ°á»£t Äá»nh cÅ© 26.020 Äá»ng, Ã¡p lá»±c hÃºt thanh khoáº£n lÃ  Äiá»u pháº£i tÃ­nh tá»i. ThÃªm ná»¯a, lá»£i suáº¥t trÃ¡i phiáº¿u chÃ­nh phá»§ Má»¹ 10 nÄm chá»t á» 5,244%, tÄng gáº§n 27 Äiá»m cÆ¡ báº£n trong 20 phiÃªn. Chi phÃ­ vá»n toÃ n cáº§u Äáº¯t lÃªn thÃ¬ dÃ²ng vá»n ngoáº¡i rÃºt9 USD má»t thÃ¹ng, tÄng gáº§n 6% trong 5 phiÃªn qua, neo chi phÃ­ váº­n táº£i vÃ  nÄng lÆ°á»£ng á» má»©c cao. Tuy nhiÃªn, giÃ¡ urÃª trong nÆ°á»c chÆ°a cÃ³ sá» liá»u Äá»i chiáº¿u nÃªn chÃºng ta khÃ´ng vá»i káº¿t luáº­n nhÃ³m phÃ¢n bÃ³n hÆ°á»ng lá»£i tá»« dáº§u tÄng nhÃ© anh chá».",
-      "chen_hinh": "Biá»u Äá» DXY cháº¡m Äá»nh 102,43 vÃ  biá»u Äá» US10Y neo 5,244% kÃ¨m báº£ng tá»· giÃ¡ USD/VND."
-     },
-     {
-      "ten": "Thá» trÆ°á»ng Viá»t Nam",
-      "phut": 3.0,
-      "loi_thoai": "Quay láº¡i sÃ n HOSE hÃ´m nay, VN-Index ÄÃ³ng cá»­a táº¡i 1.720,98 Äiá»m, giáº£m 14,11 Äiá»m, tÆ°Æ¡ng ÄÆ°Æ¡ng 0,81%. NhÆ°ng Äá» rá»ng thá» trÆ°á»ng láº¡i ká» má»t cÃ¢u chuyá»n ráº¥t khÃ¡c: cÃ³ 154 mÃ£ tÄng, 148 mÃ£ giáº£m, 4 mÃ£ tráº§n vÃ  6 mÃ£ sÃ n. Tá»©c lÃ  Äá» rá»ng hoÃ n toÃ n khÃ´ng Äá»ng thuáº­n vá»i biÃªn Äá» giáº£m sÃ¢u cá»§a chá» sá». Vá» thanh khoáº£n, tá»ng giÃ¡ trá» giao dá»ch Äáº¡t gáº§n 13.000 tá»· Äá»ng, nhÆ°ng thá»a thuáº­n ÄÃ£ chiáº¿m hÆ¡n 2.300 tá»·, tÆ°Æ¡ng ÄÆ°Æ¡ng 18%. Khá»p lá»nh thá»±c táº¿ trÃªn sÃ n chá» cÃ²n 10.645 tá»· Äá»ng. Con sá» nÃ y giáº£m ráº¥t máº¡nh so vá»i gáº§n 14.700 tá»· cá»§a phiÃªn trÆ°á»c, tháº¥p hÆ¡n trung bÃ¬nh 5 phiÃªn vÃ  chá» báº±ng 0,81 láº§n trung bÃ¬nh 20 phiÃªn. Thá» trÆ°á»ng rÆ¡i vÃ o tráº¡ng thÃ¡i thiáº¿u tiá»n rÃµ rá»t. DÃ²ng tiá»n ngoáº¡i tiáº¿p tá»¥c bÃ¡n rÃ²ng 584 tá»· Äá»ng trÃªn HOSE, lÅ©y káº¿ thÃ¡ng 10 rÃºt rÃ²ng hÆ¡n 17.900 tá»· vÃ  lÅ©y káº¿ tá»« Äáº§u nÄm rÃºt hÆ¡n 115.800 tá»·. Há» bÃ¡n táº­p trung vÃ o TCB gáº§n 115 tá»·, PNJ gáº§n 105 tá»·, FPT hÆ¡n 91 tá»· vÃ  VIX hÆ¡n 60 tá»·. Vá» phÃ­a tá»± doanh, phiÃªn 09/10 há» mua rÃ²ng 234 tá»· Äá»ng, cÃ²n sá» liá»u phiÃªn hÃ´m nay thÃ¬ chÆ°a cÃ³ dá»¯ liá»u.",
-      "chen_hinh": "Äá» thá» thanh khoáº£n HOSE so sÃ¡nh vá»i TB20 kÃ¨m báº£ng mua bÃ¡n rÃ²ng cá»§a khá»i ngoáº¡i."
-     },
-     {
-      "ten": "Index tháº­t sá»± giáº£m/tÄng bao nhiÃªu",
-      "phut": 1.5,
-      "loi_thoai": "Táº¡i sao chá» sá» giáº£m 14 Äiá»m mÃ  sá» mÃ£ tÄng láº¡i nhiá»u hÆ¡n sá» mÃ£ giáº£m? LÃ½ do náº±m trá»n á» nhÃ³m Vin. HÃ´m nay, VIC giáº£m 2,88% láº¥y Äi 10,37 Äiá»m cá»§a chá» sá». VHM giáº£m 3,18% láº¥y Äi 3,57 Äiá»m. ThÃªm VPL láº¥y Äi 0,7 Äiá»m vÃ  VRE láº¥y Äi gáº§n 0,2 Äiá»m. TÃ­nh chung, riÃªng 4 mÃ£ nhÃ³m Vin ÄÃ£ kÃ©o lÃ¹i VN-Index tá»i 14,83 Äiá»m. Pháº§n cÃ²n láº¡i cá»§a toÃ n bá» thá» trÆ°á»ng thá»±c cháº¥t ÄÃ³ng gÃ³p dÆ°Æ¡ng 0,72 Äiá»m. Tá»©c lÃ  náº¿u khÃ´ng cÃ³ cÃº ÄÃ¨ tá»« nhÃ³m Vin, thá» trÆ°á»ng hÃ´m nay lÃ  má»t phiÃªn Äi ngang tÄng nháº¹. Äiá»u nÃ y giáº£i thÃ­ch vÃ¬ sao tÃ¢m lÃ½ nhÃ  Äáº§u tÆ° cáº§m cá» phiáº¿u ngoÃ i rá» trá»¥ khÃ´ng há» hoáº£ng loáº¡n, dÃ¹ nhÃ¬n Äiá»m sá» tháº¥y rÆ¡i khÃ¡ ghÃª.",
-      "chen_hinh": "Báº£ng ÄÃ³ng gÃ³p Äiá»m sá» vÃ o VN-Index phiÃªn 12/10 lÃ m ná»i báº­t nhÃ³m Vin chiáº¿m -14,83 Äiá»m."
-     },
-     {
-      "ten": "Báº£n Äá» ká»¹ thuáº­t",
-      "phut": 2.0,
-      "loi_thoai": "Vá» máº·t ká»¹ thuáº­t, viá»c nhÃ³m Vin ÄÃ¨ chá» sá» ÄÃ£ Äá» láº¡i má»t há» quáº£ cáº¥u trÃºc: VN-Index chÃ­nh thá»©c ÄÃ³ng cá»­a dÆ°á»i chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 21/08 táº¡i 1.725,4 Äiá»m. ÄÃ¢y lÃ  má»c em ÄÃ£ nháº¯c nhiá»u láº§n. CÃ¢y náº¿n 21/08 tá»«ng kÃ­ch hoáº¡t nhá»p tÄng máº¡nh vá»i thanh khoáº£n gáº¥p 1,24 láº§n trung bÃ¬nh, viá»c gÃ£y chÃ¢n náº¿n nÃ y lÃ  thÃ´ng tin lá»n, xÃ¡c nháº­n nhá»p Äá»¡ phÃ­a trÃªn táº¡m thá»i tháº¥t báº¡i. Chá» sá» hiá»n ÄÃ£ náº±m dÆ°á»i MA10 liÃªn tiáº¿p 14 phiÃªn. Má»c ká»¹ thuáº­t quan trá»ng nháº¥t mÃ  thá» trÆ°á»ng Äang cÃ¹ng nhÃ¬n tháº¥y lÃºc nÃ y lÃ  vÃ¹ng 1.700 Äáº¿n 1.701,14 Äiá»m. Con sá» 1.701,14 chÃ­nh lÃ  chÃ¢n náº¿n phÃ¡t Äá»ng ngÃ y 30/07. Náº¿u giá»¯ ÄÆ°á»£c vÃ¹ng 1.700 nÃ y, thá» trÆ°á»ng váº«n duy trÃ¬ ÄÆ°á»£c tháº¿ cÃ¢n báº±ng Äi ngang. NhÆ°ng náº¿u ÄÃ³ng cá»­a thá»§ng 1.701 kÃ¨m thanh khoáº£n khá»p lá»nh dá»i lÃªn trÃªn trung bÃ¬nh 20 phiÃªn, tá»©c lÃ  trÃªn 13.200 tá»·, Äá» rá»ng thá» trÆ°á»ng sáº½ chuyá»n biáº¿n ráº¥t xáº¥u vÃ  kÃ­ch hoáº¡t Äá»£t thoÃ¡i lui sÃ¢u vá» vÃ¹ng há» trá»£ 1.651 Äiá»m. Äá» vÃ´ hiá»u hÃ³a nguy cÆ¡ nÃ y, chá» sá» cáº§n sá»m láº¥y láº¡i má»c 1.725,4 vÃ  vÆ°á»£t láº¡i MA10 quanh 1.749 Äiá»m.",
-      "chen_hinh": "Biá»u Äá» ká»¹ thuáº­t VN-Index chá» rÃµ chÃ¢n náº¿n 21/08 táº¡i 1.725,4 vÃ  chÃ¢n náº¿n 30/07 táº¡i 1.701,14."
-     },
-     {
-      "ten": "QuÃ©t ngÃ nh",
-      "phut": 7.0,
-      "loi_thoai": "Index thÃ¬ mÃ©o mÃ³ nhÆ° váº­y, nhÆ°ng cá» phiáº¿u bÃªn trong nÃ³i gÃ¬? Em cÃ¹ng anh chá» quÃ©t nhanh qua cÃ¡c nhÃ³m ngÃ nh. Äáº§u tiÃªn lÃ  NgÃ¢n hÃ ng. NhÃ³m nÃ y phÃ¢n hÃ³a cá»±c máº¡nh. á» nhÃ³m khá»e, VPB ÄÃ³ng 24,4, tÄng 2,52%, náº±m trÃªn toÃ n bá» cÃ¡c ÄÆ°á»ng MA lá»n; má»c theo dÃµi cá»§a VPB lÃ  22,0, thá»§ng má»c nÃ y má»i gÃ£y chÃ¢n náº¿n phÃ¡t Äá»ng 25/09, Äá»nh giÃ¡ P/B hiá»n 1,33. TCB ÄÃ³ng 32,6, giá»¯ trÃªn MA10 vÃ  MA20, má»c theo dÃµi lÃ  ÄÃ¡y gáº§n nháº¥t 31,4, thá»§ng 31,4 thÃ¬ cáº¥u trÃºc tÄng bá» báº» gÃ£y. NgÆ°á»£c láº¡i, nhÃ³m quá»c doanh ráº¥t Äuá»i: VCB ÄÃ³ng 56,7, náº±m dÆ°á»i MA10 suá»t 16 phiÃªn, má»c theo dÃµi lÃ  55,83; STB ÄÃ³ng 66,9, dÆ°á»i MA20 hÆ¡n 8%, má»c quan sÃ¡t lÃ  ÄÃ¡y 65,5. Tiáº¿p theo, Chá»©ng khoÃ¡n lÃ  thÆ°á»c Äo tÃ¢m lÃ½ nhÆ°ng hÃ´m nay thanh khoáº£n kiá»t quá», chá» báº±ng má»t ná»­a trung bÃ¬nh 20 phiÃªn. SSI ÄÃ³ng 19,05, náº±m dÆ°á»i MA10 tá»i 12 phiÃªn, má»c theo dÃµi lÃ  18,65, thá»§ng má»c nÃ y sáº½ lui vá» ÄÃ¡y cÅ© 17,35, P/B 1,5. VCI ÄÃ³ng 18,45, má»c theo dÃµi lÃ  ÄÃ¡y 18,05. VIX ÄÃ³ng 11,7, khá»i ngoáº¡i bÃ¡n rÃ²ng hÆ¡n 60 tá»·, má»c theo dÃµi lÃ  vÃ¹ng há» trá»£ 11,0. Cáº£ nhÃ³m chá»©ng khoÃ¡n chÆ°a há» cÃ³ tÃ­n hiá»u dÃ²ng tiá»n xÃ¡c nháº­n láº¥y láº¡i cÃ¡c ÄÆ°á»ng trung bÃ¬nh. Sang Báº¥t Äá»ng sáº£n, tÃ¢m Äiá»m kÃ©o giáº£m lÃ  VIC ÄÃ³ng 219,0, má» gap xuá»ng, má»c theo dÃµi lÃ  há» trá»£ 213,5. VHM ÄÃ³ng 63,9 ngay ÄÃ¡y 20 phiÃªn, má»c quan sÃ¡t lÃ  63,3, thá»§ng má»c nÃ y sáº½ tÃ¬m vá» 62,1. Tuy nhiÃªn cÃ¡c mÃ£ táº§m trung láº¡i phá»¥c há»i: NVL ÄÃ³ng 11,15, trÃªn MA10 hÆ¡n 6%, má»c theo dÃµi lÃ  10,53; KDH vÃ  DXG cÅ©ng há»i phá»¥c nháº¹ trÃªn 1,5%. NgÃ´i sao sÃ¡ng nháº¥t hÃ´m nay lÃ  ThÃ©p. Tiá»n vÃ o cá»±c ká»³ dá»©t khoÃ¡t. HPG khá»p lá»nh gáº§n 639 tá»·, khá»i ngoáº¡i mua rÃ²ng hÆ¡n 128 tá»·, giÃ¡ ÄÃ³ng 20,7, vÆ°á»£t MA10 vÃ  MA20; má»c theo dÃµi cá»§a HPG lÃ  20,1. NKG tÄng tráº§n lÃªn 9,93 vá»i thanh khoáº£n gáº¥p 2,9 láº§n trung bÃ¬nh, táº¡o náº¿n phÃ¡t Äá»ng má»i, má»c theo dÃµi lÃ  chÃ¢n náº¿n 9,30. NhÃ³m Khu cÃ´ng nghiá»p phÃ¢n hÃ³a: IDC giá»¯ kÃªnh trÃªn ÄÃ³ng 35,3, má»c theo dÃµi lÃ  33,7; VGC giá»¯ trÃªn MA200 ÄÃ³ng 43,3. Äáº§u tÆ° cÃ´ng hÃºt tiá»n khÃ¡ tá»t: VCG ÄÃ³ng 14,05, khá»i lÆ°á»£ng gáº¥p ÄÃ´i trung bÃ¬nh, láº¥y láº¡i MA10 vÃ  MA20, má»c theo dÃµi 13,15; CTD ÄÃ³ng 62,9 giá»¯ vá»¯ng ná»n cao, má»c theo dÃµi 58,9. NhÃ³m Dáº§u khÃ­ Äiá»u chá»nh nháº¹ dÃ¹ giÃ¡ dáº§u tháº¿ giá»i neo cao: BSR má» gap giáº£m ÄÃ³ng 30,6, má»c theo dÃµi 28,25, má»©c nÃ y cÃ¡ch thá» giÃ¡ hÆ¡n 7% nÃªn rá»ng hÆ¡n chuáº©n thÃ´ng thÆ°á»ng má»t chÃºt; riÃªng PVT váº«n ráº¥t khá»e ÄÃ³ng 25,15 trÃªn MA200 táº­n 24,5%, má»c theo dÃµi lÃ  23,5. NhÃ³m BÃ¡n láº» cÃ³ sá»± tÆ°Æ¡ng pháº£n lá»n: PNJ bá» bÃ¡n giáº£i cháº¥p rÆ¡i sÃ n vá» 18,15, cÃ¡ch MA200 tá»i Ã¢m 69%, ngoáº¡i xáº£ 105 tá»·, má»c theo dÃµi ÄÃ¡y cÅ© 17,8; trong khi MWG váº«n giá»¯ ná»n trÃªn ÄÃ³ng 75,6, má»c theo dÃµi 72,43. Váº­n táº£i biá»n háº¡ nhiá»t ngáº¯n háº¡n: HAH thá»§ng MA10 ÄÃ³ng 48,9, má»c theo dÃµi 47,74. PhÃ¢n bÃ³n hÃ³a cháº¥t cÃ³ DCM ÄÃ³ng 33,75, giá»¯ chÃ¢n náº¿n 32,3, má»c theo dÃµi 32,1; BFC giá»¯ ÄÃ  tÄng ÄÃ³ng 61,8. NhÃ³m ngÃ³c ngÃ¡ch ÄÃ³n dÃ²ng tiá»n káº¿t quáº£ kinh doanh: TNG tÄng 2,73% ÄÃ³ng 18,8, khá»i lÆ°á»£ng gáº¥p 2,5 láº§n trung bÃ¬nh, vÆ°á»£t MA200, má»c theo dÃµi 17,2; Äiá»n cÃ³ NT2 ÄÃ³ng 23,3, thanh khoáº£n gáº¥p 2,4 láº§n, má»c theo dÃµi 22,32. Cuá»i cÃ¹ng lÃ  CÃ´ng nghá»: FPT ÄÃ³ng 57,1 ngay ÄÃ¡y 20 phiÃªn, khá»i ngoáº¡i bÃ¡n rÃ²ng hÆ¡n 91 tá»·, má»c theo dÃµi cá»±c ká»³ quan trá»ng lÃ  ÄÃ¡y 55,91.",
-      "chen_hinh": "LÆ°á»t Äá» thá» cÃ¡c mÃ£ HPG, NKG, VPB, TCB, VIC, VHM, PNJ, TNG, NT2, FPT."
-     },
-     {
-      "ten": "MÃ£ ÄÃ¡ng nÃ³i",
-      "phut": 2.5,
-      "loi_thoai": "Trong bá»©c tranh phÃ¢n hÃ³a hÃ´m nay, cÃ³ ba mÃ£ anh chá» cáº§n Äáº·c biá»t lÆ°u tÃ¢m. Thá»© nháº¥t lÃ  HPG. Cá» phiáº¿u nÃ y Äáº¡i diá»n cho sá»± dá»ch chuyá»n cá»§a dÃ²ng tiá»n khi thá» trÆ°á»ng thiáº¿u thanh khoáº£n. Khá»p lá»nh Äáº¡t 1,75 láº§n trung bÃ¬nh 20 phiÃªn, ÄÃ³ng cá»­a 20,7, vÆ°á»£t cáº£ MA10 láº«n MA20. Khá»i ngoáº¡i mua rÃ²ng 128 tá»· Äá»ng. HPG ÄÃ³ng gÃ³p hÆ¡n 1 Äiá»m tÄng cho chá» sá», chá»©ng minh tiá»n lá»n sáºµn sÃ ng vÃ o cÃ¡c mÃ£ cÆ¡ báº£n ÄÃ£ chiáº¿t kháº¥u sÃ¢u. Má»c em theo dÃµi lÃ  20,1; náº¿u giá»¯ ÄÆ°á»£c má»c nÃ y, nhá»p báº­t ngáº¯n háº¡n ÄÆ°á»£c báº£o lÆ°u. NgÆ°á»£c láº¡i, cá» phiáº¿u thá»© hai lÃ  FPT á» thÃ¡i cá»±c Äá»i láº­p. FPT ÄÃ³ng cá»­a 57,1, náº±m báº¹p dÆ°á»i MA10 suá»t 14 phiÃªn vÃ  cÃ¡ch MA200 Ã¢m hÆ¡n 19%. Khá»i ngoáº¡i liÃªn tá»¥c rÃºt rÃ²ng vá»i hÆ¡n 91 tá»· hÃ´m nay. Cáº£ 3 náº¿n phÃ¡t Äá»ng trÆ°á»c ÄÃ¢y Äá»u ÄÃ£ gÃ£y. Má»c quan trá»ng nháº¥t cá»§a FPT lÃ  55,91, tá»©c ÄÃ¡y ngÃ y 28/07. Thá»§ng má»c nÃ y, cáº¥u trÃºc trung háº¡n sáº½ má» rá»ng ÄÃ  giáº£m. VÃ  thá»© ba lÃ  VIC. VIC hÃ´m nay ÄÃ³ng cá»­a 219,0, má» gap giáº£m vÃ  láº¥y Äi hÆ¡n 10 Äiá»m cá»§a chá» sá». Má»c em theo dÃµi sÃ¡t lÃ  pháº§n cÃ²n láº¡i cá»§a thá» trÆ°á»ng.",
-      "chen_hinh": "So sÃ¡nh biá»u Äá» HPG báº­t tÄng thanh khoáº£n lá»n vá»i biá»u Äá» FPT dÃ² ÄÃ¡y vÃ  VIC má» gap giáº£m."
-     },
-     {
-      "ten": "Regime vÃ  phiÃªn tá»i",
       "phut": 1.0,
-      "loi_thoai": "Tá»ng káº¿t láº¡i, thá» trÆ°á»ng hiá»n táº¡i Äang á» tráº¡ng thÃ¡i Xoay vÃ²ng phÃ¢n hÃ³a, tá»©c Rotation trong bá»i cáº£nh thiáº¿u tiá»n rÃµ rá»t. Khi thanh khoáº£n khá»p lá»nh chá» hÆ¡n 10.600 tá»·, dÃ²ng tiá»n khÃ´ng thá» kÃ©o Äá»ng thuáº­n mÃ  pháº£i rÃºt tá»« trá»¥ lá»n nhÆ° Vin, FPT, PNJ Äá» xoay cá»¥c bá» sang ThÃ©p, Äáº§u tÆ° cÃ´ng hay Dá»t may. ÄÃ¨n NSI hÃ´m nay há» thá»ng bÃ¡o khÃ´ng Äá»c ÄÆ°á»£c sá» liá»u. Má»c chÃ­nh em nháº¯c láº¡i cho phiÃªn tá»i váº«n lÃ  1.725,4 vÃ  vÃ¹ng Äá»m 1.700 Äáº¿n 1.701,14 Äiá»m. Äiá»u cá»§ng cá» cho thá» trÆ°á»ng lÃ  nhÃ³m Vin ngá»«ng rÆ¡i vÃ  thÃ©p tiáº¿p tá»¥c giá»¯ thanh khoáº£n. Äiá»u lÃ m yáº¿u lÃ  khá»i ngoáº¡i tiáº¿p tá»¥c xáº£ máº¡nh trá»¥ vÃ  thanh khoáº£n tá»¥t dÆ°á»i 10.000 tá»·. TÃ­n hiá»u xÃ¡c nháº­n rá»§i ro xáº¥u lÃ  ÄÃ³ng cá»­a thá»§ng 1.701 kÃ¨m khá»i lÆ°á»£ng trÃªn 13.200 tá»·. NgÆ°á»£c láº¡i, thá» trÆ°á»ng sáº½ vÃ´ hiá»u hÃ³a nhá»p chá»nh náº¿u láº¥y láº¡i 1.725,4 kÃ¨m thanh khoáº£n trÃªn 12.000 tá»·.",
-      "chen_hinh": "Báº£ng tÃ³m táº¯t ká»ch báº£n phiÃªn tá»i: Má»c 1.701,14 vÃ  1.725,4 cÃ¹ng cÃ¡c Äiá»u kiá»n xÃ¡c nháº­n/vÃ´ hiá»u."
+      "loi_thoai": "Chào anh chị. Hôm nay nhìn bảng điện thấy VN-Index giảm 14 điểm, lùi về 1.721. Nhưng nhìn kỹ từng mã, HOSE có 154 mã tăng và 148 mã giảm. Số mã xanh thậm chí còn nhiều hơn số mã đỏ. Câu hỏi lớn nhất hôm nay là: Thị trường đang chịu áp lực bán trên diện rộng, hay chỉ là hiện tượng méo mó chỉ số do nhóm Vin, trong khi các dòng cổ phiếu khác đang phân hóa tạo đáy đi lên? Mốc cấu trúc 1.701 điểm của VN-Index sẽ trả lời điều đó.",
+      "chen_hinh": "Bảng tổng hợp VN-Index đối chiếu độ rộng thị trường (154 tăng / 148 giảm) và mốc 1.701."
      },
      {
-      "ten": "ChÃ o",
+      "ten": "Thế giới",
+      "phut": 2.2,
+      "loi_thoai": "Trước khi đi vào dòng tiền trong nước, em điểm qua các biến số liên thị trường vì đây là kênh truyền dẫn tới dòng vốn ngoại. Đầu tiên là DXY. Lúc 18h18 chiều nay, DXY ở mức 102,429 điểm. Đây là mức cao nhất trong 20 phiên và cũng chạm đỉnh 3 tháng. Khi DXY neo ở vùng đỉnh, áp lực lên tỷ giá có cơ sở gia tăng. Số liệu tỷ giá ngân hàng chụp lúc 9h54 sáng nay là 25.879 đồng, nhưng theo phản ánh thị trường tự do, giá USD đã vượt 26.000 đồng. Kênh truyền dẫn ở đây rất rõ: chênh lệch lãi suất khiến dòng vốn ngoại tiếp tục chịu áp lực rút ròng. Về lợi suất trái phiếu chính phủ Mỹ 10 năm, US10Y phiên đêm qua ghi nhận ở 5,244%, tiệm cận trần 20 phiên là 5,311%. Lợi suất cao làm chi phí vốn toàn cầu đắt đỏ hơn. Với hàng hóa, dầu Brent chiều nay ở mức 105,94 USD một thùng, tăng hơn 1% trong ngày và tăng 5,6% qua 5 phiên. Dầu neo cao là áp lực cần theo dõi với lạm phát. Tuy nhiên, đêm qua Dow Jones vẫn tăng hơn 51.600 điểm, S&P 500 tăng lên 7.811 điểm. Bức tranh thế giới phản ánh điều kiện tài chính thắt chặt, khiến khối ngoại chưa thể dừng bán ròng tại Việt Nam.",
+      "chen_hinh": "Biểu đồ DXY chạm đỉnh 3 tháng, US10Y neo 5,244% và giá dầu Brent 105,94 USD."
+     },
+     {
+      "ten": "Thị trường Việt Nam",
+      "phut": 3.0,
+      "loi_thoai": "Quay trở lại thị trường trong nước phiên ngày 12 tháng 10 năm 2026. VN-Index đóng cửa tại 1.720,98 điểm, giảm 14,11 điểm, tức giảm 0,81%. Điểm số giảm, nhưng độ rộng sàn HOSE ghi nhận 154 mã tăng, 148 mã giảm, 60 mã đứng giá, 4 mã trần và 6 mã sàn. Độ rộng chia đôi bàn cờ và hơi nghiêng về phe tăng, cho thấy không có hiện tượng bán tháo hoảng loạn lan rộng toàn sàn. Vấn đề nằm ở thanh khoản. Tổng giá trị giao dịch HOSE đạt 12.977 tỷ đồng. Trong đó thỏa thuận chiếm 2.332 tỷ, tương đương 18%. Khớp lệnh thực tế trên bảng điện chỉ đạt 10.645 tỷ đồng. Con số này giảm mạnh so với mức gần 14.700 tỷ của phiên trước, và thấp hơn trung bình 20 phiên cỡ một phần năm, cụ thể là bằng 81% mức bình quân 13.198 tỷ. Khi khớp lệnh thấp hơn trung bình 20 phiên, thị trường ở trạng thái thiếu tiền. Thiếu tiền thì dòng tiền không thể kéo đồng loạt mọi nhóm ngành mà buộc phải co cụm phân hóa. Về dòng tiền lớn, khối ngoại bán ròng 584 tỷ đồng trên HOSE. Lũy kế tháng 10 họ đã rút hơn 17.900 tỷ, và lũy kế cả năm là hơn 115.800 tỷ. Họ bán ròng mạnh nhất ở TCB gần 115 tỷ, PNJ gần 105 tỷ, FPT hơn 91 tỷ, VIX hơn 60 tỷ. Ở chiều ngược lại, khối ngoại mua ròng dứt khoát HPG hơn 128 tỷ đồng. Về tự doanh, hôm nay chưa có số liệu, nhưng phiên liền trước ngày 09 tháng 10 họ mua ròng 234 tỷ. Dòng vốn ngoại nhìn chung vẫn duy trì rút ròng tập trung ở nhóm vốn hóa lớn.",
+      "chen_hinh": "Biểu đồ thanh khoản HOSE so khớp lệnh thực tế vs TB20, đồ thị mua bán ròng khối ngoại."
+     },
+     {
+      "ten": "Index thật sự giảm/tăng bao nhiêu",
+      "phut": 2.0,
+      "loi_thoai": "Bây giờ chúng ta nhìn vào độ méo mó của chỉ số, tức là Index distortion. Hôm nay riêng VIC giảm 2,88% đã lấy đi của VN-Index 10,37 điểm. VHM giảm 3,18% lấy đi tiếp 3,57 điểm. Thêm VPL lấy đi 0,7 điểm và VRE lấy đi 0,19 điểm. Tổng cộng 4 mã nhóm Vin làm chỉ số mất đúng 14,83 điểm. Trong khi toàn sàn hôm nay chỉ giảm 14,11 điểm. Làm phép tính trừ: loại bỏ tác động nhóm Vin, phần còn lại của thị trường thực chất tăng 0,72 điểm. Rõ ràng phần còn lại không giảm. Ngân hàng có VPB tăng hơn 2,5% kéo lại 1,24 điểm, HPG tăng gần 3% kéo lại hơn 1 điểm, rồi SHB, TCB, ACB, VNM đều xanh. Nếu chỉ nhìn 14 điểm giảm mà vội kết luận toàn bộ thị trường gãy đổ là chưa phản ánh đúng bản chất. Nhóm Vin đang chịu áp lực điều chỉnh riêng, kéo lùi điểm số chung.",
+      "chen_hinh": "Bảng thống kê Top đóng góp điểm số, nhóm Vin làm mất 14,83 điểm và phần còn lại tăng 0,72 điểm."
+     },
+     {
+      "ten": "Bản đồ kỹ thuật",
+      "phut": 2.5,
+      "loi_thoai": "Về mặt kỹ thuật, chúng ta cần theo dõi các mốc cấu trúc kỷ luật. Phiên hôm nay VN-Index đóng cửa tại 1.720,98, đồng nghĩa với việc đã để mất chân cây nến phát động ngày 21 tháng 8 tại 1.725,4 điểm. Gãy chân nến phát động là thông tin cảnh báo nhịp tăng trước đó bị vô hiệu. Vậy mốc cấu trúc tiếp theo ở đâu? Mốc em theo dõi sát nhất lúc này là vùng 1.700 đến 1.701, chính là chân cây nến phát động ngày 30 tháng 7 tại 1.701,14 điểm. Thị trường nhận ra mốc này vì đây là phiên bùng nổ tăng hơn 2,3% mở đầu cho cả con sóng vượt 1.800 điểm. Đây là vùng quan sát trọng yếu. Kịch bản có điều kiện rất rõ: Nếu VN-Index kiểm định mốc 1.701 mà giữ được và có lực cầu đỡ giá, thị trường sẽ tạo vùng cân bằng mới cho các nhóm ngành phân hóa đi lên. Ngược lại, nếu mốc 1.701 này bị thủng dứt khoát với khối lượng lớn, cấu trúc nâng đỡ ngắn hạn sẽ mất. Khi đó áp lực bán từ nhóm trụ sẽ lan rộng, độ rộng thu hẹp và chỉ số có thể lùi về hỗ trợ sâu hơn quanh đáy tháng 7 tại 1.650 đến 1.651 điểm. Anh chị nhớ con số 1.701 điểm này nhé.",
+      "chen_hinh": "Đồ thị kỹ thuật Daily VN-Index, đánh dấu nến 21/08 bị gãy và chân nến 30/07 tại 1.701,14."
+     },
+     {
+      "ten": "Quét ngành",
+      "phut": 6.0,
+      "loi_thoai": "Index thì như vậy, nhưng cổ phiếu bên dưới nói gì? Em cùng anh chị quét qua từng ngành. Nhóm Ngân hàng hôm nay phân hóa lớn nhưng đóng vai trò nâng đỡ. Khỏe nhất là VPB đóng 24,4, tăng hơn 2,5%, khối lượng bằng 1,4 lần bình quân 20 phiên, nằm trên các đường MA lớn với sức mạnh 20 phiên vượt Index gần 17 điểm. Mốc theo dõi của VPB là MA20 quanh 22,8. TCB đóng 32,6, tăng gần 0,8% dù bị ngoại xả 115 tỷ, vẫn giữ trên MA10 và MA20, mốc theo dõi là hỗ trợ 32,25; thủng mốc này hỗ trợ kế tiếp ở 31,4. Ngược lại, SHB bật nẩy kỹ thuật 4% lên 10,4 nhưng vẫn dưới MA200 cỡ 24%, mốc đáy cần giữ là 9,55. VCB đi ngang ở 56,7, khối lượng chỉ bằng nửa bình quân, 16 phiên dưới MA10, mốc theo dõi là 55,8. Sang Chứng khoán, nhóm này rất thiếu tiền. SSI nhích nhẹ lên 19,05, khối lượng bằng một nửa trung bình, 12 phiên dưới MA10, mốc theo dõi là đáy ngắn hạn 18,65; thủng mốc này hỗ trợ kế tiếp quanh 17,3. VIX đóng 11,7, nằm dưới MA10 suốt 26 phiên, mốc hỗ trợ là 11,0. HCM giữ được trên MA200 quanh 22,76, đóng phiên 23,2. Nhìn chung nhóm chứng khoán chưa lấy lại MA20 và chưa nổ khối lượng. Bất động sản chịu sức ép từ VIC rơi về 219,0, mở gap giảm đầu phiên, mốc hỗ trợ là 213,5; thủng mốc này vùng kế tiếp là 206,5. VHM đóng 63,9 ngay sát MA200, mốc theo dõi là 63,3. Tuy nhiên nhóm bất động sản tầm trung le lói sắc xanh: NVL tăng 1,8% lên 11,15, giữ được chân nến ngày 09 tháng 10 tại 10,05; KDH, DXG, DIG tăng nhẹ từ 0,6% đến hơn 2%. Ngôi sao hôm nay là nhóm Thép: HPG tăng gần 3% lên 20,7, khối lượng gấp 1,75 lần bình quân, ngoại mua ròng hơn 128 tỷ, lấy lại MA10 và MA20, mốc theo dõi là hỗ trợ 20,1. NKG tăng trần 6,89% lên 9,93, nổ khối lượng gần gấp 3 lần bình quân, tạo nến phát động chân 9,3. HSG tăng 3,5% lên 10,25. Khu công nghiệp có IDC đóng 35,3, giữ kênh trên MA200 và giữ chân nến 33,7; VGC đóng 43,3 trên MA200. Đầu tư công phục hồi: VCG tăng gần 3% lên 14,05, khối lượng gấp đôi bình quân, mốc theo dõi là đáy 13,15; CTD đóng 62,9 giữ gap quanh 59,0. Nhóm Dầu khí hạ nhiệt: BSR giảm 1,4% về 30,6 nhưng giữ trên MA50, mốc quan trọng là chân nến 28,25; PVT đóng 25,15, kênh trên MA200 vững chắc, mốc theo dõi là 23,5. Bán lẻ có PNJ nằm sàn ở 18,15, trong khi MWG giữ ở 75,6 trên MA10 với mốc hỗ trợ 74,7. Nhóm ngóc ngách có TNG tăng 2,7% lên 18,8 với khối lượng gấp 2,5 lần; NT2 tăng gần 2% lên 23,3. Cuối cùng, FPT giảm 1,38% về 57,1 do ngoại xả ròng hơn 91 tỷ, đang kiểm định đáy tháng 7 quanh 55,9; thủng 55,9 thì cấu trúc dài hạn bị gãy.",
+      "chen_hinh": "Lướt biểu đồ VPB, SSI, VIC, HPG, NKG, VCG, PNJ, FPT."
+     },
+     {
+      "ten": "Mã đáng nói",
+      "phut": 2.5,
+      "loi_thoai": "Hôm nay có 3 mã nổi bật cần phân tích kỹ. Thứ nhất là PNJ. Cổ phiếu giảm sàn 6,92% xuống 18,15, trắng bên mua, khối lượng gấp 1,6 lần bình quân và khối ngoại bán ròng gần 105 tỷ. PNJ hiện nằm dưới MA200 hơn 69%. Áp lực bán xuất hiện sau tin lãnh đạo và người nhà bị công ty chứng khoán bán giải chấp. Định giá P/B là 0,74 và P/E là 4,1 lần, nhìn qua thì thấp, nhưng khi áp lực giải chấp diễn ra thì cung cầu kỹ thuật sẽ lấn át định giá. Mốc em theo dõi cho PNJ là đáy 17,8. Anh chị nào đang nắm giữ nên có điểm dừng riêng của mình quanh mốc này. Thứ hai là HPG. HPG tăng gần 3% lên 20,7, thanh khoản gần 640 tỷ và ngoại mua ròng hơn 128 tỷ, lấy lại MA10 và MA20. Mốc theo dõi quan trọng là 20,1. Nếu giữ được 20,1 thì nhịp phục hồi của thép có thể hướng về cản 21,6. Thứ ba là VIC. Cổ phiếu giảm gần 2,9% về 219,0, lấy đi hơn 10 điểm của chỉ số và mở gap giảm quanh 225,4 đến 225,5. Mốc hỗ trợ cấu trúc của VIC là 213,5. Chừng nào VIC chưa cân bằng quanh 213,5 thì chỉ số chung vẫn còn chịu áp lực đè nặng.",
+      "chen_hinh": "Đồ thị chi tiết PNJ (sàn, dư bán), HPG (vượt MA20, ngoại mua), VIC (gap rơi)."
+     },
+     {
+      "ten": "Regime và phiên tới",
+      "phut": 1.5,
+      "loi_thoai": "Tổng kết lại, thị trường đang ở trạng thái xoay vòng phân hóa trong bối cảnh thanh khoản thiếu tiền. Đèn NSI hôm nay báo không đọc được, trùng khớp với việc chỉ số bị méo mó bởi nhóm Vin trong khi bên trong phân hóa mạnh. Khi thị trường thiếu tiền, ưu tiên hàng đầu là quản trị rủi ro ở từng mã riêng lẻ. Phiên tới, điều củng cố cho thị trường là nhóm thép và đầu tư công duy trì nhịp tăng, khối ngoại giảm cường độ bán ròng. Ngược lại, điều làm yếu thị trường là nếu nhóm Vin tiếp tục giảm khiến VN-Index đánh mất mốc quan sát 1.701 điểm. Mốc 1.701 là ranh giới cần lưu ý. Nếu giữ được 1.701, sự phân hóa vẫn tiếp diễn. Còn nếu thủng 1.701 kèm khối lượng gia tăng, áp lực rủi ro của thị trường chung sẽ tăng lên và anh chị nên chủ động rà soát lại các mốc bảo toàn vốn của mình.",
+      "chen_hinh": "Bảng tổng kết Regime: Rotation / Thiếu tiền, mốc theo dõi 1.701 điểm."
+     },
+     {
+      "ten": "Chào",
       "phut": 0.5,
-      "loi_thoai": "Thá» trÆ°á»ng thiáº¿u tiá»n thÃ¬ ká»· luáº­t quáº£n trá» rá»§i ro luÃ´n pháº£i Äáº·t lÃªn hÃ ng Äáº§u. Anh chá» Äang náº¯m giá»¯ mÃ£ nÃ o hÃ£y rÃ  soÃ¡t ká»¹ má»c cháº·n cá»§a riÃªng mÃ¬nh. ChÃºc anh chá» cÃ³ phiÃªn giao dá»ch ngÃ y mai tháº­t bÃ¬nh tÄ©nh vÃ  hiá»u quáº£. Háº¹n gáº·p láº¡i anh chá» vÃ o báº£n tin ngÃ y mai.",
-      "chen_hinh": "MÃ n hÃ¬nh káº¿t thÃºc video, thÃ´ng tin liÃªn há» vÃ  Äá» thá» VN-Index."
+      "loi_thoai": "Cảm ơn anh chị đã theo dõi buổi rà soát hôm nay. Chúc anh chị có những quyết định kỷ luật trong phiên giao dịch ngày mai. Hẹn gặp lại anh chị vào chiều mai nhé.",
+      "chen_hinh": "Logo kênh Sơn NSI, thông tin liên hệ."
      }
     ],
     "tiktok": [
      {
-      "tieu_de": "Chá» sá» giáº£m 14 Äiá»m nhÆ°ng báº£ng Äiá»n cÃ³ sáº­p khÃ´ng?",
-      "goc": "Giáº£i thÃ­ch hiá»n tÆ°á»£ng mÃ©o mÃ³ chá» sá» do nhÃ³m cá» phiáº¿u trá»¥ chi phá»i.",
+      "tieu_de": "Chỉ số giảm 14 điểm nhưng cổ phiếu không giảm: Chuyện gì đang xảy ra?",
+      "goc": "Hiện tượng méo mó chỉ số do nhóm cổ phiếu trụ vốn hóa lớn gây ra.",
       "giay": 55,
-      "loi_thoai": "HÃ´m nay nhÃ¬n báº£ng Äiá»n tháº¥y VN-Index giáº£m hÆ¡n 14 Äiá»m, cÃ³ pháº£i ai cÅ©ng Äang hoáº£ng loáº¡n bÃ¡n thÃ¡o? Sá»± tháº­t lÃ  khÃ´ng há». ToÃ n sÃ n HOSE cÃ³ 154 mÃ£ tÄng vÃ  148 mÃ£ giáº£m, sá» mÃ£ xanh tháº­m chÃ­ cÃ²n nhiá»u hÆ¡n sá» mÃ£ Äá». Váº­y 14 Äiá»m giáº£m kia tá»« ÄÃ¢u ra? CÃ¢u tráº£ lá»i lÃ  riÃªng 4 mÃ£ nhÃ³m Vin gá»m VIC, VHM, VPL vÃ  VRE ÄÃ£ kÃ©o lÃ¹i chá» sá» tá»i 14,8 Äiá»m. Náº¿u bá» nhÃ³m nÃ y ra, pháº§n cÃ²n láº¡i cá»§a thá» trÆ°á»ng thá»±c cháº¥t tÄng nháº¹ 0,72 Äiá»m. Khi thanh khoáº£n thá» trÆ°á»ng chá» Äáº¡t hÆ¡n 10.600 tá»·, Äiá»m nÃ o nhÃ³m trá»¥ lá»n nÃ y ngá»«ng rÆ¡i Äá» tráº£ láº¡i Äiá»m sá» tháº­t cho thá» trÆ°á»ng.",
+      "loi_thoai": "Mở bảng điện thấy VN-Index giảm hơn 14 điểm, có phải anh chị nghĩ thị trường đang bị bán tháo không? Nhưng nhìn kỹ lại xem: sàn HOSE hôm nay có 154 mã tăng, trong khi chỉ có 148 mã giảm. Số mã xanh còn nhiều hơn số mã đỏ đấy nhé! Vậy 14 điểm giảm từ đâu ra? Riêng 4 mã nhóm Vin đã lấy đi của thị trường đúng 14,83 điểm. Loại nhóm này ra, phần còn lại thực chất tăng nhẹ 0,72 điểm. Thép bứt phá với HPG tăng gần 3%, NKG trần cứng. Điểm số bị méo mó, mốc quan sát quan trọng của VN-Index lúc này là 1.701 điểm. Anh chị để ý xem nhóm Vin có dừng chân quanh hỗ trợ ở phiên tới không nhé!",
       "du_lieu_dung": [
-       "VN-Index giáº£m 14,11 Äiá»m",
-       "154 mÃ£ tÄng / 148 mÃ£ giáº£m",
-       "NhÃ³m Vin kÃ©o lÃ¹i 14,83 Äiá»m",
-       "Thanh khoáº£n khá»p lá»nh 10.645,1 tá»·"
+       "VN-Index giảm 14,11 điểm",
+       "154 mã tăng vs 148 mã giảm",
+       "Nhóm Vin làm mất 14,83 điểm",
+       "Phần còn lại tăng 0,72 điểm"
       ]
      },
      {
-      "tieu_de": "ÄÃ´ la Má»¹ tÄng Äá»nh 3 thÃ¡ng áº£nh hÆ°á»ng gÃ¬ Äáº¿n tÃºi tiá»n?",
-      "goc": "TÃ¡c Äá»ng cá»§a DXY vÃ  tá»· giÃ¡ USD/VND lÃªn dÃ²ng tiá»n thá» trÆ°á»ng.",
+      "tieu_de": "Vì sao cổ phiếu đầu ngành như PNJ lại giảm sàn?",
+      "goc": "Áp lực kỹ thuật từ việc bán giải chấp lãnh đạo doanh nghiệp.",
       "giay": 55,
-      "loi_thoai": "Chá» sá» Äá»ng USD DXY chiá»u nay cháº¡m má»c 102,43 Äiá»m, láº­p Äá»nh cao nháº¥t trong 3 thÃ¡ng qua. Con sá» nÃ y nghe xa xÃ´i nhÆ°ng láº¡i tÃ¡c Äá»ng trá»±c tiáº¿p Äáº¿n dÃ²ng tiá»n quanh ta. Khi Äá»ng ÄÃ´ la máº¡nh lÃªn, tá»· giÃ¡ USD/VND tá»± do sÃ¡ng nay ÄÃ£ leo lÃªn vÃ¹ng 25.900 Äáº¿n 26.200 Äá»ng. KÃªnh truyá»n dáº«n láº­p tá»©c xuáº¥t hiá»n: khá»i ngoáº¡i hÃ´m nay tiáº¿p tá»¥c bÃ¡n rÃ²ng 584 tá»· Äá»ng trÃªn sÃ n chá»©ng khoÃ¡n, nÃ¢ng tá»ng má»©c rÃºt vá»n tá»« Äáº§u nÄm lÃªn hÆ¡n 115.800 tá»· Äá»ng. Khi tiá»n ngoáº¡i rÃºt bá»t vÃ  tá»· giÃ¡ cÄng tháº³ng, chi phÃ­ vá»n trong ná»n kinh táº¿ sáº½ chá»u Ã¡p lá»±c tÄng theo. Äiá»u cáº§n Äá» Ã½ tiáº¿p theo lÃ  liá»u tá»· giÃ¡ ngÃ¢n hÃ ng cÃ³ vÆ°á»£t ngÆ°á»¡ng Äá»nh cÅ© 26.020 Äá»ng hay khÃ´ng.",
+      "loi_thoai": "Cổ phiếu bán lẻ đầu ngành như PNJ mà hôm nay giảm sàn gần 7% xuống 18,15 thì lý do là gì? Nguyên nhân đến từ thông tin lãnh đạo và người nhà bị các công ty chứng khoán bán giải chấp. Thêm vào đó, khối ngoại bán ròng gần 105 tỷ đồng. Khi một mã rơi vào áp lực giải chấp kỹ thuật, lượng cung đẩy ra rất mạnh, định giá dù P/B chỉ 0,74 hay P/E 4,1 lần cũng bị lấn át trong ngắn hạn. PNJ hiện đã nằm dưới đường MA200 hơn 69%. Mốc theo dõi sát nhất lúc này là đáy cũ 17,8. Anh chị nào đang nắm giữ nên có điểm dừng riêng quanh mốc này nhé!",
       "du_lieu_dung": [
-       "DXY cháº¡m 102,431 Äiá»m",
-       "Tá»· giÃ¡ tá»± do 25.900 - 26.200 Äá»ng",
-       "Khá»i ngoáº¡i bÃ¡n rÃ²ng 584,0 tá»· phiÃªn 12/10",
-       "LÅ©y káº¿ nÄm rÃºt rÃ²ng 115.834,2 tá»·"
+       "PNJ giảm sàn 6,92% về 18,15",
+       "Khối ngoại bán ròng 104,95 tỷ",
+       "Cách MA200 -69,16%",
+       "Mốc đáy theo dõi 17,8"
       ]
      },
      {
-      "tieu_de": "GiÃ¡ dáº§u vÆ°á»£t 106 USD, cá» phiáº¿u nÃ o thá»±c sá»± cÃ³ tiá»n vÃ o?",
-      "goc": "DÃ²ng tiá»n phÃ¢n hÃ³a giá»¯a nhÃ³m Dáº§u khÃ­ vÃ  ThÃ©p trong phiÃªn thiáº¿u thanh khoáº£n.",
-      "giay": 50,
-      "loi_thoai": "GiÃ¡ dáº§u Brent tháº¿ giá»i chiá»u nay vÆ°á»£t má»c 106 USD má»t thÃ¹ng, tÄng gáº§n 6% chá» sau 5 phiÃªn. Nhiá»u ngÆ°á»i nghÄ© cá» phiáº¿u dáº§u khÃ­ sáº½ dáº­y sÃ³ng, nhÆ°ng thá»±c táº¿ hÃ´m nay nhÃ³m nÃ y láº¡i chá»nh nháº¹, nhÆ° BSR giáº£m hÆ¡n 1,4% vÃ  má» gap xuá»ng. DÃ²ng tiá»n hÃ´m nay chá»n Äi ÄÃ¢u giá»¯a lÃºc thanh khoáº£n toÃ n sÃ n chá» cÃ³ 10.600 tá»·? Báº¥t ngá» lÃ  tiá»n láº¡i chá»n ThÃ©p. RiÃªng HPG ÄÃ£ hÃºt khá»p lá»nh gáº§n 639 tá»· Äá»ng, ÄÆ°á»£c khá»i ngoáº¡i mua rÃ²ng hÆ¡n 128 tá»· vÃ  tÄng gáº§n 3%. NKG tháº­m chÃ­ cÃ²n tÄng tráº§n vá»i khá»i lÆ°á»£ng gáº¥p gáº§n 3 láº§n trung bÃ¬nh. Thá» trÆ°á»ng thiáº¿u tiá»n thÃ¬ dÃ²ng tiá»n sáº½ chá»n nÆ¡i cÃ³ cÃ¢u chuyá»n riÃªng chá»© khÃ´ng mua theo cáº£m tÃ­nh. Äiá»u cáº§n Äá» Ã½ tiáº¿p theo lÃ  HPG cÃ³ giá»¯ vá»¯ng ÄÆ°á»£c má»c há» trá»£ 20,1 hay khÃ´ng.",
+      "tieu_de": "Giá USD tự do vượt 26.000 đồng ảnh hưởng thế nào đến chứng khoán?",
+      "goc": "Kênh truyền dẫn từ tỷ giá và DXY tới áp lực rút vốn của khối ngoại.",
+      "giay": 55,
+      "loi_thoai": "Anh chị có theo dõi tỷ giá USD thị trường tự do vượt 26.000 đồng không? Trên thế giới, chỉ số đồng đô la DXY chiều nay chạm đỉnh 3 tháng ở mức 102,429 điểm. Khi đồng USD mạnh lên, dòng vốn ngoại chịu áp lực rút về để hưởng lợi tức. Hôm nay khối ngoại tiếp tục bán ròng 584 tỷ trên HOSE, lũy kế cả năm đã rút hơn 115.800 tỷ đồng khỏi thị trường chứng khoán Việt Nam. Tiền ngoại rút ròng khiến thanh khoản trong nước co lại, khớp lệnh hôm nay chỉ đạt hơn 10.600 tỷ, thấp hơn trung bình 20 phiên. Anh chị theo dõi xem DXY có hạ nhiệt trong các phiên tới không nhé!",
       "du_lieu_dung": [
-       "Dáº§u Brent 106,09 USD/thÃ¹ng",
-       "HPG khá»p 638,6 tá»·",
-       "Khá»i ngoáº¡i mua rÃ²ng HPG 128,14 tá»·",
-       "NKG tÄng tráº§n +6,89% khá»i lÆ°á»£ng x2,93 láº§n"
+       "DXY đạt 102,429 điểm đỉnh 3 tháng",
+       "Khối ngoại bán ròng 584 tỷ phiên này",
+       "Lũy kế năm bán ròng 115.834,2 tỷ",
+       "Thanh khoản khớp lệnh HOSE 10.645,1 tỷ"
       ]
      }
     ],
-    "_model": "gemini-3.8-flash"
+    "_model": "gemini-3.7-flash"
    },
-   "model": "gemini-3.8-flash",
+   "model": "gemini-3.7-flash",
+   "nhan": "Bản 1"
+  },
+  {
+   "cach": "cach_2_buoc",
+   "loi": [
+    "bước phân tích: gemini-3.1-pro-preview: HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.8-flash: HTTP 429: {   \"error\": {     \"code\": 429,    "
+   ],
    "nhan": "Bản 2"
   }
  ],
  "viet_lai": [],
- "trang_thai_chay": "dat",
+ "trang_thai_chay": "mot_phan",
  "ai": {
   "models": [
    "gemini-3.1-pro-preview",
@@ -6192,18 +5805,22 @@
    "gemini-3.7-flash",
    "gemini-3.6-flash"
   ],
-  "so_luot": 3,
-  "token_vao": 332678,
-  "token_ra": 37087,
+  "so_luot": 2,
+  "token_vao": 127953,
+  "token_ra": 20181,
   "nhat_ky": [
-   "11:17:36 gemini-3.1-pro-preview 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
-   "11:20:53 gemini-3.8-flash 189s — JSON hỏng (finishReason=STOP, 16164 ký tự)",
-   "11:23:23 gemini-3.8-flash 150s — ok, ra 9319 token",
-   "11:24:45 gemini-3.8-flash 82s — JSON hỏng (finishReason=STOP, 21237 ký tự)",
-   "11:25:19 gemini-3.8-flash 34s — ok, ra 4890 token",
-   "11:26:48 gemini-3.8-flash 89s — ok, ra 11072 token"
+   "11:28:25 gemini-3.1-pro-preview 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+   "11:28:32 gemini-3.8-flash 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+   "11:28:42 gemini-3.7-flash 2s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "11:29:20 gemini-3.7-flash 30s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "11:29:38 gemini-3.7-flash 1s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "11:30:03 gemini-3.6-flash 2s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "11:30:19 gemini-3.6-flash 8s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "11:30:38 gemini-3.6-flash 2s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "11:32:33 gemini-3.7-flash 91s — ok, ra 15507 token",
+   "11:33:02 gemini-3.7-flash 29s — ok, ra 4674 token"
   ]
  },
- "xong_luc": "2026-10-12T18:26+07:00",
- "chay_giay": 571
+ "xong_luc": "2026-10-12T18:33+07:00",
+ "chay_giay": 302
 }

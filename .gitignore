@@ -8,3 +8,5 @@ zalo-listener/qr.png
 zalo-listener/du-lieu/
 zalo-listener/*.log
 .cache/
+slides/node_modules/
+slides/package-lock.json

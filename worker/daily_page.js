@@ -13,6 +13,10 @@
      GET  /daily/data?ngay=…     JSON bản ngày đó (trống = latest)
      GET  /daily/index           danh sách ngày
      POST /daily/viet-lai        {view, ngay} → gọi workflow daily_market.yml che_do=viet_lai
+     GET  /daily/ppt?ngay=…      tải PPT video (R2 binding SLIDES, khóa daily/<ngày>.pptx; trống = mới nhất)
+     GET  /daily/ppt-info?ngay=… {co, nguon: gemini|claude, luc} để hiện nhãn nút
+
+   Biến mới cho nút Tải PPT (13/10/2026): R2 binding SLIDES → bucket nsi-slides (xem slides/README.md).
    ========================================================================== */
 
 export async function handleDaily(req, env) {
@@ -28,6 +32,7 @@ export async function handleDaily(req, env) {
   }
   if (p === '/daily/index' && req.method === 'GET') return docRepo(env, 'out/daily/index.json')
   if (p === '/daily/viet-lai' && req.method === 'POST') return vietLai(req, env, url)
+  if ((p === '/daily/ppt' || p === '/daily/ppt-info') && req.method === 'GET') return taiPpt(env, url, p.endsWith('info'))
   return jErr(404, 'không có đường này')
 }
 
@@ -73,6 +78,30 @@ async function vietLai(req, env, url) {
   return new Response(JSON.stringify({ ok: true }), { headers: { 'content-type': 'application/json; charset=utf-8' } })
 }
 
+async function taiPpt(env, url, chiInfo) {
+  if (!env.SLIDES) return jErr(500, 'Worker chưa gắn R2 binding SLIDES')
+  let ngay = (url.searchParams.get('ngay') || '').trim()
+  if (ngay && !/^\d{4}-\d{2}-\d{2}$/.test(ngay)) return jErr(400, 'ngày sai dạng')
+  if (!ngay) {
+    const l = await env.SLIDES.get('daily/latest.json')
+    if (!l) return jErr(404, 'chưa có PPT nào')
+    ngay = (await l.json()).ngay
+  }
+  const key = `daily/${ngay}.pptx`
+  if (chiInfo) {
+    const h = await env.SLIDES.head(key)
+    const m = (h && h.customMetadata) || {}
+    return new Response(JSON.stringify({ co: !!h, ngay, nguon: m.nguon || '', luc: m.luc || '' }),
+      { headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } })
+  }
+  const o = await env.SLIDES.get(key)
+  if (!o) return jErr(404, `chưa có PPT phiên ${ngay}`)
+  const nguon = (o.customMetadata || {}).nguon === 'claude' ? 'chinh-thuc' : 'nhap'
+  return new Response(o.body, { headers: {
+    'content-type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
+    'content-disposition': `attachment; filename="NSF_RaSoat_${ngay}_${nguon}.pptx"`, 'cache-control': 'no-store' } })
+}
+
 function jErr(code, msg) {
   return new Response(JSON.stringify({ loi: msg }), { status: code, headers: { 'content-type': 'application/json; charset=utf-8' } })
 }
@@ -99,7 +128,7 @@ details summary{cursor:pointer;font-weight:600}.warn{color:var(--warn)}.dn{color
 select{font:inherit;padding:5px 8px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--ink)}
 </style></head><body><div class="wrap">
 <div class="top"><div><h1>NSI Daily Market</h1><div class="mut">Bản nháp phân tích + lời thoại sau phiên · chỉ trang quản trị · <a href="/tin">Bản tin sáng</a> · <a href="/index.html#hieusuat">Xem web</a></div></div>
-<span class="sp"></span><select id="ngay"></select></div>
+<span class="sp"></span><a class="btn" id="ppt" href="/daily/ppt">Tải PPT</a><span id="pptInfo" class="mut"></span><select id="ngay"></select></div>
 <div id="app" class="card">Đang tải…</div>
 <div class="card"><h2 style="margin-top:0">Viết lại theo view của anh</h2>
 <p class="mut">Gõ nhận định sơ bộ (ví dụ "bank yếu, chứng chưa tạo đáy, Vin kéo index"). Bot làm THESIS CHECK từng ý rồi viết lại toàn bộ lời thoại. Mất khoảng 3–6 phút; trang tự cập nhật.</p>
@@ -115,7 +144,8 @@ const linkMa=s=>s.replace(/(^|[^\\/\\w])([A-Z]{3})(?![\\w\\/])/g,(all,a,m)=>(D&&
 function maSet(){const s=new Set();Object.values((D.fc||{}).ma_theo_nhom||{}).forEach(a=>a.forEach(r=>s.add(r.ma)));return s}
 async function j(u,o){const r=await fetch(u,o);const t=await r.json().catch(()=>({loi:'trả về không phải JSON'}));if(!r.ok)throw new Error(t.loi||r.status);return t}
 async function napNgay(){try{const ix=await j('/daily/index');$('#ngay').innerHTML=ix.map(x=>'<option value="'+x.ngay+'">'+x.ngay+' · '+(TT[x.trang_thai_chay]||x.trang_thai_chay)+(x.so_lan_viet_lai?' · '+x.so_lan_viet_lai+' lần viết lại':'')+'</option>').join('')}catch(e){}}
-async function nap(ngay){try{D=await j('/daily/data'+(ngay?'?ngay='+ngay:''));ve()}catch(e){$('#app').innerHTML='<b>Chưa đọc được bản nào.</b> '+esc(e.message)}}
+async function pptInfo(ngay){const q=ngay?'?ngay='+ngay:'';$('#ppt').href='/daily/ppt'+q;try{const x=await j('/daily/ppt-info'+q);$('#pptInfo').textContent=x.co?(x.nguon==='claude'?'bản Claude đã kiểm':'bản nháp Gemini')+' · '+String(x.luc).slice(11,16):'chưa có PPT'}catch(e){$('#pptInfo').textContent=''}}
+async function nap(ngay){pptInfo(ngay);try{D=await j('/daily/data'+(ngay?'?ngay='+ngay:''));ve()}catch(e){$('#app').innerHTML='<b>Chưa đọc được bản nào.</b> '+esc(e.message)}}
 function sig(fc){if(!fc||!fc.vnindex)return'';const v=fc.vnindex,b=fc.breadth_hose||{},t=fc.thanh_khoan_hose_ty||{},n=(fc.khoi_ngoai_ty||{}).phien||{},g=fc.dong_gop_diem||{};
 return '<div class="grid"><div><b>Index</b><br>'+so(v.dong_cua,2)+' <span class="'+(v.diem<0?'dn':'up')+'">'+(v.diem>0?'+':'')+so(v.diem,2)+' ('+so(v.pct,2)+'%)</span><br><span class="mut">nhóm Vin '+so(g.nhom_vin,1)+' điểm · phần còn lại '+so(g.phan_con_lai,1)+'</span></div>'
 +'<div><b>Cổ phiếu (HOSE)</b><br>'+so(b.tang,0)+' tăng / '+so(b.giam,0)+' giảm / '+so(b.dung,0)+' đứng<br><span class="mut">trần '+so(b.tran,0)+' · sàn '+so(b.san,0)+'</span></div>'

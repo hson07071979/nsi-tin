@@ -1,41 +1,41 @@
 {
- "cap_nhat": "2026-10-12T12:51+07:00",
+ "cap_nhat": "2026-10-13T07:11+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 53,
-   "ty_le_dung": 60.4
+   "n": 74,
+   "ty_le_dung": 64.9
   },
   "phe_than_trong": {
-   "n": 45,
-   "ty_le_dung": 55.6
+   "n": 67,
+   "ty_le_dung": 52.2
   },
   "phe_vi_mo": {
-   "n": 39,
-   "ty_le_dung": 61.5
+   "n": 62,
+   "ty_le_dung": 66.1
   },
   "tab_web": {
-   "n": 61,
-   "ty_le_dung": 68.9
+   "n": 91,
+   "ty_le_dung": 65.9
   },
   "tab_zalo": {
-   "n": 8,
-   "ty_le_dung": 37.5
+   "n": 16,
+   "ty_le_dung": 62.5
   },
   "trong_tai": {
-   "n": 69,
-   "ty_le_dung": 65.2
+   "n": 107,
+   "ty_le_dung": 65.4
   },
   "xac_minh_da_xac_minh": {
-   "n": 62,
-   "ty_le_dung": 69.4
+   "n": 97,
+   "ty_le_dung": 67.0
   },
   "xac_minh_mot_nguon": {
    "n": 3,
    "ty_le_dung": 33.3
   },
   "xac_minh_tin_don": {
-   "n": 4,
-   "ty_le_dung": 25.0
+   "n": 7,
+   "ty_le_dung": 57.1
   }
  },
  "chi_tiet": [
@@ -1204,6 +1204,651 @@
     "lac_quan": false,
     "than_trong": null,
     "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "NHNN rút ròng hơn 53.000 tỷ qua OMO, lãi suất liên ngân hàng biến động",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VCB",
+   "du_bao": 1,
+   "vuot_t0": 0.19,
+   "vuot_t4": 1.31,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "NHNN rút ròng hơn 53.000 tỷ qua OMO, lãi suất liên ngân hàng biến động",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "SSI",
+   "du_bao": -1,
+   "vuot_t0": 0.17,
+   "vuot_t4": -1.22,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Tỷ lệ LDR dự kiến nới lên 95% theo Thông tư 50/2026/TT-NHNN",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -0.49,
+   "vuot_t4": 2.15,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Tỷ lệ LDR dự kiến nới lên 95% theo Thông tư 50/2026/TT-NHNN",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "MBB",
+   "du_bao": 1,
+   "vuot_t0": -0.07,
+   "vuot_t4": 1.84,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Tỷ lệ LDR dự kiến nới lên 95% theo Thông tư 50/2026/TT-NHNN",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCB",
+   "du_bao": -1,
+   "vuot_t0": 0.19,
+   "vuot_t4": 1.31,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Khối ngoại xả ròng tháng thứ 9 liên tiếp, bán ròng gần 300 tỷ phiên 5/10",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -0.34,
+   "vuot_t4": 2.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Khối ngoại xả ròng tháng thứ 9 liên tiếp, bán ròng gần 300 tỷ phiên 5/10",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": -1,
+   "vuot_t0": -0.49,
+   "vuot_t4": 2.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Khối ngoại xả ròng tháng thứ 9 liên tiếp, bán ròng gần 300 tỷ phiên 5/10",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -7.26,
+   "vuot_t4": -14.33,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "HOSE công bố 65 mã bị cắt margin trong quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "DGC",
+   "du_bao": -1,
+   "vuot_t0": -2.47,
+   "vuot_t4": -4.15,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "HOSE công bố 65 mã bị cắt margin trong quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "STK",
+   "du_bao": -1,
+   "vuot_t0": -1.66,
+   "vuot_t4": 5.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "VN-Index hồi phục 15 điểm nhờ VIC và nhóm trụ, thanh khoản thận trọng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": -0.34,
+   "vuot_t4": -3.77,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "VN-Index hồi phục 15 điểm nhờ VIC và nhóm trụ, thanh khoản thận trọng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -0.34,
+   "vuot_t4": 2.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "VN-Index hồi phục 15 điểm nhờ VIC và nhóm trụ, thanh khoản thận trọng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -7.26,
+   "vuot_t4": -14.33,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Lãi suất huy động 12 tháng phân hóa, cao nhất chạm 7,5%/năm",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VPB",
+   "du_bao": -1,
+   "vuot_t0": 0.53,
+   "vuot_t4": 7.92,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Lãi suất huy động 12 tháng phân hóa, cao nhất chạm 7,5%/năm",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "DXG",
+   "du_bao": -1,
+   "vuot_t0": -1.04,
+   "vuot_t4": 1.04,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Thị phần môi giới HOSE quý 3/2026: TCBS vượt 10%, VPS sụt giảm",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VCI",
+   "du_bao": 1,
+   "vuot_t0": 3.97,
+   "vuot_t4": 1.03,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Thị phần môi giới HOSE quý 3/2026: TCBS vượt 10%, VPS sụt giảm",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": 0.17,
+   "vuot_t4": -1.22,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Thị phần môi giới HOSE quý 3/2026: TCBS vượt 10%, VPS sụt giảm",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VND",
+   "du_bao": -1,
+   "vuot_t0": 3.41,
+   "vuot_t4": 0.34,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Cổ phiếu LPB tăng trần bất ngờ sau chuỗi giảm mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "LPB",
+   "du_bao": 1,
+   "vuot_t0": 1.76,
+   "vuot_t4": -4.56,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Cổ phiếu LPB tăng trần bất ngờ sau chuỗi giảm mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": -0.34,
+   "vuot_t4": -3.77,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Con trai Chủ tịch Hòa Phát đăng ký mua 50 triệu cổ phiếu HPG",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -0.34,
+   "vuot_t4": 2.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Con trai Chủ tịch Hòa Phát đăng ký mua 50 triệu cổ phiếu HPG",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HSG",
+   "du_bao": 1,
+   "vuot_t0": -0.44,
+   "vuot_t4": 4.34,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Tăng trưởng GDP 9 tháng 2026 ước đạt 9,01%, vốn FDI thực hiện tăng 12%",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "KBC",
+   "du_bao": 1,
+   "vuot_t0": -0.13,
+   "vuot_t4": 3.64,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "Tăng trưởng GDP 9 tháng 2026 ước đạt 9,01%, vốn FDI thực hiện tăng 12%",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "SZC",
+   "du_bao": 1,
+   "vuot_t0": 0.57,
+   "vuot_t4": 7.28,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "BSC dự báo PNJ, FPT và MSB có nguy cơ bị loại khỏi VNDiamond",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -7.26,
+   "vuot_t4": -14.33,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "BSC dự báo PNJ, FPT và MSB có nguy cơ bị loại khỏi VNDiamond",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "FPT",
+   "du_bao": -1,
+   "vuot_t0": -2.76,
+   "vuot_t4": -5.92,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "BSC dự báo PNJ, FPT và MSB có nguy cơ bị loại khỏi VNDiamond",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "GMD",
+   "du_bao": 1,
+   "vuot_t0": -0.08,
+   "vuot_t4": 6.14,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "EVN đề xuất đàm phán giảm giá mua điện với dự án năng lượng tái tạo",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "HDG",
+   "du_bao": -1,
+   "vuot_t0": -0.34,
+   "vuot_t4": 1.5,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "OPEC+ quyết định giữ nguyên sản lượng khai thác cho tháng 11",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVS",
+   "du_bao": 1,
+   "vuot_t0": 1.18,
+   "vuot_t4": 3.05,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "web",
+   "chu_de": "OPEC+ quyết định giữ nguyên sản lượng khai thác cho tháng 11",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PLX",
+   "du_bao": -1,
+   "vuot_t0": 1.64,
+   "vuot_t4": 3.81,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Áp lực tỷ giá đan xèn triển vọng BCTC Q3/2026 của VN-Index",
+   "xac_minh": "tin_don",
+   "loai": "thi_truong",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -1.84,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Biến động giá hàng hóa và cước vận tải do căng thẳng địa chính trị",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVT",
+   "du_bao": 1,
+   "vuot_t0": 0.9,
+   "vuot_t4": 5.76,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Biến động giá hàng hóa và cước vận tải do căng thẳng địa chính trị",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVD",
+   "du_bao": 1,
+   "vuot_t0": 3.87,
+   "vuot_t4": 2.12,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Biến động giá hàng hóa và cước vận tải do căng thẳng địa chính trị",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "BMP",
+   "du_bao": -1,
+   "vuot_t0": -0.76,
+   "vuot_t4": 1.49,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Kết quả kinh doanh và triển vọng tăng trưởng cổ phiếu VHC",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHC",
+   "du_bao": 1,
+   "vuot_t0": -1.33,
+   "vuot_t4": 4.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Kết quả kinh doanh và triển vọng tăng trưởng cổ phiếu VHC",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "ANV",
+   "du_bao": 1,
+   "vuot_t0": -1.48,
+   "vuot_t4": 8.16,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Cổ phiếu VIC tiếp tục gây áp lực đè nặng lên chỉ số VN-Index",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": -1,
+   "vuot_t0": -0.34,
+   "vuot_t4": -3.77,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-06",
+   "tab": "zalo",
+   "chu_de": "Cổ phiếu VIC tiếp tục gây áp lực đè nặng lên chỉ số VN-Index",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": -1,
+   "vuot_t0": 0.69,
+   "vuot_t4": -4.6,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
    }
   }
  ],

@@ -64,6 +64,34 @@ jobs:
             viet_lai) python -m daily.run_daily --viet-lai ;;
             *)        python -m daily.run_daily ;;
           esac
+      # ---- Slide video (Sơn chốt 13/10/2026): brief cho Claude + PPT nháp từ bản Gemini, không gọi AI.
+      #      Lỗi ở đây không làm hỏng bản daily (continue-on-error).
+      - uses: actions/setup-node@v4
+        if: github.event.inputs.che_do != 'dry'
+        continue-on-error: true
+        with:
+          node-version: "20"
+      - name: Brief cho Claude + PPT nháp
+        if: github.event.inputs.che_do != 'dry'
+        continue-on-error: true
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+        run: |
+          (cd slides && npm install --no-audit --no-fund --loglevel=error)
+          python -m slides.brief
+          python -m slides.make
+      - name: Giữ PPT trong Artifacts (dự phòng khi chưa có R2)
+        if: github.event.inputs.che_do != 'dry'
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: ppt-nhap
+          path: .cache/slides/*/*.pptx
+          retention-days: 7
+          if-no-files-found: ignore
       - name: Giữ kho nến cho lần sau
         if: always()
         uses: actions/cache/save@v4

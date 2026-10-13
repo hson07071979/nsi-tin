@@ -1,0 +1,63 @@
+name: NSI Slides (PPT chính thức)
+
+# Chạy khi Claude push file kiểm tra out/daily/claude/<ngày>.json (Sơn chốt 13/10/2026),
+# hoặc bấm tay với ngày cần dựng lại. Không gọi AI: chỉ vẽ chart + dựng PPTX + đẩy lên R2.
+on:
+  push:
+    branches: [main]
+    paths: ["out/daily/claude/**"]
+  workflow_dispatch:
+    inputs:
+      ngay:
+        description: "YYYY-MM-DD (trống = bản mới nhất)"
+        default: ""
+
+concurrency:
+  group: nsi-slides
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  slides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+      - run: cd slides && npm install --no-audit --no-fund --loglevel=error
+      - name: Lấy kho nến của NSI Daily (khỏi tải lại)
+        uses: actions/cache/restore@v4
+        with:
+          path: .cache/daily_nen
+          key: daily-nen-${{ github.run_id }}
+          restore-keys: daily-nen-
+      - name: Dựng PPT
+        env:
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_BUCKET: ${{ secrets.R2_BUCKET }}
+          NGAY_TAY: ${{ github.event.inputs.ngay }}
+        run: |
+          NGAY="$NGAY_TAY"
+          if [ -z "$NGAY" ]; then
+            NGAY=$(git diff --name-only HEAD~1 HEAD -- out/daily/claude/ | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort | tail -1)
+          fi
+          if [ -n "$NGAY" ]; then python -m slides.make --ngay "$NGAY"; else python -m slides.make; fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ppt
+          path: .cache/slides/*/*.pptx
+          retention-days: 14
+          if-no-files-found: ignore

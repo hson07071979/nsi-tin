@@ -1,0 +1,178 @@
+{
+ "ngay": "2026-10-13",
+ "ban_goc": "cach_2_buoc",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Đối chiếu nến VNDirect: giá đóng cửa, MA10/20/50/200, BB của VN-Index và 14 mã trong bảng khớp với bản Gemini.",
+  "Nhánh 'thủng 1.701 thì rơi về BB dưới 1.707' sai thứ tự giá (1.707 nằm trên 1.701) → bỏ vế BB.",
+  "VHM: bảng ghi xác nhận 'vượt MA200 tại 65,2' nhưng MA200 tính từ nến là 64,68 → sửa về ~64,7.",
+  "Regime: Gemini gọi Bottoming process, nhưng nhóm dẫn dắt (chứng khoán) chưa có tín hiệu xác nhận → đổi thành hồi kỹ thuật / dò đáy chưa xác nhận.",
+  "'Đèn NSI không đọc được' là lỗi đọc dữ liệu, không phải 'thị trường nhiễu động' → bỏ câu này khỏi lời thoại.",
+  "Lời thoại đọc 'điểm dừng' và 'mục tiêu' từng mã, trái quy tắc kênh (không chỉ định cắt lỗ/mục tiêu) → đổi thành 'hỗ trợ kế tiếp' / 'kháng cự kế tiếp'.",
+  "Breadth có hai nguồn lệch nhẹ: 89 tăng/198 giảm (chính) và 95/200 (đếm đối chiếu). Giữ số chính; Sơn tự quyết có nêu cả hai trên sóng không."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "regime.ten",
+   "gia_tri": "Hồi kỹ thuật / dò đáy, chưa xác nhận"
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Thủng 1.701 điểm thì cấu trúc đỡ giá bị phá, chỉ số về đáy cũ 1.687, sâu hơn là vùng 1.650,74–1.665,36 điểm."
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].xac_nhan",
+   "gia_tri": "Vượt dứt khoát MA200 (~64,7)."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "điểm dừng tham chiếu quanh 21,88, cách 5,3%",
+   "thay": "hỗ trợ kế tiếp quanh 21,88,"
+  },
+  {
+   "tim": "điểm dừng quanh 31,6 cách 4,1%",
+   "thay": "hỗ trợ kế tiếp quanh 31,6"
+  },
+  {
+   "tim": "điểm dừng tham chiếu quanh 32,15 cách 3,6%",
+   "thay": "hỗ trợ kế tiếp quanh 32,15"
+  },
+  {
+   "tim": "điểm dừng tham chiếu quanh 63,5 cách 3,2%",
+   "thay": "hỗ trợ kế tiếp quanh 63,5"
+  },
+  {
+   "tim": "điểm dừng tham chiếu quanh 18,0 cách 4,8%",
+   "thay": "hỗ trợ kế tiếp quanh 18,0"
+  },
+  {
+   "tim": "điểm dừng quanh 17,5 cách 4,6%",
+   "thay": "hỗ trợ kế tiếp quanh 17,5"
+  },
+  {
+   "tim": "điểm dừng quanh 22,2 cách 3,5%",
+   "thay": "hỗ trợ kế tiếp quanh 22,2"
+  },
+  {
+   "tim": "điểm dừng quanh 211,5 cách 4,7%",
+   "thay": "hỗ trợ kế tiếp quanh 211,5"
+  },
+  {
+   "tim": "điểm dừng quanh 61,39 cách 4,7%",
+   "thay": "hỗ trợ kế tiếp quanh 61,39"
+  },
+  {
+   "tim": "điểm dừng quanh 9,3 cách tròn 7%",
+   "thay": "hỗ trợ kế tiếp quanh 9,3"
+  },
+  {
+   "tim": "điểm dừng quanh 19,6 cách 4,2%",
+   "thay": "hỗ trợ kế tiếp quanh 19,6"
+  },
+  {
+   "tim": "điểm dừng quanh 9,7 cách 3,5%",
+   "thay": "hỗ trợ kế tiếp quanh 9,7"
+  },
+  {
+   "tim": "điểm dừng tham chiếu quanh 24,15 cách 6,2%",
+   "thay": "hỗ trợ kế tiếp quanh 24,15"
+  },
+  {
+   "tim": "điểm dừng tham chiếu quanh 54,0, cách khoảng 4,1%",
+   "thay": "hỗ trợ kế tiếp quanh 54,0,"
+  },
+  {
+   "tim": "điểm dừng tham chiếu quanh 21,88 cách 5,3%",
+   "thay": "hỗ trợ kế tiếp quanh 21,88"
+  },
+  {
+   "tim": "mục tiêu hướng tới",
+   "thay": "kháng cự kế tiếp ở"
+  },
+  {
+   "tim": "mục tiêu ngắn hạn là",
+   "thay": "kháng cự kế tiếp là"
+  },
+  {
+   "tim": "mục tiêu nếu hồi là",
+   "thay": "kháng cự kế tiếp nếu hồi là"
+  },
+  {
+   "tim": "mục tiêu hồi phục quanh",
+   "thay": "kháng cự kế tiếp quanh"
+  },
+  {
+   "tim": "mục tiêu gần nhất là",
+   "thay": "kháng cự kế tiếp là"
+  },
+  {
+   "tim": "mục tiêu hồi là",
+   "thay": "kháng cự kế tiếp hồi là"
+  },
+  {
+   "tim": "mục tiêu hướng lên",
+   "thay": "kháng cự kế tiếp ở"
+  },
+  {
+   "tim": "mục tiêu là",
+   "thay": "kháng cự kế tiếp là"
+  },
+  {
+   "tim": "mục tiêu hồi phục là",
+   "thay": "kháng cự kế tiếp là"
+  },
+  {
+   "tim": "mục tiêu nếu có nhịp hồi kỹ thuật là",
+   "thay": "kháng cự kế tiếp nếu có nhịp hồi là"
+  },
+  {
+   "tim": "Khi đó chỉ số sẽ rơi về dải Bollinger dưới đang ở quanh 1.707 điểm và tìm về các vùng hỗ trợ sâu hơn",
+   "thay": "Khi đó chỉ số sẽ tìm về các vùng hỗ trợ sâu hơn"
+  },
+  {
+   "tim": "Đây là vùng hỗ trợ đạt chuẩn rất mạnh tối đa trong hệ thống dữ liệu, ",
+   "thay": "Đây là vùng hỗ trợ rất mạnh, "
+  },
+  {
+   "tim": "Tổng hợp lại, thị trường hiện tại đang ở trạng thái dò đáy, tức là Bottoming process trong bối cảnh thiếu tiền.",
+   "thay": "Tổng hợp lại, thị trường đang hồi kỹ thuật và dò đáy, nhưng chưa có tín hiệu xác nhận, trong bối cảnh thiếu tiền."
+  },
+  {
+   "tim": "Đèn hệ thống NSI hôm nay ghi nhận trạng thái không đọc được, phản ánh thị trường đang nhiễu động cao. ",
+   "thay": ""
+  }
+ ],
+ "slide": {
+  "ma_dang_noi": [
+   "FPT",
+   "HDB",
+   "KBC"
+  ],
+  "ly_do": {
+   "FPT": "Phiên thứ 15 dưới MA10, khối ngoại xả mạnh nhất thị trường; thủng 55,91 là gãy cấu trúc trung hạn.",
+   "HDB": "Dòng tiền chủ động hiếm hoi: vượt đỉnh 20 phiên với KL 2,4× TB20, khối ngoại mua ròng.",
+   "KBC": "Có câu chuyện riêng (KQKD quý 3), mở gap và vượt MA10, MA20 khi BB đang bóp."
+  },
+  "tieu_de_ma": {
+   "TCB": "giữ kênh trên, BB bóp chặt",
+   "HDB": "mạnh nhất nhóm ngân hàng",
+   "BID": "14 phiên dưới MA10",
+   "STB": "gãy nền, thủng MA200",
+   "SSI": "dò đáy, thanh khoản cạn",
+   "VCI": "nằm dưới mọi đường MA",
+   "HCM": "còn giữ được MA200",
+   "VIC": "trụ kéo chỉ số",
+   "VHM": "hồi lên sát MA200",
+   "DXG": "lấy lại MA10",
+   "HPG": "giữ MA10, test vùng 20,1",
+   "HSG": "BB bóp chặt",
+   "KBC": "mở gap tăng",
+   "FPT": "sát đáy, khối ngoại xả mạnh"
+  }
+ }
+}

@@ -5,7 +5,7 @@ Luồng (Sơn chốt 13/10/2026):
         → bước này dựng ngay bản PPT NHÁP từ bản Gemini.
   Tối:  Claude kiểm số liệu/logic trong chat, chỉ sửa câu sai (không viết lại văn), ghi out/daily/claude/<ngày>.json
         → slides.yml tự chạy lại bước này → PPT CHÍNH THỨC.
-  PPT lên Cloudflare R2 (slides/r2.py); trang quản trị /daily có nút "Tải PPT".
+  PPT lên Cloudflare Workers KV (slides/kv.py); trang quản trị /daily có nút "Tải PPT".
 
 Chạy tay:  python -m slides.make --ngay 2026-10-13 [--nen-dir thư_mục_nến_json] [--khong-upload]
 """
@@ -471,8 +471,8 @@ def run(ngay: str | None, nen_dir: Path | None, upload: bool, out_dir: Path) -> 
         print("CẢNH BÁO:", g)
     print(json.dumps({"ngay": ngay, "nguon": nguon, "pptx": str(pptx), "kb": pptx.stat().st_size // 1024}, ensure_ascii=False))
     if upload:
-        from . import r2  # noqa: PLC0415
-        r2.put(ngay, pptx, nguon)
+        from . import kv  # noqa: PLC0415
+        kv.put(ngay, pptx, nguon)
     return pptx
 
 

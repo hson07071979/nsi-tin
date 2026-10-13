@@ -5,12 +5,12 @@
 | Giờ VN | Việc | Ai |
 |---|---|---|
 | 15:20 / 16:00 | `daily_market.yml`: số liệu + Gemini viết **1 bản** (phân tích + lời thoại) | đồng hồ ảo gọi |
-| ngay sau đó | `python -m slides.brief` → `out/daily/brief/<ngày>.md`; `python -m slides.make` → PPT **nháp** lên R2 | cùng workflow |
+| ngay sau đó | `python -m slides.brief` → `out/daily/brief/<ngày>.md`; `python -m slides.make` → PPT **nháp** lên KV | cùng workflow |
 | tối | Sơn mở chat Claude: Claude đọc brief, kiểm số liệu/logic, **chỉ sửa câu sai** (không viết lại văn), ghi `out/daily/claude/<ngày>.json` rồi push | Claude |
-| ngay khi push | `slides.yml` dựng lại PPT **chính thức** lên R2 | GitHub Actions |
+| ngay khi push | `slides.yml` dựng lại PPT **chính thức** lên KV | GitHub Actions |
 | bất kỳ | Trang quản trị `/daily` → nút **Tải PPT** | Sơn |
 
-Bản Gemini (nháp) không bao giờ đè bản Claude cùng ngày trên R2.
+Bản Gemini (nháp) không bao giờ đè bản Claude cùng ngày trên KV.
 
 ## Chart
 
@@ -56,10 +56,10 @@ python -m slides.brief 2026-10-13
 python -m slides.make --ngay 2026-10-13 --khong-upload        # file ở .cache/slides/<ngày>/
 ```
 
-## Cloudflare R2 (một lần)
+## Cloudflare Workers KV (một lần, miễn phí, không cần thẻ)
 
-1. Cloudflare → R2 → tạo bucket `nsi-slides` (không bật public).
-2. R2 → Manage API tokens → tạo token quyền **Object Read & Write** chỉ cho bucket này.
-3. GitHub nsi-tin → Settings → Secrets → Actions: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET` (= nsi-slides).
-4. Worker nsi-quantri → Settings → Bindings → R2 bucket: tên biến `SLIDES`, bucket `nsi-slides`.
+1. Cloudflare → Storage & databases → Workers KV → Create namespace `nsi-slides`; chép Namespace ID.
+2. My Profile → API Tokens → Create Custom Token: quyền Account · **Workers KV Storage · Edit**, chỉ tài khoản của anh.
+3. GitHub nsi-tin → Settings → Secrets → Actions: `CF_ACCOUNT_ID`, `CF_KV_NAMESPACE_ID`, `CF_API_TOKEN`.
+4. Worker nsi-quantri → Settings → Bindings → KV namespace: tên biến `SLIDES`, namespace `nsi-slides`.
 Thiếu secret thì workflow vẫn chạy, PPT nằm trong mục Artifacts của lượt chạy.

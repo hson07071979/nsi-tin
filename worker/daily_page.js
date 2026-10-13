@@ -13,10 +13,10 @@
      GET  /daily/data?ngay=…     JSON bản ngày đó (trống = latest)
      GET  /daily/index           danh sách ngày
      POST /daily/viet-lai        {view, ngay} → gọi workflow daily_market.yml che_do=viet_lai
-     GET  /daily/ppt?ngay=…      tải PPT video (R2 binding SLIDES, khóa daily/<ngày>.pptx; trống = mới nhất)
+     GET  /daily/ppt?ngay=…      tải PPT video (KV binding SLIDES, khóa daily/<ngày>.pptx; trống = mới nhất)
      GET  /daily/ppt-info?ngay=… {co, nguon: gemini|claude, luc} để hiện nhãn nút
 
-   Biến mới cho nút Tải PPT (13/10/2026): R2 binding SLIDES → bucket nsi-slides (xem slides/README.md).
+   Biến mới cho nút Tải PPT (13/10/2026): KV namespace binding SLIDES → namespace nsi-slides (xem slides/README.md).
    ========================================================================== */
 
 export async function handleDaily(req, env) {
@@ -79,25 +79,24 @@ async function vietLai(req, env, url) {
 }
 
 async function taiPpt(env, url, chiInfo) {
-  if (!env.SLIDES) return jErr(500, 'Worker chưa gắn R2 binding SLIDES')
+  if (!env.SLIDES) return jErr(500, 'Worker chưa gắn KV binding SLIDES')
   let ngay = (url.searchParams.get('ngay') || '').trim()
   if (ngay && !/^\d{4}-\d{2}-\d{2}$/.test(ngay)) return jErr(400, 'ngày sai dạng')
   if (!ngay) {
-    const l = await env.SLIDES.get('daily/latest.json')
+    const l = await env.SLIDES.get('daily/latest', { type: 'json' })
     if (!l) return jErr(404, 'chưa có PPT nào')
-    ngay = (await l.json()).ngay
+    ngay = l.ngay
   }
   const key = `daily/${ngay}.pptx`
+  const { value, metadata } = await env.SLIDES.getWithMetadata(key, { type: chiInfo ? 'text' : 'stream' })
+  const m = metadata || {}
   if (chiInfo) {
-    const h = await env.SLIDES.head(key)
-    const m = (h && h.customMetadata) || {}
-    return new Response(JSON.stringify({ co: !!h, ngay, nguon: m.nguon || '', luc: m.luc || '' }),
+    return new Response(JSON.stringify({ co: value !== null, ngay, nguon: m.nguon || '', luc: m.luc || '' }),
       { headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store' } })
   }
-  const o = await env.SLIDES.get(key)
-  if (!o) return jErr(404, `chưa có PPT phiên ${ngay}`)
-  const nguon = (o.customMetadata || {}).nguon === 'claude' ? 'chinh-thuc' : 'nhap'
-  return new Response(o.body, { headers: {
+  if (value === null) return jErr(404, `chưa có PPT phiên ${ngay}`)
+  const nguon = m.nguon === 'claude' ? 'chinh-thuc' : 'nhap'
+  return new Response(value, { headers: {
     'content-type': 'application/vnd.openxmlformats-officedocument.presentationml.presentation',
     'content-disposition': `attachment; filename="NSF_RaSoat_${ngay}_${nguon}.pptx"`, 'cache-control': 'no-store' } })
 }

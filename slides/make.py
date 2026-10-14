@@ -34,7 +34,6 @@ META = {
     "website": "nguyễnsơnfinance.com.vn",
     "contact": "Tư vấn Mr. Sơn · 0559562157",
     "ssi_id": "8B0327",
-    "disclaimer": "Nội dung rà soát thị trường, không phải khuyến nghị mua bán",
 }
 REGIME_VI = {
     "risk-on/trend": "Xu hướng tăng, tiền vào rộng", "rotation/divergence": "Phân hóa, xoay vòng",
@@ -212,6 +211,22 @@ def cau_ve_ma(sym: str, pool: list[str], all_syms: set[str]) -> str:
     return " ".join(out)
 
 
+def can_cu(gia_tri, f: dict, tol: float = 0.005) -> bool:
+    """Mốc có căn cứ khi trùng (±0,5%) một biên vùng, đỉnh/đáy, gap hoặc MA đã lưu trong FACT của chính mã đó.
+    Audit 13/10: HDB 24,5 · SSI 18,0 · VCI 17,5 · FPT 54,0 không truy được nguồn → không vẽ, không ghi."""
+    if gia_tri is None:
+        return False
+    nguon = " ".join(str(f.get(k) or "") for k in ("vung_dang_test", "ho_tro", "khang_cu", "day_20_60_250p",
+                                                    "dinh_60_250p", "duong_ma", "gap"))
+    so = []
+    for m in re.findall(r"(?<![\d.])(\d+(?:\.\d+)?)(?![\d.]*%)", nguon):
+        try:
+            so.append(float(m))
+        except ValueError:
+            pass
+    return any(abs(x / gia_tri - 1) <= tol for x in so if x > 0)
+
+
 def tieu_de_ma(sym: str, cau_truc: str, ep: dict) -> str:
     if ep.get(sym):
         return f"{sym}: {ep[sym]}"
@@ -359,15 +374,22 @@ def build_content(day: dict, ban: dict, nguon: str, claude: dict | None, nen_dir
     for ng in pt.get("nganh") or []:
         for m in ng.get("ma") or []:
             syms_all.add(m["ma"])
-    stocks, sectors = {}, []
+    stocks, sectors, canh_bao = {}, [], []
     for ng in pt.get("nganh") or []:
         rows = []
         for m in ng.get("ma") or []:
             s = m["ma"]
             f = ma_fc.get(s, {})
+            moc = {k: (m.get(k) if can_cu(m.get(k), f) else None) for k in ("moc_theo_doi", "sl", "muc_tieu")}
+            for k, v in moc.items():
+                if v is None and m.get(k) is not None:
+                    canh_bao.append(f"{s}: mốc {k}={m.get(k)} không có căn cứ trong FACT → bỏ khỏi slide")
+            m = dict(m, **moc)
             st = {"sym": s, "price": gia(f.get("dong")), "chg": pct(f.get("pct")), "struct": ngan(m.get("cau_truc"), 120),
                   "watch": gia(m.get("moc_theo_doi")), "broke": ngan(m.get("thung_thi"), 110),
-                  "sup": gia(m.get("sl")), "res": gia(m.get("muc_tieu")), "conf": ngan(m.get("xac_nhan"), 100),
+                  "sup": gia(m.get("sl")) if m.get("sl") else "chưa có vùng rõ",
+                  "res": gia(m.get("muc_tieu")) if m.get("muc_tieu") else "chưa có vùng rõ",
+                  "conf": ngan(m.get("xac_nhan"), 100),
                   "val": sach(m.get("dinh_gia") or "chưa có dữ liệu định giá"),
                   "head": tieu_de_ma(s, m.get("cau_truc") or "", sl.get("tieu_de_ma") or {}),
                   "notes": cau_ve_ma(s, scan, syms_all), "pick_notes": cau_ve_ma(s, pick_pool, syms_all), "img": None, "mini": None}
@@ -401,7 +423,7 @@ def build_content(day: dict, ban: dict, nguon: str, claude: dict | None, nen_dir
                                 ("Lấy lại MA20", "Có: " + ", ".join(tren20) if tren20 else "Chưa"),
                                 ("Nổ khối lượng", "Có: " + ", ".join(no) if no else "Chưa")]
         sectors.append(sec)
-    C["stocks"], C["sectors"] = stocks, sectors
+    C["stocks"], C["sectors"], C["moc_bo"] = stocks, sectors, canh_bao
 
     # nhóm không có bảng → thẻ ngắn
     covered = {(ng.get("nhom") or "").lower() for ng in pt.get("nganh") or []}
@@ -462,7 +484,7 @@ def run(ngay: str | None, nen_dir: Path | None, upload: bool, out_dir: Path) -> 
     work = out_dir / ngay
     work.mkdir(parents=True, exist_ok=True)
     C = build_content(day, ban, nguon, claude, nen_dir, work)
-    C["ghi_chu_dung"] = ghi
+    C["ghi_chu_dung"] = ghi + C.get("moc_bo", [])
     cj = work / "content.json"
     cj.write_text(json.dumps(C, ensure_ascii=False, indent=1), encoding="utf-8")
     pptx = work / f"NSF_RaSoat_{ngay}.pptx"

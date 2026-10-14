@@ -60,3 +60,30 @@ def test_auto_zones_skip_bb():
          "khang_cu_gan": [{"tu": 11, "den": 11.3, "do_manh": 2}]}
     out = charts.auto_zones(z, 10)
     assert len(out) == 2 and out[0][3] == "Hỗ trợ mạnh"
+
+
+def test_moc_khong_can_cu_bi_bo():
+    f = {"vung_dang_test": "22.84–23.25 ★★", "ho_tro": ["21.88–22.19 ★★★ (3 lần chạm, đáy cũ, cách +5.3%)"],
+         "khang_cu": [], "duong_ma": "MA10=21.9(+5.48%) MA20=21.55(+7.19%)"}
+    assert make.can_cu(22.84, f) and make.can_cu(21.88, f) and make.can_cu(21.55, f)
+    assert not make.can_cu(24.5, f)          # HDB 24,5 trong mẫu 13/10: không có nguồn
+    assert not make.can_cu(5.3, f)           # không lấy nhầm số % làm mốc
+
+
+def test_cham_khong_dem_trung_pivot():
+    from daily import tech
+    from datetime import date, timedelta
+    d0, out = date(2025, 1, 1), []
+    for i in range(260):                       # một đáy rất rõ ở ngày 200, đi ngang quanh 100
+        lo = 90.0 if i == 200 else 99.0
+        out.append({"d": (d0 + timedelta(days=i)).isoformat(), "o": 100, "h": 101, "l": lo, "c": 100, "v": 1000})
+    sup, res, dang = tech.vung_ho_tro_khang_cu(out, 100.0, {}, tol=0.015)
+    z = next(z for z in sup if z["tu"] <= 90.0 <= z["den"])
+    assert z["cham"] == 1                       # trước đây ±3 và ±8 bắt cùng nến → 2 lần chạm
+
+
+def test_khong_con_bb():
+    from daily import tech
+    a = tech.analyse(_bars())
+    assert a["bollinger"] is None
+    assert not any(z.get("bb") for z in (a.get("ho_tro_gan") or []) + (a.get("khang_cu_gan") or []))

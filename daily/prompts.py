@@ -20,7 +20,7 @@ thuật kỷ luật, rồi (2) viết lời thoại để Sơn đọc trước c
 LUẬT DỮ LIỆU (không được phá):
 1. Chỉ dùng số trong FACT. Không bịa giá, %, khối lượng, dòng tiền, mốc, tin tức, số liệu tài chính. Số nào không có thì
    nói "chưa có dữ liệu", không đoán. Không tự tính chỉ báo mới; các mốc đã có sẵn trong FACT (MA, đỉnh/đáy, hỗ trợ,
-   kháng cự dạng vùng có chấm sao, dải Bollinger, gap).
+   kháng cự dạng vùng có chấm sao, gap). KHÔNG dùng Bollinger (Sơn bỏ từ 14/10/2026).
 2. Hai nguồn lệch nhau thì nói cả hai, không lặng lẽ chọn một.
 3. Tương quan ≠ nhân quả. Không viết "VN-Index giảm vì DXY tăng". Chỉ được nói: DXY là một áp lực cần theo dõi, kênh
    truyền dẫn là gì, còn cấu trúc bán trong nước hôm nay chưa đủ chứng minh nó là nguyên nhân.
@@ -52,10 +52,9 @@ KHUNG LẬP LUẬN (top-down, theo đúng thứ tự):
      động"; chân nến tăng mạnh chỉ là một nguồn của vùng. Trả lời đủ 6 câu: vùng từ đâu, vì sao thị trường nhận ra nó,
      giữ thì sao, thủng thì sao (vùng kế tiếp + hệ quả cho breadth và nhóm ngành), tín hiệu xác nhận, tín hiệu vô hiệu.
      Ghi rõ CẦN (điều kiện cần để hành động) hay QS (vùng quan sát).
-     Dải Bollinger (20,2): khi đã có vùng hỗ trợ/kháng cự rõ thì BB là bổ trợ (giá sát dải dưới/trên, dải đang bóp chặt
-     = sắp có biến động mạnh). Khi KHÔNG nhận diện được vùng rõ ở một phía, dữ liệu đã tự điền dải Bollinger làm mốc
-     động cho phía đó (ghi "dải Bollinger dưới/giữa/trên — mốc động"): dùng nó làm hỗ trợ/kháng cự, nói rõ là mốc động
-     ("dải Bollinger dưới quanh 1.690, mốc động vì phía dưới chưa có đáy cũ rõ") và mốc này dịch chuyển theo từng phiên.
+     KHÔNG nhắc Bollinger/%B (Sơn bỏ từ 14/10/2026). Mọi mốc hỗ trợ/kháng cự, kể cả "sl"/"muc_tieu" trong bảng ngành,
+     PHẢI lấy đúng một biên của vùng, đỉnh/đáy cũ, gap hoặc MA có trong FACT của chính mã đó; không có thì để null và
+     ghi "chưa có vùng rõ phía dưới/trên", tuyệt đối không tự chọn số tròn. "Số lần chạm" là số pivot khác ngày.
   T7 Regime: một trong Risk-on/Trend · Rotation/Divergence · Distribution · Capitulation · Technical rebound ·
      Bottoming process. Bằng chứng ủng hộ + bằng chứng làm phân loại sai. Đối chiếu đèn NSI nếu FACT có
      (đèn là FACT, regime là diễn giải; lệch thì nói). Có tiền → ưu tiên dòng tiền & mẫu hình; thiếu tiền → timing,
@@ -216,8 +215,7 @@ def compact(facts: dict) -> dict:
             "dinh_60_250p": [ddd(a["dinh_60p"]), ddd(a["dinh_250p"])],
             "vung_dang_test": vung(a.get("vung_dang_test")),
             "ho_tro": mocs(a.get("ho_tro_gan")), "khang_cu": mocs(a.get("khang_cu_gan")),
-            "bollinger": (lambda bb: f"trên {bb['tren']} · giữa {bb['giua']} · dưới {bb['duoi']} · %B {bb['pct_b']}"
-                          + (" · ĐANG BÓP CHẶT" if bb.get("bop_chat") else "") if bb else None)(a.get("bollinger")),
+
             "gap": [f"{g['loai']} {g['tu']}–{g['den']} ({_ng(g['ngay'], nam)})" for g in a.get("gap") or []],
             "rs_5p_20p": [a.get("rs_5p"), a.get("rs_20p")],
         }
@@ -244,8 +242,8 @@ def compact(facts: dict) -> dict:
         "ban_tin_sang_7h": facts.get("ban_tin_sang"), "den_nsi": facts.get("den_nsi") or "không đọc được",
         "thieu_du_lieu": facts.get("thieu_du_lieu"),
         "chu_giai": "hỗ trợ/kháng cự là VÙNG 'từ–đến ★độ mạnh (số lần chạm, nguồn, cách % so giá đóng cửa)'; "
-                    "vung_dang_test = vùng giá đóng cửa đang nằm trong; mốc ghi 'dải Bollinger … mốc động' = không có vùng rõ "
-                    "nên dùng dải Bollinger làm hỗ trợ/kháng cự; MA=giá(cách%); "
+                    "vung_dang_test = vùng giá đóng cửa đang nằm trong; phía nào không có vùng thì để trống, không lấp bằng chỉ báo; "
+                    "MA=giá(cách%); "
                     "pct_5p_20p_60p = % thay đổi 5/20/60 phiên; rs = hơn/kém VN-Index (điểm %)",
         "ma_theo_nhom": nhom,
     }

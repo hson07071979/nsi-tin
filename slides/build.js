@@ -76,7 +76,6 @@ function circleIcon(s, x, y, d, color, data) {
       { text: { text: M.website, options: { x: 5.78, y: 6.84, w: 2.4, h: 0.52, fontFace: FONT, fontSize: 13, color: WHITE, valign: "middle", margin: 0 } } },
       { image: { x: 8.25, y: 6.97, w: 0.27, h: 0.27, data: ic.phone } },
       { text: { text: M.contact, options: { x: 8.61, y: 6.84, w: 2.5, h: 0.52, fontFace: FONT, fontSize: 13, bold: true, color: WATER, valign: "middle", margin: 0 } } },
-      { text: { text: M.disclaimer, options: { x: 11.15, y: 6.86, w: 1.9, h: 0.48, fontFace: FONT, fontSize: 9, color: MUTED, valign: "middle", margin: 0 } } },
       { rect: { x: 10.92, y: 0.36, w: 1.96, h: 0.36, fill: { color: CARD }, line: { color: CARD, width: 0 } } },
     ],
     slideNumber: { x: 12.45, y: 6.3, w: 0.5, h: 0.25, fontFace: FONT, fontSize: 9, color: MUTED, align: "right" },
@@ -339,9 +338,7 @@ function circleIcon(s, x, y, d, color, data) {
       s.addImage({ data: im, x: x + 0.35, y: y + 0.4, w: 0.45, h: 0.45 });
       T(s, l, { x: x + 1.05, y: y + 0.2, w: cw - 1.2, h: 0.3, fontSize: 12, color: MUTED });
       T(s, v, { x: x + 1.05, y: y + 0.5, w: cw - 1.2, h: 0.5, fontSize: v.length > 20 ? 17 : 20, bold: true }); });
-    box(s, CX, CY + 4.15, CW, CB - CY - 4.15, CARD2);
-    T(s, "Nội dung là rà soát và lập luận thị trường theo điều kiện, không phải khuyến nghị mua bán. Anh chị tự cân nhắc theo khẩu vị rủi ro của mình.",
-      { x: CX + 0.3, y: CY + 4.15, w: CW - 0.6, h: CB - CY - 4.15, fontSize: 14, color: SILVER, valign: "middle" }); }
+  }
 
   slide("TÊN PHẦN", "Khung trống để chèn nội dung khác", "Slide khung trống.");
   await pres.writeFile({ fileName: OUT });

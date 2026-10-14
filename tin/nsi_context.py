@@ -51,9 +51,19 @@ def load() -> dict:
         if r is not None:
             try:
                 j = r.json()
+                # 14/10/2026: màu đèn nằm ở `light` (gốc) hoặc `regime_live.light`; `regime_live.state` là
+                # bộ nhớ tính toán (G1, ngày phân phối, FTD…), đọc nhầm nó làm FACT ghi "không đọc được".
                 rl = _find(j, "regime_live")
-                ctx["den_thi_truong"] = (rl or {}).get("state") if isinstance(rl, dict) else _find(j, "regime")
+                mau = j.get("light") if isinstance(j, dict) else None
+                if not mau and isinstance(rl, dict):
+                    mau = rl.get("light")
+                ten = {"XANH": "XANH", "VANG": "VÀNG", "CAM": "CAM", "DO": "ĐỎ"}
+                ctx["den_thi_truong"] = ten.get(str(mau).upper(), mau) if mau else None
+                ctx["den_che_do"] = "chốt phiên"
                 ctx["asof"] = _find(j, "asof")
+                lbd = j.get("light_by_date") if isinstance(j, dict) else None
+                if isinstance(lbd, dict) and lbd:
+                    ctx["den_5_phien"] = {k: ten.get(v, v) for k, v in sorted(lbd.items())[-5:]}
                 wl = _find(j, "watchlist")
                 if wl is not None:
                     ctx["watchlist"] = sorted(_walk_syms(wl))[:40]

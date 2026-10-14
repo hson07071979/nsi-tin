@@ -1,41 +1,41 @@
 {
- "cap_nhat": "2026-10-13T21:53+07:00",
+ "cap_nhat": "2026-10-14T07:17+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 74,
-   "ty_le_dung": 64.9
+   "n": 93,
+   "ty_le_dung": 65.6
   },
   "phe_than_trong": {
-   "n": 67,
-   "ty_le_dung": 52.2
+   "n": 74,
+   "ty_le_dung": 51.4
   },
   "phe_vi_mo": {
-   "n": 62,
-   "ty_le_dung": 66.1
+   "n": 77,
+   "ty_le_dung": 64.9
   },
   "tab_web": {
-   "n": 91,
-   "ty_le_dung": 65.9
+   "n": 111,
+   "ty_le_dung": 64.9
   },
   "tab_zalo": {
-   "n": 16,
-   "ty_le_dung": 62.5
+   "n": 19,
+   "ty_le_dung": 57.9
   },
   "trong_tai": {
-   "n": 107,
-   "ty_le_dung": 65.4
+   "n": 130,
+   "ty_le_dung": 63.8
   },
   "xac_minh_da_xac_minh": {
-   "n": 97,
-   "ty_le_dung": 67.0
+   "n": 119,
+   "ty_le_dung": 65.5
   },
   "xac_minh_mot_nguon": {
    "n": 3,
    "ty_le_dung": 33.3
   },
   "xac_minh_tin_don": {
-   "n": 7,
-   "ty_le_dung": 57.1
+   "n": 8,
+   "ty_le_dung": 50.0
   }
  },
  "chi_tiet": [
@@ -1849,6 +1849,396 @@
     "lac_quan": null,
     "than_trong": true,
     "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Lãi suất huy động và lãi suất cơ sở tiếp tục tăng",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -2.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Khối ngoại bán ròng kỷ lục qua giao dịch thỏa thuận HDB và VJC",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HDB",
+   "du_bao": -1,
+   "vuot_t0": 0.5,
+   "vuot_t4": 9.32,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Khối ngoại bán ròng kỷ lục qua giao dịch thỏa thuận HDB và VJC",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VJC",
+   "du_bao": -1,
+   "vuot_t0": -0.3,
+   "vuot_t4": 1.79,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "World Bank nâng dự báo tăng trưởng GDP Việt Nam lên 7,4%",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "FPT",
+   "du_bao": 1,
+   "vuot_t0": -0.84,
+   "vuot_t4": -4.53,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "World Bank nâng dự báo tăng trưởng GDP Việt Nam lên 7,4%",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "SZC",
+   "du_bao": 1,
+   "vuot_t0": 2.42,
+   "vuot_t4": 6.75,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Dự báo lợi nhuận ngành ngân hàng quý III/2026 tăng 17,7%",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "MBB",
+   "du_bao": 1,
+   "vuot_t0": -0.2,
+   "vuot_t4": 1.47,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Dự báo lợi nhuận ngành ngân hàng quý III/2026 tăng 17,7%",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": 1.19,
+   "vuot_t4": 7.43,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Ngân hàng dồn dập huy động vốn quốc tế quy mô hàng tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": 1.19,
+   "vuot_t4": 7.43,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Ngân hàng dồn dập huy động vốn quốc tế quy mô hàng tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "EVF",
+   "du_bao": 1,
+   "vuot_t0": 0.32,
+   "vuot_t4": 1.38,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "UBCKNN nghiên cứu giao dịch xuyên trưa và nới biên độ giá",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": -0.18,
+   "vuot_t4": -2.05,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "UBCKNN nghiên cứu giao dịch xuyên trưa và nới biên độ giá",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "HCM",
+   "du_bao": 1,
+   "vuot_t0": -1.8,
+   "vuot_t4": 0.13,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Novaland bác tin đồn phá sản, chủ nợ ngoại đổi nợ lấy cổ phiếu giá 34.000 đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": 1,
+   "vuot_t0": -0.64,
+   "vuot_t4": 9.47,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Novaland bác tin đồn phá sản, chủ nợ ngoại đổi nợ lấy cổ phiếu giá 34.000 đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PDR",
+   "du_bao": 1,
+   "vuot_t0": 0.32,
+   "vuot_t4": 1.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Vingroup hợp tác Alstom phát triển 200 đoàn tàu tự động cho Hà Nội",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -1.13,
+   "vuot_t4": -4.41,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Vingroup hợp tác Alstom phát triển 200 đoàn tàu tự động cho Hà Nội",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": -0.54,
+   "vuot_t4": -2.06,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Cổ phiếu PNJ lại nằm sàn, chuẩn bị phát hành 550 triệu cổ phiếu",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -5.88,
+   "vuot_t4": -2.46,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "S&P 500 lập kỷ lục mới, Nvidia hướng tới mốc vốn hóa 6.000 tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "FPT",
+   "du_bao": 1,
+   "vuot_t0": -0.84,
+   "vuot_t4": -4.53,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Điện Máy Xanh đạt doanh thu kỷ lục 12.410 tỷ đồng trong tháng 9",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DMX",
+   "du_bao": 1,
+   "vuot_t0": -0.33,
+   "vuot_t4": 0.7,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Điện Máy Xanh đạt doanh thu kỷ lục 12.410 tỷ đồng trong tháng 9",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "FRT",
+   "du_bao": 1,
+   "vuot_t0": 4.12,
+   "vuot_t4": 1.43,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "web",
+   "chu_de": "Điện Máy Xanh đạt doanh thu kỷ lục 12.410 tỷ đồng trong tháng 9",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DGW",
+   "du_bao": 1,
+   "vuot_t0": -0.83,
+   "vuot_t4": -1.52,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "zalo",
+   "chu_de": "Thông tư 50 ban hành ngày 30/9 tác động dài hạn ngành ngân hàng",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCB",
+   "du_bao": 1,
+   "vuot_t0": 0.15,
+   "vuot_t4": 0.51,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "zalo",
+   "chu_de": "VN-Index phiên sáng 6/10 giảm 6,71 điểm, áp lực bán lan rộng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": -0.54,
+   "vuot_t4": -2.06,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-07",
+   "tab": "zalo",
+   "chu_de": "Thông tin DIG đăng ký mua cổ phiếu sau HPG",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DIG",
+   "du_bao": -1,
+   "vuot_t0": 0.32,
+   "vuot_t4": 4.41,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
    }
   }
  ],

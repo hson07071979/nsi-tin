@@ -101,6 +101,22 @@ def vung_ho_tro_khang_cu(bars: list[dict], close: float, mas: dict, tol: float =
     # chân các cây nến tăng mạnh có khối lượng (nơi tiền vào) — chỉ là MỘT nguồn của vùng hỗ trợ
     for x in extra or []:
         pts.append({"gia": x["chan"], "ngay": x["ngay"], "loai": "chân nến tăng mạnh", "w": 1.5})
+    # 14/10/2026: một nến đáy/đỉnh bị cửa sổ ±3, ±8 và "đáy/đỉnh 20 phiên" bắt trùng → trước đây cộng 2–3 lần chạm
+    # cho CÙNG một pivot. Gộp theo (ngày, loại giá): giữ trọng số lớn nhất, hợp nguồn, chỉ tính 1 lần chạm.
+    gop: dict = {}
+    for p in pts:
+        if not p["ngay"]:
+            gop[("vol", p["gia"], len(gop))] = p
+            continue
+        cao = p["loai"] in ("đỉnh cũ", "đỉnh 20 phiên")
+        k = (p["ngay"], "h" if cao else ("l" if p["loai"] in ("đáy cũ", "đáy 20 phiên") else p["loai"]))
+        if k in gop:
+            q = gop[k]
+            q["w"] = max(q["w"], p["w"])
+            q.setdefault("them", set()).add(p["loai"])
+        else:
+            gop[k] = dict(p)
+    pts = list(gop.values())
     pts.sort(key=lambda x: x["gia"])
     zones: list[dict] = []
     for p in pts:
@@ -110,11 +126,12 @@ def vung_ho_tro_khang_cu(bars: list[dict], close: float, mas: dict, tol: float =
             z["den"] = max(z["den"], p["gia"])
             z["diem"] += p["w"]
             z["nguon"].add(p["loai"])
+            z["nguon"].update(p.get("them") or ())
             if p["loai"] != "vùng khối lượng lớn":
                 z["cham"] += 1
                 z["ngay_gan_nhat"] = max(z["ngay_gan_nhat"], p["ngay"])
         else:
-            zones.append({"tu": p["gia"], "den": p["gia"], "diem": p["w"], "nguon": {p["loai"]},
+            zones.append({"tu": p["gia"], "den": p["gia"], "diem": p["w"], "nguon": {p["loai"]} | set(p.get("them") or ()),
                           "cham": 0 if p["loai"] == "vùng khối lượng lớn" else 1, "ngay_gan_nhat": p["ngay"]})
     for z in zones:
         for k in ("ma50", "ma200"):
@@ -256,10 +273,11 @@ def analyse(bars: list[dict], index_bars: list[dict] | None = None, is_index: bo
     d["nen_phat_dong"] = lc
     sup, res, dang = vung_ho_tro_khang_cu(bars, close, {"ma50": d.get("ma50"), "ma200": d.get("ma200")},
                                           tol=0.008 if is_index else 0.015, extra=lc)
-    bb = bollinger(c)
-    sup, res, d["sr_tu_bb"] = bb_lam_ho_tro_khang_cu(sup, res, bb, close, dang=dang)
+    # 14/10/2026 (Sơn): đã có vùng hỗ trợ/kháng cự thì không dùng Bollinger làm mốc nữa.
+    # Phía nào không có vùng ≥2 sao trong tầm thì để trống, không lấp bằng dải BB.
+    d["sr_tu_bb"] = {"ho_tro": False, "khang_cu": False}
     d["ho_tro_gan"], d["khang_cu_gan"], d["vung_dang_test"] = sup, res, dang
-    d["bollinger"] = bb
+    d["bollinger"] = None
     # khoảng trống giá chưa lấp trong 60 phiên (gap xuống/lên)
     gaps = []
     for i in range(max(1, len(bars) - 60), len(bars)):

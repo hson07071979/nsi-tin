@@ -1,0 +1,401 @@
+{
+ "ngay": "2026-10-14",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Breadth hai nguồn lệch: 119 tăng/158 giảm (chính) và 128/163 (đếm đối chiếu). Giữ số chính.",
+  "Tự doanh chỉ có tới phiên 13/10; bản Gemini đã ghi đúng ngày.",
+  "Đèn NSI trong FACT ghi 'không đọc được' — thiếu dữ liệu đèn, không suy ra màu; bỏ câu đèn khỏi slide.",
+  "Hóa chất (ngành −1,62%) bị gọi là nhóm hút tiền → sửa: chỉ vài mã phân bón (CSV, DCM).",
+  "Regime Rotation/Divergence dựa trên một phiên → đổi thành 'Dò đáy, phân hóa — chưa xác nhận xoay vòng'.",
+  "Xác nhận VN-Index 'vượt 1.715' mới là vào vùng kháng cự 1.715–1.741 → sửa thành đóng cửa trên 1.741.",
+  "Lời thoại gán nhân quả tỷ giá → khối ngoại bán ròng; sửa thành biến cần theo dõi.",
+  "VCI chưa lấy lại MA10 (18,6 < 18,77); GMD đang dưới MA10, không phải 'trên toàn bộ MA'.",
+  "Mốc thiếu căn cứ FACT: LPB 37,0 · SSI 18,4 · VCI 17,9 · VHM 59,5 · BSR 29,58/32,5 · MWG 69,8 · CSV 21,7 · FPT 55,0 · VPB 26,5 · PVS 35,0 → bỏ hoặc thay bằng biên vùng có trong FACT.",
+  "Kháng cự kế tiếp bỏ qua vùng gần ở nhiều mã (TCB, MBB, LPB, SSI, VHM, VIC, DXG, NKG, HSG, VGC, GVR, CTD, MWG, MSN, GMD, DCM, CSV, ANV, TNG, NT2, DPR, FPT) → đổi về biên vùng gần nhất.",
+  "Lời thoại đọc 'mục tiêu', 'dừng lỗ', 'SL' → đổi thành kháng cự/hỗ trợ kế tiếp.",
+  "Vĩ mô: số lấy từ dữ liệu tự động (DXY 15:12, Brent 15:11, US10Y 01:59, USD/VND 10:45); chưa có ảnh chart xác nhận của anh Sơn."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "signature.co_phieu_noi_gi",
+   "gia_tri": "Độ rộng nghiêng về bên giảm (119 tăng/158 giảm) nhưng không phải bán tháo; tiền chọn lọc vào thép và vài mã phân bón, thủy sản."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.nguon_goc",
+   "gia_tri": "Vùng hỗ trợ gồm chân nến tăng mạnh, đáy cũ, đỉnh cũ và đáy 20 phiên (1.699,23 điểm)"
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.vi_sao_thi_truong_nhan_ra",
+   "gia_tri": "Giá đã nhiều lần phản ứng ở vùng này; dải Bollinger dưới (~1.698,6) nằm trong vùng, dùng làm tham chiếu bổ trợ"
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Đóng cửa dưới 1.687 thì hỗ trợ kế tiếp là vùng 1.650,74–1.665,36 điểm (gồm đáy 60 phiên 1.651,2)"
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.xac_nhan",
+   "gia_tri": "Đóng cửa vượt lên trên vùng kháng cự 1.715–1.741 điểm (biên trên 1.741) kèm khớp lệnh trên mức TB20 ~12.800 tỷ đồng"
+  },
+  {
+   "duong_dan": "regime.ten",
+   "gia_tri": "Dò đáy, phân hóa — chưa xác nhận xoay vòng"
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "regime.ung_ho[1]",
+   "gia_tri": "Thép (Tài nguyên cơ bản +1,81%) và vài mã phân bón, thủy sản tăng với khối lượng lớn ngược chỉ số"
+  },
+  {
+   "duong_dan": "xoay_vong",
+   "gia_tri": "Một phiên chưa đủ để kết luận xoay vòng. Hôm nay khối ngoại bán tập trung nhóm Vin, đồng thời thép (Tài nguyên cơ bản +1,81%), vài mã phân bón (CSV, DCM) và thủy sản (ANV) tăng với khối lượng lớn; ngành Hóa chất nói chung vẫn giảm 1,62%. Nhóm tài chính phân hóa (Ngân hàng −0,18%, Dịch vụ tài chính +0,38%), chưa xác nhận cho chỉ số."
+  },
+  {
+   "duong_dan": "luan_diem_chinh[3]",
+   "gia_tri": "Thép và vài mã phân bón, thủy sản tăng ngược dòng: NKG trần (+6,82%), HSG +4,48%, CSV trần (+6,85%), ANV +6,21%."
+  },
+  {
+   "duong_dan": "phien_toi.lam_yeu[0]",
+   "gia_tri": "VHM đóng cửa thủng 60,2 (biên dưới vùng đang test) kéo theo tâm lý tiêu cực toàn sàn"
+  },
+  {
+   "duong_dan": "phien_toi.xac_nhan[0]",
+   "gia_tri": "VN-Index đóng cửa vượt lên trên vùng 1.715–1.741 điểm kèm thanh khoản khớp lệnh trên 12.800 tỷ đồng"
+  },
+  {
+   "duong_dan": "nganh[0].ma[0].muc_tieu",
+   "gia_tri": 34.08
+  },
+  {
+   "duong_dan": "nganh[0].ma[0].thung_thi",
+   "gia_tri": "Nếu thủng 31,6 thì gãy xu hướng tích lũy, về vùng 30,6–31,4"
+  },
+  {
+   "duong_dan": "nganh[0].ma[1].muc_tieu",
+   "gia_tri": 19.6
+  },
+  {
+   "duong_dan": "nganh[0].ma[1].cau_truc",
+   "gia_tri": "Vượt lại trên MA10 (19,16), đang ở trong vùng 18,8–19,4"
+  },
+  {
+   "duong_dan": "nganh[0].ma[1].thung_thi",
+   "gia_tri": "Thủng vùng 18,26–18,65 thì về đáy cũ 17,79"
+  },
+  {
+   "duong_dan": "nganh[0].ma[2].muc_tieu",
+   "gia_tri": 24.52
+  },
+  {
+   "duong_dan": "nganh[0].ma[2].thung_thi",
+   "gia_tri": "Thủng 23,5 thì mốc dưới là MA50 ~21,7 và MA200 ~21,4, sâu hơn là khoảng trống giá 20,4–20,5"
+  },
+  {
+   "duong_dan": "nganh[0].ma[3].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[0].ma[3].muc_tieu",
+   "gia_tri": 38.51
+  },
+  {
+   "duong_dan": "nganh[1].ma[0].sl",
+   "gia_tri": 17.34
+  },
+  {
+   "duong_dan": "nganh[1].ma[0].muc_tieu",
+   "gia_tri": 19.2
+  },
+  {
+   "duong_dan": "nganh[1].ma[1].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[1].ma[1].cau_truc",
+   "gia_tri": "Hồi 1,36% lên 18,6, áp sát nhưng chưa lấy lại MA10 (18,77)"
+  },
+  {
+   "duong_dan": "nganh[1].ma[2].muc_tieu",
+   "gia_tri": 12.2
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].moc_theo_doi",
+   "gia_tri": 60.19
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].sl",
+   "gia_tri": 54.65
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].muc_tieu",
+   "gia_tri": 62.11
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].thung_thi",
+   "gia_tri": "Thủng 60,2 sẽ trôi về vùng hỗ trợ sâu 53,6–54,6"
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].muc_tieu",
+   "gia_tri": 219.1
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].cau_truc",
+   "gia_tri": "Giảm 1,62% về 218,4, nằm ngay trên vùng hỗ trợ 211,5–215,2"
+  },
+  {
+   "duong_dan": "nganh[2].ma[2].muc_tieu",
+   "gia_tri": 10.15
+  },
+  {
+   "duong_dan": "nganh[3].ma[0].sl",
+   "gia_tri": 20.1
+  },
+  {
+   "duong_dan": "nganh[3].ma[1].muc_tieu",
+   "gia_tri": 10.95
+  },
+  {
+   "duong_dan": "nganh[3].ma[2].sl",
+   "gia_tri": 10.0
+  },
+  {
+   "duong_dan": "nganh[3].ma[2].muc_tieu",
+   "gia_tri": 10.9
+  },
+  {
+   "duong_dan": "nganh[4].ma[0].muc_tieu",
+   "gia_tri": 44.28
+  },
+  {
+   "duong_dan": "nganh[4].ma[1].muc_tieu",
+   "gia_tri": 31.85
+  },
+  {
+   "duong_dan": "nganh[4].ma[1].thung_thi",
+   "gia_tri": "Thủng 30,5 sẽ thoái lui về vùng 29,1–29,75"
+  },
+  {
+   "duong_dan": "nganh[5].ma[0].muc_tieu",
+   "gia_tri": 63.8
+  },
+  {
+   "duong_dan": "nganh[6].ma[0].muc_tieu",
+   "gia_tri": 33.25
+  },
+  {
+   "duong_dan": "nganh[6].ma[1].moc_theo_doi",
+   "gia_tri": 29.95
+  },
+  {
+   "duong_dan": "nganh[6].ma[1].muc_tieu",
+   "gia_tri": 31.05
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].sl",
+   "gia_tri": 70.56
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].muc_tieu",
+   "gia_tri": 74.43
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].thung_thi",
+   "gia_tri": "Thủng 68,9 thì về đáy cũ 67,7"
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].sl",
+   "gia_tri": 69.72
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].muc_tieu",
+   "gia_tri": 73.0
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].muc_tieu",
+   "gia_tri": 53.74
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].cau_truc",
+   "gia_tri": "Nằm trên MA20, MA50, MA200, sát dưới MA10 (53,09); đóng cửa 53,0 (+0,95%)"
+  },
+  {
+   "duong_dan": "nganh[9].ma[0].muc_tieu",
+   "gia_tri": 34.84
+  },
+  {
+   "duong_dan": "nganh[9].ma[0].cau_truc",
+   "gia_tri": "Tăng 3,18% lên 34,1 nhưng khối lượng chỉ 0,65 lần TB20; nằm trên MA10, MA20 và MA50"
+  },
+  {
+   "duong_dan": "nganh[9].ma[1].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[9].ma[1].muc_tieu",
+   "gia_tri": 23.45
+  },
+  {
+   "duong_dan": "nganh[9].ma[1].thung_thi",
+   "gia_tri": "Thủng 22,0 sẽ phủ nhận nhịp bứt phá"
+  },
+  {
+   "duong_dan": "nganh[9].ma[1].xac_nhan",
+   "gia_tri": "Giữ vững giá đóng cửa trên mốc 23,1"
+  },
+  {
+   "duong_dan": "nganh[10].ma[0].muc_tieu",
+   "gia_tri": 19.7
+  },
+  {
+   "duong_dan": "nganh[10].ma[1].muc_tieu",
+   "gia_tri": 18.89
+  },
+  {
+   "duong_dan": "nganh[11].ma[0].muc_tieu",
+   "gia_tri": 23.55
+  },
+  {
+   "duong_dan": "nganh[12].ma[0].sl",
+   "gia_tri": 36.7
+  },
+  {
+   "duong_dan": "nganh[12].ma[0].muc_tieu",
+   "gia_tri": 38.3
+  },
+  {
+   "duong_dan": "nganh[12].ma[0].thung_thi",
+   "gia_tri": "Thủng 35,9 thì về vùng 35,0, sâu hơn là đáy 34,4"
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].muc_tieu",
+   "gia_tri": 58.82
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "HPG giữ trên 20,1 và FPT giữ trên 55,8 hiện vẫn đang đi đúng kế hoạch.",
+   "thay": "HPG vẫn giữ trên 20,1. FPT trong phiên có lúc xuống 55,8, thấp hơn mốc 55,9, nhưng đóng cửa 57,1 nên mốc này chưa bị vô hiệu."
+  },
+  {
+   "tim": "DXY neo cao là một áp lực cần theo dõi vì kênh truyền dẫn tỷ giá đang tác động trực tiếp đến dòng vốn ngoại.",
+   "thay": "DXY neo cao là một áp lực cần theo dõi qua kênh tỷ giá và dòng vốn ngoại."
+  },
+  {
+   "tim": "Dù chưa vượt đỉnh 20 phiên là 26.020 đồng nhưng đây vẫn là vùng giá cao, khiến khối ngoại chưa thể dừng bán ròng.",
+   "thay": "Mức này vẫn dưới đỉnh 20 phiên là 26.020 đồng."
+  },
+  {
+   "tim": "Nghĩa là bức tranh thế giới không có cú sốc nào mới, áp lực chủ yếu vẫn là câu chuyện tỷ giá neo cao khiến khối ngoại duy trì đà rút ròng.",
+   "thay": "Nghĩa là bức tranh thế giới không có cú sốc nào mới. Tỷ giá là biến cần theo dõi, nhưng dữ liệu hôm nay chưa đủ để nói nó là nguyên nhân khối ngoại bán ròng."
+  },
+  {
+   "tim": "Nếu một phiên giảm 15 điểm do thị trường chung gãy đổ, số mã giảm thường phải gấp 3 đến gấp 4 lần số mã tăng.",
+   "thay": "Một phiên gãy đổ diện rộng thường có số mã giảm áp đảo hơn nhiều."
+  },
+  {
+   "tim": "với 4 lần chạm phản ứng giá",
+   "thay": "và giá đã nhiều lần phản ứng ở đây"
+  },
+  {
+   "tim": " — đây là vùng hỗ trợ rất mạnh với 6 lần chạm",
+   "thay": ""
+  },
+  {
+   "tim": "Nếu giữ được mốc này, mục tiêu hướng lên vùng cản cũ 34,1 đến 35,0. Thủng 31,6 thì cấu trúc gãy, mức dừng lỗ tham chiếu quanh 31,6, cách khoảng hơn 4% tính từ giá đóng cửa.",
+   "thay": "Nếu giữ được mốc này, kháng cự gần là vùng 34,1 đến 35,0. Thủng 31,6 thì cấu trúc gãy, hỗ trợ kế tiếp là vùng 30,6 đến 31,4."
+  },
+  {
+   "tim": "mục tiêu ngắn hạn là vùng cản 19,6 đến 20,2",
+   "thay": "kháng cự gần là vùng 19,6 đến 20,2"
+  },
+  {
+   "tim": "Nếu giữ được mốc này, mục tiêu kiểm định lại cản cũ 19,2, xa hơn là 19,6 đến 20,1. Thủng 18,65 thì cấu trúc yếu đi rõ rệt, dừng lỗ tham chiếu quanh 18,65 để tránh rủi ro về 17,3.",
+   "thay": "Nếu giữ được mốc này, kháng cự gần là 19,2, xa hơn là 19,65 đến 20,1. Thủng 18,65 thì cấu trúc yếu đi rõ rệt, hỗ trợ kế tiếp lùi về 17,3."
+  },
+  {
+   "tim": "VCI tăng 1,36% lên 18,6, lấy lại MA10 với thanh khoản đạt mức trung bình 20 phiên. Hỗ trợ theo dõi là 18,0 đến 18,15",
+   "thay": "VCI tăng 1,36% lên 18,6, áp sát nhưng chưa lấy lại MA10 quanh 18,8, thanh khoản ngang trung bình 20 phiên. Hỗ trợ theo dõi là 18,05 đến 18,15"
+  },
+  {
+   "tim": "Giữ vững mốc này thì mục tiêu hướng tới là vùng cản 21,5 đến 22,0. Thủng 20,3 thì dừng lỗ tham chiếu quanh 20,3.",
+   "thay": "Giữ vững mốc này thì kháng cự gần là vùng 21,55 đến 22,1. Thủng MA10 thì hỗ trợ kế tiếp là vùng 19,6 đến 20,1."
+  },
+  {
+   "tim": "mục tiêu ngắn hạn kiểm định lại vùng 10,9 đến 11,4",
+   "thay": "kháng cự gần là 10,95 đến 11,0, sau đó là 11,25 đến 11,4"
+  },
+  {
+   "tim": "do ngoại bán ròng hơn 94 tỷ",
+   "thay": "cùng lúc khối ngoại bán ròng hơn 94 tỷ"
+  },
+  {
+   "tim": "cản gần là đỉnh cũ 23,45",
+   "thay": "cản gần là đỉnh 20 phiên 23,45"
+  },
+  {
+   "tim": "Nếu giữ được mốc này, mục tiêu hồi kỹ thuật là cản cũ 58,8. Nếu thủng 55,8 thì cấu trúc tiếp tục dò đáy, dừng lỗ tham chiếu quanh 55,8.",
+   "thay": "Nếu giữ được mốc này, kháng cự gần là 58,8. Nếu thủng 55,8 thì cấu trúc tiếp tục dò đáy, bên dưới chưa có vùng hỗ trợ rõ trong dữ liệu."
+  },
+  {
+   "tim": "nếu những phiên tới giữ vững trên mốc này thì mục tiêu hướng tới là vùng kháng cự đỉnh cũ quanh 11,2 đến 11,4.",
+   "thay": "nếu những phiên tới giữ vững trên mốc này thì kháng cự gần là 10,95 đến 11,0, xa hơn là đỉnh cũ 11,25 đến 11,4."
+  },
+  {
+   "tim": "Mốc em theo dõi hiện tại là vùng 60,0; nếu thủng tiếp mốc này",
+   "thay": "Mốc em theo dõi hiện tại là 60,2, biên dưới vùng đang test; nếu thủng mốc này"
+  },
+  {
+   "tim": "thủng 31,6 thì cấu trúc mới gãy, SL quanh 31,6. Nếu TCB bứt phá vượt qua 33,7 thì mục tiêu là vùng đỉnh cũ 35,0.",
+   "thay": "thủng 31,6 thì cấu trúc mới gãy. Nếu TCB vượt qua 33,7 thì kháng cự kế tiếp là vùng 34,1 đến 35,0."
+  },
+  {
+   "tim": "em xếp trạng thái thị trường vào dạng Phân hóa xoay vòng trong bối cảnh thiếu tiền. Bằng chứng ủng hộ là độ rộng thị trường không tiêu cực, dòng tiền chủ động tìm đến nhóm thép, thủy sản, hóa chất",
+   "thay": "em xếp trạng thái thị trường là dò đáy trong vùng hỗ trợ, phân hóa và thiếu tiền. Dấu hiệu xoay vòng mới có một phiên nên em chưa coi là xác nhận. Bằng chứng là độ rộng không xấu như điểm số, tiền tìm đến thép, vài mã phân bón và thủy sản"
+  },
+  {
+   "tim": "VHM tiếp tục thủng mốc 60,0",
+   "thay": "VHM tiếp tục thủng mốc 60,2"
+  },
+  {
+   "tim": "Giữ được vùng này thì cơ hội phân hóa tìm kiếm lợi nhuận ngắn hạn ở các mã riêng lẻ vẫn còn nguyên.",
+   "thay": "Giữ được vùng này thì trạng thái phân hóa ở từng mã riêng lẻ vẫn còn."
+  }
+ ],
+ "slide": {
+  "cau_hoi": "VN-Index mất 14,5 điểm, riêng nhóm Vin lấy 12,7 — thị trường xấu đi thật hay chỉ số đang bị méo?",
+  "regime": "Dò đáy, phân hóa — chưa xác nhận",
+  "ma_dang_noi": [
+   "VHM",
+   "NKG",
+   "TCB"
+  ],
+  "ly_do": {
+   "VHM": "Góp −5,78 điểm, thủng MA200 và đóng cửa ở đáy 20 phiên, khối ngoại bán ròng ~152 tỷ.",
+   "NKG": "Tăng trần với khối lượng 3,4 lần TB20, vượt MA10/20/50 — đại diện nhóm thép ngược dòng.",
+   "TCB": "Ngân hàng tư nhân lớn giữ trên cả 4 đường MA, Bollinger bóp chặt — thước đo nhóm tài chính."
+  },
+  "tieu_de_ma": {
+   "VHM": "thủng MA200, về đáy 20 phiên",
+   "NKG": "trần, khối lượng 3,4 lần",
+   "TCB": "giữ trên MA, chờ vượt 33,7"
+  }
+ },
+ "audit_meta": {
+  "kiem_luc": "2026-10-14T22:28+07:00",
+  "commit_dau_vao": "a3fdf2e",
+  "sha256_nguon": "cd6b371f1fb3a0b4",
+  "sha256_ban_goc": "754f9fe08dd11ad2",
+  "sha256_fc": "c599c0a2ec95d1e6",
+  "van_de_mo": [
+   "Chưa có ảnh DXY/Brent/US10Y được anh Sơn xác nhận; bộ dựng PPT chưa nối phần ảnh vĩ mô",
+   "Đèn NSI không đọc được trong FACT"
+  ]
+ }
+}

@@ -1,0 +1,244 @@
+{
+ "ngay": "2026-10-15",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Regime: Gemini gọi Bottoming process nhưng nhóm chứng khoán chưa xác nhận (SSI 19,25 vẫn dưới MA10 19,29 sau 15 phiên, cả nhóm dưới MA50) → đổi thành hồi kỹ thuật / dò đáy chưa xác nhận; bỏ câu 'đèn NSI'.",
+  "Index distortion sai số học: '5 mã lấy gần 8 điểm, phần còn lại chỉ giảm 2,8' — thực tế 5 mã −8,1, phần còn lại +1,6; con số −2,82 là phần ngoài Vin và đã gồm BSR, GAS.",
+  "MWG đóng 72,8 dưới MA20 73,1 nhưng bản Gemini ghi 'giữ trên MA20' → sửa.",
+  "BSR đóng 28,2 dưới MA50 28,53, không phải 'tại hỗ trợ MA50' → sửa. HPG: 'cản MA50 tại 21,55' sai, MA50 là 21,23 → ghi vùng cản 21,55–22,1.",
+  "Mốc thế giới không có trong FACT nên bỏ: Brent đáy 20 phiên 99,25; USD/VND đáy 25.889; US10Y 'tăng 18 điểm cơ bản'; HRC Mỹ 1.344 USD. Tin 'đẩy mạnh dự án hạ tầng' không có nguồn → bỏ.",
+  "Nhân quả: 'đỏ do khối ngoại', 'dầu khí/BSR giảm do giá dầu' → đổi thành tương quan/áp lực cần theo dõi. Xoay vòng mới 1 phiên → ghi chưa đủ kết luận.",
+  "Lời thoại đọc 'mục tiêu', 'SL', 'điểm dừng', 'giải ngân', dặn đặt dừng lỗ BSR → đổi thành hỗ trợ/kháng cự kế tiếp, bỏ câu chỉ định. VCG: kháng cự kế tiếp gần nhất là 15,1 (đỉnh 20 phiên), không phải 15,4.",
+  "DXY hai nguồn: 102,03 (15:11) và 102,20 (bản tin 7h) — đã ghi rõ giờ, giữ cả hai.",
+  "Không đối chiếu được với brief (không có trong FACT): giá trị khớp MBB 646, SSI 457, VIX 507, HPG 440, BSR 580 tỷ; giá các mã BSI, DIG, TCH, HSG, VGC, KBC, GAS, PVT, FRT, DGW, HAH, BFC, CSV, IDI, MSH; '25 mã CK tăng/3 giảm'. Anh Sơn kiểm lại nếu đọc trên sóng.",
+  "Thanh khoản so phiên trước: +33,8% (không phải 33,7%). 'Kênh trên/dưới' (VPB, STB) đổi thành vị trí so với MA."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "regime.ten",
+   "gia_tri": "Hồi kỹ thuật / dò đáy, chưa xác nhận"
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "thanh_khoan",
+   "gia_tri": "Tổng giá trị giao dịch HOSE đạt 15.043,5 tỷ đồng, thỏa thuận 1.026 tỷ đồng (chiếm 6,8%). Khớp lệnh thực tế đạt 14.017,5 tỷ đồng, tăng 33,8% so với mức 10.479,5 tỷ của phiên trước và cao hơn 10% so với mức trung bình 20 phiên (12.751 tỷ). Thị trường hôm nay ở trạng thái có tiền tham gia khớp lệnh chủ động."
+  },
+  {
+   "duong_dan": "index_distortion",
+   "gia_tri": "Nhóm Vin tác động giảm 3,7 điểm (VHM −3,55, VIC −0,63; VRE +0,09, VPL +0,39). Phần còn lại ngoài nhóm Vin giảm 2,82 điểm, trong đó riêng BSR (−1,96) và GAS (−1,19) đã chiếm 3,15 điểm. Loại VHM, BSR, GAS, BVH, STB (tổng −8,1) thì phần còn lại tăng khoảng 1,6 điểm: chỉ số bị kéo lệch bởi vài trụ bất động sản, dầu khí, bảo hiểm."
+  },
+  {
+   "duong_dan": "the_gioi[2].nguong",
+   "gia_tri": "Đỉnh 20 phiên 106,65 USD/thùng"
+  },
+  {
+   "duong_dan": "the_gioi[2].he_qua_neu_vuot",
+   "gia_tri": "Vượt 106,65 USD/thùng làm tăng áp lực chi phí năng lượng và lạm phát kỳ vọng"
+  },
+  {
+   "duong_dan": "the_gioi[3].nguong",
+   "gia_tri": "Đỉnh 20 phiên 26.020 đồng"
+  },
+  {
+   "duong_dan": "the_gioi[3].he_qua_neu_vuot",
+   "gia_tri": "Vượt 26.020 đồng sẽ tăng áp lực tỷ giá và dòng vốn ngoại"
+  },
+  {
+   "duong_dan": "xoay_vong",
+   "gia_tri": "Trong phiên có dấu hiệu xoay vòng: bán ở năng lượng (BSR, GAS), bảo hiểm và trụ bất động sản (VHM), tiền vào chứng khoán và đầu tư công (VCG, CII, HHV). Mới một phiên, chưa đủ kết luận xoay vòng bền."
+  },
+  {
+   "duong_dan": "nganh[0].nhan_dinh",
+   "gia_tri": "Phân hóa: MBB, VPB được khối ngoại mua ròng; STB, TCB, CTG bị bán ròng, STB giảm mạnh nhất nhóm."
+  },
+  {
+   "duong_dan": "nganh[0].ma[2].cau_truc",
+   "gia_tri": "Giảm 2,79% về 62,8, nằm dưới cả bốn đường MA, khối lượng gấp 2,24 lần trung bình."
+  },
+  {
+   "duong_dan": "nganh[0].ma[4].cau_truc",
+   "gia_tri": "Nằm trên toàn bộ MA10, 20, 50, 200, đóng cửa 24,45 tăng 0,41%."
+  },
+  {
+   "duong_dan": "nganh[3].ma[0].xac_nhan",
+   "gia_tri": "Vượt vùng cản 21,55–22,1."
+  },
+  {
+   "duong_dan": "nganh[5].ma[0].muc_tieu",
+   "gia_tri": 15.1
+  },
+  {
+   "duong_dan": "nganh[6].nhan_dinh",
+   "gia_tri": "Giảm 4,94%, chỉ sau bảo hiểm; BSR giảm sâu kéo tụt. Brent giảm gần 2% là tương quan, chưa đủ chứng minh nhân quả."
+  },
+  {
+   "duong_dan": "nganh[6].ma[0].cau_truc",
+   "gia_tri": "Giảm 6,31% về 28,2, đóng cửa dưới MA50 (28,53), tại đáy 20 phiên."
+  },
+  {
+   "duong_dan": "nganh[7].nhan_dinh",
+   "gia_tri": "Điều chỉnh nhẹ, MWG lùi dưới MA20 nhưng còn giữ MA50."
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].cau_truc",
+   "gia_tri": "Đóng 72,8 (-0,95%), dưới MA10 và MA20, giữ trên MA50 trong vùng tích lũy 72,04–74,14."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Mức này tăng hơn 18 điểm cơ bản trong hai mươi phiên vừa qua. ",
+   "thay": ""
+  },
+  {
+   "tim": "sát đáy hai mươi phiên, tức là",
+   "thay": "thấp hơn đỉnh hai mươi phiên 26.020 đồng, tức là"
+  },
+  {
+   "tim": "Dầu hạ nhiệt thì tốt cho lạm phát kỳ vọng, nhưng nó phản ánh ngay vào nhóm cổ phiếu dầu khí trong nước hôm nay.",
+   "thay": "Dầu hạ nhiệt thì tốt cho lạm phát kỳ vọng, còn với nhóm dầu khí trong nước đây là một áp lực cần theo dõi."
+  },
+  {
+   "tim": "Giá thép cuộn cán nóng HRC bên Mỹ tăng lên 1.344 USD một tấn. Tuy nhiên, giá thép xây dựng",
+   "thay": "Giá thép xây dựng"
+  },
+  {
+   "tim": "Thế nhưng vì sao chỉ số vẫn đỏ? Đó là do dòng tiền ngoại.",
+   "thay": "Thế nhưng chỉ số vẫn đỏ. Một áp lực cần theo dõi là dòng tiền ngoại."
+  },
+  {
+   "tim": "đã lấy đi của thị trường gần 8 điểm rồi. Trong khi đó, phần còn lại của thị trường hôm nay ước tính chỉ giảm khoảng 2,8 điểm.",
+   "thay": "đã lấy đi của thị trường hơn 8 điểm rồi. Nếu loại năm mã này ra, phần còn lại của chỉ số ước tính còn tăng nhẹ khoảng 1,6 điểm."
+  },
+  {
+   "tim": "Điều này chứng minh điều gì?",
+   "thay": "Điều này cho thấy gì?"
+  },
+  {
+   "tim": "Đa số các cổ phiếu trên sàn không hề giảm theo chỉ số, mà ngược lại đang hồi phục rất tốt từ vùng đáy ngắn hạn.",
+   "thay": "Số mã tăng nhỉnh hơn số mã giảm, nên phần lớn cổ phiếu không giảm theo chỉ số."
+  },
+  {
+   "tim": "thị trường sẽ xác nhận tạo được vùng đáy tích lũy ngắn hạn",
+   "thay": "thị trường có cơ sở hình thành vùng đáy tích lũy ngắn hạn"
+  },
+  {
+   "tim": "Thủng 1.687 thì chắc chắn độ rộng",
+   "thay": "Thủng 1.687 thì nhiều khả năng độ rộng"
+  },
+  {
+   "tim": "chính là mốc quan sát quan trọng nhất",
+   "thay": "chính là mốc quan trọng nhất"
+  },
+  {
+   "tim": "giữ được 19,6 thì mục tiêu hướng tới vùng cản 20,22, còn thủng 19,6 thì SL quanh 18,82, cách giá này khoảng 5,4%.",
+   "thay": "giữ được 19,6 thì kháng cự kế tiếp là 20,22, còn thủng 19,6 thì hỗ trợ kế tiếp quanh 18,82."
+  },
+  {
+   "tim": "TCB cũng rất khỏe, giữ vững 32,9 trên cả bốn đường MA lớn, thanh khoản duy trì tốt,",
+   "thay": "TCB giảm nhẹ về 32,9 nhưng vẫn trên cả bốn đường MA lớn, khối ngoại bán ròng gần 96 tỷ,"
+  },
+  {
+   "tim": "VPB giữ vững sắc xanh 24,45 ở kênh trên.",
+   "thay": "VPB giữ vững sắc xanh 24,45, nằm trên cả bốn đường MA."
+  },
+  {
+   "tim": "mốc theo dõi là 20,12, mục tiêu cản tiếp theo là 20,74 và xa hơn là 21,65.",
+   "thay": "mốc theo dõi là 20,12, kháng cự kế tiếp là 20,74 và xa hơn là 21,65."
+  },
+  {
+   "tim": "mốc hỗ trợ theo dõi là 23,7, mục tiêu hướng tới 24,1.",
+   "thay": "mốc hỗ trợ theo dõi là 23,7, kháng cự kế tiếp là 24,1."
+  },
+  {
+   "tim": "thủng mốc này thì đáy cũ 18,65 là điểm dừng, mục tiêu kiểm định lại vùng 19,65–20,14.",
+   "thay": "thủng mốc này thì hỗ trợ kế tiếp là đáy cũ 18,65, kháng cự kế tiếp là vùng 19,65–20,14."
+  },
+  {
+   "tim": "Việc nhóm chứng khoán nổ khối lượng và đồng loạt vượt MA10 cho thấy dòng tiền đầu cơ đang có tín hiệu tạo đáy sớm ở nhóm tài chính.",
+   "thay": "Nhóm chứng khoán nổ khối lượng, HCM, VIX, CTS lấy lại MA10, nhưng SSI vẫn chưa vượt MA10 và cả nhóm còn dưới MA50, nên đây mới là tín hiệu sớm, chưa phải xác nhận đáy."
+  },
+  {
+   "tim": "mốc theo dõi là 10,15, mục tiêu là cản 10,7, điểm dừng nếu thủng là 9,76, cách khoảng 4,8%.",
+   "thay": "mốc theo dõi là 10,15, kháng cự kế tiếp là 10,7, thủng thì hỗ trợ kế tiếp là 9,76."
+  },
+  {
+   "tim": "giữ được mốc này thì mục tiêu hướng lên kiểm định cản 21,55,",
+   "thay": "giữ được mốc này thì kháng cự kế tiếp là vùng 21,55,"
+  },
+  {
+   "tim": "hỗ trợ theo dõi là 33,21, mục tiêu là 34,5.",
+   "thay": "hỗ trợ theo dõi là 33,21, kháng cự kế tiếp là 34,5."
+  },
+  {
+   "tim": "mốc theo dõi là 14,7, mục tiêu cản tiếp theo là 15,4, điểm dừng nếu thủng là 14,15.",
+   "thay": "mốc theo dõi là 14,7, kháng cự kế tiếp là 15,1 rồi 15,4, thủng thì hỗ trợ kế tiếp là 14,15."
+  },
+  {
+   "tim": "hỗ trợ theo dõi là 12,55, mục tiêu hướng tới 13,3.",
+   "thay": "hỗ trợ theo dõi là 12,55, kháng cự kế tiếp là 13,3."
+  },
+  {
+   "tim": "Nhóm dầu khí thì ngược lại, là nhóm gây thất vọng nhất hôm nay do ảnh hưởng từ giá dầu thế giới.",
+   "thay": "Nhóm dầu khí thì ngược lại, giảm gần 5%, chỉ sau bảo hiểm. Brent cũng giảm gần 2%, nhưng đó là tương quan, chưa đủ để nói dầu khí giảm vì giá dầu."
+  },
+  {
+   "tim": "MWG giảm gần 1% về 72,8, vẫn giữ trên MA20 và MA50",
+   "thay": "MWG giảm gần 1% về 72,8, vừa xuống dưới MA20 nhưng còn giữ MA50"
+  },
+  {
+   "tim": "thanh khoản đạt tới 646 tỷ đồng, cao gấp",
+   "thay": "thanh khoản cao gấp"
+  },
+  {
+   "tim": "Nếu giữ vững được trên 19,6 thì mục tiêu ngắn hạn là vùng đỉnh cũ 20,22. Còn nếu quay đầu thủng 19,6 thì điểm dừng lỗ kỹ thuật quanh 18,82, cách giá hiện tại khoảng 5,4%, hoàn toàn nằm trong chuẩn 7%.",
+   "thay": "Nếu giữ vững được trên 19,6 thì kháng cự kế tiếp là vùng 20,22. Còn nếu quay đầu thủng 19,6 thì hỗ trợ kế tiếp quanh 18,82."
+  },
+  {
+   "tim": "P/E là 6,5 lần, mức định giá rất hấp dẫn đối với một ngân hàng đầu ngành. MBB khỏe chứng tỏ dòng tiền lớn vẫn chọn lọc cổ phiếu cơ bản tốt để giải ngân.",
+   "thay": "P/E là 6,5 lần. MBB khỏe cho thấy dòng tiền vẫn đang chọn lọc trong nhóm ngân hàng."
+  },
+  {
+   "tim": "Nếu giữ được trên 14,7, mục tiêu hướng tới vùng cản tiếp theo là 15,4. Điểm dừng kỹ thuật nếu gãy cấu trúc là vùng 14,15, cách 5,7%.",
+   "thay": "Nếu giữ được trên 14,7, kháng cự kế tiếp là đỉnh 20 phiên 15,1, rồi 15,4. Nếu gãy cấu trúc, hỗ trợ kế tiếp là vùng 14,15."
+  },
+  {
+   "tim": " Cổ phiếu đầu tư công hút tiền khi có thông tin về đẩy mạnh tiến độ các dự án hạ tầng cuối năm.",
+   "thay": ""
+  },
+  {
+   "tim": "BSR đã rơi thủng MA10 và MA20, hiện đang nằm ngay tại ngưỡng hỗ trợ MA50 và đáy hai mươi phiên quanh 28,2.",
+   "thay": "BSR đã rơi thủng MA10, MA20 và đóng cửa dưới MA50 quanh 28,5, ngay đáy hai mươi phiên 28,2."
+  },
+  {
+   "tim": "Anh chị nào đang cầm thì mốc dừng kỹ thuật phải đặt ngay dưới 27,14, cách khoảng 3,8%. Đây là bài học rất rõ về việc quản trị rủi ro khi cổ phiếu chịu ảnh hưởng trực tiếp từ đà giảm của giá dầu thế giới.",
+   "thay": "Brent cũng giảm gần 2% hôm nay, nhưng đó mới là tương quan, chưa đủ để nói BSR giảm vì giá dầu."
+  },
+  {
+   "tim": "em đánh giá là Quá trình dò đáy, tức là Bottoming process, ở trạng thái có tiền. Dù hệ thống ghi nhận đèn NSI không đọc được số liệu, nhưng hành vi giá và khối lượng thực tế cho thấy",
+   "thay": "em đánh giá là hồi kỹ thuật, dò đáy nhưng chưa có xác nhận, ở trạng thái có tiền. Hành vi giá và khối lượng thực tế cho thấy"
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Chỉ số đỏ nhưng bên trong đang khỏe lại, hay chỉ vài nhóm gồng tạm?",
+  "regime": "Hồi kỹ thuật / dò đáy, chưa xác nhận",
+  "ma_dang_noi": [
+   "MBB",
+   "VCG",
+   "BSR"
+  ],
+  "ly_do": {
+   "MBB": "Trụ đỡ lớn nhất (+1,14 điểm), khối lượng gấp ~3 lần, khối ngoại mua ròng 101 tỷ.",
+   "VCG": "Đại diện đầu tư công nổ khối lượng gấp ~3 lần, áp sát đỉnh 20 phiên 15,1.",
+   "BSR": "Chiều ngược lại: −6,31%, lấy gần 2 điểm, đóng dưới MA50 tại đáy 20 phiên."
+  },
+  "tieu_de_ma": {
+   "MBB": "thử cản MA50, giữ 19,6",
+   "VCG": "áp sát cản 15,1",
+   "BSR": "thủng MA50, test đáy 28,2"
+  }
+ }
+}

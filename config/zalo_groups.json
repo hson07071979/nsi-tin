@@ -35,6 +35,16 @@
         "balance"
       ],
       "id": "5871586553296739267"
+    },
+    {
+      "key": "finedu",
+      "name": "FinEdu - Go To The Moon",
+      "match": [
+        "finedu",
+        "fin edu",
+        "go to the moon"
+      ],
+      "id": ""
     }
   ]
 }

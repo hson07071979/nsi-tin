@@ -1,0 +1,244 @@
+{
+ "ngay": "2026-10-16",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Đối chiếu FACT: VN-Index, breadth, thanh khoản khớp (9.918 tỷ, 0,78×TB20), khối ngoại, đóng góp Vin và giá/MA/vùng của 27 mã khớp bản Gemini.",
+  "Breadth hai nguồn lệch: 165 tăng/118 giảm (chính) và 174/120 (đếm đối chiếu). Giữ số chính.",
+  "Regime Technical rebound/thiếu tiền khớp bằng chứng. Nhưng 'chứng khoán hồi phục đồng thuận' sai: ngành Dịch vụ tài chính −0,01%, chỉ CTS/BSI mạnh → sửa ung_ho, signature và câu thoại.",
+  "'Chuỗi 18 phiên dưới MA10' là số của FPT, không phải VN-Index; 'sức mạnh tương đối CTG +7,2%' và 'thanh khoản ngân hàng 3.460 tỷ' không có trong FACT → bỏ.",
+  "Mốc không có căn cứ bị bỏ: DXY hỗ trợ 100,4, đáy 20 phiên US10Y 4,963 và Brent 99,25 (FACT chỉ có đỉnh); gap 20,45 (CTS), gap của BSI, gap 41,1 (VGC). DXY 7h 102,045 không có trong FACT.",
+  "MBB: 'đáy 20 phiên 18,26' sai — đáy 20 phiên là 18,65, 18,26 là biên dưới vùng HT 18,26–18,65. IDC đang dưới MA20 (33,9 < 33,99), không phải 'trên MA20'.",
+  "Số không có trong FACT bị bỏ khỏi lời thoại: SHS 12,3, VND 13,25/32 phiên, PVS 31,4, VCG +11% 5 phiên, NKG +11,95%, tin DGW doanh thu kỷ lục; MSN/BFC/CSV/NT2/DPR/KBC/PLX trong nhan_dinh cũng không có số đối chiếu.",
+  "Đối chiếu dự báo FPT 'giữ 55,9–56,1': đáy 20 phiên 55,8 (14/10) xuyên nhẹ dưới 55,9. Chấm ĐÚNG chỉ hợp lệ nếu tiêu chí là giá đóng cửa — anh Sơn xác nhận. Hai dòng FPT/SSI không nằm trong danh sách sổ dự báo đang mở của brief.",
+  "Ngôn từ: bỏ 'mục tiêu' (→ kháng cự kế tiếp), 'cắt lỗ' (SSI), 'điểm dừng' (VIC), 'mốc dạng CẦN', 'đèn NSI'; nắn câu nhân quả US10Y→khối ngoại, DXY→tỷ giá, FPT 'giải tỏa áp lực' cho vốn hóa lớn; 'định giá rất hấp dẫn' → so sánh P/B.",
+  "Tự doanh phiên hôm nay chưa có (mới tới 13/10) — bản Gemini đã ghi đúng."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "signature.co_phieu_noi_gi",
+   "gia_tri": "Độ rộng nghiêng về sắc xanh với 165 mã tăng so với 118 mã giảm; ngân hàng dẫn nhịp hồi, chứng khoán phân hóa."
+  },
+  {
+   "duong_dan": "the_gioi[0].nguong",
+   "gia_tri": "Đỉnh 20 phiên tại 5,311%"
+  },
+  {
+   "duong_dan": "the_gioi[1].muc",
+   "gia_tri": "101,809 điểm (lúc 15:11)"
+  },
+  {
+   "duong_dan": "the_gioi[1].nguong",
+   "gia_tri": "Đỉnh 20 phiên tại 102,58"
+  },
+  {
+   "duong_dan": "the_gioi[2].nguong",
+   "gia_tri": "Cao nhất 20 phiên 106,65 USD/thùng"
+  },
+  {
+   "duong_dan": "regime.ung_ho[0]",
+   "gia_tri": "Chỉ số bật tăng từ vùng hỗ trợ 1.687–1.702, giữ trên đáy 20 phiên 1.690,56."
+  },
+  {
+   "duong_dan": "regime.ung_ho[2]",
+   "gia_tri": "Ngân hàng tăng 0,97% và đóng góp chính; chứng khoán chưa đồng thuận (ngành Dịch vụ tài chính −0,01%)."
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "nganh[0].nhan_dinh",
+   "gia_tri": "Nhóm đóng vai trò giữ nhịp chính cho phiên hồi phục hôm nay với mức tăng 0,97%."
+  },
+  {
+   "duong_dan": "nganh[0].ma[4].thung_thi",
+   "gia_tri": "Nếu mất 18,82 sẽ lui về vùng 18,26–18,65 (đáy 20 phiên 18,65)."
+  },
+  {
+   "duong_dan": "nganh[1].ma[2].thung_thi",
+   "gia_tri": "Thủng 20,12 thì cấu trúc suy yếu, hỗ trợ kế tiếp là đáy 20 phiên 18,8."
+  },
+  {
+   "duong_dan": "nganh[1].ma[2].xac_nhan",
+   "gia_tri": "Vượt vùng cản 21,65–21,85 (sát MA50 21,58)."
+  },
+  {
+   "duong_dan": "nganh[1].ma[3].thung_thi",
+   "gia_tri": "Thủng 25,5 sẽ quay về đáy cũ 23,3."
+  },
+  {
+   "duong_dan": "nganh[1].ma[3].xac_nhan",
+   "gia_tri": "Vượt vùng cản 27,5–27,9."
+  },
+  {
+   "duong_dan": "nganh[3].ma[2].cau_truc",
+   "gia_tri": "Điều chỉnh nhẹ, vẫn giữ trên MA10 và MA20."
+  },
+  {
+   "duong_dan": "nganh[4].nhan_dinh",
+   "gia_tri": "Giao dịch cầm chừng: VGC giữ trên MA20, MA50, MA200; IDC giữ trên MA50 nhưng sát dưới MA20."
+  },
+  {
+   "duong_dan": "nganh[4].ma[0].cau_truc",
+   "gia_tri": "Nằm trong vùng kiểm tra 33,18–34,1, sát dưới MA20 (33,99) và trên MA50."
+  },
+  {
+   "duong_dan": "nganh[4].ma[1].thung_thi",
+   "gia_tri": "Thủng 41,67 sẽ lùi về vùng 40,4–41,5."
+  },
+  {
+   "duong_dan": "nganh[5].nhan_dinh",
+   "gia_tri": "VCG tăng 1% với khối lượng gấp 1,54 lần trung bình 20 phiên."
+  },
+  {
+   "duong_dan": "nganh[5].ma[0].cau_truc",
+   "gia_tri": "Đã lấy lại MA10, MA20 và MA50, khối lượng gấp 1,54 lần trung bình 20 phiên."
+  },
+  {
+   "duong_dan": "nganh[6].nhan_dinh",
+   "gia_tri": "Brent giảm hơn 3%; BSR nhích nhẹ, PVD giảm nhẹ, thanh khoản thấp."
+  },
+  {
+   "duong_dan": "nganh[7].nhan_dinh",
+   "gia_tri": "MWG tăng 1,51%, DGW điều chỉnh 1,22%."
+  },
+  {
+   "duong_dan": "nganh[9].nhan_dinh",
+   "gia_tri": "DCM đi ngang ở 33,9, khối ngoại mua ròng 20,4 tỷ."
+  },
+  {
+   "duong_dan": "nganh[11].nhan_dinh",
+   "gia_tri": "GEX tăng nhẹ 0,45%, giữ trên MA10 nhưng dưới MA20."
+  },
+  {
+   "duong_dan": "nganh[12].nhan_dinh",
+   "gia_tri": "PHR giằng co trong vùng test 31,42–32,29, thanh khoản thấp."
+  },
+  {
+   "duong_dan": "nganh[13].nhan_dinh",
+   "gia_tri": "FPT chững lại đà giảm, khối ngoại mua ròng gần 48 tỷ."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Kênh truyền dẫn sang Việt Nam là áp lực rút vốn của các quỹ đầu tư nước ngoài. Là khối ngoại vẫn chưa dừng bán ròng.",
+   "thay": "Kênh truyền dẫn sang Việt Nam là áp lực lên dòng vốn ngoại, một biến số cần theo dõi, chưa đủ để nói là nguyên nhân trực tiếp của phiên hôm nay."
+  },
+  {
+   "tim": "Chiều nay DXY chạy quanh mức 101,8 điểm, trong khi sáng sớm lúc 7h ghi nhận 102,04.",
+   "thay": "Chiều nay DXY chạy quanh mức 101,8 điểm."
+  },
+  {
+   "tim": "DXY hạ nhiệt nhẹ giúp tỷ giá USD/VND trong nước duy trì ổn định quanh 25.872 đồng. Điều này tạo điều kiện để Ngân hàng Nhà nước giữ thanh khoản hệ thống ổn định, nhưng chừng nào DXY chưa thủng hỗ trợ 100,4 thì áp lực tỷ giá vẫn là biến số cần quan sát chứ chưa thể chủ quan.",
+   "thay": "DXY hạ nhiệt nhẹ, cùng lúc tỷ giá USD/VND quanh 25.872 đồng. Chừng nào DXY còn sát cản 102,58 thì áp lực tỷ giá vẫn là biến số cần quan sát."
+  },
+  {
+   "tim": "nghĩa là lực cầu chính hiện tại hoàn toàn phụ thuộc vào dòng tiền cá nhân trong nước",
+   "thay": "nghĩa là lực cầu chính hiện tại nghiêng về dòng tiền trong nước"
+  },
+  {
+   "tim": "Bảng điện xanh là do cổ phiếu ngân hàng, chứng khoán, đầu tư công hồi phục tự nhiên.",
+   "thay": "Lực đỡ chính đến từ ngân hàng; chứng khoán phân hóa, cả ngành gần như đứng giá."
+  },
+  {
+   "tim": "Đây là mốc dạng CẦN, tức là điều kiện tiên quyết để thị trường không rơi vào khủng hoảng bán tháo.",
+   "thay": "Đây là mốc phải giữ để nhịp hồi còn hiệu lực."
+  },
+  {
+   "tim": "đây là vùng cản rất mạnh cực mạnh với 5 lần chạm",
+   "thay": "đây là vùng cản mạnh với 5 lần chạm"
+  },
+  {
+   "tim": "nhóm dẫn dắt hôm nay với mức tăng gần 1% và thanh khoản 3.460 tỷ.",
+   "thay": "nhóm dẫn dắt hôm nay với mức tăng gần 1%."
+  },
+  {
+   "tim": "giữ được mốc này thì mục tiêu hướng tới vùng cản 31,7",
+   "thay": "giữ được mốc này thì kháng cự kế tiếp là vùng 31,7"
+  },
+  {
+   "tim": "mốc hỗ trợ cứng của TCB là 31,6 và mục tiêu kiểm tra lại cản 34,1",
+   "thay": "mốc hỗ trợ của TCB là 31,6, kháng cự kế tiếp quanh 34,1"
+  },
+  {
+   "tim": "Hôm nay nhóm này có sự phân hóa nhưng điểm sáng là không còn mã nào bị bán tháo.",
+   "thay": "Hôm nay nhóm này phân hóa, cả ngành gần như đứng giá."
+  },
+  {
+   "tim": "cho thấy đây thuần túy là nhịp hồi cạn cung.",
+   "thay": "nghiêng về nhịp hồi do bên bán chững lại hơn là tiền mới vào."
+  },
+  {
+   "tim": "thủng mốc này thì cắt lỗ, còn mục tiêu hồi phục ngắn hạn là kiểm định cản 19,65 đến 20,1",
+   "thay": "thủng mốc này thì về lại đáy 20 phiên 18,65, còn kháng cự kế tiếp là vùng 19,65 đến 20,1"
+  },
+  {
+   "tim": "mở gap lên và vượt MA20; mốc hỗ trợ của CTS là 20,1 và mục tiêu cản MA50 quanh 21,65",
+   "thay": "vượt MA20; mốc hỗ trợ của CTS là 20,1 và kháng cự kế tiếp quanh 21,65, sát MA50"
+  },
+  {
+   "tim": "hỗ trợ là 25,5 và mục tiêu 27,5",
+   "thay": "hỗ trợ là 25,5 và kháng cự kế tiếp 27,5"
+  },
+  {
+   "tim": "Các mã như VIX tăng 0,85% lên 11,85, SHS tăng 0,82% lên 12,3; VND đi ngang 13,25 sau 32 phiên nằm dưới MA10.",
+   "thay": "VIX tăng 0,85% lên 11,85."
+  },
+  {
+   "tim": "còn vượt cản thì mục tiêu là 21,55",
+   "thay": "còn vượt cản thì kháng cự kế tiếp là 21,55"
+  },
+  {
+   "tim": "thanh khoản gấp 1,5 lần trung bình, 5 phiên tăng gần 11%;",
+   "thay": "thanh khoản gấp 1,5 lần trung bình;"
+  },
+  {
+   "tim": "Nhóm dầu khí chịu áp lực từ giá dầu thế giới giảm: BSR tăng nhẹ lên 28,35 với hỗ trợ 28,1; PVD đi ngang 17,65; PVS giảm nhẹ về 31,4.",
+   "thay": "Nhóm dầu khí đứng giá trong phiên dầu Brent giảm hơn 3%: BSR tăng nhẹ lên 28,35 với hỗ trợ 28,1; PVD đi ngang 17,65."
+  },
+  {
+   "tim": "DGW giảm 1,22% về 44,5 dù doanh thu quý 3 kỷ lục.",
+   "thay": "DGW giảm 1,22% về 44,5."
+  },
+  {
+   "tim": "Trong khi thị trường chung còn nằm dưới MA10 tới 18 phiên thì CTG đã lấy lại cả MA10 và MA20 từ sớm, sức mạnh tương đối 20 phiên vượt trội hơn thị trường tới 7,2%.",
+   "thay": "Trong khi VN-Index còn nằm dưới MA10 thì CTG đã lấy lại cả MA10 và MA20."
+  },
+  {
+   "tim": "mức định giá rất hấp dẫn nếu xét về mặt cơ bản",
+   "thay": "thấp nhất trong nhóm ngân hàng em theo dõi hôm nay"
+  },
+  {
+   "tim": "Điểm dừng theo dõi của VIC là 204",
+   "thay": "Hỗ trợ kế tiếp của VIC là 204"
+  },
+  {
+   "tim": "đã giúp giải tỏa áp lực bán tháo cho nhóm cổ phiếu vốn hóa lớn",
+   "thay": "là dấu hiệu lực bán ở mã này đang chững lại"
+  },
+  {
+   "tim": " Hệ thống đèn NSI hôm nay báo không đọc được, nên việc đánh giá phải hoàn toàn dựa vào hành vi cung cầu.",
+   "thay": ""
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Nhịp hồi 16/10: bên bán chững lại hay tiền lớn đã vào quanh 1.687–1.702?",
+  "regime": "Hồi kỹ thuật, thiếu tiền",
+  "ma_dang_noi": [
+   "CTG",
+   "VIC",
+   "FPT"
+  ],
+  "ly_do": {
+   "CTG": "Trụ ngân hàng khỏe nhất: tăng 2,7%, KL 1,5×TB20, khối ngoại mua ròng 41 tỷ, lấy lại MA10/MA20.",
+   "VIC": "Kéo lùi chỉ số 4,72 điểm, đang thử vùng hỗ trợ đáy 20 phiên 211,5–215,2.",
+   "FPT": "Khối ngoại mua ròng mạnh nhất (48 tỷ), giá chững lại trên đáy 55,8 nhưng còn dưới MA10."
+  },
+  "tieu_de_ma": {
+   "CTG": "lấy lại MA20, test cản 31,5",
+   "VIC": "thử đáy 20 phiên",
+   "FPT": "chững trên đáy 55,8"
+  }
+ }
+}

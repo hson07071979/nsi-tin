@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-16T19:11+07:00",
+ "cap_nhat": "2026-10-17T07:12+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 133,
-   "ty_le_dung": 66.2
+   "n": 152,
+   "ty_le_dung": 61.2
   },
   "phe_than_trong": {
-   "n": 110,
-   "ty_le_dung": 45.5
+   "n": 128,
+   "ty_le_dung": 47.7
   },
   "phe_vi_mo": {
-   "n": 120,
-   "ty_le_dung": 59.2
+   "n": 139,
+   "ty_le_dung": 58.3
   },
   "tab_web": {
-   "n": 157,
-   "ty_le_dung": 60.5
+   "n": 186,
+   "ty_le_dung": 56.5
   },
   "tab_zalo": {
    "n": 33,
    "ty_le_dung": 45.5
   },
   "trong_tai": {
-   "n": 190,
-   "ty_le_dung": 57.9
+   "n": 219,
+   "ty_le_dung": 54.8
   },
   "xac_minh_da_xac_minh": {
-   "n": 173,
-   "ty_le_dung": 59.0
+   "n": 202,
+   "ty_le_dung": 55.4
   },
   "xac_minh_mot_nguon": {
    "n": 3,
@@ -3257,6 +3257,496 @@
    "phe": {
     "lac_quan": true,
     "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Khối ngoại bán ròng kỷ lục, thỏa thuận MCH gần 9.600 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -6.11,
+   "vuot_t4": -1.91,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Khối ngoại bán ròng kỷ lục, thỏa thuận MCH gần 9.600 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": -1,
+   "vuot_t0": 1.59,
+   "vuot_t4": 4.31,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Áp lực lạm phát cuối năm, dự báo CPI có thể tăng tới 4,8%",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -1.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Tỷ giá tự do tăng mạnh dù USD ngân hàng hạ nhiệt",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -1.68,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "VPBank tăng vốn điều lệ lên 100.000 tỷ đồng, VIX trở thành cổ đông lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": 3.33,
+   "vuot_t4": 4.62,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "VPBank tăng vốn điều lệ lên 100.000 tỷ đồng, VIX trở thành cổ đông lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIX",
+   "du_bao": 1,
+   "vuot_t0": 1.24,
+   "vuot_t4": 3.4,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "BSR",
+   "du_bao": 1,
+   "vuot_t0": -0.64,
+   "vuot_t4": -7.01,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "DPM",
+   "du_bao": 1,
+   "vuot_t0": -0.56,
+   "vuot_t4": -1.51,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "HVN",
+   "du_bao": -1,
+   "vuot_t0": 2.54,
+   "vuot_t4": 5.39,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "PLX",
+   "du_bao": -1,
+   "vuot_t0": -2.27,
+   "vuot_t4": -4.48,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "HoSE và HNX đồng loạt công bố danh sách cắt margin quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "DGC",
+   "du_bao": -1,
+   "vuot_t0": -1.55,
+   "vuot_t4": -1.28,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "HoSE và HNX đồng loạt công bố danh sách cắt margin quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "GIL",
+   "du_bao": -1,
+   "vuot_t0": 0.94,
+   "vuot_t4": 3.35,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "HoSE và HNX đồng loạt công bố danh sách cắt margin quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "STK",
+   "du_bao": -1,
+   "vuot_t0": 1.98,
+   "vuot_t4": 4.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "PNJ thoát chuỗi giảm sâu, tăng trần nhờ kết quả kiểm định kim cương",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": 1,
+   "vuot_t0": -6.11,
+   "vuot_t4": -1.91,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "PNJ thoát chuỗi giảm sâu, tăng trần nhờ kết quả kiểm định kim cương",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": 1,
+   "vuot_t0": 2.64,
+   "vuot_t4": -1.06,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Lãi suất tiền gửi phân hóa, ngân hàng đua hút vốn qua gói ưu đãi",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "STB",
+   "du_bao": -1,
+   "vuot_t0": 0.22,
+   "vuot_t4": -5.0,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Lãi suất tiền gửi phân hóa, ngân hàng đua hút vốn qua gói ưu đãi",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VPB",
+   "du_bao": -1,
+   "vuot_t0": 3.33,
+   "vuot_t4": 4.62,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Lãi suất tiền gửi phân hóa, ngân hàng đua hút vốn qua gói ưu đãi",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VCB",
+   "du_bao": 1,
+   "vuot_t0": 0.81,
+   "vuot_t4": 2.03,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Tín nhiệm Việt Nam được R&I nâng lên BBB-, mở đường vốn quốc tế",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -1.68,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Tập đoàn Masan huy động nguồn lực và đăng ký mua gom cổ phiếu MCH",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MSN",
+   "du_bao": 1,
+   "vuot_t0": -0.67,
+   "vuot_t4": -2.09,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Tập đoàn Masan huy động nguồn lực và đăng ký mua gom cổ phiếu MCH",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MCH",
+   "du_bao": 1,
+   "vuot_t0": 0.46,
+   "vuot_t4": -0.42,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Tập đoàn Masan huy động nguồn lực và đăng ký mua gom cổ phiếu MCH",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MSR",
+   "du_bao": 1,
+   "vuot_t0": 0.37,
+   "vuot_t4": -2.74,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Phân hóa trái phiếu bất động sản, CII lên kế hoạch gọi vốn lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "CII",
+   "du_bao": -1,
+   "vuot_t0": 3.74,
+   "vuot_t4": 8.79,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Phân hóa trái phiếu bất động sản, CII lên kế hoạch gọi vốn lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VHM",
+   "du_bao": -1,
+   "vuot_t0": -2.37,
+   "vuot_t4": -5.89,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "KBSV và VNDirect thận trọng với triển vọng chỉ số quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PVS",
+   "du_bao": 1,
+   "vuot_t0": -0.37,
+   "vuot_t4": -5.69,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "KBSV và VNDirect thận trọng với triển vọng chỉ số quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PVT",
+   "du_bao": 1,
+   "vuot_t0": 0.61,
+   "vuot_t4": -4.47,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "KBSV và VNDirect thận trọng với triển vọng chỉ số quý 4/2026",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": 3.8,
+   "vuot_t4": 5.66,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "Giá vàng trong nước bật tăng gần 2 triệu đồng/lượng theo thế giới",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": 1,
+   "vuot_t0": -6.11,
+   "vuot_t4": -1.91,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-10",
+   "tab": "web",
+   "chu_de": "DNSE tiếp tục củng cố vị trí top 2 thị phần môi giới phái sinh",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "DSE",
+   "du_bao": 1,
+   "vuot_t0": 0.12,
+   "vuot_t4": -3.38,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
     "vi_mo": null
    }
   }

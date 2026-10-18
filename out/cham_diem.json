@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-17T08:15+07:00",
+ "cap_nhat": "2026-10-18T07:11+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 152,
-   "ty_le_dung": 61.2
+   "n": 175,
+   "ty_le_dung": 61.1
   },
   "phe_than_trong": {
-   "n": 128,
-   "ty_le_dung": 47.7
+   "n": 140,
+   "ty_le_dung": 47.1
   },
   "phe_vi_mo": {
-   "n": 139,
-   "ty_le_dung": 58.3
+   "n": 150,
+   "ty_le_dung": 58.0
   },
   "tab_web": {
-   "n": 186,
-   "ty_le_dung": 56.5
+   "n": 211,
+   "ty_le_dung": 56.9
   },
   "tab_zalo": {
    "n": 33,
    "ty_le_dung": 45.5
   },
   "trong_tai": {
-   "n": 219,
-   "ty_le_dung": 54.8
+   "n": 244,
+   "ty_le_dung": 55.3
   },
   "xac_minh_da_xac_minh": {
-   "n": 202,
-   "ty_le_dung": 55.4
+   "n": 227,
+   "ty_le_dung": 55.9
   },
   "xac_minh_mot_nguon": {
    "n": 3,
@@ -3747,6 +3747,430 @@
    "phe": {
     "lac_quan": false,
     "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Lãi suất tiền gửi vượt 9% gây áp lực chi phí vốn",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -1.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Khối ngoại bán ròng kỷ lục gần 14.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": 1.59,
+   "vuot_t4": 4.31,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Khối ngoại bán ròng kỷ lục gần 14.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "FPT",
+   "du_bao": -1,
+   "vuot_t0": -0.57,
+   "vuot_t4": 2.2,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Khối ngoại bán ròng kỷ lục gần 14.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HDB",
+   "du_bao": -1,
+   "vuot_t0": 1.71,
+   "vuot_t4": 3.47,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Lợi suất trái phiếu toàn cầu lập đỉnh gây sức ép định giá",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PLX",
+   "du_bao": 1,
+   "vuot_t0": -2.27,
+   "vuot_t4": -4.48,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Huy động trái phiếu chính phủ tháng 9 vượt 70.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "CII",
+   "du_bao": 1,
+   "vuot_t0": 3.74,
+   "vuot_t4": 8.79,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "NHNN ban hành thông tư siết quản trị rủi ro ngân hàng",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": 1.59,
+   "vuot_t4": 4.31,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "NHNN ban hành thông tư siết quản trị rủi ro ngân hàng",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "CTG",
+   "du_bao": 1,
+   "vuot_t0": 1.15,
+   "vuot_t4": 5.41,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Bộ Tài chính trình đề án tái cấu trúc EVN",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "POW",
+   "du_bao": 1,
+   "vuot_t0": 0.81,
+   "vuot_t4": -0.33,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Bộ Tài chính trình đề án tái cấu trúc EVN",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "PGV",
+   "du_bao": 1,
+   "vuot_t0": 0.34,
+   "vuot_t4": 0.02,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Dự thảo Nghị định xăng dầu tăng quyền tự chủ doanh nghiệp",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "PLX",
+   "du_bao": 1,
+   "vuot_t0": -2.27,
+   "vuot_t4": -4.48,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Dự thảo Nghị định xăng dầu tăng quyền tự chủ doanh nghiệp",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "OIL",
+   "du_bao": 1,
+   "vuot_t0": -2.11,
+   "vuot_t4": -4.16,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Áp lực giải chấp cổ phiếu tại PNJ và NVL",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -6.11,
+   "vuot_t4": -1.91,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Áp lực giải chấp cổ phiếu tại PNJ và NVL",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": 2.64,
+   "vuot_t4": -1.06,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "SHB lên tiếng đính chính tin đồn thất thiệt",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SHB",
+   "du_bao": 1,
+   "vuot_t0": 4.81,
+   "vuot_t4": 8.18,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Tập đoàn Vingroup công bố tiến độ dự án và doanh số xe",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": -2.07,
+   "vuot_t4": -2.97,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Tập đoàn Vingroup công bố tiến độ dự án và doanh số xe",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -2.37,
+   "vuot_t4": -5.89,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "EU đưa Việt Nam khỏi danh sách không hợp tác thuế",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": 1.08,
+   "vuot_t4": 4.05,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "EU đưa Việt Nam khỏi danh sách không hợp tác thuế",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "KBC",
+   "du_bao": 1,
+   "vuot_t0": 0.42,
+   "vuot_t4": 3.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Đà Nẵng phê duyệt dự án KCN WHA hơn 2.700 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "IDC",
+   "du_bao": 1,
+   "vuot_t0": 0.25,
+   "vuot_t4": -2.83,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Đà Nẵng phê duyệt dự án KCN WHA hơn 2.700 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "SZC",
+   "du_bao": 1,
+   "vuot_t0": 4.07,
+   "vuot_t4": 4.64,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "FPT đẩy mạnh hợp tác phân phối chip với Toyota",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "FPT",
+   "du_bao": 1,
+   "vuot_t0": -0.57,
+   "vuot_t4": 2.2,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "HAGL nhận giấy chứng nhận đầu tư dự án tại Lào",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HAG",
+   "du_bao": -1,
+   "vuot_t0": -0.56,
+   "vuot_t4": 0.31,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Traphaco bị xử phạt hành chính 160 triệu đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TRA",
+   "du_bao": -1,
+   "vuot_t0": 2.2,
+   "vuot_t4": -1.1,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-11",
+   "tab": "web",
+   "chu_de": "Traphaco bị xử phạt hành chính 160 triệu đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DHG",
+   "du_bao": 1,
+   "vuot_t0": 0.81,
+   "vuot_t4": 1.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
     "vi_mo": null
    }
   }

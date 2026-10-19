@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-18T08:15+07:00",
+ "cap_nhat": "2026-10-19T07:07+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 175,
-   "ty_le_dung": 61.1
+   "n": 189,
+   "ty_le_dung": 61.4
   },
   "phe_than_trong": {
-   "n": 140,
-   "ty_le_dung": 47.1
+   "n": 164,
+   "ty_le_dung": 46.3
   },
   "phe_vi_mo": {
-   "n": 150,
-   "ty_le_dung": 58.0
+   "n": 164,
+   "ty_le_dung": 57.9
   },
   "tab_web": {
-   "n": 211,
-   "ty_le_dung": 56.9
+   "n": 239,
+   "ty_le_dung": 56.1
   },
   "tab_zalo": {
    "n": 33,
    "ty_le_dung": 45.5
   },
   "trong_tai": {
-   "n": 244,
-   "ty_le_dung": 55.3
+   "n": 272,
+   "ty_le_dung": 54.8
   },
   "xac_minh_da_xac_minh": {
-   "n": 227,
-   "ty_le_dung": 55.9
+   "n": 255,
+   "ty_le_dung": 55.3
   },
   "xac_minh_mot_nguon": {
    "n": 3,
@@ -4167,6 +4167,480 @@
    "du_bao": 1,
    "vuot_t0": 0.81,
    "vuot_t4": 1.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Tỷ giá USD tự do vượt ngân hàng, áp lực tỷ giá nóng trở lại",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VHC",
+   "du_bao": 1,
+   "vuot_t0": 0.05,
+   "vuot_t4": -1.75,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Tỷ giá USD tự do vượt ngân hàng, áp lực tỷ giá nóng trở lại",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "POW",
+   "du_bao": -1,
+   "vuot_t0": 0.81,
+   "vuot_t4": -0.33,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Khối ngoại xả ròng kỷ lục gần 14.000 tỷ đồng trong tuần",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "FPT",
+   "du_bao": -1,
+   "vuot_t0": -0.57,
+   "vuot_t4": 2.2,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Khối ngoại xả ròng kỷ lục gần 14.000 tỷ đồng trong tuần",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "MWG",
+   "du_bao": 1,
+   "vuot_t0": 0.42,
+   "vuot_t4": -0.95,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Cảnh báo rủi ro căng cứng dư nợ margin và vòng xoáy giải chấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": 2.64,
+   "vuot_t4": -1.06,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Cảnh báo rủi ro căng cứng dư nợ margin và vòng xoáy giải chấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "SSI",
+   "du_bao": -1,
+   "vuot_t0": 1.08,
+   "vuot_t4": 4.05,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Lãi suất huy động rục rịch tăng, nhóm Big4 niêm yết 6,8%/năm",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VCB",
+   "du_bao": 1,
+   "vuot_t0": 0.81,
+   "vuot_t4": 2.03,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Lãi suất huy động rục rịch tăng, nhóm Big4 niêm yết 6,8%/năm",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "DXG",
+   "du_bao": -1,
+   "vuot_t0": 2.35,
+   "vuot_t4": 5.78,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Kho bạc Nhà nước huy động mạnh trái phiếu chính phủ",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "HHV",
+   "du_bao": 1,
+   "vuot_t0": 3.67,
+   "vuot_t4": 10.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Kho bạc Nhà nước huy động mạnh trái phiếu chính phủ",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": 3.8,
+   "vuot_t4": 5.66,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Lợi suất trái phiếu Mỹ tăng mạnh gây sức ép định giá cổ phiếu",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -1.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Kỳ vọng phân hóa lợi nhuận quý 3/2026 đỡ nhịp điều chỉnh VN-Index",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "MWG",
+   "du_bao": 1,
+   "vuot_t0": 0.42,
+   "vuot_t4": -0.95,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Kỳ vọng phân hóa lợi nhuận quý 3/2026 đỡ nhịp điều chỉnh VN-Index",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "DGW",
+   "du_bao": 1,
+   "vuot_t0": 0.18,
+   "vuot_t4": -4.14,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Kỳ vọng phân hóa lợi nhuận quý 3/2026 đỡ nhịp điều chỉnh VN-Index",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "BSR",
+   "du_bao": 1,
+   "vuot_t0": -0.64,
+   "vuot_t4": -7.01,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "VN-Index giảm 3 tuần liên tiếp, chật vật giữ vùng hỗ trợ 1.700-1.730",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -1.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "HAGL nhận giấy phép đầu tư dự án cà phê 29,2 triệu USD tại Lào",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HAG",
+   "du_bao": 1,
+   "vuot_t0": -0.56,
+   "vuot_t4": 0.31,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Hàng loạt lãnh đạo doanh nghiệp bất động sản và bán lẻ bị giải chấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -6.11,
+   "vuot_t4": -1.91,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Hàng loạt lãnh đạo doanh nghiệp bất động sản và bán lẻ bị giải chấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DIG",
+   "du_bao": -1,
+   "vuot_t0": 1.45,
+   "vuot_t4": 3.06,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Hàng loạt lãnh đạo doanh nghiệp bất động sản và bán lẻ bị giải chấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HDC",
+   "du_bao": -1,
+   "vuot_t0": 2.3,
+   "vuot_t4": 4.16,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "Hàng loạt lãnh đạo doanh nghiệp bất động sản và bán lẻ bị giải chấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": 2.64,
+   "vuot_t4": -1.06,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "SCIC đấu giá lại lô 79,2 triệu cổ phiếu Seaprodex giá 8.509 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SEA",
+   "du_bao": -1,
+   "vuot_t0": -0.77,
+   "vuot_t4": 3.09,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "SCIC đấu giá lại lô 79,2 triệu cổ phiếu Seaprodex giá 8.509 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": 2.64,
+   "vuot_t4": -1.06,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "FDI giải ngân cao nhưng biên lợi nhuận nhóm khu công nghiệp suy giảm",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "GVR",
+   "du_bao": 1,
+   "vuot_t0": -0.56,
+   "vuot_t4": -3.19,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "FDI giải ngân cao nhưng biên lợi nhuận nhóm khu công nghiệp suy giảm",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "BCM",
+   "du_bao": -1,
+   "vuot_t0": 1.07,
+   "vuot_t4": 2.33,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "FDI giải ngân cao nhưng biên lợi nhuận nhóm khu công nghiệp suy giảm",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "SZC",
+   "du_bao": -1,
+   "vuot_t0": 4.07,
+   "vuot_t4": 4.64,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "MB và VPBank xác lập kỷ lục mới về quy mô vốn điều lệ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MBB",
+   "du_bao": 1,
+   "vuot_t0": 1.34,
+   "vuot_t4": 5.88,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "MB và VPBank xác lập kỷ lục mới về quy mô vốn điều lệ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": 3.33,
+   "vuot_t4": 4.62,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-12",
+   "tab": "web",
+   "chu_de": "MB và VPBank xác lập kỷ lục mới về quy mô vốn điều lệ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": 1.59,
+   "vuot_t4": 4.31,
    "dung": true,
    "phe": {
     "lac_quan": true,

@@ -1,0 +1,176 @@
+{
+ "ngay": "2026-10-19",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Breadth hai nguồn lệch: 153 tăng/131 giảm (chính) và 162/133 (đếm đối chiếu) — giữ số chính, Sơn tự quyết có nêu cả hai.",
+  "Mốc không có căn cứ trong FACT → bỏ (null): FPT sl 53,0 (đáy 20/60/250 đều 55,8); NKG sl 10,0 (chỉ có trong sổ dự báo cũ, không thuộc vùng nào) → thủng_thì dùng HT 10,25.",
+  "VPB: 'lấp gap 20,4–20,5' không có gap nào trong FACT → bỏ; VIC: nhánh thủng 204 bỏ qua HT 198,7–200 → sửa thứ tự.",
+  "TNG/NT2: gọi 18,89 và 23,85 là MA200, thực tế MA200 là 18,67 và 23,74 (đó là biên dưới vùng cản) → sửa nhãn.",
+  "Lời thoại có 'mục tiêu', 'điểm cắt lỗ', 'điểm dừng lỗ', 'mua đuổi' (TCB, SSI, VGC, PLC, FRT) → đổi thành 'kháng cự kế tiếp'/điều kiện thất bại.",
+  "Số không có trong FACT bị bỏ: CTG 560 tỷ, SSI 'hơn 500 tỷ', Brent '+6,65% 20 phiên'; tin 'FTA với EFTA' và HT1/IDI trần không kiểm được.",
+  "Thời điểm: dữ liệu Mỹ là phiên thứ Sáu 16/10 (lúc 17/10 sáng VN), không phải 'đêm qua'; lời thoại nói 'bán trong phiên chiều' không có dữ liệu theo phiên → bỏ.",
+  "Dầu khí 'hưởng lợi từ giá dầu' trong khi Brent −2,59% hôm nay → tương quan, không phải nhân quả → sửa nhận định.",
+  "Regime Rotation/Divergence khớp bằng chứng (VIC −12,84 điểm, phần còn lại −2,52, breadth dương); không gọi Bottoming nên giữ.",
+  "Đối chiếu dự báo: sổ còn mở 2 dòng VNINDEX giữ 1.687,14 chưa hết hạn; Gemini chấm 'ĐÚNG' cho dòng 1b5996bfff — giá thấp nhất 1.682,54 đã xuyên mốc, chỉ đúng theo giá đóng cửa.",
+  "Nhiều mã chỉ có trong lời thoại (BID, IDC, HT1, KSB, GAS, PVS, PVT, MSN, HAH, DPM, CSV, VHC, REE, DRC, CMG, CTR) không có số liệu gốc trong brief → chưa kiểm được mốc; DXY 7h '101,85' cũng không có trong FACT."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "thanh_khoan",
+   "gia_tri": "Tổng giá trị giao dịch đạt 13.354,7 tỷ, trong đó thỏa thuận chiếm 2.031,6 tỷ (15,2%). Thanh khoản khớp lệnh thực tế đạt 11.323,2 tỷ, tăng khoảng 14% so với 9.918 tỷ phiên trước nhưng chỉ bằng 0,94 lần trung bình 20 phiên (12.085 tỷ). Thị trường ở trạng thái thiếu tiền nhẹ, tiền không lan tỏa mà phân hóa sâu."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Áp lực kỹ thuật sẽ đẩy chỉ số lùi về vùng hỗ trợ mạnh hơn tại 1.650–1.665 điểm (4 lần chạm), dẫn tới tình trạng bán lan sang các nhóm đang neo cao."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.ho_tro_ke_tiep",
+   "gia_tri": "Vùng 1.650,74–1.665,36 điểm (4 lần chạm, chân nến tăng mạnh)."
+  },
+  {
+   "duong_dan": "nganh[0].ma[4].thung_thi",
+   "gia_tri": "Thủng 23,0 thì mất vùng hỗ trợ gần và rơi xuống dưới MA20 (23,39)."
+  },
+  {
+   "duong_dan": "nganh[0].ma[5].cau_truc",
+   "gia_tri": "Yếu nhất rổ ngân hàng, nằm dưới toàn bộ các đường MA, 15 phiên dưới MA10, cách đỉnh 60 phiên 79,0 khoảng 22%."
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].thung_thi",
+   "gia_tri": "Thủng 204,0 sẽ lùi về hỗ trợ 198,7–200,0, sâu hơn là 194,6 (sát MA200 194,06)."
+  },
+  {
+   "duong_dan": "nganh[3].ma[1].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[3].ma[1].diem_dung_cach_pct",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[3].ma[1].thung_thi",
+   "gia_tri": "Thủng 10,25 sẽ đánh mất xu hướng phục hồi ngắn hạn."
+  },
+  {
+   "duong_dan": "nganh[5].nhan_dinh",
+   "gia_tri": "Dòng tiền vào nổi bật ở PLC tăng trần với khối lượng gấp 7,25 lần, nhưng chưa lan rộng: VCG giảm 0,66%, ngành Xây dựng và Vật liệu chỉ tăng 0,50%."
+  },
+  {
+   "duong_dan": "nganh[6].nhan_dinh",
+   "gia_tri": "Nhóm dầu khí tăng 1,32% giữ nhịp chỉ số dù Brent giảm 2,59% trong ngày; giá dầu ở vùng cao là bối cảnh cần theo dõi, chưa đủ để coi là nguyên nhân."
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].xac_nhan",
+   "gia_tri": "Vượt vùng cản 147,53–151,5 để thử lại đỉnh 60 phiên 152,8."
+  },
+  {
+   "duong_dan": "nganh[10].nhan_dinh",
+   "gia_tri": "ANV và TNG tăng mạnh với khối lượng khoảng gấp đôi trung bình 20 phiên; lý do tin tức chưa có trong dữ liệu để kiểm."
+  },
+  {
+   "duong_dan": "nganh[10].ma[0].thung_thi",
+   "gia_tri": "Thủng 17,5 thì mất vùng hỗ trợ mạnh nhất, MA50 ở 16,96 là lớp kế tiếp."
+  },
+  {
+   "duong_dan": "nganh[10].ma[1].xac_nhan",
+   "gia_tri": "Vượt dứt khoát vùng cản 18,89–19,25 (trên MA200 18,67)."
+  },
+  {
+   "duong_dan": "nganh[11].ma[0].xac_nhan",
+   "gia_tri": "Đóng cửa trên vùng cản 23,85 (trên MA200 23,74)."
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].diem_dung_cach_pct",
+   "gia_tri": null
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "số mã tăng hôm nay lại áp đảo với 153 mã xanh",
+   "thay": "số mã tăng hôm nay lại nhiều hơn, với 153 mã xanh"
+  },
+  {
+   "tim": "Tiếp theo là lợi suất trái phiếu chính phủ Mỹ 10 năm, phiên đêm 17/10 đóng cửa ở 5,098%",
+   "thay": "Tiếp theo là lợi suất trái phiếu chính phủ Mỹ 10 năm, số ghi nhận rạng sáng 17/10 là 5,098%"
+  },
+  {
+   "tim": ", nhưng tính trong 20 phiên vẫn tăng 6,65% và đang áp sát vùng đỉnh 3 tháng quanh 110 USD",
+   "thay": ", và vẫn ở gần vùng đỉnh 3 tháng quanh 110 USD"
+  },
+  {
+   "tim": "Đêm qua chứng khoán Mỹ ghi nhận",
+   "thay": "Phiên Mỹ gần nhất, thứ Sáu tuần trước, ghi nhận"
+  },
+  {
+   "tim": "sau đó bị bán dồn dập trong phiên chiều, có lúc",
+   "thay": "sau đó bị bán dồn dập, có lúc"
+  },
+  {
+   "tim": "vùng hỗ trợ mạnh mạnh với 4 lần chạm",
+   "thay": "vùng hỗ trợ mạnh với 4 lần chạm"
+  },
+  {
+   "tim": "CTG có thanh khoản lớn với 560 tỷ, gấp 2,8 lần",
+   "thay": "CTG có khối lượng lớn, gấp 2,8 lần"
+  },
+  {
+   "tim": "mục tiêu hướng lên vùng 34,1–35,0",
+   "thay": "kháng cự kế tiếp là vùng 34,1–35,0"
+  },
+  {
+   "tim": "nếu giữ được thì mục tiêu kiểm định cản 20,38",
+   "thay": "nếu giữ được thì kháng cự kế tiếp là 20,38"
+  },
+  {
+   "tim": "mục tiêu đỉnh cũ là 46,35",
+   "thay": "kháng cự kế tiếp là đỉnh cũ 46,35"
+  },
+  {
+   "tim": "tăng 1,8% với khối lượng khớp lệnh hơn 500 tỷ.",
+   "thay": "tăng 1,8% với khối lượng gấp 1,3 lần trung bình."
+  },
+  {
+   "tim": "thì mục tiêu ngắn hạn sẽ hướng về vùng cản 20,4 đến 20,8. Điểm cắt lỗ nếu thị trường xấu đảo chiều là khi giá thủng 19,2, cách mức giá hiện tại khoảng 3%.",
+   "thay": "thì kháng cự kế tiếp là 20,4, rồi vùng 20,8 đến 21,4. Còn nếu thủng 19,2, cách giá hiện tại khoảng 3%, thì nhịp hồi này coi như thất bại."
+  },
+  {
+   "tim": "P/E 12,2, mức định giá hợp lý cho một chu kỳ mới.",
+   "thay": "P/E 12,2."
+  },
+  {
+   "tim": "thì mục tiêu tiếp theo là vùng kháng cự 21,4 đến 22,0, điểm dừng lỗ khi thủng 18,9, tuy nhiên mốc này cách giá trần hôm nay khoảng 8,7%, tức là rộng hơn chuẩn 7% một chút, anh chị mua đuổi giá cao cần lưu ý điểm này.",
+   "thay": "thì kháng cự kế tiếp là vùng 21,4 đến 21,8, rồi 22,1. Còn nếu thủng 18,9 thì cây nến bùng nổ hôm nay bị phủ nhận; mốc này cách giá đóng cửa khoảng 8,7%, tức là biên rủi ro rộng hơn chuẩn 7%."
+  },
+  {
+   "tim": "mục tiêu hướng tới đỉnh cũ 147,5 đến 151,5",
+   "thay": "kháng cự kế tiếp là vùng đỉnh cũ 147,5 đến 151,5"
+  },
+  {
+   "tim": ", phản ánh kỳ vọng tăng trưởng rất cao của chuỗi nhà thuốc.",
+   "thay": ", cao nhất trong ba mã."
+  }
+ ],
+ "slide": {
+  "regime": "Rotation/Divergence — thiếu tiền nhẹ",
+  "ma_dang_noi": [
+   "SSI",
+   "PLC",
+   "FRT"
+  ],
+  "ly_do": {
+   "SSI": "Thước đo độ nhạy: nhóm chứng khoán tăng có khối lượng trong khi chỉ số giảm.",
+   "PLC": "Đại diện dòng tiền đầu tư công: tăng trần với khối lượng gấp 7,25 lần.",
+   "FRT": "Khối ngoại mua ròng 151 tỷ, cao nhất phiên, giá trên toàn bộ MA."
+  },
+  "tieu_de_ma": {
+   "SSI": "test MA20, cản MA50 20,38",
+   "PLC": "trần, test cản 20,7–21,3",
+   "FRT": "ngoại gom, sát cản 147,5"
+  }
+ }
+}

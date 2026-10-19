@@ -1,0 +1,6075 @@
+{
+ "ngay": "2026-10-19",
+ "bat_dau_luc": "2026-10-19T15:20+07:00",
+ "fc": {
+  "ngay": "2026-10-19",
+  "vnindex": {
+   "dong_cua": 1689.84,
+   "diem": -16.07,
+   "pct": -0.94,
+   "mo": 1721.05,
+   "cao": 1721.39,
+   "thap": 1682.54,
+   "phien_truoc": 1705.91,
+   "kl_trieu_cp": 610.4,
+   "ky_thuat": {
+    "dong": 1689.84,
+    "pct": -0.94,
+    "kl_x_tb20": 1.19,
+    "pct_5p_20p_60p": [
+     -1.81,
+     -6.1,
+     1.28
+    ],
+    "duong_ma": "MA10=1722.59(-1.9%) MA20=1748.6(-3.36%) MA50=1774.57(-4.77%) MA200=1796.79(-5.95%)",
+    "doc_ma20_ma50": "xuống/xuống",
+    "phien_duoi_ma10": 19,
+    "day_20_60_250p": [
+     "1682.54·19/10·+0.43%",
+     "1651.2·28/07·+2.34%",
+     "1578.42·11/11/25·+7.06%"
+    ],
+    "dinh_60_250p": [
+     "1874.48·07/09·-9.85%",
+     "1933.11·19/05·-12.58%"
+    ],
+    "vung_dang_test": "1682.54–1687.14 ★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +0.3%)",
+    "ho_tro": [
+     "1650.74–1665.36 ★★★★ (4 lần chạm, chân nến tăng mạnh, đáy cũ, cách +1.92%)",
+     "1609.7–1635.1 ★★★ (4 lần chạm, đáy cũ, cách +4.16%)",
+     "1578.42–1582.26 ★★★ (2 lần chạm, đáy cũ, cách +6.93%)"
+    ],
+    "khang_cu": [
+     "1701.14–1725.4 ★★★★ (5 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -1.37%)",
+     "1728.36–1742.87 ★★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách -2.64%)",
+     "1756.07–1780.71 ★★★★★ (7 lần chạm, MA50, đáy cũ, đỉnh cũ, cách -4.44%)"
+    ],
+    "gap": [],
+    "rs_5p_20p": [
+     null,
+     null
+    ],
+    "dinh_20p": "1828.19·22/09·-7.57%"
+   }
+  },
+  "breadth_hose": {
+   "tang": 153,
+   "giam": 131,
+   "dung": 75,
+   "tran": 9,
+   "san": 2,
+   "dem_doi_chieu": {
+    "tang": 162,
+    "giam": 133,
+    "dung": 75
+   }
+  },
+  "thanh_khoan_hose_ty": {
+   "gt_tong": 13354.7,
+   "gt_thoa_thuan": 2031.6,
+   "gt_khop": 11323.2,
+   "ty_trong_thoa_thuan_pct": 15.2,
+   "khop_phien_truoc": 9918.0,
+   "khop_tb5": 11189.0,
+   "khop_tb20": 12085.0,
+   "khop_so_tb20": 0.94,
+   "nam_phien_truoc": [
+    {
+     "ngay": "2026-10-16",
+     "khop": 9918.0,
+     "thoa_thuan": 1078.2
+    },
+    {
+     "ngay": "2026-10-15",
+     "khop": 14017.5,
+     "thoa_thuan": 1026.0
+    },
+    {
+     "ngay": "2026-10-14",
+     "khop": 10479.5,
+     "thoa_thuan": 3320.1
+    },
+    {
+     "ngay": "2026-10-13",
+     "khop": 10882.9,
+     "thoa_thuan": 2289.1
+    },
+    {
+     "ngay": "2026-10-12",
+     "khop": 10645.1,
+     "thoa_thuan": 2365.1
+    }
+   ]
+  },
+  "khoi_ngoai_ty": {
+   "phien": {
+    "date": "2026-10-19",
+    "mua": 1404.1,
+    "ban": 2203.7,
+    "rong": -799.5
+   },
+   "luy_ke_thang": -21161.0,
+   "so_phien_thang": 13,
+   "luy_ke_nam": -119062.2,
+   "nam_phien_truoc": [
+    {
+     "ngay": "2026-10-16",
+     "rong": -534.4
+    },
+    {
+     "ngay": "2026-10-15",
+     "rong": -687.9
+    },
+    {
+     "ngay": "2026-10-14",
+     "rong": -772.7
+    },
+    {
+     "ngay": "2026-10-13",
+     "rong": -434.1
+    },
+    {
+     "ngay": "2026-10-12",
+     "rong": -583.4
+    }
+   ],
+   "mua_rong_nhieu": [
+    {
+     "ma": "FRT",
+     "rong": 150.96
+    },
+    {
+     "ma": "MBB",
+     "rong": 55.16
+    },
+    {
+     "ma": "BVH",
+     "rong": 38.72
+    },
+    {
+     "ma": "TCB",
+     "rong": 26.35
+    },
+    {
+     "ma": "SSI",
+     "rong": 24.76
+    },
+    {
+     "ma": "VPL",
+     "rong": 18.93
+    }
+   ],
+   "ban_rong_nhieu": [
+    {
+     "ma": "VCB",
+     "rong": -103.66
+    },
+    {
+     "ma": "VHM",
+     "rong": -101.83
+    },
+    {
+     "ma": "ACB",
+     "rong": -92.84
+    },
+    {
+     "ma": "VJC",
+     "rong": -72.25
+    },
+    {
+     "ma": "FPT",
+     "rong": -42.11
+    },
+    {
+     "ma": "MSB",
+     "rong": -39.25
+    }
+   ]
+  },
+  "tu_doanh_ty": {
+   "phien": {
+    "date": "2026-10-16",
+    "mua": 846.5,
+    "ban": 308.1,
+    "rong": 538.4
+   },
+   "la_phien_hom_nay": false,
+   "luy_ke_5_phien": 864.7,
+   "mua_rong_nhieu": [
+    {
+     "ma": "VPB",
+     "rong": 218.31
+    },
+    {
+     "ma": "FRT",
+     "rong": 70.41
+    },
+    {
+     "ma": "HPG",
+     "rong": 64.53
+    },
+    {
+     "ma": "VNM",
+     "rong": 32.46
+    },
+    {
+     "ma": "VHM",
+     "rong": 20.01
+    }
+   ],
+   "ban_rong_nhieu": [
+    {
+     "ma": "TCB",
+     "rong": -37.34
+    },
+    {
+     "ma": "NT2",
+     "rong": -13.89
+    },
+    {
+     "ma": "TPB",
+     "rong": -2.98
+    },
+    {
+     "ma": "CTG",
+     "rong": -2.8
+    },
+    {
+     "ma": "HDG",
+     "rong": -2.41
+    }
+   ]
+  },
+  "dong_gop_diem": {
+   "duong": [
+    {
+     "ma": "BSR",
+     "diem": 0.52
+    },
+    {
+     "ma": "VPL",
+     "diem": 0.39
+    },
+    {
+     "ma": "MSN",
+     "diem": 0.32
+    },
+    {
+     "ma": "GAS",
+     "diem": 0.3
+    },
+    {
+     "ma": "LPB",
+     "diem": 0.28
+    },
+    {
+     "ma": "SSI",
+     "diem": 0.22
+    }
+   ],
+   "am": [
+    {
+     "ma": "VIC",
+     "diem": -12.84
+    },
+    {
+     "ma": "VCB",
+     "diem": -1.22
+    },
+    {
+     "ma": "VHM",
+     "diem": -1.2
+    },
+    {
+     "ma": "VPB",
+     "diem": -1.04
+    },
+    {
+     "ma": "HPG",
+     "diem": -0.62
+    },
+    {
+     "ma": "BID",
+     "diem": -0.49
+    }
+   ],
+   "nhom_vin": -13.55,
+   "nhom_vin_chi_tiet": {
+    "VIC": -12.84,
+    "VHM": -1.2,
+    "VRE": 0.09,
+    "VPL": 0.39
+   },
+   "phan_con_lai": -2.52,
+   "ghi_chu": "ước tính theo vốn hóa đầy đủ, đã chuẩn hóa về số điểm thật; lệch nhẹ so với số HOSE công bố"
+  },
+  "nganh_hose": [
+   {
+    "nganh": "Ô tô và phụ tùng",
+    "pct": 1.96,
+    "gt_khop": 90,
+    "tang": 6,
+    "giam": 4,
+    "nn_rong": 1.9
+   },
+   {
+    "nganh": "Dầu khí",
+    "pct": 1.32,
+    "gt_khop": 317,
+    "tang": 6,
+    "giam": 0,
+    "nn_rong": -21.1
+   },
+   {
+    "nganh": "Dịch vụ tài chính",
+    "pct": 0.83,
+    "gt_khop": 2136,
+    "tang": 11,
+    "giam": 10,
+    "nn_rong": -130.6
+   },
+   {
+    "nganh": "Du lịch và Giải trí",
+    "pct": 0.74,
+    "gt_khop": 262,
+    "tang": 7,
+    "giam": 3,
+    "nn_rong": -42.2
+   },
+   {
+    "nganh": "Điện, nước & xăng dầu khí đốt",
+    "pct": 0.53,
+    "gt_khop": 120,
+    "tang": 20,
+    "giam": 11,
+    "nn_rong": 4.9
+   },
+   {
+    "nganh": "Y tế",
+    "pct": 0.52,
+    "gt_khop": 43,
+    "tang": 8,
+    "giam": 7,
+    "nn_rong": -0.1
+   },
+   {
+    "nganh": "Xây dựng và Vật liệu",
+    "pct": 0.5,
+    "gt_khop": 464,
+    "tang": 42,
+    "giam": 29,
+    "nn_rong": -40.8
+   },
+   {
+    "nganh": "Bán lẻ",
+    "pct": 0.48,
+    "gt_khop": 284,
+    "tang": 4,
+    "giam": 5,
+    "nn_rong": 140.7
+   },
+   {
+    "nganh": "Hàng & Dịch vụ Công nghiệp",
+    "pct": 0.41,
+    "gt_khop": 588,
+    "tang": 24,
+    "giam": 22,
+    "nn_rong": -55.1
+   },
+   {
+    "nganh": "Hóa chất",
+    "pct": 0.38,
+    "gt_khop": 190,
+    "tang": 16,
+    "giam": 10,
+    "nn_rong": -11.7
+   },
+   {
+    "nganh": "Thực phẩm và đồ uống",
+    "pct": 0.19,
+    "gt_khop": 721,
+    "tang": 21,
+    "giam": 11,
+    "nn_rong": -39.3
+   },
+   {
+    "nganh": "Hàng cá nhân & Gia dụng",
+    "pct": 0.14,
+    "gt_khop": 176,
+    "tang": 12,
+    "giam": 8,
+    "nn_rong": -24.5
+   },
+   {
+    "nganh": "Ngân hàng",
+    "pct": -0.81,
+    "gt_khop": 3982,
+    "tang": 3,
+    "giam": 17,
+    "nn_rong": -335.7
+   },
+   {
+    "nganh": "Tài nguyên Cơ bản",
+    "pct": -1.26,
+    "gt_khop": 402,
+    "tang": 17,
+    "giam": 13,
+    "nn_rong": -44.1
+   },
+   {
+    "nganh": "Bảo hiểm",
+    "pct": -1.71,
+    "gt_khop": 117,
+    "tang": 2,
+    "giam": 5,
+    "nn_rong": 39.0
+   },
+   {
+    "nganh": "Công nghệ Thông tin",
+    "pct": -1.78,
+    "gt_khop": 250,
+    "tang": 2,
+    "giam": 6,
+    "nn_rong": -43.0
+   },
+   {
+    "nganh": "Bất động sản",
+    "pct": -2.62,
+    "gt_khop": 1931,
+    "tang": 22,
+    "giam": 28,
+    "nn_rong": -236.4
+   }
+  ],
+  "the_gioi_luc_chay": {
+   "brent": {
+    "ten": "Dầu Brent",
+    "don_vi": "USD/thùng",
+    "gia": 107.01,
+    "luc_vn": "2026-10-19T15:10+07:00",
+    "pct_1p": -2.59,
+    "pct_5p": 0.34,
+    "pct_20p": 6.65,
+    "cao_20p": 109.86,
+    "thap_20p": 99.25,
+    "cao_3t": 109.86,
+    "thap_3t": 79.36
+   },
+   "wti": {
+    "ten": "Dầu WTI",
+    "don_vi": "USD/thùng",
+    "gia": 96.83,
+    "luc_vn": "2026-10-19T15:11+07:00",
+    "pct_1p": -4.52,
+    "pct_5p": 3.3,
+    "pct_20p": 1.1,
+    "cao_20p": 101.41,
+    "thap_20p": 88.28,
+    "cao_3t": 105.83,
+    "thap_3t": 75.22
+   },
+   "dxy": {
+    "ten": "DXY",
+    "don_vi": "điểm",
+    "gia": 101.994,
+    "luc_vn": "2026-10-19T15:11+07:00",
+    "pct_1p": 0.15,
+    "pct_5p": -0.57,
+    "pct_20p": 1.56,
+    "cao_20p": 102.58,
+    "thap_20p": 100.6,
+    "cao_3t": 102.58,
+    "thap_3t": 98.77
+   },
+   "us10y": {
+    "ten": "Lợi suất TPCP Mỹ 10 năm",
+    "don_vi": "%",
+    "gia": 5.098,
+    "luc_vn": "2026-10-17T01:59+07:00",
+    "pct_1p": 0.18,
+    "pct_5p": -2.78,
+    "pct_20p": 2.0,
+    "cao_20p": 5.311,
+    "thap_20p": 4.963,
+    "cao_3t": 5.311,
+    "thap_3t": 4.541,
+    "doi_bp_1p": 0.9,
+    "doi_bp_20p": 10.0
+   },
+   "usdvnd": {
+    "ten": "USD/VND",
+    "don_vi": "đồng",
+    "gia": 25889.0,
+    "luc_vn": "2026-10-19T09:20+07:00",
+    "pct_1p": 0.07,
+    "pct_5p": 0.0,
+    "pct_20p": -0.5,
+    "cao_20p": 26020.0,
+    "thap_20p": 25872.0,
+    "cao_3t": 26330.0,
+    "thap_3t": 25872.0
+   },
+   "gold": {
+    "ten": "Vàng thế giới",
+    "don_vi": "USD/oz",
+    "gia": 4195.5,
+    "luc_vn": "2026-10-19T15:11+07:00",
+    "pct_1p": 0.34,
+    "pct_5p": 0.12,
+    "pct_20p": -4.3,
+    "cao_20p": 4376.3999,
+    "thap_20p": 4107.8999,
+    "cao_3t": 4697.7998,
+    "thap_3t": 4015.8999
+   },
+   "dow": {
+    "ten": "Dow Jones (phiên đêm qua)",
+    "don_vi": "điểm",
+    "gia": 52002.41,
+    "luc_vn": "2026-10-17T03:42+07:00",
+    "pct_1p": -0.34,
+    "pct_5p": 0.67,
+    "pct_20p": 0.62,
+    "cao_20p": 52177.6914,
+    "thap_20p": 50906.0508,
+    "cao_3t": 54349.1211,
+    "thap_3t": 50906.0508
+   },
+   "spx": {
+    "ten": "S&P 500 (phiên đêm qua)",
+    "don_vi": "điểm",
+    "gia": 7659.44,
+    "luc_vn": "2026-10-17T03:42+07:00",
+    "pct_1p": -1.09,
+    "pct_5p": -1.95,
+    "pct_20p": 0.12,
+    "cao_20p": 7818.9302,
+    "thap_20p": 7651.54,
+    "cao_3t": 7818.9302,
+    "thap_3t": 7316.1499
+   },
+   "nasdaq": {
+    "ten": "Nasdaq (phiên đêm qua)",
+    "don_vi": "điểm",
+    "gia": 26140.033,
+    "luc_vn": "2026-10-17T04:15+07:00",
+    "pct_1p": -2.15,
+    "pct_5p": -4.48,
+    "pct_20p": -1.44,
+    "cao_20p": 27599.7891,
+    "thap_20p": 26140.0293,
+    "cao_3t": 27599.7891,
+    "thap_3t": 24442.9395
+   },
+   "es_fut": {
+    "ten": "Hợp đồng tương lai S&P 500 (đang chạy)",
+    "don_vi": "điểm",
+    "gia": 7747.0,
+    "luc_vn": "2026-10-19T15:11+07:00",
+    "pct_1p": 0.55,
+    "pct_5p": -1.41,
+    "pct_20p": -1.1,
+    "cao_20p": 7874.0,
+    "thap_20p": 7704.25,
+    "cao_3t": 7874.0,
+    "thap_3t": 7351.25
+   },
+   "vix": {
+    "ten": "VIX",
+    "don_vi": "điểm",
+    "gia": 18.56,
+    "luc_vn": "2026-10-19T15:06+07:00",
+    "pct_1p": -7.15,
+    "pct_5p": 22.02,
+    "pct_20p": 24.82,
+    "cao_20p": 19.99,
+    "thap_20p": 14.21,
+    "cao_3t": 20.66,
+    "thap_3t": 14.21
+   },
+   "nikkei": {
+    "ten": "Nikkei 225",
+    "don_vi": "điểm",
+    "gia": 64916.7,
+    "luc_vn": "2026-10-19T13:45+07:00",
+    "pct_1p": -0.62,
+    "pct_5p": -5.96,
+    "pct_20p": 2.26,
+    "cao_20p": 70683.9766,
+    "thap_20p": 63923.0,
+    "cao_3t": 70683.9766,
+    "thap_3t": 61434.1914
+   },
+   "shanghai": {
+    "ten": "Shanghai Composite",
+    "don_vi": "điểm",
+    "gia": 3730.92,
+    "luc_vn": "2026-10-19T14:00+07:00",
+    "pct_1p": 0.39,
+    "pct_5p": -1.75,
+    "pct_20p": -4.04,
+    "cao_20p": 3952.1279,
+    "thap_20p": 3707.4761,
+    "cao_3t": 3990.304,
+    "thap_3t": 3707.4761
+   },
+   "hangseng": {
+    "ten": "Hang Seng",
+    "don_vi": "điểm",
+    "gia": 24186.83,
+    "luc_vn": "2026-10-16T15:08+07:00",
+    "pct_1p": 0.52,
+    "pct_5p": -0.1,
+    "pct_20p": -1.7,
+    "cao_20p": 25087.75,
+    "thap_20p": 23785.7891,
+    "cao_3t": 26009.4609,
+    "thap_3t": 23785.7891
+   },
+   "kospi": {
+    "ten": "KOSPI",
+    "don_vi": "điểm",
+    "gia": 5768.01,
+    "luc_vn": "2026-10-19T13:32+07:00",
+    "pct_1p": 1.76,
+    "pct_5p": -9.65,
+    "pct_20p": -12.97,
+    "cao_20p": 7080.9199,
+    "thap_20p": 5554.2202,
+    "cao_3t": 7096.8901,
+    "thap_3t": 5554.2202
+   },
+   "iron_ore": {
+    "ten": "Quặng sắt 62% (CFR Trung Quốc)",
+    "don_vi": "USD/tấn",
+    "gia": 161.91,
+    "luc_vn": "2021-08-11T09:05+07:00",
+    "pct_1p": 78.77,
+    "pct_5p": 78.55,
+    "pct_20p": 65.94,
+    "cao_20p": 97.51,
+    "thap_20p": 90.57,
+    "cao_3t": 100.02,
+    "thap_3t": 90.57
+   },
+   "hrc": {
+    "ten": "Thép cuộn cán nóng HRC (Mỹ)",
+    "don_vi": "USD/tấn",
+    "gia": 1339.0,
+    "luc_vn": "2026-10-19T10:25+07:00",
+    "pct_1p": 4.2,
+    "pct_5p": 4.94,
+    "pct_20p": 8.25,
+    "cao_20p": 1285.0,
+    "thap_20p": 1235.0,
+    "cao_3t": 1285.0,
+    "thap_3t": 1154.0
+   },
+   "copper": {
+    "ten": "Đồng",
+    "don_vi": "USD/lb",
+    "gia": 6.579,
+    "luc_vn": "2026-10-19T15:11+07:00",
+    "pct_1p": 0.73,
+    "pct_5p": -1.78,
+    "pct_20p": -1.61,
+    "cao_20p": 6.7595,
+    "thap_20p": 6.482,
+    "cao_3t": 6.8035,
+    "thap_3t": 6.2735
+   },
+   "btc": {
+    "ten": "Bitcoin",
+    "don_vi": "USD",
+    "gia": 82798.93,
+    "luc_vn": "2026-10-19T15:21+07:00",
+    "pct_1p": 0.95,
+    "pct_5p": 1.52,
+    "pct_20p": -0.98,
+    "cao_20p": 86480.3047,
+    "thap_20p": 81382.1484,
+    "cao_3t": 86602.9141,
+    "thap_3t": 62763.3203
+   }
+  },
+  "khong_co_nguon": [
+   "Giá urê",
+   "Giá cao su",
+   "Giá thép xây dựng trong nước"
+  ],
+  "ban_tin_sang_7h": {
+   "co": true,
+   "chup_luc": "2026-10-19T07:00+07:00",
+   "ban_tho_khong_ai": false,
+   "so_lieu_7h": {
+    "dxy": 101.851,
+    "dxy_chg20_pct": 1.415,
+    "us10y": 5.098,
+    "us10y_chg20_bp": 10.0,
+    "usdvnd": 25889.0,
+    "usdvnd_chg20_pct": -0.5,
+    "brent": 108.19,
+    "brent_chg20_pct": 7.823,
+    "vix": 19.99,
+    "lnh_on": 0.6
+   },
+   "co_vi_mo_bat": [],
+   "co_thieu_du_lieu": [
+    "LNH_SOC_NGAN",
+    "LNH_HA_NHIET"
+   ],
+   "tin_web": [
+    {
+     "tieu_de": "NHNN yêu cầu giảm 0,5% lãi suất tiền gửi, siết room tín dụng ngân hàng vi phạm",
+     "mot_dong": "NHNN phát văn bản 9608 chỉ đạo giảm tối thiểu 0,5%/năm lãi suất tiền gửi kỳ hạn từ 6 tháng và đe dọa hạ chỉ tiêu tăng trưởng tín dụng năm 2026-2027 đối với ngân hàng không tuân thủ.",
+     "vi_sao_quan_trong": "Chính sách này tác động trực tiếp đến biên lãi ròng (NIM) của toàn ngành ngân hàng và chi phí vốn của toàn bộ nền kinh tế. Đây là tín hiệu cho thấy cơ quan quản lý ưu tiên hỗ trợ tăng trưởng kinh tế hơn là thả nổi lãi suất theo thị trường.",
+     "vi_mo_to_vi_mo": "NHNN siết room tín dụng để buộc các ngân hàng giảm lãi suất huy động và cho vay. Tín hiệu này hạ chi phí tài chính nền kinh tế nhưng tác động trái chiều lên lợi nhuận ngân hàng và gia tăng áp lực lên tỷ giá USD/VND.",
+     "nganh": [
+      "Ngân hàng"
+     ],
+     "ma_lien_quan": [
+      "VCB",
+      "BID",
+      "CTG",
+      "VPB",
+      "TCB",
+      "MBB"
+     ],
+     "danh_gia": "trung_tinh",
+     "muc_do": "cao",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    },
+    {
+     "tieu_de": "Agribank tiên phong giảm mạnh 2% lãi suất cho vay từ 19/10",
+     "mot_dong": "Agribank thông báo giảm 2%/năm lãi suất cho vay áp dụng cho nhiều nhóm khách hàng ngay sau chỉ đạo mới của Chính phủ và NHNN.",
+     "vi_sao_quan_trong": "Động thái này kích hoạt cuộc đua giảm lãi suất cho vay trên toàn hệ thống, giúp hỗ trợ trực tiếp chi phí đầu vào cho các doanh nghiệp trong mùa cao điểm sản xuất kinh doanh quý IV.",
+     "vi_mo_to_vi_mo": "Big4 hạ lãi suất cho vay tạo định hướng cho mặt bằng lãi suất toàn thị trường giảm xuống, giúp giảm chi phí vốn cho khối sản xuất kinh doanh.",
+     "nganh": [
+      "Ngân hàng"
+     ],
+     "danh_gia": "tot",
+     "muc_do": "vua",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    },
+    {
+     "tieu_de": "VN-Index mất mốc sau 4 tuần giảm, khối ngoại bán ròng 3.100 tỷ đồng tuần qua",
+     "mot_dong": "VN-Index khép tuần tại 1.705,91 điểm, áp lực bán ròng từ khối ngoại chưa ngừng nghỉ đạt 3.100 tỷ đồng tuần qua trong khi khối tự doanh mua ròng rải rác.",
+     "vi_sao_quan_trong": "Việc khối ngoại liên tục tháo chạy dù Việt Nam đã được nâng hạng cho thấy sự thay đổi lớn trong khẩu vị rủi ro toàn cầu, đè nặng lên định giá của các cổ phiếu vốn hóa lớn.",
+     "vi_mo_to_vi_mo": "Lợi suất trái phiếu Mỹ cao duy trì sức ép lên DXY, khiến các quỹ ngoại rút vốn khỏi thị trường chứng khoán Việt Nam để quay về tài sản USD.",
+     "nganh": [
+      "Chứng khoán"
+     ],
+     "ma_lien_quan": [
+      "VIC",
+      "VHM",
+      "FPT"
+     ],
+     "danh_gia": "xau",
+     "muc_do": "cao",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    },
+    {
+     "tieu_de": "Bắt buộc chuyển khoản giao dịch mua bán vàng từ 5 triệu đồng",
+     "mot_dong": "Nghị định 390/2026/NĐ-CP siết chặt quản lý thị trường vàng, yêu cầu mọi giao dịch vàng từ 5 triệu đồng/ngày phải thanh toán không dùng tiền mặt.",
+     "vi_sao_quan_trong": "Quy định này triệt tiêu hoàn toàn thói quen mua bán vàng tích trữ bằng tiền mặt của người dân, đồng thời tăng cường khả năng kiểm soát thuế và nguồn gốc vàng của cơ quan quản lý.",
+     "vi_mo_to_vi_mo": "Siết thanh toán tiền mặt đối với giao dịch vàng giúp cơ quan quản lý kiểm soát dòng tiền, hạn chế buôn lậu và vàng hóa, hỗ trợ ổn định giá trị đồng nội tệ.",
+     "nganh": [
+      "Bán lẻ",
+      "Ngân hàng"
+     ],
+     "ma_lien_quan": [
+      "PNJ"
+     ],
+     "danh_gia": "trung_tinh",
+     "muc_do": "vua",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    },
+    {
+     "tieu_de": "Việt Nam chính thức ký Hiệp định Thương mại Tự do với khối EFTA",
+     "mot_dong": "Việt Nam ký kết FTA với Hiệp hội Mậu dịch tự do châu Âu (EFTA) mở ra cơ hội thương mại và thu hút đầu tư chất lượng cao.",
+     "vi_sao_quan_trong": "VEFTA mở ra cơ hội thuế quan 0% cho hàng thủy sản và công nghiệp Việt Nam sang các nước có thu nhập bình quân cao nhất thế giới, đồng thời thu hút dòng vốn FDI chất lượng cao.",
+     "vi_mo_to_vi_mo": "VEFTA tăng cường liên kết kinh tế toàn cầu cho Việt Nam, nâng cao vị thế thu hút vốn FDI chất lượng cao và cải thiện cân đối thương mại dài hạn.",
+     "nganh": [
+      "Bất động sản khu công nghiệp",
+      "Logistics",
+      "Dệt may",
+      "Thủy sản"
+     ],
+     "danh_gia": "tot",
+     "muc_do": "vua",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    },
+    {
+     "tieu_de": "Đề xuất đưa cơ chế sandbox và chứng khoán hóa khoản nợ vào Luật Chứng khoán sửa đổi",
+     "mot_dong": "Quốc hội thảo luận sửa Luật Chứng khoán, đề xuất cơ chế thử nghiệm sandbox sản phẩm mới và pháp lý hóa việc chứng khoán hóa nợ xấu.",
+     "vi_sao_quan_trong": "Khung pháp lý cho sandbox và chứng khoán hóa nợ sẽ giúp các ngân hàng và công ty tài chính khơi thông dòng vốn nợ xấu, đồng thời tạo cơ sở cho các sản phẩm Fintech mới ra đời. Quy định siết chặt điều kiện phân tán IPO và làm rõ xử lý BCTC ngoại trừ giúp nâng cao chất lượng hàng hóa trên sàn, bảo vệ dòng tiền của nhà đầu tư cá nhân.",
+     "vi_mo_to_vi_mo": "Việc bổ sung sandbox và chứng khoán hóa nợ vào Luật Chứng khoán nâng cao chất lượng thể chế thị trường tài chính. Tác động lan tỏa từ vĩ mô sẽ làm giảm bớt gánh nặng tín dụng lên hệ thống ngân hàng, giúp dòng vốn lưu thông hiệu quả hơn đến các ngành sản xuất kinh doanh.",
+     "nganh": [
+      "Chứng khoán",
+      "Ngân hàng"
+     ],
+     "ma_lien_quan": [
+      "SSI",
+      "VND",
+      "HCM"
+     ],
+     "danh_gia": "tot",
+     "muc_do": "vua",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    },
+    {
+     "tieu_de": "Kết quả kinh doanh Q3/2026: Phân hóa lợi nhuận tại các doanh nghiệp niêm yết",
+     "mot_dong": "BCTC Q3/2026 ghi nhận Nhựa Bình Minh (BMP) giảm 9% lợi nhuận, Haxaco (HAX) báo lãi trở lại 7 tỷ đồng, Kim loại màu Thái Nguyên tăng lãi gấp 4 lần.",
+     "vi_sao_quan_trong": "Kết quả kinh doanh Q3 là thước đo thực tế giúp nhà đầu tư lọc bỏ các cổ phiếu đầu cơ và tập trung vào các doanh nghiệp có tăng trưởng cốt lõi hoặc phục hồi từ đáy. Việc gãy chuỗi tăng trưởng lợi nhuận của các cổ phiếu như BMP hay thua lỗ ở nhóm chứng khoán như VDS là cảnh báo quan trọng cho chiến lược nắm giữ.",
+     "vi_mo_to_vi_mo": "Giá hàng hóa và nguyên liệu đầu vào biến động mạnh do căng thẳng địa chính trị và giá dầu Brent tăng tác động trực tiếp đến biên lợi nhuận gộp của các doanh nghiệp sản xuất. Dòng tiền tiêu dùng hồi phục chậm ảnh hưởng trực tiếp đến kết quả kinh doanh quý 3.",
+     "nganh": [
+      "Vật liệu xây dựng",
+      "Ô tô",
+      "Khai khoáng"
+     ],
+     "ma_lien_quan": [
+      "BMP",
+      "HAX"
+     ],
+     "danh_gia": "trung_tinh",
+     "muc_do": "vua",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    },
+    {
+     "tieu_de": "Nhóm doanh nghiệp bất động sản muốn mua gần 269 triệu cổ phiếu PVcomBank",
+     "mot_dong": "5 doanh nghiệp bất động sản đăng ký mua gần 269 triệu cổ phần PVcomBank với tổng giá trị dự kiến 3.666 tỷ đồng.",
+     "vi_sao_quan_trong": "Giao dịch này cho thấy sự xuất hiện của một nhóm cổ đông BĐS mới nắm giữ trên 22% vốn PVcomBank, tiềm ẩn rủi ro tín dụng tập trung vào lĩnh vực bất động sản. Việc các công ty BĐS mới tăng vốn đột biến rồi chi hàng nghìn tỷ mua cổ phần ngân hàng dấy lên câu hỏi về sở hữu chéo và nguồn vốn thực tế.",
+     "vi_mo_to_vi_mo": "Hành vi gom cổ phần ngân hàng của nhóm doanh nghiệp BĐS quy mô nhỏ/mới tăng vốn đe dọa sự an toàn hệ thống tín dụng vĩ mô. Điều này có thể buộc Ngân hàng Nhà nước phải tăng cường thanh tra đột xuất và siết room tín dụng BĐS toàn hệ thống.",
+     "nganh": [
+      "Ngân hàng",
+      "Bất động sản"
+     ],
+     "danh_gia": "xau",
+     "muc_do": "cao",
+     "su_kien_hay_nhan_dinh": "su_kien",
+     "xac_minh": "da_xac_minh"
+    }
+   ]
+  },
+  "den_nsi": "không đọc được",
+  "thieu_du_lieu": [
+   "tự doanh phiên hôm nay (mới có tới phiên 2026-10-16)"
+  ],
+  "chu_giai": "hỗ trợ/kháng cự là VÙNG 'từ–đến ★độ mạnh (số lần chạm, nguồn, cách % so giá đóng cửa)'; vung_dang_test = vùng giá đóng cửa đang nằm trong; phía nào không có vùng thì để trống, không lấp bằng chỉ báo; MA=giá(cách%); pct_5p_20p_60p = % thay đổi 5/20/60 phiên; rs = hơn/kém VN-Index (điểm %)",
+  "ma_theo_nhom": {
+   "Ngân hàng": [
+    {
+     "ma": "VCB",
+     "gt_khop_ty": 235.5,
+     "pb": 1.94,
+     "pe": 11.4,
+     "nn_rong_ty": -103.66,
+     "diem_dong_gop": -1.22,
+     "dong": 56.2,
+     "pct": -1.23,
+     "kl_x_tb20": 1.37,
+     "pct_5p_20p_60p": [
+      -0.88,
+      -4.58,
+      3.98
+     ],
+     "duong_ma": "MA10=56.67(-0.83%) MA20=57.31(-1.94%) MA50=58.36(-3.7%) MA200=60.67(-7.37%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 1,
+     "day_20_60_250p": [
+      "56.0·06/10·+0.36%",
+      "52.6·23/07·+6.84%",
+      "52.6·23/07·+6.84%"
+     ],
+     "dinh_60_250p": [
+      "61.4·27/08·-8.47%",
+      "78.146·14/01·-28.08%"
+     ],
+     "vung_dang_test": "55.53–57.2 ★★★★★ (9 lần chạm, đáy 20 phiên, đáy cũ, cách -0.3%)",
+     "ho_tro": [
+      "52.6 ★★ (1 lần chạm, đáy cũ, cách +6.84%)"
+     ],
+     "khang_cu": [
+      "57.22–58.91 ★★★★★ (19 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -3.2%)",
+      "59.01–60.69 ★★★★★ (12 lần chạm, MA200, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -6.1%)"
+     ],
+     "rs_5p_20p": [
+      0.93,
+      1.52
+     ]
+    },
+    {
+     "ma": "BID",
+     "gt_khop_ty": 112.0,
+     "pb": 1.39,
+     "pe": 8.2,
+     "nn_rong_ty": -37.97,
+     "diem_dong_gop": -0.49,
+     "dong": 33.65,
+     "pct": -0.88,
+     "kl_x_tb20": 1.07,
+     "pct_5p_20p_60p": [
+      -0.59,
+      -7.04,
+      0.28
+     ],
+     "duong_ma": "MA10=33.8(-0.44%) MA20=34.73(-3.11%) MA50=35.7(-5.74%) MA200=38.68(-13.0%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 1,
+     "day_20_60_250p": [
+      "33.05·15/10·+1.82%",
+      "32.152·28/07·+4.66%",
+      "32.152·28/07·+4.66%"
+     ],
+     "dinh_60_250p": [
+      "37.85·18/09·-11.1%",
+      "52.368·22/01·-35.74%"
+     ],
+     "vung_dang_test": "33.05–33.91 ★★★★ (4 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +0.51%)",
+     "ho_tro": [
+      "32.15 ★★ (1 lần chạm, đáy cũ, cách +4.67%)"
+     ],
+     "khang_cu": [
+      "34.09–35.0 ★★★★ (6 lần chạm, đáy cũ, cách -2.6%)",
+      "35.2–35.99 ★★★★★ (11 lần chạm, MA50, đáy cũ, đỉnh cũ, cách -5.48%)"
+     ],
+     "rs_5p_20p": [
+      1.22,
+      -0.94
+     ]
+    },
+    {
+     "ma": "CTG",
+     "gt_khop_ty": 560.0,
+     "pb": 1.22,
+     "pe": 5.9,
+     "nn_rong_ty": -39.07,
+     "diem_dong_gop": -0.16,
+     "dong": 30.5,
+     "pct": -0.33,
+     "kl_x_tb20": 2.8,
+     "pct_5p_20p_60p": [
+      3.04,
+      -1.61,
+      4.28
+     ],
+     "duong_ma": "MA10=29.77(+2.45%) MA20=29.93(+1.9%) MA50=30.79(-0.94%) MA200=33.68(-9.44%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "28.85·09/10·+5.72%",
+      "28.4·23/07·+7.39%",
+      "28.4·23/07·+7.39%"
+     ],
+     "dinh_60_250p": [
+      "33.0·07/08·-7.58%",
+      "42.839·12/01·-28.8%"
+     ],
+     "ho_tro": [
+      "29.7–30.07 ★★★★ (2 lần chạm, vùng khối lượng lớn, đáy cũ, cách +2.07%)",
+      "28.4 ★★★★ (2 lần chạm, đáy cũ, cách +7.39%)"
+     ],
+     "khang_cu": [
+      "30.65–31.51 ★★★★★ (4 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, cách -1.87%)",
+      "31.7–32.62 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -5.16%)"
+     ],
+     "rs_5p_20p": [
+      4.85,
+      4.49
+     ]
+    },
+    {
+     "ma": "MBB",
+     "gt_khop_ty": 237.8,
+     "pb": 1.27,
+     "pe": 6.6,
+     "nn_rong_ty": 55.16,
+     "diem_dong_gop": -0.31,
+     "dong": 19.7,
+     "pct": -0.76,
+     "kl_x_tb20": 1.04,
+     "pct_5p_20p_60p": [
+      2.87,
+      -2.48,
+      5.81
+     ],
+     "duong_ma": "MA10=19.32(+1.97%) MA20=19.5(+1.03%) MA50=19.98(-1.4%) MA200=20.55(-4.14%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "18.65·09/10·+5.63%",
+      "17.785·28/07·+10.77%",
+      "17.785·28/07·+10.77%"
+     ],
+     "dinh_60_250p": [
+      "21.2·24/08·-7.08%",
+      "23.627·11/02·-16.62%"
+     ],
+     "vung_dang_test": "19.6–20.18 ★★★★★ (15 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -0.96%)",
+     "ho_tro": [
+      "18.82–19.38 ★★★★★ (7 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +3.14%)",
+      "18.26–18.65 ★★★★ (6 lần chạm, đáy 20 phiên, đáy cũ, cách +6.72%)"
+     ],
+     "khang_cu": [
+      "20.2–20.79 ★★★★★ (13 lần chạm, MA200, MA50, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -3.86%)",
+      "20.82–21.27 ★★★★★ (10 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -6.37%)"
+     ],
+     "rs_5p_20p": [
+      4.68,
+      3.62
+     ]
+    },
+    {
+     "ma": "TCB",
+     "gt_khop_ty": 650.5,
+     "pb": 1.31,
+     "pe": 8.7,
+     "nn_rong_ty": 26.35,
+     "diem_dong_gop": 0.07,
+     "dong": 33.25,
+     "pct": 0.15,
+     "kl_x_tb20": 1.08,
+     "pct_5p_20p_60p": [
+      1.99,
+      3.1,
+      14.66
+     ],
+     "duong_ma": "MA10=32.69(+1.71%) MA20=32.72(+1.62%) MA50=32.17(+3.36%) MA200=32.26(+3.07%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "31.7·09/10·+4.89%",
+      "27.8·28/07·+19.6%",
+      "27.766·07/04·+19.75%"
+     ],
+     "dinh_60_250p": [
+      "35.2·27/08·-5.54%",
+      "40.792·17/10/25·-18.49%"
+     ],
+     "vung_dang_test": "32.86–33.7 ★★★★★ (10 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -0.09%)",
+     "ho_tro": [
+      "31.6–32.47 ★★★★★ (12 lần chạm, MA200, MA50, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +3.81%)",
+      "30.6–31.41 ★★★★★ (9 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +7.22%)"
+     ],
+     "khang_cu": [
+      "34.08–35.06 ★★★★★ (11 lần chạm, đáy cũ, đỉnh cũ, cách -3.82%)",
+      "35.16–36.14 ★★★★★ (5 lần chạm, đỉnh cũ, cách -6.73%)"
+     ],
+     "rs_5p_20p": [
+      3.8,
+      9.2
+     ]
+    },
+    {
+     "ma": "ACB",
+     "gt_khop_ty": 148.6,
+     "pb": 1.2,
+     "pe": 7.6,
+     "nn_rong_ty": -92.84,
+     "diem_dong_gop": -0.42,
+     "dong": 20.25,
+     "pct": -1.7,
+     "kl_x_tb20": 0.98,
+     "pct_5p_20p_60p": [
+      -0.98,
+      -9.6,
+      -9.6
+     ],
+     "duong_ma": "MA10=20.45(-0.98%) MA20=20.88(-3.02%) MA50=21.73(-6.81%) MA200=21.27(-4.8%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 1,
+     "day_20_60_250p": [
+      "20.15·09/10·+0.5%",
+      "20.15·09/10·+0.5%",
+      "18.697·09/03·+8.31%"
+     ],
+     "dinh_60_250p": [
+      "22.85·18/09·-11.38%",
+      "23.85·17/07·-15.09%"
+     ],
+     "vung_dang_test": "20.29–20.85 ★★★★★ (13 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -1.56%)",
+     "ho_tro": [
+      "19.69–20.2 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +1.5%)",
+      "19.3–19.39 ★★★★ (4 lần chạm, đáy cũ, cách +4.71%)"
+     ],
+     "khang_cu": [
+      "21.0–21.55 ★★★★★ (10 lần chạm, MA200, MA50, đáy cũ, đỉnh cũ, cách -4.8%)",
+      "21.65–22.23 ★★★★★ (14 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -7.7%)"
+     ],
+     "rs_5p_20p": [
+      0.83,
+      -3.5
+     ]
+    },
+    {
+     "ma": "STB",
+     "gt_khop_ty": 136.4,
+     "pb": 1.88,
+     "pe": 38.4,
+     "nn_rong_ty": -17.83,
+     "diem_dong_gop": -0.39,
+     "dong": 61.8,
+     "pct": -1.59,
+     "kl_x_tb20": 0.73,
+     "pct_5p_20p_60p": [
+      -7.62,
+      -19.43,
+      -12.96
+     ],
+     "duong_ma": "MA10=65.36(-5.45%) MA20=69.72(-11.36%) MA50=73.03(-15.38%) MA200=68.02(-9.14%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 15,
+     "day_20_60_250p": [
+      "61.7·19/10·+0.16%",
+      "61.7·19/10·+0.16%",
+      "45.95·15/12/25·+34.49%"
+     ],
+     "dinh_60_250p": [
+      "79.0·10/09·-21.77%",
+      "79.0·10/09·-21.77%"
+     ],
+     "vung_dang_test": "60.8–61.7 ★★★ (3 lần chạm, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +0.9%)",
+     "ho_tro": [
+      "59.0–60.0 ★★★★ (4 lần chạm, đáy cũ, cách +3.87%)",
+      "58.1 ★★ (2 lần chạm, đáy cũ, đỉnh cũ, cách +6.37%)"
+     ],
+     "khang_cu": [
+      "63.5–63.7 ★ (2 lần chạm, đáy cũ, đỉnh cũ, cách -2.83%)",
+      "64.8–66.4 ★★★★★ (7 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -5.79%)"
+     ],
+     "rs_5p_20p": [
+      -5.81,
+      -13.33
+     ]
+    },
+    {
+     "ma": "VPB",
+     "gt_khop_ty": 733.9,
+     "pb": 1.37,
+     "pe": 8.2,
+     "nn_rong_ty": -5.78,
+     "diem_dong_gop": -1.04,
+     "dong": 24.0,
+     "pct": -2.04,
+     "kl_x_tb20": 1.59,
+     "pct_5p_20p_60p": [
+      -1.64,
+      6.33,
+      21.0
+     ],
+     "duong_ma": "MA10=24.0(+0.0%) MA20=23.39(+2.61%) MA50=21.98(+9.19%) MA200=21.42(+12.04%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "21.898·23/09·+9.6%",
+      "19.002·28/07·+26.3%",
+      "18.63·23/03·+28.82%"
+     ],
+     "dinh_60_250p": [
+      "24.95·12/10·-3.81%",
+      "26.426·16/10/25·-9.18%"
+     ],
+     "ho_tro": [
+      "23.5–23.74 ★★★★ (4 lần chạm, đỉnh cũ, cách +1.61%)",
+      "23.0–23.15 ★★★ (3 lần chạm, đỉnh cũ, cách +4.03%)"
+     ],
+     "khang_cu": [
+      "24.13 ★ (1 lần chạm, đỉnh cũ, cách -0.54%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 20.39–20.549 (24/08)"
+     ],
+     "rs_5p_20p": [
+      0.17,
+      12.43
+     ]
+    },
+    {
+     "ma": "HDB",
+     "gt_khop_ty": 289.9,
+     "pb": 1.73,
+     "pe": 7.8,
+     "nn_rong_ty": -12.61,
+     "diem_dong_gop": -0.07,
+     "dong": 22.75,
+     "pct": -0.22,
+     "kl_x_tb20": 0.82,
+     "pct_5p_20p_60p": [
+      0.66,
+      7.16,
+      14.64
+     ],
+     "duong_ma": "MA10=22.44(+1.38%) MA20=21.91(+3.83%) MA50=21.29(+6.86%) MA200=20.68(+10.01%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "20.845·29/09·+9.14%",
+      "18.807·28/07·+20.97%",
+      "17.23·11/11/25·+32.04%"
+     ],
+     "dinh_60_250p": [
+      "23.45·14/10·-2.99%",
+      "23.45·14/10·-2.99%"
+     ],
+     "ho_tro": [
+      "21.88–22.19 ★★★★ (4 lần chạm, đỉnh cũ, cách +3.22%)",
+      "21.23–21.61 ★★★★★ (10 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +6.21%)"
+     ],
+     "khang_cu": [
+      "22.84–23.08 ★★★ (2 lần chạm, đỉnh cũ, cách -0.91%)"
+     ],
+     "rs_5p_20p": [
+      2.47,
+      13.26
+     ]
+    },
+    {
+     "ma": "SHB",
+     "gt_khop_ty": 325.5,
+     "pb": 0.69,
+     "pe": 4.3,
+     "nn_rong_ty": -37.52,
+     "diem_dong_gop": -0.1,
+     "dong": 10.55,
+     "pct": -0.94,
+     "kl_x_tb20": 0.73,
+     "pct_5p_20p_60p": [
+      1.44,
+      -9.05,
+      -9.83
+     ],
+     "duong_ma": "MA10=10.46(+0.86%) MA20=10.95(-3.65%) MA50=11.45(-7.86%) MA200=13.69(-22.94%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "9.55·09/10·+10.47%",
+      "9.55·09/10·+10.47%",
+      "9.55·09/10·+10.47%"
+     ],
+     "dinh_60_250p": [
+      "12.25·28/08·-13.88%",
+      "18.135·16/10/25·-41.83%"
+     ],
+     "khang_cu": [
+      "11.1–11.4 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, cách -6.22%)",
+      "11.7–11.95 ★★★★★ (5 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -10.74%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 10.45–10.55 (16/10)"
+     ],
+     "rs_5p_20p": [
+      3.25,
+      -2.95
+     ]
+    },
+    {
+     "ma": "LPB",
+     "gt_khop_ty": 51.1,
+     "pb": 2.64,
+     "pe": 10.1,
+     "nn_rong_ty": -13.0,
+     "diem_dong_gop": 0.28,
+     "dong": 38.45,
+     "pct": 1.18,
+     "kl_x_tb20": 0.67,
+     "pct_5p_20p_60p": [
+      -4.47,
+      -16.59,
+      -29.32
+     ],
+     "duong_ma": "MA10=39.86(-3.54%) MA20=42.16(-8.8%) MA50=46.69(-17.65%) MA200=45.74(-15.94%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 18,
+     "day_20_60_250p": [
+      "37.2·14/10·+3.36%",
+      "37.2·14/10·+3.36%",
+      "37.2·14/10·+3.36%"
+     ],
+     "dinh_60_250p": [
+      "56.0·27/07·-31.34%",
+      "58.5·25/06·-34.27%"
+     ],
+     "vung_dang_test": "38.51–39.22 ★★★★★ (9 lần chạm, đáy cũ, cách -1.06%)",
+     "ho_tro": [
+      "37.2–38.18 ★★★★★ (5 lần chạm, đáy 20 phiên, đáy cũ, cách +2.02%)"
+     ],
+     "khang_cu": [
+      "40.16–40.45 ★★★★ (6 lần chạm, đáy cũ, đỉnh cũ, cách -4.59%)",
+      "41.86–42.67 ★★★★ (4 lần chạm, đáy cũ, đỉnh cũ, cách -9.04%)"
+     ],
+     "rs_5p_20p": [
+      -2.66,
+      -10.49
+     ]
+    },
+    {
+     "ma": "MSB",
+     "gt_khop_ty": 148.7,
+     "pb": 1.22,
+     "pe": 9.4,
+     "nn_rong_ty": -39.25,
+     "diem_dong_gop": 0.0,
+     "dong": 14.8,
+     "pct": 0.0,
+     "kl_x_tb20": 0.81,
+     "pct_5p_20p_60p": [
+      2.07,
+      13.41,
+      11.71
+     ],
+     "duong_ma": "MA10=14.63(+1.16%) MA20=14.34(+3.21%) MA50=13.63(+8.58%) MA200=11.81(+25.32%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "13.05·22/09·+13.41%",
+      "12.125·26/08·+22.06%",
+      "9.0·09/03·+64.44%"
+     ],
+     "dinh_60_250p": [
+      "15.0·14/10·-1.33%",
+      "15.0·14/10·-1.33%"
+     ],
+     "ho_tro": [
+      "14.4–14.5 ★★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách +2.42%)",
+      "13.71–13.85 ★★★★ (3 lần chạm, MA50, đáy cũ, đỉnh cũ, cách +7.4%)"
+     ],
+     "khang_cu": [
+      "15.0 ★ (1 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -1.33%)"
+     ],
+     "rs_5p_20p": [
+      3.88,
+      19.51
+     ]
+    },
+    {
+     "ma": "TPB",
+     "gt_khop_ty": 105.1,
+     "pb": 0.86,
+     "pe": 5.1,
+     "nn_rong_ty": -7.12,
+     "diem_dong_gop": -0.03,
+     "dong": 11.95,
+     "pct": -0.42,
+     "kl_x_tb20": 0.87,
+     "pct_5p_20p_60p": [
+      3.91,
+      1.68,
+      0.96
+     ],
+     "duong_ma": "MA10=11.72(+1.96%) MA20=11.93(+0.17%) MA50=12.05(-0.83%) MA200=13.26(-9.88%)",
+     "doc_ma20_ma50": "lên/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "11.25·09/10·+6.22%",
+      "11.25·09/10·+6.22%",
+      "11.25·09/10·+6.22%"
+     ],
+     "dinh_60_250p": [
+      "12.633·05/08·-5.41%",
+      "15.869·16/10/25·-24.7%"
+     ],
+     "vung_dang_test": "11.92–12.14 ★★★★★ (3 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, cách -0.67%)",
+     "ho_tro": [
+      "11.54–11.71 ★★★★★ (4 lần chạm, đáy cũ, cách +2.75%)"
+     ],
+     "khang_cu": [
+      "12.28–12.63 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đỉnh 20 phiên, đỉnh cũ, cách -4.09%)",
+      "12.68–12.72 ★★★ (2 lần chạm, đáy cũ, cách -5.91%)"
+     ],
+     "rs_5p_20p": [
+      5.72,
+      7.78
+     ]
+    }
+   ],
+   "Chứng khoán": [
+    {
+     "ma": "SSI",
+     "gt_khop_ty": 504.8,
+     "pb": 1.53,
+     "pe": 12.2,
+     "nn_rong_ty": 24.76,
+     "diem_dong_gop": 0.22,
+     "dong": 19.8,
+     "pct": 1.8,
+     "kl_x_tb20": 1.33,
+     "pct_5p_20p_60p": [
+      3.94,
+      -5.26,
+      9.37
+     ],
+     "duong_ma": "MA10=19.28(+2.7%) MA20=19.8(+0.0%) MA50=20.23(-2.13%) MA200=22.01(-10.04%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "18.65·09/10·+6.17%",
+      "17.345·28/07·+14.15%",
+      "17.345·28/07·+14.15%"
+     ],
+     "dinh_60_250p": [
+      "21.75·27/08·-8.97%",
+      "30.761·16/10/25·-35.63%"
+     ],
+     "vung_dang_test": "19.65–20.14 ★★★★★ (3 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, cách -0.5%)",
+     "ho_tro": [
+      "19.2 ★★ (1 lần chạm, đáy cũ, cách +3.12%)",
+      "17.34 ★★★ (2 lần chạm, chân nến tăng mạnh, đáy cũ, cách +14.19%)"
+     ],
+     "khang_cu": [
+      "20.38 ★★ (1 lần chạm, MA50, đỉnh cũ, cách -2.85%)",
+      "20.78–21.38 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, cách -6.07%)"
+     ],
+     "rs_5p_20p": [
+      5.75,
+      0.84
+     ]
+    },
+    {
+     "ma": "VCI",
+     "gt_khop_ty": 172.3,
+     "pb": 1.27,
+     "pe": 15.0,
+     "nn_rong_ty": -6.7,
+     "diem_dong_gop": 0.02,
+     "dong": 19.05,
+     "pct": 0.53,
+     "kl_x_tb20": 1.17,
+     "pct_5p_20p_60p": [
+      3.25,
+      -5.46,
+      -4.27
+     ],
+     "duong_ma": "MA10=18.79(+1.38%) MA20=19.17(-0.63%) MA50=20.51(-7.12%) MA200=24.14(-21.09%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "18.05·09/10·+5.54%",
+      "18.05·09/10·+5.54%",
+      "18.05·09/10·+5.54%"
+     ],
+     "dinh_60_250p": [
+      "23.15·28/08·-17.71%",
+      "31.71·16/10/25·-39.92%"
+     ],
+     "ho_tro": [
+      "18.05–18.15 ★★★★ (4 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +5.25%)"
+     ],
+     "khang_cu": [
+      "19.15–19.29 ★★★★ (2 lần chạm, vùng khối lượng lớn, đáy cũ, cách -0.88%)",
+      "20.19 ★★ (0 lần chạm, vùng khối lượng lớn, cách -5.65%)"
+     ],
+     "rs_5p_20p": [
+      5.06,
+      0.64
+     ]
+    },
+    {
+     "ma": "HCM",
+     "gt_khop_ty": 69.6,
+     "pb": 1.55,
+     "pe": 19.8,
+     "nn_rong_ty": -9.4,
+     "diem_dong_gop": 0.1,
+     "dong": 24.2,
+     "pct": 1.89,
+     "kl_x_tb20": 1.09,
+     "pct_5p_20p_60p": [
+      4.31,
+      -3.2,
+      -4.35
+     ],
+     "duong_ma": "MA10=23.45(+3.2%) MA20=23.88(+1.34%) MA50=25.0(-3.2%) MA200=22.86(+5.86%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "22.5·07/10·+7.56%",
+      "22.5·07/10·+7.56%",
+      "16.468·23/03·+46.95%"
+     ],
+     "dinh_60_250p": [
+      "27.35·11/08·-11.52%",
+      "27.35·11/08·-11.52%"
+     ],
+     "vung_dang_test": "24.1–24.75 ★★★★★ (6 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -0.94%)",
+     "ho_tro": [
+      "23.7–23.71 ★★★ (1 lần chạm, vùng khối lượng lớn, đỉnh cũ, cách +2.11%)",
+      "22.93–23.41 ★★★★★ (6 lần chạm, MA200, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +4.45%)"
+     ],
+     "khang_cu": [
+      "24.83–25.55 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -3.93%)",
+      "25.85–26.3 ★★★★★ (7 lần chạm, đáy cũ, đỉnh cũ, cách -7.21%)"
+     ],
+     "rs_5p_20p": [
+      6.12,
+      2.9
+     ]
+    },
+    {
+     "ma": "VND",
+     "gt_khop_ty": 231.9,
+     "pb": 0.94,
+     "pe": 7.5,
+     "nn_rong_ty": -36.42,
+     "diem_dong_gop": 0.08,
+     "dong": 13.5,
+     "pct": 1.89,
+     "kl_x_tb20": 1.82,
+     "pct_5p_20p_60p": [
+      2.66,
+      -8.16,
+      -18.67
+     ],
+     "duong_ma": "MA10=13.28(+1.66%) MA20=13.67(-1.24%) MA50=15.1(-10.6%) MA200=16.67(-19.02%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "12.6·09/10·+7.14%",
+      "12.6·09/10·+7.14%",
+      "12.6·09/10·+7.14%"
+     ],
+     "dinh_60_250p": [
+      "17.5·23/07·-22.86%",
+      "23.812·17/10/25·-43.31%"
+     ],
+     "khang_cu": [
+      "13.9 ★★ (2 lần chạm, đáy cũ, đỉnh cũ, cách -2.88%)",
+      "14.9–15.06 ★★★★ (3 lần chạm, MA50, đáy cũ, đỉnh 20 phiên, cách -9.88%)"
+     ],
+     "rs_5p_20p": [
+      4.47,
+      -2.06
+     ]
+    },
+    {
+     "ma": "VIX",
+     "gt_khop_ty": 496.4,
+     "pb": 0.93,
+     "pe": 7.7,
+     "nn_rong_ty": -31.73,
+     "diem_dong_gop": 0.11,
+     "dong": 12.05,
+     "pct": 1.69,
+     "kl_x_tb20": 1.6,
+     "pct_5p_20p_60p": [
+      2.99,
+      -5.86,
+      4.56
+     ],
+     "duong_ma": "MA10=11.69(+3.08%) MA20=12.06(-0.08%) MA50=12.82(-6.01%) MA200=15.59(-22.71%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "11.0·09/10·+9.55%",
+      "11.0·28/07·+9.55%",
+      "11.0·28/07·+9.55%"
+     ],
+     "dinh_60_250p": [
+      "14.65·27/08·-17.75%",
+      "32.534·16/10/25·-62.96%"
+     ],
+     "ho_tro": [
+      "11.89–12.0 ★★★ (1 lần chạm, vùng khối lượng lớn, đỉnh cũ, cách +0.84%)",
+      "11.0 ★★★★ (3 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +9.55%)"
+     ],
+     "khang_cu": [
+      "12.29–12.35 ★★★★ (2 lần chạm, đáy cũ, cách -2.19%)",
+      "12.68 ★★★ (0 lần chạm, MA50, vùng khối lượng lớn, cách -4.97%)"
+     ],
+     "rs_5p_20p": [
+      4.8,
+      0.24
+     ]
+    },
+    {
+     "ma": "SHS",
+     "gt_khop_ty": 251.7,
+     "pb": 0.88,
+     "pe": 11.0,
+     "nn_rong_ty": -16.55,
+     "dong": 12.5,
+     "pct": 1.63,
+     "kl_x_tb20": 2.27,
+     "pct_5p_20p_60p": [
+      6.84,
+      -7.68,
+      -15.48
+     ],
+     "duong_ma": "MA10=12.02(+3.99%) MA20=12.45(+0.4%) MA50=13.7(-8.76%) MA200=16.34(-23.5%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "10.8·09/10·+15.74%",
+      "10.8·09/10·+15.74%",
+      "10.8·09/10·+15.74%"
+     ],
+     "dinh_60_250p": [
+      "15.845·23/07·-21.11%",
+      "27.08·17/10/25·-53.84%"
+     ],
+     "vung_dang_test": "12.48 ★★ (1 lần chạm, đáy cũ, cách +0.16%)",
+     "ho_tro": [
+      "12.2 ★ (1 lần chạm, đáy cũ, cách +2.46%)"
+     ],
+     "khang_cu": [
+      "12.96–13.16 ★★★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách -4.29%)",
+      "13.83–14.21 ★★★★★ (8 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -10.84%)"
+     ],
+     "rs_5p_20p": [
+      8.65,
+      -1.58
+     ]
+    },
+    {
+     "ma": "MBS",
+     "gt_khop_ty": 52.2,
+     "pb": 1.34,
+     "pe": 12.4,
+     "nn_rong_ty": -2.73,
+     "dong": 15.4,
+     "pct": 1.99,
+     "kl_x_tb20": 1.25,
+     "pct_5p_20p_60p": [
+      5.48,
+      -7.78,
+      -12.92
+     ],
+     "duong_ma": "MA10=14.95(+3.01%) MA20=15.41(-0.06%) MA50=16.55(-6.95%) MA200=18.52(-16.85%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "13.4·09/10·+14.93%",
+      "13.4·09/10·+14.93%",
+      "13.4·09/10·+14.93%"
+     ],
+     "dinh_60_250p": [
+      "18.63·23/07·-17.34%",
+      "26.159·16/10/25·-41.13%"
+     ],
+     "ho_tro": [
+      "14.94 ★★ (1 lần chạm, đáy cũ, cách +3.08%)"
+     ],
+     "khang_cu": [
+      "16.0–16.12 ★★★ (2 lần chạm, đáy cũ, cách -4.11%)",
+      "16.73–17.21 ★★★★★ (10 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -9.25%)"
+     ],
+     "rs_5p_20p": [
+      7.29,
+      -1.68
+     ]
+    },
+    {
+     "ma": "CTS",
+     "gt_khop_ty": 28.8,
+     "pb": 2.0,
+     "pe": 15.2,
+     "nn_rong_ty": 1.7,
+     "diem_dong_gop": -0.01,
+     "dong": 20.9,
+     "pct": -0.95,
+     "kl_x_tb20": 1.41,
+     "pct_5p_20p_60p": [
+      7.18,
+      -3.24,
+      -8.73
+     ],
+     "duong_ma": "MA10=19.96(+4.71%) MA20=20.35(+2.7%) MA50=21.55(-3.02%) MA200=22.88(-8.65%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "18.8·14/10·+11.17%",
+      "18.8·14/10·+11.17%",
+      "18.8·14/10·+11.17%"
+     ],
+     "dinh_60_250p": [
+      "24.0·28/08·-12.92%",
+      "36.487·20/10/25·-42.72%"
+     ],
+     "vung_dang_test": "20.74–20.9 ★★★★ (3 lần chạm, đáy cũ, cách +0.38%)",
+     "ho_tro": [
+      "20.12–20.39 ★★★ (2 lần chạm, đáy cũ, cách +3.21%)",
+      "19.5 ★★ (1 lần chạm, đáy cũ, cách +7.18%)"
+     ],
+     "khang_cu": [
+      "21.65–22.27 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -4.83%)",
+      "22.5–23.05 ★★★★★ (8 lần chạm, MA200, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -8.21%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 20.45–20.6 (16/10)"
+     ],
+     "rs_5p_20p": [
+      8.99,
+      2.86
+     ]
+    },
+    {
+     "ma": "FTS",
+     "gt_khop_ty": 16.0,
+     "pb": 1.6,
+     "pe": 16.8,
+     "nn_rong_ty": -1.83,
+     "diem_dong_gop": -0.02,
+     "dong": 18.4,
+     "pct": -1.08,
+     "kl_x_tb20": 1.36,
+     "pct_5p_20p_60p": [
+      4.25,
+      -10.68,
+      -18.94
+     ],
+     "duong_ma": "MA10=18.07(+1.83%) MA20=18.79(-2.08%) MA50=20.55(-10.46%) MA200=24.44(-24.71%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "17.25·09/10·+6.67%",
+      "17.25·09/10·+6.67%",
+      "17.25·09/10·+6.67%"
+     ],
+     "dinh_60_250p": [
+      "23.7·23/07·-22.36%",
+      "32.554·04/11/25·-43.48%"
+     ],
+     "khang_cu": [
+      "19.7 ★★ (1 lần chạm, đáy cũ, cách -6.6%)",
+      "20.0 ★★★★ (3 lần chạm, đáy cũ, cách -8.0%)"
+     ],
+     "rs_5p_20p": [
+      6.06,
+      -4.58
+     ]
+    },
+    {
+     "ma": "BSI",
+     "gt_khop_ty": 14.1,
+     "pb": 1.24,
+     "pe": 13.5,
+     "nn_rong_ty": -0.57,
+     "diem_dong_gop": -0.01,
+     "dong": 26.0,
+     "pct": -0.76,
+     "kl_x_tb20": 2.09,
+     "pct_5p_20p_60p": [
+      7.0,
+      -3.17,
+      -10.34
+     ],
+     "duong_ma": "MA10=24.82(+4.75%) MA20=25.36(+2.52%) MA50=27.05(-3.88%) MA200=31.58(-17.67%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "23.3·14/10·+11.59%",
+      "23.3·14/10·+11.59%",
+      "23.3·14/10·+11.59%"
+     ],
+     "dinh_60_250p": [
+      "30.2·11/08·-13.91%",
+      "40.91·17/10/25·-36.45%"
+     ],
+     "vung_dang_test": "26.0 ★★ (1 lần chạm, đáy cũ, cách +0.0%)",
+     "ho_tro": [
+      "25.5 ★★ (1 lần chạm, đáy cũ, cách +1.96%)",
+      "23.3–23.6 ★★ (2 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +10.87%)"
+     ],
+     "khang_cu": [
+      "27.3–27.9 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -5.8%)",
+      "28.76–28.95 ★★★ (1 lần chạm, vùng khối lượng lớn, đáy cũ, cách -9.91%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 25.4–25.55 (16/10)"
+     ],
+     "rs_5p_20p": [
+      8.81,
+      2.93
+     ]
+    },
+    {
+     "ma": "TCX",
+     "gt_khop_ty": 118.8,
+     "pb": 2.01,
+     "pe": 15.1,
+     "nn_rong_ty": -36.82,
+     "diem_dong_gop": 0.14,
+     "dong": 27.8,
+     "pct": 0.72,
+     "kl_x_tb20": 1.82,
+     "pct_5p_20p_60p": [
+      2.58,
+      -10.32,
+      -17.73
+     ],
+     "duong_ma": "MA10=27.54(+0.94%) MA20=28.43(-2.22%) MA50=31.17(-10.81%) MA200=34.67(-19.82%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "26.6·09/10·+4.51%",
+      "26.6·09/10·+4.51%",
+      "26.6·09/10·+4.51%"
+     ],
+     "dinh_60_250p": [
+      "35.415·26/08·-21.5%",
+      "44.537·24/02·-37.58%"
+     ],
+     "ho_tro": [
+      "26.6 ★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +4.51%)"
+     ],
+     "khang_cu": [
+      "28.7–29.21 ★★★ (4 lần chạm, đáy cũ, đỉnh cũ, cách -4.01%)",
+      "30.1–31.0 ★★★★★ (4 lần chạm, MA50, đáy cũ, cách -9.0%)"
+     ],
+     "rs_5p_20p": [
+      4.39,
+      -4.22
+     ]
+    }
+   ],
+   "Bất động sản": [
+    {
+     "ma": "VHM",
+     "gt_khop_ty": 369.3,
+     "pb": 1.9,
+     "pe": 6.3,
+     "nn_rong_ty": -101.83,
+     "diem_dong_gop": -1.2,
+     "dong": 60.3,
+     "pct": -1.15,
+     "kl_x_tb20": 0.71,
+     "pct_5p_20p_60p": [
+      -5.63,
+      -11.45,
+      -4.96
+     ],
+     "duong_ma": "MA10=63.82(-5.52%) MA20=66.14(-8.83%) MA50=69.68(-13.46%) MA200=64.81(-6.96%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 9,
+     "day_20_60_250p": [
+      "58.8·15/10·+2.55%",
+      "58.8·15/10·+2.55%",
+      "41.842·10/11/25·+44.11%"
+     ],
+     "dinh_60_250p": [
+      "81.7·06/08·-26.19%",
+      "83.444·11/05·-27.74%"
+     ],
+     "vung_dang_test": "60.19 ★ (1 lần chạm, đỉnh cũ, cách +0.18%)",
+     "ho_tro": [
+      "58.8 ★ (1 lần chạm, đáy 20 phiên, cách +2.55%)",
+      "53.64–54.65 ★★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách +11.38%)"
+     ],
+     "khang_cu": [
+      "61.39–62.11 ★★ (2 lần chạm, đáy cũ, đỉnh cũ, cách -2.35%)",
+      "63.22–63.3 ★★★ (2 lần chạm, đáy cũ, đỉnh cũ, cách -4.68%)"
+     ],
+     "rs_5p_20p": [
+      -3.82,
+      -5.35
+     ]
+    },
+    {
+     "ma": "VIC",
+     "gt_khop_ty": 444.6,
+     "pb": 9.69,
+     "pe": 77.8,
+     "nn_rong_ty": -27.26,
+     "diem_dong_gop": -12.84,
+     "dong": 207.0,
+     "pct": -3.72,
+     "kl_x_tb20": 0.76,
+     "pct_5p_20p_60p": [
+      -5.48,
+      -11.91,
+      2.42
+     ],
+     "duong_ma": "MA10=221.49(-6.54%) MA20=226.12(-8.46%) MA50=226.29(-8.52%) MA200=194.06(+6.67%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 8,
+     "day_20_60_250p": [
+      "207.0·19/10·+0.0%",
+      "194.6·17/08·+6.37%",
+      "93.0·03/11/25·+122.58%"
+     ],
+     "dinh_60_250p": [
+      "265.0·07/09·-21.89%",
+      "265.0·07/09·-21.89%"
+     ],
+     "vung_dang_test": "204.0–207.0 ★★ (3 lần chạm, đáy 20 phiên, đáy cũ, cách +0.73%)",
+     "ho_tro": [
+      "198.7–200.0 ★★★ (3 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +3.84%)",
+      "194.6 ★★★ (1 lần chạm, MA200, đáy cũ, cách +6.37%)"
+     ],
+     "khang_cu": [
+      "211.5–215.2 ★★★★ (4 lần chạm, đáy cũ, cách -2.98%)",
+      "219.1–224.7 ★★★★★ (7 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đỉnh cũ, cách -6.71%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 205.7–208.0 (24/08)",
+      "gap xuống chưa lấp 225.4–225.5 (12/10)"
+     ],
+     "rs_5p_20p": [
+      -3.67,
+      -5.81
+     ]
+    },
+    {
+     "ma": "VRE",
+     "gt_khop_ty": 52.1,
+     "pb": 1.09,
+     "pe": 7.2,
+     "nn_rong_ty": -1.95,
+     "diem_dong_gop": 0.09,
+     "dong": 23.05,
+     "pct": 0.88,
+     "kl_x_tb20": 0.68,
+     "pct_5p_20p_60p": [
+      1.32,
+      -6.87,
+      5.98
+     ],
+     "duong_ma": "MA10=22.97(+0.35%) MA20=23.64(-2.5%) MA50=24.72(-6.76%) MA200=27.4(-15.88%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "22.15·15/10·+4.06%",
+      "20.9·28/07·+10.29%",
+      "20.9·28/07·+10.29%"
+     ],
+     "dinh_60_250p": [
+      "27.95·07/09·-17.53%",
+      "42.061·17/10/25·-45.2%"
+     ],
+     "ho_tro": [
+      "22.7–23.0 ★★ (2 lần chạm, chân nến tăng mạnh, đáy cũ, cách +0.88%)",
+      "20.9 ★★ (1 lần chạm, đáy cũ, cách +10.29%)"
+     ],
+     "khang_cu": [
+      "23.65–24.14 ★★★★ (5 lần chạm, đáy cũ, cách -3.56%)",
+      "24.45–25.05 ★★★★★ (4 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, cách -6.87%)"
+     ],
+     "rs_5p_20p": [
+      3.13,
+      -0.77
+     ]
+    },
+    {
+     "ma": "VPL",
+     "gt_khop_ty": 60.2,
+     "pb": 3.27,
+     "pe": 49.1,
+     "nn_rong_ty": 18.93,
+     "diem_dong_gop": 0.39,
+     "dong": 80.0,
+     "pct": 1.27,
+     "kl_x_tb20": 1.08,
+     "pct_5p_20p_60p": [
+      1.27,
+      -1.48,
+      8.84
+     ],
+     "duong_ma": "MA10=79.08(+1.16%) MA20=79.14(+1.09%) MA50=79.24(+0.96%) MA200=84.31(-5.11%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "74.5·15/10·+7.38%",
+      "71.5·23/07·+11.89%",
+      "67.0·10/03·+19.4%"
+     ],
+     "dinh_60_250p": [
+      "88.2·09/09·-9.3%",
+      "111.0·09/12/25·-27.93%"
+     ],
+     "ho_tro": [
+      "78.7–79.1 ★★★★★ (3 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, cách +1.39%)",
+      "76.2–77.45 ★★★★ (3 lần chạm, vùng khối lượng lớn, đáy cũ, cách +4.13%)"
+     ],
+     "khang_cu": [
+      "80.7–83.05 ★★★★★ (11 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -2.3%)",
+      "83.3 ★★ (1 lần chạm, MA200, đáy cũ, cách -3.96%)"
+     ],
+     "rs_5p_20p": [
+      3.08,
+      4.62
+     ]
+    },
+    {
+     "ma": "KDH",
+     "gt_khop_ty": 43.7,
+     "pb": 0.94,
+     "pe": 9.9,
+     "nn_rong_ty": -6.09,
+     "diem_dong_gop": 0.0,
+     "dong": 14.15,
+     "pct": 0.0,
+     "kl_x_tb20": 0.81,
+     "pct_5p_20p_60p": [
+      3.28,
+      -1.8,
+      -13.53
+     ],
+     "duong_ma": "MA10=13.63(+3.82%) MA20=13.84(+2.24%) MA50=14.98(-5.54%) MA200=20.57(-31.21%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "13.0·09/10·+8.85%",
+      "13.0·09/10·+8.85%",
+      "13.0·09/10·+8.85%"
+     ],
+     "dinh_60_250p": [
+      "17.091·24/08·-17.21%",
+      "33.137·30/10/25·-57.3%"
+     ],
+     "vung_dang_test": "14.17 ★★ (0 lần chạm, vùng khối lượng lớn, cách -0.14%)",
+     "ho_tro": [
+      "13.59–13.82 ★★★ (2 lần chạm, vùng khối lượng lớn, đáy cũ, cách +3.28%)"
+     ],
+     "khang_cu": [
+      "14.64–14.77 ★★★★ (3 lần chạm, MA50, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -3.81%)",
+      "15.5 ★★ (1 lần chạm, đáy cũ, cách -8.71%)"
+     ],
+     "rs_5p_20p": [
+      5.09,
+      4.3
+     ]
+    },
+    {
+     "ma": "NLG",
+     "gt_khop_ty": 19.1,
+     "pb": 0.83,
+     "pe": 16.9,
+     "nn_rong_ty": -9.48,
+     "diem_dong_gop": -0.01,
+     "dong": 21.4,
+     "pct": -0.47,
+     "kl_x_tb20": 0.64,
+     "pct_5p_20p_60p": [
+      -2.51,
+      -11.2,
+      -5.52
+     ],
+     "duong_ma": "MA10=21.61(-0.97%) MA20=21.94(-2.46%) MA50=23.09(-7.32%) MA200=25.85(-17.21%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "21.0·15/10·+1.9%",
+      "19.15·28/07·+11.75%",
+      "19.15·28/07·+11.75%"
+     ],
+     "dinh_60_250p": [
+      "25.95·07/09·-17.53%",
+      "39.391·31/10/25·-45.67%"
+     ],
+     "ho_tro": [
+      "21.0–21.3 ★★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +1.18%)",
+      "19.15 ★★ (1 lần chạm, đáy cũ, cách +11.75%)"
+     ],
+     "khang_cu": [
+      "21.75 ★★ (0 lần chạm, vùng khối lượng lớn, cách -1.61%)",
+      "22.45–22.5 ★★ (2 lần chạm, đáy cũ, đỉnh cũ, cách -4.8%)"
+     ],
+     "rs_5p_20p": [
+      -0.7,
+      -5.1
+     ]
+    },
+    {
+     "ma": "DXG",
+     "gt_khop_ty": 154.0,
+     "pb": 0.9,
+     "pe": 67.0,
+     "nn_rong_ty": -28.18,
+     "diem_dong_gop": 0.03,
+     "dong": 10.25,
+     "pct": 0.99,
+     "kl_x_tb20": 1.77,
+     "pct_5p_20p_60p": [
+      3.54,
+      -2.84,
+      -7.66
+     ],
+     "duong_ma": "MA10=9.96(+2.91%) MA20=10.09(+1.59%) MA50=10.77(-4.83%) MA200=12.38(-17.21%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "9.3·06/10·+10.22%",
+      "9.3·06/10·+10.22%",
+      "9.3·06/10·+10.22%"
+     ],
+     "dinh_60_250p": [
+      "12.15·27/08·-15.64%",
+      "20.614·17/10/25·-50.28%"
+     ],
+     "vung_dang_test": "10.15–10.3 ★★★★ (3 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +0.2%)",
+     "ho_tro": [
+      "9.76–9.82 ★★★ (2 lần chạm, đáy cũ, cách +4.7%)",
+      "9.3 ★★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +10.22%)"
+     ],
+     "khang_cu": [
+      "10.7–10.8 ★★★★★ (6 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, cách -4.65%)",
+      "11.0–11.23 ★★★★★ (4 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -7.74%)"
+     ],
+     "rs_5p_20p": [
+      5.35,
+      3.26
+     ]
+    },
+    {
+     "ma": "PDR",
+     "gt_khop_ty": 40.7,
+     "pb": 0.89,
+     "pe": 18.2,
+     "nn_rong_ty": -3.99,
+     "diem_dong_gop": 0.01,
+     "dong": 11.25,
+     "pct": 0.45,
+     "kl_x_tb20": 0.86,
+     "pct_5p_20p_60p": [
+      0.0,
+      -2.17,
+      -7.02
+     ],
+     "duong_ma": "MA10=11.19(+0.54%) MA20=11.28(-0.27%) MA50=11.73(-4.09%) MA200=14.81(-24.04%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "10.55·28/09·+6.64%",
+      "10.4·28/07·+8.17%",
+      "10.4·28/07·+8.17%"
+     ],
+     "dinh_60_250p": [
+      "12.95·24/08·-13.13%",
+      "27.0·16/10/25·-58.33%"
+     ],
+     "ho_tro": [
+      "10.4–10.6 ★★★★ (3 lần chạm, đáy 20 phiên, đáy cũ, cách +7.14%)"
+     ],
+     "khang_cu": [
+      "11.3–11.4 ★★★★ (3 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -0.88%)",
+      "11.65–11.95 ★★★★★ (5 lần chạm, MA50, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -4.66%)"
+     ],
+     "gap": [
+      "gap xuống chưa lấp 12.3–12.4 (03/09)"
+     ],
+     "rs_5p_20p": [
+      1.81,
+      3.93
+     ]
+    },
+    {
+     "ma": "DIG",
+     "gt_khop_ty": 46.1,
+     "pb": 0.8,
+     "pe": 10.5,
+     "nn_rong_ty": -1.33,
+     "diem_dong_gop": 0.0,
+     "dong": 9.54,
+     "pct": 0.1,
+     "kl_x_tb20": 1.2,
+     "pct_5p_20p_60p": [
+      0.85,
+      -5.54,
+      -8.07
+     ],
+     "duong_ma": "MA10=9.44(+1.06%) MA20=9.5(+0.42%) MA50=9.97(-4.31%) MA200=12.38(-22.94%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "8.71·06/10·+9.53%",
+      "8.71·06/10·+9.53%",
+      "8.71·06/10·+9.53%"
+     ],
+     "dinh_60_250p": [
+      "10.943·27/08·-12.82%",
+      "23.679·17/10/25·-59.71%"
+     ],
+     "ho_tro": [
+      "9.48 ★★ (0 lần chạm, vùng khối lượng lớn, cách +0.63%)",
+      "8.71–8.82 ★★★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +8.78%)"
+     ],
+     "khang_cu": [
+      "9.72–9.85 ★★★★★ (3 lần chạm, MA50, đáy cũ, cách -2.45%)",
+      "10.19–10.43 ★★★★★ (4 lần chạm, vùng khối lượng lớn, đỉnh 20 phiên, đỉnh cũ, cách -7.47%)"
+     ],
+     "rs_5p_20p": [
+      2.66,
+      0.56
+     ]
+    },
+    {
+     "ma": "NVL",
+     "gt_khop_ty": 301.6,
+     "pb": 0.6,
+     "pe": 8.1,
+     "nn_rong_ty": -3.86,
+     "diem_dong_gop": 0.07,
+     "dong": 10.75,
+     "pct": 0.94,
+     "kl_x_tb20": 1.03,
+     "pct_5p_20p_60p": [
+      -3.59,
+      -14.4,
+      -14.06
+     ],
+     "duong_ma": "MA10=10.71(+0.37%) MA20=10.92(-1.56%) MA50=12.14(-11.45%) MA200=12.81(-16.08%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "9.6·30/09·+11.98%",
+      "9.6·30/09·+11.98%",
+      "9.234·10/03·+16.42%"
+     ],
+     "dinh_60_250p": [
+      "14.146·10/08·-24.01%",
+      "19.392·29/04·-44.56%"
+     ],
+     "ho_tro": [
+      "10.53 ★★★ (2 lần chạm, đáy cũ, cách +2.09%)",
+      "10.21 ★★ (0 lần chạm, vùng khối lượng lớn, cách +5.29%)"
+     ],
+     "khang_cu": [
+      "11.08–11.37 ★★★★★ (7 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -4.19%)",
+      "11.54–11.71 ★★★★★ (7 lần chạm, chân nến tăng mạnh, đáy cũ, cách -7.57%)"
+     ],
+     "rs_5p_20p": [
+      -1.78,
+      -8.3
+     ]
+    },
+    {
+     "ma": "HDC",
+     "gt_khop_ty": 7.2,
+     "pb": 0.82,
+     "pe": 3.6,
+     "nn_rong_ty": -0.76,
+     "diem_dong_gop": 0.0,
+     "dong": 10.35,
+     "pct": 0.0,
+     "kl_x_tb20": 0.59,
+     "pct_5p_20p_60p": [
+      0.98,
+      -9.61,
+      -14.46
+     ],
+     "duong_ma": "MA10=10.21(+1.37%) MA20=10.56(-1.99%) MA50=11.29(-8.33%) MA200=14.94(-30.72%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "9.6·06/10·+7.81%",
+      "9.6·06/10·+7.81%",
+      "9.6·06/10·+7.81%"
+     ],
+     "dinh_60_250p": [
+      "12.75·24/08·-18.82%",
+      "32.845·17/10/25·-68.49%"
+     ],
+     "ho_tro": [
+      "9.6 ★★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +7.81%)"
+     ],
+     "khang_cu": [
+      "10.4–10.45 ★★★ (2 lần chạm, đáy cũ, đỉnh cũ, cách -0.77%)",
+      "11.0 ★★★★ (2 lần chạm, đáy cũ, cách -5.91%)"
+     ],
+     "gap": [
+      "gap xuống chưa lấp 12.05–12.1 (03/09)"
+     ],
+     "rs_5p_20p": [
+      2.79,
+      -3.51
+     ]
+    },
+    {
+     "ma": "TCH",
+     "gt_khop_ty": 62.7,
+     "pb": 0.97,
+     "pe": 37.6,
+     "nn_rong_ty": -11.98,
+     "diem_dong_gop": 0.01,
+     "dong": 11.25,
+     "pct": 0.45,
+     "kl_x_tb20": 1.35,
+     "pct_5p_20p_60p": [
+      4.17,
+      -3.85,
+      3.99
+     ],
+     "duong_ma": "MA10=10.93(+2.93%) MA20=11.13(+1.08%) MA50=11.37(-1.06%) MA200=13.34(-15.67%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "10.15·09/10·+10.84%",
+      "9.591·28/07·+17.3%",
+      "9.591·28/07·+17.3%"
+     ],
+     "dinh_60_250p": [
+      "12.591·27/08·-10.65%",
+      "22.338·17/10/25·-49.64%"
+     ],
+     "vung_dang_test": "11.2–11.46 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -0.71%)",
+     "ho_tro": [
+      "10.95 ★★ (0 lần chạm, vùng khối lượng lớn, cách +2.74%)",
+      "10.73–10.75 ★★ (2 lần chạm, đáy cũ, cách +4.75%)"
+     ],
+     "khang_cu": [
+      "11.6–11.9 ★★★★ (5 lần chạm, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -4.26%)",
+      "12.03–12.39 ★★★★ (2 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -7.86%)"
+     ],
+     "rs_5p_20p": [
+      5.98,
+      2.25
+     ]
+    }
+   ],
+   "Thép": [
+    {
+     "ma": "HPG",
+     "gt_khop_ty": 274.9,
+     "pb": 1.25,
+     "pe": 7.6,
+     "nn_rong_ty": -31.57,
+     "diem_dong_gop": -0.62,
+     "dong": 20.55,
+     "pct": -1.67,
+     "kl_x_tb20": 0.75,
+     "pct_5p_20p_60p": [
+      -0.72,
+      -2.61,
+      -0.72
+     ],
+     "duong_ma": "MA10=20.52(+0.15%) MA20=20.51(+0.2%) MA50=21.17(-2.93%) MA200=23.14(-11.19%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "19.6·02/10·+4.85%",
+      "19.6·02/10·+4.85%",
+      "19.6·02/10·+4.85%"
+     ],
+     "dinh_60_250p": [
+      "22.65·03/08·-9.27%",
+      "26.514·25/02·-22.49%"
+     ],
+     "ho_tro": [
+      "19.6–20.1 ★★★★ (3 lần chạm, đáy 20 phiên, đáy cũ, cách +3.53%)"
+     ],
+     "khang_cu": [
+      "20.75–21.25 ★★★★★ (4 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -2.14%)",
+      "21.55–22.1 ★★★★★ (4 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -5.86%)"
+     ],
+     "rs_5p_20p": [
+      1.09,
+      3.49
+     ]
+    },
+    {
+     "ma": "HSG",
+     "gt_khop_ty": 25.5,
+     "pb": 0.71,
+     "pe": 12.8,
+     "nn_rong_ty": -1.18,
+     "diem_dong_gop": 0.01,
+     "dong": 10.45,
+     "pct": 0.48,
+     "kl_x_tb20": 0.99,
+     "pct_5p_20p_60p": [
+      1.95,
+      3.47,
+      0.0
+     ],
+     "duong_ma": "MA10=10.19(+2.55%) MA20=10.1(+3.47%) MA50=10.4(+0.48%) MA200=11.49(-9.05%)",
+     "doc_ma20_ma50": "lên/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "9.75·09/10·+7.18%",
+      "9.7·28/07·+7.73%",
+      "9.7·28/07·+7.73%"
+     ],
+     "dinh_60_250p": [
+      "11.15·27/08·-6.28%",
+      "14.461·17/10/25·-27.74%"
+     ],
+     "vung_dang_test": "10.15–10.45 ★★★★★ (5 lần chạm, MA50, đáy cũ, đỉnh cũ, cách +1.46%)",
+     "ho_tro": [
+      "10.0 ★★★ (3 lần chạm, đáy cũ, cách +4.5%)",
+      "9.7–9.99 ★★★★★ (5 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, cách +6.2%)"
+     ],
+     "khang_cu": [
+      "10.5–10.75 ★★★★★ (4 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -1.6%)",
+      "10.9–11.2 ★★★★★ (8 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -5.43%)"
+     ],
+     "rs_5p_20p": [
+      3.76,
+      9.57
+     ]
+    },
+    {
+     "ma": "NKG",
+     "gt_khop_ty": 34.9,
+     "pb": 0.67,
+     "pe": 30.7,
+     "nn_rong_ty": 0.71,
+     "diem_dong_gop": 0.02,
+     "dong": 10.6,
+     "pct": 1.92,
+     "kl_x_tb20": 1.52,
+     "pct_5p_20p_60p": [
+      6.75,
+      6.21,
+      0.95
+     ],
+     "duong_ma": "MA10=9.89(+7.18%) MA20=9.74(+8.83%) MA50=10.31(+2.81%) MA200=12.13(-12.61%)",
+     "doc_ma20_ma50": "lên/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "9.0·09/10·+17.78%",
+      "9.0·09/10·+17.78%",
+      "9.0·09/10·+17.78%"
+     ],
+     "dinh_60_250p": [
+      "11.4·11/08·-7.02%",
+      "16.5·17/10/25·-35.76%"
+     ],
+     "ho_tro": [
+      "10.45 ★★★ (1 lần chạm, MA50, đáy cũ, cách +1.44%)",
+      "10.25 ★★ (1 lần chạm, MA50, đáy cũ, cách +3.41%)"
+     ],
+     "khang_cu": [
+      "10.67–10.7 ★★★ (1 lần chạm, vùng khối lượng lớn, đỉnh 20 phiên, cách -0.75%)",
+      "10.95–11.0 ★★★ (1 lần chạm, vùng khối lượng lớn, đáy cũ, cách -3.37%)"
+     ],
+     "rs_5p_20p": [
+      8.56,
+      12.31
+     ]
+    }
+   ],
+   "Khu công nghiệp": [
+    {
+     "ma": "KBC",
+     "gt_khop_ty": 17.6,
+     "pb": 0.94,
+     "pe": 13.9,
+     "nn_rong_ty": -2.1,
+     "diem_dong_gop": 0.02,
+     "dong": 26.0,
+     "pct": 0.39,
+     "kl_x_tb20": 0.6,
+     "pct_5p_20p_60p": [
+      2.36,
+      0.0,
+      -2.99
+     ],
+     "duong_ma": "MA10=25.57(+1.68%) MA20=25.59(+1.6%) MA50=26.5(-1.89%) MA200=30.67(-15.23%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "24.15·06/10·+7.66%",
+      "24.15·06/10·+7.66%",
+      "24.15·06/10·+7.66%"
+     ],
+     "dinh_60_250p": [
+      "28.95·07/08·-10.19%",
+      "38.2·04/02·-31.94%"
+     ],
+     "ho_tro": [
+      "25.65 ★★ (2 lần chạm, đáy cũ, cách +1.36%)",
+      "24.15 ★★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +7.66%)"
+     ],
+     "khang_cu": [
+      "26.1–26.85 ★★★★★ (6 lần chạm, MA50, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -1.81%)",
+      "27.33–28.0 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -6.0%)"
+     ],
+     "rs_5p_20p": [
+      4.17,
+      6.1
+     ]
+    },
+    {
+     "ma": "IDC",
+     "gt_khop_ty": 36.3,
+     "pb": 2.28,
+     "pe": 6.5,
+     "nn_rong_ty": 0.04,
+     "dong": 33.9,
+     "pct": 0.0,
+     "kl_x_tb20": 0.77,
+     "pct_5p_20p_60p": [
+      -3.97,
+      2.11,
+      3.98
+     ],
+     "duong_ma": "MA10=34.47(-1.65%) MA20=34.02(-0.35%) MA50=33.04(+2.6%) MA200=36.6(-7.38%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "32.2·28/09·+5.28%",
+      "29.1·21/09·+16.49%",
+      "27.679·20/10/25·+22.48%"
+     ],
+     "dinh_60_250p": [
+      "35.8·07/10·-5.31%",
+      "45.677·03/02·-25.78%"
+     ],
+     "vung_dang_test": "33.18–34.1 ★★★★★ (8 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +0.77%)",
+     "ho_tro": [
+      "32.2–33.04 ★★★★★ (6 lần chạm, MA50, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +3.92%)",
+      "31.7 ★★ (1 lần chạm, đáy cũ, cách +6.94%)"
+     ],
+     "khang_cu": [
+      "34.5–35.2 ★★★★★ (7 lần chạm, đáy cũ, đỉnh cũ, cách -2.73%)",
+      "35.8–36.52 ★★★★★ (6 lần chạm, MA200, chân nến tăng mạnh, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -6.25%)"
+     ],
+     "rs_5p_20p": [
+      -2.16,
+      8.21
+     ]
+    },
+    {
+     "ma": "BCM",
+     "gt_khop_ty": 22.9,
+     "pb": 1.82,
+     "pe": 20.5,
+     "nn_rong_ty": -0.3,
+     "diem_dong_gop": 0.14,
+     "dong": 39.2,
+     "pct": 1.69,
+     "kl_x_tb20": 1.26,
+     "pct_5p_20p_60p": [
+      2.08,
+      -1.51,
+      3.43
+     ],
+     "duong_ma": "MA10=38.45(+1.95%) MA20=39.08(+0.31%) MA50=40.51(-3.23%) MA200=51.89(-24.46%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "36.5·06/10·+7.4%",
+      "33.9·28/07·+15.63%",
+      "33.9·28/07·+15.63%"
+     ],
+     "dinh_60_250p": [
+      "47.0·13/08·-16.6%",
+      "82.277·20/01·-52.36%"
+     ],
+     "ho_tro": [
+      "38.5–38.85 ★★★★ (2 lần chạm, vùng khối lượng lớn, đáy cũ, cách +1.37%)",
+      "36.2–37.0 ★★★★ (3 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +7.1%)"
+     ],
+     "khang_cu": [
+      "39.6–40.25 ★★★★★ (4 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -1.8%)",
+      "41.18–42.35 ★★★★★ (2 lần chạm, vùng khối lượng lớn, đỉnh 20 phiên, đỉnh cũ, cách -6.15%)"
+     ],
+     "rs_5p_20p": [
+      3.89,
+      4.59
+     ]
+    },
+    {
+     "ma": "SZC",
+     "gt_khop_ty": 3.8,
+     "pb": 0.98,
+     "pe": 19.6,
+     "nn_rong_ty": 0.38,
+     "diem_dong_gop": 0.0,
+     "dong": 17.4,
+     "pct": 0.0,
+     "kl_x_tb20": 0.82,
+     "pct_5p_20p_60p": [
+      -0.29,
+      -1.69,
+      -2.17
+     ],
+     "duong_ma": "MA10=17.23(+0.99%) MA20=17.32(+0.46%) MA50=17.97(-3.17%) MA200=23.66(-26.46%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "16.2·06/10·+7.41%",
+      "16.031·28/07·+8.54%",
+      "16.031·28/07·+8.54%"
+     ],
+     "dinh_60_250p": [
+      "19.589·12/08·-11.17%",
+      "35.478·04/02·-50.96%"
+     ],
+     "ho_tro": [
+      "17.22 ★★ (2 lần chạm, chân nến tăng mạnh, đáy cũ, cách +1.05%)",
+      "16.03–16.2 ★★★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +7.94%)"
+     ],
+     "khang_cu": [
+      "17.48–17.55 ★★★ (2 lần chạm, vùng khối lượng lớn, đáy cũ, cách -0.68%)",
+      "17.83–18.01 ★★★★ (1 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, cách -2.9%)"
+     ],
+     "rs_5p_20p": [
+      1.52,
+      4.41
+     ]
+    },
+    {
+     "ma": "VGC",
+     "gt_khop_ty": 12.8,
+     "pb": 2.62,
+     "pe": 13.7,
+     "nn_rong_ty": -0.35,
+     "diem_dong_gop": 0.08,
+     "dong": 44.25,
+     "pct": 2.08,
+     "kl_x_tb20": 0.46,
+     "pct_5p_20p_60p": [
+      2.19,
+      11.04,
+      22.02
+     ],
+     "duong_ma": "MA10=43.88(+0.84%) MA20=43.53(+1.65%) MA50=41.56(+6.47%) MA200=41.89(+5.63%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "39.65·22/09·+11.6%",
+      "34.0·28/07·+30.15%",
+      "34.0·28/07·+30.15%"
+     ],
+     "dinh_60_250p": [
+      "46.35·07/10·-4.53%",
+      "55.125·04/02·-19.73%"
+     ],
+     "vung_dang_test": "44.28–45.5 ★★★★★ (7 lần chạm, đỉnh cũ, cách -1.43%)",
+     "ho_tro": [
+      "42.95–43.98 ★★★★ (5 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +1.82%)",
+      "41.67–42.35 ★★★★★ (8 lần chạm, MA200, MA50, đáy cũ, đỉnh cũ, cách +5.33%)"
+     ],
+     "khang_cu": [
+      "46.35 ★★ (1 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -4.53%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 41.1–41.15 (23/09)"
+     ],
+     "rs_5p_20p": [
+      4.0,
+      17.14
+     ]
+    },
+    {
+     "ma": "GVR",
+     "gt_khop_ty": 40.0,
+     "pb": 2.07,
+     "pe": 17.8,
+     "nn_rong_ty": -9.33,
+     "diem_dong_gop": 0.08,
+     "dong": 31.35,
+     "pct": 0.32,
+     "kl_x_tb20": 0.46,
+     "pct_5p_20p_60p": [
+      -3.24,
+      -2.64,
+      15.47
+     ],
+     "duong_ma": "MA10=32.31(-2.97%) MA20=32.51(-3.57%) MA50=31.97(-1.94%) MA200=33.38(-6.08%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 7,
+     "day_20_60_250p": [
+      "30.8·15/10·+1.79%",
+      "25.55·28/07·+22.7%",
+      "24.155·21/10/25·+29.79%"
+     ],
+     "dinh_60_250p": [
+      "34.9·30/09·-10.17%",
+      "46.5·04/03·-32.58%"
+     ],
+     "vung_dang_test": "30.5–31.35 ★★★★★ (7 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +1.36%)",
+     "ho_tro": [
+      "29.08–29.75 ★★★★ (4 lần chạm, đáy cũ, đỉnh cũ, cách +6.56%)",
+      "28.2–28.6 ★★★★ (4 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +10.39%)"
+     ],
+     "khang_cu": [
+      "31.85–32.7 ★★★★★ (8 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -2.88%)",
+      "32.9–33.0 ★★★★ (4 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -4.86%)"
+     ],
+     "rs_5p_20p": [
+      -1.43,
+      3.46
+     ]
+    }
+   ],
+   "Đầu tư công": [
+    {
+     "ma": "VCG",
+     "gt_khop_ty": 35.2,
+     "pb": 0.97,
+     "pe": 2.6,
+     "nn_rong_ty": 2.79,
+     "diem_dong_gop": -0.01,
+     "dong": 15.05,
+     "pct": -0.66,
+     "kl_x_tb20": 1.23,
+     "pct_5p_20p_60p": [
+      7.12,
+      5.24,
+      -2.9
+     ],
+     "duong_ma": "MA10=14.19(+6.06%) MA20=14.0(+7.5%) MA50=14.9(+1.01%) MA200=17.53(-14.15%)",
+     "doc_ma20_ma50": "lên/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "13.15·06/10·+14.45%",
+      "13.15·06/10·+14.45%",
+      "13.15·06/10·+14.45%"
+     ],
+     "dinh_60_250p": [
+      "16.6·12/08·-9.34%",
+      "25.145·17/10/25·-40.15%"
+     ],
+     "ho_tro": [
+      "14.7 ★★★ (1 lần chạm, MA50, đáy cũ, cách +2.38%)",
+      "14.15–14.2 ★★★ (3 lần chạm, chân nến tăng mạnh, đáy cũ, cách +6.14%)"
+     ],
+     "khang_cu": [
+      "15.35–15.6 ★★★★★ (4 lần chạm, đáy cũ, đỉnh 20 phiên, cách -2.71%)",
+      "15.82 ★★ (0 lần chạm, vùng khối lượng lớn, cách -4.87%)"
+     ],
+     "rs_5p_20p": [
+      8.93,
+      11.34
+     ]
+    },
+    {
+     "ma": "HHV",
+     "gt_khop_ty": 34.1,
+     "pb": 0.48,
+     "pe": 8.7,
+     "nn_rong_ty": -10.77,
+     "diem_dong_gop": -0.02,
+     "dong": 9.33,
+     "pct": -1.79,
+     "kl_x_tb20": 1.42,
+     "pct_5p_20p_60p": [
+      3.67,
+      -0.11,
+      -6.23
+     ],
+     "duong_ma": "MA10=9.08(+2.75%) MA20=9.07(+2.87%) MA50=9.57(-2.51%) MA200=10.92(-14.56%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "8.56·09/10·+9.0%",
+      "8.56·09/10·+9.0%",
+      "8.56·09/10·+9.0%"
+     ],
+     "dinh_60_250p": [
+      "10.5·12/08·-11.14%",
+      "15.156·17/10/25·-38.44%"
+     ],
+     "ho_tro": [
+      "9.21 ★ (1 lần chạm, đáy cũ, cách +1.3%)",
+      "8.88–9.1 ★★★ (3 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +3.78%)"
+     ],
+     "khang_cu": [
+      "9.5–9.6 ★★★★ (3 lần chạm, MA50, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -2.3%)",
+      "9.75–10.0 ★★★ (3 lần chạm, đáy cũ, cách -5.57%)"
+     ],
+     "rs_5p_20p": [
+      5.48,
+      5.99
+     ]
+    },
+    {
+     "ma": "CII",
+     "gt_khop_ty": 119.1,
+     "pb": 0.89,
+     "pe": 78.1,
+     "nn_rong_ty": -3.97,
+     "diem_dong_gop": 0.02,
+     "dong": 12.95,
+     "pct": 1.17,
+     "kl_x_tb20": 1.33,
+     "pct_5p_20p_60p": [
+      5.28,
+      0.78,
+      -7.17
+     ],
+     "duong_ma": "MA10=12.33(+5.03%) MA20=12.35(+4.86%) MA50=13.35(-3.0%) MA200=16.53(-21.66%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "11.35·06/10·+14.1%",
+      "11.35·06/10·+14.1%",
+      "11.35·06/10·+14.1%"
+     ],
+     "dinh_60_250p": [
+      "15.2·24/08·-14.8%",
+      "31.35·17/10/25·-58.69%"
+     ],
+     "ho_tro": [
+      "12.55 ★★ (2 lần chạm, đáy cũ, cách +3.19%)",
+      "12.15 ★★★ (2 lần chạm, chân nến tăng mạnh, đáy cũ, cách +6.58%)"
+     ],
+     "khang_cu": [
+      "13.2–13.3 ★★★ (2 lần chạm, MA50, đỉnh 20 phiên, đỉnh cũ, cách -2.26%)",
+      "13.75–13.8 ★★★★ (3 lần chạm, chân nến tăng mạnh, đáy cũ, cách -6.02%)"
+     ],
+     "rs_5p_20p": [
+      7.09,
+      6.88
+     ]
+    },
+    {
+     "ma": "PLC",
+     "gt_khop_ty": 13.9,
+     "tran_san": "TRẦN",
+     "pb": 1.07,
+     "pe": 10.2,
+     "nn_rong_ty": -0.02,
+     "dong": 20.7,
+     "pct": 9.52,
+     "kl_x_tb20": 7.25,
+     "pct_5p_20p_60p": [
+      6.7,
+      8.95,
+      15.0
+     ],
+     "duong_ma": "MA10=19.1(+8.38%) MA20=18.91(+9.47%) MA50=19.49(+6.21%) MA200=23.21(-10.81%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "17.9·06/10·+15.64%",
+      "17.4·28/07·+18.97%",
+      "17.0·21/07·+21.76%"
+     ],
+     "dinh_60_250p": [
+      "21.0·18/08·-1.43%",
+      "40.0·04/02·-48.25%"
+     ],
+     "vung_dang_test": "20.7–21.3 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -1.43%)",
+     "ho_tro": [
+      "19.9–20.42 ★★★★★ (9 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +2.68%)",
+      "18.9–19.39 ★★★★★ (3 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đỉnh cũ, cách +8.15%)"
+     ],
+     "khang_cu": [
+      "21.4–21.8 ★★★★ (5 lần chạm, đáy cũ, đỉnh cũ, cách -4.17%)",
+      "22.08 ★★ (0 lần chạm, vùng khối lượng lớn, cách -6.25%)"
+     ],
+     "rs_5p_20p": [
+      8.51,
+      15.05
+     ]
+    },
+    {
+     "ma": "CTD",
+     "gt_khop_ty": 24.9,
+     "pb": 0.72,
+     "pe": 8.9,
+     "nn_rong_ty": -8.85,
+     "diem_dong_gop": 0.02,
+     "dong": 63.2,
+     "pct": 1.28,
+     "kl_x_tb20": 1.22,
+     "pct_5p_20p_60p": [
+      0.48,
+      7.67,
+      12.86
+     ],
+     "duong_ma": "MA10=62.25(+1.53%) MA20=60.45(+4.55%) MA50=60.86(+3.84%) MA200=70.68(-10.58%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "57.3·02/10·+10.3%",
+      "54.7·23/07·+15.54%",
+      "54.7·23/07·+15.54%"
+     ],
+     "dinh_60_250p": [
+      "65.0·05/08·-2.77%",
+      "92.783·31/10/25·-31.88%"
+     ],
+     "ho_tro": [
+      "62.27 ★★ (0 lần chạm, vùng khối lượng lớn, cách +1.49%)",
+      "59.9–61.5 ★★★★★ (6 lần chạm, MA50, đáy cũ, đỉnh cũ, cách +4.12%)"
+     ],
+     "khang_cu": [
+      "63.8–65.0 ★★★★★ (5 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -1.86%)",
+      "68.0–69.9 ★★★★★ (5 lần chạm, MA200, đáy cũ, cách -8.34%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 58.9–59.0 (07/10)"
+     ],
+     "rs_5p_20p": [
+      2.29,
+      13.77
+     ]
+    },
+    {
+     "ma": "C4G",
+     "pb": 0.41,
+     "pe": 20.9,
+     "dong": 4.6,
+     "pct": 0.0,
+     "kl_x_tb20": 0.55,
+     "pct_5p_20p_60p": [
+      0.0,
+      -9.8,
+      -22.03
+     ],
+     "duong_ma": "MA10=4.56(+0.88%) MA20=4.68(-1.71%) MA50=5.17(-11.03%) MA200=6.69(-31.24%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "4.3·06/10·+6.98%",
+      "4.3·06/10·+6.98%",
+      "4.3·06/10·+6.98%"
+     ],
+     "dinh_60_250p": [
+      "5.9·23/07·-22.03%",
+      "9.1·11/12/25·-49.45%"
+     ],
+     "ho_tro": [
+      "4.4 ★★ (2 lần chạm, chân nến tăng mạnh, đáy cũ, cách +4.55%)",
+      "4.3 ★★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +6.98%)"
+     ],
+     "khang_cu": [
+      "4.7 ★★ (2 lần chạm, đáy cũ, đỉnh cũ, cách -2.13%)",
+      "4.8 ★★ (1 lần chạm, đáy cũ, cách -4.17%)"
+     ],
+     "rs_5p_20p": [
+      1.81,
+      -3.7
+     ]
+    }
+   ],
+   "Dầu khí": [
+    {
+     "ma": "GAS",
+     "gt_khop_ty": 41.1,
+     "pb": 2.67,
+     "pe": 14.4,
+     "nn_rong_ty": -2.84,
+     "diem_dong_gop": 0.3,
+     "dong": 76.7,
+     "pct": 0.79,
+     "kl_x_tb20": 0.48,
+     "pct_5p_20p_60p": [
+      -2.91,
+      -10.92,
+      22.56
+     ],
+     "duong_ma": "MA10=78.55(-2.36%) MA20=80.45(-4.66%) MA50=80.58(-4.82%) MA200=83.53(-8.18%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 7,
+     "day_20_60_250p": [
+      "75.5·16/10·+1.59%",
+      "62.875·23/07·+21.99%",
+      "54.421·21/10/25·+40.94%"
+     ],
+     "dinh_60_250p": [
+      "90.377·16/09·-15.13%",
+      "127.792·04/03·-39.98%"
+     ],
+     "vung_dang_test": "75.9–77.65 ★★★★★ (11 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -0.09%)",
+     "ho_tro": [
+      "73.66–75.5 ★★★★ (4 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, cách +2.84%)",
+      "70.94–72.79 ★★★★ (5 lần chạm, đáy cũ, cách +6.74%)"
+     ],
+     "khang_cu": [
+      "78.23–80.3 ★★★★★ (8 lần chạm, MA50, đáy cũ, đỉnh cũ, cách -3.24%)",
+      "81.1–83.36 ★★★★★ (3 lần chạm, MA200, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -6.73%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 72.496–73.954 (10/08)"
+     ],
+     "rs_5p_20p": [
+      -1.1,
+      -4.82
+     ]
+    },
+    {
+     "ma": "BSR",
+     "gt_khop_ty": 142.1,
+     "pb": 1.94,
+     "pe": 7.1,
+     "nn_rong_ty": 2.45,
+     "diem_dong_gop": 0.52,
+     "dong": 28.85,
+     "pct": 1.76,
+     "kl_x_tb20": 0.44,
+     "pct_5p_20p_60p": [
+      -5.72,
+      -8.56,
+      26.86
+     ],
+     "duong_ma": "MA10=30.23(-4.57%) MA20=30.69(-6.0%) MA50=28.69(+0.56%) MA200=26.47(+8.99%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 7,
+     "day_20_60_250p": [
+      "28.2·15/10·+2.3%",
+      "22.693·23/07·+27.13%",
+      "13.349·12/12/25·+116.12%"
+     ],
+     "dinh_60_250p": [
+      "33.45·29/09·-13.75%",
+      "39.156·09/03·-26.32%"
+     ],
+     "ho_tro": [
+      "28.1–28.25 ★★★ (2 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, cách +2.38%)",
+      "27.14–27.9 ★★★★★ (7 lần chạm, đáy cũ, đỉnh cũ, cách +4.83%)"
+     ],
+     "khang_cu": [
+      "29.32–29.95 ★★★ (4 lần chạm, đáy cũ, đỉnh cũ, cách -2.63%)",
+      "33.45–33.57 ★★★ (2 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -13.91%)"
+     ],
+     "rs_5p_20p": [
+      -3.91,
+      -2.46
+     ]
+    },
+    {
+     "ma": "PVS",
+     "gt_khop_ty": 52.1,
+     "pb": 1.25,
+     "pe": 9.1,
+     "nn_rong_ty": -2.61,
+     "dong": 31.8,
+     "pct": 1.27,
+     "kl_x_tb20": 0.45,
+     "pct_5p_20p_60p": [
+      -5.07,
+      -4.5,
+      15.29
+     ],
+     "duong_ma": "MA10=32.96(-3.52%) MA20=33.08(-3.87%) MA50=32.04(-0.75%) MA200=32.85(-3.2%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 6,
+     "day_20_60_250p": [
+      "29.0·16/10·+9.66%",
+      "26.582·17/08·+19.63%",
+      "21.969·20/10/25·+44.75%"
+     ],
+     "dinh_60_250p": [
+      "35.3·16/09·-9.92%",
+      "46.998·03/03·-32.34%"
+     ],
+     "vung_dang_test": "31.16–32.0 ★★★★★ (11 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, cách +0.7%)",
+     "ho_tro": [
+      "30.0–30.83 ★★★★ (4 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +4.54%)",
+      "28.83–29.58 ★★★★★ (10 lần chạm, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +8.87%)"
+     ],
+     "khang_cu": [
+      "32.1–33.01 ★★★★★ (7 lần chạm, MA200, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -2.3%)",
+      "33.25–33.75 ★★★★★ (6 lần chạm, MA200, vùng khối lượng lớn, đỉnh cũ, cách -5.07%)"
+     ],
+     "rs_5p_20p": [
+      -3.26,
+      1.6
+     ]
+    },
+    {
+     "ma": "PVD",
+     "gt_khop_ty": 46.8,
+     "pb": 0.95,
+     "pe": 14.7,
+     "nn_rong_ty": -7.76,
+     "diem_dong_gop": 0.01,
+     "dong": 17.7,
+     "pct": 0.28,
+     "kl_x_tb20": 0.7,
+     "pct_5p_20p_60p": [
+      -1.12,
+      -8.53,
+      1.14
+     ],
+     "duong_ma": "MA10=18.01(-1.72%) MA20=18.23(-2.91%) MA50=18.56(-4.63%) MA200=19.27(-8.15%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 9,
+     "day_20_60_250p": [
+      "17.45·06/10·+1.43%",
+      "17.45·06/10·+1.43%",
+      "11.265·20/10/25·+57.12%"
+     ],
+     "dinh_60_250p": [
+      "20.4·16/09·-13.24%",
+      "27.264·04/03·-35.08%"
+     ],
+     "vung_dang_test": "17.65–17.7 ★★★★ (4 lần chạm, đáy cũ, cách +0.17%)",
+     "ho_tro": [
+      "17.05–17.45 ★★★★★ (5 lần chạm, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +2.61%)",
+      "16.15–16.36 ★★★★★ (5 lần chạm, đáy cũ, đỉnh cũ, cách +8.92%)"
+     ],
+     "khang_cu": [
+      "18.1–18.57 ★★★★★ (5 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -3.49%)",
+      "18.75–19.05 ★★★★★ (8 lần chạm, MA200, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -6.35%)"
+     ],
+     "rs_5p_20p": [
+      0.69,
+      -2.43
+     ]
+    },
+    {
+     "ma": "PVT",
+     "gt_khop_ty": 77.5,
+     "pb": 1.29,
+     "pe": 8.6,
+     "nn_rong_ty": -8.16,
+     "diem_dong_gop": 0.05,
+     "dong": 24.1,
+     "pct": 1.9,
+     "kl_x_tb20": 0.39,
+     "pct_5p_20p_60p": [
+      -4.17,
+      4.56,
+      43.45
+     ],
+     "duong_ma": "MA10=24.63(-2.15%) MA20=24.13(-0.12%) MA50=22.11(+9.0%) MA200=20.38(+18.25%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 3,
+     "day_20_60_250p": [
+      "22.3·24/09·+8.07%",
+      "16.05·28/07·+50.16%",
+      "14.955·20/10/25·+61.15%"
+     ],
+     "dinh_60_250p": [
+      "26.35·08/10·-8.54%",
+      "29.728·09/03·-18.93%"
+     ],
+     "ho_tro": [
+      "23.7 ★ (1 lần chạm, đỉnh cũ, cách +1.69%)",
+      "22.87–23.5 ★★★★★ (3 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đỉnh cũ, cách +3.92%)"
+     ],
+     "khang_cu": [
+      "24.35 ★ (1 lần chạm, đỉnh cũ, cách -1.03%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 17.0–17.55 (30/07)",
+      "gap xuống chưa lấp 24.6–24.7 (15/10)"
+     ],
+     "rs_5p_20p": [
+      -2.36,
+      10.66
+     ]
+    },
+    {
+     "ma": "PLX",
+     "gt_khop_ty": 69.4,
+     "pb": 1.83,
+     "pe": 13.9,
+     "nn_rong_ty": -13.25,
+     "diem_dong_gop": 0.03,
+     "dong": 35.15,
+     "pct": 0.29,
+     "kl_x_tb20": 0.44,
+     "pct_5p_20p_60p": [
+      -2.9,
+      -4.61,
+      11.17
+     ],
+     "duong_ma": "MA10=36.15(-2.77%) MA20=36.0(-2.36%) MA50=36.34(-3.27%) MA200=40.52(-13.25%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 6,
+     "day_20_60_250p": [
+      "34.5·25/09·+1.88%",
+      "30.796·28/07·+14.14%",
+      "30.796·21/07·+14.14%"
+     ],
+     "dinh_60_250p": [
+      "39.5·16/09·-11.01%",
+      "67.964·04/03·-48.28%"
+     ],
+     "vung_dang_test": "34.37–35.33 ★★★★★ (12 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +0.86%)",
+     "ho_tro": [
+      "33.26–33.89 ★★★ (4 lần chạm, đáy cũ, đỉnh cũ, cách +4.71%)",
+      "32.15–32.97 ★★★★★ (6 lần chạm, đáy cũ, cách +7.95%)"
+     ],
+     "khang_cu": [
+      "35.53–36.2 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -1.98%)",
+      "36.93–38.0 ★★★★★ (11 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -6.17%)"
+     ],
+     "rs_5p_20p": [
+      -1.09,
+      1.49
+     ]
+    },
+    {
+     "ma": "OIL",
+     "pb": 1.29,
+     "pe": 21.9,
+     "dong": 12.9,
+     "pct": 0.0,
+     "kl_x_tb20": 0.35,
+     "pct_5p_20p_60p": [
+      -3.01,
+      -10.42,
+      0.68
+     ],
+     "duong_ma": "MA10=13.15(-1.9%) MA20=13.36(-3.44%) MA50=13.52(-4.59%) MA200=14.45(-10.73%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 3,
+     "day_20_60_250p": [
+      "12.7·06/10·+1.57%",
+      "10.94·23/07·+17.92%",
+      "9.856·20/10/25·+30.88%"
+     ],
+     "dinh_60_250p": [
+      "15.5·16/09·-16.77%",
+      "25.724·09/03·-49.85%"
+     ],
+     "vung_dang_test": "12.91–13.0 ★★ (2 lần chạm, đáy cũ, cách -0.46%)",
+     "ho_tro": [
+      "12.52–12.81 ★★★★★ (9 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +1.9%)",
+      "12.32 ★★★ (2 lần chạm, đáy cũ, cách +4.71%)"
+     ],
+     "khang_cu": [
+      "13.3–13.66 ★★★★★ (11 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -4.3%)",
+      "13.7–14.09 ★★★★★ (11 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -7.19%)"
+     ],
+     "rs_5p_20p": [
+      -1.2,
+      -4.32
+     ]
+    }
+   ],
+   "Bán lẻ - tiêu dùng": [
+    {
+     "ma": "MWG",
+     "gt_khop_ty": 128.2,
+     "pb": 3.19,
+     "pe": 11.1,
+     "nn_rong_ty": -4.34,
+     "diem_dong_gop": 0.09,
+     "dong": 74.2,
+     "pct": 0.41,
+     "kl_x_tb20": 0.6,
+     "pct_5p_20p_60p": [
+      -1.85,
+      4.87,
+      8.16
+     ],
+     "duong_ma": "MA10=74.87(-0.89%) MA20=73.39(+1.1%) MA50=72.5(+2.34%) MA200=77.8(-4.63%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 4,
+     "day_20_60_250p": [
+      "70.458·22/09·+5.31%",
+      "60.731·28/07·+22.18%",
+      "60.731·28/07·+22.18%"
+     ],
+     "dinh_60_250p": [
+      "77.3·08/10·-4.01%",
+      "91.729·03/02·-19.11%"
+     ],
+     "vung_dang_test": "72.04–74.14 ★★★★★ (12 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +1.52%)",
+     "ho_tro": [
+      "70.26–70.56 ★★★★ (4 lần chạm, đáy 20 phiên, đáy cũ, cách +5.38%)",
+      "67.69 ★★ (1 lần chạm, đáy cũ, cách +9.62%)"
+     ],
+     "khang_cu": [
+      "74.43–75.89 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -1.28%)",
+      "77.3–79.1 ★★★★★ (8 lần chạm, MA200, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -5.12%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 72.431–72.727 (05/10)"
+     ],
+     "rs_5p_20p": [
+      -0.04,
+      10.97
+     ]
+    },
+    {
+     "ma": "DGW",
+     "gt_khop_ty": 46.5,
+     "pb": 2.81,
+     "pe": 11.8,
+     "nn_rong_ty": -5.22,
+     "diem_dong_gop": 0.04,
+     "dong": 45.45,
+     "pct": 2.13,
+     "kl_x_tb20": 0.6,
+     "pct_5p_20p_60p": [
+      -3.19,
+      3.26,
+      35.08
+     ],
+     "duong_ma": "MA10=46.34(-1.92%) MA20=45.55(-0.22%) MA50=43.24(+5.11%) MA200=41.81(+8.71%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "42.596·28/09·+6.7%",
+      "30.761·28/07·+47.75%",
+      "30.761·28/07·+47.75%"
+     ],
+     "dinh_60_250p": [
+      "48.9·06/10·-7.06%",
+      "55.29·05/02·-17.8%"
+     ],
+     "ho_tro": [
+      "44.16–45.05 ★★★★ (4 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đỉnh cũ, cách +1.88%)",
+      "42.49–43.4 ★★★★★ (10 lần chạm, MA50, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +5.82%)"
+     ],
+     "khang_cu": [
+      "45.55–45.97 ★★★★★ (5 lần chạm, đáy cũ, đỉnh cũ, cách -0.68%)",
+      "48.9 ★★ (1 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -7.06%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 34.576–34.723 (30/07)"
+     ],
+     "rs_5p_20p": [
+      -1.38,
+      9.36
+     ]
+    },
+    {
+     "ma": "MSN",
+     "gt_khop_ty": 301.2,
+     "pb": 2.74,
+     "pe": 15.5,
+     "nn_rong_ty": -5.22,
+     "diem_dong_gop": 0.32,
+     "dong": 72.4,
+     "pct": 1.4,
+     "kl_x_tb20": 0.74,
+     "pct_5p_20p_60p": [
+      -0.96,
+      6.94,
+      13.3
+     ],
+     "duong_ma": "MA10=72.57(-0.23%) MA20=71.35(+1.47%) MA50=69.37(+4.37%) MA200=73.49(-1.48%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "67.7·22/09·+6.94%",
+      "61.7·23/07·+17.34%",
+      "61.7·23/07·+17.34%"
+     ],
+     "dinh_60_250p": [
+      "76.1·07/10·-4.86%",
+      "94.0·17/10/25·-22.98%"
+     ],
+     "ho_tro": [
+      "70.6–71.8 ★★★★★ (7 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +1.69%)",
+      "67.7–69.72 ★★★★★ (5 lần chạm, MA50, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +5.37%)"
+     ],
+     "khang_cu": [
+      "73.0–74.4 ★★★★★ (8 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -1.76%)",
+      "75.6–77.5 ★★★★★ (14 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -5.42%)"
+     ],
+     "rs_5p_20p": [
+      0.85,
+      13.04
+     ]
+    },
+    {
+     "ma": "VNM",
+     "gt_khop_ty": 83.9,
+     "pb": 3.79,
+     "pe": 11.0,
+     "nn_rong_ty": -19.23,
+     "diem_dong_gop": -0.13,
+     "dong": 57.5,
+     "pct": -0.52,
+     "kl_x_tb20": 0.73,
+     "pct_5p_20p_60p": [
+      -1.54,
+      -4.64,
+      -2.71
+     ],
+     "duong_ma": "MA10=57.88(-0.66%) MA20=58.7(-2.04%) MA50=60.41(-4.82%) MA200=60.25(-4.56%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "57.0·15/10·+0.88%",
+      "56.9·23/07·+1.05%",
+      "53.257·20/10/25·+7.97%"
+     ],
+     "dinh_60_250p": [
+      "64.4·24/08·-10.71%",
+      "73.107·20/01·-21.35%"
+     ],
+     "vung_dang_test": "56.2–57.81 ★★★★★ (13 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +0.88%)",
+     "ho_tro": [
+      "54.52–55.97 ★★★★★ (7 lần chạm, đáy cũ, cách +4.09%)"
+     ],
+     "khang_cu": [
+      "57.9–59.38 ★★★★★ (19 lần chạm, MA200, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -1.94%)",
+      "59.84–61.4 ★★★★★ (15 lần chạm, MA200, MA50, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -5.15%)"
+     ],
+     "rs_5p_20p": [
+      0.27,
+      1.46
+     ]
+    },
+    {
+     "ma": "FRT",
+     "gt_khop_ty": 78.5,
+     "pb": 5.25,
+     "pe": 22.2,
+     "nn_rong_ty": 150.96,
+     "diem_dong_gop": 0.19,
+     "dong": 146.0,
+     "pct": 3.55,
+     "kl_x_tb20": 0.8,
+     "pct_5p_20p_60p": [
+      -2.34,
+      12.22,
+      39.05
+     ],
+     "duong_ma": "MA10=145.79(+0.14%) MA20=143.92(+1.45%) MA50=141.49(+3.19%) MA200=137.31(+6.33%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "129.3·22/09·+12.92%",
+      "100.2·23/07·+45.71%",
+      "100.2·23/07·+45.71%"
+     ],
+     "dinh_60_250p": [
+      "152.8·08/10·-4.45%",
+      "172.384·02/02·-15.31%"
+     ],
+     "ho_tro": [
+      "140.6–143.24 ★★★★★ (9 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +2.87%)",
+      "136.4–139.72 ★★★★★ (8 lần chạm, MA200, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +5.75%)"
+     ],
+     "khang_cu": [
+      "147.53–151.5 ★★★★★ (6 lần chạm, đỉnh cũ, cách -2.35%)",
+      "152.0–154.76 ★★★ (4 lần chạm, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -4.81%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 116.3–123.3 (31/07)",
+      "gap lên chưa lấp 124.4–125.9 (03/08)"
+     ],
+     "rs_5p_20p": [
+      -0.53,
+      18.32
+     ]
+    },
+    {
+     "ma": "PNJ",
+     "gt_khop_ty": 117.1,
+     "pb": 0.72,
+     "pe": 3.9,
+     "nn_rong_ty": -24.27,
+     "diem_dong_gop": -0.03,
+     "dong": 18.5,
+     "pct": -1.6,
+     "kl_x_tb20": 0.46,
+     "pct_5p_20p_60p": [
+      1.93,
+      -49.86,
+      -47.89
+     ],
+     "duong_ma": "MA10=18.83(-1.75%) MA20=24.05(-23.08%) MA50=32.36(-42.83%) MA200=57.78(-67.98%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 33,
+     "day_20_60_250p": [
+      "17.25·13/10·+7.25%",
+      "17.25·13/10·+7.25%",
+      "17.25·13/10·+7.25%"
+     ],
+     "dinh_60_250p": [
+      "45.55·25/08·-59.39%",
+      "84.671·30/01·-78.15%"
+     ],
+     "khang_cu": [
+      "19.24 ★★★ (0 lần chạm, vùng khối lượng lớn, cách -3.85%)",
+      "23.21 ★★ (0 lần chạm, vùng khối lượng lớn, cách -20.29%)"
+     ],
+     "gap": [
+      "gap xuống chưa lấp 26.6–28.6 (30/09)",
+      "gap xuống chưa lấp 24.75–26.6 (01/10)"
+     ],
+     "rs_5p_20p": [
+      3.74,
+      -43.76
+     ]
+    },
+    {
+     "ma": "SAB",
+     "gt_khop_ty": 8.6,
+     "pb": 3.51,
+     "pe": 11.6,
+     "nn_rong_ty": -1.24,
+     "diem_dong_gop": -0.05,
+     "dong": 42.8,
+     "pct": -0.47,
+     "kl_x_tb20": 0.54,
+     "pct_5p_20p_60p": [
+      -0.7,
+      -2.39,
+      -2.56
+     ],
+     "duong_ma": "MA10=42.92(-0.28%) MA20=43.19(-0.9%) MA50=44.45(-3.71%) MA200=44.26(-3.3%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 1,
+     "day_20_60_250p": [
+      "42.15·06/10·+1.54%",
+      "42.102·23/07·+1.66%",
+      "39.342·30/03·+8.79%"
+     ],
+     "dinh_60_250p": [
+      "47.2·20/08·-9.32%",
+      "53.423·15/01·-19.88%"
+     ],
+     "vung_dang_test": "42.31–43.46 ★★★★★ (11 lần chạm, đáy cũ, đỉnh cũ, cách -0.19%)",
+     "ho_tro": [
+      "41.07–42.29 ★★★★★ (10 lần chạm, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +2.69%)",
+      "39.34–39.72 ★★★★ (4 lần chạm, đáy cũ, cách +8.27%)"
+     ],
+     "khang_cu": [
+      "43.6–44.81 ★★★★★ (13 lần chạm, MA200, MA50, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -3.19%)",
+      "45.05–46.22 ★★★★★ (11 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -6.2%)"
+     ],
+     "rs_5p_20p": [
+      1.11,
+      3.71
+     ]
+    }
+   ],
+   "Vận tải - cảng": [
+    {
+     "ma": "GMD",
+     "gt_khop_ty": 31.6,
+     "pb": 2.56,
+     "pe": 13.7,
+     "nn_rong_ty": 7.69,
+     "diem_dong_gop": 0.0,
+     "dong": 54.0,
+     "pct": 0.0,
+     "kl_x_tb20": 0.5,
+     "pct_5p_20p_60p": [
+      -0.18,
+      5.19,
+      12.5
+     ],
+     "duong_ma": "MA10=53.6(+0.75%) MA20=52.65(+2.56%) MA50=52.01(+3.83%) MA200=49.26(+9.62%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "50.803·25/09·+6.29%",
+      "44.669·23/07·+20.89%",
+      "36.865·15/12/25·+46.48%"
+     ],
+     "dinh_60_250p": [
+      "56.0·12/10·-3.57%",
+      "57.987·02/03·-6.88%"
+     ],
+     "vung_dang_test": "53.74–54.67 ★★★★ (3 lần chạm, đỉnh cũ, cách -0.37%)",
+     "ho_tro": [
+      "52.14–53.45 ★★★★★ (9 lần chạm, MA50, chân nến tăng mạnh, đỉnh cũ, cách +2.29%)",
+      "50.6–51.77 ★★★★★ (10 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +5.51%)"
+     ],
+     "khang_cu": [
+      "56.0 ★ (1 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -3.57%)"
+     ],
+     "rs_5p_20p": [
+      1.63,
+      11.29
+     ]
+    },
+    {
+     "ma": "HAH",
+     "gt_khop_ty": 34.8,
+     "pb": 1.98,
+     "pe": 7.3,
+     "nn_rong_ty": -14.35,
+     "diem_dong_gop": 0.01,
+     "dong": 49.1,
+     "pct": 0.41,
+     "kl_x_tb20": 0.57,
+     "pct_5p_20p_60p": [
+      0.41,
+      4.69,
+      9.48
+     ],
+     "duong_ma": "MA10=49.62(-1.05%) MA20=50.3(-2.39%) MA50=48.28(+1.7%) MA200=51.88(-5.36%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 8,
+     "day_20_60_250p": [
+      "46.85·22/09·+4.8%",
+      "42.9·14/09·+14.45%",
+      "42.9·14/09·+14.45%"
+     ],
+     "dinh_60_250p": [
+      "53.5·08/10·-8.22%",
+      "68.875·03/03·-28.71%"
+     ],
+     "vung_dang_test": "48.8–49.76 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -0.37%)",
+     "ho_tro": [
+      "46.85–48.13 ★★★★★ (7 lần chạm, MA50, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +3.39%)",
+      "45.05–46.0 ★★★★ (4 lần chạm, đáy cũ, cách +7.86%)"
+     ],
+     "khang_cu": [
+      "50.43–51.87 ★★★★★ (7 lần chạm, MA200, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -4.01%)",
+      "52.06–53.5 ★★★★★ (8 lần chạm, MA200, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -6.97%)"
+     ],
+     "rs_5p_20p": [
+      2.22,
+      10.79
+     ]
+    },
+    {
+     "ma": "VSC",
+     "gt_khop_ty": 63.8,
+     "pb": 0.87,
+     "pe": 14.2,
+     "nn_rong_ty": -4.26,
+     "diem_dong_gop": 0.01,
+     "dong": 13.1,
+     "pct": 0.77,
+     "kl_x_tb20": 0.69,
+     "pct_5p_20p_60p": [
+      1.16,
+      0.0,
+      -5.07
+     ],
+     "duong_ma": "MA10=13.04(+0.46%) MA20=13.13(-0.23%) MA50=13.76(-4.8%) MA200=19.11(-31.45%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "12.65·06/10·+3.56%",
+      "12.25·14/09·+6.94%",
+      "12.25·14/09·+6.94%"
+     ],
+     "dinh_60_250p": [
+      "15.8·24/08·-17.09%",
+      "28.65·16/10/25·-54.28%"
+     ],
+     "vung_dang_test": "12.95–13.1 ★★★ (3 lần chạm, chân nến tăng mạnh, đáy cũ, cách +0.61%)",
+     "ho_tro": [
+      "12.65–12.7 ★★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +3.31%)",
+      "12.25–12.4 ★★★★ (2 lần chạm, đáy cũ, cách +6.33%)"
+     ],
+     "khang_cu": [
+      "13.46 ★★★ (0 lần chạm, vùng khối lượng lớn, cách -2.67%)",
+      "13.8–14.1 ★★★★ (3 lần chạm, MA50, chân nến tăng mạnh, đỉnh 20 phiên, đỉnh cũ, cách -6.09%)"
+     ],
+     "rs_5p_20p": [
+      2.97,
+      6.1
+     ]
+    },
+    {
+     "ma": "VOS",
+     "gt_khop_ty": 5.6,
+     "pb": 0.85,
+     "pe": 4.1,
+     "nn_rong_ty": -0.71,
+     "diem_dong_gop": 0.0,
+     "dong": 11.5,
+     "pct": 0.88,
+     "kl_x_tb20": 0.34,
+     "pct_5p_20p_60p": [
+      -5.74,
+      3.2,
+      18.51
+     ],
+     "duong_ma": "MA10=11.84(-2.87%) MA20=11.69(-1.63%) MA50=10.97(+4.83%) MA200=11.69(-1.63%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "11.097·25/09·+3.63%",
+      "9.286·28/07·+23.84%",
+      "9.286·28/07·+23.84%"
+     ],
+     "dinh_60_250p": [
+      "12.9·08/10·-10.85%",
+      "17.411·04/03·-33.95%"
+     ],
+     "vung_dang_test": "11.38–11.7 ★★★★★ (10 lần chạm, MA200, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -0.35%)",
+     "ho_tro": [
+      "11.0–11.33 ★★★★★ (12 lần chạm, MA50, đáy 20 phiên, đáy cũ, cách +2.95%)",
+      "10.63–10.87 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +6.98%)"
+     ],
+     "khang_cu": [
+      "11.75–12.07 ★★★★★ (7 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -3.44%)",
+      "12.16–12.49 ★★★★★ (13 lần chạm, đáy cũ, đỉnh cũ, cách -6.73%)"
+     ],
+     "rs_5p_20p": [
+      -3.93,
+      9.3
+     ]
+    },
+    {
+     "ma": "VTP",
+     "gt_khop_ty": 16.6,
+     "pb": 4.08,
+     "pe": 27.2,
+     "nn_rong_ty": -1.31,
+     "diem_dong_gop": -0.02,
+     "dong": 46.3,
+     "pct": -0.86,
+     "kl_x_tb20": 0.45,
+     "pct_5p_20p_60p": [
+      -1.7,
+      -4.04,
+      -3.74
+     ],
+     "duong_ma": "MA10=47.22(-1.95%) MA20=49.47(-6.41%) MA50=51.2(-9.57%) MA200=57.34(-19.25%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 10,
+     "day_20_60_250p": [
+      "45.0·15/10·+2.89%",
+      "43.4·28/07·+6.68%",
+      "43.4·28/07·+6.68%"
+     ],
+     "dinh_60_250p": [
+      "58.1·20/08·-20.31%",
+      "82.425·15/01·-43.83%"
+     ],
+     "ho_tro": [
+      "45.0 ★★ (2 lần chạm, chân nến tăng mạnh, đáy 20 phiên, cách +2.89%)",
+      "43.4 ★★ (1 lần chạm, đáy cũ, cách +6.68%)"
+     ],
+     "khang_cu": [
+      "48.1–48.3 ★★★★ (3 lần chạm, chân nến tăng mạnh, đáy cũ, cách -3.94%)",
+      "51.77–52.06 ★★★★ (1 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, cách -10.82%)"
+     ],
+     "rs_5p_20p": [
+      0.11,
+      2.06
+     ]
+    }
+   ],
+   "Phân bón - hóa chất": [
+    {
+     "ma": "DPM",
+     "gt_khop_ty": 25.8,
+     "pb": 1.4,
+     "pe": 8.1,
+     "nn_rong_ty": -3.67,
+     "diem_dong_gop": 0.01,
+     "dong": 21.25,
+     "pct": 0.24,
+     "kl_x_tb20": 0.47,
+     "pct_5p_20p_60p": [
+      -1.62,
+      -6.8,
+      2.93
+     ],
+     "duong_ma": "MA10=21.52(-1.25%) MA20=22.03(-3.54%) MA50=22.2(-4.28%) MA200=23.66(-10.19%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 14,
+     "day_20_60_250p": [
+      "21.0·06/10·+1.19%",
+      "20.599·23/07·+3.16%",
+      "20.177·16/12/25·+5.32%"
+     ],
+     "dinh_60_250p": [
+      "23.75·16/09·-10.53%",
+      "33.52·13/03·-36.61%"
+     ],
+     "vung_dang_test": "20.79–21.4 ★★★★★ (7 lần chạm, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +0.76%)",
+     "ho_tro": [
+      "20.18–20.74 ★★★★★ (5 lần chạm, đáy cũ, cách +3.86%)"
+     ],
+     "khang_cu": [
+      "21.44–22.0 ★★★★★ (9 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -2.16%)",
+      "22.1–22.75 ★★★★★ (11 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -5.22%)"
+     ],
+     "rs_5p_20p": [
+      0.19,
+      -0.7
+     ]
+    },
+    {
+     "ma": "DCM",
+     "gt_khop_ty": 34.4,
+     "pb": 1.72,
+     "pe": 6.9,
+     "nn_rong_ty": 7.1,
+     "diem_dong_gop": -0.01,
+     "dong": 33.85,
+     "pct": -0.15,
+     "kl_x_tb20": 0.39,
+     "pct_5p_20p_60p": [
+      0.3,
+      0.45,
+      17.13
+     ],
+     "duong_ma": "MA10=33.97(-0.35%) MA20=33.95(-0.29%) MA50=32.68(+3.58%) MA200=36.12(-6.28%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 1,
+     "day_20_60_250p": [
+      "32.1·06/10·+5.45%",
+      "28.5·23/07·+18.77%",
+      "28.5·23/07·+18.77%"
+     ],
+     "dinh_60_250p": [
+      "35.4·29/09·-4.38%",
+      "50.012·09/03·-32.32%"
+     ],
+     "vung_dang_test": "33.75–34.27 ★★★★★ (7 lần chạm, đáy cũ, đỉnh cũ, cách -0.47%)",
+     "ho_tro": [
+      "32.6–33.47 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +2.48%)",
+      "31.6–32.4 ★★★★★ (12 lần chạm, MA50, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +5.78%)"
+     ],
+     "khang_cu": [
+      "34.84–35.4 ★★★★★ (8 lần chạm, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -3.62%)",
+      "36.07–36.49 ★★★ (3 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -6.7%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 31.1–31.2 (03/09)"
+     ],
+     "rs_5p_20p": [
+      2.11,
+      6.55
+     ]
+    },
+    {
+     "ma": "DGC",
+     "gt_khop_ty": 6.8,
+     "pb": 0.97,
+     "pe": 5.9,
+     "nn_rong_ty": -0.23,
+     "diem_dong_gop": 0.02,
+     "dong": 33.0,
+     "pct": 0.61,
+     "kl_x_tb20": 0.39,
+     "pct_5p_20p_60p": [
+      0.0,
+      -6.65,
+      -1.7
+     ],
+     "duong_ma": "MA10=33.09(-0.27%) MA20=34.41(-4.1%) MA50=35.63(-7.38%) MA200=43.54(-24.21%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 13,
+     "day_20_60_250p": [
+      "32.15·08/10·+2.64%",
+      "29.716·28/07·+11.05%",
+      "29.716·28/07·+11.05%"
+     ],
+     "dinh_60_250p": [
+      "39.746·07/09·-16.97%",
+      "81.799·14/11/25·-59.66%"
+     ],
+     "ho_tro": [
+      "32.15 ★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +2.64%)",
+      "29.72 ★★ (1 lần chạm, đáy cũ, cách +11.04%)"
+     ],
+     "khang_cu": [
+      "33.74 ★ (1 lần chạm, đáy cũ, cách -2.19%)",
+      "34.4–35.2 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -5.17%)"
+     ],
+     "gap": [
+      "gap xuống chưa lấp 38.6–38.751 (14/09)",
+      "gap xuống chưa lấp 35.9–36.0 (01/10)"
+     ],
+     "rs_5p_20p": [
+      1.81,
+      -0.55
+     ]
+    },
+    {
+     "ma": "BFC",
+     "gt_khop_ty": 4.4,
+     "pb": 2.6,
+     "pe": 13.0,
+     "nn_rong_ty": -0.49,
+     "diem_dong_gop": -0.03,
+     "dong": 56.5,
+     "pct": -4.24,
+     "kl_x_tb20": 0.32,
+     "pct_5p_20p_60p": [
+      -8.58,
+      19.96,
+      14.56
+     ],
+     "duong_ma": "MA10=60.7(-6.92%) MA20=55.75(+1.35%) MA50=51.0(+10.78%) MA200=52.46(+7.7%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 2,
+     "day_20_60_250p": [
+      "46.5·23/09·+21.51%",
+      "44.65·28/07·+26.54%",
+      "38.345·20/10/25·+47.35%"
+     ],
+     "dinh_60_250p": [
+      "64.2·14/10·-11.99%",
+      "72.766·04/03·-22.35%"
+     ],
+     "ho_tro": [
+      "55.49–56.33 ★★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách +1.06%)",
+      "53.24–54.83 ★★★★★ (6 lần chạm, MA200, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +4.55%)"
+     ],
+     "khang_cu": [
+      "57.17–58.0 ★★ (2 lần chạm, chân nến tăng mạnh, đáy cũ, cách -1.88%)",
+      "64.2–64.83 ★★ (2 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -12.42%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 53.9–54.0 (02/10)"
+     ],
+     "rs_5p_20p": [
+      -6.77,
+      26.06
+     ]
+    },
+    {
+     "ma": "CSV",
+     "gt_khop_ty": 16.4,
+     "pb": 1.47,
+     "pe": 9.5,
+     "nn_rong_ty": -1.84,
+     "diem_dong_gop": 0.01,
+     "dong": 23.4,
+     "pct": 1.74,
+     "kl_x_tb20": 1.68,
+     "pct_5p_20p_60p": [
+      3.77,
+      13.04,
+      8.08
+     ],
+     "duong_ma": "MA10=22.18(+5.5%) MA20=21.19(+10.43%) MA50=21.34(+9.65%) MA200=25.23(-7.25%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "19.6·02/10·+19.39%",
+      "19.25·28/07·+21.56%",
+      "19.25·28/07·+21.56%"
+     ],
+     "dinh_60_250p": [
+      "24.3·15/10·-3.7%",
+      "34.5·03/03·-32.17%"
+     ],
+     "ho_tro": [
+      "22.83–23.1 ★★ (1 lần chạm, vùng khối lượng lớn, đáy cũ, cách +1.92%)",
+      "22.0–22.6 ★★★★★ (6 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +4.93%)"
+     ],
+     "khang_cu": [
+      "24.3 ★ (1 lần chạm, đỉnh 20 phiên, cách -3.7%)",
+      "25.05–25.8 ★★★★★ (7 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -7.98%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 21.5–21.75 (09/10)"
+     ],
+     "rs_5p_20p": [
+      5.58,
+      19.14
+     ]
+    }
+   ],
+   "Thủy sản - dệt may": [
+    {
+     "ma": "VHC",
+     "gt_khop_ty": 21.0,
+     "pb": 1.13,
+     "pe": 7.3,
+     "nn_rong_ty": -1.62,
+     "diem_dong_gop": 0.03,
+     "dong": 51.4,
+     "pct": 1.58,
+     "kl_x_tb20": 1.23,
+     "pct_5p_20p_60p": [
+      -1.15,
+      2.39,
+      -3.2
+     ],
+     "duong_ma": "MA10=51.27(+0.25%) MA20=50.41(+1.96%) MA50=51.43(-0.06%) MA200=57.14(-10.05%)",
+     "doc_ma20_ma50": "lên/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "48.0·29/09·+7.08%",
+      "48.0·29/09·+7.08%",
+      "48.0·29/09·+7.08%"
+     ],
+     "dinh_60_250p": [
+      "55.8·14/08·-7.89%",
+      "69.9·03/02·-26.47%"
+     ],
+     "vung_dang_test": "50.9–52.4 ★★★★★ (8 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -0.48%)",
+     "ho_tro": [
+      "49.4–50.0 ★★★ (3 lần chạm, đáy cũ, cách +3.42%)",
+      "48.0 ★★★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +7.08%)"
+     ],
+     "khang_cu": [
+      "52.6–53.7 ★★★★★ (6 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -3.29%)",
+      "54.8–56.2 ★★★★★ (11 lần chạm, đáy cũ, đỉnh cũ, cách -7.39%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 50.8–51.0 (19/10)"
+     ],
+     "rs_5p_20p": [
+      0.66,
+      8.49
+     ]
+    },
+    {
+     "ma": "ANV",
+     "gt_khop_ty": 40.3,
+     "pb": 1.26,
+     "pe": 5.6,
+     "nn_rong_ty": -5.25,
+     "diem_dong_gop": 0.03,
+     "dong": 18.85,
+     "pct": 3.29,
+     "kl_x_tb20": 2.01,
+     "pct_5p_20p_60p": [
+      1.89,
+      17.81,
+      9.91
+     ],
+     "duong_ma": "MA10=18.25(+3.29%) MA20=17.19(+9.66%) MA50=16.96(+11.14%) MA200=21.67(-13.01%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "15.1·29/09·+24.83%",
+      "15.1·29/09·+24.83%",
+      "15.1·29/09·+24.83%"
+     ],
+     "dinh_60_250p": [
+      "19.7·09/10·-4.31%",
+      "31.705·20/10/25·-40.55%"
+     ],
+     "ho_tro": [
+      "18.3–18.31 ★★★ (1 lần chạm, vùng khối lượng lớn, đỉnh cũ, cách +3.01%)",
+      "17.5–17.8 ★★★★★ (6 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +6.8%)"
+     ],
+     "khang_cu": [
+      "19.7 ★ (1 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -4.31%)",
+      "20.15 ★★★ (2 lần chạm, đáy cũ, cách -6.45%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 15.95–16.0 (02/10)"
+     ],
+     "rs_5p_20p": [
+      3.7,
+      23.91
+     ]
+    },
+    {
+     "ma": "IDI",
+     "gt_khop_ty": 3.6,
+     "pb": 0.4,
+     "pe": 8.5,
+     "nn_rong_ty": 0.0,
+     "diem_dong_gop": 0.01,
+     "dong": 5.33,
+     "pct": 3.09,
+     "kl_x_tb20": 1.67,
+     "pct_5p_20p_60p": [
+      4.51,
+      11.97,
+      14.13
+     ],
+     "duong_ma": "MA10=4.99(+6.81%) MA20=4.79(+11.27%) MA50=4.84(+10.12%) MA200=5.9(-9.66%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "4.39·06/10·+21.41%",
+      "4.39·06/10·+21.41%",
+      "4.39·06/10·+21.41%"
+     ],
+     "dinh_60_250p": [
+      "5.4·19/10·-1.3%",
+      "7.84·19/11/25·-32.02%"
+     ],
+     "ho_tro": [
+      "5.1–5.17 ★★★★★ (3 lần chạm, vùng khối lượng lớn, đỉnh cũ, cách +3.9%)",
+      "5.0 ★★★ (1 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, cách +6.6%)"
+     ],
+     "khang_cu": [
+      "5.4 ★★ (2 lần chạm, đáy cũ, đỉnh 20 phiên, cách -1.3%)",
+      "5.58–5.6 ★★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách -4.65%)"
+     ],
+     "rs_5p_20p": [
+      6.32,
+      18.07
+     ]
+    },
+    {
+     "ma": "TNG",
+     "gt_khop_ty": 30.3,
+     "pb": 1.22,
+     "pe": 5.2,
+     "nn_rong_ty": -1.08,
+     "dong": 18.5,
+     "pct": 3.93,
+     "kl_x_tb20": 2.19,
+     "pct_5p_20p_60p": [
+      -1.6,
+      12.8,
+      18.01
+     ],
+     "duong_ma": "MA10=18.23(+1.48%) MA20=17.42(+6.2%) MA50=17.02(+8.7%) MA200=18.67(-0.91%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "16.1·01/10·+14.91%",
+      "14.26·23/07·+29.73%",
+      "14.26·23/07·+29.73%"
+     ],
+     "dinh_60_250p": [
+      "19.1·12/10·-3.14%",
+      "25.822·01/04·-28.36%"
+     ],
+     "vung_dang_test": "18.23–18.7 ★★★★★ (4 lần chạm, MA200, vùng khối lượng lớn, đỉnh cũ, cách +0.22%)",
+     "ho_tro": [
+      "17.63–18.04 ★★★★★ (7 lần chạm, đáy cũ, đỉnh cũ, cách +3.7%)",
+      "17.1–17.57 ★★★★★ (10 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +6.75%)"
+     ],
+     "khang_cu": [
+      "18.89–19.25 ★★★★★ (7 lần chạm, MA200, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -2.99%)",
+      "19.55–19.93 ★★★★ (4 lần chạm, đáy cũ, đỉnh cũ, cách -6.28%)"
+     ],
+     "rs_5p_20p": [
+      0.21,
+      18.9
+     ]
+    },
+    {
+     "ma": "MSH",
+     "gt_khop_ty": 4.3,
+     "pb": 1.75,
+     "pe": 5.6,
+     "nn_rong_ty": 0.22,
+     "diem_dong_gop": 0.01,
+     "dong": 32.0,
+     "pct": 1.75,
+     "kl_x_tb20": 1.67,
+     "pct_5p_20p_60p": [
+      0.47,
+      6.67,
+      4.92
+     ],
+     "duong_ma": "MA10=31.43(+1.81%) MA20=30.69(+4.27%) MA50=30.55(+4.75%) MA200=33.51(-4.51%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "29.55·28/09·+8.29%",
+      "28.4·17/08·+12.68%",
+      "28.4·17/08·+12.68%"
+     ],
+     "dinh_60_250p": [
+      "32.2·19/10·-0.62%",
+      "40.156·05/02·-20.31%"
+     ],
+     "vung_dang_test": "31.5–32.38 ★★★★★ (8 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách +0.19%)",
+     "ho_tro": [
+      "30.49–31.0 ★★★★★ (5 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +4.1%)",
+      "29.55–30.34 ★★★★★ (6 lần chạm, MA50, đáy 20 phiên, đáy cũ, cách +6.88%)"
+     ],
+     "khang_cu": [
+      "32.48–33.25 ★★★★ (5 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -2.62%)",
+      "33.45–34.4 ★★★★★ (5 lần chạm, MA200, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -5.66%)"
+     ],
+     "rs_5p_20p": [
+      2.28,
+      12.77
+     ]
+    },
+    {
+     "ma": "VGT",
+     "pb": 0.74,
+     "pe": 5.4,
+     "dong": 11.7,
+     "pct": 2.63,
+     "kl_x_tb20": 0.93,
+     "pct_5p_20p_60p": [
+      -2.5,
+      6.36,
+      11.13
+     ],
+     "duong_ma": "MA10=11.75(-0.43%) MA20=11.44(+2.27%) MA50=11.35(+3.08%) MA200=11.8(-0.85%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "10.8·22/09·+8.33%",
+      "10.138·28/07·+15.41%",
+      "10.138·28/07·+15.41%"
+     ],
+     "dinh_60_250p": [
+      "12.5·08/10·-6.4%",
+      "16.182·04/03·-27.7%"
+     ],
+     "vung_dang_test": "11.54–11.82 ★★★★★ (18 lần chạm, MA200, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +0.17%)",
+     "ho_tro": [
+      "11.2–11.5 ★★★★★ (27 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +3.08%)",
+      "10.8–11.11 ★★★★★ (17 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +6.75%)"
+     ],
+     "khang_cu": [
+      "11.89–12.19 ★★★★★ (8 lần chạm, MA200, đỉnh cũ, cách -2.82%)",
+      "12.28–12.57 ★★★★★ (8 lần chạm, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -5.87%)"
+     ],
+     "rs_5p_20p": [
+      -0.69,
+      12.46
+     ]
+    }
+   ],
+   "Điện - năng lượng": [
+    {
+     "ma": "NT2",
+     "gt_khop_ty": 26.2,
+     "pb": 1.34,
+     "pe": 5.3,
+     "nn_rong_ty": 2.72,
+     "diem_dong_gop": 0.0,
+     "dong": 23.35,
+     "pct": 0.21,
+     "kl_x_tb20": 1.06,
+     "pct_5p_20p_60p": [
+      0.21,
+      13.35,
+      10.14
+     ],
+     "duong_ma": "MA10=22.96(+1.7%) MA20=22.18(+5.28%) MA50=21.46(+8.81%) MA200=23.74(-1.64%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "20.55·22/09·+13.63%",
+      "20.2·14/09·+15.59%",
+      "20.2·14/09·+15.59%"
+     ],
+     "dinh_60_250p": [
+      "23.6·16/10·-1.06%",
+      "29.45·02/03·-20.71%"
+     ],
+     "vung_dang_test": "23.15–23.6 ★★★★★ (13 lần chạm, MA200, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -0.13%)",
+     "ho_tro": [
+      "22.4–22.95 ★★★★★ (4 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, cách +3.0%)",
+      "21.7–22.35 ★★★★★ (12 lần chạm, MA50, đáy cũ, đỉnh cũ, cách +6.04%)"
+     ],
+     "khang_cu": [
+      "23.85–24.4 ★★★★★ (6 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -3.19%)",
+      "24.65–25.35 ★★★★★ (9 lần chạm, đáy cũ, đỉnh cũ, cách -6.6%)"
+     ],
+     "gap": [
+      "gap lên chưa lấp 21.15–21.25 (30/09)"
+     ],
+     "rs_5p_20p": [
+      2.02,
+      19.45
+     ]
+    },
+    {
+     "ma": "POW",
+     "gt_khop_ty": 32.8,
+     "pb": 0.91,
+     "pe": 6.3,
+     "nn_rong_ty": 5.15,
+     "diem_dong_gop": 0.03,
+     "dong": 12.25,
+     "pct": 0.41,
+     "kl_x_tb20": 0.48,
+     "pct_5p_20p_60p": [
+      -1.61,
+      -2.39,
+      -7.2
+     ],
+     "duong_ma": "MA10=12.43(-1.45%) MA20=12.57(-2.55%) MA50=12.9(-5.04%) MA200=13.52(-9.39%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 11,
+     "day_20_60_250p": [
+      "12.1·15/10·+1.24%",
+      "12.05·14/09·+1.66%",
+      "10.662·21/10/25·+14.89%"
+     ],
+     "dinh_60_250p": [
+      "14.1·31/07·-13.12%",
+      "16.85·04/03·-27.3%"
+     ],
+     "vung_dang_test": "12.05–12.4 ★★★★★ (12 lần chạm, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +0.16%)",
+     "ho_tro": [
+      "11.5–11.57 ★★★ (3 lần chạm, đáy cũ, cách +6.15%)"
+     ],
+     "khang_cu": [
+      "12.45–12.8 ★★★★★ (10 lần chạm, MA50, đáy cũ, đỉnh cũ, cách -2.93%)",
+      "12.85–13.2 ★★★★★ (10 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -5.91%)"
+     ],
+     "rs_5p_20p": [
+      0.2,
+      3.71
+     ]
+    },
+    {
+     "ma": "PC1",
+     "gt_khop_ty": 6.2,
+     "pb": 1.14,
+     "pe": 6.6,
+     "nn_rong_ty": -0.81,
+     "diem_dong_gop": -0.0,
+     "dong": 18.55,
+     "pct": -0.27,
+     "kl_x_tb20": 0.25,
+     "pct_5p_20p_60p": [
+      -1.85,
+      -7.94,
+      -9.73
+     ],
+     "duong_ma": "MA10=18.81(-1.38%) MA20=19.62(-5.45%) MA50=20.09(-7.67%) MA200=22.48(-17.48%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 13,
+     "day_20_60_250p": [
+      "18.2·09/10·+1.92%",
+      "18.2·09/10·+1.92%",
+      "16.65·18/05·+11.41%"
+     ],
+     "dinh_60_250p": [
+      "22.3·27/07·-16.82%",
+      "32.2·02/03·-42.39%"
+     ],
+     "ho_tro": [
+      "18.05–18.2 ★★★ (3 lần chạm, đáy 20 phiên, đáy cũ, cách +2.37%)"
+     ],
+     "khang_cu": [
+      "18.83–19.06 ★★ (1 lần chạm, vùng khối lượng lớn, đáy cũ, cách -2.06%)",
+      "19.39–19.95 ★★★★★ (5 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, cách -5.69%)"
+     ],
+     "rs_5p_20p": [
+      -0.04,
+      -1.84
+     ]
+    },
+    {
+     "ma": "HDG",
+     "gt_khop_ty": 7.5,
+     "pb": 0.87,
+     "pe": 6.5,
+     "nn_rong_ty": -0.65,
+     "diem_dong_gop": -0.01,
+     "dong": 14.85,
+     "pct": -1.0,
+     "kl_x_tb20": 0.69,
+     "pct_5p_20p_60p": [
+      1.71,
+      -7.19,
+      -9.45
+     ],
+     "duong_ma": "MA10=14.7(+1.02%) MA20=15.11(-1.72%) MA50=15.87(-6.43%) MA200=20.95(-29.12%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "14.15·09/10·+4.95%",
+      "14.15·09/10·+4.95%",
+      "14.15·09/10·+4.95%"
+     ],
+     "dinh_60_250p": [
+      "17.7·04/09·-16.1%",
+      "32.496·16/10/25·-54.3%"
+     ],
+     "ho_tro": [
+      "14.15 ★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +4.95%)"
+     ],
+     "khang_cu": [
+      "15.2 ★★ (1 lần chạm, đáy cũ, cách -2.3%)",
+      "15.5–15.6 ★★★★ (2 lần chạm, đáy cũ, cách -4.5%)"
+     ],
+     "rs_5p_20p": [
+      3.52,
+      -1.09
+     ]
+    },
+    {
+     "ma": "REE",
+     "gt_khop_ty": 6.8,
+     "pb": 1.29,
+     "pe": 10.6,
+     "nn_rong_ty": 0.32,
+     "diem_dong_gop": 0.01,
+     "dong": 45.05,
+     "pct": 0.22,
+     "kl_x_tb20": 0.33,
+     "pct_5p_20p_60p": [
+      0.0,
+      -3.53,
+      2.74
+     ],
+     "duong_ma": "MA10=45.3(-0.55%) MA20=46.13(-2.34%) MA50=46.03(-2.13%) MA200=50.85(-11.41%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 11,
+     "day_20_60_250p": [
+      "44.4·09/10·+1.46%",
+      "42.5·23/07·+6.0%",
+      "42.5·23/07·+6.0%"
+     ],
+     "dinh_60_250p": [
+      "48.7·05/08·-7.49%",
+      "64.524·30/03·-30.18%"
+     ],
+     "vung_dang_test": "44.4–45.42 ★★★★★ (6 lần chạm, MA50, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, cách +0.31%)",
+     "ho_tro": [
+      "42.5 ★★ (1 lần chạm, đáy cũ, cách +6.0%)"
+     ],
+     "khang_cu": [
+      "46.5–47.65 ★★★★★ (7 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -4.31%)",
+      "48.5–49.1 ★★★★ (3 lần chạm, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -7.68%)"
+     ],
+     "rs_5p_20p": [
+      1.81,
+      2.57
+     ]
+    },
+    {
+     "ma": "GEX",
+     "gt_khop_ty": 224.3,
+     "pb": 1.49,
+     "pe": 21.4,
+     "nn_rong_ty": -19.8,
+     "diem_dong_gop": 0.07,
+     "dong": 22.75,
+     "pct": 1.11,
+     "kl_x_tb20": 1.62,
+     "pct_5p_20p_60p": [
+      2.94,
+      -3.81,
+      9.64
+     ],
+     "duong_ma": "MA10=22.34(+1.84%) MA20=23.1(-1.52%) MA50=24.21(-6.03%) MA200=26.77(-15.02%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "21.35·09/10·+6.56%",
+      "19.7·28/07·+15.48%",
+      "19.7·28/07·+15.48%"
+     ],
+     "dinh_60_250p": [
+      "27.2·28/08·-16.36%",
+      "45.313·16/10/25·-49.79%"
+     ],
+     "ho_tro": [
+      "22.17–22.58 ★★★★ (3 lần chạm, vùng khối lượng lớn, đáy cũ, cách +1.65%)",
+      "21.35–21.52 ★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +6.16%)"
+     ],
+     "khang_cu": [
+      "23.93–24.65 ★★★★★ (6 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -6.34%)",
+      "24.8–25.11 ★★★★ (5 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -8.82%)"
+     ],
+     "rs_5p_20p": [
+      4.75,
+      2.29
+     ]
+    }
+   ],
+   "Cao su": [
+    {
+     "ma": "DRC",
+     "gt_khop_ty": 16.3,
+     "pb": 0.8,
+     "pe": 12.2,
+     "nn_rong_ty": -0.35,
+     "diem_dong_gop": -0.02,
+     "dong": 9.34,
+     "pct": -5.47,
+     "kl_x_tb20": 15.01,
+     "pct_5p_20p_60p": [
+      -5.27,
+      -7.06,
+      -7.52
+     ],
+     "duong_ma": "MA10=9.79(-4.6%) MA20=9.85(-5.18%) MA50=10.12(-7.71%) MA200=12.16(-23.19%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 1,
+     "day_20_60_250p": [
+      "9.3·19/10·+0.43%",
+      "9.3·19/10·+0.43%",
+      "9.3·19/10·+0.43%"
+     ],
+     "dinh_60_250p": [
+      "10.9·11/08·-14.31%",
+      "15.754·04/03·-40.71%"
+     ],
+     "ho_tro": [
+      "9.3 ★ (1 lần chạm, đáy 20 phiên, cách +0.43%)"
+     ],
+     "khang_cu": [
+      "9.65–9.86 ★★★★★ (4 lần chạm, vùng khối lượng lớn, đáy cũ, cách -4.21%)",
+      "9.96–10.03 ★★★★★ (2 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -6.6%)"
+     ],
+     "gap": [
+      "gap xuống chưa lấp 9.6–9.82 (19/10)"
+     ],
+     "rs_5p_20p": [
+      -3.46,
+      -0.96
+     ]
+    },
+    {
+     "ma": "DRI",
+     "pb": 1.58,
+     "pe": 5.2,
+     "dong": 15.9,
+     "pct": 1.27,
+     "kl_x_tb20": 0.37,
+     "pct_5p_20p_60p": [
+      -5.36,
+      14.5,
+      36.48
+     ],
+     "duong_ma": "MA10=16.23(-2.03%) MA20=15.79(+0.7%) MA50=14.17(+12.21%) MA200=12.89(+23.35%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "13.8·22/09·+15.22%",
+      "11.557·28/07·+37.58%",
+      "9.6·20/10/25·+65.62%"
+     ],
+     "dinh_60_250p": [
+      "17.2·09/10·-7.56%",
+      "17.2·09/10·-7.56%"
+     ],
+     "vung_dang_test": "15.9 ★ (1 lần chạm, chân nến tăng mạnh, cách +0.0%)",
+     "ho_tro": [
+      "15.4–15.66 ★★★ (3 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +2.38%)",
+      "14.07–14.35 ★★★★ (3 lần chạm, MA50, đỉnh cũ, cách +11.89%)"
+     ],
+     "rs_5p_20p": [
+      -3.55,
+      20.6
+     ]
+    },
+    {
+     "ma": "PHR",
+     "gt_khop_ty": 10.5,
+     "pb": 1.67,
+     "pe": 8.3,
+     "nn_rong_ty": -2.53,
+     "diem_dong_gop": 0.01,
+     "dong": 32.25,
+     "pct": 0.78,
+     "kl_x_tb20": 0.66,
+     "pct_5p_20p_60p": [
+      -1.83,
+      1.74,
+      2.81
+     ],
+     "duong_ma": "MA10=32.65(-1.23%) MA20=32.62(-1.13%) MA50=32.57(-0.98%) MA200=33.57(-3.93%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 7,
+     "day_20_60_250p": [
+      "31.6·23/09·+2.06%",
+      "29.523·23/07·+9.24%",
+      "26.402·20/10/25·+22.15%"
+     ],
+     "dinh_60_250p": [
+      "34.6·01/10·-6.79%",
+      "40.54·21/05·-20.45%"
+     ],
+     "vung_dang_test": "31.42–32.29 ★★★★★ (8 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +1.22%)",
+     "ho_tro": [
+      "30.39–31.04 ★★★★★ (6 lần chạm, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách +4.98%)",
+      "29.25–29.9 ★★★★★ (8 lần chạm, đáy cũ, cách +9.03%)"
+     ],
+     "khang_cu": [
+      "32.56–33.52 ★★★★★ (9 lần chạm, MA200, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -2.39%)",
+      "33.65–34.62 ★★★★★ (15 lần chạm, MA200, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -5.51%)"
+     ],
+     "rs_5p_20p": [
+      -0.02,
+      7.84
+     ]
+    },
+    {
+     "ma": "DPR",
+     "gt_khop_ty": 4.2,
+     "pb": 1.17,
+     "pe": 8.9,
+     "nn_rong_ty": -0.33,
+     "diem_dong_gop": 0.0,
+     "dong": 36.95,
+     "pct": 0.68,
+     "kl_x_tb20": 0.22,
+     "pct_5p_20p_60p": [
+      -1.6,
+      -1.47,
+      2.92
+     ],
+     "duong_ma": "MA10=37.38(-1.15%) MA20=37.8(-2.25%) MA50=37.35(-1.07%) MA200=39.51(-6.48%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 12,
+     "day_20_60_250p": [
+      "36.45·16/10·+1.37%",
+      "34.4·28/07·+7.41%",
+      "33.6·20/10/25·+9.97%"
+     ],
+     "dinh_60_250p": [
+      "39.8·30/09·-7.16%",
+      "48.5·04/03·-23.81%"
+     ],
+     "vung_dang_test": "37.0–38.1 ★★★★★ (15 lần chạm, MA50, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -1.6%)",
+     "ho_tro": [
+      "35.9–36.7 ★★★★ (6 lần chạm, đáy 20 phiên, đáy cũ, cách +1.79%)",
+      "35.0–35.05 ★★ (2 lần chạm, đáy cũ, cách +5.51%)"
+     ],
+     "khang_cu": [
+      "38.3–39.4 ★★★★★ (7 lần chạm, MA200, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -4.89%)",
+      "39.5–40.2 ★★★★★ (15 lần chạm, MA200, chân nến tăng mạnh, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách -7.28%)"
+     ],
+     "rs_5p_20p": [
+      0.21,
+      4.63
+     ]
+    }
+   ],
+   "Công nghệ": [
+    {
+     "ma": "FPT",
+     "gt_khop_ty": 241.5,
+     "pb": 2.75,
+     "pe": 11.0,
+     "nn_rong_ty": -42.11,
+     "diem_dong_gop": -0.43,
+     "dong": 57.1,
+     "pct": -1.89,
+     "kl_x_tb20": 0.8,
+     "pct_5p_20p_60p": [
+      0.0,
+      -14.01,
+      -2.77
+     ],
+     "duong_ma": "MA10=58.15(-1.81%) MA20=61.04(-6.45%) MA50=63.48(-10.05%) MA200=70.05(-18.49%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 19,
+     "day_20_60_250p": [
+      "55.8·14/10·+2.33%",
+      "55.8·14/10·+2.33%",
+      "55.8·14/10·+2.33%"
+     ],
+     "dinh_60_250p": [
+      "68.001·10/09·-16.03%",
+      "97.475·19/01·-41.42%"
+     ],
+     "ho_tro": [
+      "55.8–55.91 ★★★ (2 lần chạm, đáy 20 phiên, đáy cũ, cách +2.24%)"
+     ],
+     "khang_cu": [
+      "58.82 ★ (1 lần chạm, đáy cũ, cách -2.92%)",
+      "61.18–61.82 ★★★ (2 lần chạm, chân nến tăng mạnh, đáy cũ, cách -7.15%)"
+     ],
+     "rs_5p_20p": [
+      1.81,
+      -7.91
+     ]
+    },
+    {
+     "ma": "CMG",
+     "gt_khop_ty": 2.7,
+     "pb": 1.38,
+     "pe": 11.7,
+     "nn_rong_ty": -0.75,
+     "diem_dong_gop": -0.0,
+     "dong": 19.7,
+     "pct": -0.25,
+     "kl_x_tb20": 0.66,
+     "pct_5p_20p_60p": [
+      -0.51,
+      -13.22,
+      -17.23
+     ],
+     "duong_ma": "MA10=19.84(-0.71%) MA20=20.89(-5.7%) MA50=22.66(-13.06%) MA200=27.9(-29.39%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 19,
+     "day_20_60_250p": [
+      "19.0·14/10·+3.68%",
+      "19.0·14/10·+3.68%",
+      "19.0·14/10·+3.68%"
+     ],
+     "dinh_60_250p": [
+      "25.75·03/08·-23.5%",
+      "39.0·16/01·-49.49%"
+     ],
+     "ho_tro": [
+      "19.0 ★ (1 lần chạm, đáy 20 phiên, đáy cũ, cách +3.68%)"
+     ],
+     "khang_cu": [
+      "22.2–22.5 ★★★★★ (3 lần chạm, MA50, đáy cũ, cách -11.86%)",
+      "22.95 ★★ (1 lần chạm, MA50, đỉnh cũ, cách -14.16%)"
+     ],
+     "rs_5p_20p": [
+      1.3,
+      -7.12
+     ]
+    },
+    {
+     "ma": "CTR",
+     "gt_khop_ty": 5.6,
+     "pb": 4.21,
+     "pe": 13.3,
+     "nn_rong_ty": -0.7,
+     "diem_dong_gop": -0.01,
+     "dong": 67.8,
+     "pct": -0.29,
+     "kl_x_tb20": 0.37,
+     "pct_5p_20p_60p": [
+      -1.74,
+      -6.09,
+      2.11
+     ],
+     "duong_ma": "MA10=68.88(-1.57%) MA20=70.41(-3.71%) MA50=73.33(-7.54%) MA200=76.05(-10.85%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 17,
+     "day_20_60_250p": [
+      "67.1·15/10·+1.04%",
+      "65.5·23/07·+3.51%",
+      "65.5·23/07·+3.51%"
+     ],
+     "dinh_60_250p": [
+      "78.9·18/08·-14.07%",
+      "99.124·15/01·-31.6%"
+     ],
+     "vung_dang_test": "67.7–68.33 ★★ (2 lần chạm, đáy cũ, cách -0.32%)",
+     "ho_tro": [
+      "65.5–67.1 ★★★★ (4 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +2.26%)"
+     ],
+     "khang_cu": [
+      "70.0 ★ (1 lần chạm, đáy cũ, cách -3.14%)",
+      "71.58–73.69 ★★★★★ (15 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -6.65%)"
+     ],
+     "rs_5p_20p": [
+      0.07,
+      0.01
+     ]
+    },
+    {
+     "ma": "VGI",
+     "pb": 8.36,
+     "pe": 18.9,
+     "dong": 76.3,
+     "pct": -0.13,
+     "kl_x_tb20": 0.34,
+     "pct_5p_20p_60p": [
+      -2.3,
+      -4.39,
+      1.4
+     ],
+     "duong_ma": "MA10=77.21(-1.18%) MA20=79.0(-3.42%) MA50=81.03(-5.84%) MA200=87.97(-13.27%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 16,
+     "day_20_60_250p": [
+      "75.4·15/10·+1.19%",
+      "69.6·18/09·+9.63%",
+      "57.18·29/10/25·+33.44%"
+     ],
+     "dinh_60_250p": [
+      "88.412·10/08·-13.7%",
+      "136.462·22/01·-44.09%"
+     ],
+     "vung_dang_test": "74.67–76.88 ★★★★★ (5 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +0.69%)",
+     "ho_tro": [
+      "68.61–70.44 ★★★★★ (6 lần chạm, đáy cũ, đỉnh cũ, cách +9.74%)",
+      "57.18 ★★★ (2 lần chạm, đáy cũ, cách +33.44%)"
+     ],
+     "khang_cu": [
+      "76.98–77.07 ★★ (2 lần chạm, đáy cũ, cách -0.93%)",
+      "78.8–79.38 ★★★ (4 lần chạm, đáy cũ, đỉnh cũ, cách -3.53%)"
+     ],
+     "rs_5p_20p": [
+      -0.49,
+      1.71
+     ]
+    }
+   ],
+   "Xây dựng và Vật liệu (nổi bật hôm nay)": [
+    {
+     "ma": "HT1",
+     "gt_khop_ty": 24.0,
+     "tran_san": "TRẦN",
+     "pb": 0.94,
+     "pe": 12.2,
+     "nn_rong_ty": -0.0,
+     "diem_dong_gop": 0.07,
+     "dong": 13.2,
+     "pct": 6.88,
+     "kl_x_tb20": 5.29,
+     "pct_5p_20p_60p": [
+      6.45,
+      11.86,
+      11.17
+     ],
+     "duong_ma": "MA10=12.45(+6.02%) MA20=12.24(+7.84%) MA50=12.26(+7.67%) MA200=13.78(-4.21%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "11.75·28/09·+12.34%",
+      "11.144·28/07·+18.45%",
+      "11.144·28/07·+18.45%"
+     ],
+     "dinh_60_250p": [
+      "13.626·05/08·-3.13%",
+      "20.439·23/10/25·-35.42%"
+     ],
+     "vung_dang_test": "12.9–13.29 ★★★★★ (8 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh 20 phiên, đỉnh cũ, cách +0.84%)",
+     "ho_tro": [
+      "12.6–12.7 ★★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách +4.35%)",
+      "12.1–12.45 ★★★★★ (5 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +7.58%)"
+     ],
+     "khang_cu": [
+      "13.44–13.77 ★★★★★ (7 lần chạm, MA200, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -3.01%)",
+      "13.87–14.11 ★★★★★ (4 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -5.65%)"
+     ],
+     "rs_5p_20p": [
+      8.26,
+      17.96
+     ]
+    },
+    {
+     "ma": "KSB",
+     "gt_khop_ty": 30.3,
+     "pb": 0.54,
+     "pe": 7.5,
+     "nn_rong_ty": 1.61,
+     "diem_dong_gop": 0.01,
+     "dong": 13.6,
+     "pct": 3.03,
+     "kl_x_tb20": 4.56,
+     "pct_5p_20p_60p": [
+      1.87,
+      4.62,
+      3.03
+     ],
+     "duong_ma": "MA10=13.13(+3.58%) MA20=12.99(+4.7%) MA50=13.28(+2.41%) MA200=15.22(-10.64%)",
+     "doc_ma20_ma50": "lên/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "12.25·06/10·+11.02%",
+      "12.25·06/10·+11.02%",
+      "12.25·06/10·+11.02%"
+     ],
+     "dinh_60_250p": [
+      "14.7·13/08·-7.48%",
+      "19.9·17/10/25·-31.66%"
+     ],
+     "ho_tro": [
+      "13.3–13.5 ★★★★★ (4 lần chạm, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +1.49%)",
+      "12.91–13.2 ★★★★★ (3 lần chạm, MA50, vùng khối lượng lớn, đỉnh cũ, cách +4.21%)"
+     ],
+     "khang_cu": [
+      "13.72 ★★ (0 lần chạm, vùng khối lượng lớn, cách -0.87%)",
+      "13.95–14.15 ★★★ (3 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -3.2%)"
+     ],
+     "rs_5p_20p": [
+      3.68,
+      10.72
+     ]
+    }
+   ],
+   "Ô tô và phụ tùng (nổi bật hôm nay)": [
+    {
+     "ma": "VVS",
+     "gt_khop_ty": 22.5,
+     "tran_san": "TRẦN",
+     "pb": 2.13,
+     "pe": 5.2,
+     "nn_rong_ty": 3.33,
+     "diem_dong_gop": 0.05,
+     "dong": 84.9,
+     "pct": 6.93,
+     "kl_x_tb20": 1.86,
+     "pct_5p_20p_60p": [
+      5.6,
+      4.17,
+      -22.04
+     ],
+     "duong_ma": "MA10=81.9(+3.66%) MA20=83.38(+1.82%) MA50=88.33(-3.88%) MA200=74.65(+13.73%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "78.5·29/09·+8.15%",
+      "78.5·29/09·+8.15%",
+      "25.449·06/10/25·+233.61%"
+     ],
+     "dinh_60_250p": [
+      "109.2·23/07·-22.25%",
+      "109.8·22/07·-22.68%"
+     ],
+     "ho_tro": [
+      "81.06–82.01 ★★★★ (3 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +4.12%)",
+      "78.46–79.9 ★★★★★ (6 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +7.22%)"
+     ],
+     "khang_cu": [
+      "86.1–88.0 ★★★★★ (6 lần chạm, MA50, chân nến tăng mạnh, đáy cũ, đỉnh cũ, cách -2.47%)",
+      "90.49–90.9 ★★★ (2 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -6.39%)"
+     ],
+     "rs_5p_20p": [
+      7.41,
+      10.27
+     ]
+    }
+   ],
+   "Du lịch và Giải trí (nổi bật hôm nay)": [
+    {
+     "ma": "VJC",
+     "gt_khop_ty": 175.5,
+     "pb": 3.72,
+     "pe": 45.0,
+     "nn_rong_ty": -72.25,
+     "diem_dong_gop": 0.0,
+     "dong": 127.5,
+     "pct": 0.0,
+     "kl_x_tb20": 1.49,
+     "pct_5p_20p_60p": [
+      -1.16,
+      -7.61,
+      1.19
+     ],
+     "duong_ma": "MA10=128.19(-0.54%) MA20=130.19(-2.07%) MA50=127.42(+0.06%) MA200=132.36(-3.67%)",
+     "doc_ma20_ma50": "xuống/lên",
+     "phien_duoi_ma10": 14,
+     "day_20_60_250p": [
+      "125.2·19/10·+1.84%",
+      "118.1·29/07·+7.96%",
+      "111.919·09/03·+13.92%"
+     ],
+     "dinh_60_250p": [
+      "138.0·21/09·-7.61%",
+      "169.224·26/11/25·-24.66%"
+     ],
+     "vung_dang_test": "125.2–128.5 ★★★★★ (7 lần chạm, MA50, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +0.51%)",
+     "ho_tro": [
+      "121.5–125.1 ★★★★★ (11 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +3.41%)",
+      "117.38–118.1 ★★★ (2 lần chạm, đáy cũ, cách +8.29%)"
+     ],
+     "khang_cu": [
+      "129.6–132.53 ★★★★★ (9 lần chạm, MA200, chân nến tăng mạnh, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -2.72%)",
+      "133.84–137.22 ★★★★★ (10 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -5.92%)"
+     ],
+     "rs_5p_20p": [
+      0.65,
+      -1.51
+     ]
+    }
+   ],
+   "Bất động sản (nổi bật hôm nay)": [
+    {
+     "ma": "VPI",
+     "gt_khop_ty": 101.1,
+     "pb": 3.13,
+     "pe": 42.1,
+     "nn_rong_ty": -15.72,
+     "diem_dong_gop": 0.15,
+     "dong": 50.2,
+     "pct": 4.37,
+     "kl_x_tb20": 1.31,
+     "pct_5p_20p_60p": [
+      -8.06,
+      -16.61,
+      -10.79
+     ],
+     "duong_ma": "MA10=53.22(-5.67%) MA20=56.65(-11.39%) MA50=58.08(-13.57%) MA200=54.99(-8.71%)",
+     "doc_ma20_ma50": "xuống/xuống",
+     "phien_duoi_ma10": 15,
+     "day_20_60_250p": [
+      "47.65·19/10·+5.35%",
+      "47.65·19/10·+5.35%",
+      "46.273·06/11/25·+8.49%"
+     ],
+     "dinh_60_250p": [
+      "63.4·17/09·-20.82%",
+      "63.4·17/09·-20.82%"
+     ],
+     "vung_dang_test": "48.91–50.27 ★★★★ (6 lần chạm, đáy cũ, cách +1.23%)",
+     "ho_tro": [
+      "47.18–47.65 ★★★★ (5 lần chạm, chân nến tăng mạnh, đáy 20 phiên, đáy cũ, cách +5.86%)"
+     ],
+     "khang_cu": [
+      "50.45–51.45 ★★★★ (6 lần chạm, đáy cũ, đỉnh cũ, cách -1.47%)",
+      "52.27–53.73 ★★★★★ (12 lần chạm, đáy cũ, đỉnh cũ, cách -5.28%)"
+     ],
+     "rs_5p_20p": [
+      -6.25,
+      -10.51
+     ]
+    }
+   ],
+   "Bảo hiểm (nổi bật hôm nay)": [
+    {
+     "ma": "BVH",
+     "gt_khop_ty": 115.1,
+     "pb": 2.08,
+     "pe": 16.1,
+     "nn_rong_ty": 38.72,
+     "diem_dong_gop": -0.2,
+     "dong": 70.7,
+     "pct": -1.81,
+     "kl_x_tb20": 1.6,
+     "pct_5p_20p_60p": [
+      -6.97,
+      0.28,
+      23.82
+     ],
+     "duong_ma": "MA10=74.53(-5.14%) MA20=73.53(-3.85%) MA50=69.0(+2.46%) MA200=69.65(+1.51%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 3,
+     "day_20_60_250p": [
+      "68.0·19/10·+3.97%",
+      "55.2·23/07·+28.08%",
+      "46.215·20/10/25·+52.98%"
+     ],
+     "dinh_60_250p": [
+      "79.0·07/10·-10.51%",
+      "88.5·02/04·-20.11%"
+     ],
+     "vung_dang_test": "70.4–72.5 ★★★★★ (6 lần chạm, MA200, đáy cũ, đỉnh cũ, cách -1.05%)",
+     "ho_tro": [
+      "68.0–70.0 ★★★★★ (6 lần chạm, MA200, MA50, chân nến tăng mạnh, vùng khối lượng lớn, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +2.46%)",
+      "66.0–67.3 ★★★★★ (5 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách +6.08%)"
+     ],
+     "khang_cu": [
+      "78.0–79.0 ★★★★ (4 lần chạm, đỉnh 20 phiên, đỉnh cũ, cách -9.94%)",
+      "87.4–88.5 ★★★ (2 lần chạm, đỉnh cũ, cách -19.61%)"
+     ],
+     "rs_5p_20p": [
+      -5.16,
+      6.38
+     ]
+    }
+   ],
+   "Y tế (nổi bật hôm nay)": [
+    {
+     "ma": "DCL",
+     "gt_khop_ty": 37.6,
+     "pb": 2.43,
+     "pe": 139.6,
+     "nn_rong_ty": 0.0,
+     "diem_dong_gop": 0.03,
+     "dong": 52.0,
+     "pct": 4.0,
+     "kl_x_tb20": 0.57,
+     "pct_5p_20p_60p": [
+      9.47,
+      20.09,
+      36.48
+     ],
+     "duong_ma": "MA10=48.26(+7.75%) MA20=47.01(+10.61%) MA50=42.24(+23.11%) MA200=44.2(+17.65%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 0,
+     "day_20_60_250p": [
+      "43.0·23/09·+20.93%",
+      "36.3·14/09·+43.25%",
+      "26.0·21/10/25·+100.0%"
+     ],
+     "dinh_60_250p": [
+      "53.0·19/10·-1.89%",
+      "62.8·02/04·-17.2%"
+     ],
+     "ho_tro": [
+      "50.9–51.3 ★★★ (3 lần chạm, đáy cũ, cách +1.76%)",
+      "44.8–45.5 ★★★★★ (4 lần chạm, MA200, đáy cũ, đỉnh cũ, cách +15.17%)"
+     ],
+     "khang_cu": [
+      "53.0 ★ (1 lần chạm, đỉnh 20 phiên, cách -1.89%)",
+      "54.6–55.1 ★★ (3 lần chạm, đáy cũ, đỉnh cũ, cách -5.2%)"
+     ],
+     "rs_5p_20p": [
+      11.28,
+      26.19
+     ]
+    }
+   ],
+   "Ngân hàng (nổi bật hôm nay)": [
+    {
+     "ma": "NVB",
+     "gt_khop_ty": 28.7,
+     "nn_rong_ty": 1.49,
+     "dong": 13.3,
+     "pct": -3.62,
+     "kl_x_tb20": 1.01,
+     "pct_5p_20p_60p": [
+      -19.39,
+      0.0,
+      14.66
+     ],
+     "duong_ma": "MA10=15.24(-12.73%) MA20=14.7(-9.52%) MA50=12.95(+2.7%) MA200=12.28(+8.31%)",
+     "doc_ma20_ma50": "lên/lên",
+     "phien_duoi_ma10": 5,
+     "day_20_60_250p": [
+      "13.0·19/10·+2.31%",
+      "10.1·28/07·+31.68%",
+      "10.1·28/07·+31.68%"
+     ],
+     "dinh_60_250p": [
+      "17.9·06/10·-25.7%",
+      "17.9·06/10·-25.7%"
+     ],
+     "vung_dang_test": "13.3–13.6 ★★★★★ (13 lần chạm, chân nến tăng mạnh, đáy cũ, cách -1.12%)",
+     "ho_tro": [
+      "12.9–13.2 ★★★★ (5 lần chạm, MA50, đáy 20 phiên, đáy cũ, đỉnh cũ, cách +1.92%)",
+      "12.4–12.7 ★★★★★ (7 lần chạm, MA200, đáy cũ, đỉnh cũ, cách +5.98%)"
+     ],
+     "khang_cu": [
+      "13.9–14.3 ★★★★★ (7 lần chạm, vùng khối lượng lớn, đáy cũ, đỉnh cũ, cách -5.67%)",
+      "14.4–14.8 ★★★★★ (6 lần chạm, chân nến tăng mạnh, vùng khối lượng lớn, đỉnh cũ, cách -8.9%)"
+     ],
+     "rs_5p_20p": [
+      -17.58,
+      6.1
+     ]
+    }
+   ]
+  }
+ },
+ "nhat_ky": [
+  "đủ dữ liệu lúc 15:20",
+  "HT1: dựng lại kho — kho trống/ngắn",
+  "VVS: dựng lại kho — kho trống/ngắn",
+  "VPI: dựng lại kho — kho thiếu phiên (cuối 2026-10-13)",
+  "BVH: dựng lại kho — kho thiếu phiên (cuối 2026-10-15)",
+  "NVB: dựng lại kho — kho thiếu phiên (cuối 2026-10-14)",
+  "VJC: dựng lại kho — kho trống/ngắn",
+  "KSB: dựng lại kho — kho trống/ngắn"
+ ],
+ "so_du_bao": {
+  "vua_cham_hom_nay": [
+   {
+    "id": "131a1ca5bd",
+    "ngay_ghi": "2026-10-12",
+    "ban": "cach_2_buoc",
+    "doi_tuong": "HPG",
+    "loai": "giu",
+    "moc": 20.1,
+    "han_phien": 5,
+    "loai_moc": "CAN",
+    "noi_dung": "HPG sẽ duy trì trên mốc hỗ trợ 20,1 và hướng lên kiểm định kháng cự 21,5.",
+    "trang_thai": "dong",
+    "phien_da_qua": 5,
+    "ngay_cham_cuoi": "2026-10-19",
+    "ket_qua": "ĐÚNG",
+    "ngay_dong": "2026-10-19",
+    "gia_luc_dong": 20.55
+   },
+   {
+    "id": "1b5996bfff",
+    "ngay_ghi": "2026-10-14",
+    "ban": "cach_1_luot",
+    "doi_tuong": "VNINDEX",
+    "loai": "giu",
+    "moc": 1687.0,
+    "han_phien": 3,
+    "loai_moc": "CAN",
+    "noi_dung": "VN-Index sẽ duy trì được trên vùng hỗ trợ 1.687 điểm trong 3 phiên tới để hình thành vùng đáy ngắn hạn.",
+    "trang_thai": "dong",
+    "phien_da_qua": 3,
+    "ngay_cham_cuoi": "2026-10-19",
+    "ket_qua": "ĐÚNG",
+    "ngay_dong": "2026-10-19",
+    "gia_luc_dong": 1689.84
+   },
+   {
+    "id": "5d1126c379",
+    "ngay_ghi": "2026-10-14",
+    "ban": "cach_1_luot",
+    "doi_tuong": "HPG",
+    "loai": "giu",
+    "moc": 20.37,
+    "han_phien": 3,
+    "loai_moc": "CAN",
+    "noi_dung": "HPG sẽ giữ vững trên đường MA10 quanh 20,37 và tiến lên kiểm tra cản MA50.",
+    "trang_thai": "dong",
+    "phien_da_qua": 3,
+    "ngay_cham_cuoi": "2026-10-19",
+    "ket_qua": "ĐÚNG",
+    "ngay_dong": "2026-10-19",
+    "gia_luc_dong": 20.55
+   },
+   {
+    "id": "08c4485573",
+    "ngay_ghi": "2026-10-15",
+    "ban": "cach_1_luot",
+    "doi_tuong": "SSI",
+    "loai": "vuot",
+    "moc": 19.65,
+    "han_phien": 3,
+    "loai_moc": "QS",
+    "noi_dung": "SSI sẽ hướng lên kiểm định và vượt mốc cản 19,65 trong 3 phiên tới.",
+    "trang_thai": "dong",
+    "phien_da_qua": 2,
+    "ngay_cham_cuoi": "2026-10-19",
+    "ket_qua": "ĐÚNG",
+    "ngay_dong": "2026-10-19",
+    "gia_luc_dong": 19.8
+   }
+  ],
+  "dang_mo": [
+   {
+    "id": "bd5593615c",
+    "ngay_ghi": "2026-10-13",
+    "ban": "cach_2_buoc",
+    "doi_tuong": "TCB",
+    "loai": "giu",
+    "moc": 32.55,
+    "han_phien": 5,
+    "loai_moc": "QS",
+    "noi_dung": "TCB sẽ duy trì vận động trên đường MA20 quanh 32,55 để dẫn dắt nhóm ngân hàng tư nhân.",
+    "trang_thai": "mo",
+    "phien_da_qua": 4,
+    "ngay_cham_cuoi": "2026-10-19"
+   },
+   {
+    "id": "98567c2098",
+    "ngay_ghi": "2026-10-13",
+    "ban": "cach_1_luot",
+    "doi_tuong": "TCB",
+    "loai": "giu",
+    "moc": 31.6,
+    "han_phien": 5,
+    "loai_moc": "CAN",
+    "noi_dung": "TCB sẽ giữ vững mốc hỗ trợ 31,6 và duy trì cấu trúc tích lũy trên MA20.",
+    "trang_thai": "mo",
+    "phien_da_qua": 4,
+    "ngay_cham_cuoi": "2026-10-19"
+   },
+   {
+    "id": "0d8486ef4d",
+    "ngay_ghi": "2026-10-14",
+    "ban": "cach_1_luot",
+    "doi_tuong": "NKG",
+    "loai": "giu",
+    "moc": 10.0,
+    "han_phien": 5,
+    "loai_moc": "QS",
+    "noi_dung": "NKG sẽ duy trì giá đóng cửa trên mốc 10,0 sau phiên bùng nổ trần.",
+    "trang_thai": "mo",
+    "phien_da_qua": 3,
+    "ngay_cham_cuoi": "2026-10-19"
+   },
+   {
+    "id": "534d402821",
+    "ngay_ghi": "2026-10-15",
+    "ban": "cach_1_luot",
+    "doi_tuong": "VNINDEX",
+    "loai": "giu",
+    "moc": 1687.14,
+    "han_phien": 3,
+    "loai_moc": "CAN",
+    "noi_dung": "VN-Index sẽ giữ vững biên dưới vùng hỗ trợ 1.687 điểm trong 3 phiên tới.",
+    "trang_thai": "mo",
+    "phien_da_qua": 2,
+    "ngay_cham_cuoi": "2026-10-19"
+   },
+   {
+    "id": "9c7ac815e2",
+    "ngay_ghi": "2026-10-15",
+    "ban": "cach_1_luot",
+    "doi_tuong": "MBB",
+    "loai": "giu",
+    "moc": 19.6,
+    "han_phien": 5,
+    "loai_moc": "CAN",
+    "noi_dung": "MBB sẽ duy trì giá đóng cửa trên mốc hỗ trợ 19,6 để giữ nhịp tăng ngắn hạn.",
+    "trang_thai": "mo",
+    "phien_da_qua": 2,
+    "ngay_cham_cuoi": "2026-10-19"
+   },
+   {
+    "id": "200de205fd",
+    "ngay_ghi": "2026-10-16",
+    "ban": "cach_1_luot",
+    "doi_tuong": "VNINDEX",
+    "loai": "giu",
+    "moc": 1687.14,
+    "han_phien": 3,
+    "loai_moc": "CAN",
+    "noi_dung": "VN-Index sẽ tiếp tục duy trì đóng cửa trên mốc hỗ trợ 1.687,14 điểm trong 3 phiên tới.",
+    "trang_thai": "mo",
+    "phien_da_qua": 1,
+    "ngay_cham_cuoi": "2026-10-19"
+   },
+   {
+    "id": "6032001c55",
+    "ngay_ghi": "2026-10-16",
+    "ban": "cach_1_luot",
+    "doi_tuong": "CTG",
+    "loai": "giu",
+    "moc": 29.7,
+    "han_phien": 5,
+    "loai_moc": "CAN",
+    "noi_dung": "CTG sẽ duy trì trên vùng hỗ trợ 29,7 để hướng lên thử thách cản 31,7.",
+    "trang_thai": "mo",
+    "phien_da_qua": 1,
+    "ngay_cham_cuoi": "2026-10-19"
+   },
+   {
+    "id": "a4834e59dd",
+    "ngay_ghi": "2026-10-16",
+    "ban": "cach_1_luot",
+    "doi_tuong": "GMD",
+    "loai": "giu",
+    "moc": 52.14,
+    "han_phien": 5,
+    "loai_moc": "CAN",
+    "noi_dung": "GMD sẽ giữ vững trên vùng đệm 52,14 để kiểm định đỉnh cũ 56,0.",
+    "trang_thai": "mo",
+    "phien_da_qua": 1,
+    "ngay_cham_cuoi": "2026-10-19"
+   }
+  ],
+  "tich_luy": {
+   "so_dong_da_cham": 9,
+   "dung": 6,
+   "ty_le_dung_pct": null,
+   "ghi_chu": "chỉ hiện tỷ lệ khi đã chấm từ 10 dòng trở lên"
+  }
+ },
+ "ban": [
+  {
+   "cach": "cach_1_luot",
+   "loi": [],
+   "phan_tich": {
+    "signature": {
+     "index_noi_gi": "Chỉ số giảm 16,07 điểm lùi sát về vùng đáy cũ, nhưng phần lớn đà giảm tập trung ở nhóm vốn hóa lớn họ Vin.",
+     "co_phieu_noi_gi": "Cổ phiếu bên trong diễn biến phân hóa tích cực với 153 mã tăng so với 131 mã giảm, nhóm chứng khoán, đầu tư công và xuất khẩu bật tăng tốt.",
+     "dong_tien_noi_gi": "Thanh khoản khớp lệnh đạt hơn 11.300 tỷ, dưới trung bình 20 phiên, cho thấy lực bán không lan rộng mà dòng tiền chọn lọc thu hẹp."
+    },
+    "doi_chieu_du_bao": [
+     {
+      "id": "131a1ca5bd",
+      "noi_dung": "HPG sẽ duy trì trên mốc hỗ trợ 20,1 và hướng lên kiểm định kháng cự 21,5.",
+      "ket_qua": "ĐÚNG",
+      "nhan_xet": "HPG đóng cửa tại 20,55, giữ vững trên mốc 20,1 sau đủ 5 phiên thử thách."
+     },
+     {
+      "id": "1b5996bfff",
+      "noi_dung": "VN-Index sẽ duy trì được trên vùng hỗ trợ 1.687 điểm trong 3 phiên tới để hình thành vùng đáy ngắn hạn.",
+      "ket_qua": "ĐÚNG",
+      "nhan_xet": "Chỉ số nhúng thấp nhất 1.682,54 nhưng rút chân đóng cửa tại 1.689,84, bảo toàn thành công mốc 1.687."
+     },
+     {
+      "id": "5d1126c379",
+      "noi_dung": "HPG sẽ giữ vững trên đường MA10 quanh 20,37 và tiến lên kiểm tra cản MA50.",
+      "ket_qua": "ĐÚNG",
+      "nhan_xet": "HPG chốt phiên ở 20,55, nằm trên MA10 tại 20,52."
+     },
+     {
+      "id": "08c4485573",
+      "noi_dung": "SSI sẽ hướng lên kiểm định và vượt mốc cản 19,65 trong 3 phiên tới.",
+      "ket_qua": "ĐÚNG",
+      "nhan_xet": "SSI tăng 1,8% lên đóng cửa tại 19,8, bứt phá qua vùng cản 19,65."
+     }
+    ],
+    "the_gioi": [
+     {
+      "bien": "DXY",
+      "muc": "101,99 điểm lúc 15h11 (sáng 7h là 101,85)",
+      "nguong": "Đỉnh 20 phiên tại 102,58",
+      "kenh_truyen_dan": "Tỷ giá và dòng vốn ngoại",
+      "he_qua_neu_vuot": "Nếu vượt 102,58 sẽ kích hoạt thêm áp lực rút vốn của khối ngoại trên thị trường mới nổi và cận biên.",
+      "nhan": "FACT"
+     },
+     {
+      "bien": "Lợi suất TPCP Mỹ 10 năm (US10Y)",
+      "muc": "5,098% ghi nhận rạng sáng 17/10",
+      "nguong": "Đỉnh 3 tháng tại 5,311%",
+      "kenh_truyen_dan": "Chi phí vốn và định giá tài sản tài chính",
+      "he_qua_neu_vuot": "Neo cao trên 5% kéo dài sẽ hạn chế không gian nới lỏng tiền tệ của các ngân hàng trung ương.",
+      "nhan": "FACT"
+     },
+     {
+      "bien": "Dầu Brent",
+      "muc": "107,01 USD/thùng lúc 15h10, giảm 2,59% trong phiên",
+      "nguong": "Đỉnh 3 tháng tại 109,86 USD/thùng",
+      "kenh_truyen_dan": "Lạm phát và chi phí vận tải, nguyên liệu đầu vào",
+      "he_qua_neu_vuot": "Nếu bứt phá qua 110 USD sẽ gây áp lực lớn lên giá xăng dầu nội địa và kỳ vọng lạm phát quý 4.",
+      "nhan": "FACT"
+     },
+     {
+      "bien": "Tỷ giá USD/VND",
+      "muc": "25.889 đồng lúc 9h20 sáng",
+      "nguong": "Đỉnh 20 phiên tại 26.020 đồng",
+      "kenh_truyen_dan": "Tâm lý thị trường và thanh khoản hệ thống ngân hàng",
+      "he_qua_neu_vuot": "Nếu tiệm cận 26.000 đồng sẽ buộc cơ quan điều hành phải can thiệp mạnh tay hơn trên thị trường mở.",
+      "nhan": "FACT"
+     }
+    ],
+    "suc_khoe_vn": "VN-Index giảm 16,07 điểm (-0,94%) xuống 1.689,84 điểm. Tuy nhiên, độ rộng sàn HOSE không đồng thuận với chỉ số khi có 153 mã tăng, 9 mã trần so với 131 mã giảm và 2 mã sàn. Thị trường không có hiện tượng bán tháo hoảng loạn trên diện rộng.",
+    "thanh_khoan": "Tổng giá trị giao dịch đạt 13.354,7 tỷ, trong đó thỏa thuận chiếm 2.031,6 tỷ (15,2%). Thanh khoản khớp lệnh thực tế đạt 11.323,2 tỷ, nhích nhẹ so với mức 9.918 tỷ phiên trước nhưng vẫn bằng 0,94 lần trung bình 20 phiên (12.085 tỷ). Thị trường ở trạng thái thiếu tiền nhẹ, tiền không lan tỏa mà phân hóa sâu.",
+    "dong_tien": "Khối ngoại bán ròng 799,5 tỷ đồng trên HOSE, tập trung xả mạnh VCB (-103,7 tỷ), VHM (-101,8 tỷ), ACB (-92,8 tỷ), VJC (-72,3 tỷ). Phía mua ròng có FRT (+151 tỷ), MBB (+55,2 tỷ), TCB (+26,4 tỷ), SSI (+24,8 tỷ). Tự doanh phiên hôm nay chưa có dữ liệu (phiên liền trước 16/10 mua ròng 538,4 tỷ). Khẩu vị chung là bán tập trung nhóm vốn hóa lớn nhưng phân hóa mua gom một số cổ phiếu riêng lẻ.",
+    "index_distortion": "Độ méo chỉ số cực lớn: riêng VIC giảm 3,72% đã lấy đi 12,84 điểm của VN-Index. Toàn bộ nhóm Vin làm mất 13,55 điểm (VIC -12,84, VHM -1,2, VRE +0,09, VPL +0,39). Nếu loại trừ nhóm Vin, phần còn lại của thị trường chỉ giảm 2,52 điểm, hoàn toàn khớp với độ rộng cân bằng 153 mã tăng trên 131 mã giảm.",
+    "ky_thuat_chi_so": {
+     "moc_chinh": "Vùng 1.682–1.687 điểm",
+     "loai_moc": "CAN",
+     "nguon_goc": "Đáy 20 phiên thiết lập trong ngày và vùng đáy cũ tích lũy tháng 10.",
+     "vi_sao_thi_truong_nhan_ra": "Đây là vùng đệm tâm lý và kỹ thuật quan trọng, nơi lực cầu bắt đáy từng xuất hiện chặn đà rơi 2 lần trước đó.",
+     "neu_giu": "Thị trường duy trì được thế giằng co tạo đáy cân bằng, dòng tiền tiếp tục xoay tua tìm kiếm cơ hội ở các nhóm ngành có kết quả kinh doanh quý 3 tốt.",
+     "neu_thung": "Áp lực kỹ thuật sẽ đẩy chỉ số lùi về vùng hỗ trợ mạnh hơn tại 1.650–1.665 điểm (vùng 4 sao), dẫn tới tình trạng bán lan sang các nhóm đang neo cao.",
+     "xac_nhan": "Chỉ số đóng cửa giữ vững trên 1.687 điểm đi kèm thanh khoản khớp lệnh cải thiện dần trở lại trên 12.000 tỷ.",
+     "vo_hieu": "Một phiên đóng cửa dưới 1.682 điểm với khối lượng bán tăng vọt.",
+     "ho_tro_ke_tiep": "Vùng 1.650,74–1.665,36 điểm (độ mạnh 4 sao, 4 lần chạm, chân nến tăng mạnh)."
+    },
+    "regime": {
+     "ten": "Rotation/Divergence",
+     "co_tien": "thiếu tiền",
+     "ung_ho": [
+      "Độ rộng thị trường nghiêng về số mã tăng (153 tăng vs 131 giảm) bất chấp chỉ số giảm mạnh.",
+      "Dòng tiền tập trung cục bộ vào nhóm chứng khoán, đầu tư công, vật liệu xây dựng và xuất khẩu.",
+      "Áp lực bán điểm số chỉ tập trung vào một vài cổ phiếu trụ như VIC, VCB, VHM."
+     ],
+     "phan_bac": [
+      "Khối ngoại vẫn duy trì đà bán ròng quy mô lớn gần 800 tỷ.",
+      "Thanh khoản khớp lệnh dưới trung bình 20 phiên cho thấy phe mua chưa sẵn sàng đẩy giá trên diện rộng."
+     ],
+     "so_voi_den_nsi": "Hệ thống NSI ghi nhận đèn 'không đọc được' do thiếu dữ liệu tự doanh trong phiên, nhưng bản chất vận động phân hóa mạnh phù hợp với trạng thái Phân hóa xoay dòng."
+    },
+    "nganh": [
+     {
+      "nhom": "Ngân hàng",
+      "nhan_dinh": "Phân hóa sâu sắc, nhóm quốc doanh và một số mã lớn chịu áp lực bán ròng từ ngoại đè chỉ số, trong khi các mã tư nhân khỏe vẫn giữ được sắc xanh hoặc nền giá.",
+      "ma": [
+       {
+        "ma": "VCB",
+        "cau_truc": "Nằm dưới tất cả các đường MA ngắn và trung hạn, MA20 và MA50 đều dốc xuống, cách đáy 60 phiên 6,84%.",
+        "moc_theo_doi": 55.53,
+        "sl": 52.6,
+        "muc_tieu": 57.22,
+        "thung_thi": "Nếu thủng 55,53 sẽ rơi về hỗ trợ đáy cũ quanh 52,6.",
+        "xac_nhan": "Vượt trở lại vùng 57,22 để lấy lại MA10 và MA20.",
+        "diem_dung_cach_pct": 6.4,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,94, P/E 11,4",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "TCB",
+        "cau_truc": "Khỏe nhất nhóm, giữ vững trên toàn bộ MA10, MA20, MA50, MA200, cả MA20 và MA50 cùng hướng lên.",
+        "moc_theo_doi": 32.86,
+        "sl": 31.6,
+        "muc_tieu": 34.08,
+        "thung_thi": "Thủng 31,6 cấu trúc tăng ngắn hạn bị bẻ gãy, lui về vùng 30,6.",
+        "xac_nhan": "Đóng nến dứt khoát trên 33,7 để tiến về đỉnh cũ.",
+        "diem_dung_cach_pct": 4.96,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,31, P/E 8,7",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "MBB",
+        "cau_truc": "Đang test vùng 19,6–20,18, nằm trên MA10 và MA20 nhưng dưới MA50 và MA200.",
+        "moc_theo_doi": 19.6,
+        "sl": 18.82,
+        "muc_tieu": 20.2,
+        "thung_thi": "Thủng 19,6 sẽ lùi về vùng đệm 18,82–19,38.",
+        "xac_nhan": "Vượt cản 20,2 để kiểm định lại MA200 quanh 20,55.",
+        "diem_dung_cach_pct": 4.47,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,27, P/E 6,6",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "CTG",
+        "cau_truc": "Nằm trên MA10 và MA20, thanh khoản tăng gấp 2,8 lần trung bình 20 phiên, tiệm cận cản MA50.",
+        "moc_theo_doi": 29.7,
+        "sl": 28.4,
+        "muc_tieu": 30.65,
+        "thung_thi": "Thủng 29,7 sẽ quay về đáy cũ 28,4.",
+        "xac_nhan": "Vượt dứt khoát 30,65 để mở rộng nhịp hồi.",
+        "diem_dung_cach_pct": 6.89,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,22, P/E 5,9",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "VPB",
+        "cau_truc": "Giảm 2,04% với thanh khoản gấp 1,59 lần trung bình, nhưng vẫn giữ được trên MA10 và MA20 dốc lên.",
+        "moc_theo_doi": 23.5,
+        "sl": 23.0,
+        "muc_tieu": 24.13,
+        "thung_thi": "Thủng 23,0 sẽ lấp gap tại vùng 20,4–20,5.",
+        "xac_nhan": "Vượt trở lại cản 24,13.",
+        "diem_dung_cach_pct": 4.17,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,37, P/E 8,2",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "STB",
+        "cau_truc": "Yếu nhất rổ ngân hàng, nằm dưới toàn bộ các đường MA, 15 phiên dưới MA10, giảm gần 20% trong 20 phiên.",
+        "moc_theo_doi": 60.8,
+        "sl": 59.0,
+        "muc_tieu": 63.5,
+        "thung_thi": "Thủng 60,8 sẽ tìm về vùng hỗ trợ 59,0.",
+        "xac_nhan": "Lấy lại vùng 63,5 để ngừng đà rơi.",
+        "diem_dung_cach_pct": 4.53,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,88, P/E 38,4",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Chứng khoán",
+      "nhan_dinh": "Nhóm dẫn dắt tâm lý hồi phục tích cực nhất, toàn bộ các mã chủ chốt đều tăng điểm kèm khối lượng gia tăng và lấy lại các đường MA ngắn hạn.",
+      "ma": [
+       {
+        "ma": "SSI",
+        "cau_truc": "Tăng 1,8% với khối lượng 1,33x TB20, lấy lại MA10 và MA20, đang kiểm định cản MA50.",
+        "moc_theo_doi": 19.65,
+        "sl": 19.2,
+        "muc_tieu": 20.38,
+        "thung_thi": "Thủng 19,2 sẽ quay lại test đáy cũ 18,65.",
+        "xac_nhan": "Vượt 20,38 để hướng tới vùng 20,78–21,38.",
+        "diem_dung_cach_pct": 3.03,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,53, P/E 12,2",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "HCM",
+        "cau_truc": "Nằm trên MA10, MA20 và MA200, tăng 1,89%, đang kiểm định vùng cản 24,1–24,75.",
+        "moc_theo_doi": 23.7,
+        "sl": 22.93,
+        "muc_tieu": 24.83,
+        "thung_thi": "Thủng 22,93 gãy MA200, xu hướng chuyển xấu.",
+        "xac_nhan": "Đóng cửa trên 24,83 để xác nhận xu hướng tăng mới.",
+        "diem_dung_cach_pct": 5.25,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,55, P/E 19,8",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "VND",
+        "cau_truc": "Tăng 1,89% với khối lượng 1,82x TB20, hồi phục từ đáy 20 phiên, đã lấy lại MA10.",
+        "moc_theo_doi": 13.28,
+        "sl": 12.6,
+        "muc_tieu": 13.9,
+        "thung_thi": "Thủng 12,6 sẽ tạo đáy mới trong năm.",
+        "xac_nhan": "Bứt phá qua cản 13,9.",
+        "diem_dung_cach_pct": 6.67,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 0,94, P/E 7,5",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "VIX",
+        "cau_truc": "Tăng 1,69%, thanh khoản 1,6x TB20, lấy lại MA10 và tiệm cận MA20 quanh 12,06.",
+        "moc_theo_doi": 11.89,
+        "sl": 11.0,
+        "muc_tieu": 12.29,
+        "thung_thi": "Thủng 11,0 gãy toàn bộ cấu trúc nền đáy.",
+        "xac_nhan": "Vượt cản 12,29 để tiến về vùng 12,68.",
+        "diem_dung_cach_pct": 8.71,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,93, P/E 7,7",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Bất động sản",
+      "nhan_dinh": "Chịu sức ép nặng nề từ các cổ phiếu họ Vin, nhưng các cổ phiếu dân cư tầm trung đã ngừng rơi và hồi phục nhẹ quanh nền đáy.",
+      "ma": [
+       {
+        "ma": "VIC",
+        "cau_truc": "Giảm 3,72% đóng tại đáy 20 phiên 207,0, nằm dưới MA10, MA20, MA50, là tác nhân chính ghì chỉ số.",
+        "moc_theo_doi": 204.0,
+        "sl": 194.6,
+        "muc_tieu": 211.5,
+        "thung_thi": "Thủng 204,0 sẽ lùi về hỗ trợ cứng MA200 quanh 194,6.",
+        "xac_nhan": "Hồi phục vượt lại mốc cản 211,5.",
+        "diem_dung_cach_pct": 5.99,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 9,69, P/E 77,8",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "VHM",
+        "cau_truc": "9 phiên dưới MA10, giảm 1,15%, khối ngoại bán ròng hơn 100 tỷ, đang test mốc 60,19.",
+        "moc_theo_doi": 58.8,
+        "sl": 54.65,
+        "muc_tieu": 61.39,
+        "thung_thi": "Thủng 58,8 sẽ rơi tự do về vùng 53,64–54,65.",
+        "xac_nhan": "Lấy lại mốc cản 61,39 để cân bằng.",
+        "diem_dung_cach_pct": 9.37,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,9, P/E 6,3",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "DXG",
+        "cau_truc": "Tăng 0,99% với khối lượng 1,77x TB20, lấy lại MA10 và MA20, đang test cản 10,15–10,3.",
+        "moc_theo_doi": 9.76,
+        "sl": 9.3,
+        "muc_tieu": 10.7,
+        "thung_thi": "Thủng 9,3 cấu trúc tạo đáy ngắn hạn thất bại.",
+        "xac_nhan": "Bứt phá qua vùng cản 10,7–10,8.",
+        "diem_dung_cach_pct": 9.27,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,9, P/E 67,0",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "KDH",
+        "cau_truc": "Đi ngang ở 14,15, nằm trên MA10 và MA20, đang test cản khối lượng 14,17.",
+        "moc_theo_doi": 13.59,
+        "sl": 13.0,
+        "muc_tieu": 14.64,
+        "thung_thi": "Thủng 13,0 sẽ phá vỡ nền đáy 60 phiên.",
+        "xac_nhan": "Vượt cản MA50 quanh 14,64.",
+        "diem_dung_cach_pct": 8.13,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,94, P/E 9,9",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Thép",
+      "nhan_dinh": "HPG chịu áp lực điều chỉnh nhẹ đè điểm, trong khi HSG và NKG duy trì đà hồi phục tích cực trên các đường MA ngắn hạn.",
+      "ma": [
+       {
+        "ma": "HPG",
+        "cau_truc": "Đóng cửa 20,55, giảm 1,67%, giữ được trên MA10 và MA20, thanh khoản thấp hơn trung bình.",
+        "moc_theo_doi": 20.1,
+        "sl": 19.6,
+        "muc_tieu": 20.75,
+        "thung_thi": "Thủng 19,6 sẽ phá vỡ kênh tích lũy trung hạn.",
+        "xac_nhan": "Đóng cửa vượt vùng 20,75–21,25 để lấy lại MA50.",
+        "diem_dung_cach_pct": 4.62,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,25, P/E 7,6",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "NKG",
+        "cau_truc": "Khỏe nhất dòng thép, tăng 1,92%, khối lượng 1,52x TB20, nằm trên MA10, MA20 và MA50.",
+        "moc_theo_doi": 10.45,
+        "sl": 10.0,
+        "muc_tieu": 10.67,
+        "thung_thi": "Thủng 10,0 sẽ đánh mất xu hướng phục hồi ngắn hạn.",
+        "xac_nhan": "Bứt phá qua 10,7 để tiến lên vùng 11,0.",
+        "diem_dung_cach_pct": 5.66,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 0,67, P/E 30,7",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "HSG",
+        "cau_truc": "Tăng nhẹ 0,48%, nằm trên MA10, MA20 và MA50, đang test cản 10,15–10,45.",
+        "moc_theo_doi": 10.0,
+        "sl": 9.7,
+        "muc_tieu": 10.5,
+        "thung_thi": "Thủng 9,7 sẽ quay lại vùng đáy cũ.",
+        "xac_nhan": "Vượt cản 10,5 hướng lên 10,9–11,2.",
+        "diem_dung_cach_pct": 7.18,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,71, P/E 12,8",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Khu công nghiệp",
+      "nhan_dinh": "Giữ nhịp tốt, VGC bứt phá vượt nền cao, các mã còn lại tích lũy chặt chẽ trên hỗ trợ.",
+      "ma": [
+       {
+        "ma": "VGC",
+        "cau_truc": "Tăng 2,08%, nằm trên toàn bộ MA10, MA20, MA50, MA200, thuộc nhóm cổ phiếu kênh trên khỏe nhất thị trường.",
+        "moc_theo_doi": 42.95,
+        "sl": 41.67,
+        "muc_tieu": 46.35,
+        "thung_thi": "Thủng 41,67 gãy MA50 và MA200, cấu trúc tăng bị đe dọa.",
+        "xac_nhan": "Vượt đỉnh cũ 46,35 để mở sóng mới.",
+        "diem_dung_cach_pct": 5.83,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 2,62, P/E 13,7",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "KBC",
+        "cau_truc": "Nằm trên MA10 và MA20, thanh khoản cạn kiệt, đang tích lũy dưới cản MA50.",
+        "moc_theo_doi": 25.65,
+        "sl": 24.15,
+        "muc_tieu": 26.1,
+        "thung_thi": "Thủng 24,15 cấu trúc đáy bị phá vỡ.",
+        "xac_nhan": "Vượt cản 26,1–26,85 để xác nhận thoát đáy.",
+        "diem_dung_cach_pct": 7.12,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,94, P/E 13,9",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Đầu tư công",
+      "nhan_dinh": "Tâm điểm bùng nổ của dòng tiền hôm nay với PLC tăng trần, HT1 tăng trần, dòng tiền lan tỏa mạnh mẽ sang các mã xây dựng hạ tầng.",
+      "ma": [
+       {
+        "ma": "PLC",
+        "cau_truc": "Tăng kịch trần 9,52%, thanh khoản bùng nổ gấp 7,25 lần trung bình, vượt MA10, MA20, MA50.",
+        "moc_theo_doi": 19.9,
+        "sl": 18.9,
+        "muc_tieu": 21.4,
+        "thung_thi": "Thủng 18,9 sẽ phủ nhận cây nến bùng nổ hôm nay.",
+        "xac_nhan": "Vượt cản 21,4 để mở rộng nhịp tăng hướng lên MA200.",
+        "diem_dung_cach_pct": 8.7,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,07, P/E 10,2",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "VCG",
+        "cau_truc": "Điều chỉnh nhẹ 0,66% sau nhịp tăng mạnh, vẫn giữ vững trên MA10, MA20 và MA50.",
+        "moc_theo_doi": 14.7,
+        "sl": 14.15,
+        "muc_tieu": 15.35,
+        "thung_thi": "Thủng 14,15 gãy nền tích lũy ngắn hạn.",
+        "xac_nhan": "Vượt đỉnh ngắn hạn 15,35–15,6.",
+        "diem_dung_cach_pct": 5.98,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 0,97, P/E 2,6",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Dầu khí",
+      "nhan_dinh": "Hồi phục giữ nhịp chỉ số trong phiên, hưởng lợi từ mặt bằng giá dầu thế giới neo cao dù đang có sự điều chỉnh ngắn hạn.",
+      "ma": [
+       {
+        "ma": "BSR",
+        "cau_truc": "Tăng 1,76%, đóng góp điểm dương lớn nhất cho chỉ số (+0,52 điểm), giữ vững MA50 và MA200.",
+        "moc_theo_doi": 28.1,
+        "sl": 27.14,
+        "muc_tieu": 29.32,
+        "thung_thi": "Thủng 27,14 sẽ mất xu hướng tăng trung hạn.",
+        "xac_nhan": "Vượt cản 29,32 để hướng lại vùng đỉnh 33,45.",
+        "diem_dung_cach_pct": 5.93,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,94, P/E 7,1",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "PVD",
+        "cau_truc": "Nằm dưới MA10 đến MA200, đang giằng co tại đáy cũ 17,65–17,7, thanh khoản thấp.",
+        "moc_theo_doi": 17.05,
+        "sl": 16.15,
+        "muc_tieu": 18.1,
+        "thung_thi": "Thủng 17,05 sẽ mở rộng nhịp giảm về 16,15.",
+        "xac_nhan": "Lấy lại cản MA50 quanh 18,1.",
+        "diem_dung_cach_pct": 8.76,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,95, P/E 14,7",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Bán lẻ",
+      "nhan_dinh": "FRT tiếp tục là điểm sáng thu hút dòng tiền ngoại mua ròng khủng, các mã bán lẻ tiêu dùng khác duy trì nền giá ổn định.",
+      "ma": [
+       {
+        "ma": "FRT",
+        "cau_truc": "Tăng mạnh 3,55%, khối ngoại mua ròng đột biến gần 151 tỷ, duy trì xu hướng tăng mạnh trên toàn bộ các đường MA.",
+        "moc_theo_doi": 140.6,
+        "sl": 136.4,
+        "muc_tieu": 147.53,
+        "thung_thi": "Thủng 136,4 gãy MA200, cấu trúc tăng bị phá vỡ.",
+        "xac_nhan": "Vượt vùng cản 147,53–151,5 để lập đỉnh mới.",
+        "diem_dung_cach_pct": 6.58,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 5,25, P/E 22,2",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "MWG",
+        "cau_truc": "Nằm trên MA20 và MA50, đang kiểm định cản khối lượng 74,43–75,89.",
+        "moc_theo_doi": 72.04,
+        "sl": 70.26,
+        "muc_tieu": 75.89,
+        "thung_thi": "Thủng 70,26 sẽ phá vỡ nền tích lũy 20 phiên.",
+        "xac_nhan": "Đóng cửa dứt khoát trên 75,89.",
+        "diem_dung_cach_pct": 5.31,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 3,19, P/E 11,1",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Vận tải - cảng",
+      "nhan_dinh": "Duy trì trạng thái tích lũy kênh trên, GMD và HAH đi ngang chặt chẽ chờ đợi dòng tiền mới.",
+      "ma": [
+       {
+        "ma": "GMD",
+        "cau_truc": "Đóng cửa 54,0, nằm trên toàn bộ MA10 đến MA200, MA20 và MA50 dốc lên mạnh mẽ.",
+        "moc_theo_doi": 52.14,
+        "sl": 50.6,
+        "muc_tieu": 56.0,
+        "thung_thi": "Thủng 52,14 sẽ lùi về hỗ trợ cứng 50,6.",
+        "xac_nhan": "Bứt phá qua đỉnh cũ 56,0.",
+        "diem_dung_cach_pct": 6.3,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 2,56, P/E 13,7",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Phân bón - hóa chất",
+      "nhan_dinh": "Phân hóa, CSV tăng mạnh theo câu chuyện riêng trong khi nhóm phân đạm DPM, DCM đi ngang tích lũy.",
+      "ma": [
+       {
+        "ma": "DCM",
+        "cau_truc": "Giữ vững trên MA50, đang test vùng cản 33,75–34,27, thanh khoản thấp.",
+        "moc_theo_doi": 32.6,
+        "sl": 31.6,
+        "muc_tieu": 34.84,
+        "thung_thi": "Thủng 31,6 sẽ kết thúc nhịp sóng hồi.",
+        "xac_nhan": "Vượt cản 34,84 để tiến lên 36,0.",
+        "diem_dung_cach_pct": 6.65,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,72, P/E 6,9",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Thủy sản - dệt may",
+      "nhan_dinh": "Dòng tiền đón đầu kết quả kinh doanh quý 3 và thông tin ký kết FTA với EFTA, ANV, IDI và TNG đồng loạt bứt phá mạnh.",
+      "ma": [
+       {
+        "ma": "ANV",
+        "cau_truc": "Tăng 3,29%, thanh khoản gấp đôi trung bình 20 phiên, nằm trên MA10, MA20 và MA50 dốc lên.",
+        "moc_theo_doi": 18.3,
+        "sl": 17.5,
+        "muc_tieu": 19.7,
+        "thung_thi": "Thủng 17,5 gãy MA50, nhịp tăng ngắn hạn bị bẻ gãy.",
+        "xac_nhan": "Vượt đỉnh cũ 19,7 để hướng lên cản 20,15.",
+        "diem_dung_cach_pct": 7.16,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,26, P/E 5,6",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "TNG",
+        "cau_truc": "Tăng 3,93%, thanh khoản gấp 2,19 lần trung bình, nằm trên MA10, MA20, MA50 và tiệm cận MA200 quanh 18,67.",
+        "moc_theo_doi": 17.63,
+        "sl": 17.1,
+        "muc_tieu": 18.89,
+        "thung_thi": "Thủng 17,1 gãy MA50.",
+        "xac_nhan": "Vượt dứt khoát MA200 quanh 18,89.",
+        "diem_dung_cach_pct": 7.57,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,22, P/E 5,2",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Điện - năng lượng",
+      "nhan_dinh": "Giao dịch trầm lắng mang tính phòng thủ, NT2 và REE duy trì trạng thái tích lũy đi ngang.",
+      "ma": [
+       {
+        "ma": "NT2",
+        "cau_truc": "Nằm trên MA10, MA20 và MA50, đang kiểm định lại cản MA200 quanh 23,74.",
+        "moc_theo_doi": 22.4,
+        "sl": 21.7,
+        "muc_tieu": 23.85,
+        "thung_thi": "Thủng 21,7 sẽ thoái lui về nền đáy cũ.",
+        "xac_nhan": "Đóng cửa trên MA200 quanh 23,85.",
+        "diem_dung_cach_pct": 7.07,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,34, P/E 5,3",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Cao su",
+      "nhan_dinh": "DRC bị bán mạnh giảm 5,47% với thanh khoản đột biến, trong khi DRI và PHR giữ được sắc xanh nhẹ.",
+      "ma": [
+       {
+        "ma": "PHR",
+        "cau_truc": "Tăng nhẹ 0,78%, đang test vùng MA50 và nền tích lũy 31,42–32,29.",
+        "moc_theo_doi": 31.42,
+        "sl": 30.39,
+        "muc_tieu": 32.56,
+        "thung_thi": "Thủng 30,39 sẽ rơi về đáy cũ 29,5.",
+        "xac_nhan": "Vượt cản MA200 quanh 33,57.",
+        "diem_dung_cach_pct": 5.77,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,67, P/E 8,3",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     },
+     {
+      "nhom": "Công nghệ",
+      "nhan_dinh": "Nhóm công nghệ tiếp tục chịu áp lực điều chỉnh kéo dài từ đợt bán ròng của khối ngoại, FPT lùi về gần hỗ trợ đáy cũ.",
+      "ma": [
+       {
+        "ma": "FPT",
+        "cau_truc": "19 phiên dưới MA10, giảm 1,89%, khối ngoại bán ròng hơn 42 tỷ, nằm dưới toàn bộ các đường MA ngắn và dài hạn.",
+        "moc_theo_doi": 55.8,
+        "sl": 53.0,
+        "muc_tieu": 58.82,
+        "thung_thi": "Thủng 55,8 sẽ dò đáy mới sâu hơn.",
+        "xac_nhan": "Vượt trở lại cản 58,82 để ngắt chuỗi rơi.",
+        "diem_dung_cach_pct": 7.18,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 2,75, P/E 11,0",
+        "nhan": "OBSERVATION"
+       }
+      ]
+     }
+    ],
+    "xoay_vong": "Dòng tiền không rút khỏi thị trường mà đang rút khỏi nhóm trụ bị ghì điểm (họ Vin, VCB) và nhóm công nghệ để xoay tua rõ nét sang các nhóm có câu chuyện riêng như đầu tư công, vật liệu xây dựng, chứng khoán và nhóm xuất khẩu (thủy sản, dệt may). Nhóm tài chính phân hóa nhưng chứng khoán không xác nhận đà giảm của chỉ số.",
+    "luan_diem_chinh": [
+     "VN-Index giảm 16,07 điểm nhưng riêng nhóm Vin đã lấy đi 13,55 điểm, phần còn lại của thị trường chỉ giảm 2,52 điểm.",
+     "Độ rộng HOSE nghiêng về bên mua với 153 mã tăng và 9 mã trần so với 131 mã giảm, cho thấy không có hiện tượng bán tháo diện rộng.",
+     "Thanh khoản khớp lệnh đạt 11.323 tỷ đồng, thấp hơn mức trung bình 20 phiên (12.085 tỷ), phản ánh thị trường đang ở trạng thái thiếu tiền và phân hóa.",
+     "Vùng 1.682–1.687 điểm đóng vai trò là mốc hỗ trợ điều kiện cần để thị trường duy trì cấu trúc tạo đáy ngắn hạn."
+    ],
+    "phien_toi": {
+     "cung_co": [
+      "Nhóm chứng khoán tiếp tục bứt phá và giữ vững trên các đường MA ngắn hạn.",
+      "Độ rộng thị trường duy trì áp đảo ở số mã tăng giá.",
+      "Lực bán ở nhóm Vin và các cổ phiếu trụ ngân hàng suy giảm."
+     ],
+     "lam_yeu": [
+      "Khối ngoại tiếp tục gia tăng cường độ bán ròng vượt mốc 1.000 tỷ.",
+      "Áp lực bán lan từ nhóm trụ sang nhóm chứng khoán và đầu tư công."
+     ],
+     "xac_nhan": [
+      "VN-Index đóng cửa trên mốc 1.701 điểm với thanh khoản khớp lệnh vượt 12.000 tỷ."
+     ],
+     "vo_hieu": [
+      "VN-Index đóng cửa thủng vùng 1.682 điểm đi kèm khối lượng bán đột biến."
+     ]
+    },
+    "du_bao_moi": [
+     {
+      "doi_tuong": "VNINDEX",
+      "loai": "giu",
+      "moc": 1682.54,
+      "han_phien": 3,
+      "loai_moc": "CAN",
+      "noi_dung": "VN-Index sẽ giữ vững trên mốc đáy 1.682,54 điểm trong 3 phiên tới để xác nhận đáy ngắn hạn."
+     },
+     {
+      "doi_tuong": "SSI",
+      "loai": "giu",
+      "moc": 19.28,
+      "han_phien": 5,
+      "loai_moc": "CAN",
+      "noi_dung": "SSI sẽ duy trì giá đóng cửa trên đường MA10 quanh 19,28 để củng cố nhịp hồi phục."
+     },
+     {
+      "doi_tuong": "FRT",
+      "loai": "vuot",
+      "moc": 147.53,
+      "han_phien": 5,
+      "loai_moc": "QS",
+      "noi_dung": "FRT sẽ hướng lên thử thách và vượt cản 147,53 trong 5 phiên tới."
+     }
+    ]
+   },
+   "script": {
+    "tieu_de_youtube": "VN-Index giảm 16 điểm: Cổ phiếu trụ ép chỉ số hay thị trường đang phân hóa ngầm?",
+    "thoi_luong_phut": 20,
+    "phan": [
+     {
+      "ten": "Hook",
+      "phut": 1.0,
+      "loi_thoai": "Chào anh chị. Phiên hôm nay VN-Index giảm hơn 16 điểm, nhìn bảng điện chỉ số thì thấy đỏ quạch và rơi khá rát về sát vùng 1.689. Nhưng nếu anh chị nhìn sâu vào bên trong, số mã tăng hôm nay lại áp đảo với 153 mã xanh, 9 mã trần, trong khi chỉ có 131 mã giảm. Vậy câu hỏi lớn nhất phiên đầu tuần là: Thị trường thực sự đang bị bán tháo, hay chúng ta đang chứng kiến một phiên ép trụ rất mạnh, còn cổ phiếu bên trong lại đang âm thầm tạo đáy và phân hóa đi lên? Mốc em theo dõi cho chỉ số là vùng 1.682–1.687 điểm, hôm nay nhúng về đúng 1.682 rồi rút chân. Giữ được vùng này thì cơ hội phân hóa còn nguyên, nhưng nếu thủng thì câu chuyện sẽ rẽ sang hướng khác. Chúng ta sẽ cùng rà soát chi tiết ngay sau đây.",
+      "chen_hinh": "Bảng điện tổng kết HOSE, biểu đồ nhiệt ngành và chỉ số VN-Index"
+     },
+     {
+      "ten": "Đối chiếu dự báo",
+      "phut": 1.5,
+      "loi_thoai": "Trước khi vào chi tiết phiên hôm nay, em xin phép nhìn lại sổ theo dõi các mốc em đã nói ở các video trước. Hôm nay chúng ta có 4 mốc vừa chạm hạn. Thứ nhất là HPG, mốc 20,1 đưa ra cách đây 5 phiên với yêu cầu giữ mốc để duy trì cấu trúc, hôm nay HPG đóng 20,55, nhận định đúng. Thứ hai là VN-Index với mốc hỗ trợ 1.687 điểm đưa ra 3 phiên trước, hôm nay chỉ số chạm thấp nhất 1.682 nhưng đóng cửa vẫn giữ được 1.689, nhận định đúng. Thứ ba là HPG mốc MA10 quanh 20,37 cũng đã giữ thành công. Và thứ tư là SSI, mốc quan sát vượt cản 19,65 trong 3 phiên, hôm nay SSI bứt phá lên 19,8 với thanh khoản tốt, nhận định hoàn toàn chính xác. Mọi mốc em đưa ra đều đo lường bằng giá đóng cửa thực tế, đúng nhận sai nhận, không dời cột gôn nhé anh chị.",
+      "chen_hinh": "Bảng đối chiếu sổ dự báo của NSI, biểu đồ HPG, VN-Index và SSI"
+     },
+     {
+      "ten": "Thế giới",
+      "phut": 2.5,
+      "loi_thoai": "Bây giờ nhìn ra bức tranh liên thị trường để xem các kênh truyền dẫn tác động thế nào tới thị trường Việt Nam. Đầu tiên là chỉ số đồng USD, DXY lúc chiều nay đang giao dịch quanh 101,99 điểm, tăng nhẹ 0,15% so với phiên trước, còn số ghi nhận lúc 7h sáng trên bản tin là 101,85. Ngưỡng đáng chú ý nhất của DXY là đỉnh 20 phiên tại 102,58. Kênh truyền dẫn trực tiếp của DXY là tỷ giá và dòng vốn ngoại. Nếu DXY bứt lên trên 102,58, áp lực rút vốn của khối ngoại sẽ còn tiếp diễn. Hôm nay tỷ giá USD/VND ghi nhận lúc 9h20 sáng ở mức 25.889 đồng, vẫn nằm dưới đỉnh 20 phiên là 26.020 đồng, nhưng đây là biến số chúng ta phải theo dõi sát, vì nếu tiệm cận 26.000 đồng thì áp lực thanh khoản hệ thống sẽ tăng lên. Tiếp theo là lợi suất trái phiếu chính phủ Mỹ 10 năm, phiên đêm 17/10 đóng cửa ở 5,098%, cách đỉnh 3 tháng là 5,311%. Lợi suất neo trên 5% là một áp lực chi phí vốn toàn cầu. Về hàng hóa, giá dầu Brent chiều nay lùi về 107,01 USD/thùng, giảm hơn 2,5%, nhưng tính trong 20 phiên vẫn tăng 6,65% và đang áp sát vùng đỉnh 3 tháng quanh 110 USD. Kênh truyền dẫn của giá dầu là chi phí đầu vào và kỳ vọng lạm phát quý 4. Đêm qua chứng khoán Mỹ ghi nhận Dow Jones giảm 0,34%, S&P 500 giảm 1,09% và Nasdaq giảm 2,15%. Hợp đồng tương lai S&P 500 chiều nay đang hồi nhẹ 0,55% lên 7.747 điểm. Bức tranh liên thị trường lúc này cho thấy sức ép từ tỷ giá và lợi suất vẫn là yếu tố kìm hãm dòng vốn ngoại, nhưng chưa có cú sốc vĩ mô đột ngột nào mới.",
+      "chen_hinh": "Biểu đồ DXY, US10Y, Dầu Brent và Hợp đồng tương lai S&P 500"
+     },
+     {
+      "ten": "Thị trường Việt Nam",
+      "phut": 3.0,
+      "loi_thoai": "Quay trở lại thị trường trong nước hôm nay. VN-Index đóng cửa tại 1.689 điểm, giảm 16,07 điểm, tương ứng mức giảm 0,94%. Mở cửa chỉ số nhảy gap lên 1.721 điểm, sau đó bị bán dồn dập trong phiên chiều, có lúc nhúng sâu nhất xuống 1.682 điểm trước khi rút chân nhẹ cuối phiên. Về độ rộng thị trường trên sàn HOSE, anh chị thấy một sự lệch pha rất thú vị: có 153 mã tăng, 9 mã trần, 75 mã đứng giá, trong khi chỉ có 131 mã giảm và 2 mã sàn. Rõ ràng độ rộng không hề đồng thuận với số điểm giảm của chỉ số. Về thanh khoản, tổng giá trị giao dịch đạt 13.354 tỷ, nhưng trong đó giao dịch thỏa thuận chiếm tới 2.031 tỷ, tương đương hơn 15%. Như vậy giá trị khớp lệnh thực tế trên sàn chỉ đạt 11.323 tỷ. Con số này có nhích lên so với mức 9.918 tỷ của phiên trước, nhưng nếu so với trung bình 20 phiên là 12.085 tỷ thì chỉ đạt 0,94 lần. Tức là thị trường hôm nay ở trạng thái thiếu tiền nhẹ. Thiếu tiền nghĩa là dòng tiền không đủ lực để kéo toàn bộ các nhóm ngành, mà buộc phải co cụm và chọn lọc. Về khối ngoại, hôm nay họ tiếp tục bán ròng 799,5 tỷ trên HOSE, bán ra hơn 2.203 tỷ và mua vào 1.404 tỷ. Danh sách bán ròng tập trung nhiều vào VCB âm gần 104 tỷ, VHM âm gần 102 tỷ, ACB âm gần 93 tỷ, VJC âm hơn 72 tỷ và FPT âm hơn 42 tỷ. Ở chiều ngược lại, họ mua ròng rất tập trung vào FRT với gần 151 tỷ, MBB hơn 55 tỷ, BVH gần 39 tỷ, TCB hơn 26 tỷ và SSI gần 25 tỷ. Về tự doanh, phiên hôm nay sàn chưa có dữ liệu, nhưng phiên liền trước 16/10 họ mua ròng 538,4 tỷ, tập trung vào VPB, FRT và HPG. Như vậy khối ngoại vẫn đang duy trì áp lực rút ròng ở các trụ lớn, nhưng dòng tiền nội và một phần vốn ngoại chọn lọc đang nâng đỡ ở các nhóm ngành cụ thể.",
+      "chen_hinh": "Biểu đồ thanh khoản khớp lệnh HOSE so với TB20, biểu đồ mua bán ròng khối ngoại"
+     },
+     {
+      "ten": "Index thật sự giảm/tăng bao nhiêu",
+      "phut": 1.5,
+      "loi_thoai": "Bây giờ chúng ta mổ xẻ phần méo mó chỉ số, đây là điểm mấu chốt để anh chị không bị điểm số làm hoang mang. Hôm nay VN-Index mất 16,07 điểm. Nhưng anh chị nhìn vào danh sách đóng góp điểm xem: riêng một mình cổ phiếu VIC giảm 3,72% đã lấy đi tới 12,84 điểm của chỉ số. Cả nhóm Vin hôm nay tác động âm 13,55 điểm, gồm VIC trừ 12,84 điểm, VHM trừ 1,2 điểm, trong khi VRE và VPL gỡ lại nhẹ chưa đầy nửa điểm. Bỏ riêng nhóm Vin ra, phần còn lại của toàn bộ thị trường hôm nay chỉ giảm có 2,52 điểm. Nếu tính thêm các trụ khác như VCB lấy đi 1,22 điểm, VPB lấy đi 1,04 điểm, HPG lấy đi 0,62 điểm thì toàn bộ đà giảm của thị trường hôm nay nằm trọn vẹn ở nhóm cổ phiếu vốn hóa lớn nhất. Đây chính là lý do vì sao chỉ số mất 16 điểm mà tài khoản nhiều anh chị cầm các mã chứng khoán, đầu tư công hay dệt may hôm nay lại xanh mướt. Khi chỉ số bị méo bởi trụ, nhìn điểm số để hành động là rất dễ sai lầm, chúng ta phải nhìn vào cấu trúc cổ phiếu bên trong.",
+      "chen_hinh": "Bảng top đóng góp điểm số tăng giảm VN-Index, biểu đồ tác động của VIC và VHM"
+     },
+     {
+      "ten": "Bản đồ kỹ thuật",
+      "phut": 2.0,
+      "loi_thoai": "Về mặt kỹ thuật, mốc chính em theo dõi cho VN-Index hôm nay chính là vùng 1.682–1.687 điểm. Đây là mốc điều kiện cần để thị trường giữ được cấu trúc cân bằng. Vùng này xuất phát từ đâu? Nó chính là đáy 20 phiên vừa thiết lập hôm nay quanh 1.682 và là vùng đáy cũ của đợt tích lũy tháng 10. Thị trường nhận ra vùng này vì đây là nơi lực cầu bắt đáy từng xuất hiện để chặn đà rơi 2 lần trước đó. Nếu chỉ số giữ được vùng 1.682–1.687 điểm, thị trường sẽ tiếp tục quá trình tạo đáy ngắn hạn, vận động cưa qua cưa lại tích lũy, tạo điều kiện cho các dòng cổ phiếu riêng lẻ tiếp tục phân hóa đi lên. Còn nếu kịch bản xấu xảy ra, chỉ số đóng nến thủng dứt khoát vùng 1.682 điểm, quán tính bán sẽ đẩy thị trường lùi về vùng hỗ trợ kế tiếp là 1.650–1.665 điểm, đây là vùng hỗ trợ mạnh mạnh với 4 lần chạm và có chân nến tăng mạnh. Khi đó, các nhóm cổ phiếu đang neo cao cũng sẽ chịu áp lực bị bán bù vì thiếu tiền nâng đỡ. Tín hiệu xác nhận cho kịch bản giữ đáy là chỉ số đóng cửa giữ trên 1.687 điểm và thanh khoản khớp lệnh tăng dần trở lại trên 12.000 tỷ. Tín hiệu vô hiệu là một phiên bán thủng 1.682 điểm với khối lượng lớn. Em nhắc lại, mốc quan trọng nhất cần theo dõi sát lúc này là vùng 1.682–1.687 điểm nhé anh chị.",
+      "chen_hinh": "Chart kỹ thuật VN-Index khung ngày, đánh dấu vùng hỗ trợ 1.682–1.687 và 1.650–1.665"
+     },
+     {
+      "ten": "Quét ngành",
+      "phut": 6.5,
+      "loi_thoai": "Index là vậy, nhưng cổ phiếu bên trong nói gì? Chúng ta cùng quét từng ngành để xem cung cầu thực tế.\n\nĐầu tiên là Ngân hàng. Nhóm này hôm nay phân hóa khá rõ. VCB giảm 1,2% về 56,2, nằm dưới các đường MA ngắn hạn, khối ngoại bán ròng gần 104 tỷ. Mốc em theo dõi là vùng 55,5–57,2; thủng vùng này thì hỗ trợ kế tiếp ở 52,6; cản trên quanh 57,2–58,9. BID giảm 0,9% về 33,65, đang test vùng đáy 33,0–33,9; thủng mốc này thì hỗ trợ kế tiếp là 32,15. CTG có thanh khoản lớn với 560 tỷ, gấp 2,8 lần trung bình 20 phiên, đóng 30,5, giữ được trên MA10 và MA20. Hỗ trợ của CTG là 29,7–30,0; cản gần nhất quanh 30,65–31,5. TCB đóng 33,25, nằm trên toàn bộ MA10, MA20, MA50 và MA200. Mã này đang test vùng 32,8–33,7; hỗ trợ bên dưới là 31,6–32,5; mục tiêu hướng lên vùng 34,1–35,0. MBB đóng 19,7, khối ngoại mua ròng hơn 55 tỷ, đang test vùng 19,6–20,2; hỗ trợ gần ở 18,8–19,4. VPB bị bán 2% về 24,0, thanh khoản gấp 1,6 lần trung bình. Mốc theo dõi của VPB là 23,5–23,7; nếu thủng mốc này thì vùng hỗ trợ kế tiếp quanh 23,0–23,1; cản tại 24,13.\n\nSang nhóm Chứng khoán, đây là nhóm nhạy với chỉ số. SSI tăng 1,8% lên 19,8, khối lượng gấp 1,3 lần trung bình, khối ngoại mua ròng gần 25 tỷ, lấy lại MA10. SSI đang test vùng 19,65–20,14; mốc theo dõi là 19,2; nếu giữ được thì mục tiêu kiểm định cản 20,38. HCM tăng 1,9% lên 24,2, nằm trên MA10, MA20 và MA200. HCM đang test vùng 24,1–24,75; hỗ trợ ở 23,7; cản kế tiếp là 24,8–25,5. VND tăng 1,9% lên 13,5, khối lượng gấp 1,8 lần trung bình, vượt trên MA10, cản gần nhất tại 13,9. VIX tăng 1,7% lên 12,05 với khối lượng gấp 1,6 lần trung bình, hỗ trợ là 11,9–12,0 và cản quanh 12,3–12,35.\n\nNhóm Bất động sản hôm nay chịu áp lực lớn từ trụ. VIC giảm 3,7% về 207,0, lấy đi hơn 12,8 điểm của chỉ số, về sát đáy cũ 204,0–207,0. Nếu thủng vùng 204,0 thì hỗ trợ kế tiếp ở 198,7–200,0; cản trên tại 211,5–215,2. VHM giảm 1,1% về 60,3, khối ngoại bán ròng gần 102 tỷ, mốc hỗ trợ cần giữ là 58,8; cản gần tại 61,4–62,1. Tuy vậy, một số mã tầm trung giữ nhịp ổn. DXG tăng 1% lên 10,25, khối lượng gấp 1,8 lần trung bình, lấy lại MA10 và MA20. DXG có hỗ trợ ở 9,76–9,82; cản phía trên là 10,7–10,8. KDH giữ tham chiếu 14,15, nằm trên MA10 và MA20, hỗ trợ là 13,6–13,8.\n\nNhóm Thép lấy HPG làm mốc neo. HPG đóng 20,55, giảm 1,7%, khối lượng chỉ bằng 0,75 lần trung bình, vẫn neo trên MA10 và MA20. Vùng hỗ trợ của HPG là 19,6–20,1; thủng 19,6 thì cấu trúc gãy; cản trên ở 20,75–21,25. NKG tăng 1,9% lên 10,6, khối lượng gấp 1,5 lần trung bình, nằm trên MA10, MA20 và MA50. Hỗ trợ của NKG quanh 10,45; cản gần tại 10,7. HSG đóng 10,45, giữ được MA50 quanh 10,4.\n\nNhóm Khu công nghiệp giao dịch phân hóa. VGC thuộc nhóm kênh trên, tăng 2,1% lên 44,25, nằm trên toàn bộ các đường MA. VGC đang test vùng 44,3–45,5; hỗ trợ ở 43,0–44,0; mục tiêu đỉnh cũ là 46,35. KBC tăng nhẹ lên 26,0, thanh khoản thấp bằng 0,6 lần trung bình, hỗ trợ ở 25,65 và cản tại 26,1–26,85. IDC giữ giá 33,9, đang test MA50 ở vùng 33,2–34,1; hỗ trợ bên dưới là 32,2–33,0.\n\nNhóm Đầu tư công và vật liệu có dòng tiền vào nổi bật. PLC tăng trần lên 20,7, thanh khoản gấp hơn 7,2 lần trung bình, vượt trên MA50. PLC đang test vùng 20,7–21,3; hỗ trợ quanh 19,9–20,4; cản kế tiếp là 21,4–21,8. HT1 tăng trần lên 13,2 với khối lượng gấp gần 5,3 lần trung bình, hỗ trợ ở 12,6–12,7; cản MA200 quanh 13,44–13,77. KSB tăng 3% lên 13,6, khối lượng gấp 4,6 lần trung bình, hỗ trợ ở 13,3–13,5; cản quanh 13,72. VCG giảm nhẹ về 15,05 nhưng vẫn giữ trên MA10, MA20 và MA50, hỗ trợ ở 14,7; cản tại 15,35–15,6.\n\nNhóm Dầu khí giữ sắc xanh nâng đỡ thị trường. BSR tăng 1,8% lên 28,85, đóng góp hơn nửa điểm cho chỉ số. Hỗ trợ của BSR là 28,1–28,25; cản tại 29,3–29,95. GAS tăng nhẹ lên 76,7, đang test vùng 75,9–77,65; hỗ trợ ở 73,7–75,5. PVS đóng 31,8, tăng 1,3%, test vùng 31,2–32,0; hỗ trợ là 30,0–30,8; cản tại 32,1–33,0. PVT tăng 1,9% lên 24,1, hỗ trợ quanh 23,7; cản gần ở 24,35.\n\nNhóm Bán lẻ có điểm nhấn ở FRT, tăng 3,5% lên 146,0, khối ngoại mua ròng gần 151 tỷ. FRT giữ trên toàn bộ các đường MA, hỗ trợ là 140,6–143,2; cản đỉnh cũ tại 147,5–151,5. MWG tăng nhẹ lên 74,2, test vùng 72,0–74,1; hỗ trợ ở 70,3–70,6. MSN tăng 1,4% lên 72,4, nằm trên MA20 và MA50, hỗ trợ ở 70,6–71,8; cản MA200 quanh 73,0–74,4.\n\nVận tải cảng biển duy trì nhịp đi ngang. GMD giữ tham chiếu 54,0, nằm trên toàn bộ MA10, MA20, MA50 và MA200. GMD đang test vùng 53,7–54,7; hỗ trợ là 52,1–53,45; cản đỉnh cũ ở 56,0. HAH đóng 49,1, test vùng 48,8–49,8; hỗ trợ ở 46,85–48,1; cản tại 50,4–51,9.\n\nPhân bón hóa chất thì chậm lại. DCM đóng 33,85, test vùng 33,75–34,27; hỗ trợ là 32,6–33,5; cản ở 34,8–35,4. DPM đóng 21,25, test vùng 20,8–21,4; hỗ trợ quanh 20,2–20,7; cản tại 21,4–22,0. Riêng CSV tăng 1,7% lên 23,4, khối lượng gấp 1,7 lần trung bình, giữ trên MA10, MA20 và MA50, hỗ trợ ở 22,8–23,1; cản đỉnh cũ quanh 24,3.\n\nCác nhóm ngóc ngách hôm nay có giao dịch đáng chú ý. Thủy sản có ANV tăng 3,3% lên 18,85, khối lượng gấp 2 lần trung bình, hỗ trợ ở 18,3; cản đỉnh cũ tại 19,7. VHC tăng 1,6% lên 51,4, test vùng 50,9–52,4; hỗ trợ ở 49,4–50,0. Dệt may có TNG tăng 3,9% lên 18,5, khối lượng gấp 2,2 lần trung bình, chạm MA200 ở vùng 18,2–18,7; hỗ trợ là 17,6–18,0; cản tại 18,9–19,25. Nhóm điện có NT2 đóng 23,35, test vùng 23,15–23,6 quanh MA200; hỗ trợ ở 22,4–23,0. REE đóng 45,05, test vùng 44,4–45,4; hỗ trợ là 42,5. Riêng cao su có DRC giảm 5,5% về 9,34 với khối lượng đột biến gấp 15 lần trung bình, về sát đáy 9,3; cản trên tại 9,65–9,86. PHR đóng 32,25, test vùng 31,4–32,3; hỗ trợ ở 30,4–31,0.\n\nSau cùng là nhóm Công nghệ, nhóm này tiếp tục xu hướng điều chỉnh. FPT giảm 1,9% về 57,1, đã 19 phiên nằm dưới MA10, khối ngoại bán ròng hơn 42 tỷ. Mốc em theo dõi là vùng đáy 20 phiên ở 55,8–55,9; thủng 55,8 thì cấu trúc tạo nền ngắn hạn bị gãy; cản gần tại 58,82. CMG giảm nhẹ về 19,7, hỗ trợ đáy cũ là 19,0; cản ở 22,2–22,5. CTR đóng 67,8, test vùng 67,7–68,3; hỗ trợ là 65,5–67,1; cản tại 70,0.",
+      "chen_hinh": "Lướt chart các mã: VCB, TCB, SSI, HCM, VIC, DXG, HPG, NKG, PLC, HT1, FRT, ANV, TNG, FPT"
+     },
+     {
+      "ten": "Mã đáng nói",
+      "phut": 2.5,
+      "loi_thoai": "Trong bức tranh phân hóa hôm nay, có 3 mã cổ phiếu làm rõ nét nhất câu chuyện của thị trường mà anh chị cần chú ý. Mã thứ nhất là SSI đại diện cho nhóm chứng khoán. SSI đóng cửa tại 19,8, tăng 1,8% với khối lượng khớp lệnh hơn 500 tỷ. Sau chuỗi phiên tích lũy tạo đáy, SSI đã vượt lên trên MA10 quanh 19,28 và MA20 quanh 19,8. Cấu trúc giá tạo đáy nâng dần. Mốc em theo dõi sát là vùng 19,65, nếu những phiên tới SSI duy trì đóng cửa trên 19,65 thì mục tiêu ngắn hạn sẽ hướng về vùng cản 20,4 đến 20,8. Điểm cắt lỗ nếu thị trường xấu đảo chiều là khi giá thủng 19,2, cách mức giá hiện tại khoảng 3%. Về định giá, SSI đang có P/B 1,53 và P/E 12,2, mức định giá hợp lý cho một chu kỳ mới. Mã thứ hai là PLC đại diện cho sóng đầu tư công hôm nay. PLC đóng trần 20,7, thanh khoản đột biến hơn 7 lần trung bình 20 phiên. Cổ phiếu bứt phá mạnh mẽ từ nền tích lũy đáy, vượt dứt khoát MA50. Mốc theo dõi của PLC hiện tại là vùng 19,9, nếu có nhịp retest giữ được trên 19,9 thì mục tiêu tiếp theo là vùng kháng cự 21,4 đến 22,0, điểm dừng lỗ khi thủng 18,9, tuy nhiên mốc này cách giá trần hôm nay khoảng 8,7%, tức là rộng hơn chuẩn 7% một chút, anh chị mua đuổi giá cao cần lưu ý điểm này. PLC có P/B 1,07 và P/E 10,2. Mã thứ ba là FRT ở nhóm bán lẻ, đóng cửa 146,0, tăng 3,55% và được khối ngoại gom ròng tới gần 151 tỷ. FRT thuộc nhóm cổ phiếu kênh trên hiếm hoi vẫn giữ xu hướng tăng trung hạn, nằm trên toàn bộ MA10, MA20, MA50 và MA200. Mốc theo dõi là vùng đệm 140,6, mục tiêu hướng tới đỉnh cũ 147,5 đến 151,5, thủng 136,4 thì gãy xu hướng. Định giá P/B của FRT là 5,25 và P/E 22,2, phản ánh kỳ vọng tăng trưởng rất cao của chuỗi nhà thuốc. Ba mã này cho thấy dòng tiền thông minh đang tìm đến cổ phiếu có câu chuyện phục hồi và tăng trưởng rõ ràng.",
+      "chen_hinh": "Chart chi tiết SSI, PLC và FRT kèm các đường MA và vùng hỗ trợ kháng cự"
+     },
+     {
+      "ten": "Regime và phiên tới",
+      "phut": 1.5,
+      "loi_thoai": "Tổng hợp lại, thị trường hiện tại đang vận động trong trạng thái Xoay tua phân hóa, tiếng Anh là Rotation/Divergence, trong bối cảnh thanh khoản thiếu tiền nhẹ. Bằng chứng ủng hộ là độ rộng thị trường vẫn giữ được 153 mã tăng bất chấp chỉ số giảm 16 điểm, tiền tập trung cục bộ vào chứng khoán, đầu tư công, xuất khẩu. Bằng chứng phản bác cần cẩn trọng là khối ngoại vẫn xả ròng gần 800 tỷ và thanh khoản khớp lệnh chưa vượt được trung bình 20 phiên. Khi thị trường thiếu tiền, chiến lược đúng đắn nhất là không mua đuổi ở các phiên hưng phấn, ưu tiên quản trị rủi ro và tập trung vào cấu trúc từng mã cổ phiếu cụ thể thay vì quá sợ hãi điểm số chỉ số chung. Mốc quan trọng nhất của VN-Index trong phiên tới vẫn là vùng 1.682–1.687 điểm. Điều củng cố cho thị trường là nhóm chứng khoán tiếp tục giữ nhịp và độ rộng duy trì sắc xanh. Điều làm yếu thị trường là nếu khối ngoại tiếp tục bán ròng quy mô lớn hơn và áp lực bán lan sang các nhóm khác. Tín hiệu xác nhận tạo đáy thành công là chỉ số vượt lại 1.701 điểm đi kèm thanh khoản khớp lệnh trên 12.000 tỷ. Ngược lại, nếu đóng cửa thủng 1.682 điểm thì kịch bản tạo đáy ngắn hạn sẽ bị vô hiệu.",
+      "chen_hinh": "Bảng tóm tắt kịch bản phiên tới, các điều kiện củng cố, làm yếu và mốc hành động"
+     },
+     {
+      "ten": "Chào",
+      "phut": 0.5,
+      "loi_thoai": "Cảm ơn anh chị đã theo dõi buổi rà soát hôm nay. Anh chị nhớ bấm đăng ký kênh để không bỏ lỡ các bản tin tiếp theo nhé. Chúc anh chị một tuần giao dịch bình tĩnh và hiệu quả. Hẹn gặp lại anh chị vào ngày mai.",
+      "chen_hinh": "Màn hình kết thúc video kèm thông tin liên hệ và nút đăng ký kênh"
+     }
+    ],
+    "tiktok": [
+     {
+      "tieu_de": "Hạ lãi suất tiền gửi 0,5%: Túi tiền của bạn bị ảnh hưởng thế nào?",
+      "goc": "Chính sách hạ lãi suất tiền gửi và siết room tín dụng tác động trực tiếp đến người gửi tiết kiệm và người đi vay.",
+      "nguon_chuyen": "ban_tin_sang",
+      "giay": 55,
+      "loi_thoai": "Anh chị gửi tiết kiệm ngân hàng đã biết tin này chưa? Ngân hàng Nhà nước vừa phát văn bản chỉ đạo giảm tối thiểu 0,5% mỗi năm lãi suất tiền gửi kỳ hạn từ 6 tháng, đồng thời cảnh báo sẽ hạ chỉ tiêu tăng trưởng tín dụng với ngân hàng nào không tuân thủ. Cùng lúc đó, Agribank đã tiên phong giảm tới 2% lãi suất cho vay. Điều này chạm vào túi tiền của chúng ta ra sao? Thứ nhất, nếu anh chị có sổ tiết kiệm sắp đáo hạn, tiền lãi cầm về nhiều khả năng sẽ vơi đi một khoản. Thứ hai, với những người đang gánh nợ vay mua nhà hay vay kinh doanh, chi phí lãi vay có cơ hội hạ nhiệt khi các ngân hàng thương mại bước vào cuộc đua giảm lãi suất đầu ra. Dòng tiền gửi lãi thấp cũng có xu hướng tìm đường sang các kênh tài sản khác. Để ý gì tiếp theo? Hãy quan sát xem biểu lãi suất cho vay thực tế của ngân hàng anh chị đang vay có giảm tương ứng trong tháng tới hay không.",
+      "du_lieu_dung": [
+       "Giảm tối thiểu 0,5%/năm lãi suất tiền gửi kỳ hạn từ 6 tháng",
+       "Agribank giảm 2%/năm lãi suất cho vay từ 19/10"
+      ]
+     },
+     {
+      "tieu_de": "Giao dịch vàng từ 5 triệu phải chuyển khoản: Hết thời mua bán tiền mặt?",
+      "goc": "Quy định bắt buộc thanh toán không dùng tiền mặt với giao dịch vàng từ 5 triệu đồng siết chặt thị trường vàng tích trữ.",
+      "nguon_chuyen": "ban_tin_sang",
+      "giay": 50,
+      "loi_thoai": "Mua một chỉ vàng mang bọc tiền mặt đi trả sắp thành chuyện quá khứ rồi anh chị nhé. Theo Nghị định 390 vừa ban hành, mọi giao dịch mua bán vàng từ 5 triệu đồng một ngày trở lên sẽ bắt buộc phải thanh toán không dùng tiền mặt, tức là phải quẹt thẻ hoặc chuyển khoản ngân hàng. Con số 5 triệu đồng thực ra rất nhỏ, chỉ cần mua nửa chỉ vàng nhẫn là đã vượt xa ngưỡng này rồi. Quy định này có ý nghĩa gì với túi tiền của anh chị? Mọi giao dịch vàng giờ đây đều có dấu vết dòng tiền minh bạch, hạn chế tối đa việc mua bán vàng trôi nổi không hóa đơn và ngăn chặn tình trạng đầu cơ vàng bằng tiền mặt. Đồng thời, việc siết quản lý vàng cũng giúp ổn định tỷ giá USD/VND đang ở mức 25.889 đồng. Để ý gì tiếp theo? Anh chị đi mua vàng tích trữ nhớ chuẩn bị sẵn tài khoản ngân hàng chính chủ để tránh gặp rắc rối khi giao dịch.",
+      "du_lieu_dung": [
+       "Nghị định 390/2026/NĐ-CP",
+       "Giao dịch vàng từ 5 triệu đồng/ngày phải chuyển khoản",
+       "Tỷ giá USD/VND 25.889 đồng"
+      ]
+     },
+     {
+      "tieu_de": "Chỉ số giảm 16 điểm: Vì sao tài khoản nhiều người vẫn xanh?",
+      "goc": "Bản chất hiện tượng méo chỉ số do cổ phiếu trụ và sự phân hóa thực tế của thị trường.",
+      "nguon_chuyen": "phien",
+      "giay": 55,
+      "loi_thoai": "Hôm nay mở bảng điện thấy VN-Index giảm hơn 16 điểm, có phải thị trường đang bị bán tháo không anh chị? Sự thật hoàn toàn ngược lại. Hôm nay trên sàn HOSE có tới 153 mã tăng và 9 mã tím trần, trong khi chỉ có 131 mã giảm. Vậy 16 điểm giảm kia chạy đi đâu mất? Câu trả lời nằm ở nhóm vốn hóa lớn: riêng một mình cổ phiếu VIC giảm 3,7% đã lấy đi 12,84 điểm của chỉ số. Cả nhóm Vin lấy đi 13,55 điểm. Nếu bỏ nhóm này ra, phần còn lại của toàn bộ thị trường chỉ giảm vỏn vẹn hơn 2,5 điểm. Trong khi đó, nhóm chứng khoán như SSI tăng 1,8%, đầu tư công như PLC hay xi măng HT1 đều tăng kịch trần. Khi thị trường thiếu tiền với thanh khoản khớp lệnh hơn 11.300 tỷ, chỉ số bị trụ đè nhưng cổ phiếu có câu chuyện vẫn lầm lũi đi lên. Để ý gì tiếp theo? Đừng nhìn điểm số chỉ số chung để hoảng loạn, hãy nhìn vào mốc hỗ trợ của chính cổ phiếu anh chị đang nắm giữ.",
+      "du_lieu_dung": [
+       "VN-Index giảm 16,07 điểm",
+       "153 mã tăng, 9 mã trần vs 131 mã giảm",
+       "VIC giảm 3,72% lấy đi 12,84 điểm",
+       "Nhóm Vin lấy đi 13,55 điểm",
+       "Thanh khoản khớp lệnh 11.323 tỷ"
+      ]
+     }
+    ]
+   },
+   "model": "gemini-3.8-flash",
+   "nhan": "Bản 1"
+  }
+ ],
+ "viet_lai": [],
+ "trang_thai_chay": "dat",
+ "ai": {
+  "models": [
+   "gemini-3.1-pro-preview",
+   "gemini-3.8-flash",
+   "gemini-3.7-flash",
+   "gemini-3.6-flash",
+   "gemini-3.5-flash",
+   "gemini-3.5-flash-lite",
+   "gemini-3.1-flash-lite"
+  ],
+  "so_luot": 2,
+  "token_vao": 134188,
+  "token_ra": 22058,
+  "nhat_ky": [
+   "08:21:17 gemini-3.1-pro-preview 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+   "08:24:10 gemini-3.8-flash 166s — ok, ra 19131 token",
+   "08:25:03 gemini-3.8-flash 53s — ok, ra 2927 token"
+  ]
+ },
+ "xong_luc": "2026-10-19T15:25+07:00",
+ "chay_giay": 259
+}

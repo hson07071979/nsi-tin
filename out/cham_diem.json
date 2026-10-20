@@ -1,41 +1,41 @@
 {
- "cap_nhat": "2026-10-19T21:28+07:00",
+ "cap_nhat": "2026-10-20T07:10+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 189,
-   "ty_le_dung": 61.4
+   "n": 204,
+   "ty_le_dung": 60.3
   },
   "phe_than_trong": {
-   "n": 164,
-   "ty_le_dung": 46.3
+   "n": 174,
+   "ty_le_dung": 47.7
   },
   "phe_vi_mo": {
-   "n": 164,
-   "ty_le_dung": 57.9
+   "n": 183,
+   "ty_le_dung": 58.5
   },
   "tab_web": {
-   "n": 239,
-   "ty_le_dung": 56.1
+   "n": 244,
+   "ty_le_dung": 57.0
   },
   "tab_zalo": {
-   "n": 33,
-   "ty_le_dung": 45.5
+   "n": 49,
+   "ty_le_dung": 49.0
   },
   "trong_tai": {
-   "n": 272,
-   "ty_le_dung": 54.8
+   "n": 293,
+   "ty_le_dung": 55.6
   },
   "xac_minh_da_xac_minh": {
-   "n": 255,
-   "ty_le_dung": 55.3
+   "n": 271,
+   "ty_le_dung": 56.1
   },
   "xac_minh_mot_nguon": {
-   "n": 3,
-   "ty_le_dung": 33.3
+   "n": 5,
+   "ty_le_dung": 40.0
   },
   "xac_minh_tin_don": {
-   "n": 14,
-   "ty_le_dung": 50.0
+   "n": 17,
+   "ty_le_dung": 52.9
   }
  },
  "chi_tiet": [
@@ -4646,6 +4646,361 @@
     "lac_quan": true,
     "than_trong": false,
     "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "web",
+   "chu_de": "VN-Index giảm mạnh về sát 1.720 điểm, áp lực bán gia tăng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -1.12,
+   "vuot_t4": 1.08,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "web",
+   "chu_de": "VN-Index giảm mạnh về sát 1.720 điểm, áp lực bán gia tăng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": -1,
+   "vuot_t0": 1.46,
+   "vuot_t4": -3.67,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "web",
+   "chu_de": "Đồng USD neo quanh đỉnh 18 tháng và căng thẳng năng lượng quốc tế",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -1.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "web",
+   "chu_de": "Kinh Bắc công bố BCTC quý 3/2026 với lợi nhuận hàng ngàn tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "KBC",
+   "du_bao": 1,
+   "vuot_t0": 1.47,
+   "vuot_t4": 4.17,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "web",
+   "chu_de": "Hòa Phát ghi nhận sản lượng bán hàng thép tăng trưởng mạnh 9 tháng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -1.12,
+   "vuot_t4": 1.08,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "NHNN giữ nguyên lãi suất điều hành hỗ trợ vốn giá rẻ",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCB",
+   "du_bao": 1,
+   "vuot_t0": -0.61,
+   "vuot_t4": 0.93,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "VN-Index thanh khoản sụt giảm mạnh, thị trường tiếp tục dò đáy",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 1.46,
+   "vuot_t4": -3.67,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "VPBank hoàn tất tăng vốn điều lệ lên 100.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": 0.09,
+   "vuot_t4": 0.17,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Hòa Phát tiêu thụ 10,3 triệu tấn thép 9 tháng đầu năm",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -1.12,
+   "vuot_t4": 1.08,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Giá dầu Brent và cước vận tải thô tăng mạnh do xung đột",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": -1.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "SHB chậm đưa cổ phiếu phát hành thêm vào giao dịch",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SHB",
+   "du_bao": -1,
+   "vuot_t0": 0.57,
+   "vuot_t4": 3.25,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Sự chuyển dịch thị phần từ bán lẻ truyền thống sang hiện đại",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "MWG",
+   "du_bao": 1,
+   "vuot_t0": -0.97,
+   "vuot_t4": -0.04,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Sự chuyển dịch thị phần từ bán lẻ truyền thống sang hiện đại",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "FRT",
+   "du_bao": 1,
+   "vuot_t0": -3.72,
+   "vuot_t4": -0.53,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Sự chuyển dịch thị phần từ bán lẻ truyền thống sang hiện đại",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "DGW",
+   "du_bao": 1,
+   "vuot_t0": -2.04,
+   "vuot_t4": -1.39,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Giá cao su lập đỉnh kéo dài triển vọng lợi nhuận ngành",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "DPR",
+   "du_bao": 1,
+   "vuot_t0": -0.31,
+   "vuot_t4": 0.21,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Giá cao su lập đỉnh kéo dài triển vọng lợi nhuận ngành",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "GVR",
+   "du_bao": 1,
+   "vuot_t0": -0.06,
+   "vuot_t4": -1.43,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Giá cao su lập đỉnh kéo dài triển vọng lợi nhuận ngành",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "DRC",
+   "du_bao": -1,
+   "vuot_t0": -0.52,
+   "vuot_t4": -3.46,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "VIC kiểm định vùng hỗ trợ 215 điểm tựa cho chỉ số",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": -1,
+   "vuot_t0": 1.46,
+   "vuot_t4": -3.67,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "VIC kiểm định vùng hỗ trợ 215 điểm tựa cho chỉ số",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": -1,
+   "vuot_t0": 0.87,
+   "vuot_t4": -3.82,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "Novaland chốt thời hạn đăng ký mua cổ phiếu phát hành thêm",
+   "xac_minh": "mot_nguon",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": 0.09,
+   "vuot_t4": -1.78,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-13",
+   "tab": "zalo",
+   "chu_de": "CII chịu áp lực pha loãng và chi phí vốn dài hạn",
+   "xac_minh": "mot_nguon",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "CII",
+   "du_bao": -1,
+   "vuot_t0": -1.13,
+   "vuot_t4": 7.09,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
    }
   }
  ],

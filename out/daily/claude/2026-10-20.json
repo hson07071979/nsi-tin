@@ -1,0 +1,224 @@
+{
+ "ngay": "2026-10-20",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Breadth hai nguồn lệch: 178 tăng/109 giảm (chính) và 188/115 (đếm đối chiếu) — giữ số chính.",
+  "Mốc không có căn cứ trong FACT → bỏ: PNJ hỗ trợ 19,2 và HAH hỗ trợ 47,25 (hai mã không có vùng HT/KC trong brief). Mọi mốc còn lại của 23 mã trong bảng đều truy được về vùng HT/KC, đáy hoặc MA.",
+  "Số không có trong FACT bị bỏ: HPG 'hơn 530 tỷ', NKG 'mạnh hơn thị trường 14 điểm % trong 5 phiên', khối ngoại 'gần 800 tỷ hôm qua', 'phiên hôm qua bán tràn lan'; 'phiên sáng/phiên chiều' không có dữ liệu theo phiên → bỏ.",
+  "Regime phản bác ghi 'VN-Index dưới MA10 liên tục 20 phiên' — FACT không có số phiên của chỉ số (con số 20 phiên là của FPT) → sửa thành dưới cả 4 đường MA.",
+  "Distortion: 2,85 điểm là phần còn lại sau khi bỏ Vin, không phải bỏ cả HDB/VCB → sửa câu.",
+  "Đối chiếu dự báo: VNINDEX giữ 1.687,14 mới qua 2/3 phiên, Gemini chấm ĐÚNG sớm và ghi 'nói hôm 15/10' không có căn cứ → đổi thành ĐANG MỞ; giá thấp nhất 1.677,19 đã xuyên mốc trong phiên.",
+  "Lời thoại có 'SL', 'chốt lời', 'mục tiêu' (TCB, CTG, SSI, CTS, HSG, NKG, SZC, CTD, GMD), 'điểm dừng lỗ tối đa 7%' (NKG) → đổi 'kháng cự kế tiếp' / bỏ câu hô bán.",
+  "CTD và FRT, GMD bị gọi 'vượt đỉnh' khi giá đóng cửa vẫn dưới đỉnh (66,2 / 152,8 / 56,0) → sửa 'áp sát / tiến sát'. CTD nền '62,2' → 62,27 theo FACT.",
+  "Nhân quả: tỷ giá 'là yếu tố khiến khối ngoại chưa quay lại' → đổi thành áp lực cần theo dõi; xoay vòng 'rõ rệt' từ một phiên → ghi chưa đủ kết luận.",
+  "NKG: MA50 thực tế 10,32, vùng HT 10,45–10,67 chỉ gắn nhãn MA50 — dự báo mới 'MA50 quanh 10,45' nên hiểu là biên vùng. IDC, PLC, PNJ, HAH, DPM chỉ có giá trong JSON gốc, không có vùng kỹ thuật trong brief."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "signature.co_phieu_noi_gi",
+   "gia_tri": "Độ rộng nghiêng hẳn về bên mua với 178 mã tăng so với 109 mã giảm, thép, khu công nghiệp và đầu tư công bật mạnh."
+  },
+  {
+   "duong_dan": "suc_khoe_vn",
+   "gia_tri": "VN-Index tăng 2,13 điểm tương đương 0,13% lên 1.691,97 điểm. Độ rộng sàn HOSE ghi nhận 178 mã tăng, 109 mã giảm và 10 mã trần. Breadth tích cực và đồng thuận với nhịp rút chân của chỉ số từ đáy phiên 1.677,19."
+  },
+  {
+   "duong_dan": "doi_chieu_du_bao[2].ket_qua",
+   "gia_tri": "ĐANG MỞ"
+  },
+  {
+   "duong_dan": "doi_chieu_du_bao[2].nhan_xet",
+   "gia_tri": "Đã qua 2/3 phiên. Giá thấp nhất 1.677,19 xuyên mốc trong phiên, nhưng đóng cửa 1.691,97 vẫn trên 1.687,14 — giữ theo giá đóng cửa, chưa đến hạn chấm."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Thị trường sẽ mở rộng đà điều chỉnh về vùng hỗ trợ mạnh tiếp theo tại 1.650–1.665 điểm (4 lần chạm)"
+  },
+  {
+   "duong_dan": "regime.phan_bac[1]",
+   "gia_tri": "VN-Index vẫn nằm dưới cả MA10 (1.715,88), MA20, MA50 và MA200"
+  },
+  {
+   "duong_dan": "nganh[5].ma[1].cau_truc",
+   "gia_tri": "Áp sát đỉnh 20 phiên 66,2 (cao nhất phiên), khối lượng bùng nổ 3,8 lần TB20, nằm trên MA10, MA20, MA50"
+  },
+  {
+   "duong_dan": "nganh[5].ma[1].thung_thi",
+   "gia_tri": "Thủng 63,3 sẽ lùi về nền tích lũy 62,27"
+  },
+  {
+   "duong_dan": "nganh[7].nhan_dinh",
+   "gia_tri": "Tiếp tục giữ phong độ khỏe, FRT và MWG neo nền cao, PNJ tăng trần từ đáy."
+  },
+  {
+   "duong_dan": "nganh[8].nhan_dinh",
+   "gia_tri": "GMD tiến sát đỉnh cũ 56,0, giữ cấu trúc tăng ổn định trên các đường MA."
+  },
+  {
+   "duong_dan": "xoay_vong",
+   "gia_tri": "Phiên này dòng tiền nghiêng sang Thép (HPG, NKG), Khu công nghiệp (SZC, KBC), Đầu tư công (CTD, VCG) và Bán lẻ nền cao (FRT, MWG), trong khi trụ VHM bị bán mạnh. Mới một phiên nên chưa đủ kết luận xoay vòng. Nhóm tài chính chưa đồng thuận hoàn toàn khi ngân hàng quốc doanh còn yếu."
+  },
+  {
+   "duong_dan": "luan_diem_chinh[3]",
+   "gia_tri": "Khối ngoại bán ròng 220,5 tỷ đồng nhưng mua ròng tập trung ở TCB (345 tỷ) và HPG (145 tỷ)."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "hôm nay phiên sáng nhúng thủng về 1.677 nhưng kết phiên kéo giật lên 1.691",
+   "thay": "hôm nay trong phiên có lúc nhúng về 1.677 nhưng kết phiên kéo lên 1.692"
+  },
+  {
+   "tim": "mốc hỗ trợ 1.687 điểm mà em nói hôm 15 tháng 10,",
+   "thay": "mốc hỗ trợ 1.687 điểm em nêu ở phiên trước, sổ dự báo còn 1 phiên nữa mới đến hạn,"
+  },
+  {
+   "tim": "tức là giữ vững biên hỗ trợ, mốc này cũng đúng.",
+   "thay": "tức là tới giờ vẫn giữ được theo giá đóng cửa."
+  },
+  {
+   "tim": "Về các vị thế đang mở,",
+   "thay": "Về các mốc đang theo dõi,"
+  },
+  {
+   "tim": "vẫn đang vận động rất chuẩn chỉ.",
+   "thay": "vẫn đang được giữ, riêng MBB chỉ còn cách mốc rất sát."
+  },
+  {
+   "tim": "nhưng là yếu tố khiến dòng tiền ngoại chưa thể quay lại mua ròng mạnh mẽ ngay được.",
+   "thay": "và vẫn là một áp lực cần theo dõi với dòng vốn ngoại."
+  },
+  {
+   "tim": "VN-Index đóng cửa tại 1.691 điểm,",
+   "thay": "VN-Index đóng cửa tại 1.692 điểm,"
+  },
+  {
+   "tim": "Khác hẳn với phiên hôm qua khi áp lực bán tràn lan, hôm nay bên bán",
+   "thay": "Hôm nay bên bán"
+  },
+  {
+   "tim": "Khối ngoại hôm nay bán ròng 220 tỷ, giảm rất nhiều so với mức xả gần 800 tỷ hôm qua.",
+   "thay": "Khối ngoại hôm nay bán ròng 220 tỷ."
+  },
+  {
+   "tim": "VHM âm 135 tỷ",
+   "thay": "VHM âm 136 tỷ"
+  },
+  {
+   "tim": "Bỏ các mã trụ lớn này ra, phần còn lại",
+   "thay": "Bỏ nhóm Vin ra, phần còn lại"
+  },
+  {
+   "tim": "Sáng nay thị trường nhúng thẳng về 1.677 điểm",
+   "thay": "Trong phiên thị trường nhúng về 1.677 điểm"
+  },
+  {
+   "tim": "vùng kháng cự mạnh mạnh",
+   "thay": "vùng kháng cự mạnh"
+  },
+  {
+   "tim": "thủng mốc này thì chốt lời hoặc SL quanh 32,86, còn mục tiêu hướng đến là đỉnh cũ 35.",
+   "thay": "thủng mốc này thì cấu trúc ngắn hạn suy yếu, còn kháng cự kế tiếp là vùng đỉnh cũ quanh 35."
+  },
+  {
+   "tim": "thủng 55,5 thì cấu trúc đáy bị phá vỡ, anh chị cầm mã này phải quản trị rủi ro ngay.",
+   "thay": "thủng 55,5 thì cấu trúc đáy bị phá vỡ."
+  },
+  {
+   "tim": "mục tiêu hướng tới vùng cản 30,65",
+   "thay": "kháng cự kế tiếp là vùng 30,65"
+  },
+  {
+   "tim": "mục tiêu ngắn hạn là vùng cản MA50 quanh 20,38",
+   "thay": "kháng cự kế tiếp là vùng cản MA50 quanh 20,38"
+  },
+  {
+   "tim": "mục tiêu hướng tới vùng đỉnh cũ 22,5 đến 23",
+   "thay": "kháng cự kế tiếp là vùng đỉnh cũ 22,5 đến 23"
+  },
+  {
+   "tim": ", khối lượng đạt hơn 530 tỷ và khối ngoại mua ròng 145 tỷ",
+   "thay": " và khối ngoại mua ròng 145 tỷ"
+  },
+  {
+   "tim": "hỗ trợ là 10,15, mục tiêu là 10,85",
+   "thay": "hỗ trợ là 10,15, kháng cự kế tiếp là 10,85"
+  },
+  {
+   "tim": "vượt cản 11,4 thì mục tiêu tiếp theo là 11,65",
+   "thay": "vượt cản 11,4 thì kháng cự kế tiếp là 11,65"
+  },
+  {
+   "tim": "mốc hỗ trợ là 17,83, mục tiêu là cản 19,4",
+   "thay": "mốc hỗ trợ là 17,83, kháng cự kế tiếp là 19,4"
+  },
+  {
+   "tim": "vượt đỉnh ngắn hạn, mốc theo dõi là 63,3 và mục tiêu là cản 68",
+   "thay": "áp sát đỉnh ngắn hạn 66,2, mốc theo dõi là 63,3 và kháng cự kế tiếp là cản 68"
+  },
+  {
+   "tim": " Tiền chưa chọn dầu khí thì chúng ta chưa vội tham gia.",
+   "thay": " Tiền chưa chọn dầu khí."
+  },
+  {
+   "tim": "tiếp tục xu hướng vượt đỉnh, mốc theo dõi là 143,2",
+   "thay": "tiến sát đỉnh cũ 152,8, mốc theo dõi là 143,2"
+  },
+  {
+   "tim": "sau giai đoạn rơi sâu, hỗ trợ gần nhất là 19,2.",
+   "thay": "sau giai đoạn rơi sâu, khối ngoại mua ròng gần 68 tỷ."
+  },
+  {
+   "tim": " HAH đóng 49,55, hỗ trợ là 47,25.",
+   "thay": ""
+  },
+  {
+   "tim": "mốc theo dõi là 53,7 và mục tiêu là đỉnh 56",
+   "thay": "mốc theo dõi là 53,7 và kháng cự kế tiếp là đỉnh 56"
+  },
+  {
+   "tim": "anh chị vào nhanh ra nhanh theo câu chuyện kết quả kinh doanh quý 3 chứ không kỳ vọng sóng lớn toàn ngành được.",
+   "thay": "chủ yếu là câu chuyện riêng lẻ trước mùa kết quả kinh doanh quý 3, chưa phải sóng toàn ngành."
+  },
+  {
+   "tim": " Sức mạnh giá 5 phiên của NKG vượt trội so với thị trường chung gần 14 điểm phần trăm.",
+   "thay": ""
+  },
+  {
+   "tim": "Nếu giữ được trên mốc này, mục tiêu ngắn hạn sẽ là vùng cản 11,65 đến 11,7. Nếu vượt được, anh chị có thể cân nhắc chốt lời một phần quanh đó. Còn nếu quay đầu thủng 10,95 thì cấu trúc bùng nổ bị suy yếu, điểm dừng lỗ tối đa không quá 7% tính từ giá đóng cửa hôm nay.",
+   "thay": "Nếu giữ được trên mốc này, kháng cự kế tiếp là vùng cản 11,65 đến 11,7. Còn nếu quay đầu thủng 10,95 thì cấu trúc bùng nổ bị suy yếu."
+  },
+  {
+   "tim": "P/B của TCB hiện ở mức 1,32 lần, định giá rất hợp lý so với hiệu quả sinh lời.",
+   "thay": "P/B của TCB hiện ở mức 1,32 lần."
+  },
+  {
+   "tim": "mục tiêu tiếp theo của TCB sẽ là vùng đỉnh cũ 35,0 đến 35,7",
+   "thay": "kháng cự kế tiếp của TCB là vùng đỉnh cũ 35,1 đến 35,7"
+  },
+  {
+   "tim": "chỉ số vẫn nằm dưới MA10 liên tiếp 20 phiên",
+   "thay": "chỉ số vẫn nằm dưới cả bốn đường MA10, MA20, MA50 và MA200"
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Index chỉ +2 điểm nhưng 178 mã tăng: hồi thật hay hồi kỹ thuật?",
+  "regime": "Hồi kỹ thuật / dò đáy, chưa xác nhận",
+  "ma_dang_noi": [
+   "NKG",
+   "TCB",
+   "VHM"
+  ],
+  "ly_do": {
+   "NKG": "Tăng 5,66% với khối lượng 3,6 lần TB20, lấy lại MA10/20/50, đại diện cho nhóm thép dẫn sóng phiên này.",
+   "TCB": "Khối ngoại mua ròng 345 tỷ, đóng góp dương lớn thứ hai cho chỉ số và nằm trên cả 4 đường MA.",
+   "VHM": "Lấy đi 4,23 điểm, khiến index chỉ +2 dù breadth tốt; 57,6 là đáy 20 phiên cần giữ."
+  },
+  "tieu_de_ma": {
+   "NKG": "nổ volume, giữ 10,95",
+   "TCB": "tiền ngoại dồn vào, giữ 32,86",
+   "VHM": "đè chỉ số, sát đáy 57,6"
+  }
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "ngay": "2026-10-21",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Số chính (VN-Index, thanh khoản, khối ngoại, đóng góp Vin 32,08/còn lại 14,62, MA chỉ số) khớp FACT của brief.",
+  "Đối chiếu dự báo đúng: NKG 10,0 và VN-Index 1.687,14 là hai dòng vừa đóng hôm nay (ĐÚNG).",
+  "Toàn bộ mốc hỗ trợ/kháng cự của 32 mã truy được về biên vùng, đỉnh/đáy hoặc MA trong FACT; không có mốc nào phải bỏ.",
+  "Lời thoại đọc 'mục tiêu', 'điểm dừng', 'dừng lỗ ~2,6–5%' ở TPB, TCB, MBB, SSI, VIX, VCI, PDR, NKG → đổi thành hỗ trợ/kháng cự kế tiếp, bỏ phần chỉ định cắt lỗ.",
+  "Câu 'chứng khoán, thép, đầu tư công đều hồi 2–5%' sai với thép: HPG +0,24%, ngành Tài nguyên cơ bản +0,43% → bỏ thép.",
+  "Ngưỡng thanh khoản 14.000/11.000 tỷ không có căn cứ → đổi sang TB20 (~12.014 tỷ) và TB5 (~11.380 tỷ).",
+  "Gap hôm nay nằm ở 1.691,97–1.695,95: đóng dưới 1.715 chưa lấp gap → sửa nhánh thủng và vo_hieu.",
+  "Xoay vòng: mới một phiên, chưa đủ kết luận 'xoay mạnh từ dầu khí' → hạ thành quan sát.",
+  "Breadth hai nguồn lệch: 230 tăng/75 giảm (chính) và 246/78 (đếm đối chiếu). Giữ số chính.",
+  "Brent +0,92% nhưng WTI −3,2% (cùng 15:10, số trong JSON gốc, không có trong FACT brief) — hai chuẩn dầu lệch chiều, nên lưu ý khi nói 'dầu neo cao'.",
+  "Chưa đối chiếu được (không có trong FACT brief): thanh khoản ngành ngân hàng 4.365 tỷ/22 mã tăng, chứng khoán 2.893 tỷ, TCB 696 tỷ, SSI 644 tỷ, NKG 129 tỷ, RS 20 phiên, VCG/CTD, C4G, HAH, POW, NT2, DRI.",
+  "Regime Technical rebound hợp lý: chứng khoán mới SSI lấy lại MA50; VCI, VIX, HCM vẫn dưới MA50 → chưa phải Bottoming."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Nếu mất vùng 1.725, chỉ số quay về kiểm tra vùng hỗ trợ 1.695,95–1.715,91 điểm; sâu hơn có thể lấp gap 1.691,97–1.695,95 mở ra hôm nay."
+  },
+  {
+   "duong_dan": "phien_toi.vo_hieu[0]",
+   "gia_tri": "Chỉ số quay đầu giảm mạnh, đóng cửa dưới 1.715 điểm (biên trên vùng hỗ trợ 1.695,95–1.715,91)."
+  },
+  {
+   "duong_dan": "phien_toi.cung_co[0]",
+   "gia_tri": "Thanh khoản khớp lệnh duy trì trên TB20 (~12.014 tỷ đồng)."
+  },
+  {
+   "duong_dan": "phien_toi.lam_yeu[0]",
+   "gia_tri": "Thanh khoản khớp lệnh tụt về dưới TB5 (~11.380 tỷ đồng) ngay sau phiên bùng nổ."
+  },
+  {
+   "duong_dan": "nganh[2].ma[3].xac_nhan",
+   "gia_tri": "Vượt dứt khoát cản 12,05 để hướng tới 12,3."
+  },
+  {
+   "duong_dan": "xoay_vong",
+   "gia_tri": "Phiên hôm nay tiền tập trung vào bất động sản, chứng khoán và ngân hàng, trong khi dầu khí giảm 1,36%. Nhóm ở vùng đáy 20 phiên bật mạnh hơn nhóm neo cao. Mới một phiên nên chưa đủ để kết luận xoay vòng từ dầu khí sang nhóm tấn công."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Dòng tiền chủ động đã vào gom hàng quyết liệt ở nhiều nhóm ngành ngay từ đầu phiên.",
+   "thay": "Dòng tiền chủ động đã tham gia mạnh ở nhiều nhóm ngành."
+  },
+  {
+   "tim": "Bối cảnh lợi suất chững lại giúp giảm bớt áp lực rút vốn của dòng tiền ngoại.",
+   "thay": "Lợi suất chững lại có thể giảm bớt áp lực lên dòng vốn ngoại, nhưng chưa đủ để coi là nguyên nhân của phiên hôm nay."
+  },
+  {
+   "tim": "hàng loạt nhóm ngành như chứng khoán, thép, đầu tư công đều hồi phục mạnh từ 2% đến 5%",
+   "thay": "nhóm chứng khoán cùng nhiều mã đầu tư công hồi phục từ 2% đến 5%, dù HPG chỉ nhích nhẹ"
+  },
+  {
+   "tim": "nhịp hồi phục sẽ được xác nhận là đáy ngắn hạn đáng tin cậy",
+   "thay": "xác suất nhịp hồi trở thành đáy ngắn hạn sẽ tăng lên"
+  },
+  {
+   "tim": "để lấp lại khoảng trống giá sáng nay",
+   "thay": "và sâu hơn có thể lấp khoảng trống giá quanh 1.692 đến 1.696 điểm"
+  },
+  {
+   "tim": "còn mục tiêu hướng lên là 13,01",
+   "thay": "còn kháng cự kế tiếp là 13,01"
+  },
+  {
+   "tim": "điểm dừng ngắn hạn quanh 32,86 và mục tiêu là đỉnh cũ 35,16",
+   "thay": "hỗ trợ kế tiếp quanh 32,86 và kháng cự kế tiếp là đỉnh cũ 35,16"
+  },
+  {
+   "tim": "mục tiêu hướng tới cản 20,22",
+   "thay": "kháng cự kế tiếp là 20,22"
+  },
+  {
+   "tim": "còn mục tiêu gần nhất là vùng cản dày 20,78 đến 21,38",
+   "thay": "còn kháng cự kế tiếp là vùng cản dày 20,78 đến 21,38"
+  },
+  {
+   "tim": "mục tiêu ngắn hạn tại cản MA50 quanh 12,8",
+   "thay": "kháng cự kế tiếp quanh 12,68, sát MA50 ở 12,8"
+  },
+  {
+   "tim": "hỗ trợ theo dõi là 19,15 và mục tiêu quanh 20,12",
+   "thay": "hỗ trợ theo dõi là 19,15 và kháng cự kế tiếp quanh 20,12"
+  },
+  {
+   "tim": "mốc hỗ trợ là 11,65 và mục tiêu hướng tới 12,3",
+   "thay": "mốc hỗ trợ là 11,65, kháng cự kế tiếp là 12,05, xa hơn là 12,3"
+  },
+  {
+   "tim": "mốc hỗ trợ MA50 bên dưới quanh 22,14 đến 22,87",
+   "thay": "hỗ trợ kế tiếp là vùng MA50 quanh 22,14 đến 22,3"
+  },
+  {
+   "tim": "Nếu giữ được vùng này, mục tiêu kiểm định hướng về vùng kháng cự 35,16 đến 36,14. Mức dừng lỗ tham chiếu cho anh chị quản trị vị thế là nếu thủng vùng 32,8, tương đương mức rủi ro chưa tới 5%.",
+   "thay": "Nếu giữ được vùng này, kháng cự kế tiếp là vùng 35,16 đến 36,14. Thủng 32,86 thì cấu trúc ngắn hạn yếu đi, hỗ trợ kế tiếp là vùng 31,6 đến 32,47."
+  },
+  {
+   "tim": "Thủng 19,65 thì thế phục hồi suy yếu, đây cũng là mốc dừng lỗ tham chiếu hợp lý quanh 3,7% từ giá đóng cửa. Chiều tăng nếu duy trì được lực cầu thì mục tiêu ngắn hạn là vùng cản dày 20,78 đến 21,38.",
+   "thay": "Thủng 19,65 thì thế phục hồi suy yếu, hỗ trợ kế tiếp là 19,2. Chiều tăng nếu duy trì được lực cầu thì kháng cự kế tiếp là vùng cản dày 20,78 đến 21,38."
+  },
+  {
+   "tim": "thủng mốc này thì nhịp tăng ngắn hạn bị bẻ gãy, anh chị có thể lấy mốc 11,3 làm điểm dừng rủi ro, chỉ khoảng 2,6%. Mục tiêu cản phía trên đang chờ đón là vùng 11,9 đến 12,0, nơi có đường MA200 ngày án ngữ.",
+   "thay": "thủng mốc này thì nhịp tăng ngắn hạn yếu đi, hỗ trợ kế tiếp là 10,95 đến 11,25. Kháng cự gần là 11,65 đến 11,7, xa hơn là vùng 11,9 đến 12,0 sát đường MA200 ngày."
+  },
+  {
+   "tim": "điều củng cố cho đà tăng là thanh khoản duy trì trên 14.000 tỷ",
+   "thay": "điều củng cố cho đà tăng là thanh khoản khớp lệnh duy trì trên mức trung bình 20 phiên, khoảng 12.000 tỷ"
+  },
+  {
+   "tim": "nếu thanh khoản lập tức hụt hơi về dưới 11.000 tỷ",
+   "thay": "nếu thanh khoản lập tức hụt hơi về dưới mức trung bình 5 phiên, khoảng 11.400 tỷ"
+  }
+ ],
+ "slide": {
+  "cau_hoi": "47 điểm đến từ đâu: Vin kéo hay tiền lan tỏa thật?",
+  "regime": "Hồi kỹ thuật, có tiền — chưa xác nhận đáy",
+  "ma_dang_noi": [
+   "TCB",
+   "SSI",
+   "NKG"
+  ],
+  "ly_do": {
+   "TCB": "Ngân hàng hiếm hoi nằm trên cả bốn đường MA, khối ngoại mua ròng gần 290 tỷ.",
+   "SSI": "Thước đo nhóm chứng khoán: lấy lại MA50 với khối lượng gấp 1,7 lần TB20.",
+   "NKG": "Khối lượng gấp hơn 4 lần TB20, lấy lại MA10/20/50 và tiến sát vùng cản MA200."
+  },
+  "tieu_de_ma": {
+   "TCB": "trên mọi MA, ngoại gom mạnh",
+   "SSI": "lấy lại MA50",
+   "NKG": "nổ volume, sát cản MA200"
+  }
+ }
+}

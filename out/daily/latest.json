@@ -1,6 +1,6 @@
 {
  "ngay": "2026-10-22",
- "bat_dau_luc": "2026-10-22T15:21+07:00",
+ "bat_dau_luc": "2026-10-22T15:33+07:00",
  "fc": {
   "ngay": "2026-10-22",
   "vnindex": {
@@ -326,7 +326,7 @@
    {
     "nganh": "Hàng & Dịch vụ Công nghiệp",
     "pct": 1.24,
-    "gt_khop": 1185,
+    "gt_khop": 1184,
     "tang": 30,
     "giam": 29,
     "nn_rong": 74.1
@@ -334,7 +334,7 @@
    {
     "nganh": "Du lịch và Giải trí",
     "pct": 1.15,
-    "gt_khop": 216,
+    "gt_khop": 217,
     "tang": 5,
     "giam": 7,
     "nn_rong": -17.0
@@ -388,20 +388,20 @@
     "nn_rong": 24.1
    },
    {
-    "nganh": "Thực phẩm và đồ uống",
-    "pct": 0.07,
-    "gt_khop": 924,
-    "tang": 16,
-    "giam": 14,
-    "nn_rong": 33.6
-   },
-   {
     "nganh": "Bán lẻ",
     "pct": 0.07,
     "gt_khop": 313,
     "tang": 5,
     "giam": 6,
     "nn_rong": 0.4
+   },
+   {
+    "nganh": "Thực phẩm và đồ uống",
+    "pct": 0.07,
+    "gt_khop": 924,
+    "tang": 16,
+    "giam": 14,
+    "nn_rong": 33.6
    },
    {
     "nganh": "Công nghệ Thông tin",
@@ -448,24 +448,24 @@
    "brent": {
     "ten": "Dầu Brent",
     "don_vi": "USD/thùng",
-    "gia": 112.2,
-    "luc_vn": "2026-10-22T15:11+07:00",
-    "pct_1p": 3.11,
-    "pct_5p": 5.93,
-    "pct_20p": 5.25,
-    "cao_20p": 112.2,
+    "gia": 112.13,
+    "luc_vn": "2026-10-22T15:24+07:00",
+    "pct_1p": 3.04,
+    "pct_5p": 5.86,
+    "pct_20p": 5.19,
+    "cao_20p": 112.13,
     "thap_20p": 100.2,
-    "cao_3t": 112.2,
+    "cao_3t": 112.13,
     "thap_3t": 79.36
    },
    "wti": {
     "ten": "Dầu WTI",
     "don_vi": "USD/thùng",
-    "gia": 99.89,
-    "luc_vn": "2026-10-22T15:11+07:00",
-    "pct_1p": 2.82,
-    "pct_5p": 1.96,
-    "pct_20p": 5.58,
+    "gia": 99.79,
+    "luc_vn": "2026-10-22T15:24+07:00",
+    "pct_1p": 2.72,
+    "pct_5p": 1.86,
+    "pct_20p": 5.48,
     "cao_20p": 103.66,
     "thap_20p": 88.28,
     "cao_3t": 105.83,
@@ -474,11 +474,11 @@
    "dxy": {
     "ten": "DXY",
     "don_vi": "điểm",
-    "gia": 101.605,
-    "luc_vn": "2026-10-22T15:11+07:00",
-    "pct_1p": -0.17,
-    "pct_5p": -0.39,
-    "pct_20p": 0.31,
+    "gia": 101.503,
+    "luc_vn": "2026-10-22T15:24+07:00",
+    "pct_1p": -0.27,
+    "pct_5p": -0.49,
+    "pct_20p": 0.21,
     "cao_20p": 102.58,
     "thap_20p": 100.97,
     "cao_3t": 102.58,
@@ -515,21 +515,21 @@
    "gold": {
     "ten": "Vàng thế giới",
     "don_vi": "USD/oz",
-    "gia": 4098.8,
-    "luc_vn": "2026-10-22T15:11+07:00",
-    "pct_1p": -1.23,
-    "pct_5p": -1.71,
-    "pct_20p": -4.63,
+    "gia": 4107.9,
+    "luc_vn": "2026-10-22T15:24+07:00",
+    "pct_1p": -1.01,
+    "pct_5p": -1.49,
+    "pct_20p": -4.42,
     "cao_20p": 4321.2002,
-    "thap_20p": 4098.7998,
+    "thap_20p": 4107.8999,
     "cao_3t": 4697.7998,
     "thap_3t": 4036.3
    },
    "dow": {
     "ten": "Dow Jones (phiên đêm qua)",
     "don_vi": "điểm",
-    "gia": 52856.1,
-    "luc_vn": "2026-10-22T03:00+07:00",
+    "gia": 52856.09,
+    "luc_vn": "2026-10-22T03:36+07:00",
     "pct_1p": 0.69,
     "pct_5p": 2.39,
     "pct_20p": 2.61,
@@ -567,11 +567,11 @@
    "es_fut": {
     "ten": "Hợp đồng tương lai S&P 500 (đang chạy)",
     "don_vi": "điểm",
-    "gia": 7719.5,
-    "luc_vn": "2026-10-22T15:11+07:00",
-    "pct_1p": -1.04,
-    "pct_5p": -0.92,
-    "pct_20p": -0.61,
+    "gia": 7721.0,
+    "luc_vn": "2026-10-22T15:24+07:00",
+    "pct_1p": -1.02,
+    "pct_5p": -0.9,
+    "pct_20p": -0.59,
     "cao_20p": 7874.0,
     "thap_20p": 7704.25,
     "cao_3t": 7874.0,
@@ -580,11 +580,11 @@
    "vix": {
     "ten": "VIX",
     "don_vi": "điểm",
-    "gia": 18.48,
-    "luc_vn": "2026-10-22T15:06+07:00",
-    "pct_1p": 10.79,
-    "pct_5p": 12.27,
-    "pct_20p": 17.93,
+    "gia": 18.5,
+    "luc_vn": "2026-10-22T15:19+07:00",
+    "pct_1p": 10.91,
+    "pct_5p": 12.39,
+    "pct_20p": 18.06,
     "cao_20p": 19.99,
     "thap_20p": 14.84,
     "cao_3t": 20.66,
@@ -619,15 +619,15 @@
    "hangseng": {
     "ten": "Hang Seng",
     "don_vi": "điểm",
-    "gia": 22919.11,
-    "luc_vn": "2026-10-22T15:06+07:00",
-    "pct_1p": -3.1,
-    "pct_5p": -5.74,
-    "pct_20p": -8.64,
+    "gia": 22934.68,
+    "luc_vn": "2026-10-22T15:08+07:00",
+    "pct_1p": -3.03,
+    "pct_5p": -5.67,
+    "pct_20p": -8.58,
     "cao_20p": 24834.1191,
-    "thap_20p": 22919.1094,
+    "thap_20p": 22934.6797,
     "cao_3t": 26009.4609,
-    "thap_3t": 22919.1094
+    "thap_3t": 22934.6797
    },
    "kospi": {
     "ten": "KOSPI",
@@ -671,24 +671,24 @@
    "copper": {
     "ten": "Đồng",
     "don_vi": "USD/lb",
-    "gia": 6.412,
-    "luc_vn": "2026-10-22T15:11+07:00",
-    "pct_1p": -2.0,
-    "pct_5p": -1.53,
-    "pct_20p": -4.56,
+    "gia": 6.4265,
+    "luc_vn": "2026-10-22T15:24+07:00",
+    "pct_1p": -1.78,
+    "pct_5p": -1.31,
+    "pct_20p": -4.35,
     "cao_20p": 6.6985,
-    "thap_20p": 6.412,
+    "thap_20p": 6.4265,
     "cao_3t": 6.8035,
     "thap_3t": 6.2735
    },
    "btc": {
     "ten": "Bitcoin",
     "don_vi": "USD",
-    "gia": 81967.58,
-    "luc_vn": "2026-10-22T15:21+07:00",
-    "pct_1p": -2.43,
-    "pct_5p": 0.72,
-    "pct_20p": -2.99,
+    "gia": 81817.18,
+    "luc_vn": "2026-10-22T15:34+07:00",
+    "pct_1p": -2.61,
+    "pct_5p": 0.53,
+    "pct_20p": -3.17,
     "cao_20p": 86480.3047,
     "thap_20p": 81382.1484,
     "cao_3t": 86602.9141,
@@ -5036,9 +5036,7 @@
   }
  },
  "nhat_ky": [
-  "đủ dữ liệu lúc 15:21",
-  "PET: dựng lại kho — kho trống/ngắn",
-  "PAN: dựng lại kho — kho trống/ngắn"
+  "đủ dữ liệu lúc 15:34"
  ],
  "so_du_bao": {
   "vua_cham_hom_nay": [
@@ -5214,1552 +5212,833 @@
  },
  "ban": [
   {
-   "cach": "so_lieu_khong_ai",
+   "cach": "cach_1_luot",
+   "loi": [],
    "phan_tich": {
-    "_ban_so_lieu": true,
     "signature": {
-     "index_noi_gi": "VN-Index 21,96 điểm (1,26%) về 1.760,63; nhóm Vin 19,6 điểm, phần còn lại 2,4 điểm.",
-     "co_phieu_noi_gi": "HOSE 147 tăng / 164 giảm / 57 đứng, trần 2 · sàn 3.",
-     "dong_tien_noi_gi": "Khớp 13.301 tỷ = 1,09 lần TB20 (trung tính); khối ngoại 342 tỷ."
+     "index_noi_gi": "Chỉ số bật tăng gần 22 điểm chạm mốc 1.760 nhưng chủ yếu nhờ một vài trụ lớn nâng đỡ thay vì một đợt bùng nổ diện rộng.",
+     "co_phieu_noi_gi": "Bên dưới bảng điện sắc đỏ vẫn chiếm ưu thế với 164 mã giảm so với 147 mã tăng, cho thấy tâm lý phân hóa sâu sắc.",
+     "dong_tien_noi_gi": "Thanh khoản khớp lệnh đạt hơn 13.300 tỷ, nhỉnh hơn trung bình 20 phiên nhưng tập trung chọn lọc vào nhóm dầu khí, cảng biển và họ Vin."
     },
-    "ky_thuat_chi_so": {
-     "moc_chinh": 1756.07,
-     "loai_moc": "QS",
-     "nguon_goc": "vùng 1756.07–1780.71 ★★★★★ (MA50, đáy cũ, đỉnh cũ) — giá đang test",
-     "vi_sao_thi_truong_nhan_ra": "mốc cấu trúc lấy tự động từ nến phát động / vùng đáy nhiều lần chạm",
-     "neu_giu": "giữ trên 1.756,07 thì còn đi ngang, phân hóa",
-     "neu_thung": "thủng 1.756,07 thì hỗ trợ kế tiếp 1.734,13",
-     "xac_nhan": "lấy lại MA10 (1.716,57) với khớp lệnh ≥ trung bình 20 phiên",
-     "vo_hieu": "đóng cửa dưới 1.734,13",
-     "ho_tro_ke_tiep": 1734.13
-    },
-    "regime": {
-     "ten": "Technical rebound (tạm tính bằng quy tắc, chưa qua AI)",
-     "co_tien": "trung tính",
-     "ung_ho": [
-      "VN-Index trên MA20/50/200: trên [20]",
-      "khớp lệnh 1,09 lần TB20"
-     ],
-     "phan_bac": [
-      "quy tắc đơn giản, cần người đọc xác nhận"
-     ],
-     "so_voi_den_nsi": "không đọc được đèn NSI"
-    },
-    "thanh_khoan": "Tổng 15.300 tỷ − thỏa thuận 1.999 tỷ (13,1%) = khớp 13.301 tỷ; phiên trước 17.071, TB5 12.698, TB20 12.237.",
-    "dong_tien": "Khối ngoại 342 tỷ, lũy kế tháng -20.850 tỷ, từ đầu năm -118.751 tỷ. Tự doanh phiên 2026-10-21: -132 tỷ.",
-    "index_distortion": "Đóng góp âm lớn nhất: BID -0,48, LPB -0,43, TCB -0,37, MBB -0,21, VCB -0,17. Dương: VIC 14,87, VHM 3,75, BSR 1,14, VPL 0,78, TCX 0,59.",
-    "xoay_vong": "Ngành mạnh nhất: Bất động sản 3,49%, Dầu khí 3,46%, Hàng & Dịch vụ Công nghiệp 1,24%. Yếu nhất: Ô tô và phụ tùng -0,34%, Y tế -0,46%, Hàng cá nhân & Gia dụng -0,69%.",
+    "doi_chieu_du_bao": [
+     {
+      "id": "9c7ac815e2",
+      "noi_dung": "MBB duy trì giá đóng cửa trên mốc hỗ trợ 19,6 để giữ nhịp tăng ngắn hạn.",
+      "ket_qua": "ĐÚNG",
+      "nhan_xet": "MBB đóng cửa tại 19,9 sau 5 phiên thử thách, hoàn thành đúng mốc giữ hỗ trợ."
+     },
+     {
+      "id": "ff59714d23",
+      "noi_dung": "VN-Index giữ vững trên mốc đáy 1.682,54 điểm trong 3 phiên tới để xác nhận đáy ngắn hạn.",
+      "ket_qua": "ĐÚNG",
+      "nhan_xet": "Chỉ số hồi phục tốt lên 1.760,63 điểm, giữ vững vùng đáy ngắn hạn."
+     },
+     {
+      "id": "6032001c55",
+      "noi_dung": "CTG duy trì trên vùng hỗ trợ 29,7 để hướng lên thử thách cản 31,7.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "CTG đóng phiên ở 30,55, vẫn giữ tốt trên vùng 29,7 sau 4 phiên."
+     },
+     {
+      "id": "a4834e59dd",
+      "noi_dung": "GMD giữ vững trên vùng đệm 52,14 để kiểm định đỉnh cũ 56,0.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "GMD bứt phá mạnh lên 57,5, vượt đỉnh cũ thành công."
+     },
+     {
+      "id": "31cd08af06",
+      "noi_dung": "SSI duy trì giá đóng cửa trên đường MA10 quanh 19,28 để củng cố nhịp hồi phục.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "SSI lùi nhẹ về 20,15 nhưng vẫn nằm an toàn trên mốc MA10."
+     },
+     {
+      "id": "c8586e3fea",
+      "noi_dung": "VN-Index duy trì giá đóng cửa trên mốc đáy 1.677,19 điểm trong 3 phiên tới.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "Chỉ số hiện đạt 1.760,63 điểm, cách xa mốc đáy cũ."
+     },
+     {
+      "id": "a1b588c53f",
+      "noi_dung": "HPG duy trì giá đóng cửa trên đường MA20 quanh 20,5 để hướng tới cản 21,55.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "HPG neo ở 21,25, duy trì vị thế phía trên MA20."
+     },
+     {
+      "id": "06f2328fbd",
+      "noi_dung": "NKG giữ vững trên đường MA50 quanh 10,45 sau phiên bùng nổ thanh khoản.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "NKG tiếp đà tăng mạnh lên 12,0, vận động vượt kỳ vọng ngắn hạn."
+     },
+     {
+      "id": "f079491ca1",
+      "noi_dung": "VN-Index duy trì giá đóng cửa trên mốc hỗ trợ 1.715,91 điểm trong 3 phiên tới để giữ khoảng trống giá vừa mở.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "Chỉ số mở thêm gap tăng lên 1.760,63, mốc 1.715,91 được bảo toàn nguyên vẹn."
+     },
+     {
+      "id": "2fd8fe80bf",
+      "noi_dung": "TCB giữ vững trên mốc 33,7 để duy trì đà bứt phá hướng tới đỉnh 35,2.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "TCB điều chỉnh nhẹ về 34,15, vẫn nằm trên vùng hỗ trợ 33,7."
+     },
+     {
+      "id": "7d4f038e0d",
+      "noi_dung": "SSI duy trì đóng cửa trên vùng hỗ trợ 19,65 để củng cố nhịp hồi phục trên MA20.",
+      "ket_qua": "đang mở",
+      "nhan_xet": "SSI chốt phiên 20,15, giữ vững trên biên hỗ trợ 19,65."
+     }
+    ],
     "the_gioi": [
      {
       "bien": "Dầu Brent",
-      "muc": "112.2 lúc 15:11",
-      "kenh_truyen_dan": "1 phiên 3,11%, 20 phiên 5,25%",
-      "he_qua_neu_vuot": "cao 20 phiên 112.2 / thấp 100.2",
+      "muc": "112,13 USD/thùng (15:24)",
+      "nguong": "112,13 (đỉnh 3 tháng và 20 phiên)",
+      "kenh_truyen_dan": "Chi phí năng lượng và vận tải đầu vào tăng, tạo áp lực lạm phát kỳ vọng nhưng hỗ trợ trực tiếp nhóm cổ phiếu dầu khí thượng nguồn.",
+      "he_qua_neu_vuot": "Nếu neo vững trên 112 USD/thùng, giá xăng dầu trong nước có thể đối mặt chu kỳ điều chỉnh tăng, kích hoạt dòng tiền đầu cơ nhóm thượng nguồn PVD, PVS.",
       "nhan": "FACT"
      },
      {
-      "bien": "DXY",
-      "muc": "101.605 lúc 15:11",
-      "kenh_truyen_dan": "1 phiên -0,17%, 20 phiên 0,31%",
-      "he_qua_neu_vuot": "cao 20 phiên 102.58 / thấp 100.97",
+      "bien": "Lợi suất TPCP Mỹ 10 năm (US10Y)",
+      "muc": "5,146% (01:59)",
+      "nguong": "5,311% (đỉnh 3 tháng)",
+      "kenh_truyen_dan": "Định giá tài sản tài chính và chi phí huy động vốn quốc tế.",
+      "he_qua_neu_vuot": "US10Y duy trì trên 5,1% tiếp tục là rào cản khiến dòng vốn ngoại khó quay lại mua ròng quy mô lớn một cách bền vững.",
+      "nhan": "INTERPRETATION"
+     },
+     {
+      "bien": "Tỷ giá USD/VND liên ngân hàng",
+      "muc": "25.856 đồng (09:32)",
+      "nguong": "25.991 đồng (cao 20 phiên)",
+      "kenh_truyen_dan": "Chính sách tiền tệ trong nước và dư địa nới lỏng lãi suất của Ngân hàng Nhà nước.",
+      "he_qua_neu_vuot": "Tỷ giá hạ nhiệt về đáy 20 phiên giúp giải tỏa bớt áp lực hút thanh khoản từ nhà điều hành, hỗ trợ lãi suất duy trì ở mức thấp.",
       "nhan": "FACT"
      },
      {
-      "bien": "Lợi suất TPCP Mỹ 10 năm",
-      "muc": "5.146 lúc 01:59",
-      "kenh_truyen_dan": "1 phiên 0,57%, 20 phiên 0,63%",
-      "he_qua_neu_vuot": "cao 20 phiên 5.311 / thấp 5.089",
-      "nhan": "FACT"
-     },
-     {
-      "bien": "USD/VND",
-      "muc": "25856.0 lúc 09:32",
-      "kenh_truyen_dan": "1 phiên -0,06%, 20 phiên -0,58%",
-      "he_qua_neu_vuot": "cao 20 phiên 25991.0 / thấp 25856.0",
-      "nhan": "FACT"
-     },
-     {
-      "bien": "S&P 500 (phiên đêm qua)",
-      "muc": "7757.17 lúc 03:31",
-      "kenh_truyen_dan": "1 phiên 0,58%, 20 phiên 0,66%",
-      "he_qua_neu_vuot": "cao 20 phiên 7818.9302 / thấp 7651.54",
-      "nhan": "FACT"
-     },
-     {
-      "bien": "Hợp đồng tương lai S&P 500 (đang chạy)",
-      "muc": "7719.5 lúc 15:11",
-      "kenh_truyen_dan": "1 phiên -1,04%, 20 phiên -0,61%",
-      "he_qua_neu_vuot": "cao 20 phiên 7874.0 / thấp 7704.25",
-      "nhan": "FACT"
-     },
-     {
-      "bien": "Shanghai Composite",
-      "muc": "3658.026 lúc 14:00",
-      "kenh_truyen_dan": "1 phiên -1,48%, 20 phiên -6,00%",
-      "he_qua_neu_vuot": "cao 20 phiên 3952.1279 / thấp 3658.0256",
-      "nhan": "FACT"
-     },
-     {
-      "bien": "Hang Seng",
-      "muc": "22919.11 lúc 15:06",
-      "kenh_truyen_dan": "1 phiên -3,10%, 20 phiên -8,64%",
-      "he_qua_neu_vuot": "cao 20 phiên 24834.1191 / thấp 22919.1094",
-      "nhan": "FACT"
+      "bien": "Thị trường chứng khoán châu Á (KOSPI, Hang Seng, Nikkei 225)",
+      "muc": "KOSPI -3,52%, Hang Seng -3,03%, Nikkei -2,65% (chiều 22/10)",
+      "nguong": "Đáy 20 phiên và 3 tháng đối với KOSPI và Hang Seng",
+      "kenh_truyen_dan": "Tâm lý nhà đầu tư khu vực và rủi ro điều chỉnh đồng pha.",
+      "he_qua_neu_vuot": "Sự sụt giảm mạnh của các thị trường lớn trong khu vực tạo sự tương phản rõ rệt với đà tăng điểm của VN-Index.",
+      "nhan": "OBSERVATION"
      }
     ],
+    "suc_khoe_vn": "VN-Index tăng 21,96 điểm (+1,26%) lên mức 1.760,63 điểm. Tuy nhiên độ rộng thị trường lại lệch pha tiêu cực với 147 mã tăng, 164 mã giảm, 2 mã trần và 3 mã sàn. Điểm số tăng mạnh nhưng không có sự đồng thuận từ độ rộng cho thấy thị trường xanh vỏ đỏ lòng rõ nét.",
+    "thanh_khoan": "Thanh khoản khớp lệnh đạt 13.300,6 tỷ đồng, cao hơn mức trung bình 20 phiên (12.237 tỷ đồng) khoảng 8,7%, nhưng sụt giảm đáng kể so với mức 17.071 tỷ đồng của phiên hôm qua. Thỏa thuận chiếm 1.999,1 tỷ đồng (13,1% tổng giá trị). Thị trường ở trạng thái có tiền nhẹ nhưng dòng tiền chọn lọc khắt khe chứ không lan tỏa.",
+    "dong_tien": "Khối ngoại mua ròng 341,6 tỷ đồng trên HOSE, tập trung gom VIC (+239,44 tỷ), TCB (+177,57 tỷ), VHM (+160,57 tỷ), MSN (+140,8 tỷ) và xả mạnh FPT (-264,19 tỷ). Tự doanh phiên 21/10 bán ròng 132,4 tỷ đồng. Dòng tiền nghiêng về trạng thái mua tập trung vào một vài mã bluechip riêng lẻ, chưa phải đợt risk-on trên toàn bộ các ngành.",
+    "index_distortion": "Hiện tượng méo mó chỉ số ở mức cực đoan: riêng nhóm cổ phiếu Vin (VIC, VHM, VRE, VPL) đã đóng góp tới +19,56 điểm vào đà tăng của chỉ số, trong đó VIC đóng góp tới +14,87 điểm. Toàn bộ phần còn lại của sàn HOSE chỉ đóng góp khiêm tốn khoảng 2,4 điểm. Nếu không có nhóm Vin kéo trụ, VN-Index gần như đi ngang.",
+    "ky_thuat_chi_so": {
+     "moc_chinh": "Vùng 1.756–1.780",
+     "loai_moc": "CAN",
+     "nguon_goc": "Vùng cản 5 sao với 7 lần chạm, hội tụ đường MA50 (1.772 điểm) cùng nhiều đỉnh và đáy cũ trong quá khứ.",
+     "vi_sao_thi_truong_nhan_ra": "Đây là vùng tranh chấp dày đặc khiến chỉ số rung lắc mỗi khi chạm tới; giá đóng cửa hôm nay (1.760,63) đang trực tiếp kiểm định biên dưới của vùng này.",
+     "neu_giu": "Nếu duy trì vững trên 1.756 điểm kèm thanh khoản cải thiện, chỉ số có cơ hội hướng lên thử thách cạnh trên quanh 1.780 và xa hơn là MA200 quanh 1.796 điểm.",
+     "neu_thung": "Nếu quay đầu đánh mất 1.756 điểm, rủi ro lấp lại gap 1.738–1.746 sẽ mở ra, kéo chỉ số lùi về vùng hỗ trợ 1.725–1.742 điểm.",
+     "xac_nhan": "Cần một phiên nổ thanh khoản vượt dứt khoát 1.780 điểm với sự đồng thuận của độ rộng trên 250 mã xanh.",
+     "vo_hieu": "Đóng cửa dưới 1.738 điểm, xác nhận nhịp rướn vừa qua chỉ là bẫy tăng giá do kéo trụ.",
+     "ho_tro_ke_tiep": "Vùng 1.725–1.742 điểm (4 sao, 4 lần chạm, chân nến tăng mạnh)."
+    },
+    "regime": {
+     "ten": "Rotation/Divergence",
+     "co_tien": "có tiền",
+     "ung_ho": [
+      "Thanh khoản khớp lệnh vượt 1,09 lần trung bình 20 phiên.",
+      "Sự bứt phá cục bộ ở nhóm dầu khí (BSR, PVD, PVS), cảng biển (GMD, VSC) và nhóm bất động sản vốn hóa lớn.",
+      "Khối ngoại tiếp tục mua ròng phiên thứ hai liên tiếp."
+     ],
+     "phan_bac": [
+      "Độ rộng nghiêng về phe giảm (164 mã đỏ so với 147 mã xanh).",
+      "Hơn 89% điểm tăng của VN-Index đến từ 4 cổ phiếu họ Vin, các nhóm nhạy cảm như ngân hàng và chứng khoán bị chốt lời nhẹ."
+     ],
+     "so_voi_den_nsi": "Hệ thống NSI báo 'không đọc được' đèn tín hiệu; dữ liệu thực tế cho thấy thị trường đang phân hóa mạnh, tiền xoay vòng vào các cổ phiếu có câu chuyện kết quả kinh doanh quý 3 hoặc hưởng lợi từ giá hàng hóa."
+    },
     "nganh": [
      {
       "nhom": "Ngân hàng",
-      "nhan_dinh": "5 mã tăng / 7 mã giảm trong rổ.",
+      "nhan_dinh": "Nhóm ngân hàng chịu áp lực hạ nhiệt nhẹ (-0,19%), phân hóa rõ nét khi các mã tăng nóng trước đó chững lại.",
       "ma": [
        {
         "ma": "VCB",
-        "cau_truc": "dưới cả 4 đường MA, 4 phiên dưới MA10 (nhóm đáy/downtrend); đã gãy chân nến phát động 2026-07-31",
+        "cau_truc": "Nằm dưới tất cả các đường MA ngắn và dài hạn, đang test vùng đáy 20 phiên.",
         "moc_theo_doi": 55.5,
         "sl": 55.5,
-        "muc_tieu": 58.05,
-        "thung_thi": "về vùng 53,30",
-        "xac_nhan": "lấy lại MA20 (56,96)",
-        "diem_dung_cach_pct": 1.4,
+        "muc_tieu": 57.2,
+        "thung_thi": "Nếu thủng 55,5 thì rơi về đáy cũ 53,3.",
+        "xac_nhan": "Vượt 57,2 lấy lại MA10/MA20.",
+        "diem_dung_cach_pct": 1.42,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,93, P/E 11,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "BID",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-05-18",
-        "moc_theo_doi": 33.228,
-        "sl": 33.23,
-        "muc_tieu": 34.55,
-        "thung_thi": "về vùng 32,15",
-        "xac_nhan": "lấy lại MA20 (34,39)",
-        "diem_dung_cach_pct": 1.7,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,40, P/E 8,2",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "CTG",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại",
-        "moc_theo_doi": 29.7,
-        "sl": 29.7,
-        "muc_tieu": 31.08,
-        "thung_thi": "về vùng 28,85",
-        "xac_nhan": "giữ trên MA20 (29,92) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,21, P/E 5,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "MBB",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại",
-        "moc_theo_doi": 19.1,
-        "sl": 19.1,
-        "muc_tieu": 20.52,
-        "thung_thi": "về vùng 18,65",
-        "xac_nhan": "giữ trên MA20 (19,48) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,28, P/E 6,7",
+        "dinh_gia": "P/B 1,93; P/E 11,3",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "TCB",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 33.28,
-        "sl": 33.28,
-        "muc_tieu": 35.65,
-        "thung_thi": "về vùng 32,03",
-        "xac_nhan": "giữ trên MA20 (32,92) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.6,
+        "cau_truc": "Kênh trên, nằm trên toàn bộ MA10, MA20, MA50, MA200; cấu trúc tăng vững.",
+        "moc_theo_doi": 33.7,
+        "sl": 33.7,
+        "muc_tieu": 35.16,
+        "thung_thi": "Thủng 33,7 sẽ lùi về vùng đệm MA20 quanh 32,8–32,9.",
+        "xac_nhan": "Duy trì trên 34,0 và bứt phá qua 35,2.",
+        "diem_dung_cach_pct": 1.32,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,30, P/E 8,5",
+        "dinh_gia": "P/B 1,3; P/E 8,5",
         "nhan": "OBSERVATION"
        },
        {
-        "ma": "ACB",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-09",
-        "moc_theo_doi": 20.291,
-        "sl": 20.29,
-        "muc_tieu": 21.3,
-        "thung_thi": "về vùng 19,95",
-        "xac_nhan": "lấy lại MA20 (20,68)",
-        "diem_dung_cach_pct": 1.0,
+        "ma": "CTG",
+        "cau_truc": "Nằm trên MA10 và MA20, đang áp sát đường MA50 quanh 30,7.",
+        "moc_theo_doi": 29.7,
+        "sl": 29.7,
+        "muc_tieu": 31.7,
+        "thung_thi": "Thủng 29,7 sẽ quay lại đáy 28,85.",
+        "xac_nhan": "Vượt dứt khoát 30,7 kèm thanh khoản lớn.",
+        "diem_dung_cach_pct": 2.78,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,19, P/E 7,6",
+        "dinh_gia": "P/B 1,21; P/E 5,9",
         "nhan": "OBSERVATION"
        },
        {
-        "ma": "STB",
-        "cau_truc": "dưới cả 4 đường MA, 18 phiên dưới MA10 (nhóm đáy/downtrend); đã gãy chân nến phát động 2026-06-04",
-        "moc_theo_doi": 63.6,
-        "sl": 63.6,
-        "muc_tieu": 65.6,
-        "thung_thi": "về vùng 61,10",
-        "xac_nhan": "lấy lại MA20 (67,66)",
-        "diem_dung_cach_pct": 0.8,
+        "ma": "MBB",
+        "cau_truc": "Đang test vùng 19,6–20,18, nằm ngay sát MA50.",
+        "moc_theo_doi": 19.6,
+        "sl": 19.38,
+        "muc_tieu": 20.82,
+        "thung_thi": "Thủng 19,38 sẽ lùi về vùng 18,82.",
+        "xac_nhan": "Đóng cửa vượt 20,2 để thoát vùng tích lũy.",
+        "diem_dung_cach_pct": 2.61,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,89, P/E 38,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VPB",
-        "cau_truc": "trên MA20/MA50/MA200, dưới các MA còn lại",
-        "moc_theo_doi": 23.62,
-        "sl": 23.62,
-        "muc_tieu": 24.13,
-        "thung_thi": "về vùng 23,07",
-        "xac_nhan": "giữ trên MA20 (23,67) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.4,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,28, P/E 7,7",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "HDB",
-        "cau_truc": "trên MA20/MA50/MA200, dưới các MA còn lại",
-        "moc_theo_doi": 22.11,
-        "sl": 22.11,
-        "muc_tieu": 22.96,
-        "thung_thi": "về vùng 21,62",
-        "xac_nhan": "giữ trên MA20 (22,03) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,68, P/E 7,5",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "SHB",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-07-30",
-        "moc_theo_doi": 9.55,
-        "sl": 10.04,
-        "muc_tieu": 10.9,
-        "thung_thi": "chưa có hỗ trợ gần hơn trong dữ liệu",
-        "xac_nhan": "lấy lại MA20 (10,81)",
-        "diem_dung_cach_pct": 13.1,
-        "rong_hon_chuan_7": true,
-        "dinh_gia": "P/B 0,70, P/E 4,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "LPB",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-24",
-        "moc_theo_doi": 37.8,
-        "sl": 37.8,
-        "muc_tieu": 40.3,
-        "thung_thi": "về vùng 37,20",
-        "xac_nhan": "lấy lại MA20 (40,99)",
-        "diem_dung_cach_pct": 3.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,55, P/E 10,5",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "MSB",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 15.0,
-        "sl": 15.0,
-        "muc_tieu": 15.6,
-        "thung_thi": "về vùng 14,45",
-        "xac_nhan": "giữ trên MA20 (14,54) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.7,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,29, P/E 9,9",
+        "dinh_gia": "P/B 1,28; P/E 6,7",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "TPB",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 12.46,
-        "sl": 12.46,
-        "muc_tieu": 13.2,
-        "thung_thi": "về vùng 12,02",
-        "xac_nhan": "giữ trên MA20 (11,97) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.3,
+        "cau_truc": "Bứt phá mạnh với thanh khoản gấp 2,67 lần trung bình 20 phiên, vượt qua MA50.",
+        "moc_theo_doi": 12.28,
+        "sl": 12.28,
+        "muc_tieu": 13.01,
+        "thung_thi": "Thủng 12,28 cấu trúc bật tăng bị gãy.",
+        "xac_nhan": "Chinh phục thành công cản MA200 tại 13,23.",
+        "diem_dung_cach_pct": 3.69,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,91, P/E 5,3",
+        "dinh_gia": "P/B 0,91; P/E 5,3",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "STB",
+        "cau_truc": "Hồi phục nhẹ sau nhịp rơi sâu, vẫn nằm dưới MA20 và MA50.",
+        "moc_theo_doi": 63.5,
+        "sl": 60.8,
+        "muc_tieu": 66.4,
+        "thung_thi": "Thủng 60,8 sẽ phá đáy 20 phiên.",
+        "xac_nhan": "Vượt 66,4 để xác nhận tạo hai đáy.",
+        "diem_dung_cach_pct": 5.15,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 1,89; P/E 38,6",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Chứng khoán",
-      "nhan_dinh": "1 mã tăng / 9 mã giảm trong rổ.",
+      "nhan_dinh": "Thước đo tâm lý thị trường có dấu hiệu chững lại và điều chỉnh nhẹ sau phiên bùng nổ hôm qua, áp lực chốt lời xuất hiện tại MA50.",
       "ma": [
        {
         "ma": "SSI",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại",
+        "cau_truc": "Đang test vùng cản MA50 quanh 19,65–20,14, giữ vững trên MA10 và MA20.",
         "moc_theo_doi": 19.65,
-        "sl": 19.65,
-        "muc_tieu": 20.38,
-        "thung_thi": "về vùng 19,20",
-        "xac_nhan": "giữ trên MA20 (19,70) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.5,
+        "sl": 19.2,
+        "muc_tieu": 20.78,
+        "thung_thi": "Thủng 19,2 sẽ lùi về kiểm định đáy 18,65.",
+        "xac_nhan": "Vượt dứt khoát 20,38 với thanh khoản lớn.",
+        "diem_dung_cach_pct": 4.71,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,61, P/E 12,8",
+        "dinh_gia": "P/B 1,61; P/E 12,8",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "VCI",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 19.2,
-        "sl": 19.2,
-        "muc_tieu": 20.13,
-        "thung_thi": "về vùng 18,15",
-        "xac_nhan": "giữ trên MA20 (19,05) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,34, P/E 16,2",
+        "cau_truc": "Nằm trên MA10/MA20, gặp kháng cự MA50 tại 20,36.",
+        "moc_theo_doi": 19.15,
+        "sl": 18.05,
+        "muc_tieu": 20.15,
+        "thung_thi": "Thủng 19,15 sẽ lấp lại gap 19,1.",
+        "xac_nhan": "Bứt phá qua 20,15 để hướng tới 20,95.",
+        "diem_dung_cach_pct": 7.44,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,34; P/E 16,2",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "HCM",
-        "cau_truc": "trên MA10/MA20/MA200, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 23.3,
-        "sl": 23.3,
-        "muc_tieu": 24.84,
-        "thung_thi": "về vùng 22,93",
-        "xac_nhan": "giữ trên MA20 (23,71) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.4,
+        "cau_truc": "Nằm trên MA200 (22,93), đang tích lũy trong vùng 23,7–24,33.",
+        "moc_theo_doi": 23.41,
+        "sl": 22.93,
+        "muc_tieu": 25.2,
+        "thung_thi": "Thủng 22,93 gãy xu hướng trung hạn MA200.",
+        "xac_nhan": "Vượt vùng cản MA50 tại 24,91.",
+        "diem_dung_cach_pct": 4.85,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,84, P/E 22,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VND",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 12.6,
-        "sl": 12.79,
-        "muc_tieu": 13.9,
-        "thung_thi": "chưa có hỗ trợ gần hơn trong dữ liệu",
-        "xac_nhan": "giữ trên MA20 (13,53) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 9.1,
-        "rong_hon_chuan_7": true,
-        "dinh_gia": "P/B 0,97, P/E 7,8",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VIX",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại",
-        "moc_theo_doi": 12.3,
-        "sl": 12.3,
-        "muc_tieu": 12.68,
-        "thung_thi": "về vùng 11,95",
-        "xac_nhan": "giữ trên MA20 (11,99) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.0,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,99, P/E 19,4",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "SHS",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 12.54,
-        "sl": 12.54,
-        "muc_tieu": 13.06,
-        "thung_thi": "về vùng 10,80",
-        "xac_nhan": "giữ trên MA20 (12,35) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,96, P/E 11,5",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "MBS",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 14.94,
-        "sl": 14.94,
-        "muc_tieu": 16.06,
-        "thung_thi": "về vùng 13,50",
-        "xac_nhan": "giữ trên MA20 (15,27) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.4,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,41, P/E 13,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "CTS",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 20.82,
-        "sl": 20.82,
-        "muc_tieu": 22.53,
-        "thung_thi": "về vùng 20,25",
-        "xac_nhan": "giữ trên MA20 (20,38) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.0,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,09, P/E 53,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "FTS",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 18.3,
-        "sl": 18.3,
-        "muc_tieu": 19.7,
-        "thung_thi": "về vùng 17,25",
-        "xac_nhan": "giữ trên MA20 (18,61) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 5.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,65, P/E 18,4",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "BSI",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 26.65,
-        "sl": 26.65,
-        "muc_tieu": 27.7,
-        "thung_thi": "về vùng 26,00",
-        "xac_nhan": "giữ trên MA20 (25,39) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 0.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,25, P/E 15,5",
+        "dinh_gia": "P/B 1,84; P/E 22,6",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "TCX",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-16",
-        "moc_theo_doi": 28.96,
-        "sl": 28.96,
-        "muc_tieu": 30.55,
-        "thung_thi": "về vùng 26,60",
-        "xac_nhan": "giữ trên MA20 (28,19) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.1,
+        "cau_truc": "Khỏe nhất dòng khi tăng gần 3% với thanh khoản gấp 2,4 lần trung bình 20 phiên.",
+        "moc_theo_doi": 28.7,
+        "sl": 28.0,
+        "muc_tieu": 31.0,
+        "thung_thi": "Thủng 28,0 sẽ lấp gap và mất hỗ trợ ngắn hạn.",
+        "xac_nhan": "Vượt cản 31,0 để tiếp tục đà hồi phục.",
+        "diem_dung_cach_pct": 6.2,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,04, P/E 15,5",
+        "dinh_gia": "P/B 2,04; P/E 15,5",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Bất động sản",
-      "nhan_dinh": "10 mã tăng / 2 mã giảm trong rổ.",
+      "nhan_dinh": "Tâm điểm kéo chỉ số phiên hôm nay nhờ nhóm Vin, các mã dân cư tầm trung duy trì giữ nền.",
       "ma": [
        {
-        "ma": "VHM",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-07-30",
-        "moc_theo_doi": 63.26,
-        "sl": 63.26,
-        "muc_tieu": 66.1,
-        "thung_thi": "về vùng 61,75",
-        "xac_nhan": "lấy lại MA20 (65,17)",
-        "diem_dung_cach_pct": 1.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,93, P/E 6,4",
-        "nhan": "OBSERVATION"
-       },
-       {
         "ma": "VIC",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 229.9,
-        "sl": 229.9,
-        "muc_tieu": 238.8,
-        "thung_thi": "về vùng 223,60",
-        "xac_nhan": "giữ trên MA20 (223,91) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.3,
+        "cau_truc": "Bứt phá mạnh +4,16%, nằm trên tất cả MA, động lực chính của chỉ số.",
+        "moc_theo_doi": 227.8,
+        "sl": 219.1,
+        "muc_tieu": 242.0,
+        "thung_thi": "Thủng 227,8 sẽ lùi về lấp gap 223,6.",
+        "xac_nhan": "Vượt đỉnh cũ 242,0.",
+        "diem_dung_cach_pct": 5.93,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 10,08, P/E 80,9",
+        "dinh_gia": "P/B 10,08; P/E 80,9",
         "nhan": "OBSERVATION"
        },
        {
-        "ma": "VRE",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 25.05,
-        "sl": 25.05,
-        "muc_tieu": 26.3,
-        "thung_thi": "về vùng 24,75",
-        "xac_nhan": "giữ trên MA20 (23,61) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.0,
+        "ma": "VHM",
+        "cau_truc": "Tăng 3,56% vượt MA10, đang áp sát MA200 quanh 64,9 và MA20 quanh 65,17.",
+        "moc_theo_doi": 63.22,
+        "sl": 61.39,
+        "muc_tieu": 67.0,
+        "thung_thi": "Thủng 61,39 sẽ quay về đáy cũ 57,6.",
+        "xac_nhan": "Vượt hoàn toàn MA200 tại 65,2.",
+        "diem_dung_cach_pct": 4.08,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,19, P/E 7,8",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VPL",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 83.3,
-        "sl": 83.3,
-        "muc_tieu": 88.2,
-        "thung_thi": "về vùng 81,88",
-        "xac_nhan": "giữ trên MA20 (79,67) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 3,46, P/E 51,9",
+        "dinh_gia": "P/B 1,93; P/E 6,4",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "KDH",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 14.75,
-        "sl": 14.75,
-        "muc_tieu": 15.0,
-        "thung_thi": "về vùng 14,27",
-        "xac_nhan": "giữ trên MA20 (13,87) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.0,
+        "cau_truc": "Lấy lại MA50 tại 14,88, đang tích lũy nền trên.",
+        "moc_theo_doi": 14.73,
+        "sl": 14.2,
+        "muc_tieu": 15.5,
+        "thung_thi": "Thủng 14,2 sẽ mất hỗ trợ khối lượng lớn.",
+        "xac_nhan": "Vượt dứt khoát 15,0.",
+        "diem_dung_cach_pct": 4.7,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,99, P/E 10,4",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "NLG",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-09-04",
-        "moc_theo_doi": 22.48,
-        "sl": 22.48,
-        "muc_tieu": 23.74,
-        "thung_thi": "về vùng 21,70",
-        "xac_nhan": "giữ trên MA20 (21,82) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.0,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,89, P/E 18,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "DXG",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 10.23,
-        "sl": 10.23,
-        "muc_tieu": 10.75,
-        "thung_thi": "về vùng 9,79",
-        "xac_nhan": "giữ trên MA20 (10,09) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,94, P/E 69,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "PDR",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-24",
-        "moc_theo_doi": 11.8,
-        "sl": 11.8,
-        "muc_tieu": 12.43,
-        "thung_thi": "về vùng 11,45",
-        "xac_nhan": "giữ trên MA20 (11,30) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,95, P/E 19,5",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "DIG",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 9.73,
-        "sl": 9.73,
-        "muc_tieu": 10.31,
-        "thung_thi": "về vùng 9,62",
-        "xac_nhan": "giữ trên MA20 (9,51) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.3,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,86, P/E 11,2",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "NVL",
-        "cau_truc": "trên MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-07-16",
-        "moc_theo_doi": 10.51,
-        "sl": 10.51,
-        "muc_tieu": 11.22,
-        "thung_thi": "về vùng 10,23",
-        "xac_nhan": "giữ trên MA20 (10,69) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,61, P/E 8,2",
+        "dinh_gia": "P/B 0,99; P/E 10,4",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "HDC",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 11.45,
-        "sl": 11.45,
-        "muc_tieu": 11.95,
-        "thung_thi": "về vùng 11,25",
-        "xac_nhan": "giữ trên MA20 (10,47) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.7,
+        "cau_truc": "Bật tăng mạnh 4,48% kèm thanh khoản nổ gấp 4,19 lần trung bình 20 phiên.",
+        "moc_theo_doi": 11.25,
+        "sl": 11.0,
+        "muc_tieu": 12.0,
+        "thung_thi": "Thủng 11,0 mất cây nến phát động.",
+        "xac_nhan": "Đóng cửa vượt hẳn 12,0.",
+        "diem_dung_cach_pct": 5.58,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,88, P/E 3,8",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "TCH",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 11.64,
-        "sl": 11.64,
-        "muc_tieu": 12.75,
-        "thung_thi": "về vùng 11,33",
-        "xac_nhan": "giữ trên MA20 (11,17) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,03, P/E 40,0",
+        "dinh_gia": "P/B 0,88; P/E 3,8",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Thép",
-      "nhan_dinh": "2 mã tăng / 0 mã giảm trong rổ.",
+      "nhan_dinh": "Phân hóa tích cực, NKG dẫn dắt đà tăng trong khi HPG làm mốc neo giữ nhịp ổn định.",
       "ma": [
        {
         "ma": "HPG",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-15",
-        "moc_theo_doi": 20.88,
-        "sl": 20.88,
-        "muc_tieu": 21.8,
-        "thung_thi": "về vùng 19,85",
-        "xac_nhan": "giữ trên MA20 (20,53) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.8,
+        "cau_truc": "Nằm trên MA10, MA20 và MA50; thanh khoản vừa phải.",
+        "moc_theo_doi": 20.75,
+        "sl": 20.1,
+        "muc_tieu": 22.1,
+        "thung_thi": "Thủng 20,75 sẽ test lại đáy 19,6.",
+        "xac_nhan": "Bứt phá qua vùng cản dày 21,5.",
+        "diem_dung_cach_pct": 5.41,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,27, P/E 7,7",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "HSG",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 10.66,
-        "sl": 10.66,
-        "muc_tieu": 11.12,
-        "thung_thi": "về vùng 10,30",
-        "xac_nhan": "giữ trên MA20 (10,23) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.7,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,75, P/E 13,5",
+        "dinh_gia": "P/B 1,27; P/E 7,7",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "NKG",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 11.68,
-        "sl": 11.68,
-        "muc_tieu": 12.36,
-        "thung_thi": "về vùng 11,29",
-        "xac_nhan": "giữ trên MA20 (10,00) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.7,
+        "cau_truc": "Cực khỏe, tăng 3,45% với khối lượng gấp 2,5 lần trung bình, đang test MA200 tại 12,09.",
+        "moc_theo_doi": 11.65,
+        "sl": 11.4,
+        "muc_tieu": 12.54,
+        "thung_thi": "Thủng 11,4 sẽ mất đà bứt phá.",
+        "xac_nhan": "Đóng cửa dứt khoát trên 12,1.",
+        "diem_dung_cach_pct": 5.0,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,75, P/E 34,3",
+        "dinh_gia": "P/B 0,75; P/E 34,3",
+        "nhan": "OBSERVATION"
+       },
+       {
+        "ma": "HSG",
+        "cau_truc": "Đi ngang quanh 10,95, nằm trên MA10 và MA50 nhưng chạm cản đỉnh 20 phiên.",
+        "moc_theo_doi": 10.5,
+        "sl": 10.15,
+        "muc_tieu": 11.5,
+        "thung_thi": "Thủng 10,5 sẽ gãy nền tích lũy ngắn.",
+        "xac_nhan": "Vượt vùng cản 11,25.",
+        "diem_dung_cach_pct": 7.31,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 0,75; P/E 13,5",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Khu công nghiệp",
-      "nhan_dinh": "4 mã tăng / 2 mã giảm trong rổ.",
+      "nhan_dinh": "Duy trì xu hướng tăng ngắn hạn tốt, dòng tiền chọn lọc vào các mã bứt phá nền như IDC và SZC.",
       "ma": [
        {
-        "ma": "KBC",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-11",
-        "moc_theo_doi": 26.48,
-        "sl": 26.48,
-        "muc_tieu": 27.6,
-        "thung_thi": "về vùng 25,66",
-        "xac_nhan": "giữ trên MA20 (25,74) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.3,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,98, P/E 14,5",
-        "nhan": "OBSERVATION"
-       },
-       {
         "ma": "IDC",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-05-20",
-        "moc_theo_doi": 34.85,
-        "sl": 34.85,
-        "muc_tieu": 36.96,
-        "thung_thi": "về vùng 33,70",
-        "xac_nhan": "giữ trên MA20 (34,28) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.7,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,35, P/E 6,7",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "BCM",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 40.25,
-        "sl": 40.25,
-        "muc_tieu": 41.56,
-        "thung_thi": "về vùng 38,67",
-        "xac_nhan": "giữ trên MA20 (39,13) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.4,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,95, P/E 21,9",
+        "cau_truc": "Tăng 2,58%, bám sát MA200 quanh 36,65, xu hướng các đường MA đều dốc lên.",
+        "moc_theo_doi": 34.5,
+        "sl": 33.18,
+        "muc_tieu": 37.57,
+        "thung_thi": "Thủng 34,5 sẽ gãy xu hướng tăng ngắn hạn.",
+        "xac_nhan": "Đóng nến vượt hẳn MA200 tại 36,65.",
+        "diem_dung_cach_pct": 7.32,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 2,35; P/E 6,7",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "SZC",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 18.877,
-        "sl": 18.88,
-        "muc_tieu": 20.99,
-        "thung_thi": "về vùng 17,83",
-        "xac_nhan": "giữ trên MA20 (17,50) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.8,
+        "cau_truc": "Khối lượng nổ gấp 2,87 lần trung bình, tiệm cận đỉnh 20 phiên tại 19,6.",
+        "moc_theo_doi": 18.59,
+        "sl": 18.59,
+        "muc_tieu": 21.0,
+        "thung_thi": "Thủng 18,59 lấp gap 18,6 và gãy nhịp rướn.",
+        "xac_nhan": "Vượt dứt khoát 19,73.",
+        "diem_dung_cach_pct": 5.15,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,14, P/E 21,9",
+        "dinh_gia": "P/B 1,14; P/E 21,9",
         "nhan": "OBSERVATION"
        },
        {
-        "ma": "VGC",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 43.46,
-        "sl": 43.46,
-        "muc_tieu": 46.35,
-        "thung_thi": "về vùng 42,95",
-        "xac_nhan": "giữ trên MA20 (43,94) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.7,
+        "ma": "KBC",
+        "cau_truc": "Nằm trên MA50, đang gặp cản dày vùng đỉnh cũ 27,2–28,0.",
+        "moc_theo_doi": 26.1,
+        "sl": 25.65,
+        "muc_tieu": 28.2,
+        "thung_thi": "Thủng 26,1 sẽ quay lại vùng đáy 24,15.",
+        "xac_nhan": "Vượt 28,0 giải phóng thế giằng co.",
+        "diem_dung_cach_pct": 5.35,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,70, P/E 14,1",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "GVR",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-11",
-        "moc_theo_doi": 31.1,
-        "sl": 31.1,
-        "muc_tieu": 32.95,
-        "thung_thi": "về vùng 29,42",
-        "xac_nhan": "lấy lại MA20 (32,43)",
-        "diem_dung_cach_pct": 2.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,10, P/E 18,2",
+        "dinh_gia": "P/B 0,98; P/E 14,5",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Đầu tư công",
-      "nhan_dinh": "1 mã tăng / 4 mã giảm trong rổ.",
+      "nhan_dinh": "Giao dịch cầm chừng, CII nổi bật nhờ dòng tiền riêng trong khi đa số mã đi ngang kiểm định lại kháng cự.",
       "ma": [
        {
+        "ma": "CII",
+        "cau_truc": "Tăng gần 3% với khối lượng gấp đôi trung bình, nằm trên MA10 và MA50.",
+        "moc_theo_doi": 13.75,
+        "sl": 13.3,
+        "muc_tieu": 14.6,
+        "thung_thi": "Thủng 13,3 gãy xu hướng hồi phục ngắn.",
+        "xac_nhan": "Vượt đỉnh 20 phiên tại 14,6.",
+        "diem_dung_cach_pct": 5.34,
+        "rong_hon_chuan_7": false,
+        "dinh_gia": "P/B 0,95; P/E 83,3",
+        "nhan": "OBSERVATION"
+       },
+       {
         "ma": "VCG",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-29",
+        "cau_truc": "Tích lũy quanh 15,5, nằm trên MA10, MA20 và MA50.",
         "moc_theo_doi": 14.7,
         "sl": 14.7,
-        "muc_tieu": 16.26,
-        "thung_thi": "về vùng 14,20",
-        "xac_nhan": "giữ trên MA20 (14,19) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 5.4,
+        "muc_tieu": 16.44,
+        "thung_thi": "Thủng 14,7 gãy nền tích lũy trên MA50.",
+        "xac_nhan": "Vượt 15,82 để mở rộng đà tăng.",
+        "diem_dung_cach_pct": 5.16,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,00, P/E 2,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "HHV",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-29",
-        "moc_theo_doi": 9.55,
-        "sl": 9.55,
-        "muc_tieu": 10.23,
-        "thung_thi": "về vùng 9,01",
-        "xac_nhan": "giữ trên MA20 (9,13) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.0,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,49, P/E 8,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "CII",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 13.8,
-        "sl": 13.8,
-        "muc_tieu": 14.45,
-        "thung_thi": "về vùng 13,30",
-        "xac_nhan": "giữ trên MA20 (12,47) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,95, P/E 83,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "PLC",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 20.4,
-        "sl": 20.4,
-        "muc_tieu": 21.79,
-        "thung_thi": "về vùng 20,16",
-        "xac_nhan": "giữ trên MA20 (19,29) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,22, P/E 11,7",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "CTD",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-05-14",
-        "moc_theo_doi": 64.15,
-        "sl": 64.15,
-        "muc_tieu": 66.38,
-        "thung_thi": "về vùng 63,30",
-        "xac_nhan": "giữ trên MA20 (61,58) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,77, P/E 9,4",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "C4G",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại",
-        "moc_theo_doi": 4.8,
-        "sl": 4.8,
-        "muc_tieu": 5.4,
-        "thung_thi": "về vùng 4,70",
-        "xac_nhan": "giữ trên MA20 (4,67) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 6.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,44, P/E 22,4",
+        "dinh_gia": "P/B 1,0; P/E 2,6",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Dầu khí",
-      "nhan_dinh": "7 mã tăng / 0 mã giảm trong rổ.",
+      "nhan_dinh": "Nhóm ngành mạnh nhất thị trường phiên hôm nay (+3,46%) nhờ hưởng lợi trực tiếp từ giá dầu Brent lập đỉnh 3 tháng.",
       "ma": [
        {
-        "ma": "GAS",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-09-15",
-        "moc_theo_doi": 77.064,
-        "sl": 77.06,
-        "muc_tieu": 82.23,
-        "thung_thi": "về vùng 75,50",
-        "xac_nhan": "lấy lại MA20 (79,39)",
-        "diem_dung_cach_pct": 1.3,
+        "ma": "PVD",
+        "cau_truc": "Bứt phá +5% với thanh khoản gấp 2,7 lần trung bình, vượt qua MA50 và chạm sát MA200.",
+        "moc_theo_doi": 18.0,
+        "sl": 17.65,
+        "muc_tieu": 19.9,
+        "thung_thi": "Thủng 18,0 mất chân nến tăng mạnh.",
+        "xac_nhan": "Đóng cửa vượt hoàn toàn MA200 tại 19,3.",
+        "diem_dung_cach_pct": 6.61,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,70, P/E 14,6",
+        "dinh_gia": "P/B 0,96; P/E 15,0",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "BSR",
-        "cau_truc": "trên MA50/MA200, dưới các MA còn lại",
-        "moc_theo_doi": 28.25,
-        "sl": 28.25,
-        "muc_tieu": 29.63,
-        "thung_thi": "về vùng 27,70",
-        "xac_nhan": "lấy lại MA20 (30,36)",
-        "diem_dung_cach_pct": 3.4,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,93, P/E 7,1",
+        "cau_truc": "Tăng 3,91% sau nhịp rũ bỏ chạm sát đáy cũ, lấy lại MA50 tại 28,86.",
+        "moc_theo_doi": 28.1,
+        "sl": 27.14,
+        "muc_tieu": 29.95,
+        "thung_thi": "Thủng 27,14 sẽ phá vỡ đáy 20 phiên.",
+        "xac_nhan": "Vượt dứt khoát 30,0.",
+        "diem_dung_cach_pct": 7.05,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,93; P/E 7,1",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "PVS",
-        "cau_truc": "trên MA10/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 32.0,
-        "sl": 32.0,
-        "muc_tieu": 33.62,
-        "thung_thi": "về vùng 31,58",
-        "xac_nhan": "lấy lại MA20 (32,95)",
-        "diem_dung_cach_pct": 1.6,
+        "cau_truc": "Tăng 2,2%, đang kiểm định vùng hội tụ MA50 và MA200 quanh 32,5–32,9.",
+        "moc_theo_doi": 31.16,
+        "sl": 30.83,
+        "muc_tieu": 34.0,
+        "thung_thi": "Thủng 30,83 sẽ quay lại đáy 29,0.",
+        "xac_nhan": "Vượt dứt khoát 33,0.",
+        "diem_dung_cach_pct": 5.14,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,26, P/E 9,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "PVD",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-07-14",
-        "moc_theo_doi": 18.75,
-        "sl": 18.75,
-        "muc_tieu": 19.62,
-        "thung_thi": "về vùng 18,26",
-        "xac_nhan": "giữ trên MA20 (18,16) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 0.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,96, P/E 15,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "PVT",
-        "cau_truc": "trên MA50/MA200, dưới các MA còn lại",
-        "moc_theo_doi": 23.19,
-        "sl": 23.19,
-        "muc_tieu": 26.35,
-        "thung_thi": "về vùng 22,40",
-        "xac_nhan": "lấy lại MA20 (24,20)",
-        "diem_dung_cach_pct": 1.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,25, P/E 8,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "PLX",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-18",
-        "moc_theo_doi": 35.3,
-        "sl": 35.3,
-        "muc_tieu": 37.46,
-        "thung_thi": "về vùng 34,85",
-        "xac_nhan": "lấy lại MA20 (35,91)",
-        "diem_dung_cach_pct": 1.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,84, P/E 13,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "OIL",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-09-15",
-        "moc_theo_doi": 12.96,
-        "sl": 12.96,
-        "muc_tieu": 13.9,
-        "thung_thi": "về vùng 12,70",
-        "xac_nhan": "giữ trên MA20 (13,23) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,29, P/E 22,0",
+        "dinh_gia": "P/B 1,26; P/E 9,3",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Bán lẻ - tiêu dùng",
-      "nhan_dinh": "2 mã tăng / 5 mã giảm trong rổ.",
+      "nhan_dinh": "Phân hóa mạnh, MWG và FRT neo giữ vùng cao trong khi PNJ chịu cú sốc thông tin sự cố kinh doanh.",
       "ma": [
        {
         "ma": "MWG",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 73.09,
-        "sl": 73.09,
-        "muc_tieu": 78.2,
-        "thung_thi": "về vùng 70,56",
-        "xac_nhan": "giữ trên MA20 (73,89) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.0,
+        "cau_truc": "Tích lũy chặt chẽ trên MA10, MA20 và MA50, đang kiểm định vùng 74,4–75,9.",
+        "moc_theo_doi": 72.04,
+        "sl": 70.56,
+        "muc_tieu": 79.1,
+        "thung_thi": "Thủng 72,04 gãy đường xu hướng MA50.",
+        "xac_nhan": "Vượt dứt khoát 77,3.",
+        "diem_dung_cach_pct": 6.3,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 3,27, P/E 11,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "DGW",
-        "cau_truc": "trên MA50/MA200, dưới các MA còn lại",
-        "moc_theo_doi": 44.9,
-        "sl": 44.9,
-        "muc_tieu": 47.12,
-        "thung_thi": "về vùng 42,95",
-        "xac_nhan": "lấy lại MA20 (45,73)",
-        "diem_dung_cach_pct": 1.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,93, P/E 12,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "MSN",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 71.7,
-        "sl": 71.7,
-        "muc_tieu": 76.55,
-        "thung_thi": "về vùng 68,91",
-        "xac_nhan": "giữ trên MA20 (71,86) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,83, P/E 16,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VNM",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-07",
-        "moc_theo_doi": 57.0,
-        "sl": 57.0,
-        "muc_tieu": 60.62,
-        "thung_thi": "về vùng 56,20",
-        "xac_nhan": "lấy lại MA20 (58,29)",
-        "diem_dung_cach_pct": 1.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 3,82, P/E 11,1",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "FRT",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 144.56,
-        "sl": 144.56,
-        "muc_tieu": 153.4,
-        "thung_thi": "về vùng 141,48",
-        "xac_nhan": "giữ trên MA20 (145,91) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 5,66, P/E 23,9",
+        "dinh_gia": "P/B 3,27; P/E 11,3",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "PNJ",
-        "cau_truc": "dưới cả 4 đường MA, 1 phiên dưới MA10 (nhóm đáy/downtrend); đã gãy chân nến phát động 2026-07-27",
+        "cau_truc": "Kênh dưới sâu, gãy toàn bộ các đường MA lớn sau chuỗi giảm mạnh.",
         "moc_theo_doi": 17.25,
-        "sl": 17.3,
+        "sl": 17.25,
         "muc_tieu": 19.24,
-        "thung_thi": "chưa có hỗ trợ gần hơn trong dữ liệu",
-        "xac_nhan": "lấy lại MA20 (21,71)",
-        "diem_dung_cach_pct": 7.8,
+        "thung_thi": "Thủng 17,25 tiếp tục tìm đáy mới trong lịch sử.",
+        "xac_nhan": "Cần lấp lại gap giảm 24,7–26,6 để hồi phục kỹ thuật.",
+        "diem_dung_cach_pct": 7.26,
         "rong_hon_chuan_7": true,
-        "dinh_gia": "P/B 0,73, P/E 4,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "SAB",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại",
-        "moc_theo_doi": 42.15,
-        "sl": 42.15,
-        "muc_tieu": 44.21,
-        "thung_thi": "về vùng 41,68",
-        "xac_nhan": "giữ trên MA20 (43,02) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.0,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 3,53, P/E 11,6",
+        "dinh_gia": "P/B 0,73; P/E 4,0",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Vận tải - cảng",
-      "nhan_dinh": "4 mã tăng / 1 mã giảm trong rổ.",
+      "nhan_dinh": "Dòng tiền hoạt động rất mạnh, GMD và VSC đồng loạt bứt phá đỉnh ngắn hạn.",
       "ma": [
        {
         "ma": "GMD",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
+        "cau_truc": "Rất mạnh, tăng 4,55% với khối lượng gấp 2,6 lần trung bình, tiệm cận đỉnh thời đại.",
         "moc_theo_doi": 56.0,
-        "sl": 56.0,
-        "muc_tieu": 57.94,
-        "thung_thi": "về vùng 54,20",
-        "xac_nhan": "giữ trên MA20 (53,31) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.7,
+        "sl": 53.74,
+        "muc_tieu": 57.99,
+        "thung_thi": "Thủng 53,74 mất hỗ trợ nến bùng nổ.",
+        "xac_nhan": "Vượt hẳn 58,0 để mở đỉnh mới.",
+        "diem_dung_cach_pct": 6.54,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,61, P/E 13,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "HAH",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 49.28,
-        "sl": 49.28,
-        "muc_tieu": 52.78,
-        "thung_thi": "về vùng 47,69",
-        "xac_nhan": "giữ trên MA20 (50,53) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.3,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,05, P/E 7,6",
+        "dinh_gia": "P/B 2,61; P/E 13,9",
         "nhan": "OBSERVATION"
        },
        {
         "ma": "VSC",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 14.3,
-        "sl": 14.3,
-        "muc_tieu": 14.85,
-        "thung_thi": "về vùng 13,90",
-        "xac_nhan": "giữ trên MA20 (13,25) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.7,
+        "cau_truc": "Bứt phá qua MA50, tăng 1,75% kèm khối lượng gấp 2,72 lần trung bình.",
+        "moc_theo_doi": 14.25,
+        "sl": 13.9,
+        "muc_tieu": 15.25,
+        "thung_thi": "Thủng 13,9 gãy nhịp vượt cản.",
+        "xac_nhan": "Đóng cửa trên 14,8.",
+        "diem_dung_cach_pct": 4.47,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,96, P/E 15,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VOS",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 11.91,
-        "sl": 11.91,
-        "muc_tieu": 12.33,
-        "thung_thi": "về vùng 11,54",
-        "xac_nhan": "giữ trên MA20 (11,78) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,86, P/E 4,3",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VTP",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-09-24",
-        "moc_theo_doi": 45.0,
-        "sl": 45.0,
-        "muc_tieu": 48.2,
-        "thung_thi": "về vùng 43,40",
-        "xac_nhan": "lấy lại MA20 (49,09)",
-        "diem_dung_cach_pct": 6.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 4,20, P/E 28,0",
+        "dinh_gia": "P/B 0,96; P/E 15,6",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Phân bón - hóa chất",
-      "nhan_dinh": "4 mã tăng / 1 mã giảm trong rổ.",
+      "nhan_dinh": "Đà hồi phục tiếp diễn với DCM dẫn đầu, khối ngoại mua ròng trở lại.",
       "ma": [
        {
-        "ma": "DPM",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-09-15",
-        "moc_theo_doi": 21.09,
-        "sl": 21.09,
-        "muc_tieu": 22.42,
-        "thung_thi": "về vùng 20,60",
-        "xac_nhan": "giữ trên MA20 (21,85) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,43, P/E 8,3",
-        "nhan": "OBSERVATION"
-       },
-       {
         "ma": "DCM",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 34.01,
-        "sl": 34.01,
-        "muc_tieu": 36.28,
-        "thung_thi": "về vùng 33,47",
-        "xac_nhan": "giữ trên MA20 (34,02) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,75, P/E 7,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "DGC",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-09-04",
-        "moc_theo_doi": 32.15,
-        "sl": 32.15,
-        "muc_tieu": 34.8,
-        "thung_thi": "về vùng 29,72",
-        "xac_nhan": "lấy lại MA20 (34,17)",
-        "diem_dung_cach_pct": 5.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,02, P/E 6,1",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "BFC",
-        "cau_truc": "trên MA20/MA50/MA200, dưới các MA còn lại",
-        "moc_theo_doi": 58.0,
-        "sl": 58.0,
-        "muc_tieu": 61.0,
-        "thung_thi": "về vùng 55,58",
-        "xac_nhan": "giữ trên MA20 (57,25) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 0.7,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,51, P/E 12,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "CSV",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 23.12,
-        "sl": 23.12,
-        "muc_tieu": 24.4,
-        "thung_thi": "về vùng 22,30",
-        "xac_nhan": "giữ trên MA20 (21,66) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,49, P/E 9,7",
+        "cau_truc": "Nằm trên MA10/MA20/MA50, tăng 2,62% áp sát cản MA200 quanh 36,18.",
+        "moc_theo_doi": 33.75,
+        "sl": 32.6,
+        "muc_tieu": 36.49,
+        "thung_thi": "Thủng 33,75 mất đà tăng ngắn hạn.",
+        "xac_nhan": "Vượt qua MA200 tại 36,2.",
+        "diem_dung_cach_pct": 7.52,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,75; P/E 7,0",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Thủy sản - dệt may",
-      "nhan_dinh": "2 mã tăng / 2 mã giảm trong rổ.",
+      "nhan_dinh": "ANV và TNG ghi nhận dòng tiền cải thiện nhẹ, bám sát các đường trung bình động.",
       "ma": [
        {
-        "ma": "VHC",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-25",
-        "moc_theo_doi": 50.9,
-        "sl": 50.9,
-        "muc_tieu": 53.15,
-        "thung_thi": "về vùng 49,89",
-        "xac_nhan": "giữ trên MA20 (50,69) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,16, P/E 7,5",
-        "nhan": "OBSERVATION"
-       },
-       {
         "ma": "ANV",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 18.32,
-        "sl": 18.32,
-        "muc_tieu": 19.7,
-        "thung_thi": "về vùng 17,65",
-        "xac_nhan": "giữ trên MA20 (17,57) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.2,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,20, P/E 5,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "IDI",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 5.14,
-        "sl": 5.14,
-        "muc_tieu": 5.4,
-        "thung_thi": "về vùng 5,01",
-        "xac_nhan": "giữ trên MA20 (4,88) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,41, P/E 8,7",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "TNG",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 18.46,
-        "sl": 18.46,
-        "muc_tieu": 19.71,
-        "thung_thi": "về vùng 17,84",
-        "xac_nhan": "giữ trên MA20 (17,77) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.0,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,20, P/E 5,1",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "MSH",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 32.86,
-        "sl": 32.86,
-        "muc_tieu": 35.08,
-        "thung_thi": "về vùng 31,94",
-        "xac_nhan": "giữ trên MA20 (31,17) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,87, P/E 6,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VGT",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 11.68,
-        "sl": 11.68,
-        "muc_tieu": 12.43,
-        "thung_thi": "về vùng 11,50",
-        "xac_nhan": "giữ trên MA20 (11,57) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,76, P/E 5,6",
+        "cau_truc": "Tăng 3% với khối lượng gấp 1,5 lần trung bình, nằm trên MA10 và MA50.",
+        "moc_theo_doi": 18.3,
+        "sl": 17.5,
+        "muc_tieu": 20.15,
+        "thung_thi": "Thủng 17,5 sẽ gãy xu hướng hồi phục.",
+        "xac_nhan": "Vượt đỉnh 20 phiên tại 19,7.",
+        "diem_dung_cach_pct": 7.41,
+        "rong_hon_chuan_7": true,
+        "dinh_gia": "P/B 1,2; P/E 5,6",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Điện - năng lượng",
-      "nhan_dinh": "1 mã tăng / 4 mã giảm trong rổ.",
+      "nhan_dinh": "Biến động hẹp, phần lớn cổ phiếu neo quanh các vùng cản MA50.",
       "ma": [
        {
-        "ma": "NT2",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 23.38,
-        "sl": 23.38,
-        "muc_tieu": 25.0,
-        "thung_thi": "về vùng 22,95",
-        "xac_nhan": "giữ trên MA20 (22,68) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 4.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,29, P/E 5,6",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "POW",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-22",
-        "moc_theo_doi": 12.23,
-        "sl": 12.23,
-        "muc_tieu": 13.05,
-        "thung_thi": "về vùng 12,10",
-        "xac_nhan": "giữ trên MA20 (12,55) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.6,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,94, P/E 6,5",
-        "nhan": "OBSERVATION"
-       },
-       {
         "ma": "PC1",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-06-30",
-        "moc_theo_doi": 18.2,
-        "sl": 18.2,
-        "muc_tieu": 20.19,
-        "thung_thi": "về vùng 16,65",
-        "xac_nhan": "giữ trên MA20 (19,33) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 7.1,
-        "rong_hon_chuan_7": true,
-        "dinh_gia": "P/B 1,18, P/E 6,8",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "HDG",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-09-04",
-        "moc_theo_doi": 15.2,
-        "sl": 15.2,
-        "muc_tieu": 15.55,
-        "thung_thi": "về vùng 14,90",
-        "xac_nhan": "giữ trên MA20 (14,99) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 1.6,
+        "cau_truc": "Hồi phục 1,56% lấy lại MA10 và MA20, đang test MA50 quanh 20,0.",
+        "moc_theo_doi": 18.23,
+        "sl": 18.23,
+        "muc_tieu": 20.48,
+        "thung_thi": "Thủng 18,23 gãy đáy ngắn hạn.",
+        "xac_nhan": "Vượt dứt khoát 20,0.",
+        "diem_dung_cach_pct": 6.51,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,91, P/E 6,8",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "REE",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-03",
-        "moc_theo_doi": 44.91,
-        "sl": 44.91,
-        "muc_tieu": 47.08,
-        "thung_thi": "về vùng 44,40",
-        "xac_nhan": "giữ trên MA20 (45,98) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.4,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,33, P/E 10,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "GEX",
-        "cau_truc": "trên MA10/MA20, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-21",
-        "moc_theo_doi": 23.0,
-        "sl": 23.0,
-        "muc_tieu": 24.29,
-        "thung_thi": "về vùng 22,31",
-        "xac_nhan": "giữ trên MA20 (22,97) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.8,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,58, P/E 22,7",
+        "dinh_gia": "P/B 1,18; P/E 6,8",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Cao su",
-      "nhan_dinh": "0 mã tăng / 3 mã giảm trong rổ.",
+      "nhan_dinh": "Thanh khoản thấp, nhóm ngành chưa có động lượng mới để bứt phá.",
       "ma": [
        {
-        "ma": "DRC",
-        "cau_truc": "dưới cả 4 đường MA, 4 phiên dưới MA10 (nhóm đáy/downtrend)",
-        "moc_theo_doi": 9.3,
-        "sl": 9.3,
-        "muc_tieu": 9.77,
-        "thung_thi": "chưa có hỗ trợ gần hơn trong dữ liệu",
-        "xac_nhan": "lấy lại MA20 (9,77)",
-        "diem_dung_cach_pct": 2.5,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,78, P/E 12,0",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "DRI",
-        "cau_truc": "trên MA50/MA200, dưới các MA còn lại; đã gãy chân nến phát động 2026-10-08",
-        "moc_theo_doi": 14.9,
-        "sl": 14.9,
-        "muc_tieu": 15.62,
-        "thung_thi": "về vùng 14,70",
-        "xac_nhan": "lấy lại MA20 (15,96)",
-        "diem_dung_cach_pct": 2.7,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,57, P/E 5,2",
-        "nhan": "OBSERVATION"
-       },
-       {
         "ma": "PHR",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-05-20",
-        "moc_theo_doi": 32.128,
-        "sl": 32.13,
-        "muc_tieu": 34.02,
-        "thung_thi": "về vùng 31,80",
-        "xac_nhan": "lấy lại MA20 (32,74)",
-        "diem_dung_cach_pct": 1.3,
+        "cau_truc": "Dao động hẹp quanh vùng 32,5, tích lũy dưới MA200.",
+        "moc_theo_doi": 31.42,
+        "sl": 31.42,
+        "muc_tieu": 34.52,
+        "thung_thi": "Thủng 31,42 sẽ lùi về vùng 30,4.",
+        "xac_nhan": "Vượt qua MA200 tại 33,6.",
+        "diem_dung_cach_pct": 3.47,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,71, P/E 8,5",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "DPR",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại; đã gãy chân nến phát động 2026-05-20",
-        "moc_theo_doi": 37.55,
-        "sl": 37.55,
-        "muc_tieu": 39.85,
-        "thung_thi": "về vùng 36,45",
-        "xac_nhan": "giữ trên MA20 (37,78) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,23, P/E 9,3",
+        "dinh_gia": "P/B 1,71; P/E 8,5",
         "nhan": "OBSERVATION"
        }
       ]
      },
      {
       "nhom": "Công nghệ",
-      "nhan_dinh": "1 mã tăng / 1 mã giảm trong rổ.",
+      "nhan_dinh": "Chịu áp lực bán ròng mạnh từ khối ngoại, FPT đóng vai trò kìm hãm chỉ số.",
       "ma": [
        {
         "ma": "FPT",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-08-03",
-        "moc_theo_doi": 55.85,
-        "sl": 55.85,
-        "muc_tieu": 58.76,
-        "thung_thi": "chưa có hỗ trợ gần hơn trong dữ liệu",
-        "xac_nhan": "lấy lại MA20 (59,75)",
-        "diem_dung_cach_pct": 2.8,
+        "cau_truc": "Khối ngoại bán ròng hơn 264 tỷ, giá chốt phiên tham chiếu 57,4 nằm dưới MA20 và MA50.",
+        "moc_theo_doi": 55.8,
+        "sl": 55.8,
+        "muc_tieu": 61.18,
+        "thung_thi": "Thủng 55,8 sẽ gãy đáy 20 phiên.",
+        "xac_nhan": "Vượt cản ngắn hạn 58,8.",
+        "diem_dung_cach_pct": 2.79,
         "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 2,72, P/E 10,8",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "CMG",
-        "cau_truc": "trên MA10, dưới các MA còn lại",
-        "moc_theo_doi": 19.88,
-        "sl": 19.88,
-        "muc_tieu": 22.35,
-        "thung_thi": "về vùng 19,00",
-        "xac_nhan": "lấy lại MA20 (20,48)",
-        "diem_dung_cach_pct": 1.4,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,41, P/E 11,9",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "CTR",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-05-19",
-        "moc_theo_doi": 68.02,
-        "sl": 68.02,
-        "muc_tieu": 70.0,
-        "thung_thi": "về vùng 67,10",
-        "xac_nhan": "lấy lại MA20 (69,89)",
-        "diem_dung_cach_pct": 1.3,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 4,33, P/E 13,7",
-        "nhan": "OBSERVATION"
-       },
-       {
-        "ma": "VGI",
-        "cau_truc": "trên MA10, dưới các MA còn lại; đã gãy chân nến phát động 2026-05-19",
-        "moc_theo_doi": 77.02,
-        "sl": 77.02,
-        "muc_tieu": 79.09,
-        "thung_thi": "về vùng 75,78",
-        "xac_nhan": "lấy lại MA20 (78,41)",
-        "diem_dung_cach_pct": 1.5,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 8,46, P/E 19,1",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Bán lẻ (nổi bật hôm nay)",
-      "nhan_dinh": "1 mã tăng / 0 mã giảm trong rổ.",
-      "ma": [
-       {
-        "ma": "PET",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 52.9,
-        "sl": 52.9,
-        "muc_tieu": 57.4,
-        "thung_thi": "về vùng 51,50",
-        "xac_nhan": "giữ trên MA20 (51,04) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 0.9,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 3,09, P/E 24,4",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Dịch vụ tài chính (nổi bật hôm nay)",
-      "nhan_dinh": "1 mã tăng / 0 mã giảm trong rổ.",
-      "ma": [
-       {
-        "ma": "ORS",
-        "cau_truc": "trên cả MA10/20/50/200 (nền cao)",
-        "moc_theo_doi": 15.1,
-        "sl": 15.1,
-        "muc_tieu": 16.3,
-        "thung_thi": "về vùng 14,80",
-        "xac_nhan": "giữ trên MA20 (13,54) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.3,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 1,16, P/E 26,3",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Bất động sản (nổi bật hôm nay)",
-      "nhan_dinh": "1 mã tăng / 0 mã giảm trong rổ.",
-      "ma": [
-       {
-        "ma": "VPI",
-        "cau_truc": "trên MA10/MA20/MA200, dưới các MA còn lại",
-        "moc_theo_doi": 54.18,
-        "sl": 54.18,
-        "muc_tieu": 57.6,
-        "thung_thi": "về vùng 53,00",
-        "xac_nhan": "giữ trên MA20 (55,58) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 3.0,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 3,52, P/E 47,3",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Hàng & Dịch vụ Công nghiệp (nổi bật hôm nay)",
-      "nhan_dinh": "1 mã tăng / 0 mã giảm trong rổ.",
-      "ma": [
-       {
-        "ma": "GEE",
-        "cau_truc": "trên MA10/MA20/MA50, dưới các MA còn lại",
-        "moc_theo_doi": 71.5,
-        "sl": 71.5,
-        "muc_tieu": 76.9,
-        "thung_thi": "về vùng 67,80",
-        "xac_nhan": "giữ trên MA20 (69,80) với khối lượng ≥ trung bình",
-        "diem_dung_cach_pct": 2.1,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 5,88, P/E 12,8",
-        "nhan": "OBSERVATION"
-       }
-      ]
-     },
-     {
-      "nhom": "Thực phẩm và đồ uống (nổi bật hôm nay)",
-      "nhan_dinh": "0 mã tăng / 1 mã giảm trong rổ.",
-      "ma": [
-       {
-        "ma": "PAN",
-        "cau_truc": "dưới cả 4 đường MA, 1 phiên dưới MA10 (nhóm đáy/downtrend); đã gãy chân nến phát động 2026-05-15",
-        "moc_theo_doi": 17.85,
-        "sl": 17.85,
-        "muc_tieu": 18.78,
-        "thung_thi": "về vùng 17,60",
-        "xac_nhan": "lấy lại MA20 (18,48)",
-        "diem_dung_cach_pct": 2.5,
-        "rong_hon_chuan_7": false,
-        "dinh_gia": "P/B 0,88, P/E 4,0",
+        "dinh_gia": "P/B 2,72; P/E 10,8",
         "nhan": "OBSERVATION"
        }
       ]
      }
     ],
-    "luan_diem_chinh": [],
+    "xoay_vong": "Dòng tiền không còn dàn trải mà tập trung co cụm vào hai thái cực: một là các mã cổ phiếu trụ nhóm Vin để kéo điểm, hai là các ngành có xúc tác ngắn hạn rõ rệt như dầu khí và vận tải cảng biển. Nhóm tài chính (ngân hàng, chứng khoán) không mở rộng đà tăng, cho thấy thị trường đang phân hóa thay vì bước vào sóng tăng đồng thuận.",
+    "luan_diem_chinh": [
+     "VN-Index tăng gần 22 điểm nhưng riêng 4 mã họ Vin đã đóng góp tới 19,56 điểm, cho thấy mức độ kéo trụ chi phối chỉ số.",
+     "Độ rộng nghiêng về phe giảm với 164 mã đỏ so với 147 mã xanh, chứng minh đa số cổ phiếu trên sàn không có phiên tăng tương xứng.",
+     "Thanh khoản khớp lệnh đạt hơn 13.300 tỷ đồng, cao hơn trung bình 20 phiên nhưng giảm so với phiên trước, dòng tiền chọn lọc rất kỹ.",
+     "Giá dầu Brent lập đỉnh 3 tháng tại 112,13 USD/thùng kích hoạt đà bùng nổ của nhóm dầu khí (PVD +5%, BSR +3,91%).",
+     "Vùng kháng cự 1.756–1.780 điểm là thử thách lớn với 7 lần chạm trong quá khứ, cần sự đồng thuận của nhóm tài chính nếu muốn bứt phá bền vững."
+    ],
     "phien_toi": {
+     "cung_co": [
+      "Khối ngoại tiếp tục duy trì mua ròng trên 300 tỷ đồng.",
+      "Các nhóm ngành dẫn dắt như cảng biển, dầu khí giữ vững nền giá sau phiên nổ khối lượng."
+     ],
+     "lam_yeu": [
+      "Nhóm cổ phiếu Vin chững lại hoặc chịu áp lực điều chỉnh trả điểm.",
+      "Độ rộng HOSE tiếp tục lùi sâu với số mã đỏ áp đảo trên 200 mã."
+     ],
      "xac_nhan": [
-      "VN-Index lấy lại MA10 1.716,57"
+      "VN-Index đóng cửa vượt dứt khoát 1.780 điểm kèm thanh khoản khớp lệnh trên 15.000 tỷ đồng."
      ],
      "vo_hieu": [
-      "VN-Index thủng 1.734,13"
-     ],
-     "cung_co": [],
-     "lam_yeu": []
+      "VN-Index đóng cửa dưới mốc 1.746 điểm, quay lại lấp toàn bộ khoảng trống giá vừa mở."
+     ]
     },
     "du_bao_moi": [
      {
       "doi_tuong": "VNINDEX",
       "loai": "giu",
-      "moc": 1756.07,
+      "moc": 1746.15,
+      "han_phien": 3,
+      "loai_moc": "CAN",
+      "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc gap 1.746,15 điểm trong 3 phiên tới để bảo toàn nhịp tăng."
+     },
+     {
+      "doi_tuong": "GMD",
+      "loai": "giu",
+      "moc": 56.0,
       "han_phien": 5,
-      "loai_moc": "QS",
-      "noi_dung": "VN-Index giữ trên 1.756,07 trong 5 phiên"
+      "loai_moc": "CAN",
+      "noi_dung": "GMD sẽ giữ vững trên vùng đỉnh cũ 56,0 để tiếp tục xu hướng mở đỉnh mới."
+     },
+     {
+      "doi_tuong": "PVD",
+      "loai": "giu",
+      "moc": 18.0,
+      "han_phien": 5,
+      "loai_moc": "CAN",
+      "noi_dung": "PVD sẽ duy trì đóng cửa trên mốc hỗ trợ 18,0 sau phiên bùng nổ vượt MA50."
      }
     ]
    },
-   "loi": [
-    "AI không ra được bản phân tích — bản số liệu dựng bằng code"
-   ],
-   "nhan": "Bản 1 · số liệu (không AI)"
-  },
-  {
-   "cach": "cach_1_luot",
-   "loi": [
-    "gemini-3.1-pro-preview: HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a | gemini-3.8-flash: HTTP 503: {   \"error\": {     \"code\": 503,    "
-   ],
-   "nhan": "Bản 2"
+   "script": {
+    "tieu_de_youtube": "VN-INDEX TĂNG 22 ĐIỂM NHƯNG CÓ PHẢI AI CŨNG CÓ QUÀ? BẢN CHẤT CÚ KÉO TRỤ VÀ MỐC 1.756–1.780",
+    "thoi_luong_phut": 20,
+    "phan": [
+     {
+      "ten": "Hook",
+      "phut": 0.5,
+      "loi_thoai": "Hôm nay bảng điện hiện lên một con số rất đẹp: VN-Index tăng gần 22 điểm. Nhưng nếu anh chị nhìn vào tài khoản của mình, có khi lại không thấy vui như điểm số. Tại sao chỉ số tăng hơn 1% mà số mã giảm lại nhiều hơn số mã tăng? Đằng sau 22 điểm xanh mướt đó là một sự thật mà ai đang cầm tiền hay cầm cổ phiếu đều phải nhìn rõ: thị trường đang kéo trụ hay dòng tiền đã thật sự lan tỏa? Chúng ta cùng đi vào chi tiết nhé.",
+      "chen_hinh": "Bảng điện VN-Index xanh +21.96 điểm đối chiếu bảng độ rộng 147 xanh / 164 đỏ"
+     },
+     {
+      "ten": "Đối chiếu dự báo",
+      "phut": 0.5,
+      "loi_thoai": "Trước tiên em đối chiếu lại các mốc em đã nói ở những phiên trước. Hôm nay chúng ta có hai mốc đã chạm hạn. Thứ nhất là mốc chỉ số VN-Index giữ vững đáy 1.682: kết quả là ĐÚNG, hôm nay chỉ số đã đóng phiên tại 1.760. Thứ hai là cổ phiếu MBB giữ mốc 19,6: hôm nay mã này đóng cửa ở 19,9, cũng ghi nhận ĐÚNG. Với các vị thế đang mở như GMD giữ 52,14 hay NKG giữ 10,45, cả hai mã này hôm nay đều bứt phá rất ấn tượng. Em vẫn theo dõi sát các mốc này cùng anh chị.",
+      "chen_hinh": "Sổ dự báo hiển thị dòng MBB và VNINDEX đóng trạng thái ĐÚNG"
+     },
+     {
+      "ten": "Thế giới",
+      "phut": 2.0,
+      "loi_thoai": "Nhìn ra bức tranh liên thị trường, biến số đáng chú ý nhất hôm nay là giá dầu thô. Dầu Brent chiều nay đã chạm mốc 112,13 USD một thùng, tăng hơn 3% và chính thức lập đỉnh cao nhất trong 3 tháng qua. Kênh truyền dẫn sang Việt Nam rất rõ: nó tạo áp lực trực tiếp lên chi phí vận tải và kỳ vọng lạm phát, nhưng ở chiều ngược lại, nó lại là cú hích tâm lý cực mạnh cho nhóm cổ phiếu dầu khí thượng nguồn. Trong khi đó, tỷ giá USD/VND thị trường liên ngân hàng sáng nay ghi nhận quanh 25.856 đồng, hạ nhiệt nhẹ so với các phiên trước. Áp lực tỷ giá bớt căng thẳng là điều kiện giúp nhà điều hành duy trì môi trường thanh khoản dễ thở. Tuy nhiên, anh chị nhìn sang các thị trường châu Á chiều nay: KOSPI của Hàn Quốc giảm hơn 3,5%, Hang Seng giảm hơn 3%, Nikkei của Nhật cũng mất hơn 2,6%. Rõ ràng khẩu vị rủi ro trong khu vực đang rất thận trọng, và sự phân hóa này nhắc chúng ta không nên quá chủ quan chỉ vì một phiên chỉ số trong nước tăng mạnh.",
+      "chen_hinh": "Biểu đồ giá dầu Brent vượt 112 USD/thùng và bảng tỷ giá USD/VND"
+     },
+     {
+      "ten": "Thị trường Việt Nam",
+      "phut": 3.0,
+      "loi_thoai": "Bây giờ quay lại với thị trường trong nước. VN-Index hôm nay đóng cửa tại 1.760 điểm, tăng 21,96 điểm, tương đương 1,26%. Nghe qua thì là một phiên bùng nổ rực rỡ. Nhưng khi rà soát độ rộng của sàn HOSE, bức tranh thực tế lại khác hẳn: có 147 mã tăng nhưng có tới 164 mã giảm, 2 mã trần và 3 mã sàn. Số mã đỏ nhiều hơn số mã xanh. Tức là độ rộng không hề đồng thuận với điểm số của chỉ số chung. Về mặt thanh khoản, tổng giá trị khớp lệnh thực tế hôm nay đạt khoảng 13.300 tỷ, nếu cộng cả thỏa thuận gần 2.000 tỷ thì toàn sàn đạt gần 15.300 tỷ. Con số khớp lệnh 13.300 tỷ này cao hơn mức trung bình 20 phiên khoảng 8,7%, nghĩa là thị trường có tiền, tiền không hề rút đi. Nhưng nếu so với mức hơn 17.000 tỷ của phiên hôm qua thì thanh khoản hôm nay lại sụt giảm. Điều này cho thấy dòng tiền hôm nay không mua đuổi ồ ạt, bên mua chỉ tập trung kéo vào một vài địa chỉ cụ thể chứ không dàn hàng ngang đẩy cả thị trường đi lên. Về dòng tiền khối ngoại, hôm nay họ tiếp tục mua ròng hơn 341 tỷ đồng. Điểm đáng nói là họ mua rất tập trung: gom ròng VIC gần 240 tỷ, TCB gần 178 tỷ, VHM hơn 160 tỷ, MSN gần 141 tỷ; nhưng ở chiều ngược lại, họ bán ròng FPT tới hơn 264 tỷ. Khối ngoại mua có chọn lọc, không phải mở rộng trạng thái risk-on toàn diện.",
+      "chen_hinh": "Biểu đồ thanh khoản HOSE so với TB20 và cơ cấu mua bán ròng khối ngoại"
+     },
+     {
+      "ten": "Index thật sự giảm/tăng bao nhiêu",
+      "phut": 1.5,
+      "loi_thoai": "Đây là phần quan trọng nhất của ngày hôm nay mà em muốn anh chị nắm rõ: chỉ số thật sự tăng bao nhiêu điểm? Nhìn trên bảng điện, chỉ số tăng 22 điểm. Nhưng nếu tách riêng 4 mã thuộc nhóm Vin gồm VIC, VHM, VRE và VPL, nhóm này đã đóng góp tới 19,56 điểm. Trong đó một mình VIC đã mang về gần 15 điểm tăng, VHM đóng góp thêm 3,75 điểm. Nếu lấy tổng số điểm tăng trừ đi nhóm Vin, thì toàn bộ phần còn lại của sàn HOSE hôm nay chỉ đóng góp vẻn vẹn khoảng 2,4 điểm. Hai phẩy bốn điểm cho hàng trăm cổ phiếu còn lại. Như vậy, câu chuyện hôm nay không phải là cả thị trường đang hưng phấn, mà là trụ kéo để neo giữ điểm số, trong khi phần lớn cổ phiếu bên dưới đang đi ngang hoặc chịu áp lực chốt lời nhẹ sau phiên tăng hôm qua.",
+      "chen_hinh": "Bảng đóng góp điểm số VN-Index bóc tách nhóm Vin (+19.56 điểm) và phần còn lại (+2.4 điểm)"
+     },
+     {
+      "ten": "Bản đồ kỹ thuật",
+      "phut": 2.0,
+      "loi_thoai": "Về mặt kỹ thuật, mốc quan trọng nhất em theo dõi hôm nay và những phiên tới là vùng 1.756 đến 1.780 điểm. Đây là một vùng kháng cự cực kỳ dày dặn, được chấm tới rất mạnh với 7 lần chạm trong quá khứ. Vùng này là nơi hội tụ của đường MA50 quanh 1.772 điểm cùng rất nhiều đỉnh và đáy cũ trước đây. Giá đóng cửa hôm nay 1.760 chính là đang nằm lọt thỏm ngay bên trong vùng kiểm định này. Nếu thị trường giữ được mốc trên 1.756 điểm và tiếp tục hấp thụ tốt lực bán, chỉ số sẽ có cơ hội bò dần lên thử thách cạnh trên quanh 1.780, xa hơn là đường MA200 quanh 1.796 điểm. Ngược lại, nếu lực kéo trụ dừng lại và chỉ số quay đầu thủng mốc 1.756 điểm, nguy cơ lấp lại khoảng trống giá 1.738 đến 1.746 điểm mở ra sáng nay là rất cao. Khi đó, vùng hỗ trợ kế tiếp sẽ là vùng 1.725 đến 1.742 điểm. Để xác nhận nhịp tăng thật sự bền vững, chúng ta cần một phiên bùng nổ vượt dứt khoát 1.780 điểm với độ rộng áp đảo trên 250 mã xanh. Còn hiện tại, vùng 1.756 đến 1.780 vẫn là vùng quan sát rất nhạy cảm.",
+      "chen_hinh": "Biểu đồ kỹ thuật VN-Index với vùng kháng cự 1.756–1.780 và gap 1.738–1.746"
+     },
+     {
+      "ten": "Quét ngành",
+      "phut": 7.0,
+      "loi_thoai": "Index thì như vậy, nhưng từng nhóm cổ phiếu bên trong đang vận động ra sao? Chúng ta cùng quét nhanh qua các ngành theo đúng thứ tự quen thuộc nhé. Đầu tiên là nhóm ngân hàng. Hôm nay nhóm này giảm nhẹ 0,19%, khớp lệnh hơn 3.400 tỷ và có sự phân hóa rõ rệt. VCB hôm nay lùi nhẹ về 56,3, vẫn nằm dưới các đường MA ngắn hạn và đang kiểm tra vùng đáy 20 phiên quanh 55,5. BID giảm gần 1% về 33,8, mốc em theo dõi là vùng 33,05. CTG đóng cửa 30,55, giữ vững trên đường MA10 và MA20, hỗ trợ gần nhất là 29,7, mục tiêu hướng tới vùng cản 31,7. MBB đóng phiên 19,9, neo ngay sát MA50, mốc dừng lỗ em theo dõi là 19,38, mục tiêu là cản cũ 20,8. Điểm sáng của nhóm bank hôm nay là TCB và TPB. TCB dù điều chỉnh nhẹ về 34,15 nhưng khối ngoại gom ròng tới gần 178 tỷ, cấu trúc của TCB vẫn là kênh trên rất khỏe khi nằm trên toàn bộ MA20 và MA50, mốc theo dõi là 33,7, mục tiêu hướng tới đỉnh cũ 35,2. TPB bùng nổ thanh khoản gấp 2,67 lần trung bình 20 phiên, đóng cửa 12,75, vượt qua MA50, mốc hỗ trợ là 12,28 và mục tiêu ngắn hạn là vùng MA200 quanh 13,0 đến 13,3. Sang nhóm chứng khoán, thước đo tâm lý của thị trường hôm nay có phần chững lại sau phiên tăng hôm qua. SSI giảm 1,23% về 20,15, đang test lại cản MA50 quanh 20,26; mốc hỗ trợ quan trọng em theo dõi là 19,65, nếu thủng mốc này thì nhịp hồi ngắn hạn sẽ yếu đi. VCI giảm về 19,5, hỗ trợ là vùng gap 19,15. HCM đóng 24,1, vẫn nằm trên MA200 quanh 22,9, đang tích lũy kiểm định vùng 24,5. Riêng TCX hôm nay rất nổi bật khi tăng gần 3% lên 29,85 với khối lượng gấp 2,4 lần trung bình, mốc hỗ trợ theo dõi quanh 28,7. Nhìn chung dòng chứng khoán hôm nay phản ánh đúng thực tế là thị trường chưa đủ tiền để kéo thốc liên tục. Đến nhóm bất động sản, đây là tâm điểm của phiên hôm nay nhờ nhóm Vin. VIC tăng tới 4,16% lên 232,9, tiếp tục duy trì xu hướng tăng mạnh trên toàn bộ các đường MA, hỗ trợ gần nhất là 227,8. VHM tăng hơn 3,5% lên 64,0, áp sát đường MA200 tại 64,9, hỗ trợ theo dõi là 63,2. Các mã bất động sản tầm trung có sự phân hóa: KDH đóng 14,9, giữ vững MA50; HDC tăng mạnh gần 4,5% lên 11,65 với khối lượng gấp 4 lần trung bình, mốc theo dõi là 11,25; trong khi DIG và NVL giảm nhẹ dưới tham chiếu. Nhóm thép hôm nay giữ nhịp khá tốt. HPG đóng 21,25, tăng nhẹ, nằm trên cả MA20 và MA50, mốc hỗ trợ neo giữ là 20,75, cản phía trên quanh 21,5 đến 22,1. Đáng chú ý nhất là NKG khi bứt phá 3,45% lên 12,0 với thanh khoản gấp 2,5 lần trung bình, chính thức chạm đường MA200 tại 12,09; mốc hỗ trợ dời lên vùng 11,65. HSG thì đứng giá tham chiếu 10,95. Nhóm khu công nghiệp duy trì cấu trúc tăng vững. IDC tăng hơn 2,5% lên 35,8, bám sát MA200, mốc theo dõi là 34,5. SZC tăng hơn 1% lên 19,6 với khối lượng gấp gần 3 lần trung bình, mốc hỗ trợ là 18,6. KBC đóng 27,1, giữ vững trên MA50. Nhóm đầu tư công biến động hẹp, VCG đóng 15,5, HHV 9,74; riêng CII bật tăng gần 3% lên 14,05 với khối lượng gấp đôi trung bình, mốc theo dõi của CII là 13,75. Bây giờ sang nhóm dầu khí — nhóm rực sáng nhất ngày hôm nay khi tăng gần 3,5% toàn ngành. BSR tăng gần 4% lên 29,2, lấy lại MA50. PVD tăng tới 5% lên 18,9 với thanh khoản gấp 2,7 lần trung bình, vượt qua MA50 và tiếp cận MA200; mốc theo dõi của PVD là 18,0, mục tiêu ngắn hạn là vùng cản 19,9. PVS tăng 2,2% lên 32,5, đang kiểm tra cản MA200 quanh 32,9. Nhóm bán lẻ có sự chia rẽ sâu sắc. MWG giữ nền tốt quanh 75,3, nằm trên MA50, mốc theo dõi là 72,0; FRT đóng 151,5. Tuy nhiên PNJ lại chịu áp lực lớn khi giảm hơn 3% về 18,6 sau tin tức bất lợi về kết quả kinh doanh quý 3, mốc đáy cũ cần quan sát là 17,25. Nhóm vận tải và cảng biển hôm nay rất khỏe: GMD bứt phá hơn 4,5% lên 57,5, lập đỉnh mới với thanh khoản nổ gấp 2,6 lần trung bình; VSC tăng 1,75% lên 14,55. Nhóm phân bón hóa chất duy trì nhịp hồi: DCM tăng 2,62% lên 35,25, tiếp cận MA200 quanh 36,2; DPM đóng 21,85. Các nhóm ngóc ngách như thủy sản dệt may có ANV tăng 3% lên 18,9, TNG tăng lên 19,2; điện và cao su như PC1 đóng 19,5, PHR đóng 32,55 nhìn chung đi ngang. Cuối cùng là nhóm công nghệ: FPT đóng cửa tham chiếu 57,4 dù khối ngoại xả mạnh hơn 264 tỷ, mốc đáy cũ 55,8 là chốt chặn quan trọng nhất của FPT lúc này.",
+      "chen_hinh": "Lần lượt chiếu chart các mã tiêu biểu: TCB, TPB, SSI, VIC, VHM, HPG, NKG, GMD, PVD, PNJ, FPT"
+     },
+     {
+      "ten": "Mã đáng nói",
+      "phut": 2.5,
+      "loi_thoai": "Trong phiên hôm nay, em muốn chọn ra ba mã tiêu biểu để làm rõ câu chuyện của thị trường. Thứ nhất là GMD ở nhóm cảng biển. GMD đóng cửa tại 57,5, tăng 4,55% với thanh khoản khớp lệnh gần 200 tỷ, gấp 2,6 lần trung bình 20 phiên. Cổ phiếu này thuộc nhóm kênh trên, nằm trên toàn bộ các đường MA ngắn và dài hạn, cách đỉnh 250 phiên chưa đầy 1%. Mốc em theo dõi là vùng đỉnh cũ vừa vượt qua quanh 56,0; thủng mốc này thì cấu trúc bứt phá bị suy yếu, điểm dừng lỗ kỹ thuật quanh 53,7, cách khoảng 6,5% so với giá đóng cửa. Mục tiêu ngắn hạn là vùng 58,0 để mở ra đỉnh cao mới. Về định giá, GMD có P/B khoảng 2,61 và P/E khoảng 13,9. Cổ phiếu thứ hai là PVD ở nhóm dầu khí. PVD hôm nay tăng đúng 5% lên 18,9, nổ thanh khoản gấp 2,73 lần trung bình. Cổ phiếu đã bứt phá dứt khoát khỏi đường MA50 và đang kiểm định MA200 quanh 19,3. Mốc theo dõi là vùng hỗ trợ chân nến 18,0; thủng 18,0 thì cấu trúc hồi phục bị bẻ gãy, điểm dừng lỗ quanh 17,65, cách khoảng 6,6%. Mục tiêu ngắn hạn là vùng cản cũ 19,9. Định giá P/B của PVD đang ở mức 0,96, P/E 15,0. Cổ phiếu thứ ba là PNJ để chúng ta nhìn về bài toán quản trị rủi ro. PNJ hôm nay giảm hơn 3% về 18,6, khối lượng duy trì ở mức thấp nhưng cổ phiếu đang nằm sâu dưới MA200 và MA50 sau cú sốc thông tin quý 3. Mốc theo dõi duy nhất lúc này là vùng đáy cũ 17,25; nếu để thủng 17,25 thì rủi ro dò đáy mới tiếp diễn. Đây là ví dụ rõ nhất cho thấy trong một thị trường phân hóa, việc cầm sai mã kênh dưới khi có biến cố vi mô sẽ rất khó khăn dù chỉ số chung có xanh 20 điểm đi chăng nữa.",
+      "chen_hinh": "Chart kỹ thuật chi tiết của GMD, PVD và PNJ kèm các mốc hỗ trợ/kháng cự"
+     },
+     {
+      "ten": "Regime và phiên tới",
+      "phut": 1.0,
+      "loi_thoai": "Tổng kết lại, thị trường hiện tại đang vận động theo trạng thái Phân hóa và Xoay vòng (Rotation/Divergence). Thị trường có tiền nhưng tiền tập trung cục bộ vào những nhóm có câu chuyện riêng như dầu khí, cảng biển và dùng trụ Vin để giữ nhịp chỉ số. Cho phiên ngày mai, mốc chính của VN-Index em nhắc lại một lần nữa là vùng 1.756 đến 1.780 điểm. Điều củng cố cho thị trường là khối ngoại tiếp tục duy trì mua ròng và các nhóm dẫn dắt như cảng biển, dầu khí giữ vững nền giá sau phiên bùng nổ. Điều làm yếu thị trường là nếu nhóm Vin chịu áp lực trả điểm khiến chỉ số quay đầu đóng cửa dưới mốc gap 1.746 điểm. Chiến lược lúc này là tập trung vào quản trị từng cổ phiếu cụ thể, không nhìn vào 22 điểm xanh của chỉ số để mua đuổi ở những vùng cản dày.",
+      "chen_hinh": "Bảng tổng hợp kịch bản phiên tới với mốc 1.756–1.780 và điều kiện xác nhận/vô hiệu"
+     },
+     {
+      "ten": "Chào",
+      "phut": 0.5,
+      "loi_thoai": "Cảm ơn anh chị đã theo dõi buổi rà soát hôm nay. Chúc anh chị có những quyết định thật kỷ luật và hẹn gặp lại mọi người trong bản tin ngày mai nhé.",
+      "chen_hinh": "Màn hình kết thúc kênh Sơn rà soát thị trường"
+     }
+    ],
+    "tiktok": [
+     {
+      "tieu_de": "Lãi suất huy động lại giảm: Người gửi tiết kiệm và người vay nhà được gì?",
+      "goc": "Tác động của chỉ đạo giảm lãi suất từ Ngân hàng Nhà nước tới túi tiền thực tế.",
+      "nguon_chuyen": "ban_tin_sang",
+      "giay": 55,
+      "loi_thoai": "Ngân hàng Nhà nước vừa có chỉ đạo yêu cầu toàn hệ thống giảm thực chất cả lãi suất huy động lẫn cho vay. Vậy chuyện này tác động trực tiếp thế nào tới túi tiền của anh chị? Với người gửi tiết kiệm, mặt bằng lãi suất tiền gửi nhiều khả năng sẽ tiếp tục hạ nhiệt, nhất là khi thanh khoản liên ngân hàng đang rất dồi dào ở mức 0,6%. Giữ tiền gửi kỳ hạn mới sẽ nhận về ít tiền lãi hơn. Nhưng ở chiều ngược lại, với những ai đang gánh các khoản vay mua nhà hay vay kinh doanh, đây lại là tín hiệu đáng mừng. Khi chi phí vốn đầu vào của các nhà băng giảm xuống, áp lực lãi suất thả nổi cho người vay sẽ bớt ngột ngạt hơn trong những tháng cuối năm. Dòng tiền nhàn rỗi vì thế cũng có xu hướng tìm kiếm các kênh đầu tư sinh lời cao hơn thay vì nằm yên trong sổ tiết kiệm. Điều anh chị cần để ý tiếp theo là biểu lãi suất cho vay thực tế của ngân hàng mình đang vay có được điều chỉnh giảm thật hay chưa nhé.",
+      "du_lieu_dung": [
+       "Lãi suất liên ngân hàng 0,6%",
+       "Chỉ đạo giảm lãi suất huy động và cho vay"
+      ]
+     },
+     {
+      "tieu_de": "Dầu Brent vượt 112 USD: Giá xăng trong nước và tiền chợ sắp tới ra sao?",
+      "goc": "Giá dầu thế giới lập đỉnh 3 tháng tác động tới chi phí sinh hoạt hàng ngày.",
+      "nguon_chuyen": "the_gioi",
+      "giay": 55,
+      "loi_thoai": "Chiều nay giá dầu Brent thế giới đã chính thức vượt 112,13 USD một thùng, tăng hơn 3% và lập đỉnh cao nhất trong vòng 3 tháng qua. Con số này nghe xa xôi nhưng nó chạm thẳng vào túi tiền của mỗi gia đình đấy. Khi giá dầu thế giới neo cao trên 110 USD, các kỳ điều hành giá xăng dầu trong nước sắp tới sẽ chịu áp lực tăng giá rất rõ rệt. Xăng tăng không chỉ là việc chúng ta đổ bình xăng xe máy hay ô tô tốn thêm vài chục nghìn. Quan trọng hơn, chi phí logistics và vận chuyển hàng hóa từ chợ đầu mối về siêu thị sẽ đội lên, kéo theo giá thực phẩm và chi phí sinh hoạt hàng ngày tăng theo. Trong khi người đầu tư cổ phiếu dầu khí có thể vui mừng ngắn hạn, thì ở góc độ đời sống, bài toán chi tiêu của chúng ta lại phải thắt chặt hơn một chút. Điều anh chị cần để ý tiếp theo là kỳ điều hành giá xăng dầu tới đây sẽ trích lập hay sử dụng quỹ bình ổn ra sao nhé.",
+      "du_lieu_dung": [
+       "Giá dầu Brent 112,13 USD/thùng",
+       "Mức cao nhất 3 tháng qua"
+      ]
+     },
+     {
+      "tieu_de": "VN-Index tăng 22 điểm nhưng tài khoản sao vẫn đứng yên?",
+      "goc": "Bóc tách hiện tượng méo mó chỉ số do nhóm cổ phiếu trụ chi phối.",
+      "nguon_chuyen": "phien",
+      "giay": 55,
+      "loi_thoai": "Hôm nay thị trường chứng khoán tăng gần 22 điểm, nhưng tại sao tài khoản của rất nhiều anh chị lại không tăng, thậm chí còn bị đỏ nhẹ? Câu trả lời nằm ở hiện tượng lệch pha chỉ số. Phiên hôm nay sàn HOSE có tới 164 mã giảm, trong khi chỉ có 147 mã tăng. Số mã đỏ nhiều hơn số mã xanh. Vậy 22 điểm tăng đó từ đâu ra? Riêng 4 cổ phiếu thuộc nhóm Vin đã đóng góp tới 19,56 điểm vào chỉ số, trong đó một mình mã VIC đã kéo gần 15 điểm. Bỏ nhóm này ra thì hàng trăm cổ phiếu còn lại trên sàn chỉ đóng góp vẻn vẹn khoảng 2,4 điểm. Điểm số tăng mạnh nhưng tiền chỉ chọn lọc vào nhóm dầu khí hay cảng biển chứ không hề dàn trải. Khi đi chợ đầu tư, nhìn điểm số thôi là chưa đủ, quan trọng là mã mình cầm có dòng tiền thật sự chảy vào hay không. Điều anh chị cần để ý tiếp theo là chỉ số khi chạm vùng cản 1.756 đến 1.780 điểm sẽ phản ứng thế nào nhé.",
+      "du_lieu_dung": [
+       "VN-Index tăng 21,96 điểm",
+       "164 mã giảm / 147 mã tăng",
+       "Nhóm Vin đóng góp 19,56 điểm",
+       "Phần còn lại 2,4 điểm"
+      ]
+     }
+    ]
+   },
+   "model": "gemini-3.7-flash",
+   "nhan": "Bản 1"
   }
  ],
  "viet_lai": [],
- "trang_thai_chay": "chi_so_lieu",
+ "trang_thai_chay": "dat",
  "ai": {
   "models": [
    "gemini-3.1-pro-preview",
@@ -6770,19 +6049,17 @@
    "gemini-3.5-flash-lite",
    "gemini-3.1-flash-lite"
   ],
-  "so_luot": 0,
-  "token_vao": 0,
-  "token_ra": 0,
+  "so_luot": 1,
+  "token_vao": 66764,
+  "token_ra": 18153,
   "nhat_ky": [
-   "08:21:43 gemini-3.1-pro-preview 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
-   "08:21:51 gemini-3.8-flash 1s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
-   "08:21:59 gemini-3.8-flash 1s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
-   "08:22:16 gemini-3.8-flash 1s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
-   "08:22:40 gemini-3.7-flash 0s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
-   "08:22:49 gemini-3.7-flash 0s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
-   "08:23:06 gemini-3.7-flash 1s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } "
+   "08:34:33 gemini-3.1-pro-preview 0s — HTTP 429: {   \"error\": {     \"code\": 429,     \"message\": \"You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-a",
+   "08:34:45 gemini-3.8-flash 4s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "08:35:05 gemini-3.8-flash 1s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "08:35:46 gemini-3.8-flash 1s — HTTP 503: {   \"error\": {     \"code\": 503,     \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\",     \"status\": \"UNAVAILABLE\"   } } ",
+   "08:39:18 gemini-3.7-flash 152s — ok, ra 18153 token"
   ]
  },
- "xong_luc": "2026-10-22T15:23+07:00",
- "chay_giay": 135
+ "xong_luc": "2026-10-22T15:39+07:00",
+ "chay_giay": 320
 }

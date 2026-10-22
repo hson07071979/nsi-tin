@@ -415,15 +415,41 @@
   "ngay_cham_cuoi": "2026-10-22"
  },
  {
-  "id": "86d4227970",
+  "id": "a743336fd7",
   "ngay_ghi": "2026-10-22",
-  "ban": "so_lieu_khong_ai",
+  "ban": "cach_1_luot",
   "doi_tuong": "VNINDEX",
   "loai": "giu",
-  "moc": 1756.07,
+  "moc": 1746.15,
+  "han_phien": 3,
+  "loai_moc": "CAN",
+  "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc gap 1.746,15 điểm trong 3 phiên tới để bảo toàn nhịp tăng.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "068dbab6f2",
+  "ngay_ghi": "2026-10-22",
+  "ban": "cach_1_luot",
+  "doi_tuong": "GMD",
+  "loai": "giu",
+  "moc": 56.0,
   "han_phien": 5,
-  "loai_moc": "QS",
-  "noi_dung": "VN-Index giữ trên 1.756,07 trong 5 phiên",
+  "loai_moc": "CAN",
+  "noi_dung": "GMD sẽ giữ vững trên vùng đỉnh cũ 56,0 để tiếp tục xu hướng mở đỉnh mới.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "3d3d4dffb8",
+  "ngay_ghi": "2026-10-22",
+  "ban": "cach_1_luot",
+  "doi_tuong": "PVD",
+  "loai": "giu",
+  "moc": 18.0,
+  "han_phien": 5,
+  "loai_moc": "CAN",
+  "noi_dung": "PVD sẽ duy trì đóng cửa trên mốc hỗ trợ 18,0 sau phiên bùng nổ vượt MA50.",
   "trang_thai": "mo",
   "phien_da_qua": 0
  }

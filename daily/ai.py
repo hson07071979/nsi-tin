@@ -154,7 +154,8 @@ class GeminiDaily(Gemini):
                     time.sleep(min(int(m.group(1)) + 2 if m else 20 * (attempt + 1), 75))
                     continue
                 if r.status_code in (500, 502, 503, 504):
-                    time.sleep(8 * (attempt + 1))
+                    # 22/10: 503 "high demand" thường kéo 1–3 phút → chờ 20/40/60 giây thay vì 8/16 (cũ bỏ model quá sớm)
+                    time.sleep(min(20 * (attempt + 1), 60))
                     continue
                 self.chet.add(model)                  # 400/403/404: model không dùng được với key này
                 break
@@ -345,11 +346,35 @@ def cach_2_buoc(g: GeminiDaily, fc: dict, so: dict) -> dict:
 def cach_1_luot(g: GeminiDaily, fc: dict, so: dict) -> dict:
     res: dict = {"cach": "cach_1_luot", "loi": []}
     g.muc_nghi = None
+    tot, du = tang_model(g)
+    p = prompts.prompt_mot_luot(fc, so)
+    out = None
     try:
-        out = g.json(prompts.LUAT, prompts.prompt_mot_luot(fc, so), temperature=0.65, models=tang_model(g)[0])
+        out = g.json(prompts.LUAT, p, temperature=0.65, models=tot)
     except GeminiError as e:
-        res["loi"].append(str(e)[:300])
-        return res
+        loi = str(e)
+        # 22/10: model tốt chỉ quá tải tạm thời (503/mạng) → nghỉ 2 phút rồi thử lại model tốt một lần
+        tam_thoi = any(m not in g.chet for m in tot) and re.search(r"HTTP 50\d|mạng", loi)
+        if tam_thoi and con_luot(g, 15):
+            print("  [gemini] model tốt quá tải — nghỉ 120s rồi thử lại", flush=True)
+            time.sleep(120)
+            try:
+                out = g.json(prompts.LUAT, p, temperature=0.65, models=tot)
+            except GeminiError as e2:
+                loi = str(e2)
+        # vẫn hỏng → rơi về model dự phòng (giống cách 2 bước), ghi rõ để Claude kiểm kỹ câu chữ
+        if out is None:
+            du_song = [m for m in du if m not in g.chet]
+            if not du_song or not con_luot(g, 8):
+                res["loi"].append(loi[:300])
+                return res
+            try:
+                out = g.json(prompts.LUAT, p, temperature=0.65, models=du_song)
+            except GeminiError as e3:
+                res["loi"].append(f"{loi[:150]} | dự phòng: {str(e3)[:150]}")
+                return res
+            res["loi"].append(f"Bản viết bằng model dự phòng {out.get('_model')} vì các model tốt "
+                              f"({', '.join(m for m in tot if '-pro' not in m)}) quá tải/hết lượt — câu chữ có thể kém hơn")
     res["phan_tich"] = out.get("phan_tich") or {}
     sc = out.get("script") or {}
     res["loi"] += check_phan_tich(res["phan_tich"])

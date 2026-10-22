@@ -1,0 +1,227 @@
+{
+ "ngay": "2026-10-22",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Liên thị trường: KOSPI −3,52% không có trong FACT → bỏ khỏi the_gioi và lời thoại; ngưỡng 'đáy 20 phiên/3 tháng' châu Á không có căn cứ → null. Tỷ giá 'về đáy 20 phiên' không có căn cứ → sửa.",
+  "Lời thoại có số không có trong FACT → bỏ: BID 33,8/33,05; khớp lệnh ngân hàng 3.400 tỷ; HHV 9,74; FRT 151,5; DPM 21,85; TNG 19,2; DIG/NVL; GMD 'khớp gần 200 tỷ'.",
+  "PNJ: 'tin bất lợi KQKD quý 3' không có nguồn trong FACT (HYPOTHESIS) → bỏ; 'gap 24,7–26,6' không có căn cứ → đổi xác nhận về KC 19,24/23,21.",
+  "Mốc/gap không truy được về FACT → bỏ/sửa: TCX sl 28,0 (null) và 'lấp gap'; VCI 'gap 19,1'; VIC 'gap 223,6'; SZC 'gap 18,6'.",
+  "GMD: 'lập đỉnh mới'/'đỉnh thời đại' sai — đóng 57,5 vẫn dưới đỉnh 250 phiên 57,99 → 'áp sát đỉnh 250 phiên'.",
+  "VHM: xác nhận ghi 'MA200 tại 65,2' nhưng MA200 = 64,9 (65,2 là biên dưới vùng cản) → sửa.",
+  "FPT: 'kìm hãm chỉ số' sai — đóng góp 0,0 điểm → sửa. Khối ngoại 'mua ròng phiên thứ hai liên tiếp' không kiểm được (FACT chỉ có phiên nay) → bỏ.",
+  "phien_toi.vo_hieu: đóng dưới 1.746 chỉ mới vào gap, lấp toàn bộ phải dưới 1.738,67 (tham chiếu) → sửa.",
+  "Nhân quả: 'Brent kích hoạt/nhờ hưởng lợi trực tiếp' → 'đi cùng'. Đèn NSI trong regime.so_voi_den_nsi → bỏ.",
+  "Lời thoại 'điểm dừng lỗ'/'mục tiêu' (CTG, MBB, TCB, TPB, PVD, GMD) → 'hỗ trợ kế tiếp'/'kháng cự kế tiếp', bỏ % cách.",
+  "Breadth hai nguồn lệch nhẹ: 147/164 (chính) và 149/167 (đếm đối chiếu). Giữ số chính.",
+  "Regime Rotation/Divergence giữ được (Vin góp 19,56/21,96 điểm, breadth âm); lưu ý chỉ số vẫn dưới MA50/MA200, vừa hồi ~5% từ đáy 1.677 nên 'Technical rebound' cũng phù hợp — Sơn quyết.",
+  "PNJ: MA200 57,1 so với giá 18,6 (−67%), đỉnh 60 phiên 45,55 ngày 25/08 — nên kiểm lại dữ liệu điều chỉnh quyền trước khi nói trên sóng.",
+  "Ghi chú cho phiên mai: lúc 15:24 ES futures −1,02%, VIX +10,9% — chưa có trong bản Gemini."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "the_gioi[2].he_qua_neu_vuot",
+   "gia_tri": "Tỷ giá nhích giảm 0,06%, còn cách mức cao 20 phiên 25.991, giúp giải tỏa bớt áp lực hút thanh khoản từ nhà điều hành."
+  },
+  {
+   "duong_dan": "the_gioi[3].bien",
+   "gia_tri": "Thị trường chứng khoán châu Á (Hang Seng, Nikkei 225, Thượng Hải)"
+  },
+  {
+   "duong_dan": "the_gioi[3].muc",
+   "gia_tri": "Hang Seng -3,03%, Nikkei -2,65%, Thượng Hải -1,48% (chiều 22/10)"
+  },
+  {
+   "duong_dan": "the_gioi[3].nguong",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "regime.ung_ho[2]",
+   "gia_tri": "Khối ngoại mua ròng 341,6 tỷ trong phiên, tập trung VIC, TCB, VHM, MSN."
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "nganh[1].ma[1].thung_thi",
+   "gia_tri": "Thủng 19,15 sẽ lùi về vùng hỗ trợ 18,05–18,15."
+  },
+  {
+   "duong_dan": "nganh[1].ma[3].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[1].ma[3].diem_dung_cach_pct",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[1].ma[3].thung_thi",
+   "gia_tri": "Thủng 28,7 sẽ mất hỗ trợ ngắn hạn, hỗ trợ kế tiếp là đáy 20 phiên 26,6."
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].thung_thi",
+   "gia_tri": "Thủng 227,8 sẽ lùi về vùng hỗ trợ 219,1–224,7."
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].xac_nhan",
+   "gia_tri": "Vượt hoàn toàn MA200 (~64,9) và vùng cản 65,2."
+  },
+  {
+   "duong_dan": "nganh[4].ma[0].cau_truc",
+   "gia_tri": "Tăng 2,58%, nằm trên MA10/MA20/MA50, bám sát MA200 quanh 36,65."
+  },
+  {
+   "duong_dan": "nganh[4].ma[1].thung_thi",
+   "gia_tri": "Thủng 18,59 mất vùng hỗ trợ 18,59–18,96 và gãy nhịp rướn."
+  },
+  {
+   "duong_dan": "nganh[6].nhan_dinh",
+   "gia_tri": "Nhóm ngành mạnh nhất thị trường phiên hôm nay (+3,46%), đi cùng giá dầu Brent lập đỉnh 3 tháng."
+  },
+  {
+   "duong_dan": "nganh[7].nhan_dinh",
+   "gia_tri": "Phân hóa mạnh: MWG giữ nền trên MA50, trong khi PNJ tiếp tục yếu dưới toàn bộ các đường MA."
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].xac_nhan",
+   "gia_tri": "Vượt kháng cự kế tiếp 19,24, xa hơn là 23,21."
+  },
+  {
+   "duong_dan": "nganh[8].nhan_dinh",
+   "gia_tri": "Dòng tiền hoạt động rất mạnh: GMD áp sát đỉnh 250 phiên, VSC vượt MA50 với khối lượng lớn."
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].cau_truc",
+   "gia_tri": "Rất mạnh, tăng 4,55% với khối lượng gấp 2,6 lần trung bình, áp sát đỉnh 250 phiên 57,99."
+  },
+  {
+   "duong_dan": "nganh[9].nhan_dinh",
+   "gia_tri": "Đà hồi phục tiếp diễn với DCM dẫn đầu, khối ngoại mua ròng trong phiên."
+  },
+  {
+   "duong_dan": "nganh[10].nhan_dinh",
+   "gia_tri": "ANV ghi nhận dòng tiền cải thiện, nằm trên MA10/MA20/MA50."
+  },
+  {
+   "duong_dan": "nganh[13].nhan_dinh",
+   "gia_tri": "Chịu áp lực bán ròng mạnh từ khối ngoại; FPT đứng giá tham chiếu, không đóng góp điểm cho chỉ số."
+  },
+  {
+   "duong_dan": "luan_diem_chinh[3]",
+   "gia_tri": "Giá dầu Brent lập đỉnh 3 tháng tại 112,13 USD/thùng, đi cùng đà bùng nổ của nhóm dầu khí (PVD +5%, BSR +3,91%) — tương quan, chưa chứng minh nhân quả."
+  },
+  {
+   "duong_dan": "phien_toi.vo_hieu[0]",
+   "gia_tri": "VN-Index đóng cửa dưới 1.738,67 điểm, lấp toàn bộ khoảng trống giá 1.738–1.746 vừa mở."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Với các vị thế đang mở như",
+   "thay": "Với các dự báo đang mở như"
+  },
+  {
+   "tim": "KOSPI của Hàn Quốc giảm hơn 3,5%, Hang Seng giảm hơn 3%",
+   "thay": "Hang Seng giảm hơn 3%"
+  },
+  {
+   "tim": "hôm nay họ tiếp tục mua ròng hơn 341 tỷ đồng",
+   "thay": "hôm nay họ mua ròng hơn 341 tỷ đồng"
+  },
+  {
+   "tim": "Hôm nay nhóm này giảm nhẹ 0,19%, khớp lệnh hơn 3.400 tỷ và có sự phân hóa rõ rệt.",
+   "thay": "Hôm nay nhóm này giảm nhẹ 0,19% và có sự phân hóa rõ rệt."
+  },
+  {
+   "tim": " BID giảm gần 1% về 33,8, mốc em theo dõi là vùng 33,05.",
+   "thay": ""
+  },
+  {
+   "tim": "hỗ trợ gần nhất là 29,7, mục tiêu hướng tới vùng cản 31,7",
+   "thay": "hỗ trợ gần nhất là 29,7, kháng cự kế tiếp là vùng cản 31,7"
+  },
+  {
+   "tim": "mốc dừng lỗ em theo dõi là 19,38, mục tiêu là cản cũ 20,8",
+   "thay": "hỗ trợ kế tiếp em theo dõi là 19,38, kháng cự kế tiếp là cản cũ 20,8"
+  },
+  {
+   "tim": "mốc theo dõi là 33,7, mục tiêu hướng tới đỉnh cũ 35,2",
+   "thay": "mốc theo dõi là 33,7, kháng cự kế tiếp là đỉnh cũ 35,2"
+  },
+  {
+   "tim": "mốc hỗ trợ là 12,28 và mục tiêu ngắn hạn là vùng MA200",
+   "thay": "mốc hỗ trợ là 12,28 và kháng cự kế tiếp là vùng MA200"
+  },
+  {
+   "tim": "VCI giảm về 19,5, hỗ trợ là vùng gap 19,15.",
+   "thay": "VCI giảm về 19,5, hỗ trợ là vùng 19,15 đến 19,25."
+  },
+  {
+   "tim": "; trong khi DIG và NVL giảm nhẹ dưới tham chiếu.",
+   "thay": "."
+  },
+  {
+   "tim": "Nhóm đầu tư công biến động hẹp, VCG đóng 15,5, HHV 9,74; riêng CII",
+   "thay": "Nhóm đầu tư công biến động hẹp, VCG đóng 15,5; riêng CII"
+  },
+  {
+   "tim": "mốc theo dõi của PVD là 18,0, mục tiêu ngắn hạn là vùng cản 19,9",
+   "thay": "mốc theo dõi của PVD là 18,0, kháng cự kế tiếp là vùng cản 19,9"
+  },
+  {
+   "tim": "mốc theo dõi là 72,0; FRT đóng 151,5.",
+   "thay": "mốc theo dõi là 72,0."
+  },
+  {
+   "tim": "giảm hơn 3% về 18,6 sau tin tức bất lợi về kết quả kinh doanh quý 3, mốc đáy cũ",
+   "thay": "giảm hơn 3% về 18,6, mốc đáy cũ"
+  },
+  {
+   "tim": "lập đỉnh mới với thanh khoản nổ gấp 2,6 lần trung bình",
+   "thay": "áp sát đỉnh 250 phiên với thanh khoản nổ gấp 2,6 lần trung bình"
+  },
+  {
+   "tim": "tiếp cận MA200 quanh 36,2; DPM đóng 21,85.",
+   "thay": "tiếp cận MA200 quanh 36,2."
+  },
+  {
+   "tim": "có ANV tăng 3% lên 18,9, TNG tăng lên 19,2;",
+   "thay": "có ANV tăng 3% lên 18,9;"
+  },
+  {
+   "tim": "tăng 4,55% với thanh khoản khớp lệnh gần 200 tỷ, gấp 2,6 lần trung bình 20 phiên",
+   "thay": "tăng 4,55% với khối lượng gấp 2,6 lần trung bình 20 phiên"
+  },
+  {
+   "tim": "thủng mốc này thì cấu trúc bứt phá bị suy yếu, điểm dừng lỗ kỹ thuật quanh 53,7, cách khoảng 6,5% so với giá đóng cửa. Mục tiêu ngắn hạn là vùng 58,0 để mở ra đỉnh cao mới.",
+   "thay": "thủng mốc này thì cấu trúc bứt phá bị suy yếu, hỗ trợ kế tiếp quanh 53,7. Kháng cự kế tiếp là vùng 58,0, vượt được thì mở ra đỉnh cao mới."
+  },
+  {
+   "tim": "thủng 18,0 thì cấu trúc hồi phục bị bẻ gãy, điểm dừng lỗ quanh 17,65, cách khoảng 6,6%. Mục tiêu ngắn hạn là vùng cản cũ 19,9.",
+   "thay": "thủng 18,0 thì cấu trúc hồi phục bị bẻ gãy, hỗ trợ kế tiếp quanh 17,65. Kháng cự kế tiếp là vùng cản cũ 19,9."
+  },
+  {
+   "tim": "nằm sâu dưới MA200 và MA50 sau cú sốc thông tin quý 3.",
+   "thay": "nằm sâu dưới MA200 và MA50."
+  }
+ ],
+ "slide": {
+  "regime": "Rotation/Divergence — chỉ số kéo trụ",
+  "ma_dang_noi": [
+   "GMD",
+   "PVD",
+   "PNJ"
+  ],
+  "ly_do": {
+   "GMD": "Tăng 4,55% với khối lượng gấp 2,6 lần, áp sát đỉnh 250 phiên 57,99.",
+   "PVD": "Tăng 5%, khối lượng gấp 2,7 lần, vượt MA50 và chạm sát MA200 cùng ngày Brent lập đỉnh 3 tháng.",
+   "PNJ": "Giảm 3% dưới toàn bộ MA, ví dụ rủi ro cầm mã kênh dưới khi chỉ số xanh."
+  },
+  "tieu_de_ma": {
+   "GMD": "áp sát đỉnh 250 phiên",
+   "PVD": "vượt MA50, chạm MA200",
+   "PNJ": "kênh dưới, giữ đáy 17,25?"
+  }
+ }
+}

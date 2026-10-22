@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-21T19:48+07:00",
+ "cap_nhat": "2026-10-22T07:12+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 210,
-   "ty_le_dung": 60.5
+   "n": 217,
+   "ty_le_dung": 59.4
   },
   "phe_than_trong": {
-   "n": 178,
-   "ty_le_dung": 47.8
+   "n": 181,
+   "ty_le_dung": 47.5
   },
   "phe_vi_mo": {
-   "n": 191,
-   "ty_le_dung": 58.6
+   "n": 197,
+   "ty_le_dung": 57.9
   },
   "tab_web": {
-   "n": 251,
-   "ty_le_dung": 56.6
+   "n": 258,
+   "ty_le_dung": 56.2
   },
   "tab_zalo": {
    "n": 51,
    "ty_le_dung": 51.0
   },
   "trong_tai": {
-   "n": 302,
-   "ty_le_dung": 55.6
+   "n": 309,
+   "ty_le_dung": 55.3
   },
   "xac_minh_da_xac_minh": {
-   "n": 280,
-   "ty_le_dung": 56.1
+   "n": 287,
+   "ty_le_dung": 55.7
   },
   "xac_minh_mot_nguon": {
    "n": 5,
@@ -39,124 +39,6 @@
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-02",
-   "tab": "web",
-   "chu_de": "VN-Index thủng mốc 1.750 điểm do áp lực bán lan rộng và sức nặng từ trụ VIC",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VIC",
-   "du_bao": -1,
-   "vuot_t0": 2.48,
-   "vuot_t4": 4.23,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-02",
-   "tab": "web",
-   "chu_de": "VN-Index thủng mốc 1.750 điểm do áp lực bán lan rộng và sức nặng từ trụ VIC",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "STB",
-   "du_bao": -1,
-   "vuot_t0": -2.04,
-   "vuot_t4": -3.68,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-02",
-   "tab": "web",
-   "chu_de": "VN-Index thủng mốc 1.750 điểm do áp lực bán lan rộng và sức nặng từ trụ VIC",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "LPB",
-   "du_bao": -1,
-   "vuot_t0": -3.62,
-   "vuot_t4": -2.62,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-02",
-   "tab": "web",
-   "chu_de": "Trái phiếu toàn cầu bị bán tháo, USD lập đỉnh 1,5 năm gây áp lực tỷ giá",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "VNINDEX",
-   "du_bao": -1,
-   "vuot_t4": -0.59,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-02",
-   "tab": "web",
-   "chu_de": "Cổ phiếu PNJ xuất hiện lực cầu giải cứu sau 4 phiên giảm sàn, khối ngoại xả ròng mạnh",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -6.21,
-   "vuot_t4": -25.67,
-   "dung": true,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-02",
-   "tab": "web",
-   "chu_de": "Khối ngoại mua ròng thỏa thuận hơn 3.200 tỷ đồng cổ phiếu MSR",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "MSR",
-   "du_bao": 1,
-   "vuot_t0": 3.56,
-   "vuot_t4": 16.97,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-02",
-   "tab": "web",
-   "chu_de": "Khối ngoại mua ròng thỏa thuận hơn 3.200 tỷ đồng cổ phiếu MSR",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "MSN",
-   "du_bao": 1,
-   "vuot_t0": 0.38,
-   "vuot_t4": 5.24,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
   {
    "ngay": "2026-10-02",
    "tab": "web",
@@ -5118,6 +5000,125 @@
     "lac_quan": true,
     "than_trong": false,
     "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-15",
+   "tab": "web",
+   "chu_de": "VN-Index thủng mốc 1.700 điểm, khối ngoại bán ròng kỷ lục",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": -1,
+   "vuot_t0": 0.2,
+   "vuot_t4": 0.4,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-15",
+   "tab": "web",
+   "chu_de": "VN-Index thủng mốc 1.700 điểm, khối ngoại bán ròng kỷ lục",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VHM",
+   "du_bao": -1,
+   "vuot_t0": -3.06,
+   "vuot_t4": -0.67,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-15",
+   "tab": "web",
+   "chu_de": "VN-Index thủng mốc 1.700 điểm, khối ngoại bán ròng kỷ lục",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "MBB",
+   "du_bao": 1,
+   "vuot_t0": 3.22,
+   "vuot_t4": 1.38,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-15",
+   "tab": "web",
+   "chu_de": "Doanh nghiệp lớn liên tục cập nhật kết quả kinh doanh quý 3 khả quan",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HHV",
+   "du_bao": 1,
+   "vuot_t0": 5.69,
+   "vuot_t4": 5.98,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-15",
+   "tab": "web",
+   "chu_de": "Doanh nghiệp lớn liên tục cập nhật kết quả kinh doanh quý 3 khả quan",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "GAS",
+   "du_bao": 1,
+   "vuot_t0": -2.67,
+   "vuot_t4": -4.02,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-15",
+   "tab": "web",
+   "chu_de": "Tôn Đông Á được chấp thuận niêm yết gần 149 triệu cổ phiếu trên HOSE",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "GDA",
+   "du_bao": 1,
+   "vuot_t0": 1.23,
+   "vuot_t4": -0.29,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-15",
+   "tab": "web",
+   "chu_de": "HDBank tung gói tín dụng 2.000 tỷ đồng ưu đãi cho doanh nghiệp nữ làm chủ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HDB",
+   "du_bao": 1,
+   "vuot_t0": -1.34,
+   "vuot_t4": -6.72,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
    }
   }
  ],

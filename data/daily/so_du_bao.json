@@ -264,9 +264,12 @@
   "han_phien": 5,
   "loai_moc": "CAN",
   "noi_dung": "CTG sẽ duy trì trên vùng hỗ trợ 29,7 để hướng lên thử thách cản 31,7.",
-  "trang_thai": "mo",
-  "phien_da_qua": 4,
-  "ngay_cham_cuoi": "2026-10-22"
+  "trang_thai": "dong",
+  "phien_da_qua": 5,
+  "ngay_cham_cuoi": "2026-10-23",
+  "ket_qua": "ĐÚNG",
+  "ngay_dong": "2026-10-23",
+  "gia_luc_dong": 30.95
  },
  {
   "id": "a4834e59dd",
@@ -278,9 +281,12 @@
   "han_phien": 5,
   "loai_moc": "CAN",
   "noi_dung": "GMD sẽ giữ vững trên vùng đệm 52,14 để kiểm định đỉnh cũ 56,0.",
-  "trang_thai": "mo",
-  "phien_da_qua": 4,
-  "ngay_cham_cuoi": "2026-10-22"
+  "trang_thai": "dong",
+  "phien_da_qua": 5,
+  "ngay_cham_cuoi": "2026-10-23",
+  "ket_qua": "ĐÚNG",
+  "ngay_dong": "2026-10-23",
+  "gia_luc_dong": 57.1
  },
  {
   "id": "ff59714d23",
@@ -310,8 +316,8 @@
   "loai_moc": "CAN",
   "noi_dung": "SSI sẽ duy trì giá đóng cửa trên đường MA10 quanh 19,28 để củng cố nhịp hồi phục.",
   "trang_thai": "mo",
-  "phien_da_qua": 3,
-  "ngay_cham_cuoi": "2026-10-22"
+  "phien_da_qua": 4,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "2d43e5a391",
@@ -340,9 +346,12 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc đáy 1.677,19 điểm trong 3 phiên tới.",
-  "trang_thai": "mo",
-  "phien_da_qua": 2,
-  "ngay_cham_cuoi": "2026-10-22"
+  "trang_thai": "dong",
+  "phien_da_qua": 3,
+  "ngay_cham_cuoi": "2026-10-23",
+  "ket_qua": "ĐÚNG",
+  "ngay_dong": "2026-10-23",
+  "gia_luc_dong": 1774.15
  },
  {
   "id": "a1b588c53f",
@@ -355,8 +364,8 @@
   "loai_moc": "CAN",
   "noi_dung": "HPG sẽ duy trì giá đóng cửa trên đường MA20 quanh 20,5 để hướng tới cản 21,55.",
   "trang_thai": "mo",
-  "phien_da_qua": 2,
-  "ngay_cham_cuoi": "2026-10-22"
+  "phien_da_qua": 3,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "06f2328fbd",
@@ -369,8 +378,8 @@
   "loai_moc": "QS",
   "noi_dung": "NKG sẽ giữ vững trên đường MA50 quanh 10,45 sau phiên bùng nổ thanh khoản.",
   "trang_thai": "mo",
-  "phien_da_qua": 2,
-  "ngay_cham_cuoi": "2026-10-22"
+  "phien_da_qua": 3,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "f079491ca1",
@@ -383,8 +392,8 @@
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc hỗ trợ 1.715,91 điểm trong 3 phiên tới để giữ khoảng trống giá vừa mở.",
   "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-10-22"
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "2fd8fe80bf",
@@ -397,8 +406,8 @@
   "loai_moc": "CAN",
   "noi_dung": "TCB sẽ giữ vững trên mốc 33,7 để duy trì đà bứt phá hướng tới đỉnh 35,2.",
   "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-10-22"
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "7d4f038e0d",
@@ -411,8 +420,8 @@
   "loai_moc": "CAN",
   "noi_dung": "SSI sẽ duy trì đóng cửa trên vùng hỗ trợ 19,65 để củng cố nhịp hồi phục trên MA20.",
   "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-10-22"
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "a743336fd7",
@@ -425,7 +434,8 @@
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc gap 1.746,15 điểm trong 3 phiên tới để bảo toàn nhịp tăng.",
   "trang_thai": "mo",
-  "phien_da_qua": 0
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "068dbab6f2",
@@ -438,7 +448,8 @@
   "loai_moc": "CAN",
   "noi_dung": "GMD sẽ giữ vững trên vùng đỉnh cũ 56,0 để tiếp tục xu hướng mở đỉnh mới.",
   "trang_thai": "mo",
-  "phien_da_qua": 0
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-10-23"
  },
  {
   "id": "3d3d4dffb8",
@@ -450,6 +461,46 @@
   "han_phien": 5,
   "loai_moc": "CAN",
   "noi_dung": "PVD sẽ duy trì đóng cửa trên mốc hỗ trợ 18,0 sau phiên bùng nổ vượt MA50.",
+  "trang_thai": "mo",
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-10-23"
+ },
+ {
+  "id": "3a21043eb3",
+  "ngay_ghi": "2026-10-23",
+  "ban": "cach_1_luot",
+  "doi_tuong": "VNINDEX",
+  "loai": "giu",
+  "moc": 1756.07,
+  "han_phien": 3,
+  "loai_moc": "CAN",
+  "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc hỗ trợ 1.756,07 điểm trong 3 phiên tới để giữ thế kiểm định cản MA50.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "96d4192ddd",
+  "ngay_ghi": "2026-10-23",
+  "ban": "cach_1_luot",
+  "doi_tuong": "STB",
+  "loai": "giu",
+  "moc": 68.14,
+  "han_phien": 5,
+  "loai_moc": "CAN",
+  "noi_dung": "STB sẽ duy trì giá đóng cửa trên đường MA200 quanh 68,14 để củng cố phiên tăng trần bứt phá.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "e04bee49e3",
+  "ngay_ghi": "2026-10-23",
+  "ban": "cach_1_luot",
+  "doi_tuong": "ACB",
+  "loai": "giu",
+  "moc": 21.0,
+  "han_phien": 5,
+  "loai_moc": "CAN",
+  "noi_dung": "ACB sẽ giữ vững trên mốc 21,0 sau phiên nổ thanh khoản kỷ lục để hướng tới vùng cản 22,3.",
   "trang_thai": "mo",
   "phien_da_qua": 0
  }

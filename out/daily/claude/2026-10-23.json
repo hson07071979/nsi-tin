@@ -1,0 +1,251 @@
+{
+ "ngay": "2026-10-23",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Đối chiếu FACT brief: giá đóng cửa, %, MA10/20/50/200, vùng HT/KC của VN-Index và 22 mã trong bảng khớp; thanh khoản, khối ngoại, đóng góp điểm, breadth khớp.",
+  "Signature ghi 'áp sát vùng cản MA50' nhưng VN-Index 1.774,15 đã nằm trên MA50 1.772,22 → sửa.",
+  "Nhánh thủng VN-Index: 'gap 1.738–1.746' không có trong FACT (chỉ có 1.746,15 ở sổ dự báo) → bỏ, giữ hỗ trợ 1.725–1.743. Phần phiên tới: '1.800' và '1.740' không có căn cứ → đổi về vùng 1.788–1.813 và 1.725–1.743.",
+  "Mốc không có căn cứ đã bỏ/đổi: US10Y 'đáy 20 phiên', 'đáy 3 tháng 4,604%'; USD/VND 'đáy 20 phiên/3 tháng' (FACT chỉ có đỉnh); gap VIC 223,6, SZC 18,6, GEX 22,9, VSC 14,3, FPT 57,2–57,3, PNJ 18,5–18,6; SSI 'đáy mới dưới 18,3'; ACB 'đáy 20 phiên 19,69' (đáy 20 phiên là 20,15).",
+  "VHM: xác nhận 'MA200 tại 65,2' sai, MA200 = 64,94 → sửa ~64,9. NKG 'tăng 23,7% trong 20 phiên' không truy được → đổi thành hồi 33% từ đáy 20 phiên 9,0.",
+  "Số không có trong brief → bỏ: khớp lệnh bank 5.011 tỷ, STB khớp 554 tỷ, khối ngoại 'sau 2 phiên mua nhẹ', 'kỷ lục' (ACB, VSC), PHR 'dưới 10 tỷ mỗi mã', KDH 'nhờ tin tín dụng'. Chưa kiểm được (không có trong brief, giữ nguyên, anh xem lại): OCB, DXG, NVL, BCM, PET, PVS, CSV, DPM, VCG.",
+  "Hai nguồn lệch: Brent bản 7h ghi 113,23 nhưng đỉnh 20 phiên trong FACT là 113,17 (lúc 15:11 là 109,31). Breadth 137/153 (chính) vs 144/156 (đếm đối chiếu).",
+  "PNJ: giá 17,45 so với MA200 56,88 (−69%), đỉnh 250 phiên 84,67, P/E 3,9 — nghi dữ liệu chưa điều chỉnh sự kiện quyền (chia tách/thưởng). Anh kiểm lại trước khi lên sóng PNJ.",
+  "Nhân quả: 'khối ngoại bán công nghệ, bán lẻ để dồn vào ngân hàng' mâu thuẫn số (bán ròng lớn nhất là ACB −469 tỷ) → sửa; 'midcap bị rút máu để đánh trụ', 'giá dầu khiến dòng tiền dầu khí thận trọng' → bỏ vế nhân quả.",
+  "Lời thoại: 'mục tiêu', 'dừng lỗ/điểm dừng', 'mốc CẦN', 'đèn NSI' → đổi 'kháng cự kế tiếp'/'hỗ trợ kế tiếp' hoặc bỏ. Regime Rotation/Divergence + có tiền khớp bằng chứng, giữ."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "signature.index_noi_gi",
+   "gia_tri": "VN-Index tăng 13,52 điểm lên 1.774,15 nhờ lực kéo trụ và ngân hàng, vượt nhẹ MA50 và nằm trong vùng cản 1.756–1.781."
+  },
+  {
+   "duong_dan": "the_gioi[1].nguong",
+   "gia_tri": "Chưa có ngưỡng đáy trong dữ liệu; đỉnh 20 phiên và 3 tháng là 5,311%."
+  },
+  {
+   "duong_dan": "the_gioi[2].muc",
+   "gia_tri": "25.848 đồng lúc 10:20 (−0,03%)"
+  },
+  {
+   "duong_dan": "the_gioi[2].he_qua_neu_vuot",
+   "gia_tri": "Nếu vượt lại đỉnh 20 phiên 25.991, áp lực tỷ giá quay lại, bất lợi cho dòng vốn ngoại."
+  },
+  {
+   "duong_dan": "dong_tien",
+   "gia_tri": "Khối ngoại bán ròng 478 tỷ đồng trên HOSE, tập trung bán mạnh ACB (-469,41 tỷ), FPT (-146,43 tỷ), PNJ (-109,53 tỷ); ngược lại mua ròng mạnh TCB (+152,06 tỷ), MSN (+91,98 tỷ), CTG (+61,52 tỷ). Khối ngoại mang tính chất tái cơ cấu danh mục tập trung, bán và mua đều có mã ngân hàng. Tự doanh chưa có số hôm nay (phiên gần nhất 21/10 bán ròng 132,4 tỷ). Trạng thái chung: Phân hóa và mua bán tập trung."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Nếu quay đầu thoái lui và thủng 1.756, chỉ số sẽ về kiểm định hỗ trợ 1.725–1.743 điểm."
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "nganh[0].nhan_dinh",
+   "gia_tri": "Là tâm điểm hút tiền của phiên hôm nay, đóng vai trò kéo trụ nâng đỡ chỉ số (ngành +1,52%)."
+  },
+  {
+   "duong_dan": "nganh[0].ma[1].thung_thi",
+   "gia_tri": "Thủng 20,29 sẽ về vùng hỗ trợ 19,69–20,2."
+  },
+  {
+   "duong_dan": "nganh[1].ma[0].thung_thi",
+   "gia_tri": "Thủng 18,65 sẽ về đáy 60 phiên 18,38."
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].thung_thi",
+   "gia_tri": "Thủng 227,8 sẽ về vùng hỗ trợ 219,1–224,7."
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].xac_nhan",
+   "gia_tri": "Vượt dứt khoát MA200 (~64,9) và vùng 65,2."
+  },
+  {
+   "duong_dan": "nganh[3].ma[1].cau_truc",
+   "gia_tri": "Hồi 33% từ đáy 20 phiên 9,0, đang test vùng MA200 quanh 11,91–12,25 với vol gấp 1,7 lần trung bình."
+  },
+  {
+   "duong_dan": "nganh[4].ma[0].thung_thi",
+   "gia_tri": "Thủng 18,59 thì mất vùng hỗ trợ 18,59–18,96, về lại MA20 quanh 17,62."
+  },
+  {
+   "duong_dan": "nganh[6].nhan_dinh",
+   "gia_tri": "Thanh khoản suy giảm và giá chững lại, trong khi giá dầu thế giới rung lắc mạnh quanh vùng đỉnh."
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].cau_truc",
+   "gia_tri": "Rơi mạnh 6,18%, nằm sâu dưới MA200 (56,88), khối ngoại bán ròng gần 110 tỷ."
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].xac_nhan",
+   "gia_tri": "Lấy lại MA10 (~18,65)."
+  },
+  {
+   "duong_dan": "nganh[8].nhan_dinh",
+   "gia_tri": "Nhóm khỏe với VSC nổ vol gấp 3 lần trung bình 20 phiên và GMD neo sát đỉnh 1 năm 57,99."
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].cau_truc",
+   "gia_tri": "Tăng 3,78% với vol gấp 3 lần trung bình 20 phiên, vượt toàn bộ MA ngắn hạn."
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].thung_thi",
+   "gia_tri": "Thủng 14,25 thì mất vùng hỗ trợ 14,25–14,3, về lại MA50 quanh 13,72."
+  },
+  {
+   "duong_dan": "nganh[11].ma[0].thung_thi",
+   "gia_tri": "Thủng 23,0 sẽ về vùng hỗ trợ 22,17–22,45."
+  },
+  {
+   "duong_dan": "nganh[12].nhan_dinh",
+   "gia_tri": "Thanh khoản thấp (PHR chỉ ~0,5 lần trung bình), giá dao động giằng co hẹp quanh MA50/MA200."
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].cau_truc",
+   "gia_tri": "Dưới MA10, MA20, MA50, khối ngoại xả ròng hơn 146 tỷ."
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].xac_nhan",
+   "gia_tri": "Lấy lại MA10 (~57,3) và vượt 58,82."
+  },
+  {
+   "duong_dan": "du_bao_moi[2].noi_dung",
+   "gia_tri": "ACB sẽ giữ vững trên mốc 21,0 sau phiên nổ thanh khoản gấp gần 6 lần trung bình để hướng tới vùng cản 22,3."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Mức này đang chạm đáy thấp nhất 20 phiên. ",
+   "thay": ""
+  },
+  {
+   "tim": "đang nằm ngay đáy 3 tháng. Đây là điểm cộng lớn cho dòng vốn ngoại.",
+   "thay": "giảm nhẹ trong phiên. Đây là điểm cần theo dõi với dòng vốn ngoại."
+  },
+  {
+   "tim": "bán ròng 478 tỷ đồng sau 2 phiên mua nhẹ.",
+   "thay": "bán ròng 478 tỷ đồng."
+  },
+  {
+   "tim": "bán mạnh mã công nghệ và bán lẻ để dồn tiền vào các ngân hàng có định giá hấp dẫn.",
+   "thay": "bán mạnh ACB, FPT, PNJ trong khi gom TCB, MSN, CTG."
+  },
+  {
+   "tim": "thậm chí còn bị rút máu nhẹ để dồn tiền sang đánh trụ ngân hàng và kéo VIC.",
+   "thay": "thậm chí còn giảm."
+  },
+  {
+   "tim": "Đây là mốc CẦN, tức là điều kiện cần để xác định xu hướng tiếp theo.",
+   "thay": "Đây là điều kiện cần để xác định xu hướng tiếp theo."
+  },
+  {
+   "tim": "thị trường sẽ phải lùi lại lấp khoảng trống giá vừa mở hôm qua quanh 1.738 đến 1.746 điểm, và hỗ trợ cứng kế tiếp nằm ở vùng 1.725 đến 1.743 điểm.",
+   "thay": "thị trường sẽ phải lùi về hỗ trợ kế tiếp ở vùng 1.725 đến 1.743 điểm."
+  },
+  {
+   "tim": "Giá trị khớp lệnh của riêng bank hôm nay đạt hơn 5.011 tỷ đồng, chiếm hơn một phần ba thanh khoản cả sàn. ",
+   "thay": ""
+  },
+  {
+   "tim": "đóng cửa giá trần 68,5, tăng gần 6,9%, khớp hơn 554 tỷ.",
+   "thay": "đóng cửa giá trần 68,5, tăng gần 6,9%."
+  },
+  {
+   "tim": "nếu giữ được thì mục tiêu kế tiếp là vùng cản dày 72,3 đến 74,2",
+   "thay": "nếu giữ được thì kháng cự kế tiếp là vùng cản dày 72,3 đến 74,2"
+  },
+  {
+   "tim": "thủng lại 64,8 thì cây nến trần hôm nay bị phủ nhận, dừng lỗ quanh 64,8, cách giá đóng cửa cỡ 5,4%.",
+   "thay": "thủng lại 64,8 thì cây nến trần hôm nay bị phủ nhận, hỗ trợ kế tiếp quanh 63,5."
+  },
+  {
+   "tim": "vượt được 21,55 thì mục tiêu là vùng 22,3 đến 22,8; điểm dừng quanh 20,29, cách 4,7%.",
+   "thay": "vượt được 21,55 thì kháng cự kế tiếp là vùng 22,3 đến 22,8; hỗ trợ kế tiếp quanh 20,29."
+  },
+  {
+   "tim": "mục tiêu đỉnh cũ 35,2",
+   "thay": "kháng cự kế tiếp đỉnh cũ 35,2"
+  },
+  {
+   "tim": "cản phía trên là 31,7 đến 32,7, dừng lỗ quanh 29,7.",
+   "thay": "cản phía trên là 31,7 đến 32,7, hỗ trợ kế tiếp quanh 29,7."
+  },
+  {
+   "tim": "mục tiêu ngắn hạn là vùng 20,75 đến 21,25",
+   "thay": "kháng cự kế tiếp là vùng 20,75 đến 21,25"
+  },
+  {
+   "tim": "mục tiêu 13,45",
+   "thay": "kháng cự kế tiếp 13,45"
+  },
+  {
+   "tim": "với vol gấp 1,8 lần trung bình nhờ tin tín dụng; mốc theo dõi 14,7; mục tiêu 15,5.",
+   "thay": "với vol gấp 1,8 lần trung bình; mốc theo dõi 14,7; kháng cự kế tiếp 15,5."
+  },
+  {
+   "tim": "tăng hơn 23% trong 20 phiên qua",
+   "thay": "hồi hơn 33% từ đáy 9,0 trong 20 phiên qua"
+  },
+  {
+   "tim": "Giá dầu thế giới rung lắc khiến dòng tiền vào dầu khí có phần thận trọng.",
+   "thay": "Giá dầu thế giới rung lắc mạnh, đây là biến cần theo dõi với nhóm này."
+  },
+  {
+   "tim": "về 17,45 với gap giảm lớn, khối ngoại",
+   "thay": "về 17,45, khối ngoại"
+  },
+  {
+   "tim": "giảm 0,7% về 57,0, mở gap giảm nhẹ và nằm dưới MA10, MA20",
+   "thay": "giảm 0,7% về 57,0, nằm dưới MA10, MA20"
+  },
+  {
+   "tim": "Hôm nay STB tăng trần lên 68,5, khớp hơn 554 tỷ, điểm số",
+   "thay": "Hôm nay STB tăng trần lên 68,5, điểm số"
+  },
+  {
+   "tim": "thì mục tiêu tiến thẳng về cản 72,3; thủng 64,8 thì dừng lỗ, cách khoảng 5,4%.",
+   "thay": "thì kháng cự kế tiếp là cản 72,3; thủng 64,8 thì cây nến trần bị phủ nhận."
+  },
+  {
+   "tim": "thủng sâu các hỗ trợ và mở gap rơi, khối ngoại",
+   "thay": "thủng sâu các hỗ trợ, khối ngoại"
+  },
+  {
+   "tim": "Khối ngoại bán ròng triền miên, hôm nay bán tiếp 146 tỷ",
+   "thay": "Khối ngoại hôm nay bán ròng 146 tỷ"
+  },
+  {
+   "tim": "Đèn NSI hôm nay hệ thống báo không đọc được dữ liệu, nên phân loại hoàn toàn dựa trên hành động giá và khối lượng thực tế. ",
+   "thay": ""
+  },
+  {
+   "tim": "thị trường mở đường lên 1.800",
+   "thay": "thị trường mở đường lên vùng 1.788 đến 1.813"
+  },
+  {
+   "tim": "lùi về kiểm định 1.740",
+   "thay": "lùi về kiểm định vùng 1.725 đến 1.743"
+  }
+ ],
+ "slide": {
+  "regime": "Phân hóa / xoay vòng, có tiền",
+  "ma_dang_noi": [
+   "STB",
+   "PNJ",
+   "FPT"
+  ],
+  "ly_do": {
+   "STB": "Tăng trần, góp 1,72 điểm, vượt lại MA10/MA20 và đóng trên MA200 — đại diện dòng tiền bắt đáy nhóm tài chính.",
+   "PNJ": "Giảm 6,18%, khối ngoại bán ròng gần 110 tỷ, đang test đáy 17,25 chưa có vùng đỡ rõ phía dưới.",
+   "FPT": "Khối ngoại bán ròng 146 tỷ, nằm dưới MA10/MA20/MA50, đáy cũ 55,8 là mốc sống còn."
+  },
+  "tieu_de_ma": {
+   "STB": "trần, đóng trên MA200",
+   "PNJ": "test đáy 17,25",
+   "FPT": "ngoại xả, sát đáy 55,8"
+  }
+ }
+}

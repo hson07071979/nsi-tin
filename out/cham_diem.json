@@ -1,452 +1,44 @@
 {
- "cap_nhat": "2026-10-23T19:29+07:00",
+ "cap_nhat": "2026-10-24T07:07+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 248,
-   "ty_le_dung": 58.9
+   "n": 264,
+   "ty_le_dung": 59.1
   },
   "phe_than_trong": {
-   "n": 202,
-   "ty_le_dung": 46.5
+   "n": 214,
+   "ty_le_dung": 47.7
   },
   "phe_vi_mo": {
-   "n": 214,
-   "ty_le_dung": 57.0
+   "n": 227,
+   "ty_le_dung": 57.7
   },
   "tab_web": {
-   "n": 284,
-   "ty_le_dung": 54.9
+   "n": 305,
+   "ty_le_dung": 55.4
   },
   "tab_zalo": {
-   "n": 59,
-   "ty_le_dung": 52.5
+   "n": 62,
+   "ty_le_dung": 53.2
   },
   "trong_tai": {
-   "n": 343,
-   "ty_le_dung": 54.5
+   "n": 367,
+   "ty_le_dung": 55.0
   },
   "xac_minh_da_xac_minh": {
-   "n": 316,
-   "ty_le_dung": 54.4
+   "n": 339,
+   "ty_le_dung": 55.2
   },
   "xac_minh_mot_nguon": {
    "n": 5,
    "ty_le_dung": 40.0
   },
   "xac_minh_tin_don": {
-   "n": 22,
-   "ty_le_dung": 59.1
+   "n": 23,
+   "ty_le_dung": 56.5
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Dư nợ margin lập kỷ lục, VN-Index gãy MA50 và hỗ trợ",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -6.97,
-   "vuot_t4": -15.25,
-   "dung": true,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Bộ Tài chính triển khai 4 nhóm giải pháp sau nâng hạng",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": -1.15,
-   "vuot_t4": -3.4,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "GDP 9 tháng tăng 9,01%, quý IV chịu áp lực tăng 12,5%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "HPG",
-   "du_bao": 1,
-   "vuot_t0": 1.35,
-   "vuot_t4": 0.4,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Thị trường quốc tế chờ biên bản họp Fed giữa áp lực lợi suất",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "BSR",
-   "du_bao": 1,
-   "vuot_t0": -1.06,
-   "vuot_t4": 2.12,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Đẩy mạnh tiến độ hạ tầng sân bay Long Thành và đường sắt",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "ACV",
-   "du_bao": 1,
-   "vuot_t0": -0.89,
-   "vuot_t4": 4.49,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Đẩy mạnh tiến độ hạ tầng sân bay Long Thành và đường sắt",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VCG",
-   "du_bao": 1,
-   "vuot_t0": 0.24,
-   "vuot_t4": 2.78,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Đẩy mạnh tiến độ hạ tầng sân bay Long Thành và đường sắt",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "KSB",
-   "du_bao": 1,
-   "vuot_t0": -0.89,
-   "vuot_t4": 2.92,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Giá cước vận tải biển lập đỉnh, nghịch lý giá tàu cũ",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "PVT",
-   "du_bao": 1,
-   "vuot_t0": 2.09,
-   "vuot_t4": 7.38,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Giá cước vận tải biển lập đỉnh, nghịch lý giá tàu cũ",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VTO",
-   "du_bao": 1,
-   "vuot_t0": 3.11,
-   "vuot_t4": 4.15,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Trung Quốc dẫn dắt hơn 60% tăng trưởng xuất khẩu thủy sản",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "ANV",
-   "du_bao": 1,
-   "vuot_t0": 1.46,
-   "vuot_t4": 9.86,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Trung Quốc dẫn dắt hơn 60% tăng trưởng xuất khẩu thủy sản",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VHC",
-   "du_bao": -1,
-   "vuot_t0": -1.29,
-   "vuot_t4": 3.5,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Vingroup huy động 9.000 người làm siêu dự án 18 tỷ USD",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VHM",
-   "du_bao": 1,
-   "vuot_t0": -0.3,
-   "vuot_t4": -2.65,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Vingroup huy động 9.000 người làm siêu dự án 18 tỷ USD",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VIC",
-   "du_bao": 1,
-   "vuot_t0": 2.68,
-   "vuot_t4": 0.82,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "HDBank vào Top 3 vốn hóa tư nhân, Vietjet mở rộng đội bay",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "HDB",
-   "du_bao": 1,
-   "vuot_t0": -2.3,
-   "vuot_t4": 2.51,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "HDBank vào Top 3 vốn hóa tư nhân, Vietjet mở rộng đội bay",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VJC",
-   "du_bao": 1,
-   "vuot_t0": -1.36,
-   "vuot_t4": -0.16,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Gelex Infra giải ngân xong 2.882 tỷ đồng sau IPO",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "GEX",
-   "du_bao": 1,
-   "vuot_t0": 0.42,
-   "vuot_t4": -2.69,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Gelex Infra giải ngân xong 2.882 tỷ đồng sau IPO",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "GEL",
-   "du_bao": 1,
-   "vuot_t0": 0.9,
-   "vuot_t4": 0.51,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Cổ phiếu VPG bị chuyển sang diện kiểm soát từ 9/10",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VPG",
-   "du_bao": -1,
-   "vuot_t0": -3.08,
-   "vuot_t4": -16.64,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Hàn Quốc sắp vận hành nhà máy kim loại đất hiếm tại VN",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "KBC",
-   "du_bao": 1,
-   "vuot_t0": -1.88,
-   "vuot_t4": 1.34,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Hàn Quốc sắp vận hành nhà máy kim loại đất hiếm tại VN",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "SZC",
-   "du_bao": 1,
-   "vuot_t0": -2.38,
-   "vuot_t4": 0.75,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "web",
-   "chu_de": "Giá vàng miếng vượt mốc 143,5 triệu đồng mỗi lượng",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "PNJ",
-   "du_bao": 1,
-   "vuot_t0": -6.97,
-   "vuot_t4": -15.25,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "zalo",
-   "chu_de": "Rò rỉ thông tin NVL chịu áp lực thanh khoản 2.500 tỷ đồng Q3",
-   "xac_minh": "tin_don",
-   "loai": "tin_don",
-   "doi_tuong": "NVL",
-   "du_bao": -1,
-   "vuot_t0": 0.07,
-   "vuot_t4": 4.94,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "zalo",
-   "chu_de": "Rò rỉ thông tin NVL chịu áp lực thanh khoản 2.500 tỷ đồng Q3",
-   "xac_minh": "tin_don",
-   "loai": "tin_don",
-   "doi_tuong": "PDR",
-   "du_bao": -1,
-   "vuot_t0": -0.89,
-   "vuot_t4": 1.04,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "zalo",
-   "chu_de": "Rò rỉ thông tin NVL chịu áp lực thanh khoản 2.500 tỷ đồng Q3",
-   "xac_minh": "tin_don",
-   "loai": "tin_don",
-   "doi_tuong": "VPB",
-   "du_bao": -1,
-   "vuot_t0": -0.45,
-   "vuot_t4": 4.08,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
   {
    "ngay": "2026-10-05",
    "tab": "zalo",
@@ -5117,6 +4709,413 @@
    "doi_tuong": "VNINDEX",
    "du_bao": -1,
    "vuot_t4": 3.67,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Phó Thủ tướng chỉ đạo giảm lãi suất cho vay 1,5 đến 2 phần trăm",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "KDH",
+   "du_bao": 1,
+   "vuot_t0": 0.94,
+   "vuot_t4": 2.71,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Phó Thủ tướng chỉ đạo giảm lãi suất cho vay 1,5 đến 2 phần trăm",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VPB",
+   "du_bao": -1,
+   "vuot_t0": -1.1,
+   "vuot_t4": -5.63,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "VN-Index lấy lại mốc 1.700 điểm nhưng thanh khoản sụt giảm mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": -1.1,
+   "vuot_t4": -5.63,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "VN-Index lấy lại mốc 1.700 điểm nhưng thanh khoản sụt giảm mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HDB",
+   "du_bao": -1,
+   "vuot_t0": 0.72,
+   "vuot_t4": -5.1,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Dragon Capital và VCBF nhận định định giá VN-Index đã về mức đáy",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "FPT",
+   "du_bao": 1,
+   "vuot_t0": -0.95,
+   "vuot_t4": -6.06,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Dragon Capital và VCBF nhận định định giá VN-Index đã về mức đáy",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "IDC",
+   "du_bao": 1,
+   "vuot_t0": 0.94,
+   "vuot_t4": 2.19,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "MSCI cảnh báo hạ bậc thị trường chứng khoán Indonesia xuống độc lập",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VIC",
+   "du_bao": -1,
+   "vuot_t0": -2.78,
+   "vuot_t4": 6.0,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "MSCI cảnh báo hạ bậc thị trường chứng khoán Indonesia xuống độc lập",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNM",
+   "du_bao": -1,
+   "vuot_t0": 0.42,
+   "vuot_t4": -4.35,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Chủ tịch Fed không phát tín hiệu lãi suất, USD giảm giá",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVD",
+   "du_bao": 1,
+   "vuot_t0": 1.23,
+   "vuot_t4": 1.95,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Chủ tịch Fed không phát tín hiệu lãi suất, USD giảm giá",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVS",
+   "du_bao": 1,
+   "vuot_t0": 2.22,
+   "vuot_t4": -1.13,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Mùa báo cáo tài chính quý 3 ghi nhận kết quả phân hóa",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SJS",
+   "du_bao": 1,
+   "vuot_t0": -3.44,
+   "vuot_t4": -8.9,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Mùa báo cáo tài chính quý 3 ghi nhận kết quả phân hóa",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VDS",
+   "du_bao": -1,
+   "vuot_t0": -0.07,
+   "vuot_t4": 2.06,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Mùa báo cáo tài chính quý 3 ghi nhận kết quả phân hóa",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TIS",
+   "du_bao": 1,
+   "vuot_t0": 7.61,
+   "vuot_t4": 0.44,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Vingroup tung gói ưu đãi lớn hỗ trợ phát triển nhà cung ứng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": -2.78,
+   "vuot_t4": 6.0,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Vingroup tung gói ưu đãi lớn hỗ trợ phát triển nhà cung ứng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -0.21,
+   "vuot_t4": 1.41,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Khởi tố một số cựu lãnh đạo doanh nghiệp niêm yết",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DRC",
+   "du_bao": -1,
+   "vuot_t0": -4.52,
+   "vuot_t4": -7.54,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Khởi tố một số cựu lãnh đạo doanh nghiệp niêm yết",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TBD",
+   "du_bao": -1,
+   "vuot_t0": 0.94,
+   "vuot_t4": -4.0,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Khởi tố một số cựu lãnh đạo doanh nghiệp niêm yết",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HVA",
+   "du_bao": -1,
+   "vuot_t0": 9.77,
+   "vuot_t4": -4.0,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Cổ phiếu KOS tiếp tục giảm sàn phiên thứ 20 liên tiếp",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "KOS",
+   "du_bao": -1,
+   "vuot_t0": -5.98,
+   "vuot_t4": -34.06,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Chiến lược quản lý nợ công hằng năm không vượt 60% GDP",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VCG",
+   "du_bao": 1,
+   "vuot_t0": 0.28,
+   "vuot_t4": -2.02,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "web",
+   "chu_de": "Chiến lược quản lý nợ công hằng năm không vượt 60% GDP",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "HHV",
+   "du_bao": 1,
+   "vuot_t0": -0.85,
+   "vuot_t4": -2.32,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "zalo",
+   "chu_de": "Phạm Nhật Vượng sở hữu gần 10% LPBank",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "LPB",
+   "du_bao": 1,
+   "vuot_t0": 2.13,
+   "vuot_t4": 2.32,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "zalo",
+   "chu_de": "Phạm Nhật Vượng sở hữu gần 10% LPBank",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": -2.78,
+   "vuot_t4": 6.0,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-17",
+   "tab": "zalo",
+   "chu_de": "Nhận định thị trường thiếu cổ phiếu dẫn dắt",
+   "xac_minh": "tin_don",
+   "loai": "thi_truong",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": 4.0,
    "dung": false,
    "phe": {
     "lac_quan": null,

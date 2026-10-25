@@ -1,469 +1,44 @@
 {
- "cap_nhat": "2026-10-24T08:16+07:00",
+ "cap_nhat": "2026-10-25T07:09+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 264,
-   "ty_le_dung": 59.1
+   "n": 281,
+   "ty_le_dung": 57.3
   },
   "phe_than_trong": {
-   "n": 214,
-   "ty_le_dung": 47.7
+   "n": 227,
+   "ty_le_dung": 47.6
   },
   "phe_vi_mo": {
-   "n": 227,
-   "ty_le_dung": 57.7
+   "n": 245,
+   "ty_le_dung": 55.5
   },
   "tab_web": {
-   "n": 305,
-   "ty_le_dung": 55.4
+   "n": 322,
+   "ty_le_dung": 54.7
   },
   "tab_zalo": {
-   "n": 62,
-   "ty_le_dung": 53.2
+   "n": 70,
+   "ty_le_dung": 54.3
   },
   "trong_tai": {
-   "n": 367,
-   "ty_le_dung": 55.0
+   "n": 392,
+   "ty_le_dung": 54.6
   },
   "xac_minh_da_xac_minh": {
-   "n": 339,
-   "ty_le_dung": 55.2
+   "n": 359,
+   "ty_le_dung": 54.6
   },
   "xac_minh_mot_nguon": {
-   "n": 5,
-   "ty_le_dung": 40.0
+   "n": 8,
+   "ty_le_dung": 37.5
   },
   "xac_minh_tin_don": {
-   "n": 23,
-   "ty_le_dung": 56.5
+   "n": 25,
+   "ty_le_dung": 60.0
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-05",
-   "tab": "zalo",
-   "chu_de": "Thống kê lịch sử giao dịch cổ phiếu HPG của ông Trần Vũ Minh",
-   "xac_minh": "mot_nguon",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "HPG",
-   "du_bao": 1,
-   "vuot_t0": 1.35,
-   "vuot_t4": 0.4,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-05",
-   "tab": "zalo",
-   "chu_de": "Thống kê lịch sử giao dịch cổ phiếu HPG của ông Trần Vũ Minh",
-   "xac_minh": "mot_nguon",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "HSG",
-   "du_bao": 1,
-   "vuot_t0": -0.69,
-   "vuot_t4": -0.65,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "NHNN rút ròng hơn 53.000 tỷ qua OMO, lãi suất liên ngân hàng biến động",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "VCB",
-   "du_bao": 1,
-   "vuot_t0": 0.19,
-   "vuot_t4": 1.31,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "NHNN rút ròng hơn 53.000 tỷ qua OMO, lãi suất liên ngân hàng biến động",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "SSI",
-   "du_bao": -1,
-   "vuot_t0": 0.17,
-   "vuot_t4": -1.22,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Tỷ lệ LDR dự kiến nới lên 95% theo Thông tư 50/2026/TT-NHNN",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "TCB",
-   "du_bao": 1,
-   "vuot_t0": -0.49,
-   "vuot_t4": 2.15,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Tỷ lệ LDR dự kiến nới lên 95% theo Thông tư 50/2026/TT-NHNN",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": -0.07,
-   "vuot_t4": 1.84,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Tỷ lệ LDR dự kiến nới lên 95% theo Thông tư 50/2026/TT-NHNN",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "VCB",
-   "du_bao": -1,
-   "vuot_t0": 0.19,
-   "vuot_t4": 1.31,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Khối ngoại xả ròng tháng thứ 9 liên tiếp, bán ròng gần 300 tỷ phiên 5/10",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "HPG",
-   "du_bao": 1,
-   "vuot_t0": -0.34,
-   "vuot_t4": 2.81,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Khối ngoại xả ròng tháng thứ 9 liên tiếp, bán ròng gần 300 tỷ phiên 5/10",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "TCB",
-   "du_bao": -1,
-   "vuot_t0": -0.49,
-   "vuot_t4": 2.15,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Khối ngoại xả ròng tháng thứ 9 liên tiếp, bán ròng gần 300 tỷ phiên 5/10",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -7.26,
-   "vuot_t4": -14.33,
-   "dung": true,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "HOSE công bố 65 mã bị cắt margin trong quý 4/2026",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "DGC",
-   "du_bao": -1,
-   "vuot_t0": -2.47,
-   "vuot_t4": -4.15,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "HOSE công bố 65 mã bị cắt margin trong quý 4/2026",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "STK",
-   "du_bao": -1,
-   "vuot_t0": -1.66,
-   "vuot_t4": 5.15,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "VN-Index hồi phục 15 điểm nhờ VIC và nhóm trụ, thanh khoản thận trọng",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VIC",
-   "du_bao": 1,
-   "vuot_t0": -0.34,
-   "vuot_t4": -3.77,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "VN-Index hồi phục 15 điểm nhờ VIC và nhóm trụ, thanh khoản thận trọng",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "HPG",
-   "du_bao": 1,
-   "vuot_t0": -0.34,
-   "vuot_t4": 2.81,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "VN-Index hồi phục 15 điểm nhờ VIC và nhóm trụ, thanh khoản thận trọng",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -7.26,
-   "vuot_t4": -14.33,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Lãi suất huy động 12 tháng phân hóa, cao nhất chạm 7,5%/năm",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "VPB",
-   "du_bao": -1,
-   "vuot_t0": 0.53,
-   "vuot_t4": 7.92,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Lãi suất huy động 12 tháng phân hóa, cao nhất chạm 7,5%/năm",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "DXG",
-   "du_bao": -1,
-   "vuot_t0": -1.04,
-   "vuot_t4": 1.04,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Thị phần môi giới HOSE quý 3/2026: TCBS vượt 10%, VPS sụt giảm",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VCI",
-   "du_bao": 1,
-   "vuot_t0": 3.97,
-   "vuot_t4": 1.03,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Thị phần môi giới HOSE quý 3/2026: TCBS vượt 10%, VPS sụt giảm",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": 0.17,
-   "vuot_t4": -1.22,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Thị phần môi giới HOSE quý 3/2026: TCBS vượt 10%, VPS sụt giảm",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VND",
-   "du_bao": -1,
-   "vuot_t0": 3.41,
-   "vuot_t4": 0.34,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Cổ phiếu LPB tăng trần bất ngờ sau chuỗi giảm mạnh",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "LPB",
-   "du_bao": 1,
-   "vuot_t0": 1.76,
-   "vuot_t4": -4.56,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Cổ phiếu LPB tăng trần bất ngờ sau chuỗi giảm mạnh",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VIC",
-   "du_bao": 1,
-   "vuot_t0": -0.34,
-   "vuot_t4": -3.77,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Con trai Chủ tịch Hòa Phát đăng ký mua 50 triệu cổ phiếu HPG",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "HPG",
-   "du_bao": 1,
-   "vuot_t0": -0.34,
-   "vuot_t4": 2.81,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Con trai Chủ tịch Hòa Phát đăng ký mua 50 triệu cổ phiếu HPG",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "HSG",
-   "du_bao": 1,
-   "vuot_t0": -0.44,
-   "vuot_t4": 4.34,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-06",
-   "tab": "web",
-   "chu_de": "Tăng trưởng GDP 9 tháng 2026 ước đạt 9,01%, vốn FDI thực hiện tăng 12%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "KBC",
-   "du_bao": 1,
-   "vuot_t0": -0.13,
-   "vuot_t4": 3.64,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
   {
    "ngay": "2026-10-06",
    "tab": "web",
@@ -5116,6 +4691,431 @@
    "doi_tuong": "VNINDEX",
    "du_bao": -1,
    "vuot_t4": 4.0,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Chính phủ yêu cầu giảm 1.5-2% lãi suất, VCB và BIDV tiên phong",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -0.73,
+   "vuot_t4": -3.76,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Chính phủ yêu cầu giảm 1.5-2% lãi suất, VCB và BIDV tiên phong",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "BID",
+   "du_bao": -1,
+   "vuot_t0": 0.06,
+   "vuot_t4": -3.12,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Chính phủ yêu cầu giảm 1.5-2% lãi suất, VCB và BIDV tiên phong",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCB",
+   "du_bao": -1,
+   "vuot_t0": -0.29,
+   "vuot_t4": -4.18,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Trình Quốc hội mục tiêu tăng trưởng GDP 2027 từ 10% trở lên",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VCG",
+   "du_bao": 1,
+   "vuot_t0": 0.28,
+   "vuot_t4": -2.02,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Trình Quốc hội mục tiêu tăng trưởng GDP 2027 từ 10% trở lên",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "KBC",
+   "du_bao": 1,
+   "vuot_t0": 1.33,
+   "vuot_t4": 0.25,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Đề xuất nới điều kiện IPO và bổ sung quy định giao dịch điện tử",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": 2.74,
+   "vuot_t4": -1.43,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Đề xuất nới điều kiện IPO và bổ sung quy định giao dịch điện tử",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCI",
+   "du_bao": 1,
+   "vuot_t0": 1.47,
+   "vuot_t4": -0.57,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Tỷ giá ngân hàng hạ nhiệt, tiền gửi dân cư đạt kỷ lục 11.43 triệu tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VPB",
+   "du_bao": -1,
+   "vuot_t0": -1.1,
+   "vuot_t4": -5.63,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Tỷ giá ngân hàng hạ nhiệt, tiền gửi dân cư đạt kỷ lục 11.43 triệu tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "STB",
+   "du_bao": -1,
+   "vuot_t0": -0.65,
+   "vuot_t4": 5.08,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Giá dầu Brent vọt lên 110 USD/thùng, chứng khoán Mỹ bị xả mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVD",
+   "du_bao": 1,
+   "vuot_t0": 1.23,
+   "vuot_t4": 1.95,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Giá dầu Brent vọt lên 110 USD/thùng, chứng khoán Mỹ bị xả mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVS",
+   "du_bao": 1,
+   "vuot_t0": 2.22,
+   "vuot_t4": -1.13,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Giá dầu Brent vọt lên 110 USD/thùng, chứng khoán Mỹ bị xả mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "HAH",
+   "du_bao": -1,
+   "vuot_t0": 1.35,
+   "vuot_t4": 0.91,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "VN-Index giảm tuần thứ 4 liên tiếp, khối ngoại bán ròng VIC và tài chính",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": -1,
+   "vuot_t0": -2.78,
+   "vuot_t4": 6.0,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "VN-Index giảm tuần thứ 4 liên tiếp, khối ngoại bán ròng VIC và tài chính",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": -1,
+   "vuot_t0": 1.09,
+   "vuot_t4": -0.99,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Nhiều ngân hàng báo lãi 9 tháng tăng trưởng, SHB thu xong tiền bán SFinance",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SHB",
+   "du_bao": 1,
+   "vuot_t0": 0.0,
+   "vuot_t4": -1.65,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Nhiều ngân hàng báo lãi 9 tháng tăng trưởng, SHB thu xong tiền bán SFinance",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NAB",
+   "du_bao": 1,
+   "vuot_t0": 0.12,
+   "vuot_t4": 0.13,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "web",
+   "chu_de": "Chứng khoán Rồng Việt báo lỗ trước thuế 105 tỷ đồng trong quý 3",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VDS",
+   "du_bao": -1,
+   "vuot_t0": -0.07,
+   "vuot_t4": 2.06,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Chính phủ yêu cầu giảm lãi suất cho vay 1,5-2%",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "KDH",
+   "du_bao": 1,
+   "vuot_t0": 0.94,
+   "vuot_t4": 2.71,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Chính phủ yêu cầu giảm lãi suất cho vay 1,5-2%",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -0.73,
+   "vuot_t4": -3.76,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Chính phủ yêu cầu giảm lãi suất cho vay 1,5-2%",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VPB",
+   "du_bao": -1,
+   "vuot_t0": -1.1,
+   "vuot_t4": -5.63,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Ngành thủy sản đối mặt áp lực chu kỳ và thuế quan",
+   "xac_minh": "mot_nguon",
+   "loai": "nganh",
+   "doi_tuong": "ANV",
+   "du_bao": -1,
+   "vuot_t0": 4.23,
+   "vuot_t4": 0.38,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Ngành thủy sản đối mặt áp lực chu kỳ và thuế quan",
+   "xac_minh": "mot_nguon",
+   "loai": "nganh",
+   "doi_tuong": "VHC",
+   "du_bao": -1,
+   "vuot_t0": 2.52,
+   "vuot_t4": -1.04,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Tin đồn xử lý nợ tại VPBank và phản ứng giá",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPB",
+   "du_bao": -1,
+   "vuot_t0": -1.1,
+   "vuot_t4": -5.63,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Tin đồn xử lý nợ tại VPBank và phản ứng giá",
+   "xac_minh": "tin_don",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": 1.88,
+   "vuot_t4": -4.47,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-18",
+   "tab": "zalo",
+   "chu_de": "Đánh giá cơ hội đầu tư cổ phiếu VIX vùng giá mới",
+   "xac_minh": "mot_nguon",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIX",
+   "du_bao": -1,
+   "vuot_t0": 2.63,
+   "vuot_t4": 3.17,
    "dung": false,
    "phe": {
     "lac_quan": null,

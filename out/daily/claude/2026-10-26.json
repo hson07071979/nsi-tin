@@ -1,0 +1,195 @@
+{
+ "ngay": "2026-10-26",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Đối chiếu FACT: giá, %, MA, P/B-P/E, khối ngoại, đóng góp điểm của VN-Index và 22 mã trong bảng khớp với bản Gemini; Vin −0,21 / còn lại −10,39 cộng đúng.",
+  "Breadth hai nguồn lệch: 97 tăng/203 giảm (chính) và 107/205 (đếm đối chiếu). Giữ số chính.",
+  "Thế giới: đáy 20 phiên của Brent (100,2), US10Y (4,953) và USD/VND (25.840) không có trong FACT → bỏ; câu 'US10Y là kênh khiến khối ngoại bán ròng' là nhân quả → đổi thành áp lực cần theo dõi.",
+  "Mốc không có căn cứ đã bỏ: gap VN-Index 1.738,9 (chỉ giữ 1.746,15 có trong sổ dự báo), gap VHM 61,8–62,2 (thay vùng HT 61,39–62,11), gap VIX 21/10, 'mục tiêu 35,0' TCB (đổi đỉnh cũ 35,2), NKG '+24,7%/20 phiên' (FACT: +31% từ đáy 9,0), '394 tỷ' và '3.257 tỷ' ngân hàng.",
+  "TCB: thung_thi nói thủng 32,86 là 'mất MA50', nhưng MA50 = 32,53 nằm dưới 32,86 → sửa.",
+  "Lời thoại đọc SL/'mục tiêu' ở VCB, TCB, CTG, SSI, VIX, HPG, VGC, BSR → đổi 'hỗ trợ kế tiếp'/'kháng cự kế tiếp'. FPT: bỏ 'kỷ lục', 'thấp nhất phiên' (không có dữ liệu) và câu 'tuyệt đối không được bắt đáy' (hô hào).",
+  "regime.so_voi_den_nsi nhắc 'đèn NSI không đọc được' → để trống. Regime Rotation/Divergence giữ nguyên, nhưng kết luận xoay vòng mới dựa trên một phiên và breadth giảm diện rộng 203/97 — Sơn cân nhắc.",
+  "~29 mã chỉ có trong lời thoại (BID, CTG, MBB, VCI, PDR, DGC, MSN, PVD...) không có số gốc trong brief → chưa đối chiếu được số, chỉ kiểm thứ tự giá (hợp lý). Thép: HSG 'giảm nhẹ' trong nhận định mâu thuẫn 'giữ tham chiếu' trong thoại → bỏ HSG khỏi nhận định.",
+  "Dự báo mới VNINDEX 1.756,07 và HPG 20,55 trùng dự báo đang mở (VNINDEX 1756.07, HPG 20.5) → Sơn bỏ bớt khi ghi sổ. Đối chiếu dự báo STB 67,6 không có số trong brief để kiểm."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "the_gioi[0].nguong",
+   "gia_tri": "Đỉnh 20 phiên và 3 tháng tại 116,72 USD/thùng"
+  },
+  {
+   "duong_dan": "the_gioi[0].he_qua_neu_vuot",
+   "gia_tri": "Nếu vượt lại 116,7 USD/thùng sẽ kích hoạt lo ngại lạm phát và chi phí đầu vào quay trở lại"
+  },
+  {
+   "duong_dan": "the_gioi[1].nguong",
+   "gia_tri": "Đỉnh 20 phiên và 3 tháng tại 5,311%"
+  },
+  {
+   "duong_dan": "the_gioi[1].he_qua_neu_vuot",
+   "gia_tri": "Nếu vượt lại 5,31% sẽ tạo thêm áp lực lên dòng vốn vào tài sản rủi ro"
+  },
+  {
+   "duong_dan": "the_gioi[2].nguong",
+   "gia_tri": "Đỉnh 20 phiên 25.991 đồng, đỉnh 3 tháng 26.330 đồng"
+  },
+  {
+   "duong_dan": "the_gioi[2].he_qua_neu_vuot",
+   "gia_tri": "Nếu tỷ giá bứt qua đỉnh 20 phiên 25.991 đồng thì áp lực lên dòng vốn ngoại tăng"
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_giu",
+   "gia_tri": "Nếu đóng cửa giữ vững trên 1.756 điểm, nhịp điều chỉnh chỉ mang tính tái tích lũy kiểm định MA50 và chỉ số có cơ hội hướng lại vùng cản 1.786–1.813"
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Nếu thủng 1.756 điểm, mốc gap 1.746,15 bị thử thách và chỉ số lùi về vùng hỗ trợ tiếp theo 1.725,4–1.742,87 điểm"
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "nganh[0].nhan_dinh",
+   "gia_tri": "Ngành chịu áp lực điều chỉnh mạnh nhất, giảm 1,36%; VCB, VPB, BID lấy đi hơn 3 điểm của chỉ số."
+  },
+  {
+   "duong_dan": "nganh[0].ma[1].thung_thi",
+   "gia_tri": "Nếu thủng 32,86 thì gãy nhịp tích lũy trên đỉnh, lùi về vùng 31,6–32,47 (có MA50 32,53 và MA200 32,28)"
+  },
+  {
+   "duong_dan": "nganh[1].ma[1].thung_thi",
+   "gia_tri": "Nếu thủng 12,25 sẽ tìm về vùng hỗ trợ 11,89–12,0"
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].thung_thi",
+   "gia_tri": "Nếu thủng 63,22 thì lùi về vùng hỗ trợ 61,39–62,11"
+  },
+  {
+   "duong_dan": "nganh[3].nhan_dinh",
+   "gia_tri": "Giữ giá tốt hơn thị trường, HPG chỉ giảm nhẹ với thanh khoản thấp (0,55 lần trung bình)."
+  },
+  {
+   "duong_dan": "nganh[3].ma[1].cau_truc",
+   "gia_tri": "Tăng hơn 31% từ đáy 20 phiên 9,0, nằm trên MA10, MA20, MA50, đang tiếp cận cản MA200 (12,08)"
+  },
+  {
+   "duong_dan": "luan_diem_chinh[0]",
+   "gia_tri": "VN-Index giảm 10,6 điểm lùi về 1.763,55 điểm, tiếp tục kiểm định vùng 1.756–1.780 điểm."
+  },
+  {
+   "duong_dan": "luan_diem_chinh[1]",
+   "gia_tri": "Thanh khoản khớp lệnh hạ nhiệt về gần 11.875 tỷ đồng, thấp hơn khoảng 4% so với trung bình 20 phiên (0,96 lần), cho thấy thị trường đang thiếu tiền đuổi giá."
+  },
+  {
+   "duong_dan": "du_bao_moi[0].noi_dung",
+   "gia_tri": "VN-Index sẽ duy trì giá đóng cửa trên mốc hỗ trợ 1.756,07 điểm trong 3 phiên tới để giữ thế kiểm định quanh MA50."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "khối ngoại quay ra bán ròng tới gần 900 tỷ đồng",
+   "thay": "khối ngoại tiếp tục bán ròng tới gần 900 tỷ đồng"
+  },
+  {
+   "tim": "Tỷ giá USD/VND sáng nay chụp lúc hơn 9h ở mức 25.840 đồng, nằm sát đáy 20 phiên.",
+   "thay": "Tỷ giá USD/VND sáng nay chụp lúc hơn 9h ở mức 25.840 đồng."
+  },
+  {
+   "tim": "nhưng việc US10Y duy trì mức cao chính là kênh truyền dẫn khiến khối ngoại bán ròng rát tay trong phiên hôm nay.",
+   "thay": "nhưng US10Y duy trì mức cao là một kênh áp lực lên dòng vốn ngoại cần theo dõi, chưa đủ để nói đây là nguyên nhân khối ngoại bán ròng hôm nay."
+  },
+  {
+   "tim": "Đây là vùng rất mạnh rất mạnh với 7 lần chạm",
+   "thay": "Đây là vùng rất mạnh với 7 lần chạm"
+  },
+  {
+   "tim": "đồng thời thị trường sẽ quay về lấp khoảng gap mở ra hôm 22/10 quanh 1.738 đến 1.746 điểm.",
+   "thay": "đồng thời mốc gap 1.746 điểm trong sổ dự báo cũng bị thử thách."
+  },
+  {
+   "tim": "khi giảm 1,36% và bị ngoại xả hơn 394 tỷ.",
+   "thay": "khi giảm 1,36%."
+  },
+  {
+   "tim": "thủng mốc này thì cấu trúc đáy bị gãy, SL quanh 55,5, cản gần nhất",
+   "thay": "thủng mốc này thì cấu trúc đáy bị gãy, hỗ trợ kế tiếp là đáy cũ 54,7, cản gần nhất"
+  },
+  {
+   "tim": "thủng mốc này tích lũy đỉnh bị gãy, mục tiêu hướng tới cản 34,08 đến 35,06,",
+   "thay": "thủng mốc này tích lũy đỉnh bị gãy, kháng cự kế tiếp là 34,08 đến 35,06,"
+  },
+  {
+   "tim": "thủng 29,7 thì SL, mục tiêu cản quanh 31,7 đến 32,62.",
+   "thay": "kháng cự kế tiếp quanh 31,7 đến 32,62."
+  },
+  {
+   "tim": "SL quanh 19,2, mục tiêu là cản 20,38 đến 20,98,",
+   "thay": "hỗ trợ kế tiếp là đáy cũ 19,2, kháng cự kế tiếp là 20,38 đến 20,98,"
+  },
+  {
+   "tim": "mốc hỗ trợ theo dõi là 12,25 sát gap cũ, SL nếu thủng 11,89,",
+   "thay": "mốc hỗ trợ theo dõi là 12,25, hỗ trợ kế tiếp 11,89,"
+  },
+  {
+   "tim": "thủng mốc này có nguy cơ về lấp gap quanh 61,8 đến 62,2,",
+   "thay": "thủng mốc này có nguy cơ về vùng hỗ trợ 61,4 đến 62,1,"
+  },
+  {
+   "tim": "thủng mốc này thì SL quanh 19,6, mục tiêu ngắn hạn là cản 21,5 đến 22,1,",
+   "thay": "thủng mốc này thì hỗ trợ kế tiếp là vùng đáy 19,6 đến 20,1, kháng cự kế tiếp là 21,5 đến 22,1,"
+  },
+  {
+   "tim": "sau nhịp tăng gần 25% trong một tháng,",
+   "thay": "sau nhịp tăng hơn 30% từ đáy 9,0 ngày 9/10,"
+  },
+  {
+   "tim": "Mốc theo dõi cho VGC là hỗ trợ 44,28, mục tiêu hướng tới đỉnh cũ 47,51 đến 47,6.",
+   "thay": "Mốc theo dõi cho VGC là hỗ trợ 44,28, kháng cự kế tiếp là đỉnh cũ 47,51 đến 47,6."
+  },
+  {
+   "tim": "mốc hỗ trợ là 28,1, mục tiêu là cản đỉnh 33,45.",
+   "thay": "mốc hỗ trợ là 28,1, kháng cự kế tiếp là đỉnh 33,45."
+  },
+  {
+   "tim": "FPT bị khối ngoại xả kỷ lục 258 tỷ, đóng cửa thấp nhất phiên tại 56,0,",
+   "thay": "FPT bị khối ngoại xả 258 tỷ, đóng cửa tại 56,0,"
+  },
+  {
+   "tim": "cho thấy dòng tiền lớn có chọn lọc vẫn sẵn sàng tìm đến các doanh nghiệp có câu chuyện cơ bản và định giá hợp lý, P/B hiện tại là 2,69.",
+   "thay": "cho thấy dòng tiền vẫn tìm đến một số mã có chọn lọc, P/B hiện tại là 2,69."
+  },
+  {
+   "tim": "thủng vùng này thì cây nến hôm nay bị phủ nhận, sl đặt quanh 44,28, mục tiêu ngắn hạn hướng lên 47,5.",
+   "thay": "thủng vùng này thì cây nến hôm nay bị phủ nhận, hỗ trợ kế tiếp là 42,95, kháng cự kế tiếp quanh 47,5."
+  },
+  {
+   "tim": "thủng mốc này thì gãy cấu trúc tăng, sl quanh 32,86, mục tiêu là đỉnh cũ 35,0.",
+   "thay": "thủng mốc này thì gãy cấu trúc tăng, hỗ trợ kế tiếp là vùng 31,6 đến 32,47, kháng cự kế tiếp quanh đỉnh cũ 35,2."
+  },
+  {
+   "tim": "Nếu thủng 55,8 thì FPT sẽ kích hoạt làn sóng bán cắt lỗ mới, gây áp lực tâm lý nặng nề lên toàn chỉ số. Đây là mã anh chị tuyệt đối không được bắt đáy sớm khi dòng tiền ngoại chưa ngừng bán.",
+   "thay": "Nếu thủng 55,8 thì FPT rơi khỏi đáy 20 phiên, xu hướng dò đáy tiếp diễn và áp lực lên chỉ số tăng thêm. Tín hiệu cần chờ là khối ngoại giảm bán và giá giữ được 55,8."
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Phiên ép trụ của khối ngoại hay lực xả diện rộng — 1.756 có giữ được?",
+  "regime": "Rotation/Divergence · thiếu tiền nhẹ",
+  "ma_dang_noi": [
+   "VGC",
+   "TCB",
+   "FPT"
+  ],
+  "ly_do": {
+   "VGC": "Tăng 4% với khối lượng gấp 7 lần, điểm sáng hiếm hoi khi thị trường đỏ.",
+   "TCB": "Ngân hàng hiếm hoi còn ở kênh trên, được khối ngoại mua ròng 64 tỷ.",
+   "FPT": "Tâm điểm khối ngoại bán ròng 258 tỷ, sát đáy 20 phiên 55,8."
+  },
+  "tieu_de_ma": {
+   "VGC": "nổ khối lượng, test đỉnh 46,35",
+   "TCB": "giữ kênh trên, hỗ trợ 32,86",
+   "FPT": "sát đáy 20 phiên 55,8"
+  }
+ }
+}

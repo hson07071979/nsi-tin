@@ -1,37 +1,37 @@
 {
- "cap_nhat": "2026-10-26T21:01+07:00",
+ "cap_nhat": "2026-10-27T07:08+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 294,
+   "n": 298,
    "ty_le_dung": 55.4
   },
   "phe_than_trong": {
-   "n": 237,
-   "ty_le_dung": 49.4
+   "n": 240,
+   "ty_le_dung": 49.2
   },
   "phe_vi_mo": {
-   "n": 256,
-   "ty_le_dung": 54.7
+   "n": 261,
+   "ty_le_dung": 54.4
   },
   "tab_web": {
-   "n": 338,
-   "ty_le_dung": 54.1
-  },
-  "tab_zalo": {
-   "n": 70,
-   "ty_le_dung": 54.3
-  },
-  "trong_tai": {
-   "n": 408,
+   "n": 343,
    "ty_le_dung": 54.2
   },
+  "tab_zalo": {
+   "n": 72,
+   "ty_le_dung": 52.8
+  },
+  "trong_tai": {
+   "n": 415,
+   "ty_le_dung": 54.0
+  },
   "xac_minh_da_xac_minh": {
-   "n": 375,
+   "n": 381,
    "ty_le_dung": 54.1
   },
   "xac_minh_mot_nguon": {
-   "n": 8,
-   "ty_le_dung": 37.5
+   "n": 9,
+   "ty_le_dung": 33.3
   },
   "xac_minh_tin_don": {
    "n": 25,
@@ -39,125 +39,6 @@
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Khối ngoại bán ròng kỷ lục qua giao dịch thỏa thuận HDB và VJC",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "HDB",
-   "du_bao": -1,
-   "vuot_t0": 0.5,
-   "vuot_t4": 9.32,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Khối ngoại bán ròng kỷ lục qua giao dịch thỏa thuận HDB và VJC",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VJC",
-   "du_bao": -1,
-   "vuot_t0": -0.3,
-   "vuot_t4": 1.79,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "World Bank nâng dự báo tăng trưởng GDP Việt Nam lên 7,4%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "FPT",
-   "du_bao": 1,
-   "vuot_t0": -0.84,
-   "vuot_t4": -4.53,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "World Bank nâng dự báo tăng trưởng GDP Việt Nam lên 7,4%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "SZC",
-   "du_bao": 1,
-   "vuot_t0": 2.42,
-   "vuot_t4": 6.75,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Dự báo lợi nhuận ngành ngân hàng quý III/2026 tăng 17,7%",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": -0.2,
-   "vuot_t4": 1.47,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Dự báo lợi nhuận ngành ngân hàng quý III/2026 tăng 17,7%",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VPB",
-   "du_bao": 1,
-   "vuot_t0": 1.19,
-   "vuot_t4": 7.43,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Ngân hàng dồn dập huy động vốn quốc tế quy mô hàng tỷ USD",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VPB",
-   "du_bao": 1,
-   "vuot_t0": 1.19,
-   "vuot_t4": 7.43,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
   {
    "ngay": "2026-10-07",
    "tab": "web",
@@ -5123,6 +5004,122 @@
     "lac_quan": null,
     "than_trong": true,
     "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-20",
+   "tab": "web",
+   "chu_de": "NHNN yêu cầu ngân hàng đồng loạt giảm lãi suất tiền gửi và cho vay",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": 4.36,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-20",
+   "tab": "web",
+   "chu_de": "VN-Index thủng mốc 1.700 điểm do áp lực xả trụ và khối ngoại bán ròng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": 4.36,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-20",
+   "tab": "web",
+   "chu_de": "VPBank đạt gần 30.000 tỷ đồng lợi nhuận trước thuế sau 9 tháng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPB",
+   "du_bao": 1,
+   "vuot_t0": -0.13,
+   "vuot_t4": -6.03,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-20",
+   "tab": "web",
+   "chu_de": "VinFast thu hơn 2 tỷ USD nửa đầu năm, bàn giao hơn 70.000 xe quý 2",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 0.84,
+   "vuot_t4": 10.13,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-20",
+   "tab": "web",
+   "chu_de": "Novaland kéo dài thời hạn chào bán hơn 800 triệu cổ phiếu cho cổ đông",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": -0.13,
+   "vuot_t4": -6.22,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-20",
+   "tab": "zalo",
+   "chu_de": "VN-Index giảm về dưới 1.700 điểm do áp lực nhóm trụ và khối ngoại bán ròng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": 4.36,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-20",
+   "tab": "zalo",
+   "chu_de": "Góc nhìn kỹ thuật cổ phiếu DGW theo mô hình VCP",
+   "xac_minh": "mot_nguon",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DGW",
+   "du_bao": 1,
+   "vuot_t0": 1.08,
+   "vuot_t4": -4.91,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
    }
   }
  ],

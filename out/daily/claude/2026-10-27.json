@@ -1,0 +1,177 @@
+{
+ "ngay": "2026-10-27",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Số chính (VN-Index, thanh khoản, khối ngoại, đóng góp, giá/MA các mã trong bảng) khớp FACT. Lời thoại đọc 1.761 → sửa 1.762 (1.761,87).",
+  "Breadth hai nguồn lệch: 118 tăng/192 giảm (chính) và 123/197 (đếm đối chiếu). Giữ số chính.",
+  "Index distortion: thoại cộng VIC 5,07 + VPL 0,4 mà ra 4,83 là thiếu VHM −0,68 → thêm vế VHM.",
+  "FPT: hỗ trợ kế tiếp 52,0 không có căn cứ trong FACT (HT trống, đáy 250 phiên là 55,2) → bỏ (null), bỏ % cách.",
+  "Bỏ mốc của CTG 29,7, MBB 18,82, STB 64,8, VPB 23,0, VCI 18,05 vì các mã này không có số liệu gốc để truy mốc.",
+  "Bỏ tin 'Vingroup phát trái phiếu Won lãi 8%' (không có trong FACT/NSI Tin brief), 'chuỗi bán ròng kéo dài' FPT và 'tăng trưởng lợi nhuận' TCB (không có dữ liệu).",
+  "Nhân quả: US10Y 'khiến quỹ ngoại rút vốn', Dầu khí 'đỏ theo giá dầu', GMD 'giảm do ngoại bán', công nghệ 'chao đảo toàn cầu' (Nasdaq +0,82%) → sửa thành tương quan/bỏ.",
+  "Ngân hàng: nhận định ghi TCB 'giữ sắc xanh' nhưng TCB −0,74% → sửa. Regime phản bác gọi MSN là mã tài chính → sửa.",
+  "Đổi 'cắt lỗ'/'mục tiêu' trên sóng thành 'hỗ trợ kế tiếp'/'kháng cự kế tiếp' (TCB, VCB, SSI, VIC, HPG).",
+  "Chưa kiểm được: thanh khoản ngành (bank 3.040 tỷ, CK 1.313 tỷ), giá các mã ngoài bảng, '29 mốc, đúng 76%', biên dưới 20 phiên của US10Y/Brent/DXY (FACT chỉ có biên trên).",
+  "Brent: 'rất cao so với trung bình 3 tháng' không có số TB 3 tháng → đổi thành cách đỉnh 3 tháng ~5%.",
+  "Dự báo mới VNINDEX giữ 1.756,07 trùng 2 dòng đang mở cùng mốc — Sơn cân nhắc không ghi thêm.",
+  "Regime Rotation/Divergence giữ nguyên: index đi ngang, breadth yếu, dẫn dắt hẹp (VIC), khớp lệnh 0,83×TB20."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "regime.phan_bac",
+   "gia_tri": [
+    "Khối ngoại mua ròng mạnh ở TCB (+196,5 tỷ) và MSN (+54,2 tỷ)"
+   ]
+  },
+  {
+   "duong_dan": "nganh[0].nhan_dinh",
+   "gia_tri": "Phân hóa rõ rệt; áp lực bán ở LPB, VPB, HDB; VIB, MSB giữ sắc xanh; TCB giảm nhẹ dù được khối ngoại mua ròng mạnh nhất sàn."
+  },
+  {
+   "duong_dan": "nganh[0].ma[1].cau_truc",
+   "gia_tri": "Dưới MA10, MA20, MA50, MA200; đang test đáy 20 phiên 55,5"
+  },
+  {
+   "duong_dan": "nganh[6].nhan_dinh",
+   "gia_tri": "Giảm cùng phiên giá dầu Brent điều chỉnh; GAS, BSR, PVS, PVD đồng loạt đỏ."
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].diem_dung_cach_pct",
+   "gia_tri": null
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "VN-Index đóng cửa tại 1.761 điểm",
+   "thay": "VN-Index đóng cửa tại 1.762 điểm"
+  },
+  {
+   "tim": "Giá đóng cửa 1.761 điểm hôm nay",
+   "thay": "Giá đóng cửa 1.762 điểm hôm nay"
+  },
+  {
+   "tim": "thấp hơn cỡ một phần năm",
+   "thay": "thấp hơn khoảng 17%"
+  },
+  {
+   "tim": "Chi phí vốn quốc tế đắt đỏ này chính là kênh truyền dẫn khiến các quỹ ngoại liên tục rút vốn khỏi các thị trường mới nổi, trong đó có Việt Nam.",
+   "thay": "Chi phí vốn quốc tế cao là một áp lực cần theo dõi với dòng vốn ngoại ở các thị trường mới nổi, trong đó có Việt Nam."
+  },
+  {
+   "tim": "Nhưng anh chị nhớ nhé, đây vẫn là vùng giá rất cao so với trung bình 3 tháng.",
+   "thay": "Nhưng anh chị nhớ nhé, giá này vẫn chỉ cách đỉnh 3 tháng 116,72 USD khoảng 5%."
+  },
+  {
+   "tim": "Giá dầu cao kết hợp tỷ giá neo cao sẽ gián tiếp thu hẹp",
+   "thay": "Giá dầu cao kết hợp tỷ giá có thể gián tiếp thu hẹp"
+  },
+  {
+   "tim": "hiện tượng hiện tượng kéo trụ",
+   "thay": "hiện tượng kéo trụ"
+  },
+  {
+   "tim": "Cộng thêm VPL gánh khoảng 0,4 điểm, tổng cộng nhóm Vin",
+   "thay": "Cộng thêm VPL gánh khoảng 0,4 điểm, trừ đi VHM kéo lùi gần 0,7 điểm, tổng cộng nhóm Vin"
+  },
+  {
+   "tim": "mốc theo dõi là 32,86, cắt lỗ nếu thủng hẳn 31,6; mục tiêu cản trên là 35,06.",
+   "thay": "mốc theo dõi là 32,86, hỗ trợ kế tiếp 31,6; kháng cự kế tiếp 35,06."
+  },
+  {
+   "tim": "mốc theo dõi 55,5, cắt lỗ nếu thủng 52,6.",
+   "thay": "mốc theo dõi 55,5, hỗ trợ kế tiếp 52,6."
+  },
+  {
+   "tim": "CTG giảm 0,82% về 30,35, mốc theo dõi hỗ trợ quanh 29,7.",
+   "thay": "CTG giảm 0,82% về 30,35."
+  },
+  {
+   "tim": "MBB tăng nhẹ 0,51% lên 19,65, mốc theo dõi 18,82.",
+   "thay": "MBB tăng nhẹ 0,51% lên 19,65."
+  },
+  {
+   "tim": "STB giảm nhẹ 0,3% về 67,4, mốc hỗ trợ 64,8.",
+   "thay": "STB giảm nhẹ 0,3% về 67,4."
+  },
+  {
+   "tim": "VPB giảm 1,69% về 23,2, hỗ trợ gần 23,0.",
+   "thay": "VPB giảm 1,69% về 23,2."
+  },
+  {
+   "tim": "mốc em theo dõi là 19,65, cắt lỗ nếu thủng 18,65, mục tiêu cản quanh 20,98.",
+   "thay": "mốc em theo dõi là 19,65, hỗ trợ kế tiếp 18,65, kháng cự kế tiếp quanh 20,98."
+  },
+  {
+   "tim": "VCI đóng 19,15, mốc hỗ trợ 18,05.",
+   "thay": "VCI đóng 19,15."
+  },
+  {
+   "tim": "mốc hỗ trợ theo dõi là 235,6, mục tiêu cản quanh 246,4.",
+   "thay": "mốc hỗ trợ theo dõi là 235,6, kháng cự kế tiếp quanh 246,4."
+  },
+  {
+   "tim": "mốc theo dõi là 20,55, cắt lỗ nếu thủng 19,6, mục tiêu cản 22,1.",
+   "thay": "mốc theo dõi là 20,55, hỗ trợ kế tiếp 19,6, kháng cự kế tiếp 22,1."
+  },
+  {
+   "tim": "Nhóm Dầu khí — đỏ theo giá dầu thế giới.",
+   "thay": "Nhóm Dầu khí — giảm cùng phiên giá dầu Brent điều chỉnh."
+  },
+  {
+   "tim": "GMD giảm 3,25% về 53,5 do ngoại bán ròng 68 tỷ",
+   "thay": "GMD giảm 3,25% về 53,5, cùng phiên ngoại bán ròng gần 69 tỷ"
+  },
+  {
+   "tim": " Dòng công nghệ toàn cầu chao đảo đã lan sang tâm lý cổ phiếu công nghệ trong nước.",
+   "thay": ""
+  },
+  {
+   "tim": " Tin tức sáng nay xác nhận Vingroup đã phát thành công trái phiếu bằng đồng Won Hàn Quốc lãi suất 8%. Việc khơi thông nguồn vốn quốc tế giúp VIC bớt áp lực tín dụng nội địa.",
+   "thay": ""
+  },
+  {
+   "tim": "P/E 8,4 lần — rất hấp dẫn so với đà tăng trưởng lợi nhuận.",
+   "thay": "P/E 8,4 lần."
+  },
+  {
+   "tim": "thì đây vẫn là mã ngân hàng có nền giá khỏe nhất.",
+   "thay": "thì nền giá TCB vẫn được bảo toàn."
+  },
+  {
+   "tim": "phiên hôm nay, đánh dấu chuỗi bán ròng kéo dài.",
+   "thay": "phiên hôm nay."
+  },
+  {
+   "tim": "và anh chị đang cầm hàng bắt buộc phải quản trị rủi ro khắt khe.",
+   "thay": "và rủi ro sẽ rộng hơn đáng kể."
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Tích lũy giữ nền hay xanh vỏ đỏ lòng?",
+  "regime": "Xoay vòng / Phân hóa – thiếu tiền",
+  "ma_dang_noi": [
+   "VIC",
+   "TCB",
+   "FPT"
+  ],
+  "ly_do": {
+   "VIC": "Một mình góp +5,07 điểm, che phần còn lại giảm 6,5 điểm.",
+   "TCB": "Khối ngoại mua ròng mạnh nhất sàn 196,5 tỷ dù giá giảm nhẹ.",
+   "FPT": "Bị ngoại bán ròng 149 tỷ, đóng sát đáy 250 phiên 55,2."
+  },
+  "tieu_de_ma": {
+   "VIC": "trụ gánh index, test 235,6–242",
+   "TCB": "ngoại gom, giữ 32,86",
+   "FPT": "sát đáy 1 năm 55,2"
+  }
+ }
+}

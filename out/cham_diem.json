@@ -1,485 +1,44 @@
 {
- "cap_nhat": "2026-10-27T20:03+07:00",
+ "cap_nhat": "2026-10-28T07:06+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 298,
-   "ty_le_dung": 55.4
+   "n": 320,
+   "ty_le_dung": 53.4
   },
   "phe_than_trong": {
-   "n": 240,
-   "ty_le_dung": 49.2
+   "n": 258,
+   "ty_le_dung": 50.8
   },
   "phe_vi_mo": {
-   "n": 261,
-   "ty_le_dung": 54.4
+   "n": 268,
+   "ty_le_dung": 54.9
   },
   "tab_web": {
-   "n": 343,
-   "ty_le_dung": 54.2
+   "n": 366,
+   "ty_le_dung": 53.0
   },
   "tab_zalo": {
-   "n": 72,
-   "ty_le_dung": 52.8
+   "n": 75,
+   "ty_le_dung": 50.7
   },
   "trong_tai": {
-   "n": 415,
-   "ty_le_dung": 54.0
+   "n": 441,
+   "ty_le_dung": 52.6
   },
   "xac_minh_da_xac_minh": {
-   "n": 381,
-   "ty_le_dung": 54.1
+   "n": 404,
+   "ty_le_dung": 53.0
   },
   "xac_minh_mot_nguon": {
-   "n": 9,
-   "ty_le_dung": 33.3
+   "n": 10,
+   "ty_le_dung": 30.0
   },
   "xac_minh_tin_don": {
-   "n": 25,
-   "ty_le_dung": 60.0
+   "n": 27,
+   "ty_le_dung": 55.6
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Ngân hàng dồn dập huy động vốn quốc tế quy mô hàng tỷ USD",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "EVF",
-   "du_bao": 1,
-   "vuot_t0": 0.32,
-   "vuot_t4": 1.38,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "UBCKNN nghiên cứu giao dịch xuyên trưa và nới biên độ giá",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": -0.18,
-   "vuot_t4": -2.05,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "UBCKNN nghiên cứu giao dịch xuyên trưa và nới biên độ giá",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "HCM",
-   "du_bao": 1,
-   "vuot_t0": -1.8,
-   "vuot_t4": 0.13,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Novaland bác tin đồn phá sản, chủ nợ ngoại đổi nợ lấy cổ phiếu giá 34.000 đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "NVL",
-   "du_bao": 1,
-   "vuot_t0": -0.64,
-   "vuot_t4": 9.47,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Novaland bác tin đồn phá sản, chủ nợ ngoại đổi nợ lấy cổ phiếu giá 34.000 đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "PDR",
-   "du_bao": 1,
-   "vuot_t0": 0.32,
-   "vuot_t4": 1.81,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Vingroup hợp tác Alstom phát triển 200 đoàn tàu tự động cho Hà Nội",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VHM",
-   "du_bao": 1,
-   "vuot_t0": -1.13,
-   "vuot_t4": -4.41,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Vingroup hợp tác Alstom phát triển 200 đoàn tàu tự động cho Hà Nội",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VIC",
-   "du_bao": 1,
-   "vuot_t0": -0.54,
-   "vuot_t4": -2.06,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Cổ phiếu PNJ lại nằm sàn, chuẩn bị phát hành 550 triệu cổ phiếu",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -5.88,
-   "vuot_t4": -2.46,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "S&P 500 lập kỷ lục mới, Nvidia hướng tới mốc vốn hóa 6.000 tỷ USD",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "FPT",
-   "du_bao": 1,
-   "vuot_t0": -0.84,
-   "vuot_t4": -4.53,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Điện Máy Xanh đạt doanh thu kỷ lục 12.410 tỷ đồng trong tháng 9",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "DMX",
-   "du_bao": 1,
-   "vuot_t0": -0.33,
-   "vuot_t4": 0.7,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Điện Máy Xanh đạt doanh thu kỷ lục 12.410 tỷ đồng trong tháng 9",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "FRT",
-   "du_bao": 1,
-   "vuot_t0": 4.12,
-   "vuot_t4": 1.43,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "web",
-   "chu_de": "Điện Máy Xanh đạt doanh thu kỷ lục 12.410 tỷ đồng trong tháng 9",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "DGW",
-   "du_bao": 1,
-   "vuot_t0": -0.83,
-   "vuot_t4": -1.52,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "zalo",
-   "chu_de": "Thông tư 50 ban hành ngày 30/9 tác động dài hạn ngành ngân hàng",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "VCB",
-   "du_bao": 1,
-   "vuot_t0": 0.15,
-   "vuot_t4": 0.51,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "zalo",
-   "chu_de": "VN-Index phiên sáng 6/10 giảm 6,71 điểm, áp lực bán lan rộng",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VIC",
-   "du_bao": 1,
-   "vuot_t0": -0.54,
-   "vuot_t4": -2.06,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-07",
-   "tab": "zalo",
-   "chu_de": "Thông tin DIG đăng ký mua cổ phiếu sau HPG",
-   "xac_minh": "tin_don",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "DIG",
-   "du_bao": -1,
-   "vuot_t0": 0.32,
-   "vuot_t4": 4.41,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "NHNN kiểm soát tỷ giá, lãi suất huy động tăng chậm lại",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "VCB",
-   "du_bao": 1,
-   "vuot_t0": -0.23,
-   "vuot_t4": 1.19,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "NHNN kiểm soát tỷ giá, lãi suất huy động tăng chậm lại",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "CTG",
-   "du_bao": 1,
-   "vuot_t0": -1.03,
-   "vuot_t4": 2.09,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Tín dụng toàn hệ thống đến 30/9 tăng 11,59%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "TCB",
-   "du_bao": 1,
-   "vuot_t0": -0.42,
-   "vuot_t4": 4.93,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Tín dụng toàn hệ thống đến 30/9 tăng 11,59%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": -0.22,
-   "vuot_t4": 4.08,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Tín dụng toàn hệ thống đến 30/9 tăng 11,59%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "HPG",
-   "du_bao": 1,
-   "vuot_t0": -0.16,
-   "vuot_t4": 4.98,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Khối ngoại bán ròng vượt mốc 100.000 tỷ đồng từ đầu năm",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -2.62,
-   "vuot_t4": 1.44,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Khối ngoại bán ròng vượt mốc 100.000 tỷ đồng từ đầu năm",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "TCB",
-   "du_bao": -1,
-   "vuot_t0": -0.42,
-   "vuot_t4": 4.93,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Khối ngoại bán ròng vượt mốc 100.000 tỷ đồng từ đầu năm",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "MSN",
-   "du_bao": 1,
-   "vuot_t0": -0.51,
-   "vuot_t4": -1.89,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Biên bản Fed: Bất đồng quan điểm, USD lập đỉnh 18 tháng",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "VNINDEX",
-   "du_bao": -1,
-   "vuot_t4": -2.77,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Áp lực lạm phát: CPI 9 tháng tăng 4,52%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "BSR",
-   "du_bao": 1,
-   "vuot_t0": 1.61,
-   "vuot_t4": -2.43,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Áp lực lạm phát: CPI 9 tháng tăng 4,52%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "PLX",
-   "du_bao": 1,
-   "vuot_t0": 4.69,
-   "vuot_t4": 2.91,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
   {
    "ngay": "2026-10-08",
    "tab": "web",
@@ -5119,6 +4678,445 @@
    "phe": {
     "lac_quan": false,
     "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Hàng loạt ngân hàng hạ lãi suất huy động và cho vay",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "STB",
+   "du_bao": 1,
+   "vuot_t0": -1.48,
+   "vuot_t4": 4.05,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Hàng loạt ngân hàng hạ lãi suất huy động và cho vay",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -2.52,
+   "vuot_t4": -4.61,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "VN-Index hồi phục nhẹ, thanh khoản duy trì thấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PNJ",
+   "du_bao": 1,
+   "vuot_t0": -5.54,
+   "vuot_t4": -17.8,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "VN-Index hồi phục nhẹ, thanh khoản duy trì thấp",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VHM",
+   "du_bao": -1,
+   "vuot_t0": 4.16,
+   "vuot_t4": 5.73,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Lộ diện lợi nhuận quý 3 của Techcombank, SSI và các doanh nghiệp lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": -0.5,
+   "vuot_t4": -4.88,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Lộ diện lợi nhuận quý 3 của Techcombank, SSI và các doanh nghiệp lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIX",
+   "du_bao": -1,
+   "vuot_t0": 1.36,
+   "vuot_t4": -2.9,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Áp lực đáo hạn trái phiếu doanh nghiệp tăng cao trong quý 4",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "NVL",
+   "du_bao": -1,
+   "vuot_t0": -2.76,
+   "vuot_t4": -5.99,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Dư nợ margin toàn thị trường lập đỉnh lịch sử gần nửa triệu tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": 4.13,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Khối ngoại giảm mạnh đà bán ròng, gom mạnh TCB và HPG",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -1.43,
+   "vuot_t4": -5.31,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Khối ngoại giảm mạnh đà bán ròng, gom mạnh TCB và HPG",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -2.52,
+   "vuot_t4": -4.61,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Khối ngoại giảm mạnh đà bán ròng, gom mạnh TCB và HPG",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "ACB",
+   "du_bao": -1,
+   "vuot_t0": -2.02,
+   "vuot_t4": 1.05,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Giá dầu thế giới tăng lên mức cao nhất 5 tháng",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVS",
+   "du_bao": 1,
+   "vuot_t0": -3.39,
+   "vuot_t4": -4.76,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Giá dầu thế giới tăng lên mức cao nhất 5 tháng",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVD",
+   "du_bao": 1,
+   "vuot_t0": -2.76,
+   "vuot_t4": -1.35,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Cập nhật chiến lược các quỹ đầu tư và định giá thị trường",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PVT",
+   "du_bao": 1,
+   "vuot_t0": -7.72,
+   "vuot_t4": -8.26,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Cập nhật chiến lược các quỹ đầu tư và định giá thị trường",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PVS",
+   "du_bao": 1,
+   "vuot_t0": -3.39,
+   "vuot_t4": -4.76,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Thị trường Indonesia lao dốc do rủi ro bị MSCI loại khỏi chỉ số",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VNINDEX",
+   "du_bao": -1,
+   "vuot_t4": 4.13,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Kiều hối và giải ngân đầu tư công tại TP.HCM và các địa phương",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": 4.13,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Thông tin doanh nghiệp lớn: Coteccons, PNJ, Masan High-Tech Materials",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "CTD",
+   "du_bao": 1,
+   "vuot_t0": -2.0,
+   "vuot_t4": -1.86,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Thông tin doanh nghiệp lớn: Coteccons, PNJ, Masan High-Tech Materials",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -5.54,
+   "vuot_t4": -17.8,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Thông tin doanh nghiệp lớn: Coteccons, PNJ, Masan High-Tech Materials",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MSR",
+   "du_bao": 1,
+   "vuot_t0": -6.45,
+   "vuot_t4": -0.6,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Giá vàng miếng và vàng nhẫn trong nước đồng loạt giảm sâu",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -5.54,
+   "vuot_t4": -17.8,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Hệ sinh thái Vingroup và các thương vụ đầu tư lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 4.23,
+   "vuot_t4": 10.8,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "web",
+   "chu_de": "Hệ sinh thái Vingroup và các thương vụ đầu tư lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": 4.16,
+   "vuot_t4": 5.73,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "zalo",
+   "chu_de": "Kỳ vọng dòng tiền vào nhóm Đầu tư công và Vật liệu",
+   "xac_minh": "tin_don",
+   "loai": "nganh",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -2.52,
+   "vuot_t4": -4.61,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "zalo",
+   "chu_de": "Kỳ vọng dòng tiền vào nhóm Đầu tư công và Vật liệu",
+   "xac_minh": "tin_don",
+   "loai": "nganh",
+   "doi_tuong": "VCG",
+   "du_bao": 1,
+   "vuot_t0": -2.44,
+   "vuot_t4": -5.74,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-21",
+   "tab": "zalo",
+   "chu_de": "Góc nhìn phân hóa dòng vốn và hợp tác dự án BĐS",
+   "xac_minh": "mot_nguon",
+   "loai": "nganh",
+   "doi_tuong": "KDH",
+   "du_bao": 1,
+   "vuot_t0": 2.19,
+   "vuot_t4": -0.24,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
     "vi_mo": null
    }
   }

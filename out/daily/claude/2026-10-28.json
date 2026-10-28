@@ -1,0 +1,156 @@
+{
+ "ngay": "2026-10-28",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Đối chiếu FACT: giá, %, MA10/20/50/200, đỉnh/đáy và vùng HT/KC của VN-Index và 22 mã trong bảng khớp với bản Gemini; breadth, thanh khoản, khối ngoại, đóng góp điểm khớp.",
+  "Index distortion: 2,92 điểm 'phần còn lại' là phần ngoài nhóm Vin, vẫn gồm VCB (+2,4). Câu 'phần còn lại chỉ 2,92 điểm' ngay sau khi tách VCB là hiểu sai → sửa. Hook 'gần 4 điểm' (VCB+Vin = 4,26) → 'hơn 4 điểm'.",
+  "Bỏ mốc không có căn cứ trong FACT: gap VIC 223,6–225,0; gap VHM 61,8–62,2 (còn sai thứ tự, nằm trên 61,39); gap VGC 41,1; gap MWG 72,4; 'đáy 20 phiên 25.832' của USD/VND (FACT chỉ có đỉnh 20p 25.991); giá WTI 101,37 (không có trong FACT).",
+  "Nhãn MA lệch số: SSI 'MA50 tại 20,38' (MA50=20,25); VIX 'cản MA50 12,85' (MA50=12,72); VHM 'MA200 tại 65,2' (MA200=64,94); DGW 'MA200 quanh 41,86' (MA200=42,06); TCB 'thủng 31,6 mới mất MA200' trong khi MA200=32,26 → sửa.",
+  "Tương quan→nhân quả: 'US10Y cao là lý do khối ngoại bán' → đổi thành áp lực cần theo dõi. Bỏ chữ 'kỷ lục' ở FPT (không có dữ liệu so sánh).",
+  "Lời thoại có 'mục tiêu' (TCB, HDB, VCB), 'điểm dừng' (DGW, còn ghi sai 'xa hơn chuẩn 7%' — 40,5 chỉ cách ~4,3%), 'đèn NSI', 'kỷ luật dừng lỗ/canh cơ cấu', 'tính đường ra' → đổi/bỏ.",
+  "Regime Rotation/Divergence khớp bằng chứng (index xanh, breadth 121/172, dẫn dắt hẹp ở bank + Vin, khớp lệnh 0,99×TB20) → giữ.",
+  "Breadth hai nguồn lệch nhẹ: 121/172 (chính) và 124/176 (đếm đối chiếu). Giữ số chính.",
+  "Không kiểm được vì brief không có: thanh khoản/khối ngoại theo ngành (bank 4.206 tỷ, NN 191,6 tỷ; chứng khoán ~1.100 tỷ; BĐS 17/41 mã), giá trị khớp FPT 721 tỷ, VCB 368 tỷ, giá các mã ngoài bảng (VPL, HSG, SZC, BCM, CTD, GAS, PVT, MSN, TNG...). Giữ nguyên, anh Sơn lưu ý.",
+  "Tự doanh mới có phiên 27/10, bản Gemini đã ghi rõ."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "the_gioi[3].nguong",
+   "gia_tri": "Đỉnh 20 phiên 25.991 đồng"
+  },
+  {
+   "duong_dan": "the_gioi[3].he_qua_neu_vuot",
+   "gia_tri": "Tỷ giá đang dưới đỉnh 20 phiên, áp lực tỷ giá tạm hạ nhiệt; vượt lại 25.991 đồng thì áp lực quay lại."
+  },
+  {
+   "duong_dan": "index_distortion",
+   "gia_tri": "Chỉ số tăng 4,78 điểm chịu tác động lớn từ nhóm vốn hóa lớn: VCB kéo +2,4 điểm, nhóm Vin đóng góp +1,86 điểm (VIC +1,27, VPL +0,73), HDB kéo +1,14 điểm. Ngược lại, GAS (-0,59), FPT (-0,54) và HPG (-0,43) đè chỉ số. Ngoài nhóm Vin, phần còn lại góp 2,92 điểm, nhưng riêng VCB đã chiếm 2,4 điểm; loại cả Vin và VCB thì phần còn lại chỉ khoảng +0,5 điểm, khớp với breadth nghiêng về bên giảm."
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "nganh[0].ma[1].thung_thi",
+   "gia_tri": "Nếu thủng 31,6 thì mất vùng hỗ trợ quanh MA50/MA200 (31,6–32,47), rủi ro điều chỉnh sâu hơn về 30,6."
+  },
+  {
+   "duong_dan": "nganh[1].ma[0].xac_nhan",
+   "gia_tri": "Vượt vùng cản 20,38 (trên MA50 ~20,25) với thanh khoản bùng nổ."
+  },
+  {
+   "duong_dan": "nganh[1].ma[2].xac_nhan",
+   "gia_tri": "Đóng cửa vượt cản 12,85 (ngay trên MA50 ~12,72)."
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].thung_thi",
+   "gia_tri": "Nếu để mất 227,8 thì cấu trúc giữ trên MA50 suy yếu."
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].thung_thi",
+   "gia_tri": "Nếu thủng 61,39 thì hướng về đáy 20 phiên 57,6."
+  },
+  {
+   "duong_dan": "nganh[2].ma[1].xac_nhan",
+   "gia_tri": "Vượt lại MA200 (~64,94) và vùng cản 65,2."
+  },
+  {
+   "duong_dan": "nganh[4].ma[1].thung_thi",
+   "gia_tri": "Nếu thủng 41,67 thì gãy cả MA50 và MA200."
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].thung_thi",
+   "gia_tri": "Nếu thủng 72,5 thì gãy MA50."
+  },
+  {
+   "duong_dan": "nganh[11].nhan_dinh",
+   "gia_tri": "Ngành công nghệ giảm mạnh nhất sàn (-2,33%), cùng phiên FPT bị khối ngoại bán ròng gần 260 tỷ; cấu trúc kỹ thuật FPT bị bẻ gãy khi rơi về đáy 20 phiên."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Riêng một mình VCB và nhóm Vin đã kéo gần 4 điểm rồi.",
+   "thay": "Riêng một mình VCB và nhóm Vin đã kéo hơn 4 điểm rồi."
+  },
+  {
+   "tim": "Chiều nay dầu Brent đang giao dịch quanh 110,86 USD/thùng, còn dầu WTI là 101,37 USD/thùng.",
+   "thay": "Chiều nay dầu Brent đang giao dịch quanh 110,86 USD/thùng."
+  },
+  {
+   "tim": "Tuy nhiên, tỷ giá USD/VND lúc 11 giờ trưa nay lại hạ nhiệt về quanh 25.832 đồng, đây lại là mức thấp nhất 20 phiên.",
+   "thay": "Tuy nhiên, tỷ giá USD/VND lúc 11 giờ trưa nay lại hạ nhiệt về quanh 25.832 đồng, thấp hơn khá xa đỉnh 20 phiên 25.991."
+  },
+  {
+   "tim": "Lợi suất cao thì dòng tiền toàn cầu tiếp tục thận trọng, khẩu vị rủi ro thu hẹp, đó là lý do vì sao khối ngoại vẫn miệt mài tái cơ cấu vốn tại thị trường mới nổi như chúng ta.",
+   "thay": "Lợi suất cao thì dòng tiền toàn cầu dễ thận trọng hơn, đây là một áp lực cần theo dõi với dòng vốn ngoại, nhưng chưa đủ để nói đó là nguyên nhân khối ngoại bán ròng."
+  },
+  {
+   "tim": "Bóc tách ra thì phần còn lại của toàn bộ thị trường hôm nay chỉ đóng góp vẻn vẹn 2,92 điểm.",
+   "thay": "Bóc tách ra, ngoài nhóm Vin thì phần còn lại góp 2,92 điểm, nhưng riêng VCB đã chiếm 2,4 điểm trong đó. Bỏ cả Vin và VCB thì phần còn lại chỉ khoảng nửa điểm."
+  },
+  {
+   "tim": "thủng 31,6 thì cấu trúc gãy, mục tiêu ngắn hạn là cản 34,08.",
+   "thay": "thủng 31,6 thì cấu trúc gãy, kháng cự kế tiếp là 34,08."
+  },
+  {
+   "tim": "hỗ trợ là 22,04, mục tiêu ngắn là đỉnh cũ 23,45.",
+   "thay": "hỗ trợ là 22,04, kháng cự kế tiếp là đỉnh cũ 23,45."
+  },
+  {
+   "tim": "VIX nhích nhẹ lên 12,45, mốc theo dõi là 12,25, cản MA50 là 12,85.",
+   "thay": "VIX nhích nhẹ lên 12,45, mốc theo dõi là 12,25, cản là 12,85, ngay trên MA50."
+  },
+  {
+   "tim": "Nhóm ngóc ngách này khi có dòng tiền vào thì chạy rất bốc, nhưng thanh khoản nhỏ nên vào nhanh thì phải tính đường ra sớm khi thị trường rung lắc nhé.",
+   "thay": "Nhóm ngóc ngách này khi có dòng tiền vào thì chạy rất bốc, nhưng thanh khoản nhỏ nên biến động cũng rất mạnh khi thị trường rung lắc nhé."
+  },
+  {
+   "tim": "mốc theo dõi là MA200 quanh 41,86.",
+   "thay": "mốc theo dõi là 41,86, ngay dưới MA200 quanh 42,06."
+  },
+  {
+   "tim": "Khối ngoại bán ròng kỷ lục gần 260 tỷ đồng.",
+   "thay": "Khối ngoại bán ròng gần 260 tỷ đồng."
+  },
+  {
+   "tim": "Mốc theo dõi của DGW là 41,86, thủng mốc này thì cấu trúc dài hạn bị đe dọa nghiêm trọng, điểm dừng kỹ thuật tham chiếu quanh 40,5, xa hơn chuẩn 7% một chút nếu mua ở vùng trên.",
+   "thay": "Mốc theo dõi của DGW là 41,86, thủng mốc này thì cấu trúc dài hạn bị đe dọa, hỗ trợ kế tiếp quanh 40,5."
+  },
+  {
+   "tim": "hỗ trợ bên dưới là 55,5, mục tiêu kiểm định là cản 58,96.",
+   "thay": "hỗ trợ bên dưới là 55,5, kháng cự kế tiếp là 58,96."
+  },
+  {
+   "tim": "một trụ lớn được kéo để giữ mặt mũi cho chỉ số.",
+   "thay": "một trụ lớn gánh điểm cho chỉ số."
+  },
+  {
+   "tim": " Hôm nay hệ thống NSI báo tín hiệu đèn không đọc được, nên phân loại này dựa hoàn toàn vào dữ liệu độ rộng và thanh khoản.",
+   "thay": ""
+  },
+  {
+   "tim": "Chiến lược lúc này là ưu tiên quản trị rủi ro, tuân thủ kỷ luật dừng lỗ và canh cơ cấu các mã yếu.",
+   "thay": "Lúc này ưu tiên là quản trị rủi ro."
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Chỉ số vượt cản thật, hay vài trụ lớn đang gánh điểm?",
+  "regime": "Rotation/Divergence · thiếu tiền",
+  "ma_dang_noi": [
+   "FPT",
+   "DGW",
+   "VCB"
+  ],
+  "ly_do": {
+   "FPT": "Khối ngoại bán ròng gần 260 tỷ, giá về đáy 20 phiên 53,9, dưới cả bốn đường MA.",
+   "DGW": "Giảm sàn với khối lượng gấp gần 4 lần TB20, rơi về sát MA200.",
+   "VCB": "Một mình góp 2,4 trong 4,78 điểm tăng của chỉ số, khối lượng gấp hơn 2 lần TB20."
+  },
+  "tieu_de_ma": {
+   "FPT": "về đáy 20 phiên, ngoại xả mạnh",
+   "DGW": "giảm sàn, về sát MA200",
+   "VCB": "gánh điểm, còn dưới MA50"
+  }
+ }
+}

@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-28T20:54+07:00",
+ "cap_nhat": "2026-10-29T07:14+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 320,
-   "ty_le_dung": 53.4
+   "n": 330,
+   "ty_le_dung": 52.4
   },
   "phe_than_trong": {
-   "n": 258,
-   "ty_le_dung": 50.8
+   "n": 260,
+   "ty_le_dung": 51.2
   },
   "phe_vi_mo": {
-   "n": 268,
-   "ty_le_dung": 54.9
+   "n": 277,
+   "ty_le_dung": 53.8
   },
   "tab_web": {
-   "n": 366,
-   "ty_le_dung": 53.0
+   "n": 376,
+   "ty_le_dung": 52.4
   },
   "tab_zalo": {
    "n": 75,
    "ty_le_dung": 50.7
   },
   "trong_tai": {
-   "n": 441,
-   "ty_le_dung": 52.6
+   "n": 451,
+   "ty_le_dung": 52.1
   },
   "xac_minh_da_xac_minh": {
-   "n": 404,
-   "ty_le_dung": 53.0
+   "n": 414,
+   "ty_le_dung": 52.4
   },
   "xac_minh_mot_nguon": {
    "n": 10,
@@ -39,176 +39,6 @@
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "VN-Index điều chỉnh về 1.753 điểm, thanh khoản phân hóa",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VIC",
-   "du_bao": -1,
-   "vuot_t0": -0.05,
-   "vuot_t4": -2.28,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "VN-Index điều chỉnh về 1.753 điểm, thanh khoản phân hóa",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VHM",
-   "du_bao": -1,
-   "vuot_t0": -2.56,
-   "vuot_t4": -7.53,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "VN-Index điều chỉnh về 1.753 điểm, thanh khoản phân hóa",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "GVR",
-   "du_bao": 1,
-   "vuot_t0": 0.38,
-   "vuot_t4": -4.88,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Cổ phiếu PNJ chịu áp lực bán ròng gần 400 tỷ",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -2.62,
-   "vuot_t4": 1.44,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Nghiên cứu giao dịch xuyên trưa và nới biên độ giá",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": -2.23,
-   "vuot_t4": -1.05,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Nghiên cứu giao dịch xuyên trưa và nới biên độ giá",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "HCM",
-   "du_bao": 1,
-   "vuot_t0": 3.43,
-   "vuot_t4": 3.2,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Bộ Công Thương định hướng tách truyền tải khỏi EVN",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "POW",
-   "du_bao": 1,
-   "vuot_t0": 0.03,
-   "vuot_t4": 1.58,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Bộ Công Thương định hướng tách truyền tải khỏi EVN",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "NT2",
-   "du_bao": 1,
-   "vuot_t0": 2.82,
-   "vuot_t4": 5.21,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "SSI Research ước tính lợi nhuận công nghệ tăng vọt",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "FPT",
-   "du_bao": 1,
-   "vuot_t0": 0.82,
-   "vuot_t4": -1.59,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "SSI Research ước tính lợi nhuận công nghệ tăng vọt",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VGI",
-   "du_bao": 1,
-   "vuot_t0": 1.21,
-   "vuot_t4": 0.58,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
   {
    "ngay": "2026-10-08",
    "tab": "web",
@@ -897,7 +727,7 @@
    "loai": "thi_truong",
    "doi_tuong": "TCB",
    "du_bao": -1,
-   "vuot_t0": 1.59,
+   "vuot_t0": 1.58,
    "vuot_t4": 4.31,
    "dung": false,
    "phe": {
@@ -1386,7 +1216,7 @@
    "loai": "thi_truong",
    "doi_tuong": "TCB",
    "du_bao": 1,
-   "vuot_t0": 1.59,
+   "vuot_t0": 1.58,
    "vuot_t4": 4.31,
    "dung": true,
    "phe": {
@@ -1471,7 +1301,7 @@
    "loai": "chinh_sach",
    "doi_tuong": "TCB",
    "du_bao": 1,
-   "vuot_t0": 1.59,
+   "vuot_t0": 1.58,
    "vuot_t4": 4.31,
    "dung": true,
    "phe": {
@@ -2251,7 +2081,7 @@
    "loai": "doanh_nghiep",
    "doi_tuong": "TCB",
    "du_bao": 1,
-   "vuot_t0": 1.59,
+   "vuot_t0": 1.58,
    "vuot_t4": 4.31,
    "dung": true,
    "phe": {
@@ -3047,7 +2877,7 @@
    "doi_tuong": "TCB",
    "du_bao": 1,
    "vuot_t0": 0.47,
-   "vuot_t4": 0.13,
+   "vuot_t4": 0.14,
    "dung": true,
    "phe": {
     "lac_quan": true,
@@ -4097,7 +3927,7 @@
    "loai": "thi_truong",
    "doi_tuong": "TCB",
    "du_bao": -1,
-   "vuot_t0": 1.09,
+   "vuot_t0": 1.1,
    "vuot_t4": -0.99,
    "dung": true,
    "phe": {
@@ -4420,7 +4250,7 @@
    "loai": "chinh_sach",
    "doi_tuong": "TCB",
    "du_bao": 1,
-   "vuot_t0": 1.09,
+   "vuot_t0": 1.1,
    "vuot_t4": -0.99,
    "dung": false,
    "phe": {
@@ -5118,6 +4948,176 @@
     "lac_quan": false,
     "than_trong": true,
     "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "NHNN chỉ đạo giảm thực chất lãi suất huy động và cho vay",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "DXG",
+   "du_bao": 1,
+   "vuot_t0": -0.79,
+   "vuot_t4": -6.92,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "NHNN chỉ đạo giảm thực chất lãi suất huy động và cho vay",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": -2.49,
+   "vuot_t4": -4.8,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "VN-Index tăng 46,7 điểm, khối ngoại quay lại mua ròng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -1.99,
+   "vuot_t4": -4.23,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "VN-Index tăng 46,7 điểm, khối ngoại quay lại mua ròng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 2.9,
+   "vuot_t4": 6.17,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "Dư nợ cho vay margin đạt kỷ lục 463.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "SSI",
+   "du_bao": -1,
+   "vuot_t0": -2.49,
+   "vuot_t4": -4.8,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "Dự kiến vận hành cơ chế bù trừ trung tâm CCP năm 2027",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": -2.49,
+   "vuot_t4": -4.8,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "Dự kiến vận hành cơ chế bù trừ trung tâm CCP năm 2027",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCI",
+   "du_bao": 1,
+   "vuot_t0": -2.28,
+   "vuot_t4": -5.16,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "Ngân hàng lớn và FPT công bố lợi nhuận quý 3 tăng trưởng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "LPB",
+   "du_bao": 1,
+   "vuot_t0": -3.03,
+   "vuot_t4": -5.64,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "Ngân hàng lớn và FPT công bố lợi nhuận quý 3 tăng trưởng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -1.99,
+   "vuot_t4": -4.23,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-22",
+   "tab": "web",
+   "chu_de": "PNJ báo lỗ 258 tỷ đồng quý 3 do sự cố thị trường kim cương",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": -4.39,
+   "vuot_t4": -12.29,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
    }
   }
  ],

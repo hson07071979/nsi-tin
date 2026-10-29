@@ -1,5 +1,5 @@
 {
- "cap_nhat": "2026-10-29T12:43+07:00",
+ "cap_nhat": "2026-10-29T20:59+07:00",
  "tong_ket": {
   "phe_lac_quan": {
    "n": 329,
@@ -3487,7 +3487,7 @@
    "doi_tuong": "VDS",
    "du_bao": -1,
    "vuot_t0": -0.07,
-   "vuot_t4": 2.06,
+   "vuot_t4": 2.07,
    "dung": false,
    "phe": {
     "lac_quan": true,
@@ -3979,7 +3979,7 @@
    "doi_tuong": "VDS",
    "du_bao": -1,
    "vuot_t0": -0.07,
-   "vuot_t4": 2.06,
+   "vuot_t4": 2.07,
    "dung": false,
    "phe": {
     "lac_quan": false,
@@ -4353,7 +4353,7 @@
    "doi_tuong": "VDS",
    "du_bao": -1,
    "vuot_t0": -0.07,
-   "vuot_t4": 2.06,
+   "vuot_t4": 2.07,
    "dung": false,
    "phe": {
     "lac_quan": true,

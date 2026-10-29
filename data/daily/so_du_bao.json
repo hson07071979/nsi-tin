@@ -485,9 +485,12 @@
   "han_phien": 5,
   "loai_moc": "CAN",
   "noi_dung": "PVD sẽ duy trì đóng cửa trên mốc hỗ trợ 18,0 sau phiên bùng nổ vượt MA50.",
-  "trang_thai": "mo",
-  "phien_da_qua": 4,
-  "ngay_cham_cuoi": "2026-10-28"
+  "trang_thai": "dong",
+  "phien_da_qua": 5,
+  "ngay_cham_cuoi": "2026-10-29",
+  "ket_qua": "ĐÚNG",
+  "ngay_dong": "2026-10-29",
+  "gia_luc_dong": 18.35
  },
  {
   "id": "3a21043eb3",
@@ -534,8 +537,8 @@
   "loai_moc": "CAN",
   "noi_dung": "ACB sẽ giữ vững trên mốc 21,0 sau phiên nổ thanh khoản kỷ lục để hướng tới vùng cản 22,3.",
   "trang_thai": "mo",
-  "phien_da_qua": 3,
-  "ngay_cham_cuoi": "2026-10-28"
+  "phien_da_qua": 4,
+  "ngay_cham_cuoi": "2026-10-29"
  },
  {
   "id": "92fcfedafa",
@@ -547,9 +550,12 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc hỗ trợ 1.756,07 điểm trong 3 phiên tới để giữ thế tích lũy trên MA50.",
-  "trang_thai": "mo",
-  "phien_da_qua": 2,
-  "ngay_cham_cuoi": "2026-10-28"
+  "trang_thai": "dong",
+  "phien_da_qua": 3,
+  "ngay_cham_cuoi": "2026-10-29",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-10-29",
+  "gia_luc_dong": 1755.61
  },
  {
   "id": "8020a41403",
@@ -579,8 +585,8 @@
   "loai_moc": "QS",
   "noi_dung": "HPG sẽ giữ vững trên mốc hỗ trợ 20,55 để tiếp tục tích lũy quanh MA50.",
   "trang_thai": "mo",
-  "phien_da_qua": 2,
-  "ngay_cham_cuoi": "2026-10-28"
+  "phien_da_qua": 3,
+  "ngay_cham_cuoi": "2026-10-29"
  },
  {
   "id": "a0ffff7cf4",
@@ -592,9 +598,12 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc hỗ trợ 1.756,07 điểm trong 3 phiên tới để giữ thế tích lũy.",
-  "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-10-28"
+  "trang_thai": "dong",
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-10-29",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-10-29",
+  "gia_luc_dong": 1755.61
  },
  {
   "id": "060636e0c7",
@@ -624,8 +633,8 @@
   "loai_moc": "QS",
   "noi_dung": "NKG sẽ duy trì đóng cửa trên mốc 11,95 sau khi chạm đường MA200.",
   "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-10-28"
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-10-29"
  },
  {
   "id": "2db8e56313",
@@ -638,7 +647,8 @@
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì đóng cửa trên mốc hỗ trợ 1.742,87 điểm trong 3 phiên tới để giữ trạng thái kiểm định vùng cản MA50.",
   "trang_thai": "mo",
-  "phien_da_qua": 0
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-10-29"
  },
  {
   "id": "dd8e66a781",
@@ -650,8 +660,12 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "FPT sẽ giữ vững giá đóng cửa trên mốc đáy 20 phiên 53,9 để tìm vùng cân bằng mới.",
-  "trang_thai": "mo",
-  "phien_da_qua": 0
+  "trang_thai": "dong",
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-10-29",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-10-29",
+  "gia_luc_dong": 52.7
  },
  {
   "id": "1634a5c567",
@@ -663,6 +677,46 @@
   "han_phien": 3,
   "loai_moc": "QS",
   "noi_dung": "VCB sẽ duy trì giá đóng cửa trên mốc 57,2 để giữ nhịp tăng hỗ trợ cho chỉ số chung.",
+  "trang_thai": "mo",
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-10-29"
+ },
+ {
+  "id": "17c9d83e46",
+  "ngay_ghi": "2026-10-29",
+  "ban": "cach_1_luot",
+  "doi_tuong": "VNINDEX",
+  "loai": "giu",
+  "moc": 1742.87,
+  "han_phien": 3,
+  "loai_moc": "CAN",
+  "noi_dung": "VN-Index sẽ duy trì giá đóng cửa trên mốc hỗ trợ 1.742,87 điểm trong 3 phiên tới.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "a5210f2f8b",
+  "ngay_ghi": "2026-10-29",
+  "ban": "cach_1_luot",
+  "doi_tuong": "HPG",
+  "loai": "giu",
+  "moc": 20.55,
+  "han_phien": 3,
+  "loai_moc": "QS",
+  "noi_dung": "HPG sẽ duy trì giá đóng cửa trên mốc hỗ trợ 20,55 để giữ nhịp cho nhóm thép.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "ee9e27786c",
+  "ngay_ghi": "2026-10-29",
+  "ban": "cach_1_luot",
+  "doi_tuong": "FPT",
+  "loai": "giu",
+  "moc": 52.5,
+  "han_phien": 3,
+  "loai_moc": "CAN",
+  "noi_dung": "FPT sẽ giữ vững giá đóng cửa trên mốc đáy 52,5 để tìm điểm cân bằng cung cầu.",
   "trang_thai": "mo",
   "phien_da_qua": 0
  }

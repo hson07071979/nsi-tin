@@ -1,0 +1,203 @@
+{
+ "ngay": "2026-10-29",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Đã đối chiếu số VN-Index, breadth, thanh khoản, khối ngoại, đóng góp điểm và giá/MA/vùng của 25 mã trong bảng với FACT: khớp.",
+  "Breadth hai nguồn lệch: 93 tăng/209 giảm (chính) và 97/215 (đếm đối chiếu). Giữ số chính.",
+  "Lời thoại đọc 'dừng lỗ', 'mục tiêu', 'bốn sao/năm sao' → đổi thành 'hỗ trợ kế tiếp'/'kháng cự kế tiếp', bỏ sao; bỏ 'tỷ trọng tiền mặt'.",
+  "Bỏ các mốc 'gap' không có trong FACT: VPB 20,4 (→ đáy 20 phiên 22,2), CTD 58,9 (→ đáy 20 phiên 57,3), GAS 72,5 (→ vùng 70,94–72,79), MWG 72,4, PVT 22,4–22,7 (→ vùng cản 21,73–22,36).",
+  "BSR: 'thủng 26,7 sẽ gãy MA200 26,97' sai thứ tự giá (26,7 nằm dưới MA200) → sửa. CTD: kháng cự kế tiếp là 65,0, không phải 68,0.",
+  "Nhân quả không có căn cứ: 'dầu giảm khiến dầu khí bị bán', 'thép nhờ giá HRC phục hồi', 'vận tải do giá cước', 'bán mạnh vào phiên chiều' → sửa/bỏ.",
+  "PNJ: MA200 55,91 và đỉnh 250 phiên 84,7 so với giá 16,05 gợi ý dữ liệu lịch sử chưa điều chỉnh theo sự kiện quyền → không đọc kỹ thuật PNJ, Sơn kiểm lại nguồn.",
+  "Không kiểm được (không có trong brief): CTG, MBB, STB, HDB, SHB, LPB, VIX(CK), VRE, DIG, IDC, BCM, SZC, PVS, PVD, PLX, DGW, MSN, HAH, VSC, VOS, DPM, DGC, ngành ngóc ngách; HPG 774 tỷ, PVT 456 tỷ; ngưỡng thấp 20 phiên của Brent/DXY/US10Y/USDVND; dự báo PVD 18,0 và FPT 53,9.",
+  "Sổ dự báo mở chưa được nhắc: VNINDEX giữ 1.742,87 (đang giữ, 1/3), VCB giữ 57,2 (đóng đúng 57,2 – ranh giới), HPG 20,55 và NKG 11,95 đang giữ, ACB 21,0 hạn còn 1 phiên.",
+  "Regime Rotation/Divergence còn yếu: chỉ số −0,62%, phần ngoài Vin −9,13 điểm, 209 mã giảm → nghiêng Distribution nếu breadth không cải thiện; giữ nhãn, thêm ghi chú độ rộng yếu.",
+  "Xác nhận VN-Index: phan_tich ghi 1,2 lần TB20 (~14.800 tỷ), lời thoại ghi 13.000 tỷ → thống nhất theo 13.000 tỷ đã dùng ở phiên tới."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "ky_thuat_chi_so.nguon_goc",
+   "gia_tri": "Vùng có 3 lần kiểm định pivot, hội tụ đường MA50 ngày, vùng khối lượng lớn cùng đỉnh đáy cũ."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Nếu để thủng dứt khoát mốc 1.742,87 điểm, quán tính bán sẽ đẩy chỉ số lùi về vùng hỗ trợ 1.715,21–1.741,37 điểm (5 lần chạm), khiến độ rộng thị trường suy yếu nghiêm trọng."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.ho_tro_ke_tiep",
+   "gia_tri": "Vùng 1.715,21–1.741,37 điểm (5 lần chạm, chân nến tăng mạnh)."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.xac_nhan",
+   "gia_tri": "Một phiên đóng cửa vượt dứt khoát 1.768 điểm với thanh khoản khớp lệnh trên 13.000 tỷ."
+  },
+  {
+   "duong_dan": "thanh_khoan",
+   "gia_tri": "Tổng giá trị giao dịch sàn HOSE đạt 14.505,3 tỷ đồng, trong đó giao dịch thỏa thuận chiếm 2.052,5 tỷ đồng (tỷ trọng 14,2%). Thanh khoản khớp lệnh thực tế đạt 12.452,8 tỷ đồng, cao hơn phiên trước (12.186,5 tỷ) và tương đương mức trung bình 20 phiên (12.370 tỷ đồng, tỷ lệ 1,01 lần). Thị trường ở trạng thái thanh khoản vừa đủ mức trung bình, bên bán chiếm ưu thế."
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "regime.phan_bac",
+   "gia_tri": [
+    "Số lượng mã giảm (209) gấp hơn 2 lần số mã tăng (93) và phần ngoài nhóm Vin giảm 9,13 điểm, cho thấy rủi ro chuyển dịch sang pha phân phối ngắn hạn nếu độ rộng không cải thiện."
+   ]
+  },
+  {
+   "duong_dan": "nganh[0].ma[3].thung_thi",
+   "gia_tri": "Thủng 22,41 thì về đáy 20 phiên 22,2."
+  },
+  {
+   "duong_dan": "nganh[3].nhan_dinh",
+   "gia_tri": "Tài nguyên Cơ bản là điểm sáng hiếm hoi khi tăng 1,74%, HPG tăng 2,17% với khối ngoại mua ròng."
+  },
+  {
+   "duong_dan": "nganh[5].ma[1].muc_tieu",
+   "gia_tri": 65.0
+  },
+  {
+   "duong_dan": "nganh[5].ma[1].thung_thi",
+   "gia_tri": "Thủng 59,9 thì về đáy 20 phiên 57,3."
+  },
+  {
+   "duong_dan": "nganh[5].ma[1].xac_nhan",
+   "gia_tri": "Đóng cửa vượt lại 65,0, xa hơn vùng 68,0–69,9."
+  },
+  {
+   "duong_dan": "nganh[6].ma[0].thung_thi",
+   "gia_tri": "Thủng 73,66 thì về vùng hỗ trợ 70,94–72,79."
+  },
+  {
+   "duong_dan": "nganh[6].ma[1].thung_thi",
+   "gia_tri": "Thủng 26,7 thì đã nằm dưới MA200 (26,97), hỗ trợ kế tiếp 25,91–26,4."
+  },
+  {
+   "duong_dan": "nganh[6].ma[1].xac_nhan",
+   "gia_tri": "Lấy lại vùng cản 28,94–29,61 (có MA50 29,13)."
+  },
+  {
+   "duong_dan": "nganh[6].ma[2].cau_truc",
+   "gia_tri": "Giảm sàn 6,78% xuống 21,3 với khối lượng gấp gần 3 lần trung bình, khối ngoại bán ròng 56,4 tỷ"
+  },
+  {
+   "duong_dan": "nganh[6].ma[2].xac_nhan",
+   "gia_tri": "Lấy lại vùng cản 21,73–22,36."
+  },
+  {
+   "duong_dan": "nganh[7].nhan_dinh",
+   "gia_tri": "Nhóm Bán lẻ phân hóa, chỉ số ngành tăng nhẹ 0,35%, MWG chỉ giảm nhẹ trong khi PNJ và MSN giảm sâu."
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].thung_thi",
+   "gia_tri": "Thủng 72,5 thì gãy cấu trúc tích lũy ngắn hạn, hỗ trợ kế tiếp 70,26–72,1."
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].cau_truc",
+   "gia_tri": "Giảm 6,41% về 16,05; MA và đỉnh/đáy dài hạn có dấu hiệu chưa điều chỉnh theo sự kiện quyền, chưa đọc kỹ thuật"
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].thung_thi",
+   "gia_tri": "Chưa đủ dữ liệu tin cậy để xác định hỗ trợ dưới 16,0."
+  },
+  {
+   "duong_dan": "nganh[8].nhan_dinh",
+   "gia_tri": "Ngành Vận tải chịu áp lực bán cùng nhóm dầu khí, GMD giảm 3,52%."
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].thung_thi",
+   "gia_tri": "Thủng 50,6 thì về MA200 tại 49,87."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "áp lực bán chủ động dâng cao vào phiên chiều khiến bảng điện chìm trong sắc đỏ",
+   "thay": "bên bán chiếm ưu thế khiến bảng điện chìm trong sắc đỏ"
+  },
+  {
+   "tim": "nhưng nó lại tác động tâm lý trực diện khiến nhóm dầu khí trong nước hôm nay bị bán tháo rất mạnh",
+   "thay": "còn nhóm dầu khí trong nước hôm nay bị bán rất mạnh, đây là tương quan cần theo dõi thêm chứ chưa đủ để nói là nguyên nhân"
+  },
+  {
+   "tim": "khi thị trường chạm các vùng kháng cự phía trên",
+   "thay": "khi thị trường tiến gần vùng kháng cự 1.772 phía trên"
+  },
+  {
+   "tim": "Vùng này có độ mạnh bốn sao, đã có ba lần kiểm định pivot, và là nơi hội tụ của đường MA50 ngày cùng vùng khối lượng giao dịch rất lớn của tháng chín và tháng mười.",
+   "thay": "Vùng này đã có ba lần kiểm định pivot, và là nơi hội tụ của đường MA50 ngày cùng vùng khối lượng giao dịch rất lớn."
+  },
+  {
+   "tim": "Đây là vùng hỗ trợ năm sao cực mạnh, từng có năm lần chạm",
+   "thay": "Đây là vùng hỗ trợ mạnh, từng có năm lần chạm"
+  },
+  {
+   "tim": "hỗ trợ cứng phía dưới là 55,5, mức dừng lỗ khoảng 3%, mục tiêu cản gần nhất là 58,96",
+   "thay": "hỗ trợ kế tiếp phía dưới là 55,5, kháng cự kế tiếp là 58,96"
+  },
+  {
+   "tim": "hỗ trợ tiếp theo là đáy cũ 18,65, mức dừng lỗ tính từ giá này khoảng gần 5%, mục tiêu cản gần là 19,65 đến 20,1",
+   "thay": "hỗ trợ kế tiếp là đáy cũ 18,65, kháng cự kế tiếp là 19,65 đến 20,1"
+  },
+  {
+   "tim": "nếu giữ được thì mục tiêu hướng tới cản 21,8 và xa hơn là MA200 quanh 23,0",
+   "thay": "nếu giữ được thì kháng cự kế tiếp là 21,8 và xa hơn là MA200 quanh 23,0"
+  },
+  {
+   "tim": "Thép đang hút được dòng tiền ngắn hạn nhờ trợ lực từ giá HRC thế giới phục hồi.",
+   "thay": "Thép đang hút được dòng tiền ngắn hạn."
+  },
+  {
+   "tim": "CTD giảm tới 4,85% về 64,7 với khối lượng lớn, hỗ trợ gần là 62,5 đến 64,3, cản 68,0.",
+   "thay": "CTD giảm tới 4,85% về 64,7 với khối lượng lớn, hỗ trợ gần là 62,5 đến 64,3, cản gần 65,0, xa hơn 68,0."
+  },
+  {
+   "tim": "PNJ lao dốc giảm 6,41% về 16,05, sát đáy 250 phiên 16,0, cấu trúc gãy nặng nề.",
+   "thay": "PNJ giảm 6,41% về 16,05; dữ liệu giá lịch sử của PNJ có dấu hiệu chưa điều chỉnh theo sự kiện quyền nên em chưa đọc kỹ thuật mã này."
+  },
+  {
+   "tim": "mốc theo dõi là đáy cũ 52,5",
+   "thay": "mốc theo dõi là đáy trong phiên 52,5"
+  },
+  {
+   "tim": "nếu giữ được mốc này thì mục tiêu tiếp theo là vùng cản 21,8",
+   "thay": "nếu giữ được mốc này thì kháng cự kế tiếp là vùng 21,8"
+  },
+  {
+   "tim": "với thanh khoản kỷ lục 456 tỷ, gấp gần 3 lần trung bình",
+   "thay": "với khối lượng gấp gần 3 lần trung bình"
+  },
+  {
+   "tim": "khi cổ phiếu xuất hiện gap giảm lớn",
+   "thay": "khi cổ phiếu giảm sàn với khối lượng lớn"
+  },
+  {
+   "tim": "Anh chị tuyệt đối không bắt dao rơi khi khối ngoại chưa dừng xả.",
+   "thay": "Khi khối ngoại chưa dừng bán thì chưa có tín hiệu cầu bắt đáy rõ ràng."
+  },
+  {
+   "tim": ", ưu tiên quản trị rủi ro trên từng cổ phiếu cụ thể và giữ tỷ trọng tiền mặt an toàn.",
+   "thay": ", ưu tiên quản trị rủi ro trên từng cổ phiếu cụ thể."
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Tiền rút khỏi thị trường hay chỉ rời nhóm bị bán để đảo sang nơi khác?",
+  "regime": "Rotation/Divergence — độ rộng yếu",
+  "ma_dang_noi": [
+   "HPG",
+   "PVT",
+   "FPT"
+  ],
+  "ly_do": {
+   "HPG": "Đóng góp dương lớn nhất (+0,79 điểm), lấy lại MA10/20/50, khối lượng gấp đôi, ngoại mua ròng 63 tỷ.",
+   "PVT": "Giảm sàn với khối lượng gấp 3 lần trung bình, ngoại bán 56 tỷ, đang sát vùng MA200 20,5–21,1.",
+   "FPT": "Ngoại bán ròng 115 tỷ, dưới mọi MA, đóng cửa sát đáy trong phiên 52,5."
+  },
+  "tieu_de_ma": {
+   "HPG": "lấy lại MA50, ngoại mua",
+   "PVT": "giảm sàn, sát MA200",
+   "FPT": "sát đáy 52,5, ngoại xả"
+  }
+ }
+}

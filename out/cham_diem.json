@@ -1,9 +1,9 @@
 {
- "cap_nhat": "2026-10-29T07:46+07:00",
+ "cap_nhat": "2026-10-29T08:16+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 330,
-   "ty_le_dung": 52.4
+   "n": 329,
+   "ty_le_dung": 52.6
   },
   "phe_than_trong": {
    "n": 260,
@@ -14,20 +14,20 @@
    "ty_le_dung": 53.8
   },
   "tab_web": {
-   "n": 376,
-   "ty_le_dung": 52.4
+   "n": 375,
+   "ty_le_dung": 52.5
   },
   "tab_zalo": {
    "n": 75,
    "ty_le_dung": 50.7
   },
   "trong_tai": {
-   "n": 451,
-   "ty_le_dung": 52.1
+   "n": 450,
+   "ty_le_dung": 52.2
   },
   "xac_minh_da_xac_minh": {
-   "n": 414,
-   "ty_le_dung": 52.4
+   "n": 413,
+   "ty_le_dung": 52.5
   },
   "xac_minh_mot_nguon": {
    "n": 10,
@@ -39,6 +39,23 @@
   }
  },
  "chi_tiet": [
+  {
+   "ngay": "2026-10-08",
+   "tab": "web",
+   "chu_de": "SSI Research ước tính lợi nhuận công nghệ tăng vọt",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VGI",
+   "du_bao": 1,
+   "vuot_t0": 1.21,
+   "vuot_t4": 0.58,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
   {
    "ngay": "2026-10-08",
    "tab": "web",
@@ -2679,23 +2696,6 @@
     "lac_quan": false,
     "than_trong": null,
     "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-15",
-   "tab": "web",
-   "chu_de": "Tôn Đông Á được chấp thuận niêm yết gần 149 triệu cổ phiếu trên HOSE",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "GDA",
-   "du_bao": 1,
-   "vuot_t0": 1.23,
-   "vuot_t4": -0.29,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
    }
   },
   {

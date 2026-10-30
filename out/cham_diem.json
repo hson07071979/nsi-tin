@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-29T20:59+07:00",
+ "cap_nhat": "2026-10-30T07:07+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 329,
-   "ty_le_dung": 52.6
+   "n": 353,
+   "ty_le_dung": 51.6
   },
   "phe_than_trong": {
-   "n": 260,
-   "ty_le_dung": 51.2
+   "n": 268,
+   "ty_le_dung": 52.2
   },
   "phe_vi_mo": {
-   "n": 277,
-   "ty_le_dung": 53.8
+   "n": 297,
+   "ty_le_dung": 53.9
   },
   "tab_web": {
-   "n": 375,
-   "ty_le_dung": 52.5
+   "n": 404,
+   "ty_le_dung": 52.2
   },
   "tab_zalo": {
    "n": 75,
    "ty_le_dung": 50.7
   },
   "trong_tai": {
-   "n": 450,
-   "ty_le_dung": 52.2
+   "n": 479,
+   "ty_le_dung": 52.0
   },
   "xac_minh_da_xac_minh": {
-   "n": 413,
-   "ty_le_dung": 52.5
+   "n": 442,
+   "ty_le_dung": 52.3
   },
   "xac_minh_mot_nguon": {
    "n": 10,
@@ -39,499 +39,6 @@
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "SSI Research ước tính lợi nhuận công nghệ tăng vọt",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VGI",
-   "du_bao": 1,
-   "vuot_t0": 1.21,
-   "vuot_t4": 0.58,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Tài khoản mở mới tháng 9 đạt gần 245 nghìn",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": -2.23,
-   "vuot_t4": -1.05,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Tài khoản mở mới tháng 9 đạt gần 245 nghìn",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VCI",
-   "du_bao": -1,
-   "vuot_t0": -2.06,
-   "vuot_t4": 0.15,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Lợi suất trái phiếu Mỹ biến động, nợ công chịu sức ép",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "VHM",
-   "du_bao": -1,
-   "vuot_t0": -2.56,
-   "vuot_t4": -7.53,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Lợi suất trái phiếu Mỹ biến động, nợ công chịu sức ép",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "VIC",
-   "du_bao": -1,
-   "vuot_t0": -0.05,
-   "vuot_t4": -2.28,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Lợi suất trái phiếu Mỹ biến động, nợ công chịu sức ép",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "FPT",
-   "du_bao": 1,
-   "vuot_t0": 0.82,
-   "vuot_t4": -1.59,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Giá cước vận tải biển tăng hỗ trợ triển vọng ngành",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "PVT",
-   "du_bao": 1,
-   "vuot_t0": 3.64,
-   "vuot_t4": 2.16,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Giá cước vận tải biển tăng hỗ trợ triển vọng ngành",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "HAH",
-   "du_bao": 1,
-   "vuot_t0": -0.51,
-   "vuot_t4": -5.14,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Thúc đẩy các đại dự án hạ tầng giao thông trọng điểm",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "ACV",
-   "du_bao": 1,
-   "vuot_t0": 1.8,
-   "vuot_t4": 3.75,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "web",
-   "chu_de": "Thúc đẩy các đại dự án hạ tầng giao thông trọng điểm",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "VHM",
-   "du_bao": 1,
-   "vuot_t0": -2.56,
-   "vuot_t4": -7.53,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "zalo",
-   "chu_de": "Lãi suất liên ngân hàng hạ nhiệt mạnh, kỳ hạn 1 tuần về 2.8%",
-   "xac_minh": "tin_don",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": -2.23,
-   "vuot_t4": -1.05,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-08",
-   "tab": "zalo",
-   "chu_de": "Lãi suất liên ngân hàng hạ nhiệt mạnh, kỳ hạn 1 tuần về 2.8%",
-   "xac_minh": "tin_don",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": -0.22,
-   "vuot_t4": 4.08,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Trái phiếu BĐS tăng 126%, lãi suất bình quân lên 11,4%",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "NVL",
-   "du_bao": -1,
-   "vuot_t0": 7.05,
-   "vuot_t4": 6.73,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Trái phiếu BĐS tăng 126%, lãi suất bình quân lên 11,4%",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "PDR",
-   "du_bao": -1,
-   "vuot_t0": 2.02,
-   "vuot_t4": 4.14,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Cổ phiếu SHB giảm sàn về sát mệnh giá",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "SHB",
-   "du_bao": -1,
-   "vuot_t0": -0.27,
-   "vuot_t4": 5.82,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Cổ phiếu SHB giảm sàn về sát mệnh giá",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "TCB",
-   "du_bao": -1,
-   "vuot_t0": 1.63,
-   "vuot_t4": 5.47,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Đề xuất giảm thuế xuất khẩu phân bón về 0%",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "DPM",
-   "du_bao": 1,
-   "vuot_t0": -0.91,
-   "vuot_t4": -1.95,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Đề xuất giảm thuế xuất khẩu phân bón về 0%",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "DCM",
-   "du_bao": 1,
-   "vuot_t0": 1.53,
-   "vuot_t4": 0.88,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Nghị định 316 siết quy định trích lập và cổ tức ngân hàng",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "ACB",
-   "du_bao": 1,
-   "vuot_t0": -0.76,
-   "vuot_t4": 3.56,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Nghị định 316 siết quy định trích lập và cổ tức ngân hàng",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "SHB",
-   "du_bao": -1,
-   "vuot_t0": -0.27,
-   "vuot_t4": 5.82,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "MSB niêm yết bổ sung 624 triệu cổ phiếu từ 15/10",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "MSB",
-   "du_bao": -1,
-   "vuot_t0": -0.79,
-   "vuot_t4": 1.66,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Thị phần môi giới quý 3 phân hóa, VPS giữ ngôi đầu",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": -0.04,
-   "vuot_t4": 3.39,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Thị phần môi giới quý 3 phân hóa, VPS giữ ngôi đầu",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VCI",
-   "du_bao": -1,
-   "vuot_t0": 0.22,
-   "vuot_t4": 3.95,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Lãnh đạo PNJ bán xong 9 triệu cổ phiếu",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "PNJ",
-   "du_bao": 1,
-   "vuot_t0": 7.07,
-   "vuot_t4": 2.06,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Lãi suất huy động kỳ hạn dài phân hóa quanh 6,8-7,5%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "DXG",
-   "du_bao": -1,
-   "vuot_t0": 1.68,
-   "vuot_t4": 9.0,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "Lãi suất huy động kỳ hạn dài phân hóa quanh 6,8-7,5%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "STB",
-   "du_bao": -1,
-   "vuot_t0": 0.22,
-   "vuot_t4": -4.35,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "FDI thúc đẩy triển vọng nhóm bất động sản khu công nghiệp",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "PHR",
-   "du_bao": 1,
-   "vuot_t0": -0.98,
-   "vuot_t4": -2.17,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "web",
-   "chu_de": "FDI thúc đẩy triển vọng nhóm bất động sản khu công nghiệp",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "NTC",
-   "du_bao": 1,
-   "vuot_t0": -0.23,
-   "vuot_t4": 2.79,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Biên bản họp FOMC: Khả năng giữ nguyên lãi suất tháng 10 đạt trên 80%",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "SSI",
-   "du_bao": -1,
-   "vuot_t0": -0.04,
-   "vuot_t4": 3.39,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
   {
    "ngay": "2026-10-09",
    "tab": "zalo",
@@ -5118,6 +4625,499 @@
     "lac_quan": true,
     "than_trong": true,
     "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Techcombank và Sacombank giảm lãi suất cho vay đến 2%, tung các gói ưu đãi lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -0.62,
+   "vuot_t4": -1.55,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Techcombank và Sacombank giảm lãi suất cho vay đến 2%, tung các gói ưu đãi lớn",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "STB",
+   "du_bao": 1,
+   "vuot_t0": 6.1,
+   "vuot_t4": 4.65,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Khối ngoại tiếp tục mua ròng hơn 330 tỷ đồng, tập trung gom cổ phiếu trụ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 0.78,
+   "vuot_t4": 3.76,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Khối ngoại tiếp tục mua ròng hơn 330 tỷ đồng, tập trung gom cổ phiếu trụ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -0.62,
+   "vuot_t4": -1.55,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Khối ngoại tiếp tục mua ròng hơn 330 tỷ đồng, tập trung gom cổ phiếu trụ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "FPT",
+   "du_bao": -1,
+   "vuot_t0": -1.46,
+   "vuot_t4": -7.9,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "VN-Index vượt mốc 1.750 điểm nhờ trụ Vingroup dù độ rộng phân hóa",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 0.78,
+   "vuot_t4": 3.76,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "VN-Index vượt mốc 1.750 điểm nhờ trụ Vingroup dù độ rộng phân hóa",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PVD",
+   "du_bao": 1,
+   "vuot_t0": -1.83,
+   "vuot_t4": -2.62,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "VN-Index vượt mốc 1.750 điểm nhờ trụ Vingroup dù độ rộng phân hóa",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "SSI",
+   "du_bao": -1,
+   "vuot_t0": -1.76,
+   "vuot_t4": -2.44,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Tiền gửi nhà đầu tư tại CTCK giảm sâu, dư nợ margin đạt 457.500 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "SSI",
+   "du_bao": -1,
+   "vuot_t0": -1.76,
+   "vuot_t4": -2.44,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Tiền gửi nhà đầu tư tại CTCK giảm sâu, dư nợ margin đạt 457.500 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIX",
+   "du_bao": -1,
+   "vuot_t0": 0.43,
+   "vuot_t4": -0.91,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Lợi suất trái phiếu Mỹ giảm mạnh, thị trường toàn cầu lo ngại rủi ro geoeconomic",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "BSR",
+   "du_bao": 1,
+   "vuot_t0": -1.28,
+   "vuot_t4": -5.02,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Lợi suất trái phiếu Mỹ giảm mạnh, thị trường toàn cầu lo ngại rủi ro geoeconomic",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVD",
+   "du_bao": 1,
+   "vuot_t0": -1.83,
+   "vuot_t4": -2.62,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Tập đoàn Masan báo lãi 9 tháng vượt 10.300 tỷ đồng, Masan High-Tech bứt phá",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MSN",
+   "du_bao": 1,
+   "vuot_t0": -0.36,
+   "vuot_t4": -2.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Tập đoàn Masan báo lãi 9 tháng vượt 10.300 tỷ đồng, Masan High-Tech bứt phá",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MSR",
+   "du_bao": 1,
+   "vuot_t0": 0.18,
+   "vuot_t4": 5.05,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Khang Điền ký hợp đồng tín dụng gần 13.500 tỷ đồng với VietinBank",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "KDH",
+   "du_bao": 1,
+   "vuot_t0": 0.57,
+   "vuot_t4": -5.76,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Khang Điền ký hợp đồng tín dụng gần 13.500 tỷ đồng với VietinBank",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "CTG",
+   "du_bao": 1,
+   "vuot_t0": 0.54,
+   "vuot_t4": 0.78,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "CII tiếp tục phân phối và gia hạn đợt phát hành trái phiếu 6.720 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "CII",
+   "du_bao": -1,
+   "vuot_t0": -1.48,
+   "vuot_t4": -3.99,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Quốc hội thảo luận sửa đổi đồng bộ Luật Đất đai, Nhà ở và Bất động sản",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -0.3,
+   "vuot_t4": -2.68,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Quốc hội thảo luận sửa đổi đồng bộ Luật Đất đai, Nhà ở và Bất động sản",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "KDH",
+   "du_bao": 1,
+   "vuot_t0": 0.57,
+   "vuot_t4": -5.76,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Quốc hội thảo luận sửa đổi đồng bộ Luật Đất đai, Nhà ở và Bất động sản",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "NLG",
+   "du_bao": 1,
+   "vuot_t0": -0.12,
+   "vuot_t4": -0.36,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Đẩy nhanh tiến độ chuẩn bị cơ chế CCP cho thị trường chứng khoán",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": -1.76,
+   "vuot_t4": -2.44,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Đẩy nhanh tiến độ chuẩn bị cơ chế CCP cho thị trường chứng khoán",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCI",
+   "du_bao": 1,
+   "vuot_t0": -0.26,
+   "vuot_t4": -2.28,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Đẩy nhanh tiến độ chuẩn bị cơ chế CCP cho thị trường chứng khoán",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "BSI",
+   "du_bao": 1,
+   "vuot_t0": -0.77,
+   "vuot_t4": 1.96,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Doanh nghiệp vật liệu xây dựng báo lãi lớn nhờ đà đẩy mạnh đầu tư công",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "NTP",
+   "du_bao": 1,
+   "vuot_t0": -1.33,
+   "vuot_t4": 1.22,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Doanh nghiệp vật liệu xây dựng báo lãi lớn nhờ đà đẩy mạnh đầu tư công",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "HT1",
+   "du_bao": 1,
+   "vuot_t0": 0.35,
+   "vuot_t4": -0.46,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Doanh nghiệp vật liệu xây dựng báo lãi lớn nhờ đà đẩy mạnh đầu tư công",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VLB",
+   "du_bao": 1,
+   "vuot_t0": -2.5,
+   "vuot_t4": 1.63,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Dự thảo thay thế Thông tư 45 đề xuất cho phép doanh nghiệp chủ động kéo dài khấu hao",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "CII",
+   "du_bao": 1,
+   "vuot_t0": -1.48,
+   "vuot_t4": -3.99,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Dự thảo thay thế Thông tư 45 đề xuất cho phép doanh nghiệp chủ động kéo dài khấu hao",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "PVT",
+   "du_bao": 1,
+   "vuot_t0": -0.34,
+   "vuot_t4": -9.46,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-23",
+   "tab": "web",
+   "chu_de": "Dự thảo thay thế Thông tư 45 đề xuất cho phép doanh nghiệp chủ động kéo dài khấu hao",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "HSG",
+   "du_bao": 1,
+   "vuot_t0": 0.15,
+   "vuot_t4": 2.11,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
    }
   }
  ],

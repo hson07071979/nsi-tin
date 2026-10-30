@@ -1,0 +1,193 @@
+{
+ "ngay": "2026-10-30",
+ "ban_goc": "cach_1_luot",
+ "kiem_tra": [
+  "Breadth hai nguồn lệch: 67 tăng/245 giảm và 72/253 — giữ số nguồn chính 67/245",
+  "trang_thai_chay = mot_phan: thiếu tự doanh phiên 30/10, chỉ có tới 29/10",
+  "Gap 21/10 '1.695–1.695' không có trong FACT → bỏ câu",
+  "Mốc không căn cứ đã bỏ: SSI sl 18,05 (là đáy VCI), VCI sl 17,2, VCG sl 13,7, FPT sl 49,0; MBB 18,26–18,65 và HCM 22,9–23,4 (không có FACT mã); vùng 1.725–1.730 của VN-Index",
+  "neu_giu: chỉ số đã trên MA20 (1.736,69) → đổi thành MA10 1.744",
+  "GMD: thủng 50,6 chưa phải gãy MA200 (49,93) → sửa",
+  "USD/VND không sát đỉnh 3 tháng (26.321), chỉ cách đỉnh 20 phiên 25.991 ~0,7%; Brent '+10% 20 phiên' không có dữ liệu → bỏ",
+  "US10Y bị nói là 'nguyên nhân' rút vốn → đổi thành áp lực cần theo dõi; bỏ cụm cấm 'giải ngân', 'điểm dừng', 'mục tiêu', 'đèn NSI', '5 sao', hô hạ tỷ trọng",
+  "Regime Distribution không khớp (chỉ số dưới MA50/MA200, không ở vùng cao; chứng khoán chưa xác nhận) → Hồi kỹ thuật / dò đáy, chưa xác nhận",
+  "ACB đóng đúng 21,0 = mốc 'giữ trên 21,0' → ĐÚNG ở mức sát biên",
+  "Số ngành ngân hàng (2.800 tỷ, NN −220 tỷ), MBB/STB/VPB/HCM/KOS/KSB/PLC không có trong brief → chưa kiểm được",
+  "du_bao_moi HPG 20,55 trùng dòng đang mở trong sổ"
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "signature.index_noi_gi",
+   "gia_tri": "VN-Index giảm gần 14 điểm về 1.741,62, thủng mốc 1.742,87 và lùi vào vùng kiểm định 1.715–1.741."
+  },
+  {
+   "duong_dan": "doi_chieu_du_bao[1].nhan_xet",
+   "gia_tri": "NKG đóng cửa 11,9, thấp hơn mốc dự báo 11,95, ngay dưới MA200 (12,05)."
+  },
+  {
+   "duong_dan": "doi_chieu_du_bao[2].nhan_xet",
+   "gia_tri": "VN-Index đóng cửa 1.741,62 điểm, dưới mốc 1.742,87."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.nguon_goc",
+   "gia_tri": "Vùng hỗ trợ mạnh hội tụ đáy cũ, đỉnh cũ và chân nến tăng mạnh với 5 lần chạm kiểm định."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_giu",
+   "gia_tri": "Nếu chỉ số giữ vững trên 1.715 điểm, thị trường sẽ thiết lập được vùng cân bằng tích lũy trước khi thử thách lại MA10 quanh 1.744."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.xac_nhan",
+   "gia_tri": "Lực cầu hấp thụ tốt trong vùng 1.715–1.741 với thanh khoản khớp lệnh quay lại trên trung bình 20 phiên."
+  },
+  {
+   "duong_dan": "regime.ten",
+   "gia_tri": "Hồi kỹ thuật / dò đáy, chưa xác nhận"
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": "Không đọc được tín hiệu hệ thống; dựa vào giá, độ rộng và dòng tiền: nhịp hồi từ đáy 1.677 đang suy yếu, nhóm chứng khoán chưa có tín hiệu xác nhận."
+  },
+  {
+   "duong_dan": "nganh[1].ma[0].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[1].ma[1].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[1].ma[1].xac_nhan",
+   "gia_tri": "Lấy lại MA20 (~18,96)."
+  },
+  {
+   "duong_dan": "nganh[1].ma[1].thung_thi",
+   "gia_tri": "Thủng 18,05 (cũng là đáy 250 phiên) thì dữ liệu chưa cho thấy hỗ trợ gần bên dưới."
+  },
+  {
+   "duong_dan": "nganh[5].ma[0].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].xac_nhan",
+   "gia_tri": "Bật tăng trở lại trên MA10 (~75,2)."
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].thung_thi",
+   "gia_tri": "Thủng 50,6 sẽ lùi về kiểm định MA200 quanh 49,9."
+  },
+  {
+   "duong_dan": "nganh[9].ma[0].thung_thi",
+   "gia_tri": "Thủng 31,6 sẽ kết thúc nhịp tăng, về đáy 60 phiên 30,25."
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].xac_nhan",
+   "gia_tri": "Cầu bắt đáy chủ động đẩy giá lấy lại MA10 (~55,7)."
+  },
+  {
+   "duong_dan": "luan_diem_chinh[4]",
+   "gia_tri": "Khối ngoại tiếp tục bán ròng mạnh 633,9 tỷ đồng, tâm lý thị trường nghiêng về trạng thái phòng thủ."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Điểm số quốc tế đêm qua cho thấy thị trường Mỹ có sự phân hóa nhẹ:",
+   "thay": "Điểm số quốc tế đêm qua cho thấy thị trường Mỹ đồng loạt giảm:"
+  },
+  {
+   "tim": "giảm nhẹ so với các phiên trước nhưng vẫn đang neo rất sát vùng đỉnh ba tháng.",
+   "thay": "giảm nhẹ so với các phiên trước nhưng vẫn chưa xa đỉnh 20 phiên quanh 25.991 đồng."
+  },
+  {
+   "tim": "Việc US10Y cứ neo sát mốc 5% phản ánh kỳ vọng Fed sẽ duy trì mặt bằng lãi suất cao kéo dài, làm cho chênh lệch lãi suất USD và VND tiếp tục âm, đây chính là nguyên nhân khiến dòng vốn ngoại liên tục tái cơ cấu và rút ròng khỏi các thị trường mới nổi.",
+   "thay": "US10Y neo gần mốc 5% là một áp lực lên dòng vốn vào thị trường mới nổi cần theo dõi, nhưng dữ liệu hôm nay chưa đủ chứng minh đây là nguyên nhân khối ngoại bán ròng."
+  },
+  {
+   "tim": "tuy giảm hơn 1,6% trong ngày nhưng tính chung 20 phiên vẫn tăng hơn 10% và neo gần đỉnh ba tháng là 116,72 USD/thùng.",
+   "thay": "tuy giảm hơn 1,6% trong ngày nhưng vẫn neo gần đỉnh ba tháng là 116,72 USD/thùng."
+  },
+  {
+   "tim": "khiến dòng tiền lớn trong nước không dám mạnh tay giải ngân.",
+   "thay": "là lực cản cần theo dõi với dòng tiền trong nước."
+  },
+  {
+   "tim": "khối ngoại đã bán ròng hơn 24.021 tỷ đồng, một con số kỷ lục bào mòn đáng kể sức mua nội tại.",
+   "thay": "khối ngoại đã bán ròng hơn 24.021 tỷ đồng."
+  },
+  {
+   "tim": "Hỗ trợ kế tiếp của thị trường sẽ rơi tít xuống vùng 1.695 đến 1.701 điểm, và tại đó chúng ta còn một cái gap mở ra ngày 21 tháng 10 ở vùng 1.695 đến 1.695 điểm chưa hề được lấp. Nếu kịch bản xấu xảy ra, áp lực bán giải chấp và cắt lỗ sẽ lan rộng, quét sạch thành quả của nhịp hồi vừa qua.",
+   "thay": "Hỗ trợ kế tiếp của thị trường sẽ rơi xuống vùng 1.695 đến 1.701 điểm. Nếu kịch bản xấu xảy ra, thành quả của nhịp hồi từ đáy 1.677 có nguy cơ bị xóa bớt."
+  },
+  {
+   "tim": "điểm dừng lỗ tham chiếu quanh 20,4, cách giá đóng cửa hôm nay khoảng 5,5%.",
+   "thay": "hỗ trợ kế tiếp quanh 20,4, cách giá đóng cửa hôm nay khoảng 5,5%."
+  },
+  {
+   "tim": "đã có 5 phiên liên tiếp nằm dưới MA10, hỗ trợ tiếp theo ở 18,26 đến 18,65.",
+   "thay": "đã có 5 phiên liên tiếp nằm dưới MA10."
+  },
+  {
+   "tim": "thủng mốc này thì dừng lỗ quanh 19,7.",
+   "thay": "thủng mốc này thì hỗ trợ kế tiếp quanh 19,7."
+  },
+  {
+   "tim": "thủng mốc này thì hỗ trợ gần nhất rất xa, điểm dừng quanh 17,2, rộng hơn chuẩn 7% một chút nên anh chị phải quản trị vị thế cẩn thận.",
+   "thay": "đây cũng là đáy 250 phiên, thủng mốc này thì dữ liệu chưa cho thấy hỗ trợ gần bên dưới."
+  },
+  {
+   "tim": "tăng nhẹ 0,65% lên 23,2 nhờ khối ngoại mua ròng nhẹ, đang test vùng 22,9 đến 23,4.",
+   "thay": "tăng nhẹ 0,65% lên 23,2, khối ngoại mua ròng nhẹ."
+  },
+  {
+   "tim": "chưa có dòng tiền xác nhận thì anh chị tuyệt đối chưa vội vàng nhảy vào bắt dao.",
+   "thay": "chưa có dòng tiền xác nhận thì nhóm này vẫn chưa có tín hiệu tạo đáy."
+  },
+  {
+   "tim": "mục tiêu cản gần nhất quanh 65,2.",
+   "thay": "kháng cự gần nhất 63,3, kháng cự kế tiếp quanh 65,2."
+  },
+  {
+   "tim": "thủng mốc này thì cấu trúc hồi phục bị gãy, điểm dừng quanh 19,6.",
+   "thay": "thủng mốc này thì cấu trúc hồi phục bị gãy, hỗ trợ kế tiếp quanh 19,6."
+  },
+  {
+   "tim": "được xếp vào diện Phân phối ngắn hạn (Distribution) trong bối cảnh thiếu tiền nhẹ.",
+   "thay": "được xếp vào diện hồi kỹ thuật, dò đáy, chưa xác nhận, trong bối cảnh thiếu tiền nhẹ."
+  },
+  {
+   "tim": "Đối với hệ thống đèn NSI, hôm nay dữ liệu ghi nhận không đọc được tín hiệu đèn, nên chúng ta hoàn toàn dựa vào hành động giá và khối lượng thực tế trên đồ thị.",
+   "thay": "Hôm nay chúng ta dựa vào hành động giá và khối lượng thực tế trên đồ thị."
+  },
+  {
+   "tim": "lực cầu giá thấp phải xuất hiện hấp thụ quanh vùng 1.725 đến 1.730 điểm",
+   "thay": "lực cầu giá thấp phải xuất hiện hấp thụ trong vùng 1.715 đến 1.741 điểm"
+  },
+  {
+   "tim": "Nếu mốc 1.715 điểm bị thủng, anh chị dứt khoát phải hạ tỷ trọng cổ phiếu, tuyệt đối không trung bình giá xuống.",
+   "thay": "Nếu mốc 1.715 điểm bị thủng, mức rủi ro thị trường sẽ tăng lên rõ rệt."
+  }
+ ],
+ "slide": {
+  "cau_hoi": "Vùng 1.715–1.741 có giữ nổi khi phần còn lại của thị trường mất hơn 15 điểm?",
+  "regime": "Hồi kỹ thuật / dò đáy, chưa xác nhận",
+  "ma_dang_noi": [
+   "TCB",
+   "VHM",
+   "GAS"
+  ],
+  "ly_do": {
+   "TCB": "Lấy đi nhiều điểm nhất, khối ngoại bán ròng 133 tỷ, đang về sát MA200 21,49.",
+   "VHM": "Trụ đỡ chính của chỉ số (+1,53 điểm) với khối lượng gấp 1,7 lần bình quân.",
+   "GAS": "Đi ngược thị trường +2,6%, lấy lại MA10, góp 1 điểm cho chỉ số."
+  },
+  "tieu_de_ma": {
+   "TCB": "về sát MA200",
+   "VHM": "đỡ chỉ số",
+   "GAS": "lấy lại MA10"
+  }
+ }
+}

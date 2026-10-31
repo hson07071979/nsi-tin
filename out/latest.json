@@ -1,9 +1,9 @@
 {
  "ngay": "2026-10-31",
- "bat_dau_luc": "2026-10-31T07:01+07:00",
+ "bat_dau_luc": "2026-10-31T07:46+07:00",
  "cua_so": {
   "tu": "2026-10-30T07:01+07:00",
-  "den": "2026-10-31T07:01+07:00"
+  "den": "2026-10-31T07:46+07:00"
  },
  "nguon_web": [
   {
@@ -17,28 +17,28 @@
    "id": "cafef_vimo",
    "name": "CafeF — Vĩ mô",
    "group": "bao_vn",
-   "n": 27,
+   "n": 28,
    "err": null
   },
   {
    "id": "cafef_nh",
    "name": "CafeF — Tài chính NH",
    "group": "bao_vn",
-   "n": 20,
+   "n": 21,
    "err": null
   },
   {
    "id": "cafef_dn",
    "name": "CafeF — Doanh nghiệp",
    "group": "bao_vn",
-   "n": 37,
+   "n": 39,
    "err": null
   },
   {
    "id": "vnx_kd",
    "name": "VnExpress — Kinh doanh",
    "group": "bao_vn",
-   "n": 23,
+   "n": 25,
    "err": null
   },
   {
@@ -80,7 +80,7 @@
    "id": "tnck",
    "name": "Tin nhanh CK",
    "group": "bao_vn",
-   "n": 12,
+   "n": 14,
    "err": null
   },
   {
@@ -163,7 +163,7 @@
  },
  "vi_mo": {
   "so_lieu": {
-   "at": "2026-10-31T07:01+07:00",
+   "at": "2026-10-31T07:46+07:00",
    "dxy": 101.964,
    "dxy_chg5_pct": 0.151,
    "dxy_chg20_pct": 0.033,
@@ -311,7 +311,8 @@
     "url": "https://vneconomy.vn/gia-vang-truot-nhanh-ve-gan-4000-usdoz-sau-bao-cao-lam-phat-pce-my.htm",
     "summary": "Đồng USD, giá dầu và lợi suất trái phiếu kho bạc Mỹ cùng giảm, giúp hạn chế mức giảm của giá vàng, nhưng quỹ vàng SPDR Gold Trust vẫn bán ròng...",
     "published": "2026-10-30T07:39+07:00",
-    "score": 7
+    "score": 7,
+    "body": "Giá vàng thế giới giảm khá mạnh trong phiên giao dịch ngày thứ Năm (29/10) và tiếp tục đi xuống vào đầu giờ sáng nay (30/10), về sát ngưỡng chủ chốt 4.000 USD/oz, sau khi báo cáo thống kê cho thấy lạm phát cao dai dẳng của Mỹ củng cố khả năng Cục Dự trữ Liên bang Mỹ (Fed) tăng lãi suất trong năm nay. Đồng USD, giá dầu và lợi suất trái phiếu kho bạc Mỹ cùng giảm, giúp hạn chế mức giảm của giá vàng, nhưng quỹ vàng SPDR Gold Trust vẫn bán ròng. Lúc đóng cửa, giá vàng giao ngay tại thị trường New York còn 4.022,5 USD/oz, giảm 46 USD/oz so với mức chốt của phiên trước, tương đương giảm 1,1% - theo dữ liệu từ sàn giao dịch Kitco. Giá bạc giao ngay còn 52,3 USD/oz, giảm 1,8 USD/oz, tương đương giảm 3,3%. Trên sàn giao dịch hàng hóa tương lai COMEX, giá vàng giao tháng 12 giảm 0,5%, đóng cửa ở mức 4.031,4 USD/oz. Báo cáo từ Bộ Thương mại Mỹ cho thấy chỉ số giá tiêu dùng cá nhân (PCE) - thước đo lạm phát quan trọng nhất đối với Fed - tăng 0,5% trong tháng 9 so với tháng trước, phù hợp với dự báo của giới phân tích. So với cùng kỳ năm ngoái, chỉ số tăng 3,6%, thấp hơn dự báo là tăng 3,7% nhưng vẫn cao hơn so với mức tăng của tháng 8 và cao hơn gấp rưỡi so với mục tiêu lạm phát hàng năm 2% của Fed. Ngoài ra, báo cáo cũng cho thấy tổng sản phẩm trong nước (GDP) của Mỹ đạt tốc độ tăng trưởng hàng năm 3,4%, vượt dự báo của giới phân tích là tăng 3,1%. Những dữ liệu này - cho thấy sự vững vàng của nền kinh tế và tình trạng dai dẳng của lạm phát - củng cố khả năng Fed tăng lãi suất trong cuộc họp tháng 12, sau khi ngân hàng trung ương này đưa ra quyết định giữ nguyên lãi suất như dự báo vào ngày 28/10. Theo dữ liệu từ công cụ FedWatch Tool của sàn giao dịch CME, thị trường lãi suất tương lai đang đặt cược khả năng gần 80% Fed tăng lãi suất 0,25 điểm phần trăm vào cuối năm nay. Tuy nhiên, cả đồng USD và lợi suất trái phiếu kho bạc Mỹ đều sụt giảm trong phiên ngày thứ Năm, tạo ra một lực đỡ nhất định cho giá vàng trên ngưỡng 4.000 USD/oz. Chỉ số Dollar Index giảm 0,33%, đóng cửa ở mức 101,85 điểm. Lợi suất trái phiếu kho bạc Mỹ kỳ hạn 10 năm giảm hơn 8 điểm cơ bản, còn 4,964%. Lợi suất của kỳ hạn 2 năm giảm hơn 10 điểm cơ bản, còn 4,629%. Lợi suất của kỳ hạn 30 năm giảm hơn 5 điểm cơ bản, còn 5,31%. “Triển vọng lạm phát cao dai dẳng trên mục tiêu của Fed đang thúc đẩy kỳ vọng rằng Fed sẽ tăng lãi suất vào tháng 12. Đó là trở ngại chính đối với giá vàng vào thời điểm này. Báo cáo PCE ngày hôm nay không mang lại một sự giải tỏa nào đối với mối lo đó”, nhà giao dịch David Meger của công ty High Rigde Futures nhận định với hãng tin Reuters. Theo ông Meger, trong thời gian tới, mối quan tâm của nhà đầu tư trên thị trường vàng tiếp tục tập trung vào diễn biến trên thị trường năng lượng, vì diễn biến giá dầu chiếm phần chủ đạo trong mối lo lạm phát. “Bất kỳ sự xuống thang căng thẳng nào ở Trung Đông cũng sẽ dẫn tới giá năng lượng thấp hơn và tác động tích cực mạnh mẽ đến giá kim loại quý”, ông Meger nói. Giá dầu giảm nhẹ trong phiên ngày thứ Năm, sau khi có thông tin cho rằng Phó tổng thống Mỹ JD Vance đã liên lạc với người đứng đầu Hội đồng An ninh Iran, Mohsen Rezaei, nhằm nỗ lực khởi động lại các cuộc đàm phán hòa bình. Thông tin này được tờ Wall Street Journal đăng tải, dẫn nguồn tin là quan chức Mỹ. Tuy nhiên, giá dầu vẫn đang duy trì vững trên ngưỡng 100 USD/thùng đối với cả dầu Brent và dầu WTI. Trong tuần tới, nhà đầu tư cũng sẽ hướng sự chú ý tới cuộc bầu cử giữa nhiệm kỳ ngày 3/11 ở Mỹ. Kết quả của cuộc bầu cử này có thể tác động tới chính sách tài khóa và nhiều chính sách khác của chính quyền Tổng thống Donald Trump, từ đó ảnh hưởng tới các yếu tố lợi suất trái phiếu và tỷ giá, tác động tới thị trường vàng. Cũng trong ngày 29/10, Ngân hàng Trung ương châu Âu (ECB) giữ nguyên lãi suất ở mức 2,5% - một kết quả nằm trong dự báo. Tuy nhiên, ECB cảnh báo rằng rủi ro lạm phát đang tăng lên do giá năng lượng leo thang. Quỹ ETF vàng lớn nhất thế giới SPDR Gold Trust bán ròng 2,3 tấn vàng trong phiên ngày thứ Năm, giảm khối lượng nắm giữ còn…"
    },
    {
     "id": "w5a933abe4d63",
@@ -322,7 +323,8 @@
     "url": "https://www.tinnhanhchungkhoan.vn/co-phieu-cong-nghe-chiu-suc-ep-khien-pho-wall-quay-dau-giam-post400444.html",
     "summary": "(ĐTCK) Chứng khoán Mỹ giảm trong phiên thứ Năm ngày 29/10, khi kết quả kinh doanh của Alphabet (Google) đáng thất vọng khiến sức ép lan rộng đối với nhóm cổ phiếu công nghệ liên quan đến AI. WB: Giá hàng hóa toàn cầu dự kiến tăng 23% trong năm 2026 Fed giữ nguyên lãi suất bất chấp áp lực lạm phát dai dẳng Dòng vốn chạy theo AI đặt ra thách thức mới cho đồng đô la",
     "published": "2026-10-30T10:38+07:00",
-    "score": 7
+    "score": 7,
+    "body": "Cả ba chỉ số chính của Phố Wall đều đi xuống, với Nasdaq - vốn có tỷ trọng cao về về công nghệ giảm mạnh nhất, sau khi báo cáo dòng tiền tự do âm 9,07 tỷ USD trong quý III, trái ngược với mức dự báo chỉ âm 2,7 tỷ USD. Nguồn doanh thu lớn nhất của Alphabet là quảng cáo tăng 12% đạt 63,35 tỷ USD, nhưng thấp hơn kỳ vọng của các nhà phân tích, khiến cổ phiếu công ty chịu thêm áp lực và giảm hơn 12%. Cổ phiếu chất bán dẫn Philadelphia SE (SOX) chấm dứt chuỗi bốn phiên tăng và giảm 1,4%, khi các nhà đầu tư cố gắng lựa chọn giữa các công ty có khả năng đầu tư vốn cho tham vọng AI lớn lao của họ và những công ty vay mượn tiền mặt để đạt được cùng mục tiêu. Về mặt dữ liệu, ước tính GDP quý III của Mỹ sau điều chỉnh lạm phát tăng 3,4% so với cùng kỳ năm trước, cao hơn mức tăng 2,2% của quý II/2026. Trong khi đó, tính đến tháng 9, chỉ số giá chi tiêu tiêu dùng cá nhân (PCE) - thước đo lạm phát ưa thích của Fed ghi nhận mức tăng 3,6%, cao hơn đáng kể so với mục tiêu 2% và cao hơn mức 3,4% của tháng trước đó. Kết thúc phiên 29/10 : Chỉ số Dow Jones giảm 132,54 điểm (-0,25%), xuống 52.342,56 điểm. Chỉ số S&P 500 giảm 23,59 điểm (-0,30%), xuống 7.720,39 điểm. Chỉ số Nasdaq Composite giảm 365,13 điểm (-1,38%), xuống 26.184,72 điểm."
    },
    {
     "id": "w98d166315bde",
@@ -336,6 +338,17 @@
     "score": 5
    },
    {
+    "id": "wf3c946ba0a01",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Top 10 cổ phiếu tăng/giảm mạnh nhất tuần: Xuất hiện cổ phiếu tăng 600% trong hai tháng",
+    "url": "https://www.tinnhanhchungkhoan.vn/top-10-co-phieu-tanggiam-manh-nhat-tuan-xuat-hien-co-phieu-tang-600-trong-hai-thang-post400518.html",
+    "summary": "(ĐTCK) Thị trường có tuần giảm điểm trở lại với dòng tiền thấp, giao dịch thiếu điểm nhấn ngoài một vài cổ phiếu có câu chuyện riêng như KOS, TTF trên sàn HOSE. Tuy nhiên, đáng chú ý lại ở trên HNX khi cổ phiếu CAR liên tục tăng rất mạnh trong suốt hai tháng qua. Dự thảo thay thế Thông tư 45: Lợi nhuận doanh nghiệp có thể tăng nhờ kéo dài khấu hao Nâng hạng thị trường, mở đường cho dòng vốn dài hạn Lãi suất trái phiếu cao, áp lực tái cấp vốn gia tăng",
+    "published": "2026-10-31T07:00+07:00",
+    "score": 5
+   },
+   {
     "id": "wb3ecfef06576",
     "src": "tnck",
     "src_name": "Tin nhanh CK",
@@ -344,7 +357,8 @@
     "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-con-ban-rong-bao-nhieu-va-nhung-co-phieu-co-the-chiu-ap-luc-ban-manh-nhat-post400492.html",
     "summary": "(ĐTCK) Chu kỳ bán ròng của khối ngoại trên thị trường chứng khoán Việt Nam đã kéo dài hơn 3 năm, với quy mô lớn nhất trong 6 năm qua. Vậy khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất thời gian tới? Cổ phiếu giảm sâu, các quỹ tìm cơ hội ở đâu trong quý IV? VIC tăng hơn 11% sau hai phiên, kỳ vọng nào đang hỗ trợ nhóm cổ phiếu Vingroup? Chuyên gia HSC, FiinGroup lý giải việc khối ngoại vẫn bán ròng gần 1 tỷ USD sau nâng hạng",
     "published": "2026-10-30T15:25+07:00",
-    "score": 5
+    "score": 5,
+    "body": "Theo số liệu của Công ty Chứng khoán VietinBank (VBSE), chu kỳ bán ròng của khối ngoại đang ghi nhận quy mô và thời gian kéo dài chưa từng có trong 6 năm trở lại đây. Kể từ tháng 4/2023 đến nay, nhà đầu tư nước ngoài đã bán ròng lũy kế 365,2 nghìn tỷ đồng trên HOSE, cao gấp 4,6 lần chu kỳ bán ròng giai đoạn 2021-2022. Đáng chú ý, áp lực bán ròng không chỉ kéo dài mà còn gia tăng mạnh về cường độ trong thời gian gần đây. Riêng 15 tháng từ 08/2025 đến 10/2026, giá trị bán ròng lên tới 213,1 nghìn tỷ đồng, chiếm khoảng 58,4% tổng lượng bán ròng của toàn chu kỳ, với 14/15 tháng ghi nhận trạng thái bán ròng. Tuy nhiên, sau hơn ba năm bán ròng với cường độ cao, vấn đề đáng quan tâm không còn đơn thuần là khối ngoại đã rút bao nhiêu vốn, mà là dư địa bán còn lại lớn đến đâu và khi nào áp lực bán có thể suy giảm. Đây cũng là cơ sở quan trọng để đánh giá khả năng thị trường đang tiến gần giai đoạn cuối của chu kỳ bán ròng hiện tại. Không phải toàn bộ sở hữu nước ngoài đều có khả năng chuyển hóa thành áp lực bán trên thị trường. Kết quả bóc tách 67 cổ đông chiến lược tại 59 doanh nghiệp, bao gồm các khoản đầu tư tiêu biểu như Mizuho-VCB, MUFG-CTG, F&N-VNM, GIC-MSN, SBI-TPB, Vietnam Beverage-SAB và ENEOS-PLX cho thấy, 34,8% tổng giá trị sở hữu nước ngoài mang tính chiến lược, dài hạn, ít có khả năng tham gia hoạt động bán khớp lệnh thông thường. Theo đó, quy mô vốn danh mục có khả năng giao dịch (tạm gọi là “tiền nóng”) ước khoảng 726,9 nghìn tỷ đồng, trong đó riêng HOSE chiếm 671,9 nghìn tỷ đồng. Cơ cấu sở hữu nước ngoài: chiến lược và tiền nóng có thể bán. Nguồn: VBSE tổng hợp tính tới ngày 19/10/2026 Việc phân tách hai nhóm sở hữu này có ý nghĩa then chốt trong định lượng dư địa bán ròng, bởi áp lực cung tiềm năng cần được đánh giá trên phần vốn có khả năng dịch chuyển, thay vì toàn bộ giá trị sở hữu nước ngoài. Đây cũng là cơ sở giúp mô hình dự báo phản ánh sát hơn quy mô vốn có thể tiếp tục rút khỏi thị trường trong giai đoạn tới. Theo VBSE, dữ liệu lịch sử cho thấy chu kỳ bán ròng của khối ngoại không nhất thiết kết thúc bằng sự suy giảm áp lực bán một cách từ từ, mà có thể đảo chiều tương đối nhanh khi nhu cầu thoái vốn được giải tỏa. Điển hình trong năm 2022, dòng vốn ngoại chỉ mất khoảng 1-2 tháng để chuyển từ trạng thái bán ròng sang cân bằng, trước khi ghi nhận mua ròng 34,7 nghìn tỷ đồng trong 5 tháng tiếp theo. Diễn biến này cho thấy khi áp lực cung suy yếu, dòng vốn ngoại có thể phục hồi nhanh hơn kỳ vọng. Trên cơ sở đối chiếu kinh nghiệm lịch sử với quy mô sở hữu và tốc độ bán ròng hiện tại, VBSE đưa ra 4 kịch bản dự báo về lượng vốn còn có thể bị bán ròng và thời điểm kết thúc chu kỳ. Theo VBSE, gần 88% quy mô bán ròng của chu kỳ dự báo đã diễn ra, áp lực thoái vốn có thể kết thúc vào cuối quý I/2027. Theo kịch bản cơ sở (xác suất 50%), khối ngoại còn bán ròng khoảng 51,5 nghìn tỷ đồng (tương đương 2 tỷ USD), chỉ chiếm 7,7% lượng vốn danh mục nước ngoài có khả năng giao dịch trên HOSE. Các kịch bản tích cực và tiêu cực lần lượt dự báo 15,7 nghìn tỷ và 123,5 nghìn tỷ đồng, đưa giá trị kỳ vọng gia quyền lên khoảng 61 nghìn tỷ đồng. Điều này cho thấy chu kỳ có thể đang bước vào giai đoạn cuối, dù chưa đủ cơ sở khẳng định dòng vốn đã đảo chiều. Ngay cả trong kịch bản căng thẳng nhất, khối ngoại vẫn nắm khoảng 490 nghìn tỷ đồng tiền nóng trên HOSE. Đây là quá trình giảm tỷ trọng, không phải sự rút lui khỏi thị trường Việt Nam. Một trong những phát hiện đáng chú ý nhất từ dữ liệu sở hữu nước ngoài là sự phân hóa rõ rệt về mức độ thoái vốn giữa các nhóm cổ phiếu, cho thấy áp lực bán ròng trong giai đoạn tới có thể dịch chuyển đáng kể so với chu kỳ vừa qua. Cụ thể, những cổ phiếu chịu áp lực bán mạnh nhất trong 12 tháng gần đây như VIC và VHM đã ghi nhận mức suy giảm lớn về quy mô sở hữu danh mục nước ngoài, khiến lượng cổ phiếu còn có thể tiếp tục thoái vốn thu hẹp đáng kể. Điều này hàm ý rằng, mặc dù từng là tâm điểm của hoạt động bán ròng, dư địa tạo thêm áp lực cung từ khối ngoại tại các cổ phiếu này có thể không còn lớn như…"
    },
    {
     "id": "w4ff4c643d73b",
@@ -433,7 +447,8 @@
     "url": "https://www.tinnhanhchungkhoan.vn/nhom-tai-chinh-dong-loat-giam-vn-index-lui-ve-gan-1740-diem-post400504.html",
     "summary": "(ĐTCK) Áp lực từ cổ phiếu VIC hạ nhiệt tưởng chừng giúp thị trường cân bằng hơn, nhưng bất ngờ các mã ngân hàng, công ty chứng khoán đồng loạt nới đà giảm đã khiến VN-Index chịu thêm một phiên điều chỉnh. MBS: Hiệu suất của chỉ số VN-Index tháng 10 không tốt Ngân hàng đua phát hành trái phiếu nhưng hầu hết chưa xếp hạng tín nhiệm, nhà đầu tư khó so sánh mức độ rủi ro Quãng trầm của các công ty chứng khoán",
     "published": "2026-10-30T15:26+07:00",
-    "score": 4
+    "score": 4,
+    "body": "Sau tuần hồi phục mạnh trước đó (hơn 68 điểm, +4%), thị trường đã liên tiếp có những phiên điều chỉnh trong tuần qua với thanh khoản trung bình và sự thận trọng trong tâm lý giao dịch quay trở lại thấy rõ. Trong khi đó, thông tin hỗ trợ vẫn thiếu vắng, không đủ mạnh khiến thị trường duy trì trạng thái ảm đạm và kết thúc phiên hôm qua VN-Index vẫn đang nằm dưới đường SMA 50 ngày, trong khi Stochastic Oscillator đã tiến vào vùng quá mua. Nếu chỉ báo cắt xuống đường tín hiệu và rơi khỏi vùng này trong thời gian tới thì rủi ro sẽ gia tăng. Dự báo cho thấy áp lực điều chỉnh sẽ tiếp diễn và ngưỡng hỗ trợ quanh mốc 1.740 điểm sẽ giúp VN-Index có cơ hội quay lại xu hướng phục hồi. Tuy nhiên, diễn biến thị trường có phần tiêu cực hơn khi bước vào phiên cuối tuần hôm nay ngày 30/10 với áp lực bán trên diện rộng và cổ phiếu lớn VIC dẫn đầu mức giảm trong nhóm VN30, đã khiến VN-Index có lúc đã thủng 1.730 điểm. Mặc dù sau đó, việc cổ phiếu VIC cân bằng hơn giúp VN-Index trở lại ngưỡng 1.740 điểm, nhưng các nhóm cổ phiếu lớn như ngân hàng, công ty chứng khoán đồng loạt trượt dốc đã khiến chỉ số không thể đi xa hơn. Đóng cửa, sàn HOSE có 72 mã tăng và 253 mã giảm, VN-Index giảm 13,99 điểm, tương đương -0,80% xuống 1.741,62 điểm. Tổng khối lượng giao dịch đạt hơn 692,6 triệu đơn vị, giá trị 14.673,3 tỷ đồng, tăng gần 9% về khối lượng và chỉ hơn 1% về giá trị so với phiên hôm qua. Giao dịch thỏa thuận đóng góp hơn 119 triệu đơn vị, giá trị 2.722 tỷ đồng. Kết thúc tuần giao dịch, chỉ số VN-Index giảm 32,53 điểm, tương đương -1,83%. Hôm nay cũng là phiên giao dịch cuối cùng của tháng 10/2026 và trong tháng này, chỉ số VN-Index giảm 27 điểm từ ngưỡng 1.768 điểm cuối tháng trước. Cổ phiếu VIC phiên cuối tuần hôm nay từ lúc giảm gần 4% và tác động xấu nhất đến VN-Index đã phục hồi mạnh và về được tham chiếu khi đóng cửa tại 241.000 đồng. Tuy nhiên, nhóm cổ phiếu ngân hàng đồng loạt nới đà giảm, với bộ ba LPB, TCB, SSB dẫn đầu nhóm VN30 khi mất hơn 3%. Các cổ phiếu ngân hàng khác cũng đều giảm, dù phần lớn giảm nhẹ, ngoài MBB mất 2%. Các bluechip khác giảm đáng kể còn lại GVR, MWG, MSN khi mất 2% đến gần 3%. Trong khi đó, GAS nhích 2,6% lên 78.000 đồng và là cổ phiếu tăng tốt nhất nhóm. Các cổ phiếu còn tăng chỉ còn SAB, VHM với sắc xanh khiêm tốn. Nhóm các cổ phiếu vừa và nhỏ với một số cái tên như GIL, HII, KSB, BKG, TMT, AAT bị bán mạnh và giảm sàn. Các cổ phiếu khác ngành ngân hàng, chứng khoán, bất động sản, dịch vụ giảm khá sâu có KLB, VIX, VCG, NTL, NHA, DGW, GEX, PNJ, QCG, ORS, EIB, NLG, FTS, khi mất từ 3% đến hơn 5%. Trái lại, cổ phiếu KOS vẫn duy trì mức giá trần tại 4.060 đồng, khớp hơn 75,6 triệu đơn vị và dư mua giá trần hơn 10,7 triệu đơn vị. Trên sàn HNX, chỉ số HNX-Index rung lắc nhẹ quanh ngưỡng điểm cuối phiên sáng và nới rộng đà giảm sau đó, trước khi chững lại ở những phút cuối. Đóng cửa, sàn HNX có 45 mã tăng và 95 mã giảm, HNX-Index giảm 3,87 điểm, tương đương -1,51% xuống 252,74 điểm. Tổng khối lượng khớp lệnh đạt hơn 43,7 triệu đơn vị, giá trị 637,6 tỷ đồng. Giao dịch thỏa thuận có thêm gần 8,4 triệu đơn vị, giá trị 110 tỷ đồng. Nhóm các cổ phiếu lớn và thanh khoản cao ngoài CEO, PVS đứng tham chiếu, thì còn lại đều giảm, như BVS, NVB, LAS, IDC, MBS, TNG giảm từ 2% đến gần 6%, trong khi HUT, SHS may mắn chỉ giảm nhẹ. Trên UpCoM, chỉ số UpCoM-Index bật hồi lên trên tham chiếu vào đầu phiên chiều nhưng đã nhanh chóng quay lại xu hướng giảm sau đó. Đóng cửa, UpCoM-Index giảm 0,37 điểm, tương đương -0,30% xuống 123,73 điểm. Tổng khối lượng khớp lệnh đạt hơn 39,7 triệu đơn vị, giá trị 529,3 tỷ đồng. Giao dịch thỏa thuận có thêm 1,3 triệu đơn vị, giá trị 29,5 tỷ đồng. Cổ phiếu HNG phiên này vẫn hút thanh khoản nhất, khớp lệnh hơn 6,4 triệu đơn vị và tăng hơn 5% lên 6.000 đồng. Các cổ phiếu theo sau phần lớn giảm, với POM, DRI, TVN, MSR mất từ hơn 3% đến hơn 7%, khớp từ 1,2 triệu đến hơn 2,8 triệu đơn vị. Trên thị trường phái sinh, hợp đồng tương lai 41I1GB000 giảm 22,8 điểm, tương đương -1,21% xuống 1.858 điểm, khớp lệnh hơn…"
    },
    {
     "id": "wa4904f3f5968",
@@ -488,7 +503,8 @@
     "url": "http://vietstock.vn/2026/10/nhip-dap-thi-truong-3010-vn-index-tiep-tuc-lui-ve-moc-1740-diem-khoi-ngoai-keo-dai-chuoi-ban-rong-1636-1509009.htm",
     "summary": "Kết thúc phiên giao dịch, VN-Index giảm 13.99 điểm (-0.8%), xuống mức 1,741.62 điểm; HNX-Index giảm 3.87 điểm (-1.51%), xuống mức 252.74 điểm. Độ rộng toàn thị trường với sắc đỏ áp đảo hơn khi bên bán có 518 mã giảm và bên mua có 233 mã tăng. Tương tự, sắc đỏ áp đảo trong rổ VN30 với 23 mã giảm, 3 mã tăng và 4 mã tham chiếu.",
     "published": "2026-10-30T16:57+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Nhịp đập Thị trường 30/10: VN-Index tiếp tục lui về mốc 1,740 điểm, khối ngoại kéo dài chuỗi bán ròng Kết thúc phiên giao dịch, VN-Index giảm 13.99 điểm (-0.8%), xuống mức 1,741.62 điểm; HNX-Index giảm 3.87 điểm (-1.51%), xuống mức 252.74 điểm. Độ rộng toàn thị trường với sắc đỏ áp đảo hơn khi bên bán có 518 mã giảm và bên mua có 233 mã tăng. Tương tự, sắc đỏ áp đảo trong rổ VN30 với 23 mã giảm, 3 mã tăng và 4 mã tham chiếu. Thanh khoản thị trường tăng so với phiên giao dịch trước đó, với khối lượng giao dịch khớp lệnh của VN-Index đạt hơn 573 triệu cổ phiếu, tương đương giá trị đạt hơn 11.9 ngàn tỷ đồng; HNX-Index đạt hơn 35 triệu cổ phiếu, tương đương giá trị hơn 532 tỷ đồng. VN-Index bước vào phiên chiều với sự quay trở lại của bên mua giúp chỉ số phục hồi nhưng bên bán vẫn chiếm ưu thế hơn khiến cho VN-Index chìm trong sắc đỏ vào cuối phiên. Về mức độ ảnh hưởng, VCB , TCB , MBB và LPB là những mã có ảnh hưởng tiêu cực nhất đến VN-Index và lấy đi hơn 4.21 điểm. Ở chiều ngược lại, VHM , GAS , VBB và DXG là những mã giữ được sắc xanh và đóng góp 2.61 điểm. Tương tự, HNX-Index có diễn biến khá bi quan, trong đó chỉ số bị tác động tiêu cực từ các mã NVB (-3.45%), THD (-2.56%), KSV (-2.41%), IDC (-3.93%)… Kết phiên, thị trường giảm với sắc đỏ bao trùm ở hầu hết các nhóm ngành. Trong đó, nguyên vật liệu là nhóm có mức giảm mạnh nhất thị trường với 2.12% chủ yếu đến từ các cổ phiếu như HPG (-0.94%), GVR (-2.19%) và MSR (-5.99%). Theo sau đó là ngành công nghiệp và dịch vụ truyền thông với mức giảm lần lượt là 1.65% và 1.63%. Một số mã ghi nhận giảm mạnh tiêu biểu như ACV (-3.17%), MVN (-5.71%), GEE (-1.04%), VGI (-1.69%), FOX (-1.95%), VNZ (-0.21%) và CTR (-0.88%). Ở chiều ngược lại, nhóm tiện ích là nhóm có mức tăng mạnh nhất với lực kéo chủ yếu từ GAS (+2.63%), VSH (+0.48%) và HNA (+0.24%). Về giao dịch của khối ngoại, khối này tiếp tục bán ròng hơn 633.74 tỷ đồng trên sàn HOSE , tập trung tại các mã VIC (353.68 tỷ), TCB (133.23 tỷ), MBB (42.6 tỷ) và VPL (38.36 tỷ). Trên sàn HNX , khối ngoại mua ròng hơn 5.61 tỷ đồng, tập trung vào mã TNG (7.54 tỷ), CEO (4.59 tỷ), IDC (3.89 tỷ) và MBS (1.39 tỷ). Thị trường tiếp tục chìm trong sắc đỏ về cuối phiên sáng. Tạm nghỉ giữa phiên, VN-Index giảm hơn 25 điểm (-1.44%), lùi về còn 1,730.35 điểm. Tương tự, HNX-Index cũng lùi về 254.14 điểm, giảm 0.96%. Độ rộng thị trường nghiêng hẳn về phía bán với 420 mã giảm, 218 mã tăng và 904 mã đứng giá. Thanh khoản thị trường tiếp tục duy trì ở mức thấp trong phiên sáng nay. Khối lượng giao dịch của HOSE chỉ đạt hơn 286 triệu đơn vị, tương đương với giá trị 5.4 ngàn tỷ, giảm 32.98% so với phiên trước. Về mức độ ảnh hưởng, 10 cổ phiếu có tác động tiêu cực nhất đã lấy đi tổng cộng 19.21 điểm của VN-Index , riêng VIC và VHM đã gây áp lực đến 13.75 điểm. Ở chiều ngược lại, 10 mã cổ phiếu có tác động tích cực nhất giúp chỉ số tăng chưa đến 1 điểm, thể hiện sự áp đảo của bên bán. Áp lực bán gia tăng tại các nhóm vốn hóa lớn, trong đó bất động sản trở thành lực cản chính của thị trường khi nhiều cổ phiếu giảm mạnh như VIC (-2.9%), VHM (-2.42%), VRE (-1.66%), NVL (-0.97%), PDR (-1.32%), KBC (-1.51%) và IDC (-3.09%). Bên cạnh đó, hai nhóm vốn hóa lớn là tài chính và công nghiệp cũng giao dịch kém khả quan khi nhiều cổ phiếu chịu áp lực điều chỉnh như HDB (-1.1%), TCB (-2.24%), VPB (-1.94%), VIX (-1.21%), MBB (-1.27%), TCX (-2.16%); VSC (-1.45%), GEX (-1.74%), ACV (-2.2%), PHP (-2.46%) và PC1 (-1.06%). Ở chiều ngược lại, công nghệ thông tin tạm thời dẫn dắt thị trường với mức tăng 0.5%, nhưng động lực chủ yếu đến từ FPT (+0.76%), trong khi các cổ phiếu còn lại trong nhóm chỉ dao động quanh mốc tham chiếu. Ngoài ra, thị trường vẫn xuất hiện một số điểm sáng riêng lẻ như GEE (+0.75%), HAH (+0.61%) và MST (+2.3%) ở nhóm công nghiệp; PET (+3.59%) ở nhóm tiêu dùng không thiết yếu và KOS tăng trần ở nhóm tiện ích. Khối ngoại tiếp tục bán ròng với giá trị 394.9 tỷ đồng trên cả ba sàn. Lực bán tập trung ở VIC với giá trị là 186.91 tỷ đồng, bỏ xa các cổ phiếu còn lại.…"
    },
    {
     "id": "w8845ac75be00",
@@ -587,7 +603,8 @@
     "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
     "summary": "Khối ngoại bán ròng mạnh xuyên suốt tuần qua.",
     "published": "2026-10-31T00:11+07:00",
-    "score": 2
+    "score": 2,
+    "body": "VN Index ghi nhận tuần giao dịch cuối tháng 10 dao động quanh vùng kháng cự 1.750-1.780. Sau 4 phiên với diễn biến rung lắc, chỉ số chung đã lùi về kiểm tra vùng hỗ trợ 1.720-1.30 vào phiên cuối tuần. Thanh khoản ở các phiên trong tuần đều ở dưới ngưỡng trung bình 20 phiên thể hiện trạng thái quan sát của dòng tiền. Kết tuần, VN-Index giảm 32,53 điểm (-1,83%) so với tuần trước và đóng cửa tại 1.741,62. Khối ngoại bán ròng mạnh xuyên suốt tuần qua, luỹ kế 5 phiên giao dịch khối ngoại bán ròng 2.692 tỷ đồng.﻿ Thống kê theo các mã chứng khoán, trong tuần giao dịch vừa qua, FPT là tâm điểm bán ròng mạnh nhất với giá trị 782 tỷ đồng, bỏ xa các mã còn lại. Theo sau là VPL (353 tỷ đồng) và VIC (287 tỷ đồng). Các cổ phiếu GMD (212 tỷ đồng), SSI (148 tỷ đồng) và BID (125 tỷ đồng) cũng chịu áp lực bán ròng đáng kể. Ngoài ra, MSB (116 tỷ đồng), STB (112 tỷ đồng) và LPB (111 tỷ đồng) đều bị bán ròng trên 100 tỷ đồng. Các mã MBB, VNM và TCX cũng ghi nhận lực bán ròng từ nhà đầu tư nước ngoài. Ở chiều ngược lại, MSN dẫn đầu chiều mua ròng với giá trị 172,66 tỷ đồng, theo sau là VCB (123,25 tỷ đồng) và TCB (97,73 tỷ đồng). Đây cũng là ba cổ phiếu nổi bật ở chiều mua ròng của khối ngoại trong tuần qua."
    },
    {
     "id": "w426a8cc7a92c",
@@ -598,7 +615,8 @@
     "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
     "summary": "Không chỉ vàng, giá bạc cũng lao dốc mạnh trong phiên 30/10.",
     "published": "2026-10-30T21:30+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Không chỉ vàng, giá bạc cũng lao dốc mạnh trong phiên 30/10. Giá vàng thế giới đang trải qua một phiên giao dịch đầy áp lực. Theo dữ liệu trên sàn Kitco, hiện giá vàng giao ngay đang lùi về quanh 3.901 USD/ounce, giảm gần 119 USD, tương đương khoảng 2,95% so với phiên trước. Đây là vùng giá thấp nhất của kim loại quý trong khoảng một năm trở lại đây. Lần gần nhất vàng giao dịch quanh vùng 3.900 USD/ounce là cuối tháng 10/2025. Dữ liệu lịch sử cho thấy trong phiên 28/10/2025, giá vàng từng xuống quanh 3.900 USD/ounce trước khi phục hồi trở lại. Đà giảm hiện tại cũng đánh dấu sự đảo chiều mạnh so với giai đoạn đầu năm 2026, khi giá vàng từng vọt lên trên 5.000 USD/ounce. Từ vùng đỉnh, kim loại quý đã mất hơn 1.000 USD/ounce. Một trong những yếu tố chi phối thị trường là triển vọng lãi suất của Cục Dự trữ Liên bang Mỹ (Fed). Số liệu mới nhất từ Cục Thống kê Lao động Mỹ cho thấy chỉ số chi phí việc làm tăng 0,8% trong quý III, chậm lại so với 0,9% trong quý trước. Tiền lương và tiền công tăng 0,7%, trong khi chi phí phúc lợi tăng 0,9%. So với cùng kỳ, tổng chi phí bồi thường tăng 3,4%, tiền lương và tiền công tăng 3,1%, còn chi phí phúc lợi tăng 3,9%. Các số liệu này cho thấy áp lực tiền lương đang có dấu hiệu hạ nhiệt, dù mức tăng chi phí lao động nhìn chung vẫn tương đối cao. Tuy nhiên, báo cáo này xuất hiện ngay sau một loạt dữ liệu cho thấy nền kinh tế Mỹ vẫn khá nóng. GDP Mỹ quý III tăng 3,4% theo năm, cao hơn mức 2,2% của quý II. Trong khi đó, chỉ số giá PCE tháng 9 tăng 0,5% so với tháng trước và 3,6% so với cùng kỳ; PCE lõi tăng lần lượt 0,3% và 3,1%. Sự kết hợp giữa tăng trưởng kinh tế mạnh và lạm phát còn dai dẳng khiến kỳ vọng về việc Fed sớm nới lỏng chính sách tiếp tục bị đẩy lùi. Trước đó, Fed quyết định giữ lãi suất mục tiêu ở mức 3,75-4,00%, với tỷ lệ bỏ phiếu 10-2. Đáng chú ý, hai thành viên muốn tăng lãi suất ngay thêm 25 điểm cơ bản. Sau số liệu GDP và lạm phát, thị trường tương lai từng định giá khoảng 83% khả năng Fed tăng lãi suất trong tháng 12. Dữ liệu tiền lương mới nhất phần nào làm dịu kỳ vọng này, nhưng chưa đủ để đảo ngược hoàn toàn câu chuyện lãi suất cao kéo dài. Địa chính trị căng thẳng nhưng vàng vẫn giảm Diễn biến đáng chú ý là vàng tiếp tục lao dốc ngay cả khi căng thẳng tại eo biển Hormuz và quan hệ Mỹ-Iran xấu đi. Theo Kitco, một tàu chở dầu thương mại tiếp tục bị tấn công tại tuyến hàng hải chiến lược này. Vụ việc khiến giá dầu bật tăng mạnh, với Brent kỳ hạn tháng 12 lên khoảng 117,15 USD/thùng, còn WTI quanh 103,79 USD/thùng. Thông thường, căng thẳng địa chính trị là yếu tố hỗ trợ nhu cầu trú ẩn vào vàng. Tuy nhiên, trong bối cảnh hiện tại, giá dầu tăng mạnh đồng thời làm dấy lên lo ngại lạm phát quay trở lại, qua đó củng cố khả năng Fed phải duy trì chính sách tiền tệ thắt chặt lâu hơn. Theo các chuyên gia, chính sự kết hợp giữa áp lực thanh lý, kỳ vọng lãi suất cao hơn và lo ngại lạm phát đã lấn át tác động tích cực từ nhu cầu trú ẩn. Đáng chú ý, vàng vẫn giảm ngay cả khi lợi suất trái phiếu Kho bạc Mỹ kỳ hạn 10 năm đã lùi khoảng 7 điểm cơ bản xuống quanh 4,98%. Áp lực bán không chỉ xuất hiện ở vàng. Kim loại này hiện giao dịch quanh 49 USD/ounce, rơi xuống vùng thấp nhất trong hơn một năm. Đà giảm của bạc thậm chí còn mạnh hơn vàng khi kim loại này chịu đồng thời áp lực từ hoạt động bán tháo trên thị trường kim loại quý và những lo ngại về nhu cầu công nghiệp trong bối cảnh chi phí năng lượng, lãi suất và điều kiện tài chính duy trì ở mức cao. Từ vùng đỉnh trên 110 USD/ounce hồi đầu năm, giá bạc hiện đã mất hơn một nửa giá trị."
    },
    {
     "id": "w3f1ae3f5b6f9",
@@ -620,7 +638,8 @@
     "url": "https://cafef.vn/vingroup-lai-9-thang-437-nghin-ty-dong-gap-6-lan-cung-ky-huy-dong-23-ty-usd-tu-quoc-te-188261030141102583.chn",
     "summary": "Lợi nhuận sau thuế hợp nhất 9 tháng đầu năm 2026 của Vingroup đạt 43,7 nghìn tỷ đồng, gấp gần sáu lần so với cùng kỳ và hoàn thành 125% kế hoạch lợi nhuận cả năm 2026.",
     "published": "2026-10-30T14:11+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Lợi nhuận sau thuế hợp nhất 9 tháng đầu năm 2026 của Vingroup đạt 43,7 nghìn tỷ đồng, gấp gần sáu lần so với cùng kỳ và hoàn thành 125% kế hoạch lợi nhuận cả năm 2026. Ngày 30/10/2026, Tập đoàn Vingroup (mã chứng khoán VIC) đã công bố Báo cáo tài chính hợp nhất Quý III năm 2026 theo chuẩn mực kế toán Việt Nam (VAS). Tổng doanh thu thuần hợp nhất trong chín tháng đầu năm 2026 đạt 372,5 nghìn tỷ đồng, gấp 2,2 lần so với cùng kỳ năm 2025 nhờ tăng trưởng tích cực từ mảng ô tô điện và kinh doanh bất động sản. Lợi nhuận sau thuế hợp nhất chín tháng đầu năm 2026 đạt 43,7 nghìn tỷ đồng, gấp gần sáu lần so với cùng kỳ và hoàn thành 125% kế hoạch lợi nhuận cả năm 2026. Tại ngày 30 tháng 09 năm 2026, tổng tài sản đạt 1,6 triệu tỷ đồng, tăng 44,8% so với đầu năm. Đồng thời, tiền, tương đương tiền và đầu tư tài chính ngắn hạn đạt 106,8 nghìn tỷ đồng, nợ vay ở mức gần 390 nghìn tỷ đồng. Trong 12 tháng gần nhất, song song với các hoạt động kinh doanh liên tục cải thiện và mở rộng quy mô, Vingroup tích cực mở rộng và đa dạng hóa nguồn tài trợ bao gồm từ thị trường vốn quốc tế và đã nhận được sự đồng hành từ các nhà đầu tư / định chế tài chính lớn trong khu vực và trên thế giới. Tập đoàn ghi nhận huy động hơn 2,3 tỷ đô-la Mỹ từ các hoạt động phát hành trái phiếu quốc tế, cổ phiếu ưu đãi, và vay hợp vốn từ các nhà đầu tư và các định chế tài chính quốc tế. Với trụ cột Công nghệ – Công nghiệp , VinFast kết thúc Quý III năm 2026 với nhiều điểm nhấn ấn tượng tại thị trường nội địa và quốc tế khi sản lượng toàn cầu trong chín tháng đầu năm 2026 đạt 211.242 ô tô điện, tăng trưởng 91% so với cùng kỳ năm ngoái. Tại thị trường Việt Nam, VinFast tiếp tục dẫn dắt thị trường xe bốn bánh với doanh số đạt 177.697 xe trong giai đoạn này, tăng 71% so với cùng kỳ năm 2025. Trong đó, bốn mẫu xe bán chạy nhất thị trường trong nước tiếp tục đều thuộc về VinFast, lần lượt là các mẫu xe VF 3, Limo Green, VF 5, và VF 6. Bên cạnh đó, các mẫu VF 8 và VF 2 / Minio Green cũng lọt top bán chạy trong riêng tháng 9. Trong Quý III, VinFast tiếp tục mở rộng danh mục sản phẩm khi chính thức ra mắt thương mại VF Wild – mẫu xe bán tải điện đầu tiên của VinFast, cũng là mẫu xe đầu tiên tại Việt Nam áp dụng công nghệ REEV. VF Wild, tiếp bước các mẫu xe mới năm nay như VF 8 Thế hệ mới và VF 2, hứa hẹn sẽ ghi nhận doanh số tích cực khi lượng đơn đặt hàng trước đã đạt hơn 10 nghìn đơn. Trên thị trường quốc tế, VinFast tiếp tục ghi nhận các tín hiệu khả quan trong Quý III tại các thị trường trọng điểm ở châu Á, với việc duy trì vị trí cao trong bảng xếp hạng các hãng xe thuần điện bán chạy nhất tại các thị trường Ấn Độ, Indonesia và Philippines. Đặc biệt, VinFast tiếp tục là thương hiệu ô tô điện dẫn đầu tại thị trường Philippines, khi mẫu xe VF 3 của hãng là mẫu xe điện bán chạy nhất tại thị trường nước này trong tám tháng đầu năm nay. VinFast cũng tiếp tục là thương hiệu ô tô điện dẫn đầu tại khu vực Đông Nam Á. Đồng thời, mảng xe máy điện của VinFast cũng ghi nhận tăng trưởng mạnh mẽ, với số xe bàn giao đến hết tháng 09 đạt hơn 710 nghìn xe, gấp ba lần số xe bán ra so với cùng kỳ năm ngoái và lần đầu lọt top 15 thương hiệu xe máy bán chạy nhất thế giới theo Motorcycles Data. Tại thị trường quốc tế, VinFast tiếp tục gia tăng độ phủ với hệ thống hơn 60 đại lý xe máy điện tại Indonesia và Philippines, bắt đầu ghi nhận doanh số tại hai thị trường này. Ở trụ cột Thương mại Dịch vụ , Vinhomes tiếp tục khẳng định vị thế nhà phát triển bất động sản dẫn đầu Việt Nam với chiến lược phát triển các đại đô thị ở vùng trung tâm mới, được quy hoạch hệ sinh thái tiện ích vượt trội, kết nối trực tiếp với các dự án hạ tầng quốc gia, đáp ứng nhu cầu thực của khách hàng. Nhờ vậy, các đại dự án của Vinhomes đã thu hút nhiều đối tác quan tâm, hợp tác để cùng phát triển các phân khu nhà ở, giúp đa dạng hóa và mở rộng phân khúc khách hàng. Theo đó, trong chín tháng đầu năm 2026, Vinhomes ghi nhận doanh số bán hàng ấn tượng, gần 219,6 nghìn tỷ đồng, tăng 35% so với cùng kỳ năm 2025, minh chứng cho chiến…"
    },
    {
     "id": "wdfa61612323f",
@@ -631,7 +650,8 @@
     "url": "https://cafef.vn/chua-tung-co-vinhomes-lai-9-thang-ky-luc-hon-75000-ty-dong-vuot-25-ke-hoach-ca-nam-188261030130647614.chn",
     "summary": "Công ty Cổ phần Vinhomes (mã chứng khoán: VHM) công bố Báo cáo tài chính hợp nhất Quý III/2026 theo Chuẩn mực kế toán Việt Nam (VAS). Kết quả nổi bật là lợi nhuận sau thuế 9 tháng đã vượt kế hoạch cả năm, cùng mức tăng trưởng mạnh về doanh thu và doanh số bán hàng.",
     "published": "2026-10-30T13:05+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Công ty Cổ phần Vinhomes (mã chứng khoán: VHM) công bố Báo cáo tài chính hợp nhất Quý III/2026 theo Chuẩn mực kế toán Việt Nam (VAS). Kết quả nổi bật là lợi nhuận sau thuế 9 tháng đã vượt kế hoạch cả năm, cùng mức tăng trưởng mạnh về doanh thu và doanh số bán hàng. Trong 9 tháng đầu năm 2026, Vinhomes ghi nhận doanh thu thuần hợp nhất đạt 202.586 tỷ đồng, tăng 302% so với cùng kỳ. Tổng doanh thu thuần hợp nhất quy đổi (bao gồm cả phần doanh thu từ các hợp đồng hợp tác kinh doanh và giao dịch bán lô lớn ghi nhận vào doanh thu tài chính) đạt 232.593 tỷ đồng, tăng 234% và hoàn thành khoảng 82% kế hoạch cả năm. Lợi nhuận sau thuế hợp nhất đạt 75.059 tỷ đồng, tăng 390% so với cùng kỳ. Động lực tăng trưởng đến từ Vinhomes Green Paradise, Vinhomes Global Gate Hạ Long, Vinhomes Ocean Park 2 và 3, cùng các dự án khác. Riêng Quý III/2026, doanh thu thuần đạt 85.364 tỷ đồng, tăng 420% so với cùng kỳ; lợi nhuận sau thuế đạt 23.021 tỷ đồng, tăng 419%. Lợi nhuận gộp đạt 51.490 tỷ đồng, gấp gần 13 lần cùng kỳ. Biên lợi nhuận gộp đạt 60,3%, tăng 36 điểm phần trăm so với cùng kỳ. Kết quả này phản ánh sự cải thiện trong hiệu quả hoạt động kinh doanh và khả năng sinh lời của Vinhomes, đồng thời khẳng định năng lực triển khai dự án và hiện thực hóa doanh thu của Công ty. Doanh số bán hàng 9 tháng đạt 219,6 nghìn tỷ đồng, tăng 35% so với cùng kỳ. Riêng Quý III ghi nhận 71,5 nghìn tỷ đồng, trong đó 81% đến từ kênh bán lẻ, với đóng góp tích cực của Vinhomes Sài Gòn Park, Vinhomes Global Gate Hạ Long và các dự án khác. Cuối Quý III, doanh số đã bán nhưng chưa bàn giao đạt 185,6 nghìn tỷ đồng, gấp khoảng 1,7 lần mức trung bình giai đoạn 2021-2025. Tại ngày 30/09/2026, tổng tài sản của Vinhomes đạt 1.339.199 tỷ đồng, tăng 69% so với đầu năm. Vốn chủ sở hữu đạt 307.792 tỷ đồng, tăng 24%, củng cố nguồn lực tài chính cho việc triển khai các dự án và kế hoạch phát triển dài hạn. Trong đó, với khoản mục hàng tồn kho, khoảng 85% là chi phí liên quan đến tiền sử dụng đất, giải phóng mặt bằng, xây dựng và phát triển các dự án trọng điểm. Trong bối cảnh doanh số tiếp tục tăng trưởng mạnh, số liệu hàng tồn kho phản ánh việc chủ đầu tư chủ động đẩy nhanh đầu tư và triển khai dự án nhằm đáp ứng tiến độ bán hàng tích cực. Bất động sản đã xây dựng hoàn thành để bán chỉ chiếm khoảng 2% tổng hàng tồn kho. Về cơ cấu tài chính, tại ngày 30/09/2026, tỷ lệ nợ vay trên tổng tài sản ở mức 0,18. Nguồn vốn vay được phân bổ giữa trái phiếu và vay ngân hàng với 99% dư nợ bằng VND. Hệ số thanh toán lãi vay đạt 11,3 lần, cải thiện đáng kể so với năm 2025, cho thấy khả năng trang trải chi phí lãi vay được củng cố. Về phát triển dự án, Vinhomes tiếp tục mở rộng danh mục sản phẩm. Vinhomes Green Paradise và Vinhomes Global Gate Hạ Long đang đẩy nhanh tiến độ xây dựng, với các khối nhà thấp tầng sắp hoàn thiện. Trong tháng 8/2026, Công ty khởi công khu đô thị đa mục tiêu Bình Minh – Tam Hưng, quy mô gần 600 ha tại phía Nam Hà Nội. Tháng 10/2026, Vinhomes được chấp thuận chủ trương đầu tư dự án nhà ở xã hội Bà Điểm tại TP.HCM, quy mô gần 192 ha. Ở phân khúc nhà ở xã hội, Happy Home Phố Hiến (Hưng Yên), quy mô 31,1 ha với 4.400 căn, đã khởi công trong tháng 6/2026; Happy Home Tràng Cát (Hải Phòng), với 3.804 căn, đã cất nóc nhiều khối nhà. Về phát triển hạ tầng, ngày 15/10/2026, liên danh Vinhomes – SGC đã ký hợp đồng chìa khóa trao tay triển khai 5 tuyến Metro Hà Nội, với tổng mức đầu tư khoảng 900 nghìn tỷ đồng, chưa bao gồm chi phí giải phóng mặt bằng. Các dự án đang triển khai tiếp tục ghi nhận những bước tiến tích cực về tiến độ xây dựng. Tuyến đường sắt tốc độ cao Hà Nội – Quảng Ninh và Bến Thành – Cần Giờ đang được đẩy mạnh thi công tại nhiều vị trí, song song với công tác giải phóng mặt bằng và sản xuất phiến dầm. Các dự án hạ tầng mở thêm hướng phát triển cho Công ty, đồng thời được kỳ vọng hỗ trợ kết nối các khu đô thị. Về hoạt động ESG, trong tháng 8, Vinhomes Green Paradise được trao chứng nhận WCCD Interim Custom ISO 37122 Smart City Certification, trở thành dự án đầu…"
    },
    {
     "id": "wf0f8b0d07be7",
@@ -678,6 +698,18 @@
     "score": 2
    },
    {
+    "id": "w1cfa60702150",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Giá vàng miếng, vàng nhẫn hôm nay (31/10) tại SJC, DOJI, Bảo Tín Mạnh Hải, PNJ,...: Bao nhiêu tiền một chỉ?",
+    "url": "https://cafef.vn/gia-vang-mieng-vang-nhan-hom-nay-31-10-tai-sjc-doji-bao-tin-manh-hai-pnj-bao-nhieu-tien-mot-chi-188261031073825033.chn",
+    "summary": "Giá vàng trong nước đi ngang trong khi giá vàng thế giới giảm sâu, mất mốc 4.000 USD/ounce.",
+    "published": "2026-10-31T07:38+07:00",
+    "score": 2,
+    "body": "Giá vàng trong nước đi ngang trong khi giá vàng thế giới giảm sâu, mất mốc 4.000 USD/ounce. Đầu giờ sáng ngày 31/10, giá vàng trong nước chưa có sự thay đổi so với mức cập nhật trước đó. Trong khi đó, giá vàng thế giới tiếp tục giảm mạnh trong phiên giao dịch ngày 30/10, xuyên thủng mốc 4.000 USD/ounce và lùi xuống dưới 3.900 USD/ounce. Cụ thể, SJC, DOJI, Bảo Tín Mạnh Hải và PNJ cùng niêm yết giá vàng miếng ở mức 138,4–141,4 triệu đồng/lượng (mua vào – bán ra). Bảo Tín Minh Châu giao dịch ở mức 136,4–141,4 triệu đồng/lượng, trong khi Phú Quý niêm yết ở mức 137,4–141,4 triệu đồng/lượng. Ở phân khúc vàng nhẫn, SJC niêm yết giá mua vào – bán ra ở mức 134,3–138,3 triệu đồng/lượng. Bảo Tín Minh Châu và Bảo Tín Mạnh Hải cùng giao dịch ở mức 136,4–140,4 triệu đồng/lượng. Tại DOJI và PNJ, giá vàng nhẫn cùng được niêm yết ở mức 136–140 triệu đồng/lượng. Trong khi đó, Phú Quý giao dịch ở mức 137,4–140,4 triệu đồng/lượng. Như vậy, giá vàng nhẫn tại các thương hiệu đang được bán ra trong khoảng 13,83–14,04 triệu đồng/chỉ. Trên thị trường quốc tế, giá vàng chịu áp lực bán mạnh trong phiên giao dịch ngày 30/10. Theo Reuters, giá vàng giao ngay có thời điểm giảm 3,5%, xuống còn 3.880,97 USD/ounce, mức thấp nhất kể từ tháng 10/2025. Giá bạc cũng giảm 6,5%, xuống dưới mốc 50 USD/ounce, lần đầu tiên trong vòng 11 tháng. Đà giảm của kim loại quý xuất phát từ lo ngại lạm phát kéo dài và kỳ vọng lãi suất Mỹ duy trì ở mức cao. Các dữ liệu kinh tế mới công bố cho thấy GDP Mỹ quý III tăng 3,4%, trong khi lạm phát PCE tiếp tục tăng, củng cố khả năng Fed có thể tăng lãi suất vào tháng 12. Bên cạnh đó, làn sóng bán tháo trên thị trường chứng khoán công nghệ cũng có thể khiến nhà đầu tư phải bán các tài sản khác để bổ sung thanh khoản và đáp ứng yêu cầu ký quỹ, gia tăng áp lực lên vàng và bạc. Theo Kitco, tại thời điểm cập nhật cuối phiên ngày 30/10 theo giờ Mỹ, giá vàng giao ngay lùi về quanh 3.896 USD/ounce, giảm 3,1%. Giá bạc giảm 5,8%, xuống còn khoảng 49,02 USD/ounce."
+   },
+   {
     "id": "wd1749f37f78c",
     "src": "cafef_nh",
     "src_name": "CafeF — Tài chính NH",
@@ -697,7 +729,8 @@
     "url": "https://cafef.vn/msb-tang-truong-loi-nhuan-truoc-thue-hon-27-trong-quy-iii-188261030155423323.chn",
     "summary": "Ngân hàng TMCP Hàng Hải Việt Nam (HoSE: MSB) công bố kết quả kinh doanh với lợi nhuận trước thuế quý III/2026 đạt 2.017 tỷ đồng, tăng 27,1% so với cùng kỳ; lũy kế 9 tháng đạt gần 5.440 tỷ đồng. Động lực tăng trưởng đến từ hoạt động kinh doanh cốt lõi, thu nhập lãi thuần khởi sắc và hiệu quả kiểm soát chi phí an toàn.",
     "published": "2026-10-30T15:55+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Ngân hàng TMCP Hàng Hải Việt Nam (HoSE: MSB) công bố kết quả kinh doanh với lợi nhuận trước thuế quý III/2026 đạt 2.017 tỷ đồng, tăng 27,1% so với cùng kỳ; lũy kế 9 tháng đạt gần 5.440 tỷ đồng. Động lực tăng trưởng đến từ hoạt động kinh doanh cốt lõi, thu nhập lãi thuần khởi sắc và hiệu quả kiểm soát chi phí an toàn. Thu nhập lãi thuần tăng hơn 21%, tín dụng tăng 13,5%, chất lượng tài sản trong vùng kiểm soát tốt . Trong 9 tháng đầu năm, thu nhập lãi thuần hợp nhất đạt gần 9.621 tỷ đồng, tăng hơn 21,7% so với cùng kỳ. Riêng quý III, chỉ tiêu này đạt trên 3.422 tỷ đồng, tăng gần 21,6%. Kết quả góp phần đưa tổng thu nhập hoạt động 9 tháng lên gần 11.030 tỷ đồng, tăng gần 8,2%, qua đó tiếp tục khẳng định vai trò của hoạt động ngân hàng cốt lõi trong cơ cấu thu nhập. Trong khi đó, chi phí hoạt động 9 tháng tăng gần 6,7%, thấp hơn tốc độ tăng tổng thu nhập hoạt động. Tỷ lệ chi phí trên thu nhập (CIR) hợp nhất duy trì ở mức khoảng 37,3%. Hoạt động dịch vụ ghi nhận diễn biến tích cực hơn trong quý III. Thu nhập thuần từ dịch vụ đạt hơn 302 tỷ đồng, tăng hơn 51,4% so với cùng kỳ, nhờ thu nhập dịch vụ tăng 13,1% cùng với chi phí dịch vụ giảm 31,9%. Kết quả này góp phần cải thiện nguồn thu dịch vụ lũy kế 9 tháng, đạt khoảng 846 tỷ đồng. Tại ngày 30/09/2026, tổng tài sản hợp nhất của MSB đạt gần 440.000 tỷ đồng, tăng hơn 7,9% so với cuối năm 2025. Dư nợ cho vay khách hàng đạt gần 233.000 tỷ đồng, tăng 13,5%; tiền gửi khách hàng đạt gần 217.400 tỷ đồng, tăng khoảng 10,5% so với cuối năm 2025. Trong cơ cấu tiền gửi, mảng tiền gửi của khách hàng cá nhân, khách hàng doanh nghiệp vừa và nhỏ (SME) chiếm tỷ trọng lớn, đạt 134.000 tỷ đồng tương ứng hơn 61,6%, tăng trưởng 12,7% so với cuối năm 2025. Việc gia tăng tỷ trọng và quy mô tiền gửi khách hàng bán lẻ, tiền gửi khách hàng SME cho thấy tính bền vững trong cơ cấu nguồn vốn của ngân hàng, phù hợp với chiến lược bán lẻ và chuỗi giá trị của MSB, đa dạng hóa nguồn tiền gửi để giảm rủi ro và tối ưu hóa chi phí vốn, duy trì chỉ số CASA tốt hơn trung bình ngành. Bên cạnh đó, MSB cũng chủ động cân đối lãi suất cho vay, đồng hành cùng khách hàng. Trong điều kiện đó, biên lãi thuần (NIM) hợp nhất 9 tháng vẫn đạt mức 3,2%, thu nhập lãi thuần tiếp tục tăng trưởng, chi phí hoạt động được kiểm soát thấp hơn tốc độ tăng thu nhập, hỗ trợ kết quả lợi nhuận chung. Đầu tư số và AI, mở rộng dư địa tăng trưởng dài hạn Thúc đẩy động lực kinh doanh hiện hữu, MSB tiếp tục đầu tư vào ngân hàng số, dữ liệu và trí tuệ nhân tạo (AI), hướng tới nâng cao năng suất vận hành, hỗ trợ ra quyết định và cải thiện trải nghiệm khách hàng. Từ tháng 6/2026, ngân hàng bắt đầu triển khai đồng thời hai nền tảng số dành cho khách hàng cá nhân và doanh nghiệp. Đây là nền tảng để MSB từng bước kết nối thêm các sản phẩm đầu tư, quản lý tài sản và bảo hiểm, mở rộng hệ sinh thái dịch vụ theo lộ trình. Về dài hạn, giá trị của chiến lược chuyển đổi số không chỉ nằm ở việc nâng cấp nền tảng công nghệ, mà còn ở khả năng cải thiện hiệu quả phục vụ, gia tăng mức độ gắn kết của khách hàng và tạo thêm nguồn thu. Kế hoạch tăng vốn lên tối đa 46.800 tỷ đồng, củng cố năng lực tài chính chiến lược Năm 2026, MSB đã phát hành 624 triệu cổ phiếu từ nguồn vốn chủ sở hữu theo tỷ lệ 20%, nâng vốn điều lệ từ 31.200 tỷ đồng lên 37.440 tỷ đồng. Tiếp nối đợt phát hành này, ngân hàng đang triển khai kế hoạch tăng vốn điều lệ từ 37.440 tỷ đồng lên tối đa 46.800 tỷ đồng thông qua chào bán cổ phiếu ra công chúng cho cổ đông hiện hữu. Sau khi hoàn tất, việc tăng vốn sẽ củng cố nền tảng vốn chủ sở hữu, tạo thêm nguồn lực mở rộng hoạt động phát triển và đầu tư chiến lược trong giai đoạn tiếp theo. Kết quả 9 tháng khả quan và các kế hoạch đang triển khai đến hết năm 2026, trọng tâm phát triển của MSB tiếp tục gắn hoạt động ngân hàng cốt lõi với nâng cao hiệu quả vận hành, đầu tư công nghệ và hoàn thiện hệ sinh thái dịch vụ tài chính mang lại trải nghiệm tốt nhất cho khách hàng. Kết thúc ngày giao dịch 29/10/2026, cổ phiếu MSB đóng cửa ở…"
    },
    {
     "id": "w32987b424e0b",
@@ -719,7 +752,8 @@
     "url": "https://cafef.vn/nha-may-loc-dau-3-ty-usd-cua-viet-nam-lan-dau-tien-lai-ngay-1-ty-usd-chi-sau-9-thang-doanh-thu-xang-e10-tang-1900-lan-188261030225946407.chn",
     "summary": "Lợi nhuận 9 tháng của BSR lên sát mốc 25.000 tỷ đồng. Dầu diesel đang là nguồn lợi nhuận chủ lực, trong khi doanh thu xăng sinh học tăng mạnh.",
     "published": "2026-10-31T00:01+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Lợi nhuận 9 tháng của BSR lên sát mốc 25.000 tỷ đồng. Dầu diesel đang là nguồn lợi nhuận chủ lực, trong khi doanh thu xăng sinh học tăng mạnh. Tổng công ty Lọc hóa dầu Việt Nam (HoSE: BSR) vừa công bố báo cáo tài chính hợp nhất quý III/2026 với doanh thu thuần đạt 59.581 tỷ đồng, tăng 69% so với cùng kỳ năm trước. Giá vốn chỉ tăng 46%, giúp lợi nhuận gộp tăng từ 1.009 tỷ đồng lên 9.651 tỷ đồng. Biên lợi nhuận gộp theo đó cải thiện mạnh từ 2,9% lên 16,2%. Sau khi trừ các khoản chi phí, BSR ghi nhận lợi nhuận trước thuế 10.072 tỷ đồng. Lợi nhuận sau thuế 8.969 tỷ đồng, gấp gần 10 lần cùng kỳ. Đây cũng là quý thứ ba liên tiếp doanh nghiệp đạt lợi nhuận trên 7.000 tỷ đồng. Lũy kế 9 tháng, BSR đạt doanh thu thuần 164.217 tỷ đồng, tăng 58%, lợi nhuận trước thuế gần 28.000 tỷ. Lợi nhuận sau thuế lên tới 24.902 tỷ đồng, gấp 11,6 lần cùng kỳ năm trước. Con số này lớn hơn lợi nhuận mọi năm của BSR, kể từ khi công bố. So với kế hoạch lợi nhuận 2.162 tỷ đồng cho cả năm 2026, doanh nghiệp đã thực hiện gấp 11,5 lần chỉ sau ba quý. Biên lợi nhuận gộp tăng vọt từ 2,3% lên 17%. Dầu diesel mang về gần 19.000 tỷ đồng lợi nhuận gộp Theo thuyết minh, dầu diesel là sản phẩm đóng góp lớn nhất vào kết quả kinh doanh của BSR. Trong 9 tháng đầu năm, doanh thu từ dầu diesel DO 0,05S đạt 74.415 tỷ đồng, chiếm hơn 45% tổng doanh thu thuần. Giá vốn tương ứng ở mức 55.577 tỷ đồng, tạo ra chênh lệch doanh thu và giá vốn lên tới 18.838 tỷ đồng, tương đương khoảng 67% lợi nhuận gộp hợp nhất của BSR. Biên lợi nhuận gộp của riêng dòng sản phẩm này đạt 25,3%, cao hơn đáng kể so với nhiều mặt hàng xăng dầu khác. Nhiên liệu hàng không Jet A-1 cũng mang lại biên lợi nhuận khá cao. Với doanh thu 11.332 tỷ đồng và giá vốn 8.404 tỷ đồng, sản phẩm này tạo ra khoảng 2.928 tỷ đồng lợi nhuận gộp, tương ứng biên lợi nhuận 25,8%. Trong khi đó, xăng RON95 mang về 27.326 tỷ đồng doanh thu và 2.985 tỷ đồng lợi nhuận gộp, tương ứng biên lợi nhuận khoảng 10,9%. Với xăng E5 RON92, các chỉ tiêu lần lượt đạt 22.399 tỷ đồng và 2.037 tỷ đồng, tương ứng biên lợi nhuận 9,1%. Doanh thu E10 tăng 1.900 lần, khoản phải thu vượt 22.800 tỷ đồng Trong 9 tháng, doanh thu xăng E10 RON95 đạt 9.076 tỷ đồng, tăng hơn 1.900 lần so với mức 4,7 tỷ đồng cùng kỳ năm trước. Doanh thu xăng E5 RON92 cũng tăng từ 276 tỷ đồng lên 22.399 tỷ đồng, tương đương hơn 81 lần. Tổng cộng, hai dòng xăng sinh học mang về gần 31.475 tỷ đồng, chiếm khoảng 19% doanh thu thuần hợp nhất của BSR. Ở chiều ngược lại, doanh thu xăng RON95 không chì giảm gần 20%, từ 34.094 tỷ đồng xuống 27.326 tỷ đồng. Xăng RON92 không chì, từng mang về hơn 7.000 tỷ đồng trong 9 tháng năm trước, không còn ghi nhận doanh thu trong kỳ này. Sự chuyển dịch diễn ra khi Việt Nam triển khai lộ trình sử dụng xăng E10 trên toàn quốc từ ngày 1/6/2026. Tại ngày 30/9/2026, doanh nghiệp ghi nhận 22.865 tỷ đồng phải thu ngắn hạn khách hàng, tăng hơn 10.000 tỷ đồng, tương đương gần 78% so với đầu năm. Trong đó, khoản phải thu từ Tập đoàn Xăng dầu Việt Nam (Petrolimex) tăng từ 4.084 tỷ đồng lên 8.509 tỷ đồng. Khoản phải thu từ Tổng công ty Dầu Việt Nam (PVOIL) cũng tăng từ 2.670 tỷ đồng lên 4.999 tỷ đồng. Riêng hai doanh nghiệp này chiếm khoảng 59% tổng phải thu khách hàng của BSR. Trên báo cáo lưu chuyển tiền tệ, biến động các khoản phải thu làm giảm dòng tiền gần 18.976 tỷ đồng trong 9 tháng. Dù vậy, nhờ lợi nhuận tăng mạnh và các khoản phải trả mở rộng, dòng tiền thuần từ hoạt động kinh doanh vẫn đạt 14.483 tỷ đồng, cao hơn nhiều so với mức 267 tỷ đồng cùng kỳ năm trước. BSR là doanh nghiệp sở hữu Nhà máy lọc dầu Dung Quất - nhà máy lọc dầu đầu tiên của Việt Nam - có mức đầu tư 3 tỷ USD tại Quảng Ngãi. Với công suất thiết kế 6,5 triệu tấn dầu thô/năm (148.000 thùng/ngày), nhà máy lọc dầu Dung Quất đang gánh vác khoảng 30% nhu cầu xăng dầu nội địa.﻿"
    },
    {
     "id": "wb9e78d379cce",
@@ -840,7 +874,20 @@
     "url": "https://vneconomy.vn/chung-khoan-my-giam-diem-vi-cu-sut-12-cua-co-phieu-alphabet-gia-dau-di-xuong-sau-tin-hieu-dam-phan-hoa-binh.htm",
     "summary": "Thị trường chứng khoán Mỹ giảm điểm trong phiên giao dịch ngày thứ Năm (29/10), kết thúc chuỗi ba phiên tăng trước đó, khi một loạt cổ phiếu công nghệ vốn hóa lớn bị bán tháo sau báo cáo tài chính...",
     "published": "2026-10-30T08:38+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Giá dầu thô giảm nhẹ sau khi xuất hiện thông tin nói rằng Mỹ muốn nối lại đàm phán hòa bình với Iran. Lúc đóng cửa, chỉ số S&P 500 giảm 0,3%, còn 7.720,39 điểm. Chỉ số Dow Jones mất 132,54 điểm, tương đương giảm 0,25%, còn 52.342,56 điểm. Chỉ số Nasdaq giảm 1,38%, còn 26.184,72 điểm. Cổ phiếu Alphabet giảm 13% sau khi công ty mẹ của Google công bố kết quả kinh doanh quý 3/2026 với lợi nhuận trên mỗi cổ phiếu và doanh thu đều không đạt kỳ vọng. Alphabet ghi nhận dòng tiền tự do âm 9,07 tỷ USD và vẫn giữ nguyên dự báo chi phí đầu tư cơ bản cho cả năm ở mức từ 195-205 tỷ USD. Đây là phiên giảm mạnh nhất của cổ phiếu Alphabet kể từ khi Google trở thành công ty đại chúng vào năm 2004. Cú giảm khiến giá trị vốn hóa thị trường của Alphabet “bốc hơi” 500 tỷ USD. Caterpillar, một thành viên khác thuộc chỉ số Dow Jones, cũng sụt giảm hơn 9%, đánh dấu phiên giao dịch tồi tệ nhất kể từ tháng 3/2020. Mặc dù \"gã khổng lồ\" công nghiệp này công bố doanh thu và lợi nhuận quý 3 vượt dự báo, nhưng doanh số từ mảng kinh doanh thiết bị xây dựng lại thấp hơn một chút so với ước tính. Cổ phiếu Microsoft quay đầu giảm sau khi tăng điểm lúc đầu phiên. Nhờ sự tăng trưởng trong mảng hạ tầng đám mây Azure, kết quả kinh doanh quý 3/2026 của Microsoft đã vượt dự báo của các nhà phân tích. Khi chốt phiên, cổ phiếu này vẫn ghi nhận mức giảm nhẹ. Nhiều cổ phiếu liên quan đến hạ tầng đám mây cũng giảm trong phiên này do cam đầu tư cơ bản thấp hơn kỳ vọng của Microsoft cho thấy các đối tác hạ tầng có thể cần nhiều thời gian hơn để cung cấp năng lực cho các trung tâm dữ liệu. Cổ phiếu CoreWeave giảm khoảng 5%, trong khi cổ phiếu Nebius giảm hơn 5%. Trong phiên giao dịch ngoài giờ sau khi thị trường đã đóng cửa phiên chính thức ngày thứ Năm, cổ phiếu Intel có lúc giảm hơn 20%, sau khi hãng chip này đưa ra dự báo ảm đạm về doanh thu và lợi nhuận quý 4 do tình trạng suy yếu của thị trường máy tính cá nhân (PCE) toàn cầu. Thời gian gần đây, nhà đầu tư ở Phố Wall đã có nhiều thời điểm lo lắng về làn sóng đầu tư vào trí tuệ nhân tạo (AI).Các cổ phiếu AI, bao gồm cả những quỹ như iShares Semiconductor ETF (SOXX) và Roundhill Memory ETF (DRAM), đã trải qua giai đoạn khó khăn trong phần lớn tháng 10, dù có dấu hiệu khởi sắc hơn trong vài ngày gần đây. Trong phiên thứ Năm, cả hai quỹ này đều giảm điểm, với SOXX mất hơn 1% và DRAM giảm hơn 4%. Ông Art Hogan, chiến lược gia thị trường trưởng tại B. Riley Wealth Management, nhận định với hãng tin CNBC: \"Tôi cho rằng trong tháng 10 và bước sang tháng 11, lĩnh vực công nghệ đang ở vị thế tốt hơn và ổn định hơn so với giai đoạn tháng 8 và tháng 9. Tuy nhiên, các nhà đầu tư hiện nay đang trở nên chọn lọc kỹ lưỡng hơn nhiều. Mặc dù tâm lý lo ngại và tiêu cực chung đối với ngành công nghệ đã giảm bớt, nhưng những thông tin cụ thể từ từng doanh nghiệp vẫn có thể tạo ra tác động đáng kể đến thị trường”. Trên thị trường năng lượng, giá dầu thô Brent giao sau tại London giảm 0,44 USD/thùng, đóng cửa ở mức 114,88 USD/thùng. Giá dầu WTI giao sau tại New York giảm 0,78 USD/thùng, còn 102 USD/thùng. Giá dầu giảm sau khi tờ báo Wall Street Journal dẫn nguồn tin là quan chức Mỹ cho biết Phó tổng thống Mỹ JD Vance đã liên lạc với người đứng đầu Hội đồng An ninh Iran, ông Mohsen Rezaei, nhằm nỗ lực khởi động lại các cuộc đàm phán hòa bình. Các nhà hòa giải từ Qatar cũng được cho là đã đưa ra một đề xuất mới nhằm chấm dứt cuộc xung đột liên quan đến Iran, Mỹ và Israel. Tuy nhiên, một quan chức cấp cao của Iran đã bác bỏ đề xuất này vì cho rằng nội dung của đề xuất là không thể chấp nhận được, cho thấy vẫn còn những rào cản đáng kể để đạt được một bước đột phá ngoại giao. Trên mạng xã hội X, Bộ trưởng Ngoại giao Iran khẳng định Tehran vẫn cởi mở với các nỗ lực ngoại giao, đồng thời gợi mở khả năng đẩy nhanh kế hoạch hòa bình bảy ngày nếu hai bên đạt được thỏa thuận. Tuy nhiên, các nhà đầu tư trên thị trường năng lượng vẫn đang cân nhắc rủi ro xảy ra các cuộc tấn công từ lực lượng Houthi, cũng như khả năng Mỹ thực hiện hành động quân sự chống…"
+   },
+   {
+    "id": "w36b4c927395b",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Khối ngoại bán ròng kỷ lục hơn 20.800 tỷ đồng trong tháng 10, cao nhất từ đầu năm",
+    "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-ban-rong-ky-luc-hon-20800-ty-dong-trong-thang-10-cao-nhat-tu-dau-nam-post400519.html",
+    "summary": "(ĐTCK) Cùng chuỗi 6 tuần bán ròng liên tiếp, nhà đầu tư ngoại đã xác nhận tháng 10 là tháng bán ròng mạnh nhất kể từ đầu năm, với giá trị lên tới hơn 20.800 tỷ đồng, gấp gần 4,5 lần so với tháng trước. Khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất? Vốn ngoại tập trung vào lĩnh vực tài chính Ngân hàng mở khóa room ngoại thu hút thêm nhà đầu tư chiến lược",
+    "published": "2026-10-31T07:09+07:00",
+    "score": 2,
+    "body": "Cũng như các tuần trước đó của tháng 10, khối ngoại tiếp tục duy trì trạng thái bán ròng hàng nghìn tỷ đồng trong tuần cuối cùng của tháng. Cụ thể, trên sàn HOSE nhà đầu tư nước ngoài đã bán ròng 5 phiên liên tiếp. Tổng cộng, khối ngoại đã bán ròng 85,1 triệu đơn vị, tổng giá trị bán ròng tương ứng đạt 2.692,3 tỷ đồng, lần lượt tăng 61,55% về lượng và 178% về giá trị so với tuần trước. Trong đó, khối này đã mua vào 260,3 triệu đơn vị, tổng giá trị mua vào 7.287,7 tỷ đồng (giảm 26,2% về lượng và 28% về giá trị so với tuần trước); ngược lại bán ra 345,4 triệu đơn vị, giá trị đạt 9.980 tỷ đồng (giảm 14,8% về lượng và 10% về giá trị so với tuần trước). Giao dịch NĐTNN trên sàn HOSE trong tuần từ ngày 26-30/10: Trên sàn HNX, nhà đầu tư nước ngoài bán ròng 2 phiên và mua ròng 3 phiên. Tổng cộng trong tuần, khối ngoại đã mua ròng 1,55 triệu đơn vị, tổng giá trị mua ròng tương ứng đạt 39,4 tỷ đồng; trong khi tuần trước đó bán ròng 9,3 triệu đơn vị, tổng giá trị bán ròng đạt 106,8 tỷ đồng. Trong đó, khối này mua vào 7,14 triệu đơn vị, giá trị đạt 160,5 tỷ đồng (tăng 10% về lượng và 7,85% về giá trị so với tuần trước); ngược lại bán ra 5,59 triệu đơn vị, giá trị 121,13 tỷ đồng (giảm 64,64% về lượng và 52,6% về giá trị so với tuần trước). Giao dịch NĐTNN trên sàn HNX trong tuần từ ngày 26-30/10: Trên thị trường UPCoM, khối ngoại mua ròng 4 phiên và bán ròng 1 phiên, tổng cộng đã bán ròng 0,43 triệu đơn vị, giảm 75,26% so với tuần trước; tổng giá trị là mua ròng 121,35 tỷ đồng, trong khi tuần trước bán ròng 30,33 tỷ đồng. Cụ thể, khối này mua vào 1,75 triệu đơn vị, giá trị mua vào đạt 208,2 tỷ đồng (tăng 11,24% về lượng và 381,3% về giá trị so với tuần trước đó); trong khi bán ra 2,18 triệu đơn vị, giá trị đạt 86,83 tỷ đồng (giảm 34% về lượng và tăng 18% về giá trị so với tuần trước). Giao dịch NĐTNN trên sàn UPCoM trong tuần từ ngày 26-30/10: Như vậy, tuần qua giao dịch từ ngày 26-30/10 trên toàn thị trường, khối ngoại đã bán ròng xấp xỉ 84 triệu đơn vị, tổng giá trị bán ròng tương ứng đạt 2.531,5 tỷ đồng, tăng 31,87% về lượng và 129% về giá trị so với tuần trước đó (bán ròng 1.105,6 tỷ đồng). Tính chung cả tháng 10 trên toàn thị trường, khối ngoại đã bán ròng hơn 536,3 triệu đơn vị, với tổng giá trị bán ròng đạt xấp xỉ 20.844 tỷ đồng, tăng hơn 168% về lượng và tăng gấp gần 3,5 lần về giá trị so với tuần trước chỉ bán ròng gần 4.674 tỷ đồng. Đây cũng là tháng bán ròng mạnh nhất kể từ đầu năm. Trong đó, cổ phiếu MCH dẫn đầu danh mục bị bán ròng của tháng, với giá trị lên tới hơn 9.602 tỷ đồng, tương đương khối lượng bán ròng đạt hơn 64 triệu đơn vị. Tuy nhiên, cổ phiếu ngân hàng HDB bị bán ròng mạnh nhất về khối lượng, đạt gần 131 triệu đơn vị, giá trị bán ròng tương ứng đạt 3.389 tỷ đồng. Các cổ phiếu khác cũng bị bán ròng hơn nghìn tỷ đồng gồm PNJ bị bán ròng 2.134,6 tỷ đồng (99,2 triệu đơn vị), FPT bị bán ròng hơn 1.872 tỷ đồng (33 triệu đơn vị), ACB bị bán ròng 1.446,6 tỷ đồng (70,5 triệu đơn vị). Ở chiều ngược lại, cổ phiếu MSR được mua ròng mạnh nhất với khối lượng 54,9 triệu đơn vị, giá trị mua ròng tương ứng đạt 3.223 tỷ đồng."
    },
    {
     "id": "w785145aecb04",
@@ -862,7 +909,8 @@
     "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
     "summary": "3 cá nhân thao túng cổ phiếu KDC bị xử phạt tổng cộng 4,5 tỷ đồng và bị cấm giao dịch chứng khoán 2 năm. 17 cá nhân cho mượn tài khoản liên quan cũng nhận án phạt nặng.",
     "published": "2026-10-30T20:33+07:00",
-    "score": 1
+    "score": 1,
+    "body": "3 cá nhân thao túng cổ phiếu KDC bị xử phạt tổng cộng 4,5 tỷ đồng và bị cấm giao dịch chứng khoán 2 năm. 17 cá nhân cho mượn tài khoản liên quan cũng nhận án phạt nặng. Ủy ban Chứng khoán Nhà nước (UBCKNN) vừa công bố quyết định xử phạt vi phạm hành chính và áp dụng các biện pháp phòng ngừa, ngăn chặn vi phạm pháp luật đối với 20 cá nhân liên quan đến hành vi thao túng cổ phiếu của CTCP Tập đoàn Kido (mã KDC). Theo đó, UBCKNN phạt tiền 1,5 tỷ đồng mỗi người đối với ông Thang Phú Minh, bà Lâm Thúy Hằng và bà Dương Thái Phương Thảo. Tổng số tiền phạt là 4,5 tỷ đồng. Theo kết quả kiểm tra, trong giai đoạn từ ngày 02/05/2024 đến ngày 06/01/2025, ba cá nhân trên đã sử dụng tổng cộng 61 tài khoản chứng khoán để liên tục mua, bán cổ phiếu KDC nhằm tạo cung, cầu giả tạo, thao túng thị trường chứng khoán. UBCKNN cho biết kết quả kiểm tra và tính toán không cho thấy khoản thu trái pháp luật có được từ hành vi vi phạm của ba cá nhân. Bên cạnh tiền phạt, ông Minh, bà Hằng và bà Thảo còn bị cấm giao dịch chứng khoán trong 2 năm, kể từ ngày 02/11/2026. Ba cá nhân cũng bị cấm đảm nhiệm chức vụ tại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam, công ty đầu tư chứng khoán trong cùng thời hạn. Cùng ngày, UBCKNN quyết định đình chỉ hoạt động giao dịch chứng khoán trong 9 tháng đối với 17 cá nhân cho người khác mượn tài khoản để giao dịch, dẫn đến hành vi thao túng thị trường chứng khoán. Trong đó, 8 cá nhân (Nguyễn Minh Hiếu, Nguyễn Thị Hải Anh, Nguyễn Thị Thảo Sương, Nguyễn Thị Thu Trang, Nguyễn Thị Thùy Nhung, Nguyễn Văn Cường, Quách Vũ Hưng và Trần Võ Quang Sang) đã cho ông Thang Phú Minh mượn 8 tài khoản chứng khoán. 9 cá nhân (Lê Thị Mỹ Vinh, Lê Văn Quang, Lê Ngọc Hải, Võ Thành Tâm, Vương Kim Vy, Trịnh Hiếu Từ, Trần Bồi Tài, Trần Thị Thu Oanh và Trần Hoàng Nam) cho bà Lâm Thúy Hằng mượn tổng cộng 48 tài khoản để giao dịch dẫn đến hành vi thao túng cổ phiếu KDC trong giai đoạn từ ngày 02/05/2024 đến ngày 06/01/2025. UBCKNN cho biết chưa có cơ sở xác định số lợi bất hợp pháp mà 17 cá nhân có được từ hành vi vi phạm. Ngoài hình thức đình chỉ giao dịch 9 tháng, 17 cá nhân cũng bị cấm giao dịch chứng khoán trong 2 năm, kể từ ngày 02/11/2026; đồng thời bị cấm đảm nhiệm chức vụ tại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán và các tổ chức liên quan trong cùng thời hạn."
    },
    {
     "id": "wac9d05721e90",
@@ -873,7 +921,8 @@
     "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
     "summary": "Binance rung chuyển với vụ tấn công 6,3 tỷ USD - kỷ lục lịch sử tài chính số. Sự việc châm ngòi tranh cãi khi chuyên gia cáo buộc tin tặc đến từ Triều Tiên, còn Bình Nhưỡng kiên quyết bác bỏ.",
     "published": "2026-10-30T20:20+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Binance rung chuyển với vụ tấn công 6,3 tỷ USD - kỷ lục lịch sử tài chính số. Sự việc châm ngòi tranh cãi khi chuyên gia cáo buộc tin tặc đến từ Triều Tiên, còn Bình Nhưỡng kiên quyết bác bỏ. Theo các báo cáo điều tra chi tiết được công bố, thảm họa bắt đầu khi hệ thống phát hiện các luồng rút tiền bất thường với quy mô lớn. Điểm khởi phát của cuộc tấn công không đến từ việc rò rỉ khóa bí mật (private key) của ví, mà bắt nguồn từ việc máy tính xách tay của một kỹ sư DevOps thuộc hạ tầng nội bộ bị xâm nhập. Từ lỗ hổng đó, thủ pháp của kẻ tấn công là lợi dụng quyền truy cập từ thiết bị này để lọt qua các lớp bảo mật, thâm nhập vào các service container và âm thầm điều phối các lệnh rút tiền hàng loạt. Về mức độ thiệt hại và phong tỏa, tổng số tài sản bị thất thoát ước tính chạm mốc 6,3 tỷ USD. Ngay sau khi phát hiện, Binance đã lập tức phối hợp chặt chẽ với các đối tác blockchain lớn (như Tether, Circle, Ripple) để nhanh chóng khóa băng thành công khoảng 3 tỷ USD trên chuỗi nhằm giảm thiểu thiệt hại. Đồng CEO của Binance, Richard Tend, cho biết trên X rằng vụ tấn công không phải là hành động bởi \"một cú nhấp chuột\", mà là một quá trình phức tạp. Ông nói thêm rằng cuộc điều tra chưa xác định được trách nhiệm của bất kỳ cá nhân nào cũng như chưa tìm thấy bằng chứng về việc rò rỉ khóa riêng của ví. Binance cho biết họ sẽ \"bù đắp mọi tổn thất\" từ \"quỹ của công ty\" và quỹ dự phòng khẩn cấp, đồng thời khẳng định \"tiền của người dùng vẫn an toàn\". Sàn giao dịch tiền điện tử này cũng cho biết họ đã \"tạm thời đình chỉ việc gửi và rút tiền trong khi hoàn tất các kiểm tra an ninh, thu hồi quyền ủy quyền của địa chỉ bị ảnh hưởng và hợp tác với cơ quan thực thi pháp luật và các đối tác tình báo blockchain để truy tìm và thu hồi tiền. Cuộc điều tra và nghi vấn chĩa về các nhóm hacker đến từ Triều Tiên Ngay khi các dòng tiền mã hóa bắt đầu bị tẩu tán, các hãng phân tích dữ liệu blockchain hàng đầu thế giới như TRM Labs và Chainalysis đã tiến hành xâu chuỗi dữ liệu on-chain và đưa ra đánh giá với độ tin cậy cao. Phương thức xâm nhập sâu, chuẩn bị trường kỳ và nhắm vào các kỹ sư nội bộ hoặc đơn vị cung cấp dịch vụ trong sự cố này mang đậm \"vân tay\" hoạt động của các tổ chức tội phạm mạng đến từ Triều Tiên, tương tự các chiến dịch từng làm rung chuyển thị trường trước đây. Về bản chất, các nhóm hacker này được mô tả là các tập đoàn mạng chuyên nghiệp. Chúng thường mất nhiều tháng nằm vùng để khai thác điểm yếu từ chuỗi cung ứng công nghệ thay vì chọn cách tấn công trực diện vào hệ thống mã hóa. Trước những cáo buộc gay gắt từ giới phân tích phương Tây và các cơ quan tình báo quốc tế về việc đứng sau vụ việc này, đại diện phía Triều Tiên đã chính thức lên tiếng bác bỏ hoàn toàn, gọi đây là những thông tin bịa đặt và cáo buộc vô căn cứ nhằm bôi nhọ quốc gia. Binance cho biết tiền của người dùng vẫn an toàn và họ đang hợp tác với các đối tác để đóng băng một số tài sản bị ảnh hưởng, với khoảng 3 tỷ đô la Mỹ đã được xác định cho đến nay. Họ dự kiến sẽ nối lại dịch vụ rút tiền trong vòng 48 giờ tới. Bitcoin đã chạm mức thấp nhất trong sáu tuần là 76.368 đô la Mỹ và Ether giảm hơn 3% xuống mức thấp nhất trong hai tháng là 2.178 đô la Mỹ trước khi thị trường ổn định trở lại./"
    },
    {
     "id": "wc05fc755764b",
@@ -884,7 +933,8 @@
     "url": "https://cafef.vn/vu-trom-tien-dien-tu-lon-nhat-the-gioi-tin-tac-danh-cap-63-ty-usd-tu-binance-chi-trong-20-phut-188261030201747481.chn",
     "summary": "Các tin tặc đã đánh cắp 6,3 tỷ USD từ Binance, sàn giao dịch tiền điện tử lớn nhất thế giới, trong một vụ trộm kỷ lục mà các nhà phân tích cho rằng có liên quan đến Triều Tiên. Giới chuyên gia cảnh báo sự kiện này có thể làm lung lay niềm tin vào các tài sản kỹ thuật số.",
     "published": "2026-10-30T20:17+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Các tin tặc đã đánh cắp 6,3 tỷ USD từ Binance, sàn giao dịch tiền điện tử lớn nhất thế giới, trong một vụ trộm kỷ lục mà các nhà phân tích cho rằng có liên quan đến Triều Tiên. Giới chuyên gia cảnh báo sự kiện này có thể làm lung lay niềm tin vào các tài sản kỹ thuật số. Giá tiền điện tử đã sụt giảm sau thông tin này, trong khi Binance tạm dừng các giao dịch rút tiền và cam kết sẽ bù đắp những tổn thất. Khoảng một nửa số tài sản bị đánh cắp đã nhanh chóng bị các đơn vị phát hành stablecoin (tiền mã hóa ổn định) như Tether, Circle và World Liberty Financial phong tỏa. Theo các công ty phân tích blockchain của Mỹ là TRM Labs và Chainalysis, phần lớn vụ tấn công diễn ra trong khoảng 20 phút, bắt đầu từ cuối ngày 29/10. TRM cho biết, những kẻ tấn công đã có thể điều hướng các ví tiền điện tử của Binance, chuyển tài sản vào các ví do tin tặc kiểm soát. Phương thức này tương tự vụ tấn công sàn giao dịch tiền điện tử Bybit năm 2025 - một vụ việc mà Cục Điều tra Liên bang Mỹ (FBI) từng cáo buộc có liên quan đến Bình Nhưỡng. Phái đoàn của Triều Tiên tại Geneva và Đại sứ quán Triều Tiên tại Trung Quốc không phản hồi yêu cầu bình luận từ Reuters. Binance cho biết tiền của người dùng vẫn an toàn và sàn đang phối hợp với các đối tác để phong tỏa một phần tài sản bị ảnh hưởng. Đến nay, khoảng 3 tỷ USD đã được xác định vị trí. Dự kiến, dịch vụ rút tiền sẽ được khôi phục trong vòng 48 giờ tới. Tuy nhiên, Binance không đề cập đến tình trạng của 3,3 tỷ USD còn lại. \"Đây là vụ tấn công lớn nhất trong lịch sử”, Aravind Srinivasan - chuyên gia tại đơn vị tạo lập thị trường GSR - nhận định, trong bối cảnh giá các loại tiền điện tử đồng loạt sụt giảm. Giá Bitcoin đã chạm mức thấp nhất trong sáu tuần là 76.368 USD, trong khi Ether giảm hơn 3% xuống mức thấp nhất trong hai tháng là 2.178 USD, trước khi thị trường ổn định trở lại. Theo dữ liệu từ CoinGecko, BNB - loại token từng được ra mắt với tên gọi Binance Coin và có thể dùng để thanh toán các khoản phí trên sàn Binance - đã giảm 5% trong 24 giờ qua, xuống còn 709,70 USD. Niềm tin suy giảm cũng gây ảnh hưởng tiêu cực đến cổ phiếu của các sàn giao dịch tiền điện tử niêm yết trên thị trường chứng khoán. Cổ phiếu của sàn giao dịch tiền điện tử Coinbase Global - đơn vị không bị ảnh hưởng - đã giảm 4,8%, trong khi cổ phiếu của MicroStrategy - công ty nắm giữ lượng lớn Bitcoin - cũng giảm gần 6% trong phiên giao dịch ngoài giờ tại Mỹ. Binance cho biết, kết quả điều tra ban đầu cho thấy vụ tấn công có thể bắt nguồn từ việc một chiếc máy tính xách tay của một kỹ sư tại Binance bị xâm nhập. Việc này đã tạo điều kiện cho kẻ tấn công truy cập vào một trong các hệ thống của sàn và thực hiện các giao dịch rút tiền trái phép. \"Đội ngũ bảo mật của chúng tôi đang truy vết toàn bộ lộ trình tấn công thông qua chiếc máy tính bị xâm nhập - vốn được cho là điểm khởi đầu của sự cố này”, Binance thông tin. Mark Karpeles - cựu giám đốc sàn giao dịch bitcoin Mt Gox, vốn đã sụp đổ cách đây 12 năm sau khi số bitcoin trị giá 500 triệu USD bị đánh cắp - cho biết những kẻ tấn công có khả năng đã truy cập được các khóa cá nhân (private key) của ít nhất hai ví tiền điện tử thuộc sàn Binance. Ông nhận định: \"Có vẻ như Binance đã phân bổ tài sản của mình trên nhiều hệ thống khác nhau, nhờ đó một vụ tấn công chỉ có thể gây ảnh hưởng đến một phần tài sản. Tuy nhiên, ngay cả như vậy, một vụ tấn công đơn lẻ vẫn dẫn đến tổn thất rất lớn\". Theo các nhà phân tích, ngoài nguy cơ mất mát tài sản, vụ vi phạm an ninh này có khả năng gây ra những hệ lụy rộng lớn hơn đối với thị trường tiền điện tử - vốn đã chịu áp lực từ lãi suất tại Mỹ tăng cao và nhu cầu suy giảm từ các nhà đầu tư. Tim Sun, nhà nghiên cứu cấp cao tại HashKey Group (trụ sở tại Hồng Kông, Trung Quốc), cho biết: \"Sự việc này có thể làm giảm thêm mối lo ngại về rủi ro, đồng thời khiến các nhà đầu tư phải đánh giá lại mức độ an toàn của tài sản khi lưu trữ trên các sàn giao dịch tập trung\". Binance - nền tảng cho phép người dùng mua, bán và giao dịch các tài sản kỹ thuật số -…"
    },
    {
     "id": "w469df0f5d1c1",
@@ -950,7 +1000,8 @@
     "url": "https://cafef.vn/von-hoa-alphabet-boc-hoi-gan-500-ty-usd-trong-mot-ngay-188261030131724507.chn",
     "summary": "Giá cổ phiếu Alphabet lao dốc gần 13%, ghi nhận phiên giảm mạnh nhất lịch sử, thổi bay gần 500 tỷ USD giá trị vốn hóa.",
     "published": "2026-10-30T13:17+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Giá cổ phiếu Alphabet lao dốc gần 13%, ghi nhận phiên giảm mạnh nhất lịch sử, thổi bay gần 500 tỷ USD giá trị vốn hóa. Cổ phiếu Alphabet (công ty mẹ của Google) giảm mạnh nhất kể từ khi Google lên sàn chứng khoán vào năm 2004. Chốt phiên, cổ phiếu của Alphabet mất 13% giá trị trong phiên giao dịch ngày thứ Năm (giờ Mỹ), khiến gần 500 tỷ USD vốn hóa thị trường bị thổi bay. Trong báo cáo kết quả kinh doanh công bố vào cuối ngày thứ Tư, Alphabet ghi nhận dòng tiền tự do âm 9,07 tỷ USD trong quý III, trái ngược với mức dự báo âm 2,7 tỷ USD của các nhà phân tích. Công ty mẹ của Google vẫn giữ nguyên kế hoạch chi tiêu vốn cả năm trong khoảng 195-205 tỷ USD. Nguồn doanh thu lớn nhất của Alphabet là quảng cáo tìm kiếm, tăng trưởng 12% trong quý kết thúc vào tháng 9, đạt 63,35 tỷ USD, nhưng thấp hơn kỳ vọng của các nhà phân tích, khiến cổ phiếu công ty chịu thêm áp lực. Ông Philipp Schindler, Giám đốc kinh doanh của Alphabet, cho biết tác động đến mảng kinh doanh tìm kiếm một phần xuất phát từ khả năng kiếm tiền thấp hơn trong AI Mode của công ty. Ông nói thêm rằng Alphabet hiện đang “mở rộng” hoạt động quảng cáo trên các sản phẩm AI Overviews và AI Mode, bao gồm cả tại các thị trường quốc tế. Hoạt động tìm kiếm của Google đang đối mặt với những thách thức từ sự trỗi dậy của các chatbot AI khác như ChatGPT của OpenAI và Claude của Anthropic. Người dùng có thể đang thực hiện nhiều truy vấn tìm kiếm hơn bên ngoài Google. Trong khi đó, Gemini, chatbot AI của riêng Google, cũng chưa theo kịp các đối thủ. “Vấn đề của Google là công ty đang đối mặt với tình thế tiến thoái lưỡng nan của một nhà đổi mới và không biết nên bảo vệ hoạt động kinh doanh cốt lõi hay tham gia vào làn sóng đột phá. Do đó, Google đã đánh mất lợi thế với Gemini và đang tụt hậu so với các đối thủ trong lĩnh vực AI tác nhân (agentic AI)”, ông Barringer nhận định. Tuy nhiên, nhà phân tích Scott Devitt của Rosenblatt Securities cho rằng thị phần áp đảo của Google trong lĩnh vực tìm kiếm có thể mang lại lợi thế cho công ty so với các đối thủ. “Tôi không nghĩ đây là một sự thay đổi mang tính bước ngoặt. Nếu đó là vấn đề đối với Alphabet thì cũng là vấn đề đối với bất kỳ tác nhân AI hướng đến người tiêu dùng hoặc mô hình ngôn ngữ lớn (LLM) nào khác. Và tôi cho rằng đây là vấn đề cuối cùng sẽ được giải quyết. Khi điều đó xảy ra, Alphabet, với 4 tỷ khách hàng sử dụng công cụ tìm kiếm có thể trở thành khách hàng AI, sẽ ở vào một vị thế đáng mơ ước”, ông Devitt nói với chương trình “Squawk on the Street” của CNBC hôm thứ Năm. Kết thúc phiên giao dịch 29/10 tại New York, chỉ số công nghệ Nasdaq Composite dẫn đầu đà giảm khi mất 1,4% xuống 26.184,73 điểm. Chỉ số tổng hợp S&P 500 lùi 0,3% xuống 7.720,39 điểm, và chỉ số công nghiệp Dow Jones cũng giảm 0,3% xuống 52.342,56 điểm. Các nhà phân tích đánh giá thị trường đang mất kiên nhẫn và khao khát những bằng chứng rõ ràng cho thấy các khoản đầu tư AI khổng lồ sẽ chuyển hóa thành lợi nhuận thực tế. Tâm lý Phố Wall cũng chịu thêm sức ép khi chỉ số chi tiêu tiêu dùng cá nhân (PCE) - thước đo lạm phát ưa thích của Fed - tăng lên 3,6% trong tháng 9, làm lu mờ dữ liệu tăng trưởng Tổng sản phẩm quốc nội (GDP) quý III đầy khả quan."
    },
    {
     "id": "w3f793aaedf9c",
@@ -1005,7 +1056,8 @@
     "url": "https://cafef.vn/hon-55-ty-usd-tien-ma-hoa-bi-danh-cap-binance-doi-mat-vu-hack-lon-nhat-lich-su-188261030104841997.chn",
     "summary": "Không những thế, vụ việc hack Binance này còn kéo theo việc đóng băng hơn 3 tỷ USD tài sản tiền mã hóa trên toàn cầu.",
     "published": "2026-10-30T10:48+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Không những thế, vụ việc hack Binance này còn kéo theo việc đóng băng hơn 3 tỷ USD tài sản tiền mã hóa trên toàn cầu. Hơn 6 tỷ USD tiền mã hóa có thể đã bị đánh cắp khỏi Binance, sàn giao dịch tài sản số lớn nhất thế giới, trong một vụ tấn công đang được các tổ chức phân tích blockchain đánh giá là lớn nhất lịch sử ngành tiền mã hóa. Trước quy mô bất thường của sự cố, Binance đã phải tạm dừng hoạt động nạp, rút tiền và phối hợp với nhiều tổ chức để phong tỏa dòng tài sản bị đánh cắp. Theo Chainalysis, số tiền bị đánh cắp trong vụ việc ước tính lên tới 5,9 tỷ USD. Trong khi đó, TRM Labs đưa ra con số còn lớn hơn, vượt 6 tỷ USD. Nếu những ước tính này được xác nhận, vụ tấn công sẽ vượt xa kỷ lục trước đó thuộc về sàn giao dịch Bybit, nơi các hacker đánh cắp khoảng 1,5 tỷ USD tiền mã hóa vào năm 2025. Tuy nhiên, quy mô thiệt hại chính xác vẫn chưa được xác định. Một số chuyên gia bảo mật ước tính số tiền hacker thực sự chiếm đoạt có thể nằm trong khoảng 2-5,5 tỷ USD. Binance hiện mới xác nhận đang điều tra một sự cố an ninh tiềm tàng, chưa công bố nguyên nhân cũng như tổng giá trị tài sản bị thất thoát. Trước diễn biến này, Binance cho biết đã đóng băng khoảng 3 tỷ USD tài sản liên quan đến vụ việc. Con số có thể tiếp tục tăng khi sàn giao dịch phối hợp với các cơ quan thực thi pháp luật, đơn vị phát hành token và những công ty chuyên phân tích dữ liệu blockchain để truy tìm dòng tiền. Trong đó, Tether đã phong tỏa gần 1,57 tỷ USD tài sản, còn Circle đóng băng hơn 800 triệu USD. Ripple cũng tham gia xử lý sự cố khi đóng băng khoảng 200 triệu USD tài sản liên quan. World Liberty Financial, công ty tiền mã hóa có liên hệ với Tổng thống Mỹ Donald Trump và gia đình, cho biết đã phối hợp với đơn vị lưu ký BitGo để ngăn chặn việc tẩu tán một phần số tiền bị đánh cắp. Việc các tổ chức phát hành stablecoin có thể trực tiếp đóng băng tài sản là yếu tố quan trọng trong nỗ lực ngăn chặn hacker. Khi một lượng tiền bị đưa vào danh sách đen, chủ sở hữu địa chỉ ví liên quan sẽ không thể chuyển, giao dịch hoặc quy đổi những token đó sang các tài sản khác. Trong lúc điều tra, Binance đã tạm dừng toàn bộ hoạt động nạp và rút tiền để tiến hành kiểm tra an ninh, đồng thời đình chỉ giao dịch trên nền tảng Binance Alpha như một biện pháp phòng ngừa. Nhà sáng lập Changpeng Zhao, người hiện không còn điều hành công ty, nhận định sự cố có dấu hiệu của một vụ tấn công mạng. Ông khẳng định tài sản người dùng vẫn an toàn. Sự cố nhanh chóng tạo sức ép lên thị trường tiền mã hóa. Trong phiên giao dịch đầu ngày thứ Sáu tại châu Á, Bitcoin giảm khoảng 2%, xuống 77.646 USD, mức thấp nhất trong 6 tuần. Ethereum cũng mất khoảng 2%, xuống 2.238,76 USD, thấp nhất trong 2 tháng. Đáng chú ý, BNB, đồng tiền mã hóa gắn với hệ sinh thái Binance, giảm hơn 8% trong vòng 24 giờ. Cổ phiếu Coinbase giảm 4,8%, trong khi Strategy, doanh nghiệp nổi tiếng với chiến lược tích lũy Bitcoin, mất gần 6% trong phiên giao dịch ngoài giờ tại Mỹ. Diễn biến này cho thấy lo ngại không chỉ giới hạn ở Binance mà còn lan sang các doanh nghiệp có liên quan đến thị trường tài sản số. Đối với Binance, khả năng hấp thụ thiệt hại là một vấn đề đáng chú ý. Sàn giao dịch này có hơn 335 triệu tài khoản đăng ký trên toàn cầu và từng ghi nhận khoảng 160 tỷ USD tài sản lưu ký trong báo cáo thường niên năm 2024. Công ty cũng duy trì quỹ SAFU, được thiết lập nhằm bảo vệ tài sản người dùng trong trường hợp xảy ra sự cố an ninh. Một số chuyên gia cho rằng thiệt hại có thể nằm trong khả năng xử lý của Binance nhờ quỹ bảo vệ tài sản trị giá khoảng 1,2 tỷ USD, cùng lượng tiền đáng kể đã được Tether và Circle phong tỏa. Dù vậy, quy mô thực tế của vụ tấn công vẫn cần được xác minh."
    },
    {
     "id": "w4e39d0e1aad2",
@@ -1137,7 +1189,8 @@
     "url": "https://cafef.vn/cap-nhat-bctc-quy-3-2026-ngay-31-10-bsr-shb-eximbank-vietnam-airlines-cung-nhieu-doanh-nghiep-lon-cong-bo-ket-qua-bat-ngo-188261031002348599.chn",
     "summary": "BSR và EVN Genco3 ghi nhận lợi nhuận trước thuế quý 3/2026 tăng lần lượt 858% và 778%. Trong khi đó, Vietnam Airlines và Eximbank báo lợi nhuận giảm so với cùng kỳ.",
     "published": "2026-10-31T00:23+07:00",
-    "score": 1
+    "score": 1,
+    "body": "BSR và EVN Genco3 ghi nhận lợi nhuận trước thuế quý 3/2026 tăng lần lượt 858% và 778%. Trong khi đó, Vietnam Airlines và Eximbank báo lợi nhuận giảm so với cùng kỳ. Các doanh nghiệp mới công bố BCTC quý 3/2026: BSR báo lãi trước thuế quý 3/2026 đạt 10.072 tỷ đồng, tăng 858% so với cùng kỳ. Lũy kế 9 tháng đầu năm 2026, lợi nhuận trước thuế đạt 27.998 tỷ đồng, tăng 1.018%. PV GAS (GAS) ghi nhận lợi nhuận trước thuế quý 3/2026 đạt 5.773 tỷ đồng, tăng 80% so với cùng kỳ. SHB báo lãi trước thuế quý 3/2026 đạt 5.166 tỷ đồng, tăng 57% so với cùng kỳ. Sau 9 tháng đầu năm 2026, ngân hàng ghi nhận lợi nhuận trước thuế 14.309 tỷ đồng, tăng 17%. Vietnam Rubber (GVR) ghi nhận lợi nhuận trước thuế quý 3/2026 đạt 4.423 tỷ đồng, tăng 69% so với cùng kỳ. Lũy kế 9 tháng đầu năm 2026, lợi nhuận trước thuế đạt 10.249 tỷ đồng, tăng 65%. Vinamilk (VNM) báo lãi trước thuế quý 3/2026 đạt 3.694 tỷ đồng, tăng 18% so với cùng kỳ. Lợi nhuận trước thuế 9 tháng đầu năm 2026 đạt 10.608 tỷ đồng, tăng 30%. EVN Genco3 (PGV) ghi nhận lợi nhuận trước thuế quý 3/2026 đạt 1.480 tỷ đồng, tăng 778% so với cùng kỳ. Lũy kế 9 tháng đầu năm 2026, doanh nghiệp báo lãi trước thuế 4.157 tỷ đồng, tăng 262%. Vietnam Airlines (HVN) báo lãi trước thuế quý 3/2026 đạt 470 tỷ đồng, giảm 46% so với cùng kỳ. Sau 9 tháng đầu năm 2026, lợi nhuận trước thuế đạt 4.652 tỷ đồng, giảm 39%. Eximbank (EIB) ghi nhận lợi nhuận trước thuế quý 3/2026 đạt 186 tỷ đồng, giảm 67% so với cùng kỳ. Lũy kế 9 tháng đầu năm 2026, ngân hàng báo lãi trước thuế 864 tỷ đồng, giảm 58%. Các doanh nghiệp đã công bố BCTC quý 3/2026 sắp xếp theo ngành:"
    },
    {
     "id": "w38b51b67ebec",
@@ -1170,7 +1223,8 @@
     "url": "https://cafef.vn/khoi-to-tong-giam-doc-tong-cong-ty-khoang-san-tkv-vimico-18826103021440237.chn",
     "summary": "Ngày 30/10/2026, Tổng công ty Khoáng sản TKV – CTCP (VIMICO, mã chứng khoán KSV) công bố thông tin bất thường.",
     "published": "2026-10-30T21:44+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Ngày 30/10/2026, Tổng công ty Khoáng sản TKV – CTCP (VIMICO, mã chứng khoán KSV) công bố thông tin bất thường. Ngày 30/10/2026, Tổng công ty Khoáng sản TKV – CTCP (VIMICO, mã chứng khoán KSV) công bố thông tin bất thường về việc nhận được quyết định khởi tố bị can đối với ông Trịnh Văn Tuệ, Tổng giám đốc Tổng công ty. Theo văn bản công bố, ông Trịnh Văn Tuệ bị khởi tố về tội \"Nhận hối lộ\", quy định tại Điều 354 Bộ luật Hình sự. Trước đó một ngày, Hội đồng quản trị Tổng công ty đã thông qua nghị quyết miễn nhiệm chức vụ Tổng giám đốc đối với ông Trịnh Văn Tuệ kể từ ngày 29/10/2026. Đồng thời, ông Lý Xuân Tuyên, Phó Tổng giám đốc, được giao đảm nhiệm quyền Tổng giám đốc và làm người đại diện theo pháp luật từ cùng ngày, cho đến khi kiện toàn chức danh Tổng giám đốc. Theo hồ sơ công bố, ông Lý Xuân Tuyên sinh năm 1980, từng giữ chức Giám đốc Công ty Mỏ tuyển đồng Sin Quyền tại Lào Cai. Ông đảm nhiệm vị trí Phó Tổng giám đốc VIMICO từ tháng 11/2019, đồng thời giữ chức Chủ tịch HĐQT CTCP Kim loại màu Thái Nguyên và CTCP Gang thép Cao Bằng. Tổng công ty Khoáng sản TKV là đơn vị thành viên của Tập đoàn Công nghiệp Than - Khoáng sản Việt Nam, hoạt động trong lĩnh vực khai thác, chế biến và kinh doanh khoáng sản. Trên thị trường chứng khoán, cổ phiếu KSV kết thúc phiên 30/10 ở mức 109.500 đồng/cổ phiếu, giảm 2,41%, tương ứng vốn hóa khoảng 32.850 tỷ đồng."
    },
    {
     "id": "w8d9329ea18a5",
@@ -1214,7 +1268,8 @@
     "url": "https://cafef.vn/vingroup-bao-loi-nhuan-sau-thue-9-thang-gap-6-lan-cung-ky-tong-tai-san-dat-16-trieu-ty-dong-188261030140923576.chn",
     "summary": "Tại ngày 30 tháng 09 năm 2026, tổng tài sản đạt 1,6 triệu tỷ đồng, tăng 44,8% so với đầu năm. Đồng thời, tiền, tương đương tiền và đầu tư tài chính ngắn hạn đạt 106,8 nghìn tỷ đồng, nợ vay ở mức gần 390 nghìn tỷ đồng.",
     "published": "2026-10-30T14:08+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Tại ngày 30 tháng 09 năm 2026, tổng tài sản đạt 1,6 triệu tỷ đồng, tăng 44,8% so với đầu năm. Đồng thời, tiền, tương đương tiền và đầu tư tài chính ngắn hạn đạt 106,8 nghìn tỷ đồng, nợ vay ở mức gần 390 nghìn tỷ đồng. Tập đoàn Vingroup (mã chứng khoán VIC) đã công bố Báo cáo tài chính hợp nhất Quý III năm 2026 theo chuẩn mực kế toán Việt Nam (VAS). Tổng doanh thu thuần hợp nhất trong chín tháng đầu năm 2026 đạt 372,5 nghìn tỷ đồng, gấp 2,2 lần so với cùng kỳ năm 2025 nhờ tăng trưởng tích cực từ mảng ô tô điện và kinh doanh bất động sản. Lợi nhuận sau thuế hợp nhất chín tháng đầu năm 2026 đạt 43,7 nghìn tỷ đồng, gấp gần sáu lần so với cùng kỳ và hoàn thành 125% kế hoạch lợi nhuận cả năm 2026. Tại ngày 30 tháng 09 năm 2026, tổng tài sản đạt 1,6 triệu tỷ đồng, tăng 44,8% so với đầu năm. Đồng thời, tiền, tương đương tiền và đầu tư tài chính ngắn hạn đạt 106,8 nghìn tỷ đồng, nợ vay ở mức gần 390 nghìn tỷ đồng. Trong 12 tháng gần nhất, song song với các hoạt động kinh doanh liên tục cải thiện và mở rộng quy mô, Vingroup tích cực mở rộng và đa dạng hóa nguồn tài trợ bao gồm từ thị trường vốn quốc tế và đã nhận được sự đồng hành từ các nhà đầu tư / định chế tài chính lớn trong khu vực và trên thế giới. Tập đoàn ghi nhận huy động hơn 2,3 tỷ đô-la Mỹ từ các hoạt động phát hành trái phiếu quốc tế, cổ phiếu ưu đãi, và vay hợp vốn từ các nhà đầu tư và các định chế tài chính quốc tế. Với trụ cột Công nghệ – Công nghiệp, VinFast kết thúc Quý III năm 2026 với nhiều điểm nhấn ấn tượng tại thị trường nội địa và quốc tế khi sản lượng toàn cầu trong chín tháng đầu năm 2026 đạt 211.242 ô tô điện, tăng trưởng 91% so với cùng kỳ năm ngoái. Tại thị trường Việt Nam, VinFast tiếp tục dẫn dắt thị trường xe bốn bánh với doanh số đạt 177.697 xe trong giai đoạn này, tăng 71% so với cùng kỳ năm 2025. Trong đó, bốn mẫu xe bán chạy nhất thị trường trong nước tiếp tục đều thuộc về VinFast, lần lượt là các mẫu xe VF 3, Limo Green, VF 5, và VF 6. Bên cạnh đó, các mẫu VF 8 và VF 2 / Minio Green cũng lọt top bán chạy trong riêng tháng 9. Trong Quý III, VinFast tiếp tục mở rộng danh mục sản phẩm khi chính thức ra mắt thương mại VF Wild – mẫu xe bán tải điện đầu tiên của VinFast, cũng là mẫu xe đầu tiên tại Việt Nam áp dụng công nghệ REEV. VF Wild, tiếp bước các mẫu xe mới năm nay như VF 8 Thế hệ mới và VF 2, hứa hẹn sẽ ghi nhận doanh số tích cực khi lượng đơn đặt hàng trước đã đạt hơn 10 nghìn đơn. Trên thị trường quốc tế, VinFast tiếp tục ghi nhận các tín hiệu khả quan trong Quý III tại các thị trường trọng điểm ở châu Á, với việc duy trì vị trí cao trong bảng xếp hạng các hãng xe thuần điện bán chạy nhất tại các thị trường Ấn Độ, Indonesia và Philippines. Đặc biệt, VinFast tiếp tục là thương hiệu ô tô điện dẫn đầu tại thị trường Philippines, khi mẫu xe VF 3 của hãng là mẫu xe điện bán chạy nhất tại thị trường nước này trong tám tháng đầu năm nay. VinFast cũng tiếp tục là thương hiệu ô tô điện dẫn đầu tại khu vực Đông Nam Á. Đồng thời, mảng xe máy điện của VinFast cũng ghi nhận tăng trưởng mạnh mẽ, với số xe bàn giao đến hết tháng 09 đạt hơn 710 nghìn xe, gấp ba lần số xe bán ra so với cùng kỳ năm ngoái và lần đầu lọt top 15 thương hiệu xe máy bán chạy nhất thế giới theo Motorcycles Data. Tại thị trường quốc tế, VinFast tiếp tục gia tăng độ phủ với hệ thống hơn 60 đại lý xe máy điện tại Indonesia và Philippines, bắt đầu ghi nhận doanh số tại hai thị trường này. Ở trụ cột Thương mại Dịch vụ, Vinhomes tiếp tục khẳng định vị thế nhà phát triển bất động sản dẫn đầu Việt Nam với chiến lược phát triển các đại đô thị ở vùng trung tâm mới, được quy hoạch hệ sinh thái tiện ích vượt trội, kết nối trực tiếp với các dự án hạ tầng quốc gia, đáp ứng nhu cầu thực của khách hàng. Nhờ vậy, các đại dự án của Vinhomes đã thu hút nhiều đối tác quan tâm, hợp tác để cùng phát triển các phân khu nhà ở, giúp đa dạng hóa và mở rộng phân khúc khách hàng. Theo đó, trong chín tháng đầu năm 2026, Vinhomes ghi nhận doanh số bán hàng ấn tượng, gần 219,6 nghìn tỷ đồng, tăng 35% so với cùng kỳ…"
    },
    {
     "id": "w7bac038a77f4",
@@ -1305,6 +1360,29 @@
     "score": 1
    },
    {
+    "id": "wa30bc515004c",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Giá vàng thế giới lao dốc, xuống thấp nhất một năm",
+    "url": "https://vnexpress.net/gia-vang-the-gioi-lao-doc-xuong-thap-nhat-mot-nam-5139023.html",
+    "summary": "Vàng và loạt kim loại khác bị bán tháo trong phiên cuối tháng, hiện về mức thấp nhất kể từ cuối năm 2025.",
+    "published": "2026-10-31T07:17+07:00",
+    "score": 1
+   },
+   {
+    "id": "wee01c3f29456",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "VietinBank dẫn đầu lợi nhuận ngành ngân hàng trong quý III",
+    "url": "https://vnexpress.net/vietinbank-dan-dau-loi-nhuan-nganh-ngan-hang-trong-quy-iii-5139002.html",
+    "summary": "Vượt qua Vietcombank, VietinBank trở thành đơn vị lãi lớn nhất ngành ngân hàng trong quý III, với mức lợi nhuận trước thuế 13.688 tỷ đồng.",
+    "published": "2026-10-31T07:12+07:00",
+    "score": 1,
+    "body": "Vượt qua Vietcombank, VietinBank trở thành đơn vị lãi lớn nhất ngành ngân hàng trong quý III, với mức lợi nhuận trước thuế 13.688 tỷ đồng. Theo báo cáo tài chính quý III, Ngân hàng Công thương Việt Nam (VietinBank) báo lãi trước thuế tăng 22% so với cùng kỳ năm ngoái. Hầu hết mảng kinh doanh của nhà băng đều tăng trưởng, giúp lợi nhuận của nhà băng ghi nhận mức 13.688 tỷ đồng quý trước. Trong đó, thu nhập lãi thuần, chỉ số biểu thị cho hoạt động kinh doanh cốt lõi của một ngân hàng, đạt 21.815 tỷ đồng, cải thiện 27% so với cùng kỳ năm ngoái. Ngoài ra, lãi thuần từ dịch vụ, kinh doanh ngoại hối và hoạt động khác đều tăng trưởng hai chữ số. Theo VietinBank, kết quả kinh doanh tích cực trong quý III nhờ chủ động kiểm soát chi phí vốn, cơ cấu danh mục tín dụng và kiểm soát rủi ro. Ngoài ra, ngân hàng cũng tập trung cho vay với các lĩnh vực ưu tiên theo định hướng của Chính phủ. Với kết quả trên, VietinBank đã vượt Vietcombank trở thành nhà băng lãi lớn nhất quý III. Lần gần nhất VietinBank xếp ở vị trí này là quý II năm ngoái. Tuy nhiên, lũy kế 9 tháng, Vietinbank ghi nhận lãi trước thuế 39.557 tỷ đồng, tăng 34% so với cùng kỳ năm trước. Xét trong khoảng thời gian này, Vietinbank chỉ xếp thứ hai trong ngành về lợi nhuận, sau Vietcombank. Tính đến ngày 30/9, tổng tài sản của VietinBank đạt 2,95 triệu tỷ đồng, cải thiện 7% so với cùng kỳ năm ngoái. Trong đó, nhà băng đang cho vay hơn 2,1 triệu tỷ đồng, nhích 7% , trong khi lượng tiền gửi vẫn thấp hơn, đạt 1,94 triệu tỷ đồng. Tổng nợ xấu của VietinBank ở mức 25.781 tỷ đồng, tương ứng 1,2% dư nợ cho vay. Tỷ lệ này đã nhích 0,1% so với số đầu năm. VietinBank được thành lập năm 1988, hiện là một trong bốn ngân hàng lớn nhất tại Việt Nam. Nhà băng niêm yết cổ phiếu từ 2009."
+   },
+   {
     "id": "wcb90ea86b6fa",
     "src": "vnx_kd",
     "src_name": "VnExpress — Kinh doanh",
@@ -1335,7 +1413,8 @@
     "url": "https://vnexpress.net/vn-index-giam-sau-phien-cuoi-thang-5138832.html",
     "summary": "Gần 250 cổ phiếu đóng cửa dưới tham chiếu khiến VN-Index mất xấp xỉ 14 điểm, xuống 1.741 điểm trong phiên cuối tháng 10.",
     "published": "2026-10-30T16:01+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Gần 250 cổ phiếu đóng cửa dưới tham chiếu khiến VN-Index mất xấp xỉ 14 điểm, xuống 1.741 điểm trong phiên cuối tháng 10. Chỉ số đại diện cho sàn TP HCM giao dịch dưới tham chiếu suốt phiên 30/10 bởi áp lực xả hàng lan rộng từ lúc mở cửa. Hàng loạt cổ phiếu bị bán mạnh khiến VN-Index có thời điểm mất gần 30 điểm, sau đó thu hẹp dần biên độ trong những phút cuối và đóng cửa tại 1.741 điểm. So với cuối tháng trước, chỉ số giảm 27 điểm, tương ứng 1,5%. Diễn biến này trùng với nhận định của nhiều nhóm phân tích về chu kỳ thấp điểm của thị trường chứng khoán Việt Nam. Trong 10 năm qua, VN-Index giảm bình quân hơn 2% và đã 4 năm liên tiếp giảm điểm trong tháng 10. \"Áp lực lạm phát cùng nền lãi suất cao tiếp tục gây trở ngại cho thị trường khi dòng tiền thận trọng khiến thanh khoản về mức thấp nhất kể từ đầu năm\", nhóm phân tích Công ty Chứng khoán MB viết trong báo cáo chiến lược tuần này. Trong phiên cuối tháng, bên bán chiếm ưu thế hoàn toàn. Điều này thể hiện qua số lượng mã giảm lên đến 245, gấp gần 4 lần mã tăng. Rổ vốn hóa lớn cũng chênh lệch tương tự khi có đến 23 mã giảm, còn bên tăng chỉ 3 mã. Xét theo ngành, ngân hàng chịu áp lực xả hàng mạnh nhất. Các cổ phiếu đầu ngành như LPB, TCB, MBB, EIB đều mất hơn 2% so với tham chiếu. Các đại diện của nhóm Big4 gồm VCB, CTG và BID cũng giảm 1,3-1,6%. Ở nhóm chứng khoán, lực bán tập trung vào VIX khiến mã này mất 3,2%, xuống 12.000 đồng. Những \"ông lớn\" khác như SSI, VND, VCI, VPX... cũng sụt hơn 1%. Nhóm bất động sản có sự phân hóa mạnh. Trong khi NLG, QCG , LDG và DIG cùng giảm hơn 2,5%, cổ phiếu của các chủ đầu tư Vinhomes, Novaland lại tăng mạnh. Riêng Kosy chạm giá trần 4.060 đồng và dư mua hàng chục triệu đơn vị sau chuỗi giảm sàn liên tiếp từ giữa tháng 9 đến nay. Thanh khoản sàn TP HCM hôm nay xấp xỉ 14.700 tỷ đồng, trong đó rổ VN30 góp hơn 9.200 tỷ đồng. VIC là mã duy nhất khớp lệnh hơn 1.000 tỷ, sau đó đến VHM và HPG. Nhà đầu tư nước ngoài vẫn chưa ngắt chuỗi xả hàng. Nhóm này đã bán ròng 6 phiên liên tiếp, trong đó phiên hôm nay rút hơn 630 tỷ đồng. TCB chịu áp lực rút vốn mạnh nhất từ khối ngoại với hơn 6 triệu cổ phiếu. Theo nhóm phân tích Công ty Chứng khoán Yuanta Việt Nam, nhà đầu tư nên kiên nhẫn theo dõi khả năng ổn định của chỉ số quanh vùng 1.750 điểm trước khi quyết định giải ngân. Việc bắt đáy hoặc mua đuổi nên được hạn chế trong giai đoạn này."
    },
    {
     "id": "w362f836ead8d",
@@ -1379,7 +1458,8 @@
     "url": "http://vietstock.vn/2026/10/thao-tung-co-phieu-kdc-bang-61-tai-khoan-3-ca-nhan-bi-phat-45-ty-dong-va-cam-giao-dich-2-nam-830-1509663.htm",
     "summary": "Ủy ban Chứng khoán Nhà nước (UBCKNN) vừa xử phạt tổng cộng 4.5 tỷ đồng đối với ba cá nhân bị xác định thao túng cổ phiếu KDC bằng 61 tài khoản chứng khoán. Ngoài ra, 17 cá nhân cho mượn tài khoản liên quan cũng bị đình chỉ giao dịch 9 tháng và cùng nhận lệnh cấm giao dịch chứng khoán trong 2 năm.",
     "published": "2026-10-30T19:52+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Thao túng cổ phiếu KDC bằng 61 tài khoản, 3 cá nhân bị phạt 4.5 tỷ đồng và cấm giao dịch 2 năm Ủy ban Chứng khoán Nhà nước (UBCKNN) vừa xử phạt tổng cộng 4.5 tỷ đồng đối với ba cá nhân bị xác định thao túng cổ phiếu KDC bằng 61 tài khoản chứng khoán. Ngoài ra, 17 cá nhân cho mượn tài khoản liên quan cũng bị đình chỉ giao dịch 9 tháng và cùng nhận lệnh cấm giao dịch chứng khoán trong 2 năm. Ngày 28/10, UBCKNN quyết định xử phạt vi phạm hành chính và áp dụng các biện pháp phòng ngừa, ngăn chặn vi phạm pháp luật đối với 20 cá nhân liên quan đến hành vi thao túng cổ phiếu của CTCP Tập đoàn Kido ( HOSE : KDC ). Theo đó, UBCKNN phạt tiền 1.5 tỷ đồng mỗi người đối với ông Thang Phú Minh, bà Lâm Thúy Hằng và bà Dương Thái Phương Thảo. Tổng số tiền phạt là 4.5 tỷ đồng. Theo kết quả kiểm tra, trong giai đoạn từ ngày 02/05/2024 đến ngày 06/01/2025, ba cá nhân trên đã sử dụng tổng cộng 61 tài khoản chứng khoán để liên tục mua, bán cổ phiếu KDC nhằm tạo cung, cầu giả tạo, thao túng thị trường chứng khoán. UBCKNN cho biết kết quả kiểm tra và tính toán không cho thấy khoản thu trái pháp luật có được từ hành vi vi phạm của ba cá nhân. Bên cạnh tiền phạt, ông Minh, bà Hằng và bà Thảo còn bị cấm giao dịch chứng khoán trong 2 năm, kể từ ngày 02/11/2026. Ba cá nhân cũng bị cấm đảm nhiệm chức vụ tại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán, chi nhánh công ty chứng khoán và công ty quản lý quỹ nước ngoài tại Việt Nam, công ty đầu tư chứng khoán trong cùng thời hạn. Cùng ngày, UBCKNN quyết định đình chỉ hoạt động giao dịch chứng khoán trong 9 tháng đối với 17 cá nhân cho người khác mượn tài khoản để giao dịch, dẫn đến hành vi thao túng thị trường chứng khoán. Cụ thể, 8 cá nhân (Nguyễn Minh Hiếu, Nguyễn Thị Hải Anh, Nguyễn Thị Thảo Sương, Nguyễn Thị Thu Trang, Nguyễn Thị Thùy Nhung, Nguyễn Văn Cường, Quách Vũ Hưng và Trần Võ Quang Sang) đã cho ông Thang Phú Minh mượn 8 tài khoản chứng khoán; 9 cá nhân (Lê Thị Mỹ Vinh, Lê Văn Quang, Lê Ngọc Hải, Võ Thành Tâm, Vương Kim Vy, Trịnh Hiếu Từ, Trần Bồi Tài, Trần Thị Thu Oanh và Trần Hoàng Nam) cho bà Lâm Thúy Hằng mượn tổng cộng 48 tài khoản để giao dịch dẫn đến hành vi thao túng cổ phiếu KDC trong giai đoạn từ ngày 02/05/2024 đến ngày 06/01/2025. UBCKNN cho biết chưa có cơ sở xác định số lợi bất hợp pháp mà 17 cá nhân có được từ hành vi vi phạm. Ngoài hình thức đình chỉ giao dịch 9 tháng, cả 17 cá nhân cũng bị cấm giao dịch chứng khoán trong 2 năm, kể từ ngày 02/11/2026; đồng thời bị cấm đảm nhiệm chức vụ tại công ty chứng khoán, công ty quản lý quỹ đầu tư chứng khoán và các tổ chức liên quan trong cùng thời hạn. Trong giai đoạn kể trên, cổ phiếu KDC ghi nhận nhiều diễn biến đáng chú ý khi xuất hiện nhịp giảm mạnh từ vùng trên 62,000 đồng/cp về vùng 53,000 đồng/cp trong nửa cuối tháng 6/2024, tức giảm đến 15%. Cổ phiếu sau đó tiếp tục xu hướng điều chỉnh và đã có lúc về dưới mốc 48,000 đồng/cp, trước khi bật tăng mạnh trong giai đoạn giữa tháng 12/2024, đưa thị giá hồi lên vùng 58,000 đồng/cp, tức gần 19%. * Quỹ thuộc VinaCapital rời 'ghế' cổ đông lớn của KIDO"
    },
    {
     "id": "w15f8dfc05888",
@@ -1423,7 +1503,8 @@
     "url": "http://vietstock.vn/2026/10/giam-du-phong-rui-ro-bidv-tang-39-loi-nhuan-truoc-thue-quy-3-737-1509741.htm",
     "summary": "BCTC hợp nhất quý 3/2026 cho thấy Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV, HOSE: BID) ghi nhận lợi nhuận trước thuế gần 10,579 tỷ đồng, tăng 39% so với cùng kỳ năm trước, nhờ các hoạt động kinh doanh tăng trưởng và giảm chi phí dự phòng rủi ro.",
     "published": "2026-10-30T23:10+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Giảm dự phòng rủi ro, BIDV tăng 39% lợi nhuận trước thuế quý 3 BCTC hợp nhất quý 3/2026 cho thấy Ngân hàng TMCP Đầu tư và Phát triển Việt Nam ( BIDV , HOSE : BID ) ghi nhận lợi nhuận trước thuế gần 10,579 tỷ đồng, tăng 39% so với cùng kỳ năm trước, nhờ các hoạt động kinh doanh tăng trưởng và giảm chi phí dự phòng rủi ro. Trong riêng quý 3, thu nhập lãi thuần của BIDV tăng 12% so với cùng kỳ năm trước, lên hơn 17,056 tỷ đồng. Các nguồn thu ngoài lãi cũng tăng trưởng như: Lãi từ dịch vụ (+7%), lãi từ kinh doanh ngoại hối (+18%), lãi từ chứng khoán kinh doanh (+73%), lãi từ hoạt động khác (+12%). Chi phí hoạt động 8% lên 7,987 tỷ đồng, theo đó lợi nhuận thuần từ hoạt động kinh doanh tăng 10% lên 15,219 tỷ đồng. Tuy nhiên, trong quý BIDV giảm 25% chi phí dự phòng rủi ro tín dụng, theo đó lợi nhuận trước thuế tăng 39% lên 10,579 tỷ đồng. Lũy kế 9 tháng đầu năm 2026, lợi nhuận thuần từ hoạt động kinh doanh tăng 12% so với cùng kỳ năm trước, lên 45,442 tỷ đồng. Chi phí dự phòng rủi ro tín dụng giảm 5% còn 15,959 tỷ đồng, do đó lợi nhuận trước thuế vẫn tăng 25% lên mức 29,483 tỷ đồng. Tổng tài sản BIDV tính đến cuối quý 3 ghi nhận gần 3.5 triệu tỷ đồng, tăng 5% so với đầu năm. Cho vay khách hàng ở mức 2.56 triệu tỷ đồng (+8%); tiền gửi khách hàng đạt hơn 2.36 triệu tỷ đồng (+6%). Tổng nợ xấu tính đến 30/09/2026 ghi nhận 47,486 tỷ đồng, tăng 36% so với đầu năm. Tỷ lệ nợ xấu/dư nợ tăng từ mức 1.47% đầu năm lên 1.85%."
    },
    {
     "id": "wb4b420853c09",
@@ -1632,7 +1713,8 @@
     "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
     "summary": "Tổng Giám đốc Vimico Trịnh Văn Tuệ bị khởi tố về tội “Nhận hối lộ”. Trước đó một ngày, HĐQT doanh nghiệp đã miễn nhiệm chức vụ Tổng giám đốc đối với ông Tuệ và giao quyền điều hành cho một Phó Tổng giám đốc.",
     "published": "2026-10-31T00:02+07:00",
-    "score": 0
+    "score": 0,
+    "body": "Tổng Giám đốc Vimico Trịnh Văn Tuệ bị khởi tố về tội “Nhận hối lộ”. Trước đó một ngày, HĐQT doanh nghiệp đã miễn nhiệm chức vụ Tổng giám đốc đối với ông Tuệ và giao quyền điều hành cho một Phó Tổng giám đốc. Tổng công ty Khoáng sản TKV - CTCP (Vimico, mã: KSV) mới đây công bố thông tin bất thường về việc nhận được quyết định khởi tố bị can đối với ông Trịnh Văn Tuệ , Tổng giám đốc Tổng công ty. Theo văn bản công bố, ông Tuệ bị khởi tố về tội \"Nhận hối lộ\" , quy định tại Điều 354 Bộ luật Hình sự. Vimico là đơn vị thành viên của Tập đoàn Công nghiệp Than - Khoáng sản Việt Nam (TKV), hoạt động chính trong lĩnh vực khai thác, chế biến và kinh doanh khoáng sản. Trước thời điểm thay đổi nhân sự, ông Trịnh Văn Tuệ đồng thời là thành viên HĐQT và Tổng giám đốc doanh nghiệp. Trước đó một ngày, HĐQT Vimico đã thông qua nghị quyết miễn nhiệm chức vụ Tổng giám đốc đối với ông Trịnh Văn Tuệ kể từ ngày 29/10/2026 . Đồng thời, ông Lý Xuân Tuyên , Phó Tổng giám đốc, được giao đảm nhiệm quyền Tổng giám đốc và là người đại diện theo pháp luật của Vimico từ cùng ngày, cho đến khi doanh nghiệp kiện toàn chức danh Tổng giám đốc. Theo báo cáo tài chính bán niên 2026 đã được soát xét, trong 6 tháng đầu năm, tổng lương, thưởng và thù lao của ông Trịnh Văn Tuệ đạt hơn 603,3 triệu đồng , tương đương bình quân khoảng 100,6 triệu đồng/tháng . Con số này tăng đáng kể so với mức 444 triệu đồng cùng kỳ năm trước. Trong nhóm HĐQT và Ban Tổng giám đốc, ông Tuệ cũng là người có mức thu nhập cao nhất được công bố trong báo cáo bán niên. Đứng sau là ông Ngô Quốc Trung với hơn 551 triệu đồng; ông Lý Xuân Tuyên nhận hơn 485 triệu đồng trong cùng kỳ. Vimico bán toàn bộ 51% cổ phần tại một công ty con, triệu tập bất thường vào cuối năm Cùng thời điểm thay đổi nhân sự cấp cao, Vimico còn công bố thêm một loạt thông tin đáng chú ý. HĐQT Tổng công ty đã thông qua phương án chào bán toàn bộ phần vốn tại CTCP Khoáng sản 3 - Vimico . Đây là doanh nghiệp mà Vimico đang sở hữu 1,785 triệu cổ phiếu, tương ứng 51% vốn điều lệ . Số cổ phần đưa ra chào bán là 1,785 triệu cổ phiếu phổ thông , mệnh giá 10.000 đồng/cp. Việc bán cổ phần dự kiến được thực hiện thông qua đấu giá tại HNX trong năm 2026. Được biết, Khoáng sản 3 - Vimico là một trong các công ty con của Tổng công ty, hoạt động trong lĩnh vực khai thác và chế biến khoáng sản. Ngoài ra, HĐQT Vimico cũng quyết định triệu tập ĐHĐCĐ bất thường năm 2026 . Ngày đăng ký cuối cùng để thực hiện quyền tham dự là 20/11/2026 , thời gian tổ chức dự kiến vào 25/12/2026 tại Hà Nội . Vimico đã phát đi thông báo về ngày đăng ký cuối cùng cho cuộc họp này ngày 30/10."
    },
    {
     "id": "wc755ba03a18f",
@@ -1643,7 +1725,8 @@
     "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
     "summary": "Sau thông tin Tổng giám đốc Trịnh Văn Tuệ bị khởi tố, doanh nghiệp đã có công bố nghị quyết mới.",
     "published": "2026-10-30T23:43+07:00",
-    "score": 0
+    "score": 0,
+    "body": "Sau thông tin Tổng giám đốc Trịnh Văn Tuệ bị khởi tố, doanh nghiệp đã có công bố nghị quyết mới. Tổng công ty Khoáng sản TKV – CTCP (Vimico, mã chứng khoán KSV) vừa công bố Nghị quyết HĐQT số 2990/NQ-VIMICO ngày 30/10/2026, thông qua việc triệu tập và tổ chức Đại hội đồng cổ đông (ĐHĐCĐ) bất thường năm 2026. Theo nghị quyết, ngày đăng ký cuối cùng để cổ đông thực hiện quyền tham dự đại hội là 20/11/2026. Đại hội dự kiến diễn ra ngày 15/12/2026 tại trụ sở Tổng công ty, số 3 Dương Đình Nghệ, phường Yên Hòa, Hà Nội. Về chương trình đại hội, Vimico cho biết sẽ xem xét các nội dung thuộc thẩm quyền của ĐHĐCĐ theo quy định của Luật Doanh nghiệp và Điều lệ Tổng công ty. Tuy nhiên, doanh nghiệp chưa công bố cụ thể các vấn đề dự kiến trình cổ đông tại cuộc họp bất thường lần này. Động thái trên diễn ra trong bối cảnh Vimico vừa trải qua biến động lớn về nhân sự cấp cao. Cùng ngày 30/10, doanh nghiệp công bố thông tin bất thường về việc nhận được quyết định khởi tố bị can đối với ông Trịnh Văn Tuệ, Tổng giám đốc Tổng công ty, về tội \"Nhận hối lộ\" theo Điều 354 Bộ luật Hình sự. Trước đó, ngày 29/10, HĐQT Vimico đã thông qua nghị quyết miễn nhiệm chức vụ Tổng giám đốc đối với ông Trịnh Văn Tuệ, có hiệu lực ngay trong ngày. Đồng thời, ông Lý Xuân Tuyên, Phó Tổng giám đốc, được giao đảm nhiệm quyền Tổng giám đốc và giữ vai trò người đại diện theo pháp luật cho đến khi doanh nghiệp kiện toàn chức danh Tổng giám đốc. Ông Lý Xuân Tuyên sinh năm 1980, từng giữ chức Giám đốc Công ty Mỏ tuyển đồng Sin Quyền tại Lào Cai. Ông đảm nhiệm vị trí Phó Tổng giám đốc Vimico từ tháng 11/2019, đồng thời giữ chức Chủ tịch HĐQT CTCP Kim loại màu Thái Nguyên và CTCP Gang thép Cao Bằng. Vimico là đơn vị thành viên của Tập đoàn Công nghiệp Than - Khoáng sản Việt Nam (TKV), hoạt động trong lĩnh vực khai thác, chế biến và kinh doanh khoáng sản. Trên thị trường chứng khoán, cổ phiếu KSV kết thúc phiên giao dịch ngày 30/10 tại mức 109.500 đồng/cp, vốn hóa thị trường của Vimico đạt khoảng 32.850 tỷ đồng."
    },
    {
     "id": "wcbe6cbf45bdd",
@@ -1776,61 +1859,6 @@
     "summary": "Trả lời xét hỏi tại toà, Shark Bình bật cười cho rằng số mình đi tù, bị cáo sẵn sàng đón nhận và coi những gì xảy ra là bài học lớn đối với bản thân.",
     "published": "2026-10-30T10:50+07:00",
     "score": 0
-   },
-   {
-    "id": "weaf4eec6f962",
-    "src": "cafef_ck",
-    "src_name": "CafeF — Chứng khoán",
-    "group": "bao_vn",
-    "title": "Một cổ phiếu vừa ngắt chuỗi 29 phiên giảm sàn liên tiếp, 1/3 công ty đổi chủ",
-    "url": "https://cafef.vn/mot-co-phieu-vua-ngat-chuoi-29-phien-giam-san-lien-tiep-1-3-cong-ty-doi-chu-188261030104619609.chn",
-    "summary": "Sau 29 phiên giảm sàn liên tiếp, mất hơn 87% thị giá chỉ trong hơn một tháng, cổ phiếu này bất ngờ đảo chiều tăng kịch trần trong phiên sáng 30/10.",
-    "published": "2026-10-30T10:49+07:00",
-    "score": 0
-   },
-   {
-    "id": "w1223931864b3",
-    "src": "cafef_ck",
-    "src_name": "CafeF — Chứng khoán",
-    "group": "bao_vn",
-    "title": "Một thành viên HĐQT DXG muốn gom 15 triệu cổ phiếu",
-    "url": "https://cafef.vn/mot-thanh-vien-hdqt-dxg-muon-gom-15-trieu-co-phieu-188261030085906133.chn",
-    "summary": "Ông Hà Đức Hiếu- Thành viên HĐQT của Bluemarq Group vừa đăng ký mua vào 15 triệu cổ phiếu DXG trong khoảng thời gian từ ngày 3/11/2026 đến 2/12/2026.",
-    "published": "2026-10-30T08:59+07:00",
-    "score": 0
-   },
-   {
-    "id": "w3fcb03bf8762",
-    "src": "cafef_vimo",
-    "src_name": "CafeF — Vĩ mô",
-    "group": "bao_vn",
-    "title": "Sân bay Long Thành dự kiến khai thác thương mại từ ngày 24/12",
-    "url": "https://cafef.vn/san-bay-long-thanh-du-kien-khai-thac-thuong-mai-tu-ngay-24-12-18826103020161464.chn",
-    "summary": "VTV.vn - Sân bay Long Thành dự kiến khai thác thương mại từ 0 giờ ngày 24/12/2026, với công suất giai đoạn đầu tối đa khoảng 366 chuyến bay mỗi tuần.",
-    "published": "2026-10-30T21:16+07:00",
-    "score": 0
-   },
-   {
-    "id": "w5633e32bf488",
-    "src": "cafef_vimo",
-    "src_name": "CafeF — Vĩ mô",
-    "group": "bao_vn",
-    "title": "Bộ trưởng thông tin kế hoạch xây cao tốc phục vụ 6,5 triệu người dân Tây Nguyên",
-    "url": "https://cafef.vn/bo-truong-thong-tin-ke-hoach-xay-cao-toc-phuc-vu-65-trieu-nguoi-dan-tay-nguyen-18826103020211208.chn",
-    "summary": "Dự án cao tốc Buôn Ma Thuột - Gia Nghĩa đang được đề xuất đầu tư theo hình thức PPP, nhằm đáp ứng nhu cầu đi lại của 6,5 triệu người dân Tây Nguyên.",
-    "published": "2026-10-30T20:21+07:00",
-    "score": 0
-   },
-   {
-    "id": "waaee11e32207",
-    "src": "cafef_vimo",
-    "src_name": "CafeF — Vĩ mô",
-    "group": "bao_vn",
-    "title": "Thông tin mới về dự án đường ven biển dài hơn 100km, chỉ đi qua một tỉnh duy nhất",
-    "url": "https://cafef.vn/thong-tin-moi-ve-du-an-duong-ven-bien-dai-hon-100km-chi-di-qua-mot-tinh-duy-nhat-188261030164012211.chn",
-    "summary": "Phó Chủ tịch UBND tỉnh đã có nhiều chỉ đạo quan trọng liên quan đến dự án này.",
-    "published": "2026-10-30T17:52+07:00",
-    "score": 0
    }
   ],
   "kind": "web",
@@ -1839,139 +1867,117 @@
    {
     "id": "t1",
     "hang": 1,
-    "tieu_de": "ECB giữ nguyên lãi suất dù lạm phát cao gần gấp đôi mục tiêu",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wbb38223a76b8"
-    ],
-    "mot_dong": "ECB đang đối mặt với những thách thức lớn gồm lạm phát tăng cao theo giá năng lượng và thị trường trái phiếu chính phủ Pháp bán tháo...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 5,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "wbb38223a76b8",
-      "title": "ECB giữ nguyên lãi suất dù lạm phát cao gần gấp đôi mục tiêu",
-      "summary": "ECB đang đối mặt với những thách thức lớn gồm lạm phát tăng cao theo giá năng lượng và thị trường trái phiếu chính phủ Pháp bán tháo...",
-      "url": "https://vneconomy.vn/ecb-giu-nguyen-lai-suat-du-lam-phat-cao-gan-gap-doi-muc-tieu.htm",
-      "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-10-30T08:10+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t2",
-    "hang": 2,
-    "tieu_de": "MSB tăng trưởng lợi nhuận trước thuế hơn 27% trong quý III",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wd8d14ba990f1",
-     "w3077eec842bf",
-     "w2c6778e995f5"
-    ],
-    "mot_dong": "Ngân hàng TMCP Hàng Hải Việt Nam (HoSE: MSB) công bố kết quả kinh doanh với lợi nhuận trước thuế quý III/2026 đạt 2.017 tỷ đồng, tăng 27,1% so với cùng kỳ; lũy kế 9 tháng đạt gần 5.440 tỷ đồng. Động lực tăng trưởng đến từ hoạt động kinh doanh cốt lõi, thu nhập lãi thuần khởi sắc và hiệu quả kiểm soát chi phí an toàn.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 5,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "wd8d14ba990f1",
-      "title": "MSB tăng trưởng lợi nhuận trước thuế hơn 27% trong quý III",
-      "summary": "Ngân hàng TMCP Hàng Hải Việt Nam (HoSE: MSB) công bố kết quả kinh doanh với lợi nhuận trước thuế quý III/2026 đạt 2.017 tỷ đồng, tăng 27,1% so với cùng kỳ; lũy kế 9 tháng đạt gần 5.440 tỷ đồng. Động lực tăng trưởng đến từ hoạt động kinh doanh cốt lõi, thu nhập lãi thuần khởi sắc và hiệu quả kiểm soát chi phí an toàn.",
-      "url": "https://cafef.vn/msb-tang-truong-loi-nhuan-truoc-thue-hon-27-trong-quy-iii-188261030155423323.chn",
-      "src_name": "CafeF — Tài chính NH",
-      "published": "2026-10-30T15:55+07:00"
-     },
-     {
-      "id": "w3077eec842bf",
-      "title": "Giảm dự phòng rủi ro, BIDV tăng 39% lợi nhuận trước thuế quý 3",
-      "summary": "BCTC hợp nhất quý 3/2026 cho thấy Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV, HOSE: BID) ghi nhận lợi nhuận trước thuế gần 10,579 tỷ đồng, tăng 39% so với cùng kỳ năm trước, nhờ các hoạt động kinh doanh tăng trưởng và giảm chi phí dự phòng rủi ro.",
-      "url": "http://vietstock.vn/2026/10/giam-du-phong-rui-ro-bidv-tang-39-loi-nhuan-truoc-thue-quy-3-737-1509741.htm",
-      "src_name": "Vietstock — Ngân hàng",
-      "published": "2026-10-30T23:10+07:00"
-     },
-     {
-      "id": "w2c6778e995f5",
-      "title": "Lợi nhuận trước thuế quý III MSB tăng 27%",
-      "summary": "MSB ghi nhận lợi nhuận trước thuế quý III đạt 2.017 tỷ đồng, tăng 27,1% so với cùng kỳ, nhờ thu nhập lãi thuần và dịch vụ tăng trưởng.",
-      "url": "https://vnexpress.net/loi-nhuan-truoc-thue-quy-iii-msb-tang-27-5138878.html",
-      "src_name": "VnExpress — Kinh doanh",
-      "published": "2026-10-30T17:00+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t3",
-    "hang": 3,
-    "tieu_de": "Giá vàng trượt nhanh về gần 4.000 USD/oz sau báo cáo lạm phát PCE Mỹ",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wd3e431406546"
-    ],
-    "mot_dong": "Đồng USD, giá dầu và lợi suất trái phiếu kho bạc Mỹ cùng giảm, giúp hạn chế mức giảm của giá vàng, nhưng quỹ vàng SPDR Gold Trust vẫn bán ròng...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 5,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "wd3e431406546",
-      "title": "Giá vàng trượt nhanh về gần 4.000 USD/oz sau báo cáo lạm phát PCE Mỹ",
-      "summary": "Đồng USD, giá dầu và lợi suất trái phiếu kho bạc Mỹ cùng giảm, giúp hạn chế mức giảm của giá vàng, nhưng quỹ vàng SPDR Gold Trust vẫn bán ròng...",
-      "url": "https://vneconomy.vn/gia-vang-truot-nhanh-ve-gan-4000-usdoz-sau-bao-cao-lam-phat-pce-my.htm",
-      "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-10-30T07:39+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t4",
-    "hang": 4,
-    "tieu_de": "Sunshine Group: Lợi nhuận trước thuế 9 tháng vượt 5.900 tỷ đồng, tổng tài sản gần 121.000 tỷ đồng",
-    "loai": "chinh_sach",
-    "item_ids": [
-     "w729563c8fc13",
-     "w5874faeb91ec"
-    ],
-    "mot_dong": "Công ty Cổ phần Tập đoàn Sunshine (Sunshine Group, mã chứng khoán: KSF) vừa công bố báo cáo tài chính hợp nhất quý 3/2026, ghi nhận lợi nhuận trước thuế lũy kế 9 tháng đạt hơn 5.900 tỷ đồng, tổng tài sản hợp nhất tiến sát mốc 121.000 tỷ đồng.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "w729563c8fc13",
-      "title": "Sunshine Group: Lợi nhuận trước thuế 9 tháng vượt 5.900 tỷ đồng, tổng tài sản gần 121.000 tỷ đồng",
-      "summary": "Công ty Cổ phần Tập đoàn Sunshine (Sunshine Group, mã chứng khoán: KSF) vừa công bố báo cáo tài chính hợp nhất quý 3/2026, ghi nhận lợi nhuận trước thuế lũy kế 9 tháng đạt hơn 5.900 tỷ đồng, tổng tài sản hợp nhất tiến sát mốc 121.000 tỷ đồng.",
-      "url": "https://vneconomy.vn/sunshine-group-loi-nhuan-truoc-thue-9-thang-vuot-5900-ty-dong-tong-tai-san-gan-121000-ty-dong.htm",
-      "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-10-30T18:46+07:00"
-     },
-     {
-      "id": "w5874faeb91ec",
-      "title": "VietCredit lãi trước thuế gần 1.559 tỷ đồng sau 9 tháng, dư nợ vượt 20.900 tỷ đồng",
-      "summary": "Lũy kế 9 tháng đầu năm 2026, VietCredit ghi nhận lợi nhuận trước thuế 1.558,6 tỷ đồng, gần gấp đôi cùng kỳ. Tổng tài sản và dư nợ cho vay đều tăng hơn gấp đôi sau một năm. Song song, chi phí dịch vụ và dự phòng cũng tăng theo quy mô hoạt động.",
-      "url": "https://cafef.vn/vietcredit-lai-truoc-thue-gan-1559-ty-dong-sau-9-thang-du-no-vuot-20900-ty-dong-188261029202125114.chn",
-      "src_name": "CafeF — Tài chính NH",
-      "published": "2026-10-30T08:00+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t5",
-    "hang": 5,
-    "tieu_de": "Khối ngoại bán ròng hơn 350 tỷ đồng một cổ phiếu trong phiên 30/10",
+    "tieu_de": "Khối ngoại bán ròng kỷ lục hơn 20.800 tỷ đồng trong tháng 10",
     "loai": "thi_truong",
     "item_ids": [
+     "w36b4c927395b",
+     "wf72054dc466b",
+     "wb3ecfef06576",
+     "w1a520548a659",
+     "w2e2ed268bbfc",
+     "wdcf7783744bc",
+     "wb32a32f0bed5",
      "w45533336f9bc",
-     "w3f1ae3f5b6f9"
+     "w3f1ae3f5b6f9",
+     "wc2379bb1cbdf"
     ],
-    "mot_dong": "(ĐTCK) Nhà đầu tư ngoại tiếp tục gia tăng sức ép lên thị trường trong phiên giảm điểm ngày 30/10 khi tăng gần 50% giá trị bán ròng so với phiên trước, trong đó, tâm điểm xả bán là VIC và TCB. Khối ngoại tăng hơn 70% giá trị bán ròng trong phiên điều chỉnh ngày 29/10 Bảo vệ nhà đầu tư là mục tiêu quan trọng khi sửa Luật Chứng khoán Khối ngoại tiếp tục giảm mạnh bán ròng trong phiên 28/10",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
+    "mot_dong": "Nhà đầu tư nước ngoài có tháng bán ròng mạnh nhất từ đầu năm với hơn 20.800 tỷ đồng, tạo áp lực lớn lên thị trường.",
+    "ly_do_top": "Động thái bán ròng kỷ lục của dòng vốn ngoại trực tiếp ảnh hưởng đến thanh khoản và tâm lý thị trường chung hôm nay.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 5,
+    "ma_lien_quan": [
+     "VIC",
+     "TCB",
+     "FPT",
+     "MWG"
+    ],
+    "nganh": [
+     "Chứng khoán",
+     "Ngân hàng",
+     "Bất động sản"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
+     {
+      "id": "w36b4c927395b",
+      "title": "Khối ngoại bán ròng kỷ lục hơn 20.800 tỷ đồng trong tháng 10, cao nhất từ đầu năm",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Cùng chuỗi 6 tuần bán ròng liên tiếp, nhà đầu tư ngoại đã xác nhận tháng 10 là tháng bán ròng mạnh nhất kể từ đầu năm, với giá trị lên tới hơn 20.800 tỷ đồng, gấp gần 4,5 lần so với tháng trước. Khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất? Vốn ngoại tập trung vào lĩnh vực tài chính Ngân hàng mở khóa room ngoại thu hút thêm nhà đầu tư chiến lược",
+      "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-ban-rong-ky-luc-hon-20800-ty-dong-trong-thang-10-cao-nhat-tu-dau-nam-post400519.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-10-31T07:09+07:00"
+     },
+     {
+      "id": "wf72054dc466b",
+      "title": "Khối ngoại bán ròng gần 3.000 tỷ trong tuần cuối tháng 10, FPT bị \"xả\" mạnh nhất",
+      "text": "",
+      "author": null,
+      "summary": "Khối ngoại bán ròng mạnh xuyên suốt tuần qua.",
+      "url": "https://cafef.vn/khoi-ngoai-ban-rong-gan-3000-ty-trong-tuan-cuoi-thang-10-fpt-bi-xa-manh-nhat-188261031001137094.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-31T00:11+07:00"
+     },
+     {
+      "id": "wb3ecfef06576",
+      "title": "Khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất?",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Chu kỳ bán ròng của khối ngoại trên thị trường chứng khoán Việt Nam đã kéo dài hơn 3 năm, với quy mô lớn nhất trong 6 năm qua. Vậy khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất thời gian tới? Cổ phiếu giảm sâu, các quỹ tìm cơ hội ở đâu trong quý IV? VIC tăng hơn 11% sau hai phiên, kỳ vọng nào đang hỗ trợ nhóm cổ phiếu Vingroup? Chuyên gia HSC, FiinGroup lý giải việc khối ngoại vẫn bán ròng gần 1 tỷ USD sau nâng hạng",
+      "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-con-ban-rong-bao-nhieu-va-nhung-co-phieu-co-the-chiu-ap-luc-ban-manh-nhat-post400492.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-10-30T15:25+07:00"
+     },
+     {
+      "id": "w1a520548a659",
+      "title": "Thị trường chứng khoán Việt Nam làm gì để giữ chân dòng vốn ngoại sau mốc nâng hạng?",
+      "text": "",
+      "author": null,
+      "summary": "Tháo gỡ rào cản tỷ lệ sở hữu nước ngoài, nâng cao chất lượng các đợt IPO, minh bạch hóa chính sách và củng cố nội lực doanh nghiệp được xem là điều kiện tiên quyết giúp thị trường hóa giải áp lực bán ròng vĩ mô và giữ chân dòng vốn quốc tế bền vững sau mốc nâng hạng lịch sử.",
+      "url": "http://vietstock.vn/2026/10/thi-truong-chung-khoan-viet-nam-lam-gi-de-giu-chan-dong-von-ngoai-sau-moc-nang-hang-830-1509722.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-10-30T20:18+07:00"
+     },
+     {
+      "id": "w2e2ed268bbfc",
+      "title": "Chủ tịch UBCKNN đề nghị rà soát quy định về sở hữu nước ngoài",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Rà soát quy định về tỷ lệ sở hữu nước ngoài, phát triển công cụ phòng ngừa rủi ro tỷ giá và đưa thêm doanh nghiệp lớn lên sàn là những nội dung Chủ tịch UBCKNN Vũ Thị Chân Phương đề nghị phối hợp thực hiện để tăng khả năng thu hút vốn đầu tư. Nâng chuẩn thành viên độc lập HĐQT sau nâng hạng Nâng hạng thị trường, mở đường cho dòng vốn dài hạn Thứ trưởng Bộ Tài chính: Khẩn trương nâng cao chất lượng quản trị công ty",
+      "url": "https://www.tinnhanhchungkhoan.vn/chu-tich-ubcknn-de-nghi-ra-soat-quy-dinh-ve-so-huu-nuoc-ngoai-post400501.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-10-30T15:25+07:00"
+     },
+     {
+      "id": "wdcf7783744bc",
+      "title": "Chủ tịch UBCKNN Vũ Thị Chân Phương: \"Doanh nghiệp là yếu tố then chốt thu hút dòng vốn mới\"",
+      "text": "",
+      "author": null,
+      "summary": "Chủ tịch Ủy ban Chứng khoán Nhà nước (UBCKNN) Vũ Thị Chân Phương nhấn mạnh, sự chủ động nâng cao năng lực quản trị, tính minh bạch và hiệu quả sử dụng vốn của các doanh nghiệp niêm yết mới là yếu tố quyết định để giữ chân các dòng vốn quốc tế sau mốc nâng hạng. Bên cạnh vai trò then chốt từ phía doanh nghiệp, cơ quan quản lý sẽ tập trung triển khai 5 nhóm nhiệm vụ chiến lược nhằm hoàn thiện thể chế, nâng cấp hạ tầng và bảo đảm thị trường phát triển an toàn, bền vững.",
+      "url": "http://vietstock.vn/2026/10/chu-tich-ubcknn-vu-thi-chan-phuong-doanh-nghiep-la-yeu-to-then-chot-thu-hut-dong-von-moi-830-1509543.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-10-30T19:13+07:00"
+     },
+     {
+      "id": "wb32a32f0bed5",
+      "title": "Chủ tịch Ủy ban Chứng khoán: 5 nhiệm vụ trọng tâm nâng cao chất lượng thị trường sau nâng hạng",
+      "text": "",
+      "author": null,
+      "summary": "Tính đến ngày 21/10/2026, quy mô thị trường cổ phiếu đạt 10,16 triệu tỷ đồng, số lượng tài khoản nhà đầu tư vượt 14 triệu. Sau khi được FTSE Russell nâng hạng, Ủy ban Chứng khoán Nhà nước xác định 5 nhiệm vụ trọng tâm nhằm nâng cao chất lượng và năng lực cạnh tranh của thị trường trong giai đoạn tới...",
+      "url": "https://vneconomy.vn/chu-tich-uy-ban-chung-khoan-5-nhiem-vu-trong-tam-nang-cao-chat-luong-thi-truong-sau-nang-hang.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-10-30T15:24+07:00"
+     },
      {
       "id": "w45533336f9bc",
       "title": "Khối ngoại bán ròng hơn 350 tỷ đồng một cổ phiếu trong phiên 30/10",
+      "text": "",
+      "author": null,
       "summary": "(ĐTCK) Nhà đầu tư ngoại tiếp tục gia tăng sức ép lên thị trường trong phiên giảm điểm ngày 30/10 khi tăng gần 50% giá trị bán ròng so với phiên trước, trong đó, tâm điểm xả bán là VIC và TCB. Khối ngoại tăng hơn 70% giá trị bán ròng trong phiên điều chỉnh ngày 29/10 Bảo vệ nhà đầu tư là mục tiêu quan trọng khi sửa Luật Chứng khoán Khối ngoại tiếp tục giảm mạnh bán ròng trong phiên 28/10",
       "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-ban-rong-hon-350-ty-dong-mot-co-phieu-trong-phien-3010-post400514.html",
       "src_name": "Tin nhanh CK",
@@ -1980,248 +1986,810 @@
      {
       "id": "w3f1ae3f5b6f9",
       "title": "Một cổ phiếu \"hot\" bị khối ngoại xả hơn 350 tỷ đồng phiên cuối tuần",
+      "text": "",
+      "author": null,
       "summary": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 641 tỷ đồng cổ phiếu trên toàn thị trường.",
       "url": "https://cafef.vn/mot-co-phieu-hot-bi-khoi-ngoai-xa-hon-350-ty-dong-phien-cuoi-tuan-188261030151018909.chn",
       "src_name": "CafeF — Chứng khoán",
       "published": "2026-10-30T15:45+07:00"
+     },
+     {
+      "id": "wc2379bb1cbdf",
+      "title": "Theo dấu dòng tiền cá mập 30/10: Khối ngoại xả VIC, tự doanh dồn lực gom MWG",
+      "text": "",
+      "author": null,
+      "summary": "Phiên giao dịch ngày 30/10, khối ngoại tiếp tục duy trì trạng thái bán ròng phiên thứ 6 liên tiếp với giá trị 647 tỷ đồng. Trong khi đó, khối tự doanh công ty chứng khoán lại ghi nhận diễn biến trái chiều khi mua ròng 87 tỷ đồng trên sàn HOSE.",
+      "url": "http://vietstock.vn/2026/10/theo-dau-dong-tien-ca-map-3010-khoi-ngoai-xa-vic-tu-doanh-don-luc-gom-mwg-830-1509488.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-10-30T19:07+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t2",
+    "hang": 2,
+    "tieu_de": "VN-Index lùi về 1.741 điểm, dư nợ margin toàn thị trường đạt kỷ lục",
+    "loai": "thi_truong",
+    "item_ids": [
+     "w586b18a4c4cf",
+     "w05f2383d042b",
+     "w4b776fac32cc",
+     "w1ecb4bffc292",
+     "w53eff61af088",
+     "w4b8e7ff8eb7d",
+     "wca8dc5f7f85c",
+     "w160e3ffa9d4e",
+     "we92bb349984c"
+    ],
+    "mot_dong": "VN-Index giảm 13,99 điểm xuống 1.741,62 điểm trong khi dư nợ margin toàn ngành chứng khoán lập đỉnh gần 448.000 tỷ đồng.",
+    "ly_do_top": "Chỉ số chịu áp lực điều chỉnh mạnh từ nhóm tài chính cùng rủi ro đòn bẩy margin chạm mốc kỷ lục.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 5,
+    "ma_lien_quan": [],
+    "nganh": [
+     "Chứng khoán",
+     "Ngân hàng"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
+    "nguon": [
+     {
+      "id": "w586b18a4c4cf",
+      "title": "VN-Index giảm sâu phiên cuối tháng",
+      "text": "",
+      "author": null,
+      "summary": "Gần 250 cổ phiếu đóng cửa dưới tham chiếu khiến VN-Index mất xấp xỉ 14 điểm, xuống 1.741 điểm trong phiên cuối tháng 10.",
+      "url": "https://vnexpress.net/vn-index-giam-sau-phien-cuoi-thang-5138832.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-10-30T16:01+07:00"
+     },
+     {
+      "id": "w05f2383d042b",
+      "title": "Nhịp đập Thị trường 30/10: VN-Index tiếp tục lui về mốc 1,740 điểm, khối ngoại kéo dài chuỗi bán ròng",
+      "text": "",
+      "author": null,
+      "summary": "Kết thúc phiên giao dịch, VN-Index giảm 13.99 điểm (-0.8%), xuống mức 1,741.62 điểm; HNX-Index giảm 3.87 điểm (-1.51%), xuống mức 252.74 điểm. Độ rộng toàn thị trường với sắc đỏ áp đảo hơn khi bên bán có 518 mã giảm và bên mua có 233 mã tăng. Tương tự, sắc đỏ áp đảo trong rổ VN30 với 23 mã giảm, 3 mã tăng và 4 mã tham chiếu.",
+      "url": "http://vietstock.vn/2026/10/nhip-dap-thi-truong-3010-vn-index-tiep-tuc-lui-ve-moc-1740-diem-khoi-ngoai-keo-dai-chuoi-ban-rong-1636-1509009.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-10-30T16:57+07:00"
+     },
+     {
+      "id": "w4b776fac32cc",
+      "title": "Nhóm tài chính đồng loạt giảm, VN-Index lùi về gần 1.740 điểm",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Áp lực từ cổ phiếu VIC hạ nhiệt tưởng chừng giúp thị trường cân bằng hơn, nhưng bất ngờ các mã ngân hàng, công ty chứng khoán đồng loạt nới đà giảm đã khiến VN-Index chịu thêm một phiên điều chỉnh. MBS: Hiệu suất của chỉ số VN-Index tháng 10 không tốt Ngân hàng đua phát hành trái phiếu nhưng hầu hết chưa xếp hạng tín nhiệm, nhà đầu tư khó so sánh mức độ rủi ro Quãng trầm của các công ty chứng khoán",
+      "url": "https://www.tinnhanhchungkhoan.vn/nhom-tai-chinh-dong-loat-giam-vn-index-lui-ve-gan-1740-diem-post400504.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-10-30T15:26+07:00"
+     },
+     {
+      "id": "w1ecb4bffc292",
+      "title": "Lợi nhuận ngành chứng khoán giảm, dư nợ margin lập kỷ lục gần 448.000 tỷ đồng",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Dù doanh thu hoạt động tăng gần 23% trong 9 tháng đầu năm 2026, lợi nhuận ngành chứng khoán vẫn suy giảm khi mảng môi giới và tự doanh gặp khó khăn. Trong khi đó, dư nợ cho vay ký quỹ tiếp tục lập kỷ lục, tạo ra sự chênh lệch đáng chú ý với thanh khoản thị trường. Cổ phiếu giảm sâu, các quỹ tìm cơ hội ở đâu trong quý IV? Quãng trầm của các công ty chứng khoán Áp lực giải chấp gia tăng",
+      "url": "https://www.tinnhanhchungkhoan.vn/loi-nhuan-nganh-chung-khoan-giam-du-no-margin-lap-ky-luc-gan-448000-ty-dong-post400498.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-10-30T15:16+07:00"
+     },
+     {
+      "id": "w53eff61af088",
+      "title": "Hơn 450 cổ phiếu chìm trong sắc đỏ",
+      "text": "",
+      "author": null,
+      "summary": "Phiên giao dịch ngày 30/10 có thời điểm mất hơn 25 điểm và rơi xuống sát 1.728 điểm, VN-Index hồi phục đáng kể trong phiên chiều nhờ lực đỡ từ một số cổ phiếu trụ. Tuy nhiên, chỉ số vẫn đóng cửa dưới mốc 1.750 điểm. Trên cả 3 sàn, sắc đỏ chiếm ưu thế với 453 cổ phiếu giảm giá.",
+      "url": "https://cafef.vn/hon-450-co-phieu-chim-trong-sac-do-188261030165327203.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T17:35+07:00"
+     },
+     {
+      "id": "w4b8e7ff8eb7d",
+      "title": "Blog chứng khoán: Tiến thoái lưỡng nan",
+      "text": "",
+      "author": null,
+      "summary": "Thị trường đã thực sự mở biên độ hôm nay, dù điểm số giảm ít nhưng cổ phiếu lao dốc rất nặng. Ảo giác điểm số khiến các vị thế ngắn hạn rơi vào trạng thái “tiến thoái lưỡng nan”, nhìn VNI thì chỉ điều chỉnh bình thường, nhưng cổ phiếu không chỉ mất lãi mà có nguy cơ lỗ.",
+      "url": "https://vneconomy.vn/blog-chung-khoan-tien-thoai-luong-nan.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-10-30T16:23+07:00"
+     },
+     {
+      "id": "wca8dc5f7f85c",
+      "title": "Cổ phiếu lao dốc hàng loạt, ngân hàng tạo sức ép lớn",
+      "text": "",
+      "author": null,
+      "summary": "Mặc dù VN-Index có một nhịp phục hồi chiều nay nhưng chỉ là nhờ vài trụ, còn đa số cổ phiếu lao dốc nặng thêm. Sàn HoSE chứng kiến số mã đỏ nhiều gấp 3,5 lần số xanh, trong đó tròn 100 mã giảm vượt 2%, chưa kể gần 70 mã khác giảm từ 1% tới 2%.",
+      "url": "https://vneconomy.vn/co-phieu-lao-doc-hang-loat-ngan-hang-tao-suc-ep-lon.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-10-30T15:23+07:00"
+     },
+     {
+      "id": "w160e3ffa9d4e",
+      "title": "Dòng tiền quá yếu, chỉ số giảm sốc",
+      "text": "",
+      "author": null,
+      "summary": "Sự cộng hưởng từ đà giảm mạnh ở các cổ phiếu trụ kết hợp với sắc đỏ loang rộng toàn thị trường khiến VN-Index sáng nay có phiên giảm mạnh nhất 25 phiên khi để mất 1,44% tương đương -25,26 điểm. Bất ngờ là thanh khoản cũng cực thấp với 4.971 tỷ đồng, giảm gần 30% so với sáng hôm qua, cho thấy sức mua có vấn đề.",
+      "url": "https://vneconomy.vn/dong-tien-qua-yeu-chi-so-giam-soc.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-10-30T12:08+07:00"
+     },
+     {
+      "id": "we92bb349984c",
+      "title": "Chứng khoán Tuần 26-30/10/2026: Nỗ lực phục hồi bất thành",
+      "text": "",
+      "author": null,
+      "summary": "VN-Index không thể duy trì đà phục hồi trong tuần qua khi giảm điểm trong 4/5 phiên giao dịch. Tâm lý thận trọng vẫn hiện hữu trong bối cảnh dòng tiền thiếu sự đồng thuận và khối ngoại chưa dứt đà bán ròng khiến triển vọng ngắn hạn còn nhiều thách thức.",
+      "url": "http://vietstock.vn/2026/10/chung-khoan-tuan-26-30102026-no-luc-phuc-hoi-bat-thanh-1636-1509392.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-10-30T18:17+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t3",
+    "hang": 3,
+    "tieu_de": "Giá vàng thế giới lao dốc thủng mốc 4.000 USD/oz",
+    "loai": "quoc_te",
+    "item_ids": [
+     "wd3e431406546",
+     "w426a8cc7a92c",
+     "w1cfa60702150",
+     "wd1749f37f78c",
+     "w6c0dd9041ecf",
+     "wa30bc515004c",
+     "w466530a9ad9b"
+    ],
+    "mot_dong": "Giá vàng thế giới giảm hơn 120 USD/ounce xuống vùng 3.900 USD/oz, kéo giá vàng trong nước giảm 1,3 triệu đồng/lượng.",
+    "ly_do_top": "Cú sốc giảm mạnh của kim loại quý tác động tới dòng tiền trú ẩn và khẩu vị rủi ro toàn cầu.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 4,
+    "ma_lien_quan": [
+     "PNJ"
+    ],
+    "nganh": [
+     "Vàng bạc đá quý"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
+    "nguon": [
+     {
+      "id": "wd3e431406546",
+      "title": "Giá vàng trượt nhanh về gần 4.000 USD/oz sau báo cáo lạm phát PCE Mỹ",
+      "text": "",
+      "author": null,
+      "summary": "Đồng USD, giá dầu và lợi suất trái phiếu kho bạc Mỹ cùng giảm, giúp hạn chế mức giảm của giá vàng, nhưng quỹ vàng SPDR Gold Trust vẫn bán ròng...",
+      "url": "https://vneconomy.vn/gia-vang-truot-nhanh-ve-gan-4000-usdoz-sau-bao-cao-lam-phat-pce-my.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-10-30T07:39+07:00"
+     },
+     {
+      "id": "w426a8cc7a92c",
+      "title": "Giá vàng lao dốc xuyên thủng mốc 4.000 USD/oz, chuyện gì đang xảy ra?",
+      "text": "",
+      "author": null,
+      "summary": "Không chỉ vàng, giá bạc cũng lao dốc mạnh trong phiên 30/10.",
+      "url": "https://cafef.vn/gia-vang-lao-doc-xuyen-thung-moc-4000-usd-oz-chuyen-gi-dang-xay-ra-188261030212910908.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T21:30+07:00"
+     },
+     {
+      "id": "w1cfa60702150",
+      "title": "Giá vàng miếng, vàng nhẫn hôm nay (31/10) tại SJC, DOJI, Bảo Tín Mạnh Hải, PNJ,...: Bao nhiêu tiền một chỉ?",
+      "text": "",
+      "author": null,
+      "summary": "Giá vàng trong nước đi ngang trong khi giá vàng thế giới giảm sâu, mất mốc 4.000 USD/ounce.",
+      "url": "https://cafef.vn/gia-vang-mieng-vang-nhan-hom-nay-31-10-tai-sjc-doji-bao-tin-manh-hai-pnj-bao-nhieu-tien-mot-chi-188261031073825033.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-10-31T07:38+07:00"
+     },
+     {
+      "id": "wd1749f37f78c",
+      "title": "Giá vàng lao dốc trong đêm 30/10",
+      "text": "",
+      "author": null,
+      "summary": "Tối ngày 30/10, giá vàng thế giới trên thị trường quốc tế lao dốc mạnh và tuột xa mốc 4.000 USD/ounce. Kim loại quý này đã giảm tới hơn 120 USD/ounce trong phiên hôm nay xuống quanh vùng 3.900 USD/ounce.",
+      "url": "https://cafef.vn/gia-vang-lao-doc-trong-dem-30-10-188261030214344189.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-10-30T21:43+07:00"
+     },
+     {
+      "id": "w6c0dd9041ecf",
+      "title": "Giá vàng hôm nay 30/10: Lao dốc về đáy trong 1 tháng qua",
+      "text": "",
+      "author": null,
+      "summary": "Giá vàng trong nước sáng 30/10 đồng loạt giảm 800.000-1,3 triệu đồng/lượng, xuống mức thấp nhất trong một tháng qua.",
+      "url": "https://cafef.vn/gia-vang-hom-nay-30-10-lao-doc-ve-day-trong-1-thang-qua-188261030105013821.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T10:56+07:00"
+     },
+     {
+      "id": "wa30bc515004c",
+      "title": "Giá vàng thế giới lao dốc, xuống thấp nhất một năm",
+      "text": "",
+      "author": null,
+      "summary": "Vàng và loạt kim loại khác bị bán tháo trong phiên cuối tháng, hiện về mức thấp nhất kể từ cuối năm 2025.",
+      "url": "https://vnexpress.net/gia-vang-the-gioi-lao-doc-xuong-thap-nhat-mot-nam-5139023.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-10-31T07:17+07:00"
+     },
+     {
+      "id": "w466530a9ad9b",
+      "title": "Giá vàng rơi về vùng đáy của 3 tháng",
+      "text": "",
+      "author": null,
+      "summary": "Trong phiên 30/10, giá vàng miếng SJC giảm 1,3 triệu đồng/lượng ở cả hai chiều mua và bán; niêm yết tại ngưỡng phổ biến 138,4 triệu – 141,4 triệu đồng/lượng. Đây mức giao dịch thấp nhất kể từ cuối tháng 7/2026…",
+      "url": "https://vneconomy.vn/gia-vang-roi-ve-vung-day-cua-3-thang.htm",
+      "src_name": "VnEconomy — Tài chính",
+      "published": "2026-10-30T15:01+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t4",
+    "hang": 4,
+    "tieu_de": "Vinhomes và Vingroup công bố lợi nhuận 9 tháng tăng trưởng kỷ lục",
+    "loai": "doanh_nghiep",
+    "item_ids": [
+     "w1d77337d9e3d",
+     "wdfa61612323f",
+     "wf6b0e43fffc3",
+     "wcb90ea86b6fa",
+     "w2bd73a6a9247",
+     "w5acf2caae77d"
+    ],
+    "mot_dong": "Vinhomes đạt hơn 75.000 tỷ đồng lợi nhuận 9 tháng, Vingroup lãi 43.700 tỷ đồng (gấp 6 lần cùng kỳ) và huy động 2,3 tỷ USD quốc tế.",
+    "ly_do_top": "Kết quả kinh doanh đột biến từ tập đoàn vốn hóa lớn nhất thị trường ảnh hưởng trực tiếp tới nhóm VN30.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 4,
+    "ma_lien_quan": [
+     "VHM",
+     "VIC",
+     "VRE"
+    ],
+    "nganh": [
+     "Bất động sản"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
+    "nguon": [
+     {
+      "id": "w1d77337d9e3d",
+      "title": "Vingroup lãi 9 tháng 43,7 nghìn tỷ đồng, gấp 6 lần cùng kỳ, huy động 2,3 tỷ USD từ quốc tế",
+      "text": "",
+      "author": null,
+      "summary": "Lợi nhuận sau thuế hợp nhất 9 tháng đầu năm 2026 của Vingroup đạt 43,7 nghìn tỷ đồng, gấp gần sáu lần so với cùng kỳ và hoàn thành 125% kế hoạch lợi nhuận cả năm 2026.",
+      "url": "https://cafef.vn/vingroup-lai-9-thang-437-nghin-ty-dong-gap-6-lan-cung-ky-huy-dong-23-ty-usd-tu-quoc-te-188261030141102583.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T14:11+07:00"
+     },
+     {
+      "id": "wdfa61612323f",
+      "title": "Chưa từng có: Vinhomes lãi 9 tháng kỷ lục hơn 75.000 tỷ đồng, vượt 25% kế hoạch cả năm",
+      "text": "",
+      "author": null,
+      "summary": "Công ty Cổ phần Vinhomes (mã chứng khoán: VHM) công bố Báo cáo tài chính hợp nhất Quý III/2026 theo Chuẩn mực kế toán Việt Nam (VAS). Kết quả nổi bật là lợi nhuận sau thuế 9 tháng đã vượt kế hoạch cả năm, cùng mức tăng trưởng mạnh về doanh thu và doanh số bán hàng.",
+      "url": "https://cafef.vn/chua-tung-co-vinhomes-lai-9-thang-ky-luc-hon-75000-ty-dong-vuot-25-ke-hoach-ca-nam-188261030130647614.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T13:05+07:00"
+     },
+     {
+      "id": "wf6b0e43fffc3",
+      "title": "Vingroup báo lợi nhuận sau thuế 9 tháng gấp 6 lần cùng kỳ, tổng tài sản đạt 1,6 triệu tỷ đồng",
+      "text": "",
+      "author": null,
+      "summary": "Tại ngày 30 tháng 09 năm 2026, tổng tài sản đạt 1,6 triệu tỷ đồng, tăng 44,8% so với đầu năm. Đồng thời, tiền, tương đương tiền và đầu tư tài chính ngắn hạn đạt 106,8 nghìn tỷ đồng, nợ vay ở mức gần 390 nghìn tỷ đồng.",
+      "url": "https://cafef.vn/vingroup-bao-loi-nhuan-sau-thue-9-thang-gap-6-lan-cung-ky-tong-tai-san-dat-16-trieu-ty-dong-188261030140923576.chn",
+      "src_name": "CafeF — Doanh nghiệp",
+      "published": "2026-10-30T14:08+07:00"
+     },
+     {
+      "id": "wcb90ea86b6fa",
+      "title": "Vingroup lần đầu lãi trước thuế hơn tỷ USD trong một quý",
+      "text": "",
+      "author": null,
+      "summary": "Vingroup lãi trước thuế gần 29.940 tỷ đồng trong quý III, tương đương hơn 1,1 tỷ USD, nhờ kết quả tích cực của mảng bất động sản.",
+      "url": "https://vnexpress.net/vingroup-lan-dau-lai-truoc-thue-hon-ty-usd-trong-mot-quy-5138844.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-10-30T17:05+07:00"
+     },
+     {
+      "id": "w2bd73a6a9247",
+      "title": "Tỷ phú Phạm Nhật Vượng góp thêm gần nửa tỷ USD vào VinFast Việt Nam",
+      "text": "",
+      "author": null,
+      "summary": "Tỷ phú Phạm Nhật Vượng vừa góp thêm 11.000 tỷ đồng vào VinFast Việt Nam, nhằm tiếp tục củng cố năng lực tài chính cho doanh nghiệp này.",
+      "url": "https://cafef.vn/ty-phu-pham-nhat-vuong-gop-them-gan-nua-ty-usd-vao-vinfast-viet-nam-188261030165227801.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T16:52+07:00"
+     },
+     {
+      "id": "w5acf2caae77d",
+      "title": "Ông Phạm Nhật Vượng góp thêm gần nửa tỷ USD vào VinFast Việt Nam",
+      "text": "",
+      "author": null,
+      "summary": "Ông Phạm Nhật Vượng vừa rót thêm 436 triệu USD vào VinFast Việt Nam qua hình thức nhận cổ phiếu ưu đãi cổ tức, theo hồ sơ nộp lên SEC.",
+      "url": "https://vnexpress.net/ong-pham-nhat-vuong-gop-them-gan-nua-ty-usd-vao-vinfast-viet-nam-5138716.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-10-30T11:42+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t5",
+    "hang": 5,
+    "tieu_de": "VietinBank vượt mốc lợi nhuận quý 3 dẫn đầu toàn ngành ngân hàng",
+    "loai": "doanh_nghiep",
+    "item_ids": [
+     "wee01c3f29456",
+     "w3077eec842bf",
+     "wd8d14ba990f1",
+     "w81c13bdabe6c",
+     "w8f5680bf0912",
+     "w1d00f6961db8"
+    ],
+    "mot_dong": "VietinBank vượt Vietcombank để dẫn đầu lợi nhuận quý 3 với 13.688 tỷ đồng; BIDV báo lãi tăng 39% nhờ giảm chi phí dự phòng.",
+    "ly_do_top": "Nhóm ngân hàng công bố BCTC quý 3 phân hóa, đóng vai trò then chốt nâng đỡ hoặc gây áp lực lên chỉ số.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 4,
+    "ma_lien_quan": [
+     "CTG",
+     "BID",
+     "MSB",
+     "TPB",
+     "STB"
+    ],
+    "nganh": [
+     "Ngân hàng"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
+    "nguon": [
+     {
+      "id": "wee01c3f29456",
+      "title": "VietinBank dẫn đầu lợi nhuận ngành ngân hàng trong quý III",
+      "text": "",
+      "author": null,
+      "summary": "Vượt qua Vietcombank, VietinBank trở thành đơn vị lãi lớn nhất ngành ngân hàng trong quý III, với mức lợi nhuận trước thuế 13.688 tỷ đồng.",
+      "url": "https://vnexpress.net/vietinbank-dan-dau-loi-nhuan-nganh-ngan-hang-trong-quy-iii-5139002.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-10-31T07:12+07:00"
+     },
+     {
+      "id": "w3077eec842bf",
+      "title": "Giảm dự phòng rủi ro, BIDV tăng 39% lợi nhuận trước thuế quý 3",
+      "text": "",
+      "author": null,
+      "summary": "BCTC hợp nhất quý 3/2026 cho thấy Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV, HOSE: BID) ghi nhận lợi nhuận trước thuế gần 10,579 tỷ đồng, tăng 39% so với cùng kỳ năm trước, nhờ các hoạt động kinh doanh tăng trưởng và giảm chi phí dự phòng rủi ro.",
+      "url": "http://vietstock.vn/2026/10/giam-du-phong-rui-ro-bidv-tang-39-loi-nhuan-truoc-thue-quy-3-737-1509741.htm",
+      "src_name": "Vietstock — Ngân hàng",
+      "published": "2026-10-30T23:10+07:00"
+     },
+     {
+      "id": "wd8d14ba990f1",
+      "title": "MSB tăng trưởng lợi nhuận trước thuế hơn 27% trong quý III",
+      "text": "",
+      "author": null,
+      "summary": "Ngân hàng TMCP Hàng Hải Việt Nam (HoSE: MSB) công bố kết quả kinh doanh với lợi nhuận trước thuế quý III/2026 đạt 2.017 tỷ đồng, tăng 27,1% so với cùng kỳ; lũy kế 9 tháng đạt gần 5.440 tỷ đồng. Động lực tăng trưởng đến từ hoạt động kinh doanh cốt lõi, thu nhập lãi thuần khởi sắc và hiệu quả kiểm soát chi phí an toàn.",
+      "url": "https://cafef.vn/msb-tang-truong-loi-nhuan-truoc-thue-hon-27-trong-quy-iii-188261030155423323.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-10-30T15:55+07:00"
+     },
+     {
+      "id": "w81c13bdabe6c",
+      "title": "TPBank tiến sát mốc 600,000 tỷ đồng tổng tài sản sau 9 tháng, lợi nhuận tăng hơn 23%",
+      "text": "",
+      "author": null,
+      "summary": "Trong bối cảnh kinh tế vĩ mô còn nhiều biến động, TPBank tiếp tục duy trì đà tăng trưởng tích cực với quy mô tài sản, tín dụng và huy động tiến sát hoặc vượt kế hoạch cả năm, cùng lợi nhuận trước thuế 9 tháng tăng hơn 23% so với cùng kỳ.",
+      "url": "http://vietstock.vn/2026/10/tpbank-tien-sat-moc-600000-ty-dong-tong-tai-san-sau-9-thang-loi-nhuan-tang-hon-23-737-1508917.htm",
+      "src_name": "Vietstock — Ngân hàng",
+      "published": "2026-10-30T10:02+07:00"
+     },
+     {
+      "id": "w8f5680bf0912",
+      "title": "Cập nhật lợi nhuận ngân hàng tối 30/10: Vietcombank, MB, VietinBank, BIDV, Eximbank,....",
+      "text": "",
+      "author": null,
+      "summary": "Cập nhật mới nhất, 26 ngân hàng đã công bố báo cáo tài chính quý 3/2026.",
+      "url": "https://cafef.vn/cap-nhat-loi-nhuan-ngan-hang-toi-30-10-vietcombank-mb-vietinbank-bidv-eximbank-188261030182505541.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-10-30T20:07+07:00"
+     },
+     {
+      "id": "w1d00f6961db8",
+      "title": "Chứng chỉ tiền gửi một ngân hàng \"đắt khách\", số dư giấy tờ có giá tăng vọt",
+      "text": "",
+      "author": null,
+      "summary": "Sacombank huy động thêm hơn 46.000 tỷ đồng qua giấy tờ có giá trong quý 3, phần lớn nhờ chứng chỉ tiền gửi. Chi phí vốn tăng cùng áp lực dự phòng khiến lợi nhuận quý này giảm gần một nửa.",
+      "url": "https://cafef.vn/chung-chi-tien-gui-mot-ngan-hang-dat-khach-so-du-giay-to-co-gia-tang-vot-188261030155624672.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-10-31T00:01+07:00"
      }
     ]
    },
    {
     "id": "t6",
     "hang": 6,
-    "tieu_de": "Thị trường chứng khoán Việt Nam làm gì để giữ chân dòng vốn ngoại sau mốc nâng hạng?",
-    "loai": "thi_truong",
+    "tieu_de": "BSR báo lãi 9 tháng đạt gần 25.000 tỷ đồng",
+    "loai": "doanh_nghiep",
     "item_ids": [
-     "w1a520548a659"
+     "wf9199d012f58",
+     "w1b39a70d3c03"
     ],
-    "mot_dong": "Tháo gỡ rào cản tỷ lệ sở hữu nước ngoài, nâng cao chất lượng các đợt IPO, minh bạch hóa chính sách và củng cố nội lực doanh nghiệp được xem là điều kiện tiên quyết giúp thị trường hóa giải áp lực bán ròng vĩ mô và giữ chân dòng vốn quốc tế bền vững sau mốc nâng hạng lịch sử.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "mot_dong": "Lợi nhuận 9 tháng của Lọc hóa dầu Bình Sơn tiệm cận 25.000 tỷ đồng (1 tỷ USD), lãi quý 3 tăng 858%.",
+    "ly_do_top": "Doanh nghiệp dầu khí trụ cột ghi nhận kết quả kinh doanh đột biến trong bối cảnh giá dầu thế giới tăng 4 tháng liên tiếp.",
+    "su_kien_hay_nhan_dinh": "su_kien",
     "quan_trong": 4,
-    "tin_tho": true,
+    "ma_lien_quan": [
+     "BSR"
+    ],
+    "nganh": [
+     "Dầu khí"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
      {
-      "id": "w1a520548a659",
-      "title": "Thị trường chứng khoán Việt Nam làm gì để giữ chân dòng vốn ngoại sau mốc nâng hạng?",
-      "summary": "Tháo gỡ rào cản tỷ lệ sở hữu nước ngoài, nâng cao chất lượng các đợt IPO, minh bạch hóa chính sách và củng cố nội lực doanh nghiệp được xem là điều kiện tiên quyết giúp thị trường hóa giải áp lực bán ròng vĩ mô và giữ chân dòng vốn quốc tế bền vững sau mốc nâng hạng lịch sử.",
-      "url": "http://vietstock.vn/2026/10/thi-truong-chung-khoan-viet-nam-lam-gi-de-giu-chan-dong-von-ngoai-sau-moc-nang-hang-830-1509722.htm",
-      "src_name": "Vietstock — Cổ phiếu",
-      "published": "2026-10-30T20:18+07:00"
+      "id": "wf9199d012f58",
+      "title": "Nhà máy lọc dầu 3 tỷ USD của Việt Nam lần đầu tiên lãi ngay 1 tỷ USD chỉ sau 9 tháng, doanh thu xăng E10 tăng 1.900 lần",
+      "text": "",
+      "author": null,
+      "summary": "Lợi nhuận 9 tháng của BSR lên sát mốc 25.000 tỷ đồng. Dầu diesel đang là nguồn lợi nhuận chủ lực, trong khi doanh thu xăng sinh học tăng mạnh.",
+      "url": "https://cafef.vn/nha-may-loc-dau-3-ty-usd-cua-viet-nam-lan-dau-tien-lai-ngay-1-ty-usd-chi-sau-9-thang-doanh-thu-xang-e10-tang-1900-lan-188261030225946407.chn",
+      "src_name": "CafeF — Doanh nghiệp",
+      "published": "2026-10-31T00:01+07:00"
+     },
+     {
+      "id": "w1b39a70d3c03",
+      "title": "Cập nhật BCTC quý 3/2026 ngày 31/10: BSR, SHB, Eximbank, Vietnam Airlines cùng nhiều doanh nghiệp lớn công bố, kết quả bất ngờ",
+      "text": "",
+      "author": null,
+      "summary": "BSR và EVN Genco3 ghi nhận lợi nhuận trước thuế quý 3/2026 tăng lần lượt 858% và 778%. Trong khi đó, Vietnam Airlines và Eximbank báo lợi nhuận giảm so với cùng kỳ.",
+      "url": "https://cafef.vn/cap-nhat-bctc-quy-3-2026-ngay-31-10-bsr-shb-eximbank-vietnam-airlines-cung-nhieu-doanh-nghiep-lon-cong-bo-ket-qua-bat-ngo-188261031002348599.chn",
+      "src_name": "CafeF — Doanh nghiệp",
+      "published": "2026-10-31T00:23+07:00"
      }
     ]
    },
    {
     "id": "t7",
     "hang": 7,
-    "tieu_de": "Đại biểu Quốc hội: “Người dân còn giữ khoảng 500 tấn vàng, xấp xỉ 12% GDP”",
-    "loai": "vi_mo_vn",
+    "tieu_de": "Cổ phiếu Alphabet bốc hơi 500 tỷ USD làm Phố Wall quay đầu giảm",
+    "loai": "quoc_te",
     "item_ids": [
-     "wecc70f31cba5"
+     "w5a933abe4d63",
+     "w8cd2bb21269d",
+     "we50f12829ea5",
+     "w362f836ead8d"
     ],
-    "mot_dong": "Tiếp tục chương trình Kỳ họp thứ hai, Quốc hội khóa XVI, chiều 30/10, Quốc hội thảo luận tại hội trường về tình hình thực hiện Kế hoạch phát triển kinh tế - xã hội, tình hình thực hiện ngân sách nhà nước và kế hoạch đầu tư công.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
+    "mot_dong": "Cổ phiếu Alphabet giảm gần 13% sau báo cáo kết quả kinh doanh, kéo theo sự sụt giảm của nhóm công nghệ AI trên thị trường Mỹ.",
+    "ly_do_top": "Tâm lý thoái vốn tại các cổ phiếu công nghệ lớn thế giới tác động lan tỏa tới thị trường chứng khoán toàn cầu.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 3,
+    "ma_lien_quan": [],
+    "nganh": [
+     "Công nghệ"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
      {
-      "id": "wecc70f31cba5",
-      "title": "Đại biểu Quốc hội: “Người dân còn giữ khoảng 500 tấn vàng, xấp xỉ 12% GDP”",
-      "summary": "Tiếp tục chương trình Kỳ họp thứ hai, Quốc hội khóa XVI, chiều 30/10, Quốc hội thảo luận tại hội trường về tình hình thực hiện Kế hoạch phát triển kinh tế - xã hội, tình hình thực hiện ngân sách nhà nước và kế hoạch đầu tư công.",
-      "url": "https://cafef.vn/dai-bieu-quoc-hoi-nguoi-dan-con-giu-khoang-500-tan-vang-xap-xi-12-gdp-188261030173520758.chn",
-      "src_name": "CafeF — Vĩ mô",
-      "published": "2026-10-30T17:34+07:00"
+      "id": "w5a933abe4d63",
+      "title": "Cổ phiếu công nghệ chịu sức ép khiến Phố Wall quay đầu giảm",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Chứng khoán Mỹ giảm trong phiên thứ Năm ngày 29/10, khi kết quả kinh doanh của Alphabet (Google) đáng thất vọng khiến sức ép lan rộng đối với nhóm cổ phiếu công nghệ liên quan đến AI. WB: Giá hàng hóa toàn cầu dự kiến tăng 23% trong năm 2026 Fed giữ nguyên lãi suất bất chấp áp lực lạm phát dai dẳng Dòng vốn chạy theo AI đặt ra thách thức mới cho đồng đô la",
+      "url": "https://www.tinnhanhchungkhoan.vn/co-phieu-cong-nghe-chiu-suc-ep-khien-pho-wall-quay-dau-giam-post400444.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-10-30T10:38+07:00"
+     },
+     {
+      "id": "w8cd2bb21269d",
+      "title": "Chứng khoán Mỹ giảm điểm vì cú sụt 12% của cổ phiếu Alphabet, giá dầu đi xuống sau tín hiệu đàm phán hòa bình",
+      "text": "",
+      "author": null,
+      "summary": "Thị trường chứng khoán Mỹ giảm điểm trong phiên giao dịch ngày thứ Năm (29/10), kết thúc chuỗi ba phiên tăng trước đó, khi một loạt cổ phiếu công nghệ vốn hóa lớn bị bán tháo sau báo cáo tài chính...",
+      "url": "https://vneconomy.vn/chung-khoan-my-giam-diem-vi-cu-sut-12-cua-co-phieu-alphabet-gia-dau-di-xuong-sau-tin-hieu-dam-phan-hoa-binh.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-10-30T08:38+07:00"
+     },
+     {
+      "id": "we50f12829ea5",
+      "title": "Vốn hoá Alphabet bốc hơi gần 500 tỷ USD trong một ngày",
+      "text": "",
+      "author": null,
+      "summary": "Giá cổ phiếu Alphabet lao dốc gần 13%, ghi nhận phiên giảm mạnh nhất lịch sử, thổi bay gần 500 tỷ USD giá trị vốn hóa.",
+      "url": "https://cafef.vn/von-hoa-alphabet-boc-hoi-gan-500-ty-usd-trong-mot-ngay-188261030131724507.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T13:17+07:00"
+     },
+     {
+      "id": "w362f836ead8d",
+      "title": "Giá trị Alphabet bốc hơi gần 500 tỷ USD một ngày",
+      "text": "",
+      "author": null,
+      "summary": "Công ty mẹ Google có phiên giao dịch thấp nhất kể từ khi niêm yết, sau khi công bố báo cáo tài chính quý III.",
+      "url": "https://vnexpress.net/gia-tri-alphabet-boc-hoi-gan-500-ty-usd-mot-ngay-5138575.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-10-30T07:39+07:00"
      }
     ]
    },
    {
     "id": "t8",
     "hang": 8,
-    "tieu_de": "Khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất?",
-    "loai": "thi_truong",
+    "tieu_de": "Nghi vấn sàn Binance bị hack 6,3 tỷ USD gây chấn động thị trường tiền số",
+    "loai": "quoc_te",
     "item_ids": [
-     "wb3ecfef06576"
+     "wac9d05721e90",
+     "wc05fc755764b",
+     "w69a7ea254057",
+     "w4e39d0e1aad2",
+     "wf2334d584718",
+     "w7bac038a77f4",
+     "w18c95edc0c6c",
+     "w43cb46820a40"
     ],
-    "mot_dong": "(ĐTCK) Chu kỳ bán ròng của khối ngoại trên thị trường chứng khoán Việt Nam đã kéo dài hơn 3 năm, với quy mô lớn nhất trong 6 năm qua. Vậy khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất thời gian tới? Cổ phiếu giảm sâu, các quỹ tìm cơ hội ở đâu trong quý IV? VIC tăng hơn 11% sau hai phiên, kỳ vọng nào đang hỗ trợ nhóm cổ phiếu Vingroup? Chuyên gia HSC, FiinGrou",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
+    "mot_dong": "Sàn giao dịch mã hóa Binance nghi bị rút ròng bất thường hơn 5,6 - 6,3 tỷ USD từ các ví nóng, buộc phải tạm dừng rút tiền.",
+    "ly_do_top": "Sự cố bảo mật lớn nhất lịch sử tài sản kỹ thuật số ảnh hưởng tới thanh khoản và rủi ro tài chính phi tập trung.",
+    "su_kien_hay_nhan_dinh": "ca_hai",
+    "quan_trong": 3,
+    "ma_lien_quan": [],
+    "nganh": [
+     "Tài chính"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
      {
-      "id": "wb3ecfef06576",
-      "title": "Khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất?",
-      "summary": "(ĐTCK) Chu kỳ bán ròng của khối ngoại trên thị trường chứng khoán Việt Nam đã kéo dài hơn 3 năm, với quy mô lớn nhất trong 6 năm qua. Vậy khối ngoại còn bán ròng bao nhiêu và những cổ phiếu có thể chịu áp lực bán mạnh nhất thời gian tới? Cổ phiếu giảm sâu, các quỹ tìm cơ hội ở đâu trong quý IV? VIC tăng hơn 11% sau hai phiên, kỳ vọng nào đang hỗ trợ nhóm cổ phiếu Vingroup? Chuyên gia HSC, FiinGroup lý giải việc khối ngoại vẫn bán ròng gần 1 tỷ USD sau nâng hạng",
-      "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-con-ban-rong-bao-nhieu-va-nhung-co-phieu-co-the-chiu-ap-luc-ban-manh-nhat-post400492.html",
-      "src_name": "Tin nhanh CK",
-      "published": "2026-10-30T15:25+07:00"
+      "id": "wac9d05721e90",
+      "title": "Bên trong chiến dịch truy tìm nhóm hacker cuỗm 6,3 tỷ USD: Mọi dấu vết điều tra đang dẫn về đâu?",
+      "text": "",
+      "author": null,
+      "summary": "Binance rung chuyển với vụ tấn công 6,3 tỷ USD - kỷ lục lịch sử tài chính số. Sự việc châm ngòi tranh cãi khi chuyên gia cáo buộc tin tặc đến từ Triều Tiên, còn Bình Nhưỡng kiên quyết bác bỏ.",
+      "url": "https://cafef.vn/ben-trong-chien-dich-truy-tim-nhom-hacker-cuom-63-ty-usd-moi-dau-vet-dieu-tra-dang-dan-ve-dau-188261030202009523.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T20:20+07:00"
+     },
+     {
+      "id": "wc05fc755764b",
+      "title": "Vụ trộm tiền điện tử lớn nhất thế giới: Tin tặc đánh cắp 6,3 tỷ USD từ Binance chỉ trong 20 phút",
+      "text": "",
+      "author": null,
+      "summary": "Các tin tặc đã đánh cắp 6,3 tỷ USD từ Binance, sàn giao dịch tiền điện tử lớn nhất thế giới, trong một vụ trộm kỷ lục mà các nhà phân tích cho rằng có liên quan đến Triều Tiên. Giới chuyên gia cảnh báo sự kiện này có thể làm lung lay niềm tin vào các tài sản kỹ thuật số.",
+      "url": "https://cafef.vn/vu-trom-tien-dien-tu-lon-nhat-the-gioi-tin-tac-danh-cap-63-ty-usd-tu-binance-chi-trong-20-phut-188261030201747481.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T20:17+07:00"
+     },
+     {
+      "id": "w69a7ea254057",
+      "title": "Hơn 5,5 tỷ USD tiền mã hóa bị đánh cắp, Binance đối mặt vụ hack lớn nhất lịch sử",
+      "text": "",
+      "author": null,
+      "summary": "Không những thế, vụ việc hack Binance này còn kéo theo việc đóng băng hơn 3 tỷ USD tài sản tiền mã hóa trên toàn cầu.",
+      "url": "https://cafef.vn/hon-55-ty-usd-tien-ma-hoa-bi-danh-cap-binance-doi-mat-vu-hack-lon-nhat-lich-su-188261030104841997.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T10:48+07:00"
+     },
+     {
+      "id": "w4e39d0e1aad2",
+      "title": "5,6 tỷ USD rời khỏi ví Binance chỉ trong vài phút: Sàn tiền số lớn nhất thế giới nghi bị hack, có thể là vụ trộm lớn nhất lịch sử",
+      "text": "",
+      "author": null,
+      "summary": "Rạng sáng 30/10 (giờ Việt Nam), hàng tỷ USD tài sản số bị chuyển khỏi các ví nóng của Binance tới địa chỉ lạ. Ước tính on-chain hiện vượt 5,6 tỷ USD. Binance cho biết đang điều tra, khẳng định tiền người dùng an toàn và đã tạm ngừng rút tiền trên nhiều mạng lưới. Khoảng 2,54 tỷ USD đã bị đóng băng.",
+      "url": "https://cafef.vn/56-ty-usd-roi-khoi-vi-binance-chi-trong-vai-phut-san-tien-so-lon-nhat-the-gioi-nghi-bi-hack-co-the-la-vu-trom-lon-nhat-lich-su-188261030094633203.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T09:46+07:00"
+     },
+     {
+      "id": "wf2334d584718",
+      "title": "Vụ tấn công Binance: Cảnh báo rủi ro trong quản trị tài sản số",
+      "text": "",
+      "author": null,
+      "summary": "Vụ tấn công Binance ngày 30-10, gây thiệt hại ước tính lên đến hàng tỷ USD cho thấy các cuộc tấn công trong lĩnh vực tài sản mã hóa ngày càng tinh vi, chuyển trọng tâm từ khai thác lỗ hổng kỹ thuật sang kiểm soát quyền phê duyệt và ký giao dịch. Đây cũng là cảnh báo về yêu cầu nâng cao năng lực quản trị, bảo vệ tài sản khách hàng tại các sàn giao dịch.",
+      "url": "https://cafef.vn/vu-tan-cong-binance-canh-bao-rui-ro-trong-quan-tri-tai-san-so-188261030223600419.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-10-30T22:35+07:00"
+     },
+     {
+      "id": "w7bac038a77f4",
+      "title": "Nhóm chuyên gia Việt truy vết hơn 1 tỷ USD tiền mã hóa trong vụ tấn công Binance lớn nhất lịch sử",
+      "text": "",
+      "author": null,
+      "summary": "Sau vụ tấn công sàn Binance với giá trị tài sản bị ảnh hưởng ước tính 6,3 tỷ USD, nhóm ChainTracer tại Việt Nam đã truy vết gần 475.000 ETH, tương đương hơn 1 tỷ USD, đang nằm trong 13 ví nghi do hacker kiểm soát.",
+      "url": "https://cafef.vn/nhom-chuyen-gia-viet-truy-vet-hon-1-ty-usd-tien-ma-hoa-trong-vu-tan-cong-binance-lon-nhat-lich-su-188261030110521557.chn",
+      "src_name": "CafeF — Doanh nghiệp",
+      "published": "2026-10-30T11:34+07:00"
+     },
+     {
+      "id": "w18c95edc0c6c",
+      "title": "Sàn tiền số của tỷ phú giàu thứ 18 thế giới nghi hứng chịu vụ hack lớn nhất lịch sử: 6,3 tỷ USD bị ảnh hưởng, nguồn cơn từ chiếc laptop của một kỹ sư",
+      "text": "",
+      "author": null,
+      "summary": "Một chiếc laptop của nhân viên kỹ thuật có thể là điểm khởi đầu của sự cố bảo mật trị giá hàng tỷ USD tại sàn tiền số lớn nhất thế giới.",
+      "url": "https://cafef.vn/san-tien-so-cua-ty-phu-giau-thu-18-the-gioi-nghi-hung-chiu-vu-hack-lon-nhat-lich-su-63-ty-usd-bi-anh-huong-nguon-con-tu-chiec-laptop-cua-mot-ky-su-188261030104711815.chn",
+      "src_name": "CafeF — Doanh nghiệp",
+      "published": "2026-10-30T10:50+07:00"
+     },
+     {
+      "id": "w43cb46820a40",
+      "title": "Nghi vấn Binance bị hack, hơn 6 tỷ USD bị chuyển khỏi ví nóng",
+      "text": "",
+      "author": null,
+      "summary": "Rạng sáng 30/10 giờ Việt Nam, cộng đồng tiền mã hóa toàn cầu \"chấn động\" trước thông tin hàng tỷ USD tài sản đã bị chuyển khỏi các ví nóng của sàn giao dịch Binance. Nhiều nhà đầu tư lo ngại đây có thể vụ hack lớn nhất trong lịch sử thị trường crypto, với tổng giá trị tài sản bị ảnh hưởng lên tới 6,17 tỷ USD…",
+      "url": "https://vneconomy.vn/nghi-van-binance-bi-hack-hon-6-ty-usd-bi-chuyen-khoi-vi-nong.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-10-30T10:09+07:00"
      }
     ]
    },
    {
     "id": "t9",
     "hang": 9,
-    "tieu_de": "Chủ tịch Ủy ban Chứng khoán: 5 nhiệm vụ trọng tâm nâng cao chất lượng thị trường sau nâng hạng",
-    "loai": "thi_truong",
+    "tieu_de": "Xử phạt 4,5 tỷ đồng hành vi thao túng cổ phiếu KDC bằng 61 tài khoản",
+    "loai": "doanh_nghiep",
     "item_ids": [
-     "wb32a32f0bed5"
+     "w25b78b42f3df",
+     "wcf7fdead3516"
     ],
-    "mot_dong": "Tính đến ngày 21/10/2026, quy mô thị trường cổ phiếu đạt 10,16 triệu tỷ đồng, số lượng tài khoản nhà đầu tư vượt 14 triệu. Sau khi được FTSE Russell nâng hạng, Ủy ban Chứng khoán Nhà nước xác định 5 nhiệm vụ trọng tâm nhằm nâng cao chất lượng và năng lực cạnh tranh của thị trường trong giai đoạn tới...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
+    "mot_dong": "UBCKNN phạt 3 cá nhân 4,5 tỷ đồng và cấm giao dịch 2 năm do dùng 61 tài khoản thao túng cổ phiếu KDC.",
+    "ly_do_top": "Tín hiệu siết chặt tính minh bạch và kỷ luật thị trường từ cơ quan quản lý.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 3,
+    "ma_lien_quan": [
+     "KDC"
+    ],
+    "nganh": [
+     "Thực phẩm - Tiêu dùng"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
      {
-      "id": "wb32a32f0bed5",
-      "title": "Chủ tịch Ủy ban Chứng khoán: 5 nhiệm vụ trọng tâm nâng cao chất lượng thị trường sau nâng hạng",
-      "summary": "Tính đến ngày 21/10/2026, quy mô thị trường cổ phiếu đạt 10,16 triệu tỷ đồng, số lượng tài khoản nhà đầu tư vượt 14 triệu. Sau khi được FTSE Russell nâng hạng, Ủy ban Chứng khoán Nhà nước xác định 5 nhiệm vụ trọng tâm nhằm nâng cao chất lượng và năng lực cạnh tranh của thị trường trong giai đoạn tới...",
-      "url": "https://vneconomy.vn/chu-tich-uy-ban-chung-khoan-5-nhiem-vu-trong-tam-nang-cao-chat-luong-thi-truong-sau-nang-hang.htm",
-      "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-10-30T15:24+07:00"
+      "id": "w25b78b42f3df",
+      "title": "3 cá nhân dùng 61 tài khoản thao túng cổ phiếu Kido suốt 8 tháng, loạt người liên quan nhận cái kết đắng",
+      "text": "",
+      "author": null,
+      "summary": "3 cá nhân thao túng cổ phiếu KDC bị xử phạt tổng cộng 4,5 tỷ đồng và bị cấm giao dịch chứng khoán 2 năm. 17 cá nhân cho mượn tài khoản liên quan cũng nhận án phạt nặng.",
+      "url": "https://cafef.vn/3-ca-nhan-dung-61-tai-khoan-thao-tung-co-phieu-kido-suot-8-thang-loat-nguoi-lien-quan-nhan-cai-ket-dang-188261030203440487.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T20:33+07:00"
+     },
+     {
+      "id": "wcf7fdead3516",
+      "title": "Thao túng cổ phiếu KDC bằng 61 tài khoản, 3 cá nhân bị phạt 4.5 tỷ đồng và cấm giao dịch 2 năm",
+      "text": "",
+      "author": null,
+      "summary": "Ủy ban Chứng khoán Nhà nước (UBCKNN) vừa xử phạt tổng cộng 4.5 tỷ đồng đối với ba cá nhân bị xác định thao túng cổ phiếu KDC bằng 61 tài khoản chứng khoán. Ngoài ra, 17 cá nhân cho mượn tài khoản liên quan cũng bị đình chỉ giao dịch 9 tháng và cùng nhận lệnh cấm giao dịch chứng khoán trong 2 năm.",
+      "url": "http://vietstock.vn/2026/10/thao-tung-co-phieu-kdc-bang-61-tai-khoan-3-ca-nhan-bi-phat-45-ty-dong-va-cam-giao-dich-2-nam-830-1509663.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-10-30T19:52+07:00"
      }
     ]
    },
    {
     "id": "t10",
     "hang": 10,
-    "tieu_de": "Hóa chất Đức Giang (DGC) có quý thứ 2 liên tiếp lợi nhuận tăng trưởng so với quý trước",
-    "loai": "vi_mo_vn",
+    "tieu_de": "Khởi tố Tổng Giám đốc Khoáng sản TKV VIMICO Trịnh Văn Tuệ",
+    "loai": "doanh_nghiep",
     "item_ids": [
-     "we1ed802ad328"
+     "wbb7c32622e09",
+     "w99e2b99c7961",
+     "wc755ba03a18f",
+     "w785145aecb04"
     ],
-    "mot_dong": "Tuy vậy, lợi nhuận sau thuế của công ty đạt 507 tỷ đồng, giảm 298 tỷ đồng, tương ứng 37%.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
+    "mot_dong": "Tổng Giám đốc KSV bị khởi tố về tội nhận hối lộ; HĐQT công ty đã lập tức miễn nhiệm và giao quyền điều hành cho Phó TGĐ.",
+    "ly_do_top": "Tin tức pháp lý bất ngờ tác động mạnh tới tâm lý giao dịch cổ phiếu KSV và nhóm khoáng sản.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 3,
+    "ma_lien_quan": [
+     "KSV"
+    ],
+    "nganh": [
+     "Khai khoáng"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
      {
-      "id": "we1ed802ad328",
-      "title": "Hóa chất Đức Giang (DGC) có quý thứ 2 liên tiếp lợi nhuận tăng trưởng so với quý trước",
-      "summary": "Tuy vậy, lợi nhuận sau thuế của công ty đạt 507 tỷ đồng, giảm 298 tỷ đồng, tương ứng 37%.",
-      "url": "https://cafef.vn/hoa-chat-duc-giang-dgc-co-quy-thu-2-lien-tiep-loi-nhuan-tang-truong-so-voi-quy-truoc-188261030074930184.chn",
+      "id": "wbb7c32622e09",
+      "title": "Khởi tố Tổng giám đốc Tổng công ty Khoáng sản TKV VIMICO",
+      "text": "",
+      "author": null,
+      "summary": "Ngày 30/10/2026, Tổng công ty Khoáng sản TKV – CTCP (VIMICO, mã chứng khoán KSV) công bố thông tin bất thường.",
+      "url": "https://cafef.vn/khoi-to-tong-giam-doc-tong-cong-ty-khoang-san-tkv-vimico-18826103021440237.chn",
       "src_name": "CafeF — Doanh nghiệp",
-      "published": "2026-10-30T07:49+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t11",
-    "hang": 11,
-    "tieu_de": "Tuần 26-30/10: USD-Index 'hạ nhiệt' cuối tuần, giá USD tự do bật tăng",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "w98d166315bde"
-    ],
-    "mot_dong": "Trong tuần cuối tháng 10 (26-30/10), USD-Index (DXY) trên thị trường quốc tế trải qua biến động mạnh khi bứt phá lên đỉnh 102.27 điểm trước khi đảo chiều giảm về mốc 101.6 điểm, do sự thay đổi kỳ vọng lãi suất của Fed và đà phục hồi của EUR, JPY.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
+      "published": "2026-10-30T21:44+07:00"
+     },
      {
-      "id": "w98d166315bde",
-      "title": "Tuần 26-30/10: USD-Index 'hạ nhiệt' cuối tuần, giá USD tự do bật tăng",
-      "summary": "Trong tuần cuối tháng 10 (26-30/10), USD-Index (DXY) trên thị trường quốc tế trải qua biến động mạnh khi bứt phá lên đỉnh 102.27 điểm trước khi đảo chiều giảm về mốc 101.6 điểm, do sự thay đổi kỳ vọng lãi suất của Fed và đà phục hồi của EUR, JPY.",
-      "url": "http://vietstock.vn/2026/10/tuan-26-3010-usd-index-ha-nhiet-cuoi-tuan-gia-usd-tu-do-bat-tang-757-1509031.htm",
-      "src_name": "Vietstock — Ngân hàng",
-      "published": "2026-10-30T20:02+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t12",
-    "hang": 12,
-    "tieu_de": "BOJ giữ nguyên lãi suất, tuyên bố chiến thắng trong cuộc chiến chống giảm phát",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "w8845ac75be00"
-    ],
-    "mot_dong": "Ngân hàng Trung ương Nhật Bản (BOJ) ngày 30/10 đưa ra quyết định giữ nguyên lãi suất, đồng thời tuyên bố giành chiến thắng trong cuộc chiến kéo dài gần 14 năm nhằm đạt mục tiêu lạm phát...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
+      "id": "w99e2b99c7961",
+      "title": "Hé lộ mức lương, thưởng ông Trịnh Văn Tuệ vừa bị khởi tố",
+      "text": "",
+      "author": null,
+      "summary": "Tổng Giám đốc Vimico Trịnh Văn Tuệ bị khởi tố về tội “Nhận hối lộ”. Trước đó một ngày, HĐQT doanh nghiệp đã miễn nhiệm chức vụ Tổng giám đốc đối với ông Tuệ và giao quyền điều hành cho một Phó Tổng giám đốc.",
+      "url": "https://cafef.vn/he-lo-muc-luong-thuong-ong-trinh-van-tue-vua-bi-khoi-to-188261030225511617.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-31T00:02+07:00"
+     },
      {
-      "id": "w8845ac75be00",
-      "title": "BOJ giữ nguyên lãi suất, tuyên bố chiến thắng trong cuộc chiến chống giảm phát",
-      "summary": "Ngân hàng Trung ương Nhật Bản (BOJ) ngày 30/10 đưa ra quyết định giữ nguyên lãi suất, đồng thời tuyên bố giành chiến thắng trong cuộc chiến kéo dài gần 14 năm nhằm đạt mục tiêu lạm phát...",
-      "url": "https://vneconomy.vn/boj-giu-nguyen-lai-suat-tuyen-bo-chien-thang-trong-cuoc-chien-chong-giam-phat.htm",
-      "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-10-30T20:00+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t13",
-    "hang": 13,
-    "tieu_de": "Thêm nhiều ngân hàng giảm lãi suất",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wded65971c82d"
-    ],
-    "mot_dong": "Một số nhà băng tiếp tục điều chỉnh giảm lãi suất huy động, nối thêm danh sách các ngân hàng hạ lãi suất nhằm hưởng ứng chủ trương của Chính phủ và Ngân hàng Nhà nước. Cùng với việc cân đối chi phí vốn đầu vào, các chương trình tín dụng ưu đãi đang được triển khai để hỗ trợ doanh nghiệp trong cao điểm sản xuất, kinh doanh cuối năm.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
+      "id": "wc755ba03a18f",
+      "title": "Ông Trịnh Văn Tuệ bị khởi tố, doanh nghiệp phát thông báo quan trọng",
+      "text": "",
+      "author": null,
+      "summary": "Sau thông tin Tổng giám đốc Trịnh Văn Tuệ bị khởi tố, doanh nghiệp đã có công bố nghị quyết mới.",
+      "url": "https://cafef.vn/ong-trinh-van-tue-bi-khoi-to-doanh-nghiep-phat-thong-bao-quan-trong-188261030234316684.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-30T23:43+07:00"
+     },
      {
-      "id": "wded65971c82d",
-      "title": "Thêm nhiều ngân hàng giảm lãi suất",
-      "summary": "Một số nhà băng tiếp tục điều chỉnh giảm lãi suất huy động, nối thêm danh sách các ngân hàng hạ lãi suất nhằm hưởng ứng chủ trương của Chính phủ và Ngân hàng Nhà nước. Cùng với việc cân đối chi phí vốn đầu vào, các chương trình tín dụng ưu đãi đang được triển khai để hỗ trợ doanh nghiệp trong cao điểm sản xuất, kinh doanh cuối năm.",
-      "url": "https://cafef.vn/them-nhieu-ngan-hang-giam-lai-suat-188261030160735795.chn",
-      "src_name": "CafeF — Tài chính NH",
-      "published": "2026-10-30T19:10+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t14",
-    "hang": 14,
-    "tieu_de": "Thống đốc NHNN trao quyết định bổ nhiệm Tổng Giám đốc VAMC",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wf8cab1e530ea"
-    ],
-    "mot_dong": "Ngày 30/10/2026, Công ty TNHH MTV Quản lý tài sản của các tổ chức tín dụng Việt Nam (VAMC) tổ chức Hội nghị công bố và trao quyết định của Thống đốc NHNN về công tác cán bộ.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "wf8cab1e530ea",
-      "title": "Thống đốc NHNN trao quyết định bổ nhiệm Tổng Giám đốc VAMC",
-      "summary": "Ngày 30/10/2026, Công ty TNHH MTV Quản lý tài sản của các tổ chức tín dụng Việt Nam (VAMC) tổ chức Hội nghị công bố và trao quyết định của Thống đốc NHNN về công tác cán bộ.",
-      "url": "https://cafef.vn/thong-doc-nhnn-trao-quyet-dinh-bo-nhiem-tong-giam-doc-vamc-188261030100558388.chn",
-      "src_name": "CafeF — Tài chính NH",
-      "published": "2026-10-30T10:06+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t15",
-    "hang": 15,
-    "tieu_de": "Ngân hàng Nhà nước nói về việc không dùng tiền mặt mua, bán vàng",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "w56e5e96419d0"
-    ],
-    "mot_dong": "Trước vướng mắc về việc khách hàng mua vàng nhiều lần trong ngày, Công ty TNHH Bảo Tín Minh Châu đặt câu hỏi liệu có phải thu hồi sản phẩm đã bán, hoàn tiền mặt và yêu cầu khách chuyển khoản lại. Ngân hàng Nhà nước Việt Nam khẳng định ngưỡng thanh toán không dùng tiền mặt là từ 5 triệu đồng, tính theo tổng giá trị giao dịch trong ngày của một khách hàng.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "w56e5e96419d0",
-      "title": "Ngân hàng Nhà nước nói về việc không dùng tiền mặt mua, bán vàng",
-      "summary": "Trước vướng mắc về việc khách hàng mua vàng nhiều lần trong ngày, Công ty TNHH Bảo Tín Minh Châu đặt câu hỏi liệu có phải thu hồi sản phẩm đã bán, hoàn tiền mặt và yêu cầu khách chuyển khoản lại. Ngân hàng Nhà nước Việt Nam khẳng định ngưỡng thanh toán không dùng tiền mặt là từ 5 triệu đồng, tính theo tổng giá trị giao dịch trong ngày của một khách hàng.",
-      "url": "http://vietstock.vn/2026/10/ngan-hang-nha-nuoc-noi-ve-viec-khong-dung-tien-mat-mua-ban-vang-759-1508902.htm",
-      "src_name": "Vietstock — Ngân hàng",
-      "published": "2026-10-30T08:54+07:00"
+      "id": "w785145aecb04",
+      "title": "\"Đại gia\" khai thác vàng bạc lớn nhất Việt Nam báo lãi quý 3 gấp 4 lần cùng kỳ",
+      "text": "",
+      "author": null,
+      "summary": "Lãi sau thuế quý 3 của KSV đóng góp tới 74% lợi nhuận lũy kế 9 tháng.",
+      "url": "https://cafef.vn/dai-gia-khai-thac-vang-bac-lon-nhat-viet-nam-bao-lai-quy-3-gap-4-lan-cung-ky-188261030235713868.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-10-31T00:06+07:00"
      }
     ]
    }
   ],
-  "loi": "AI không chạy được (AI không tìm thấy chủ đề đáng kể) — đang hiện bản tin thô xếp bằng code",
-  "so_lieu": {},
-  "so_tin_bo_qua": null,
-  "tin_tho": true
+  "loi": null,
+  "so_lieu": {
+   "lnh_qua_dem": null,
+   "lnh_1_tuan": null,
+   "omo_bom_rong_ty": null,
+   "tin_phieu_ty": null,
+   "ty_gia_trung_tam": null,
+   "khoi_ngoai_rong_ty": -647.0,
+   "ghi_chu": "Giá trị khối ngoại bán ròng 647 tỷ đồng trên HOSE ngày 30/10 theo Vietstock (wc2379bb1cbdf); bán ròng tháng 10 đạt 20.800 tỷ đồng theo Tin nhanh CK (w36b4c927395b)."
+  },
+  "so_tin_bo_qua": 85,
+  "so_bai_doc_duoc": 28,
+  "tong_ket_lo": [
+   null,
+   null
+  ],
+  "dem": {
+   "tot": 0,
+   "xau": 0,
+   "trung_tinh": 0
+  }
  },
  "zalo": {
   "items": [],
@@ -2235,16 +2803,42 @@
    "gemini-3.6-flash",
    "gemini-3.5-flash"
   ],
-  "so_luot": 1,
-  "token_vao": 18691,
-  "token_ra": 3543
+  "so_luot": 4,
+  "token_vao": 49745,
+  "token_ra": 30623
  },
- "trang_thai_chay": "chi_tin_tho",
+ "trang_thai_chay": "dat",
  "pb_ver": 1,
  "tong_hop": {
-  "loi": "bỏ qua tổng hợp vì cả hai tab không có chủ đề (tránh AI viết khi không có tin)"
+  "trang_thai": "trung_tinh",
+  "tieu_de": "Tổng hợp trước phiên: Áp lực bán ròng ngoại và margin kỷ lục đối ứng với kết quả kinh doanh quý 3 tăng trưởng",
+  "ba_dieu_can_biet": [
+   "Khối ngoại bán ròng kỷ lục hơn 20.800 tỷ đồng trong tháng 10 và dư nợ margin toàn thị trường đạt mức đỉnh mới khi VN-Index lùi về 1.741 điểm. Điều này phản ánh dòng vốn nội đang chịu tải lực rút vốn của nhà đầu tư nước ngoài bằng đòn bẩy cao, làm gia tăng biên độ rung lắc của thị trường.",
+   "Doanh nghiệp niêm yết lớn như Vinhomes, Vingroup, VietinBank và BSR công bố kết quả kinh doanh quý 3 tăng trưởng mạnh mẽ. Yếu tố lợi nhuận cốt lõi này là trụ đỡ cho định giá cổ phiếu và giúp dòng tiền phân hóa tập trung vào nhóm cổ phiếu hàng đầu.",
+   "Giá dầu Brent tăng 9,86% lên mức 112,33 USD/thùng trong 20 ngày trong khi lãi suất liên ngân hàng qua đêm giữ ở mức thấp 0,6%. Giá hàng hóa thế giới tăng sẽ tạo sức ép lên lạm phát kỳ vọng, dù thanh khoản ngắn hạn trong hệ thống ngân hàng hiện tại vẫn đang ở trạng thái tương đối dồi dào."
+  ],
+  "doi_chieu_web_zalo": [
+   "Tab Zalo hôm nay không có dữ liệu mới. Toàn bộ thông tin chính thống từ Tab Web tập trung vào bức tranh kết quả kinh doanh quý 3 và áp lực rút vốn của khối ngoại."
+  ],
+  "viec_hom_nay": [
+   "Theo dõi các cổ phiếu thuộc hệ thống CANSLIM xuất hiện điểm bùng nổ chuẩn mực để sẵn sàng vào lệnh thăm dò.",
+   "Rà soát lại tỷ lệ margin cá nhân, đảm bảo ngưỡng an toàn trước rủi ro biến động mạnh từ lượng margin kỷ lục toàn thị trường."
+  ],
+  "canh_bao": "Dư nợ margin toàn thị trường đạt kỷ lục trong bối cảnh khối ngoại bán ròng mạnh có thể gia tăng biến động khi thị trường có nhịp điều chỉnh.",
+  "bai_luyen_vi_mo": {
+   "tinh_huong": "Giá dầu Brent tăng 9,86% lên 112,33 USD/thùng trong 20 ngày qua, trong khi dư nợ margin toàn thị trường đang ở mức kỷ lục.",
+   "cau_hoi": "Hãy phân tích chuỗi tác động vĩ mô từ việc giá dầu tăng kéo dài đến thanh khoản và chi phí sử dụng đòn bẩy trên thị trường chứng khoán Việt Nam?",
+   "dap_an": "Giá dầu tăng cao làm gia tăng chi phí sản xuất và chi phí vận tải, đẩy lạm phát kỳ vọng lên cao. Để kiểm soát lạm phát và giữ ổn định vĩ mô, NHNN có thể sẽ thắt chặt hoặc ngưng nới lỏng thanh khoản, làm đẩy lãi suất liên ngân hàng tăng lên. Lãi suất LNH tăng khiến chi phí vốn của các CTCK tăng, từ đó tăng lãi suất margin và thúc đẩy hành vi hạ đòn bẩy của nhà đầu tư.",
+   "chuoi_nhan_qua": [
+    "Giá dầu Brent tăng -> Chi phí đầu vào và logistics tăng -> Sức ép lạm phát tăng",
+    "Sức ép lạm phát -> NHNN thận trọng thắt chặt thanh khoản -> Lãi suất liên ngân hàng tăng",
+    "Lãi suất liên ngân hàng tăng -> Chi phí huy động của CTCK tăng -> Lãi suất margin tăng -> Áp lực bán giải chấp/hạ đòn bẩy"
+   ],
+   "luat_lien_quan": ""
+  },
+  "_model": "gemini-3.6-flash"
  },
- "xong_luc": "2026-10-31T07:03+07:00",
- "chay_giay": 117,
+ "xong_luc": "2026-10-31T07:59+07:00",
+ "chay_giay": 769,
  "dung_han": true
 }

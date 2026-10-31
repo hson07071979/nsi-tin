@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-10-30T20:55+07:00",
+ "cap_nhat": "2026-10-31T07:03+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 353,
-   "ty_le_dung": 51.6
+   "n": 372,
+   "ty_le_dung": 50.3
   },
   "phe_than_trong": {
-   "n": 268,
-   "ty_le_dung": 52.2
+   "n": 278,
+   "ty_le_dung": 52.9
   },
   "phe_vi_mo": {
-   "n": 297,
-   "ty_le_dung": 53.9
+   "n": 315,
+   "ty_le_dung": 53.0
   },
   "tab_web": {
-   "n": 404,
-   "ty_le_dung": 52.2
+   "n": 426,
+   "ty_le_dung": 51.4
   },
   "tab_zalo": {
    "n": 75,
    "ty_le_dung": 50.7
   },
   "trong_tai": {
-   "n": 479,
-   "ty_le_dung": 52.0
+   "n": 501,
+   "ty_le_dung": 51.3
   },
   "xac_minh_da_xac_minh": {
-   "n": 442,
-   "ty_le_dung": 52.3
+   "n": 464,
+   "ty_le_dung": 51.5
   },
   "xac_minh_mot_nguon": {
    "n": 10,
@@ -39,378 +39,6 @@
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Thanh khoản thị trường teo tóp, dòng tiền dịch chuyển sang cổ phiếu ngách",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "ANV",
-   "du_bao": 1,
-   "vuot_t0": 0.22,
-   "vuot_t4": 1.26,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Thanh khoản thị trường teo tóp, dòng tiền dịch chuyển sang cổ phiếu ngách",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "SSI",
-   "du_bao": -1,
-   "vuot_t0": -0.04,
-   "vuot_t4": 3.39,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Giá Vonfram tăng phi mã 230%, nhóm khoáng sản dậy sóng",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "MSR",
-   "du_bao": 1,
-   "vuot_t0": -0.22,
-   "vuot_t4": -1.04,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Xung đột Trung Đông đẩy cước tàu dầu tăng vọt, PVT hưởng lợi",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "PVT",
-   "du_bao": 1,
-   "vuot_t0": -1.15,
-   "vuot_t4": -5.1,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "FMC báo cáo lợi nhuận sau thuế quý 3 gấp đôi cùng kỳ",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "FMC",
-   "du_bao": 1,
-   "vuot_t0": 0.22,
-   "vuot_t4": -1.19,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Nghịch lý giá hạt nhựa 2026 và biên lợi nhuận BMP, NTP",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "BMP",
-   "du_bao": -1,
-   "vuot_t0": 0.51,
-   "vuot_t4": 1.63,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Nghịch lý giá hạt nhựa 2026 và biên lợi nhuận BMP, NTP",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "NTP",
-   "du_bao": -1,
-   "vuot_t0": 2.3,
-   "vuot_t4": 1.96,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Nhận định rủi ro điều chỉnh mạnh của nhóm cổ phiếu chứng khoán",
-   "xac_minh": "tin_don",
-   "loai": "nganh",
-   "doi_tuong": "SSI",
-   "du_bao": -1,
-   "vuot_t0": -0.04,
-   "vuot_t4": 3.39,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Nhận định rủi ro điều chỉnh mạnh của nhóm cổ phiếu chứng khoán",
-   "xac_minh": "tin_don",
-   "loai": "nganh",
-   "doi_tuong": "HCM",
-   "du_bao": -1,
-   "vuot_t0": -1.68,
-   "vuot_t4": 4.03,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Nhận định vùng cân bằng của nhóm cổ phiếu ngân hàng",
-   "xac_minh": "tin_don",
-   "loai": "nganh",
-   "doi_tuong": "STB",
-   "du_bao": -1,
-   "vuot_t0": 0.22,
-   "vuot_t4": -4.35,
-   "dung": true,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-09",
-   "tab": "zalo",
-   "chu_de": "Nhận định vùng cân bằng của nhóm cổ phiếu ngân hàng",
-   "xac_minh": "tin_don",
-   "loai": "nganh",
-   "doi_tuong": "VCB",
-   "du_bao": 1,
-   "vuot_t0": 0.4,
-   "vuot_t4": 2.16,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Khối ngoại bán ròng kỷ lục, thỏa thuận MCH gần 9.600 tỷ đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "PNJ",
-   "du_bao": -1,
-   "vuot_t0": -6.11,
-   "vuot_t4": -1.91,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Khối ngoại bán ròng kỷ lục, thỏa thuận MCH gần 9.600 tỷ đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "TCB",
-   "du_bao": -1,
-   "vuot_t0": 1.58,
-   "vuot_t4": 4.31,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Áp lực lạm phát cuối năm, dự báo CPI có thể tăng tới 4,8%",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "VNINDEX",
-   "du_bao": -1,
-   "vuot_t4": -1.68,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Tỷ giá tự do tăng mạnh dù USD ngân hàng hạ nhiệt",
-   "xac_minh": "da_xac_minh",
-   "loai": "vi_mo_vn",
-   "doi_tuong": "VNINDEX",
-   "du_bao": 1,
-   "vuot_t4": -1.68,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "VPBank tăng vốn điều lệ lên 100.000 tỷ đồng, VIX trở thành cổ đông lớn",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VPB",
-   "du_bao": 1,
-   "vuot_t0": 3.33,
-   "vuot_t4": 4.62,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "VPBank tăng vốn điều lệ lên 100.000 tỷ đồng, VIX trở thành cổ đông lớn",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VIX",
-   "du_bao": 1,
-   "vuot_t0": 1.24,
-   "vuot_t4": 3.4,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "BSR",
-   "du_bao": 1,
-   "vuot_t0": -0.64,
-   "vuot_t4": -7.01,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "DPM",
-   "du_bao": 1,
-   "vuot_t0": -0.56,
-   "vuot_t4": -1.51,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "HVN",
-   "du_bao": -1,
-   "vuot_t0": 2.54,
-   "vuot_t4": 5.39,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "Giá dầu thế giới tăng vọt, nhóm dầu khí đón kỳ vọng lợi nhuận lớn",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "PLX",
-   "du_bao": -1,
-   "vuot_t0": -2.27,
-   "vuot_t4": -4.48,
-   "dung": true,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-10",
-   "tab": "web",
-   "chu_de": "HoSE và HNX đồng loạt công bố danh sách cắt margin quý 4/2026",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "DGC",
-   "du_bao": -1,
-   "vuot_t0": -1.55,
-   "vuot_t4": -1.28,
-   "dung": true,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
   {
    "ngay": "2026-10-10",
    "tab": "web",
@@ -5118,6 +4746,378 @@
     "lac_quan": true,
     "than_trong": null,
     "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "VN-Index phục hồi vượt 1.770 điểm nhờ nhóm ngân hàng dẫn dắt",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "STB",
+   "du_bao": 1,
+   "vuot_t0": -0.72,
+   "vuot_t4": -1.38,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "VN-Index phục hồi vượt 1.770 điểm nhờ nhóm ngân hàng dẫn dắt",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "ACB",
+   "du_bao": 1,
+   "vuot_t0": 0.6,
+   "vuot_t4": 0.43,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "VN-Index phục hồi vượt 1.770 điểm nhờ nhóm ngân hàng dẫn dắt",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 0.81,
+   "vuot_t4": 3.74,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Khối ngoại quay lại bán ròng gần 470 tỷ đồng trong phiên 23/10",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -0.57,
+   "vuot_t4": -3.43,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Lãi suất tiết kiệm tăng 11 tháng liên tiếp trước khi hạ nhiệt",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -1.83,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Quốc hội thảo luận sửa đổi các luật thuế và Luật Đấu thầu",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VNINDEX",
+   "du_bao": 1,
+   "vuot_t4": -1.83,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Giá dầu Brent vọt lên 115 USD/thùng do xung đột Trung Đông",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVD",
+   "du_bao": 1,
+   "vuot_t0": 0.86,
+   "vuot_t4": -2.18,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Giá dầu Brent vọt lên 115 USD/thùng do xung đột Trung Đông",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PVS",
+   "du_bao": 1,
+   "vuot_t0": -0.02,
+   "vuot_t4": -3.74,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Giá vàng thế giới lao dốc, chênh lệch trong nước giãn rộng 16 triệu",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "PNJ",
+   "du_bao": -1,
+   "vuot_t0": 0.6,
+   "vuot_t4": -9.34,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Giá vàng thế giới lao dốc, chênh lệch trong nước giãn rộng 16 triệu",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "GAS",
+   "du_bao": 1,
+   "vuot_t0": 3.41,
+   "vuot_t4": 1.45,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Cổ phiếu VIC tăng hơn 11% sau hai phiên hỗ trợ nhóm Vingroup",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VIC",
+   "du_bao": 1,
+   "vuot_t0": 0.81,
+   "vuot_t4": 3.74,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Cổ phiếu VIC tăng hơn 11% sau hai phiên hỗ trợ nhóm Vingroup",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": -0.02,
+   "vuot_t4": -0.19,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Cổ phiếu công nghệ Mỹ bị bán tháo do lo ngại bong bóng AI",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "FPT",
+   "du_bao": -1,
+   "vuot_t0": -1.16,
+   "vuot_t4": -5.71,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "SeABank giảm 15% mục tiêu lợi nhuận năm 2026 và đổi Chủ tịch HĐQT",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SSB",
+   "du_bao": -1,
+   "vuot_t0": -3.91,
+   "vuot_t4": -7.78,
+   "dung": true,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Techcombank đạt 28.900 tỷ lợi nhuận 9 tháng và xin lập ngân hàng mới",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "TCB",
+   "du_bao": 1,
+   "vuot_t0": -0.57,
+   "vuot_t4": -3.43,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Techcombank đạt 28.900 tỷ lợi nhuận 9 tháng và xin lập ngân hàng mới",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MBB",
+   "du_bao": 1,
+   "vuot_t0": -0.67,
+   "vuot_t4": -0.69,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": false,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Khởi công siêu dự án Lotte Eco Smart City Thủ Thiêm 60.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "PDR",
+   "du_bao": 1,
+   "vuot_t0": -3.11,
+   "vuot_t4": -5.16,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Khởi công siêu dự án Lotte Eco Smart City Thủ Thiêm 60.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MBB",
+   "du_bao": 1,
+   "vuot_t0": -0.67,
+   "vuot_t4": -0.69,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Khởi công siêu dự án Lotte Eco Smart City Thủ Thiêm 60.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "CTG",
+   "du_bao": 1,
+   "vuot_t0": -0.53,
+   "vuot_t4": -0.27,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Khởi công siêu dự án Lotte Eco Smart City Thủ Thiêm 60.000 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "BID",
+   "du_bao": 1,
+   "vuot_t0": -0.86,
+   "vuot_t4": -0.65,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Khởi tố Tổng Giám đốc Cao su Đà Nẵng Lê Hoàng Khánh Nhựt",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DRC",
+   "du_bao": -1,
+   "vuot_t0": -0.24,
+   "vuot_t4": -2.68,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-24",
+   "tab": "web",
+   "chu_de": "Bắt tạm giam đối tượng tung tin sai sự thật về Novaland",
+   "xac_minh": "da_xac_minh",
+   "loai": "tin_don",
+   "doi_tuong": "NVL",
+   "du_bao": 1,
+   "vuot_t0": 0.13,
+   "vuot_t4": -0.05,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
    }
   }
  ],

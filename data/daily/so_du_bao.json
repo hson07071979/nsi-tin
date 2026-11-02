@@ -587,9 +587,12 @@
   "han_phien": 5,
   "loai_moc": "QS",
   "noi_dung": "HPG sẽ giữ vững trên mốc hỗ trợ 20,55 để tiếp tục tích lũy quanh MA50.",
-  "trang_thai": "mo",
-  "phien_da_qua": 4,
-  "ngay_cham_cuoi": "2026-10-30"
+  "trang_thai": "dong",
+  "phien_da_qua": 5,
+  "ngay_cham_cuoi": "2026-11-02",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-11-02",
+  "gia_luc_dong": 20.4
  },
  {
   "id": "a0ffff7cf4",
@@ -720,9 +723,12 @@
   "han_phien": 3,
   "loai_moc": "QS",
   "noi_dung": "HPG sẽ duy trì giá đóng cửa trên mốc hỗ trợ 20,55 để giữ nhịp cho nhóm thép.",
-  "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-10-30"
+  "trang_thai": "dong",
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-11-02",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-11-02",
+  "gia_luc_dong": 20.4
  },
  {
   "id": "ee9e27786c",
@@ -734,9 +740,12 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "FPT sẽ giữ vững giá đóng cửa trên mốc đáy 52,5 để tìm điểm cân bằng cung cầu.",
-  "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-10-30"
+  "trang_thai": "dong",
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-11-02",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-11-02",
+  "gia_luc_dong": 50.2
  },
  {
   "id": "1ea12e6679",
@@ -748,8 +757,12 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì đóng cửa trên mốc hỗ trợ 1.715,21 điểm trong 3 phiên tới để bảo toàn vùng cân bằng ngắn hạn.",
-  "trang_thai": "mo",
-  "phien_da_qua": 0
+  "trang_thai": "dong",
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-11-02",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-11-02",
+  "gia_luc_dong": 1710.72
  },
  {
   "id": "bee3379cef",
@@ -761,8 +774,12 @@
   "han_phien": 3,
   "loai_moc": "QS",
   "noi_dung": "HPG sẽ duy trì giá đóng cửa trên mốc hỗ trợ 20,55 để giữ nhịp cho nhóm thép.",
-  "trang_thai": "mo",
-  "phien_da_qua": 0
+  "trang_thai": "dong",
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-11-02",
+  "ket_qua": "SAI",
+  "ngay_dong": "2026-11-02",
+  "gia_luc_dong": 20.4
  },
  {
   "id": "dd9b354d9c",
@@ -774,6 +791,46 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "TCB sẽ giữ vững mốc 21,07 để tránh kích hoạt nhịp bán tháo toàn ngành ngân hàng.",
+  "trang_thai": "mo",
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-11-02"
+ },
+ {
+  "id": "72d315c66d",
+  "ngay_ghi": "2026-11-02",
+  "ban": "cach_1_luot",
+  "doi_tuong": "VNINDEX",
+  "loai": "giu",
+  "moc": 1695.95,
+  "han_phien": 3,
+  "loai_moc": "CAN",
+  "noi_dung": "VN-Index sẽ giữ vững trên mốc hỗ trợ 1.695,95 điểm trong 3 phiên tới để hình thành vùng tích lũy quanh ngưỡng 1.700 điểm.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "f08b911368",
+  "ngay_ghi": "2026-11-02",
+  "ban": "cach_1_luot",
+  "doi_tuong": "FPT",
+  "loai": "giu",
+  "moc": 50.1,
+  "han_phien": 3,
+  "loai_moc": "CAN",
+  "noi_dung": "FPT sẽ duy trì giá đóng cửa trên mốc hỗ trợ 50,1 để kiểm định lực cầu bắt đáy quanh vùng giá 50.",
+  "trang_thai": "mo",
+  "phien_da_qua": 0
+ },
+ {
+  "id": "841d01b7ef",
+  "ngay_ghi": "2026-11-02",
+  "ban": "cach_1_luot",
+  "doi_tuong": "VCB",
+  "loai": "giu",
+  "moc": 52.6,
+  "han_phien": 3,
+  "loai_moc": "QS",
+  "noi_dung": "VCB sẽ giữ được trên mốc hỗ trợ 52,6 để hạn chế áp lực giảm điểm lên toàn bộ thị trường chung.",
   "trang_thai": "mo",
   "phien_da_qua": 0
  }

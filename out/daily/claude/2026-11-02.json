@@ -1,0 +1,201 @@
+{
+ "ngay": "2026-11-02",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Đối chiếu FACT: VN-Index, breadth chính, thanh khoản, khối ngoại, đóng góp điểm, giá/MA/vùng của 29 mã trong bảng khớp với bản Gemini.",
+  "Breadth hai nguồn lệch: 43 tăng/267 giảm (chính) và 46/282 (đếm đối chiếu). Giữ số chính.",
+  "Đối chiếu dự báo: Gemini đọc 'bốn dòng sai' nhưng danh sách có 5 dòng SAI (VN 1.715,21; HPG 20,55 ×3; FPT 52,5) → sửa thành năm.",
+  "Số không có trong FACT nên bỏ: khối lượng 877,5 triệu cp / 'gấp 1,6 lần TB20' (FACT chỉ có giá trị khớp ×1,29 TB20); ngân hàng khớp 5.339 tỷ 'kỷ lục' và NN bán 630 tỷ; chứng khoán NN mua 133,4 tỷ; NKG +22,9%; đáy 20 phiên của US10Y/USDVND.",
+  "Tin 'VCB trích lập dự phòng 5.000 tỷ' không có trong dữ liệu, chưa kiểm chứng → bỏ khỏi lời thoại.",
+  "Lệch thời gian: VIX/Dow/Nasdaq là phiên Mỹ thứ Sáu 30/10 (lấy lúc 31/10), không phải 'đêm qua' → sửa.",
+  "Nhân quả: 'tỷ giá đỉnh lịch sử khiến khối ngoại rút ròng' (USD/VND 25.802 còn dưới đỉnh 3 tháng 26.291) và 'dầu khí giảm theo giá dầu' → đổi thành áp lực/cùng phiên.",
+  "Mốc không có căn cứ trong FACT đã bỏ/thay bằng biên vùng có sẵn: TCB gap 21,55–21,6; VPB gap 20,39–20,55; VIC gap 223,6; KDH gap 13,85; HSG gap 10,7–10,85; IDC 34,2; MWG gap 73,8–74,0; DCM gap 31,1 và 33,15–33,3; GMD 52,0; FPT 52,5 (mốc dự báo cũ, không phải FACT).",
+  "CTD: Gemini ghi 'duy trì trên MA20 (64,11)' nhưng giá 63,8 nằm dưới MA20 → sửa.",
+  "Bỏ 'vùng hai sao', 'đèn NSI không đọc được', 'mục tiêu' (HDC) và câu 'giải chấp chéo diện rộng' không có dữ liệu.",
+  "Regime 'Distribution' để nguyên nhưng lưu ý: chỉ số đã dưới MA50/MA200 4–5%, không còn 'ở cao'; chưa đủ Capitulation (KL khớp ×1,29, chưa thủng đáy 1.677). Anh Sơn cân nhắc nhãn.",
+  "Chưa đối chiếu được (không có trong bảng số liệu): VGC, DGW, DPM, VHC, CMG, KOS, POW, PVS, ACB, STB."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "signature.dong_tien_noi_gi",
+   "gia_tri": "Thanh khoản khớp lệnh vọt lên hơn 15.800 tỷ đồng, cao hơn 29% so với trung bình 20 phiên, đi cùng khối ngoại bán ròng 523 tỷ đồng."
+  },
+  {
+   "duong_dan": "the_gioi[1].nguong",
+   "gia_tri": "Đỉnh 20 phiên 5,311%"
+  },
+  {
+   "duong_dan": "the_gioi[2].nguong",
+   "gia_tri": "Đỉnh 20 phiên 25.991 đồng"
+  },
+  {
+   "duong_dan": "the_gioi[2].he_qua_neu_vuot",
+   "gia_tri": "Nếu vượt đỉnh 20 phiên 25.991 đồng, áp lực tỷ giá lên lãi suất và dòng vốn ngoại là điều cần theo dõi."
+  },
+  {
+   "duong_dan": "thanh_khoan",
+   "gia_tri": "Tổng giá trị giao dịch đạt 18.577,2 tỷ đồng, trong đó giao dịch thỏa thuận chiếm 2.737,2 tỷ đồng (14,7%). Thanh khoản khớp lệnh thực tế đạt 15.840,1 tỷ đồng, tăng vọt so với mức 11.950,5 tỷ đồng của phiên trước và cao hơn 29% so với mức trung bình 20 phiên (12.308 tỷ đồng). Dòng tiền hôm nay có vào nhưng là tiền bán chủ động tháo chạy."
+  },
+  {
+   "duong_dan": "ky_thuat_chi_so.neu_thung",
+   "gia_tri": "Nếu đóng cửa thủng 1.695 điểm, chỉ số có thể lùi về vùng hỗ trợ 1.665,36–1.687,14 điểm (đáy 20 phiên 1.677,19 điểm)."
+  },
+  {
+   "duong_dan": "regime.ung_ho[0]",
+   "gia_tri": "Giá trị khớp lệnh cao hơn trung bình 20 phiên khoảng 29% đi kèm biên độ giảm gần 31 điểm."
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "nganh[0].nhan_dinh",
+   "gia_tri": "Ngân hàng là nhóm kéo chỉ số mạnh nhất hôm nay khi giảm 3,13%, khối ngoại bán ròng tập trung ở MBB, VCB, ACB, STB."
+  },
+  {
+   "duong_dan": "nganh[0].ma[3].cau_truc",
+   "gia_tri": "Nằm dưới MA10 liên tiếp 6 phiên, khối ngoại bán ròng 181,71 tỷ, đóng cửa 18,75."
+  },
+  {
+   "duong_dan": "nganh[0].ma[4].xac_nhan",
+   "gia_tri": "Giữ vững trên MA200 (21,48)."
+  },
+  {
+   "duong_dan": "nganh[0].ma[5].thung_thi",
+   "gia_tri": "Thủng 21,01 sẽ lùi về vùng hỗ trợ 20,31–20,7."
+  },
+  {
+   "duong_dan": "nganh[1].nhan_dinh",
+   "gia_tri": "Nhóm chứng khoán chịu sức ép chung nhưng có sự phân hóa, khối ngoại mua ròng ở một số mã như VIX, SHS."
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].thung_thi",
+   "gia_tri": "Thủng 227,8 sẽ lùi về vùng hỗ trợ 219,1–224,7."
+  },
+  {
+   "duong_dan": "nganh[2].ma[3].xac_nhan",
+   "gia_tri": "Vượt vùng 13,59–13,82 và cản 14,2."
+  },
+  {
+   "duong_dan": "nganh[3].ma[1].xac_nhan",
+   "gia_tri": "Vượt lại vùng 10,5–10,75."
+  },
+  {
+   "duong_dan": "nganh[3].ma[2].cau_truc",
+   "gia_tri": "Giảm 1,68% về 11,7, vẫn neo được trên MA20 và MA50."
+  },
+  {
+   "duong_dan": "nganh[4].ma[1].xac_nhan",
+   "gia_tri": "Vượt lại vùng 33,38–34,11."
+  },
+  {
+   "duong_dan": "nganh[5].ma[1].cau_truc",
+   "gia_tri": "Chỉ giảm nhẹ 0,31% về 63,8, nằm trên MA50 (61,61) nhưng ngay dưới MA20 (64,11)."
+  },
+  {
+   "duong_dan": "nganh[6].nhan_dinh",
+   "gia_tri": "Dầu khí giảm cùng phiên giá dầu Brent giảm mạnh, BSR giảm 1,81%, PVD giảm 1,39%."
+  },
+  {
+   "duong_dan": "nganh[7].ma[1].xac_nhan",
+   "gia_tri": "Vượt lại MA50 (73,16)."
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].xac_nhan",
+   "gia_tri": "Bật tăng trở lại từ MA200 lên trên 52,14."
+  },
+  {
+   "duong_dan": "nganh[9].ma[0].thung_thi",
+   "gia_tri": "Thủng 31,6 sẽ trượt về vùng 30,55–31,39."
+  },
+  {
+   "duong_dan": "nganh[9].ma[0].xac_nhan",
+   "gia_tri": "Vượt lại vùng 32,6–33,47."
+  },
+  {
+   "duong_dan": "nganh[13].ma[0].xac_nhan",
+   "gia_tri": "Lực cầu bắt đáy xuất hiện giữ vững 50,1."
+  },
+  {
+   "duong_dan": "luan_diem_chinh[2]",
+   "gia_tri": "Nhóm ngân hàng giảm 3,13%, mạnh nhất trong các nhóm vốn hóa lớn, VCB, VPB, BID lấy đi gần 10 điểm; khối ngoại bán ròng tập trung ở MBB, VCB, ACB, STB."
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "ghi nhận bốn dòng bị sai",
+   "thay": "ghi nhận năm dòng bị sai"
+  },
+  {
+   "tim": "ở mức bốn phẩy chín trăm hai mươi chín phần trăm, tức là đã chạm đáy hai mươi phiên.",
+   "thay": "ở mức bốn phẩy chín trăm hai mươi chín phần trăm."
+  },
+  {
+   "tim": "Tỷ giá neo cao ở vùng đỉnh lịch sử chính là kênh truyền dẫn trực tiếp khiến dòng vốn ngoại liên tục rút ròng khỏi sàn HOSE.",
+   "thay": "Tỷ giá là một áp lực cần theo dõi với dòng vốn ngoại."
+  },
+  {
+   "tim": "Chỉ số biến động VIX đêm qua cũng tăng vọt",
+   "thay": "Chỉ số biến động VIX phiên Mỹ thứ Sáu tuần trước cũng tăng vọt"
+  },
+  {
+   "tim": "Thị trường chứng khoán Mỹ phiên đêm qua cũng phản ánh",
+   "thay": "Thị trường chứng khoán Mỹ phiên thứ Sáu tuần trước cũng phản ánh"
+  },
+  {
+   "tim": " Khối lượng cổ phiếu khớp lệnh đạt hơn tám trăm bảy mươi bảy triệu đơn vị, gấp một phẩy sáu lần trung bình hai mươi phiên.",
+   "thay": ""
+  },
+  {
+   "tim": "GVR lấy đi một phẩy bảy điểm.",
+   "thay": "GVR lấy đi gần một phẩy tám điểm."
+  },
+  {
+   "tim": "Đây là vùng hỗ trợ hai sao, có hai lần chạm",
+   "thay": "Đây là vùng hỗ trợ có hai lần chạm"
+  },
+  {
+   "tim": " Khi đó áp lực giải chấp chéo sẽ xuất hiện trên diện rộng.",
+   "thay": ""
+  },
+  {
+   "tim": "khi giảm hơn ba phần trăm với thanh khoản khớp lệnh hơn năm nghìn ba trăm tỷ.",
+   "thay": "khi giảm hơn ba phần trăm."
+  },
+  {
+   "tim": "Nhóm dầu khí giảm theo giá dầu thế giới:",
+   "thay": "Nhóm dầu khí giảm cùng phiên giá dầu Brent giảm mạnh:"
+  },
+  {
+   "tim": " Tin tức sáng nay có việc VCB trích lập dự phòng đột biến năm nghìn tỷ khiến tâm lý ngắn hạn bị ảnh hưởng mạnh.",
+   "thay": ""
+  },
+  {
+   "tim": "mục tiêu ngắn hạn là vùng cản cũ mười hai phẩy hai mươi lăm",
+   "thay": "kháng cự kế tiếp là vùng cản cũ mười hai phẩy hai mươi lăm"
+  },
+  {
+   "tim": "Đèn NSI hôm nay không đọc được dữ liệu, nhưng hành động giá và khối lượng cho thấy",
+   "thay": "Hành động giá và khối lượng cho thấy"
+  }
+ ],
+ "slide": {
+  "regime": "Distribution",
+  "ma_dang_noi": [
+   "VCB",
+   "FPT",
+   "HDC"
+  ],
+  "ly_do": {
+   "VCB": "Lấy đi 4,66 điểm, mạnh nhất phiên, khối ngoại bán ròng 155 tỷ, về sát đáy 52,6–53,3.",
+   "FPT": "Dưới MA10 7 phiên, khối ngoại bán 86 tỷ, đang ở đáy 20 phiên 50,1 mà chưa có hỗ trợ rõ phía dưới.",
+   "HDC": "Ngược dòng tăng trần với khối lượng gấp 3,8 lần, vượt MA10/20/50 giữa phiên bán diện rộng."
+  },
+  "tieu_de_ma": {
+   "VCB": "về sát đáy 52,6–53,3",
+   "FPT": "test đáy 20 phiên 50,1",
+   "HDC": "trần, KL gấp 3,8 lần"
+  }
+ }
+}

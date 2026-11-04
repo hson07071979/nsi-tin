@@ -791,9 +791,12 @@
   "han_phien": 3,
   "loai_moc": "CAN",
   "noi_dung": "TCB sẽ giữ vững mốc 21,07 để tránh kích hoạt nhịp bán tháo toàn ngành ngân hàng.",
-  "trang_thai": "mo",
-  "phien_da_qua": 2,
-  "ngay_cham_cuoi": "2026-11-03"
+  "trang_thai": "dong",
+  "phien_da_qua": 3,
+  "ngay_cham_cuoi": "2026-11-04",
+  "ket_qua": "ĐÚNG",
+  "ngay_dong": "2026-11-04",
+  "gia_luc_dong": 21.85
  },
  {
   "id": "72d315c66d",
@@ -806,8 +809,8 @@
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ giữ vững trên mốc hỗ trợ 1.695,95 điểm trong 3 phiên tới để hình thành vùng tích lũy quanh ngưỡng 1.700 điểm.",
   "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-11-03"
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-11-04"
  },
  {
   "id": "f08b911368",
@@ -820,8 +823,8 @@
   "loai_moc": "CAN",
   "noi_dung": "FPT sẽ duy trì giá đóng cửa trên mốc hỗ trợ 50,1 để kiểm định lực cầu bắt đáy quanh vùng giá 50.",
   "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-11-03"
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-11-04"
  },
  {
   "id": "841d01b7ef",
@@ -834,8 +837,8 @@
   "loai_moc": "QS",
   "noi_dung": "VCB sẽ giữ được trên mốc hỗ trợ 52,6 để hạn chế áp lực giảm điểm lên toàn bộ thị trường chung.",
   "trang_thai": "mo",
-  "phien_da_qua": 1,
-  "ngay_cham_cuoi": "2026-11-03"
+  "phien_da_qua": 2,
+  "ngay_cham_cuoi": "2026-11-04"
  },
  {
   "id": "bea72eb816",
@@ -848,7 +851,8 @@
   "loai_moc": "CAN",
   "noi_dung": "VN-Index sẽ duy trì đóng cửa trên vùng 1.695,95 điểm trong 3 phiên tới để củng cố nền tích lũy.",
   "trang_thai": "mo",
-  "phien_da_qua": 0
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-11-04"
  },
  {
   "id": "e192d26131",
@@ -861,7 +865,8 @@
   "loai_moc": "CAN",
   "noi_dung": "HPG sẽ giữ vững mốc hỗ trợ 20,4 để duy trì nhịp phát động sóng ngành Thép.",
   "trang_thai": "mo",
-  "phien_da_qua": 0
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-11-04"
  },
  {
   "id": "1610580c84",
@@ -873,6 +878,20 @@
   "han_phien": 3,
   "loai_moc": "QS",
   "noi_dung": "VIC sẽ tìm được điểm cân bằng trên vùng hỗ trợ 227,8 để giải tỏa áp lực méo mạo chỉ số.",
+  "trang_thai": "mo",
+  "phien_da_qua": 1,
+  "ngay_cham_cuoi": "2026-11-04"
+ },
+ {
+  "id": "1ac1b5037f",
+  "ngay_ghi": "2026-11-04",
+  "ban": "cach_1_luot",
+  "doi_tuong": "VNINDEX",
+  "loai": "giu",
+  "moc": 1715.21,
+  "han_phien": 5,
+  "loai_moc": "CAN",
+  "noi_dung": "VN-Index sẽ duy trì vận động trên vùng hỗ trợ 1.715,21 điểm trong 5 phiên tới để củng cố xu hướng hồi phục.",
   "trang_thai": "mo",
   "phien_da_qua": 0
  }

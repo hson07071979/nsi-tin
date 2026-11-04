@@ -1,16 +1,16 @@
 {
  "ngay": "2026-11-04",
- "bat_dau_luc": "2026-11-04T07:01+07:00",
+ "bat_dau_luc": "2026-11-04T07:45+07:00",
  "cua_so": {
   "tu": "2026-11-03T07:01+07:00",
-  "den": "2026-11-04T07:01+07:00"
+  "den": "2026-11-04T07:45+07:00"
  },
  "nguon_web": [
   {
    "id": "cafef_ck",
    "name": "CafeF — Chứng khoán",
    "group": "bao_vn",
-   "n": 35,
+   "n": 36,
    "err": null
   },
   {
@@ -24,14 +24,14 @@
    "id": "cafef_nh",
    "name": "CafeF — Tài chính NH",
    "group": "bao_vn",
-   "n": 15,
+   "n": 17,
    "err": null
   },
   {
    "id": "cafef_dn",
    "name": "CafeF — Doanh nghiệp",
    "group": "bao_vn",
-   "n": 37,
+   "n": 38,
    "err": null
   },
   {
@@ -66,21 +66,21 @@
    "id": "vne_ck",
    "name": "VnEconomy — Chứng khoán",
    "group": "bao_vn",
-   "n": 11,
+   "n": 12,
    "err": null
   },
   {
    "id": "vne_tc",
    "name": "VnEconomy — Tài chính",
    "group": "bao_vn",
-   "n": 8,
+   "n": 9,
    "err": null
   },
   {
    "id": "tnck",
    "name": "Tin nhanh CK",
    "group": "bao_vn",
-   "n": 10,
+   "n": 11,
    "err": null
   },
   {
@@ -163,22 +163,22 @@
  },
  "vi_mo": {
   "so_lieu": {
-   "at": "2026-11-04T07:01+07:00",
-   "dxy": 101.89,
-   "dxy_chg5_pct": -0.42,
-   "dxy_chg20_pct": 0.059,
+   "at": "2026-11-04T07:45+07:00",
+   "dxy": 101.734,
+   "dxy_chg5_pct": -0.573,
+   "dxy_chg20_pct": -0.094,
    "us10y": 4.952,
    "us10y_chg5_bp": -4.1,
    "us10y_chg20_bp": -31.7,
-   "usdvnd": 25802.0,
-   "usdvnd_chg5_pct": -0.147,
-   "usdvnd_chg20_pct": -0.7,
-   "brent": 104.1,
-   "brent_chg5_pct": -8.588,
-   "brent_chg20_pct": 3.5,
-   "gold": 3944.3,
-   "gold_chg5_pct": -3.198,
-   "gold_chg20_pct": -5.799,
+   "usdvnd": 25761.0,
+   "usdvnd_chg5_pct": -0.275,
+   "usdvnd_chg20_pct": -0.877,
+   "brent": 104.22,
+   "brent_chg5_pct": -8.483,
+   "brent_chg20_pct": 3.619,
+   "gold": 3929.5,
+   "gold_chg5_pct": -3.561,
+   "gold_chg20_pct": -6.152,
    "vix": 20.83,
    "vix_chg5_pct": 18.893,
    "vix_chg20_pct": 38.774,
@@ -300,7 +300,8 @@
     "url": "https://vneconomy.vn/sacombank-trien-khai-goi-lai-suat-cho-vay-79nam.htm",
     "summary": "Hưởng ứng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước (NHNN) về giảm lãi suất cho vay, hỗ trợ sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế 2 con số, ngay từ tháng 8/2026, SACOMBANK đã triển khai gói tín dụng với quy mô gần 100.000 tỷ đồng dành cho khách hàng doanh nghiệp hiện hữu, đang hoạt động trong lĩnh vực xuất nhập khẩu, doanh nghiệp có vốn nước ngoài…",
     "published": "2026-11-03T08:49+07:00",
-    "score": 6
+    "score": 6,
+    "body": "Theo đó, mức giảm lãi suất hấp dẫn từ 1,5% đến 2% tương ứng lãi suất 8.5% - 9.5%. Trên cơ sở đó, SACOMBANK đã chủ động giảm biên lợi nhuận xuống còn 0.79%/năm nhằm chia sẻ, đồng hành cùng khách hàng. Ngày 2/11/2026, SACOMBANK tiếp tục triển khai gói tín dụng ưu đãi quy mô 10.000 tỷ đồng dành riêng cho khách hàng doanh nghiệp mới, hoạt động trong lĩnh vực xuất nhập khẩu và FDI, với mức lãi suất hỗ trợ là 7,9%/năm áp dụng từ 02/11/2026 đến 31/12/2026 Lãi suất cho vay ưu đãi cùng hệ sinh thái giải pháp tài chính toàn diện, Ngân hàng không chỉ giúp khách hàng tối ưu chi phí vốn mà còn mở rộng hoạt động kinh doanh và nắm bắt cơ hội tăng trưởng. Cuối năm là khoảng thời gian sôi nổi với các doanh nghiệp xuất nhập khẩu và FDI, nhất là khi bức tranh thị trường năm nay đang diễn biến tích cực. Theo Cục Xuất nhập khẩu (Bộ Công Thương), tổng kim ngạch xuất nhập khẩu hàng hóa trong 10 tháng đầu năm 2026 ước đạt 1.010,6 tỷ USD, tăng 32,3% so với cùng kỳ và chính thức vượt mốc 1.000 tỷ USD. Trong khi đó, vốn FDI đến 30/09/2026 đạt 21,07 tỷ USD, mức cao nhất của 9 tháng trong 5 năm qua. Không chỉ đóng góp trực tiếp vào tăng trưởng ngành, hoạt động của các doanh nghiệp trong lĩnh vực này còn tạo hiệu ứng lan tỏa đến chuỗi cung ứng, từ sản xuất nguyên vật liệu, lắp ráp máy móc đến logistics. Qua đó, thúc đẩy hoạt động sản xuất, thương mại và đóng góp vào tăng trưởng GDP quốc gia. Để bảo đảm hoạt động và tiến độ thực hiện đơn hàng, doanh nghiệp cần nguồn vốn linh hoạt cho các nhu cầu như thanh toán nhà cung cấp, chi trả nhân công và duy trì vốn lưu động. Do đó, tối ưu chi phí vốn sẽ giúp giảm áp lực tài chính, đồng thời tạo thêm nguồn lực để doanh nghiệp tập trung vào hoạt động kinh doanh và nâng cao hiệu quả vận hành. Nắm bắt nhu cầu này, SACOMBANK triển khai lãi suất ưu đãi 7,9%/năm dành riêng cho doanh nghiệp xuất nhập khẩu và FDI, hỗ trợ khách hàng bổ sung vốn lưu động, thực hiện đơn hàng và mở rộng hoạt động với chi phí cạnh tranh. Bên cạnh chính sách lãi suất cạnh tranh, gói cho vay còn là cơ hội tiếp cận nguồn vốn kịp thời, giúp doanh nghiệp sẵn sàng hòa nhịp tăng trưởng với thị trường và tạo tiền đề cho sự phát triển vững vàng về sau. Đặc thù của xuất nhập khẩu là vốn luôn dịch chuyển theo hành trình của đơn hàng. Vì vậy, SACOMBANK cung cấp các giải pháp từ tài trợ theo hợp đồng, LC đến bộ chứng từ xuất khẩu, với tỷ lệ tài trợ lên đến 100% và không yêu cầu tài sản bảo đảm theo điều kiện áp dụng. Qua đó, nhà xuất khẩu có thể tiếp tục xoay vòng nguồn lực trong thời gian chờ đối tác thanh toán. Ở chiều nhập khẩu, các giải pháp như LC UPAS, LC có điều khoản thương lượng kết hợp công cụ phòng ngừa rủi ro tỷ giá giúp khách hàng chủ động hơn trong thanh toán và kiểm soát chi phí. Các tiện ích quản lý tài khoản, chuyển tiền, thanh toán quốc tế, chi lương và thẻ doanh nghiệp cũng được tích hợp, tạo thuận lợi trong quá trình vận hành. Với khối FDI, SACOMBANK phát triển hệ giải pháp phục vụ xuyên suốt hoạt động tại Việt Nam, từ quản lý tài khoản, thanh toán quốc tế, ngoại hối đến chi lương và tài trợ chuỗi cung ứng. Thay vì sử dụng nhiều dịch vụ rời rạc, khách hàng có thể quản lý các nhu cầu tài chính trên một hệ sinh thái đồng bộ với chi phí rẻ hơn so với đăng ký lẻ, qua đó nâng cao hiệu quả sử dụng vốn. Đại diện SACOMBANK chia sẻ: “Doanh nghiệp hoạt động trong lĩnh vực xuất nhập khẩu và doanh nghiệp FDI là những phân khúc trọng tâm trong định hướng phát triển mảng ngân hàng doanh nghiệp tại SACOMBANK. Đồng hành cùng sự lớn mạnh của nhóm doanh nghiệp này cũng chính là cách chúng tôi đóng góp thiết thực vào tăng trưởng chung của nền kinh tế.” Chương trình ưu đãi lần này là bước tiếp nối chuỗi chính sách được SACOMBANK triển khai nhằm cụ thể hóa định hướng của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước về giảm mặt bằng lãi suất, hỗ trợ sản xuất kinh doanh và thúc đẩy tăng trưởng kinh tế."
    },
    {
     "id": "w7ff5f2f992e0",
@@ -311,7 +312,8 @@
     "url": "https://cafef.vn/sacombank-tiep-tuc-tung-goi-lai-suat-cho-vay-79-nam-gop-suc-cung-muc-tieu-tang-truong-gdp-2-con-so-188261103142159702.chn",
     "summary": "Tiếp nối chương trình tín dụng ưu đãi dành cho doanh nghiệp, SACOMBANK triển khai gói vay quy mô 10.000 tỷ đồng với lãi suất 7,9%/năm dành cho khách hàng mới hoạt động trong lĩnh vực xuất nhập khẩu và FDI.",
     "published": "2026-11-03T15:30+07:00",
-    "score": 5
+    "score": 5,
+    "body": "Tiếp nối chương trình tín dụng ưu đãi dành cho doanh nghiệp, SACOMBANK triển khai gói vay quy mô 10.000 tỷ đồng với lãi suất 7,9%/năm dành cho khách hàng mới hoạt động trong lĩnh vực xuất nhập khẩu và FDI. Hưởng ứng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước (NHNN) về giảm lãi suất cho vay, hỗ trợ sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế 2 con số, ngay từ tháng 8/2026, SACOMBANK đã triển khai gói tín dụng với quy mô gần 100.000 tỷ đồng dành cho khách hàng doanh nghiệp hiện hữu, đang hoạt động trong lĩnh vực xuất nhập khẩu, doanh nghiệp có vốn nước ngoài… Mức giảm lãi suất hấp dẫn từ 1,5% đến 2% tương ứng lãi suất 8,5% - 9,5%. Trên cơ sở đó, SACOMBANK đã chủ động giảm biên lợi nhuận xuống còn 0,79%/năm nhằm chia sẻ, đồng hành cùng khách hàng. Ngày 2/11/2026, SACOMBANK tiếp tục triển khai gói tín dụng ưu đãi quy mô 10.000 tỷ đồng dành riêng cho khách hàng doanh nghiệp mới, hoạt động trong lĩnh vực xuất nhập khẩu và FDI, với mức lãi suất hỗ trợ là 7,9%/năm áp dụng từ 02/11/2026 đến 31/12/2026 Lãi suất cho vay ưu đãi cùng hệ sinh thái giải pháp tài chính toàn diện, Ngân hàng không chỉ giúp khách hàng tối ưu chi phí vốn mà còn mở rộng hoạt động kinh doanh và nắm bắt cơ hội tăng trưởng. Bơm vốn ưu đãi, tạo động lực cho doanh nghiệp tăng tốc Cuối năm là khoảng thời gian sôi nổi với các doanh nghiệp xuất nhập khẩu và FDI, nhất là khi bức tranh thị trường năm nay đang diễn biến tích cực. Theo Cục Xuất nhập khẩu (Bộ Công Thương), tổng kim ngạch xuất nhập khẩu hàng hóa trong 10 tháng đầu năm 2026 ước đạt 1.010,6 tỷ USD, tăng 32,3% so với cùng kỳ và chính thức vượt mốc 1.000 tỷ USD. Trong khi đó, vốn FDI đến 30/09/2026 đạt 21,07 tỷ USD, mức cao nhất của 9 tháng trong 5 năm qua. Không chỉ đóng góp trực tiếp vào tăng trưởng ngành, hoạt động của các doanh nghiệp trong lĩnh vực này còn tạo hiệu ứng lan tỏa đến chuỗi cung ứng, từ sản xuất nguyên vật liệu, lắp ráp máy móc đến logistics. Qua đó, thúc đẩy hoạt động sản xuất, thương mại và đóng góp vào tăng trưởng GDP quốc gia. Để bảo đảm hoạt động và tiến độ thực hiện đơn hàng, doanh nghiệp cần nguồn vốn linh hoạt cho các nhu cầu như thanh toán nhà cung cấp, chi trả nhân công và duy trì vốn lưu động. Do đó, tối ưu chi phí vốn sẽ giúp giảm áp lực tài chính, đồng thời tạo thêm nguồn lực để doanh nghiệp tập trung vào hoạt động kinh doanh và nâng cao hiệu quả vận hành. Nắm bắt nhu cầu này, SACOMBANK triển khai lãi suất ưu đãi 7,9%/năm dành riêng cho doanh nghiệp xuất nhập khẩu và FDI, hỗ trợ khách hàng bổ sung vốn lưu động, thực hiện đơn hàng và mở rộng hoạt động với chi phí cạnh tranh. Bên cạnh chính sách lãi suất cạnh tranh, gói cho vay còn là cơ hội tiếp cận nguồn vốn kịp thời, giúp doanh nghiệp sẵn sàng hòa nhịp tăng trưởng với thị trường và tạo tiền đề cho sự phát triển vững vàng về sau. Đặc thù của xuất nhập khẩu là vốn luôn dịch chuyển theo hành trình của đơn hàng. Vì vậy, SACOMBANK cung cấp các giải pháp từ tài trợ theo hợp đồng, LC đến bộ chứng từ xuất khẩu, với tỷ lệ tài trợ lên đến 100% và không yêu cầu tài sản bảo đảm theo điều kiện áp dụng. Qua đó, nhà xuất khẩu có thể tiếp tục xoay vòng nguồn lực trong thời gian chờ đối tác thanh toán. Ở chiều nhập khẩu, các giải pháp như LC UPAS, LC có điều khoản thương lượng kết hợp công cụ phòng ngừa rủi ro tỷ giá giúp khách hàng chủ động hơn trong thanh toán và kiểm soát chi phí. Các tiện ích quản lý tài khoản, chuyển tiền, thanh toán quốc tế, chi lương và thẻ doanh nghiệp cũng được tích hợp, tạo thuận lợi trong quá trình vận hành. Với khối FDI, SACOMBANK phát triển hệ giải pháp phục vụ xuyên suốt hoạt động tại Việt Nam, từ quản lý tài khoản, thanh toán quốc tế, ngoại hối đến chi lương và tài trợ chuỗi cung ứng. Thay vì sử dụng nhiều dịch vụ rời rạc, khách hàng có thể quản lý các nhu cầu tài chính trên một hệ sinh thái đồng bộ với chi phí rẻ hơn so với đăng ký lẻ, qua đó nâng cao hiệu quả sử dụng vốn. Đại diện SACOMBANK chia sẻ: \"Doanh nghiệp hoạt động trong lĩnh vực xuất nhập khẩu và doanh nghiệp FDI là những phân…"
    },
    {
     "id": "wde003cf7f980",
@@ -322,7 +324,8 @@
     "url": "http://vietstock.vn/2026/11/nhnn-chap-thuan-cho-vietcombank-tang-von-dieu-le-them-5431-ty-dong-757-1511237.htm",
     "summary": "Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank, HOSE: VCB) cho biết đã nhận được Công văn của Ngân hàng Nhà nước (NHNN) về việc chấp thuận tăng vốn điều lệ theo phương án phát hành cổ phiếu riêng lẻ đã được ĐHĐCĐ thông qua ngày 26/04/2025 và 24/04/2026.",
     "published": "2026-11-03T18:53+07:00",
-    "score": 5
+    "score": 5,
+    "body": "NHNN chấp thuận cho Vietcombank tăng vốn điều lệ thêm 5,431 tỷ đồng Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank, HOSE : VCB ) cho biết đã nhận được Công văn của Ngân hàng Nhà nước (NHNN) về việc chấp thuận tăng vốn điều lệ theo phương án phát hành cổ phiếu riêng lẻ đã được ĐHĐCĐ thông qua ngày 26/04/2025 và 24/04/2026. Theo đó, NHNN chấp thuận cho Vietcombank tăng vốn điều lệ thêm tối đa 5,431 tỷ đồng theo phương án phát hành cổ phiếu riêng lẻ để tăng vốn điều lệ đã được ĐHĐCĐ thông qua ngày 26/04/2025 và 24/04/2026. Việc phát hành phù hợp với Quyết định 2054/QĐ-TTg ngày 27/10/2026 của Thủ tướng phê duyệt kế hoạch cơ cấu lại vốn nhà nước tại doanh nghiệp giai đoạn 2026-2030, đồng thời tuân thủ quy định về tỷ lệ sở hữu cổ phần của cổ đông và nhà đầu tư nước ngoài tại tổ chức tín dụng. Vốn điều lệ của Vietcombank tính đến 30/09/2026 là gần 83,557 tỷ đồng, nếu phát hành thành công, vốn điều lệ Vietcombank sẽ tăng lên khoảng 88,988 tỷ đồng. Phương án phát hành riêng lẻ tối đa 6.5% số cổ phiếu đang lưu hành tương đương khoảng 543.1 triệu cp. Kế hoạch bán 6.5% vốn được Vietcombank đưa ra từ năm 2019 nhưng chưa hoàn tất. Trước đó, vào tháng 1/2019, Vietcombank đã phát hành riêng lẻ hơn 94.4 triệu cổ phần (2.55% vốn) cho quỹ đầu tư quốc gia Singapore GIC và hơn 16.6 triệu cổ phần (0.4% vốn) cho Mizuho Bank. Trước đó, theo ĐHĐCĐ thường niên 2026, Vietcombank dự kiến phát hành tối đa gần 1.07 tỷ cp với tổng giá trị tối đa 10,687 tỷ đồng. Tỷ lệ phát hành sẽ căn cứ theo thời điểm phát hành thực tế. Nguồn vốn thực hiện từ quỹ dự trữ bổ sung vốn điều lệ lũy kế đến hết năm 2023. Thời gian thực hiện trong năm 2026. Về kết quả kinh doanh, quý 3/2026, Vietcombank lãi trước thuế gần 11,218 tỷ đồng, xấp xỉ cùng kỳ năm trước, do tăng mạnh trích lập dự phòng rủi ro gần 8 lần. Đáng chú ý, nợ xấu tính đến cuối quý 3 tăng 32% so với đầu năm. Trên sàn HOSE , giá cổ phiếu VCB đang quanh 53,500 đồng cp (kết phiên 03/11), giảm 6% so với đầu năm, với thanh khoản trung bình hơn 7.2 triệu cp/ngày."
    },
    {
     "id": "w9b552c3384a4",
@@ -366,7 +369,8 @@
     "url": "https://cafef.vn/vn-index-lai-mat-moc-1700-diem-khoi-ngoai-noi-dai-chuoi-ban-rong-188261103172938695.chn",
     "summary": "Áp lực từ nhóm cổ phiếu vốn hóa lớn, đặc biệt là VIC và dầu khí, kéo VN-Index xuống dưới ngưỡng 1.700 điểm trong phiên giao dịch ngày 3/11. Trái chiều với diễn biến chỉ số, cổ phiếu thép đồng loạt tăng mạnh, trong khi nhà đầu tư nước ngoài tiếp tục bán ròng phiên thứ 8 liên tiếp.",
     "published": "2026-11-03T18:18+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Áp lực từ nhóm cổ phiếu vốn hóa lớn, đặc biệt là VIC và dầu khí, kéo VN-Index xuống dưới ngưỡng 1.700 điểm trong phiên giao dịch ngày 3/11. Trái chiều với diễn biến chỉ số, cổ phiếu thép đồng loạt tăng mạnh, trong khi nhà đầu tư nước ngoài tiếp tục bán ròng phiên thứ 8 liên tiếp. Thị trường chứng khoán tiếp tục trải qua một phiên giao dịch nhiều biến động. VN-Index khởi đầu khá tích cực, có lúc tăng lên 1.713 điểm, nhưng áp lực bán nhanh chóng xuất hiện và gia tăng trong phiên chiều. Chỉ số có thời điểm lùi xuống 1.690 điểm trước khi hồi phục nhẹ vào cuối phiên. Kết phiên 3/11, VN-Index giảm 11,1 điểm, tương đương 0,65%. Đây là phiên giảm thứ 4 liên tiếp, đồng thời đánh dấu lần đầu chỉ số đóng cửa dưới mốc tâm lý 1.700 điểm trong nhịp điều chỉnh này. Đáng chú ý, sức ép lên chỉ số chủ yếu đến từ một số cổ phiếu vốn hóa lớn, thay vì tình trạng bán tháo đồng loạt. VIC giảm 3,31%, lấy đi hơn 12 điểm của VN-Index, cao hơn mức giảm chung của chỉ số. VHM cũng đảo chiều từ tăng trong phiên sáng sang giảm 0,16% khi đóng cửa. Nhóm dầu khí tiếp tục giao dịch kém tích cực. BSR giảm 2,95%, GAS mất 2,08%, PVD giảm 1,41%. BVH giảm sâu 5,88%, trong khi PNJ mất 5,45% và KOS giảm 6,45%. Dù chỉ số giảm điểm, độ rộng thị trường lại có phần cân bằng hơn. Trên HoSE, có 152 mã tăng giá, nhỉnh hơn 135 mã giảm. Một số cổ phiếu tài chính cũng hồi phục, như MSB tăng 2,86%, STB tăng 2,3%, VIB tăng 2,21%, VCI tăng 2,71%. Tuy nhiên, lực cầu tại các mã này chưa đủ sức bù đắp ảnh hưởng từ những cổ phiếu trụ suy yếu. Điểm sáng đáng chú ý trong phiên là nhóm thép. HPG tăng 4,17%, NKG tăng 3,42%, HSG tăng 3,88%. Dòng tiền cũng tìm đến một số cổ phiếu khác như GVR tăng 1,72%, HVN tăng 3,7% và VHC tăng 1,16%. Diễn biến này cho thấy lực cầu bắt đáy đã xuất hiện ở một số nhóm ngành, dù chưa đủ tạo sự đồng thuận trên toàn thị trường. Thanh khoản trên HoSE giảm mạnh, giá trị khớp lệnh chỉ đạt khoảng 10.474 tỷ đồng, thấp nhất trong 5 phiên và giảm 34% so với phiên trước. Dòng tiền thận trọng khiến nhịp hồi phục tại nhiều cổ phiếu chưa thực sự bền vững. Ở giao dịch nhà đầu tư nước ngoài, khối ngoại tiếp tục bán ròng gần 500 tỷ đồng, đánh dấu phiên bán ròng thứ 8 liên tiếp. MBB bị bán ròng mạnh nhất với khoảng 255 tỷ đồng, tiếp đến là VCB gần 219 tỷ đồng, VIC khoảng 114 tỷ đồng và BID hơn 65 tỷ đồng. Ở chiều mua, HPG được giải ngân mạnh nhất với hơn 227 tỷ đồng, tiếp theo là SHB khoảng 126 tỷ đồng và VHM gần 119 tỷ đồng. Việc VN-Index mất mốc 1.700 điểm trong khi thanh khoản suy giảm cho thấy tâm lý thận trọng vẫn bao trùm. Dù dòng tiền đã tìm đến một số cổ phiếu thép và tài chính, thị trường vẫn cần thêm lực cầu đủ mạnh để tạo điểm cân bằng sau chuỗi phiên giảm liên tiếp."
    },
    {
     "id": "wa2968d8f3185",
@@ -377,7 +381,8 @@
     "url": "https://cafef.vn/vietcombank-duoc-ngan-hang-nha-nuoc-chap-thuan-tang-von-dieu-le-them-5431-ty-dong-188261103135413186.chn",
     "summary": "Sau khi thực hiện đợt phát hành riêng lẻ, vốn điều lệ ngân hàng sẽ đạt khoảng 88.988 tỷ đồng.",
     "published": "2026-11-03T13:54+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Sau khi thực hiện đợt phát hành riêng lẻ, vốn điều lệ ngân hàng sẽ đạt khoảng 88.988 tỷ đồng. Ngân hàng Thương mại Cổ phần Ngoại thương Việt Nam (Vietcombank, mã: VCB) cho biết đã nhận được Công văn của Ngân hàng Nhà nước (NHNN) về việc chấp thuận tăng vốn điều lệ theo phương án phát hành cổ phiếu riêng lẻ đã được Đại hội đồng cổ đông thông qua ngày 26/4/2025 và 24/4/2026. Theo đó, NHNN chấp thuận Vietcombank tăng vốn điều lệ thêm tối đa 5.431 tỷ đồng. Cổ phiếu được phát hành riêng lẻ cho nhà đầu tư chứng khoán chuyên nghiệp, phù hợp với Quyết định 2054/QĐ-TTg ngày 27/10/2026 của Thủ tướng phê duyệt kế hoạch cơ cấu lại vốn nhà nước tại doanh nghiệp giai đoạn 2026–2030, đồng thời tuân thủ quy định về tỷ lệ sở hữu cổ phần của cổ đông và nhà đầu tư nước ngoài tại tổ chức tín dụng. Với vốn điều lệ hiện tại 83.557 tỷ đồng, nếu phát hành hết, vốn điều lệ Vietcombank sẽ tăng lên khoảng 88.988 tỷ đồng. Phương án phát hành riêng lẻ tối đa 6,5% số cổ phiếu đang lưu hành tương đương khoảng 543,1 triệu cổ phiếu. Kế hoạch bán 6,5% vốn được Vietcombank đưa ra từ năm 2019 nhưng chưa hoàn tất. Trước đó, vào tháng 1/2019, ngân hàng đã phát hành riêng lẻ hơn 94,4 triệu cổ phần (2,55% vốn) cho quỹ đầu tư quốc gia Singapore GIC và hơn 16,6 triệu cổ phần (0,4% vốn) cho Mizuho Bank. Tại Đại hội đồng cổ đông thường niên 2026, Chủ tịch Vietcombank Nguyễn Thanh Tùng cho biết Mizuho sẽ tham gia đợt chào bán lần này, mục tiêu hoàn tất trong năm 2026. Ngoài phát hành riêng lẻ, Vietcombank còn kế hoạch phát hành hơn 1 tỷ cổ phiếu để tăng vốn điều lệ thêm khoảng 10.700 tỷ đồng trong năm 2026, phương án đã được Đại hội đồng cổ đông năm 2026 thông qua. Lãnh đạo ngân hàng cho biết sẽ ưu tiên triển khai phát hành riêng lẻ trước, sau đó mới đến các phương án khác. Về kết quả kinh doanh, quý 3/2026, Vietcombank ghi nhận thu nhập lãi thuần 20.386 tỷ đồng, tăng 39% so với cùng kỳ năm trước; tổng thu nhập hoạt động đạt 25.431 tỷ đồng, tăng 41%. Tuy nhiên, chi phí dự phòng rủi ro tín dụng lên tới 6.184 tỷ đồng, gần gấp 8 lần cùng kỳ, khiến lợi nhuận trước thuế quý 3 chỉ đạt 11.218 tỷ đồng, đi ngang so với cùng kỳ. Lũy kế 9 tháng đầu năm 2026, Vietcombank đạt 40.440 tỷ đồng lợi nhuận trước thuế, tăng 22% so với cùng kỳ, tiếp tục dẫn đầu ngành ngân hàng. Tại ngày 30/9/2026, tổng tài sản của Vietcombank đạt 2,68 triệu tỷ đồng, tăng 9,8% so với đầu năm. Cho vay khách hàng đạt 1,82 triệu tỷ đồng, tăng 8,5%; tiền gửi khách hàng đạt 1,78 triệu tỷ đồng, tăng 6,5%. Nợ xấu ở mức 12.818 tỷ đồng, tương ứng tỷ lệ nợ xấu 0,71%; tỷ lệ bao phủ nợ xấu đạt 243%."
    },
    {
     "id": "we9607a614d78",
@@ -399,7 +404,8 @@
     "url": "https://vnexpress.net/ty-gia-ngan-hang-lao-doc-5140148.html",
     "summary": "Các ngân hàng liên tục hạ giá mua bán USD xuống 25.560 - 25.970 đồng, xuống thấp nhất một năm rưỡi, dù tỷ giá trung tâm gần như đi ngang.",
     "published": "2026-11-03T12:26+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Các ngân hàng liên tục hạ giá mua bán USD xuống 25.560 - 25.970 đồng, xuống thấp nhất một năm rưỡi, dù tỷ giá trung tâm gần như đi ngang. Vietcombank sáng nay giảm giá mua bán USD thêm 10 đồng, còn VietinBank điều chỉnh đến 25 đồng. Tại các nhà băng tư nhân như Sacombank, Eximbank, HDBank... mức giảm phổ biến là 20 đồng. Đây là ngày thứ tám liên tiếp tỷ giá kênh ngân hàng đi xuống với mức giảm tổng cộng gần 100 đồng. Từ cuối tuần trước, tỷ giá kênh ngân hàng xuống dưới 26.000 đồng ở cả chiều mua lẫn bán. Giá mua bán lần lượt 25.560 đồng và 25.970 đồng. Một số đơn vị còn hạ mức bán ra xuống 25.940 đồng, thấp nhất một năm rưỡi. Đồng bạc xanh ở kênh ngân hàng có xu hướng biến động mạnh hơn tỷ giá trung tâm. Ngân hàng Nhà nước sáng nay công bố tỷ giá tham chiếu là 25.630 đồng, giảm phiên thứ tư liên tiếp. Với biên độ 5%, các ngân hàng thương mại được phép mua bán trong khoảng 24.348 - 26.911 đồng. Trên thị trường tự do, tỷ giá lại có dấu hiệu nhích lên khi dòng tiền kiều hối vào mùa cao điểm cuối năm. Một số tiệm thu đổi ngoại tệ ở TP HCM đang giao dịch quanh 26.000 - 26.200 đồng, nhích nhẹ so với đầu tuần và cao hơn giá mua bán tại ngân hàng. Trong bản tin cuối tháng 10, Trung tâm Kinh doanh ngoại hối VietinBank đánh giá tỷ giá USD vẫn ổn định trong ngắn hạn. Theo giới phân tích, sự ổn định của đồng nội tệ đến từ cán cân thương mại quay lại thặng dư, dòng vốn FDI ở mức kỷ lục và GDP duy trì mức tăng trưởng cao. Dù vậy, các áp lực lên tỷ giá vẫn hiện hữu khi đồng USD được kỳ vọng mạnh lên trong những tháng cuối năm do giá dầu neo cao tạo áp lực lạm phát, qua đó củng cố kỳ vọng Cục Dự trữ liên bang Mỹ (Fed) tiếp tục giữ lãi suất ở mức cao. Ngân hàng UOB cho rằng tỷ giá quý cuối năm ở mức 26.300 đồng, sau đó tăng lên 26.600 và 26.800 trong quý I và quý II năm sau. Còn nhóm phân tích Công ty Chứng khoán MB dự báo giá USD cuối năm nay dao động 26.800-27.000 đồng."
    },
    {
     "id": "w618c78e06272",
@@ -410,7 +416,8 @@
     "url": "https://vnexpress.net/australia-tang-lai-suat-len-cao-nhat-18-nam-5140080.html",
     "summary": "Để hạ nhiệt lạm phát hơn 4% hiện tại, Australia đã nâng lãi 5 lần năm nay, lên cao nhất kể từ 2008.",
     "published": "2026-11-03T11:41+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Để hạ nhiệt lạm phát hơn 4% hiện tại, Australia đã nâng lãi 5 lần năm nay, lên cao nhất kể từ 2008. Ngày 3/11, Ngân hàng Trung ương Australia (RBA) tăng lãi suất tham chiếu thêm 25 điểm cơ bản (0,25%) lên 4,85%. Đây là mức cao nhất kể từ tháng 11/2008. Động thái này khớp với dự báo của các nhà phân tích trong khảo sát của Reuters . Đây cũng là lần tăng lãi thứ 5 của Australia trong năm nay. Động thái này diễn ra trong bối cảnh quốc gia này vẫn đang vật lộn với lạm phát cao. Chỉ số giá tiêu dùng (CPI) tháng 9 tăng 4,3%, nhỉnh hơn so với 4% hồi tháng 8 và cao nhất nửa năm qua. RBA dự báo lạm phát vẫn tăng tốc năm tới và khó quay về mục tiêu 2-3% cho đến cuối năm 2027. Trong thông báo tăng lãi suất, thống đốc Michelle Bullock cho biết lạm phát hiện \"quá cao\", chủ yếu do giá dầu tăng vì xung đột Trung Đông. Nguyên nhân nữa là các khoản đầu tư dành cho AI khiến giá sản phẩm liên quan đến công nghệ tăng vọt. \"Chúng tôi nhìn thấy rủi ro lạm phát tăng tốc dần hiện hữu. Lãi suất sẽ tiếp tục được nâng lên nếu cần thiết\", bà nói. Tăng trưởng của nước này đã chậm lại trong hai quý đầu năm. GDP Australia tăng 2,1% trong quý II so với cùng kỳ năm ngoái. Trước đó, nền kinh tế này tăng trưởng 2,5%. RBA đang nỗ lực kiểm soát lạm phát trong bối cảnh lãi vay cao và chi phí sinh hoạt đè nặng lên các hộ gia đình, hoạt động kinh tế. Khi được hỏi liệu Australia có suy thoái hay không, bà Bullock phủ nhận, và cho biết họ đánh giá đây \"không phải kịch bản khả năng cao hiện tại\". Ngoài Australia, hàng loạt ngân hàng trung ương lớn trên toàn cầu đã nâng lãi năm nay để ghìm lạm phát. Mỹ và Canada tăng lãi suất tham chiếu lần đầu tiên sau hơn 3 năm. Hồi tháng 9, Ngân hàng Trung ương Nhật Bản (BOJ) đưa lãi suất lên cao nhất 31 năm. Ngân hàng Trung ương châu Âu (ECB) cũng đã thắt chặt chính sách. Anh tuần này được dự báo tăng lãi lần đầu tiên kể từ năm 2023."
    },
    {
     "id": "w4c9ebbbba194",
@@ -421,7 +428,8 @@
     "url": "https://vnexpress.net/gia-vang-the-gioi-tang-manh-thoat-day-mot-nam-5139951.html",
     "summary": "Mỗi ounce vàng có thời điểm tăng gần 100 USD trong phiên đầu tuần, lên sát 4.000 USD, nhờ giá dầu giảm gần 8%.",
     "published": "2026-11-03T07:30+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Mỗi ounce vàng có thời điểm tăng gần 100 USD trong phiên đầu tuần, lên sát 4.000 USD, nhờ giá dầu giảm gần 8%. Chốt phiên giao dịch 2/11, giá vàng thế giới giao ngay tăng 71 USD lên 3.945 USD một ounce. Trong phiên, giá có thời điểm lên 3.968 USD, tăng đáng kể sau khi chạm đáy 1 năm cuối tuần trước. Thị trường tăng trở lại nhờ giá dầu thô giảm khiến nỗi lo lạm phát hạ nhiệt. Bên cạnh đó, nhà đầu tư cũng đang chờ kết quả cuộc bầu cử giữa nhiệm kỳ tại Mỹ, sẽ diễn ra tuần này. Giá dầu thô giảm tới 8% trong phiên đầu tuần, sau khi Iran và Qatar tổ chức đàm phán ngày thứ 3 liên tiếp nhằm chấm dứt chiến sự tại Trung Đông. Giá mỗi thùng Brent hiện chỉ còn 104 USD. \"Giá dầu đi xuống đã hạ nhiệt thị trường phần nào, trên phương diện lo ngại lạm phát. Tuy nhiên, nhà đầu tư vẫn kỳ vọng Cục Dự trữ liên bang Mỹ (Fed) nâng lãi suất tháng 12, dù khả năng này giảm một chút trong vài ngày qua\", Peter Grant - chiến lược gia kim loại cấp cao tại Zaner Metals nhận định. Ông cho biết đồng USD cũng được hỗ trợ từ diễn biến này. Công cụ theo dõi lãi suất FedWatch cho thấy nhà đầu tư hiện kỳ vọng xác suất Fed tăng lãi tháng 12 là 77%, giảm từ 80% một tuần trước đó. Relative Strength Index - chỉ số theo dõi liệu tài sản đang bị quá mua hoặc quá bán - tăng từ 30 tuần trước lên 37 với vàng. Diễn biến này cho thấy kim loại quý đang phục hồi sau khi bị bán tháo. Sự chú ý hiện dồn vào cuộc bầu cử giữa nhiệm kỳ tại Mỹ ngày 3/11, vì kết quả có khả năng tác động lên chính sách tài khóa, địa chính trị và tâm lý chung trên thị trường. \"Dù vậy, tình hình tài khóa của Mỹ khó có khả năng thay đổi mạnh đủ để ảnh hưởng lên vàng. Thâm hụt vẫn tiếp diễn dù kết quả bầu cử ra sao, đồng nghĩa nợ công và gánh nặng lãi suất của Mỹ sẽ hỗ trợ vàng trong dài hạn\", Carsten ⁠Menke - nhà phân tích tại Julius Baer kết luận."
    },
    {
     "id": "w96c39bb5d4f9",
@@ -432,7 +440,8 @@
     "url": "https://vnexpress.net/sacombank-cho-vay-7-9-mot-nam-voi-nhom-xuat-nhap-khau-fdi-5140282.html",
     "summary": "Sacombank dành gói vay 10.000 tỷ cho khách hàng doanh nghiệp mới, hoạt động trong lĩnh vực xuất nhập khẩu và FDI, mức lãi suất 7,9% một năm.",
     "published": "2026-11-03T16:00+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Sacombank dành gói vay 10.000 tỷ cho khách hàng doanh nghiệp mới, hoạt động trong lĩnh vực xuất nhập khẩu và FDI, mức lãi suất 7,9% một năm. Chương trình áp dụng từ nay đến hết 31/12 nhằm hỗ trợ doanh nghiệp bổ sung vốn lưu động, thanh toán cho nhà cung cấp và thực hiện các đơn hàng trong những tháng cuối năm. Bên cạnh chính sách lãi suất, khách hàng có thể sử dụng các giải pháp tài trợ thương mại, thanh toán quốc tế và quản lý dòng tiền của Sacombank. Theo đơn vị, đây là chương trình tiếp nối gói tín dụng quy mô gần 100.000 tỷ đồng mà ngân hàng triển khai từ tháng 8 cho khách hàng doanh nghiệp hiện hữu, trong đó có các đơn vị hoạt động trong lĩnh vực xuất nhập khẩu và doanh nghiệp có vốn đầu tư nước ngoài (FDI). Gói vay trước đó áp dụng mức lãi suất 8,5-9,5% một năm, giảm 1,5-2% so với mức thông thường. Theo Sacombank, ngân hàng đã điều chỉnh biên lợi nhuận xuống còn 0,79% mỗi năm để thực hiện chính sách hỗ trợ khách hàng. Ưu đãi cũng nhằm hưởng ứng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước về giảm lãi suất cho vay, hỗ trợ sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế hai con số. Việc mở rộng chương trình ưu đãi diễn ra trong bối cảnh hoạt động xuất nhập khẩu tiếp tục tăng trưởng. Theo số liệu Cục Xuất nhập khẩu (Bộ Công Thương) được ngân hàng dẫn lại, tổng kim ngạch xuất nhập khẩu hàng hóa trong 10 tháng đầu năm ước đạt 1.010,6 tỷ USD, tăng 32,3% so với cùng kỳ. Trong khi đó, vốn FDI tính đến ngày 30/9 đạt 21,07 tỷ USD, mức cao nhất trong 9 tháng đầu năm của 5 năm gần đây. Hoạt động sản xuất và thương mại gia tăng kéo theo nhu cầu vốn cho việc nhập nguyên liệu, thanh toán đơn hàng, chi trả nhân công và duy trì hoạt động của doanh nghiệp. Đặc biệt, với các đơn vị xuất nhập khẩu, thời gian từ khi sản xuất, giao hàng đến lúc nhận thanh toán có thể tạo ra áp lực về dòng tiền. Từ nhu cầu này, Sacombank cung cấp các giải pháp tài trợ theo hợp đồng, thư tín dụng (LC) và bộ chứng từ xuất khẩu. Tùy sản phẩm và điều kiện áp dụng, ngân hàng có thể tài trợ lên đến 100% giá trị giao dịch mà không yêu cầu tài sản bảo đảm, giúp doanh nghiệp có thêm nguồn vốn trong thời gian chờ đối tác thanh toán. Đối với doanh nghiệp nhập khẩu, Sacombank triển khai các sản phẩm LC UPAS, LC có điều khoản thương lượng và công cụ phòng ngừa rủi ro tỷ giá. Những giải pháp này hỗ trợ khách hàng bố trí thời điểm thanh toán, quản lý nghĩa vụ với đối tác nước ngoài và hạn chế tác động từ biến động tỷ giá. Ngoài tài trợ thương mại, ngân hàng cung cấp các dịch vụ quản lý tài khoản, chuyển tiền, thanh toán quốc tế, chi lương và thẻ doanh nghiệp. Việc kết hợp các sản phẩm giúp khách hàng thực hiện những giao dịch tài chính phát sinh trong quá trình kinh doanh trên cùng hệ thống ngân hàng. Với nhóm doanh nghiệp FDI, nhà băng phát triển các giải pháp phục vụ hoạt động tại Việt Nam, từ thanh toán, ngoại hối đến quản lý dòng tiền và tài trợ chuỗi cung ứng. Khách hàng có thể lựa chọn các gói dịch vụ tích hợp với mức phí phù hợp hơn so với sử dụng từng sản phẩm riêng lẻ, tùy điều kiện áp dụng. Đại diện Sacombank cho biết xuất nhập khẩu và FDI là hai phân khúc trọng tâm trong định hướng phát triển mảng khách hàng doanh nghiệp. \"Đồng hành các doanh nghiệp cũng là cách đóng góp vào tăng trưởng chung của nền kinh tế\", đại diện ngân hàng nói."
    },
    {
     "id": "wa61856d9d4db",
@@ -443,7 +452,8 @@
     "url": "https://vneconomy.vn/gia-vang-hoi-manh-khi-gia-dau-lao-doc-spdr-gold-trust-ban-rong.htm",
     "summary": "Giá vàng thế giới tăng mạnh trong phiên giao dịch ngày thứ Hai (2/11) nhờ lực hỗ trợ từ cú giảm sâu của giá dầu và trong bối cảnh nhà đầu tư chờ cuộc bầu cử giữa nhiệm kỳ ở Mỹ...",
     "published": "2026-11-03T07:46+07:00",
-    "score": 3
+    "score": 3,
+    "body": "Đồng USD giảm giá cũng là một yếu tố hỗ trợ giá vàng trong phiên này, trong khi quỹ vàng khổng lồ SPDR Gold Trust bán ròng. Lúc đóng cửa, giá vàng giao ngay tại thị trường New York đạt 3.947,7 USD/oz, tăng 71,3 USD/oz so với mức chốt của tuần trước, tương đương tăng 1,8% - theo dữ liệu từ sàn giao dịch Kitco. Giá bạc giao ngay đạt 50,78 USD/oz, tăng 1,53 USD/oz, tương đương tăng 3,1%. Trên sàn giao dịch hàng hóa tương lai COMEX, giá vàng giao tháng 12/2026 tăng 1,8%, chốt ở mức 3.969,6 USD/oz. Trước phiên phục hồi này, giá vàng đã giảm xuống mức thấp nhất 1 năm trong phiên ngày thứ Sáu dưới áp lực từ mối lo ngại rằng giá dầu cao dai dẳng do cuộc chiến kéo dài ở Vùng Vịnh sẽ dẫn tới lạm phát và lãi suất cao hơn lâu hơn. Phiên đầu tuần, cơ hội phục hồi cho giá kim loại quý đã xuất hiện khi giá dầu thô giảm khoảng 8% sau khi Iran và Qatar tiến hành ngày thảo luận thứ ba nhằm chấm dứt cuộc chiến tranh giữa hai đồng minh Mỹ - Israel với Iran. Ngoài ra, lực mua ở vùng giá thấp cũng đã hỗ trợ cho giá vàng, với vùng giá dưới 3.900 USD/oz được nhiều nhà đầu tư xem là cơ hội để bổ sung lượng vàng nắm giữ. Xu thế tăng đã xuất hiện ngay từ khi thị trường kim loại quý toàn cầu mở cửa trở lại vào sáng đầu tuần tại châu Á. Đà tăng được đẩy mạnh trong giờ giao dịch tại Mỹ khi xuất hiện tín hiệu tích cực về tiến trình hòa bình ở Trung Đông. Việc giá dầu giảm đã giải tỏa bớt nỗi lo về lạm phát cao và lãi suất cao, qua đó giải tỏa sức ép mất giá tồn tại trước đó đối với vàng. Đồng USD giảm giá trong phiên này, tạo thêm đà để giá vàng đi lên. Chỉ số Dollar Index giảm khoảng 0,2% so với đóng cửa tuần trước, còn 101,8 điểm. Lợi suất trái phiếu kho bạc Mỹ giảm ở các kỳ hạn dài là một động lực hỗ trợ khác cho giá kim loại quý. Trong đó, lợi suất của kỳ hạn 10 năm giảm hơn 2 điểm cơ bản, còn 4,906%. Lợi suất của kỳ hạn 30 năm giảm 3 điểm cơ bản, còn 5,279%. Tuy nhiên, lợi suất của kỳ hạn 2 năm tăng hơn 1 điểm cơ bản, đạt 4,594%. “Giá dầu thô giảm đã mang lại một sự giải tỏa nhất định đối với vàng thông qua việc làm giảm mối lo lạm phát. Nhưng thị trường vẫn đang kỳ vọng Fed tăng lãi suất vào tháng 12, ngay cả khi xác suất đó đã giảm đi phần nào trong mấy phiên vừa qua”, chiến lược gia Peter Grant của công ty Zaner Metals nhận định với hãng tin Reuters. Theo dữ liệu từ công cụ FedWatch Tool của sàn giao dịch CME, thị trường lãi suất tương lai đang đặt cược khả năng 73% Fed tăng lãi suất trong cuộc họp tháng 12, giảm từ mức 80% cách đây 1 tuần. Phiên bán tháo vàng hôm thứ Sáu diễn ra khi nhiều nhà đầu tư phải huy động tiền mặt để bù lỗ cho danh mục cổ phiếu trí tuệ nhân tạo (AI) - nhóm đang bị xả mạnh trên thị trường chứng khoán Phố Wall. Phiên đầu tuần, các cổ phiếu công nghệ tiếp tục bị bán mạnh, nhưng với nhiều yếu tố hỗ trợ như đề cập ở trên, giá vàng đã phục hồi được gần một nửa mức thiệt hại trong phiên trước. Trên phương diện kỹ thuật, giới chuyên gia cho biết chỉ số sức mạnh tương đối (RSI) 14 ngày của vàng - một thước đo nhằm xác định một tài sản đang được mua quá nhiều (overbought) hay bị bán quá nhiều (oversold) - đã tăng lên mức 37 điểm trong phiên ngày thứ Hai, từ mức dưới 30 điểm của phiên trước, cho thấy vàng đã thoát khỏi tình trạng bị bán quá nhiều. Quỹ ETF vàng lớn nhất thế giới SPDR Gold Trust bán ròng 1,2 tấn vàng trong phiên ngày thứ Hai, giảm khối lượng nắm giữ còn 1.040,5 tấn vàng. Trong tháng 10 vừa qua, quỹ bán ròng 14 tấn vàng. Mối quan tâm của nhà đầu tư hiện đang hướng tới cuộc bầu cử giữa quốc hội giữa nhiệm kỳ ngày 3/11 của Mỹ. Kết quả cuộc bỏ phiếu này - quyết định Đảng Cộng hòa của Tổng thống Donald Trump có giữ được quyền kiểm soát Thượng viện và Hạ viện hay không - có thể tác động tới chính sách tài khóa, tình hình địa chính trị và tâm lý nói chung trên thị trường tài chính. “Bối cảnh tài khóa ở Mỹ khó có thể thay đổi tới mức đủ nhiều để tạo ra một sự khác biệt đối với vàng. Thâm hụt ngân sách vẫn sẽ duy trì dù kết quả bầu cử giữa nhiệm kỳ có như thế nào. Điều này có nghĩa là gánh nặng nợ công và tiền lãi nợ công của…"
    },
    {
     "id": "w661893c073e0",
@@ -487,7 +497,8 @@
     "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bi-khoi-ngoai-xa-gan-500-ty-phien-3-11-188261103152515184.chn",
     "summary": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 496 tỷ đồng cổ phiếu trên toàn thị trường.",
     "published": "2026-11-03T15:45+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 496 tỷ đồng cổ phiếu trên toàn thị trường. Tâm lý thị trường thận trọng, VN-Index rung lắc mạnh trong phiên 3/11. Chỉ số đóng cửa phiên giảm 11 điểm tại 1.699 điểm với thanh khoản trên HoSE đạt gần 13.000 tỷ đồng. Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 496 tỷ đồng cổ phiếu trên toàn thị trường. Trên HOSE, khối ngoại bán ròng 500 tỷ đồng Tại chiều mua, cổ phiếu HPG được khối ngoại mua mạnh nhất trên HOSE với giá trị hơn 227 tỷ đồng. Theo sau, SHB và VHM là mã tiếp theo được gom mạnh 125 và 119 tỷ đồng. Ở chiều ngược lại, hai cổ phiếu ngân hàng là MBB và VCB bị bán ròng mạnh lần lượt 254 tỷ đồng và 219 tỷ đồng. Theo sau, VIC bị bán 114 tỷ đồng. Tại chiều mua, MBS được mua ròng mạnh nhất với giá 7 tỷ đồng. Bên cạnh đó, TNG xếp tiếp theo trong sách mua ròng mạnh trên HNX với 4 tỷ đồng. Ngoài ra, khối ngoại cũng chi vài tỷ đồng để gom ròng IDC, MST. Chiều ngược lại, PVS là mã chịu áp lực bán ròng của khối ngoại với giá trị 3 tỷ đồng; theo sau NTP bị bán 1,4 tỷ, SHS, VGS bị bán từ vài tỷ đồng. Trên UPCOM, khối ngoại bán ròng 2,5 tỷ đồng Chiều mua, cổ phiếu OIL được khối ngoại mua 2 tỷ đồng. Theo sau, PHP và F88 cũng được mua ròng mỗi mã vài trăm triệu đồng. Ngược chiều, QNS bị khối ngoại bán ròng 2 tỷ đồng. Ngoài ra khối ngoại cũng bán ròng tại , DDV, ABB,..."
    },
    {
     "id": "wde8f34a7fb1f",
@@ -509,7 +520,8 @@
     "url": "https://cafef.vn/von-fdi-dang-ky-vao-viet-nam-cao-nhat-tu-nam-2009-188261103135738172.chn",
     "summary": "Vốn đầu tư trực tiếp nước ngoài (FDI) đăng ký vào Việt Nam đạt gần 55 tỷ USD sau 10 tháng, tăng 74% so với cùng kỳ và cao nhất kể từ năm 2009. Đáng chú ý, dòng vốn mới tiếp tục tập trung vào công nghiệp chế biến, chế tạo, trong khi vốn FDI giải ngân cũng đạt mức cao nhất 5 năm qua.",
     "published": "2026-11-03T14:50+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Vốn đầu tư trực tiếp nước ngoài (FDI) đăng ký vào Việt Nam đạt gần 55 tỷ USD sau 10 tháng, tăng 74% so với cùng kỳ và cao nhất kể từ năm 2009. Đáng chú ý, dòng vốn mới tiếp tục tập trung vào công nghiệp chế biến, chế tạo, trong khi vốn FDI giải ngân cũng đạt mức cao nhất 5 năm qua. Theo số liệu Cục Thống kê - Bộ Tài chính công bố sáng 3/11, tổng vốn FDI đăng ký vào Việt Nam trong 10 tháng năm 2026 đạt 54,85 tỷ USD, tăng 74% so với cùng kỳ năm trước. Đây là mức cao nhất trong cùng kỳ kể từ năm 2009. Đáng chú ý, dòng vốn đăng ký mới tăng mạnh. Việt Nam cấp phép mới cho gần 3.500 dự án với tổng vốn hơn 30,7 tỷ USD, tăng hơn gấp đôi so với cùng kỳ. Bên cạnh đó, các dự án đang hoạt động đăng ký tăng thêm hơn 16,1 tỷ USD; hoạt động góp vốn, mua cổ phần đạt gần 8 tỷ USD. Như vậy, các nhà đầu tư nước ngoài đang hoạt động tại Việt Nam cũng tiếp tục mở rộng quy mô đầu tư. Dòng vốn đăng ký mới và tăng thêm tập trung nhiều vào công nghiệp chế biến, chế tạo, với tổng vốn hơn 24,1 tỷ USD. Bất động sản đứng thứ hai với hơn 7 tỷ USD. Đáng chú ý, lĩnh vực vận tải, kho bãi cũng thu hút dòng vốn lớn, cho thấy nhà đầu tư nước ngoài không chỉ quan tâm đến sản xuất mà còn mở rộng sang hạ tầng logistics. Một số dự án quy mô lớn được công bố gần đây cho thấy xu hướng này. Ngày 28/10, tại Diễn đàn Kinh tế mùa Thu 2026, TPHCM công bố 12 dự án đã được chấp thuận chủ trương đầu tư hoặc cấp giấy chứng nhận đăng ký đầu tư, với tổng vốn hơn 13,5 tỷ USD, tập trung vào cảng biển, logistics, phát triển đô thị, công nghiệp và công nghệ cao. Trong đó, Cảng trung chuyển quốc tế Cần Giờ có quy mô vốn lớn nhất, với gần 129.000 tỷ đồng, tương đương khoảng 4,923 tỷ USD. Dự án có diện tích khoảng 571 ha, do Tổng công ty Hàng hải Việt Nam – CTCP, Công ty cổ phần Cảng Sài Gòn và Terminal Investment Limited Holding S.A. tham gia đầu tư. Cũng tại TPHCM, dự án Swift Logistics do nhà đầu tư Singapore thực hiện có tổng vốn đăng ký gần 1 tỷ USD, dự kiến bắt đầu triển khai từ tháng 11. Đây là một trong những dự án cấp phép mới tại thành phố trong năm nay. Xét theo đối tác đầu tư, Singapore tiếp tục dẫn đầu với hơn 9,5 tỷ USD vốn đăng ký mới, tiếp đến là Hàn Quốc với 5,81 tỷ USD và Luxembourg với gần 5 tỷ USD. Tổng cộng có 80 quốc gia và vùng lãnh thổ có dự án đầu tư mới tại Việt Nam trong 10 tháng. Không chỉ vốn đăng ký tăng mạnh, dòng vốn thực tế giải ngân cũng ghi nhận kết quả tích cực. Trong 10 tháng, vốn FDI thực hiện ước đạt 24 tỷ USD, tăng hơn 13% so với cùng kỳ và là mức cao nhất trong cùng kỳ 5 năm qua. Công nghiệp chế biến, chế tạo tiếp tục chiếm ưu thế khi thu hút gần 20 tỷ USD vốn FDI thực hiện. Bất động sản đạt 1,76 tỷ USD."
    },
    {
     "id": "wec5bdf3edfde",
@@ -531,6 +543,18 @@
     "url": "https://cafef.vn/ben-canh-xuat-khau-kinh-te-viet-nam-ghi-nhan-mot-ky-luc-moi-trong-vong-17-nam-tro-lai-day-ve-mot-chi-tieu-188261103093408441.chn",
     "summary": "Theo số liệu mới nhất của Cục Thống kê (Bộ Tài chính), kinh tế Việt Nam tiếp tục ghi nhận tín hiệu bứt phá mạnh mẽ khi tổng vốn đầu tư trực tiếp nước ngoài (FDI) đăng ký trong 10 tháng năm 2026 ghi nhận mức kỷ lục cao nhất trong vòng 17 năm qua.",
     "published": "2026-11-03T09:32+07:00",
+    "score": 2,
+    "body": "Theo số liệu mới nhất của Cục Thống kê (Bộ Tài chính), kinh tế Việt Nam tiếp tục ghi nhận tín hiệu bứt phá mạnh mẽ khi tổng vốn đầu tư trực tiếp nước ngoài (FDI) đăng ký trong 10 tháng năm 2026 ghi nhận mức kỷ lục cao nhất trong vòng 17 năm qua. Theo đó, tổng vốn đầu tư nước ngoài đăng ký vào Việt Nam tính đến ngày 31/10/2026 bao gồm: Vốn đăng ký cấp mới, vốn đăng ký điều chỉnh và giá trị góp vốn, mua cổ phần của nhà đầu tư nước ngoài đạt 54,85 tỷ USD, tăng 74,0% so với cùng kỳ năm trước, cao nhất từ năm 2009 đến nay. Cụ thể, vốn đăng ký cấp mới có 3.478 dự án được cấp phép với số vốn đăng ký đạt 30,73 tỷ USD, tăng 4,7% so với cùng kỳ năm trước về số dự án và gấp 2,2 lần về số vốn đăng ký. Trong đó, ngành công nghiệp chế biến, chế tạo dẫn đầu về thu hút vốn đăng ký cấp mới với 14,61 tỷ USD, chiếm 47,5% tổng vốn đăng ký cấp mới; tiếp đến là ngành vận tải kho bãi đạt 5,15 tỷ USD, chiếm 16,7%; các ngành còn lại đạt 10,98 tỷ USD, chiếm 35,8%. Trong số 80 quốc gia và vùng lãnh thổ có dự án đầu tư được cấp phép mới tại Việt Nam trong mười tháng năm 2026, Singapore là nhà đầu tư lớn nhất với 9,52 tỷ USD, chiếm 31,0% tổng vốn đăng ký cấp mới; tiếp đến là Hàn Quốc 5,81 tỷ USD, chiếm 18,9%; Luxembourg 4,99 tỷ USD, chiếm 16,2%; Đặc khu hành chính Hong Kong (Trung Quốc) 3,57 tỷ USD, chiếm 11,6%; Trung Quốc 2,77 tỷ USD, chiếm 9,0%; Nhật Bản 1,58 tỷ USD, chiếm 5,1%; Hà Lan 438,5 triệu USD, chiếm 1,4%. Vốn đăng ký điều chỉnh có 1.079 lượt dự án đã cấp phép từ các năm trước đăng ký điều chỉnh vốn đầu tư tăng thêm 16,13 tỷ USD, tăng 33,2% so với cùng kỳ năm trước. Tính chung vốn đăng ký cấp mới và vốn đăng ký điều chỉnh của các dự án đạt 46,86 tỷ USD. Trong đó, ngành công nghiệp chế biến, chế tạo đạt 24,19 tỷ USD, chiếm 51,6% tổng vốn đăng ký cấp mới và tăng thêm; hoạt động kinh doanh bất động sản đạt 7,08 tỷ USD, chiếm 15,1%; các ngành còn lại đạt 15,59 tỷ USD, chiếm 33,3%. Vốn đăng ký góp vốn, mua cổ phần của nhà đầu tư nước ngoài có 2.616 lượt với tổng giá trị góp vốn 7,99 tỷ USD, tăng 49,6% so với cùng kỳ năm trước. Trong đó, có 828 lượt góp vốn, mua cổ phần làm tăng vốn điều lệ của doanh nghiệp với giá trị góp vốn là 3,28 tỷ USD và 1.788 lượt nhà đầu tư nước ngoài mua lại cổ phần trong nước mà không làm tăng vốn điều lệ với giá trị 4,71 tỷ USD. Đối với hình thức góp vốn, mua cổ phần của nhà đầu tư nước ngoài, vốn đầu tư vào hoạt động chuyên môn, khoa học công nghệ đạt 2,78 tỷ USD, chiếm 34,8% giá trị góp vốn; bán buôn và bán lẻ, sửa chữa ô tô, mô tô, xe máy đạt 2,17 tỷ USD, chiếm 27,1%; ngành còn lại 3,05 tỷ USD, chiếm 38,1%. Vốn đầu tư trực tiếp nước ngoài thực hiện tại Việt Nam mười tháng năm 2026 ước đạt 24,08 tỷ USD, tăng 13,1% so với cùng kỳ năm trước. Đây là số vốn đầu tư trực tiếp nước ngoài thực hiện cao nhất trong cùng kỳ mười tháng của 5 năm qua. Trong đó, ngành công nghiệp chế biến, chế tạo đạt 19,96 tỷ USD, chiếm 82,9% tổng vốn đầu tư trực tiếp nước ngoài thực hiện; hoạt động kinh doanh bất động sản đạt 1,76 tỷ USD, chiếm 7,3%; sản xuất, phân phối điện, khí đốt, nước nóng, hơi nước và điều hòa không khí đạt 785,2 triệu USD, chiếm 3,3%."
+   },
+   {
+    "id": "we85f93d0c645",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Giá vàng nhẫn trơn, vàng miếng sáng 4/11 tại SJC, PNJ, DOJI, Bảo Tín Minh Châu và Bảo Tín Mạnh Hải",
+    "url": "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-sang-4-11-tai-sjc-pnj-doji-bao-tin-minh-chau-va-bao-tin-manh-hai-188261104072255434.chn",
+    "summary": "Giá vàng trong nước mở phiên sáng 4/11 duy trì ổn định so với cuối phiên trước, với vàng miếng SJC bán ra ở mức 140,6 triệu đồng/lượng tại phần lớn thương hiệu. Giá vàng nhẫn dao động trong khoảng 133,7-139,5 triệu đồng/lượng, chưa ghi nhận biến động theo bảng giá đầu phiên.",
+    "published": "2026-11-04T07:21+07:00",
     "score": 2
    },
    {
@@ -541,7 +565,7 @@
     "title": "Lãi suất tiết kiệm ngày 4/11 tại Agribank, Vietcombank, BIDV, VietinBank, MB, VPBank, Techcombank, Sacombank, HDBank,...",
     "url": "https://cafef.vn/lai-suat-tiet-kiem-ngay-4-11-tai-agribank-vietcombank-bidv-vietinbank-mb-vpbank-techcombank-sacombank-hdbank-188261103232126222.chn",
     "summary": "Khảo sát ngày 4/11, lãi suất huy động trực tuyến tại các ngân hàng có sự phân hóa rõ rệt giữa các kỳ hạn, với mức cao nhất đạt 7,4%/năm. Đáng chú ý, tại kỳ hạn 12 tháng, có 5 ngân hàng cùng niêm yết lãi suất 7%/năm, trong khi nhóm ngân hàng có vốn Nhà nước duy trì mức 6,8%/năm.",
-    "published": "2026-11-04T01:17+07:00",
+    "published": "2026-11-04T07:00+07:00",
     "score": 2
    },
    {
@@ -619,7 +643,8 @@
     "url": "https://cafef.vn/msb-duoc-chap-thuan-chao-ban-936-trieu-co-phieu-tang-von-dieu-le-len-toi-da-46800-ty-dong-18826110309423805.chn",
     "summary": "Ngày 28/10/2026, MSB đã được Ngân hàng Nhà nước chấp thuận cho tăng vốn điều lệ từ 37.440 tỷ đồng lên tối đa 46.800 tỷ đồng thông qua hình thức chào bán cổ phiếu ra công chúng cho cổ đông hiện hữu. Đây là đợt tăng vốn thứ hai của MSB trong năm.",
     "published": "2026-11-03T09:09+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Ngày 28/10/2026, MSB đã được Ngân hàng Nhà nước chấp thuận cho tăng vốn điều lệ từ 37.440 tỷ đồng lên tối đa 46.800 tỷ đồng thông qua hình thức chào bán cổ phiếu ra công chúng cho cổ đông hiện hữu. Đây là đợt tăng vốn thứ hai của MSB trong năm. Trước đó, MSB đã hoàn thành việc tăng vốn lần thứ nhất năm 2026 từ 31.200 tỷ đồng lên 37.440 tỷ đồng theo hình thức phát hành cổ phiếu để tăng vốn cổ phần từ nguồn vốn chủ sở hữu. Phương án này được Đại hội đồng Cổ đông thường niên năm 2026 thông qua ngày 24/04/2026 theo Nghị quyết số 34/NQ-ĐHĐCĐ. Với phương án tăng vốn tiếp theo, MSB dự kiến chào bán 936 triệu cổ phiếu cho cổ đông hiện hữu, theo tỷ lệ thực hiện quyền 100:25. Theo đó, cổ đông sở hữu 100 cổ phiếu tại thời điểm chốt danh sách thực hiện quyền được mua thêm 25 cổ phiếu mới. Giá chào bán dự kiến là 10.000 đồng/cổ phiếu với tổng giá trị phát hành tính theo mệnh giá đạt 9.360 tỷ đồng. Nếu hoàn tất phương án, tổng số cổ phiếu MSB sẽ tăng lên 4,68 tỷ cổ phiếu, tương ứng vốn điều lệ 46.800 tỷ đồng. Thời gian chào bán dự kiến trong quý IV/2026. Việc tăng vốn điều lệ lần thứ hai nằm trong định hướng chiến lược của MSB hướng tới hoàn thiện hệ sinh thái tài chính, nâng cao năng lực quản trị theo các tiêu chuẩn quốc tế và mở rộng quy mô hoạt động trong nước cũng như quốc tế. Cụ thể, nguồn vốn bổ sung được kỳ vọng góp phần tập trung tăng trưởng nền tảng tài chính, phát triển cho vay khách hàng cá nhân và doanh nghiệp. Tính đến ngày 28/10/2026, MSB thuộc nhóm TOP 10 Ngân hàng đã niêm yết có vốn điều lệ lớn nhất tại thị trường chứng khoán Việt Nam. Quyết định chấp thuận tăng vốn của Ngân hàng Nhà nước được đưa ra trong bối cảnh MSB duy trì tốc độ tăng trưởng kết quả kinh doanh khả quan. Kết thúc quý 3/2026, tổng tài sản đạt gần 440.000 tỷ tăng hơn 7,3% so với cuối năm 2025, trong đó cho vay khách hàng đạt gần 233.000 tỷ tăng 13,5%. Lợi nhuận sau thuế MSB quý 3 đạt 2.017 tỷ tăng 27,1% so với cùng kỳ, đưa lợi nhuận lũy kế từ đầu năm lên mức 5.440 tỷ đồng."
    },
    {
     "id": "wcdf5039869d2",
@@ -641,7 +666,8 @@
     "url": "http://vietstock.vn/2026/11/theo-dau-dong-tien-ca-map-0311-khoi-ngoai-va-tu-doanh-cung-ban-rong-830-1511306.htm",
     "summary": "Phiên 03/11, khối ngoại và tự doanh đồng thuận bán ròng. Tổng giá trị hơn 630 tỷ đồng. Trong đó, phần lớn đến từ lực bán của khối ngoại.",
     "published": "2026-11-03T19:42+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Vietstock trân trọng thông báo đến Quý Khách hàng về việc áp dụng “Chính sách quyền riêng tư” căn cứ theo Nghị định số 13/2023/NĐ-CP v/v bảo vệ dữ liệu cá nhân được ban hành bởi Chính phủ. Trong quá trình thiết lập mối quan hệ giữa Vietstock và Khách hàng, Vietstock có thể thu thập và xử lý dữ liệu cá nhân của Khách hàng cho mục đích được xác định tại Chính sách quyền riêng tư (“CSQRT”) này. Trong trường hợp Khách hàng không đồng ý một phần hoặc toàn bộ quy định tại CSQRT, Vietstock không thể cung cấp sản phẩm và dịch vụ cho Khách hàng. Vietstock cam kết luôn tôn trọng quyền riêng tư, bảo mật và an toàn thông tin cá nhân; đồng thời luôn nỗ lực bảo vệ dữ liệu cá nhân của Khách hàng, tuân thủ quy định pháp luật Việt Nam thông qua những biện pháp bảo vệ dữ liệu cá nhân đáp ứng và phù hợp với quy định pháp luật Việt Nam. Chính sách quyền riêng tư là một phần không thể tách rời của các thỏa thuận, điều khoản và điều kiện chi phối mối quan hệ giữa Vietstock và Quý Khách hàng. Quý Khách hàng đã đọc kỹ, hiểu rõ và đồng ý với toàn bộ điều khoản của “Chính sách quyền riêng tư”. Chi tiết Chính sách quyền riêng tư xem tại đây. Nếu không đồng ý với Chính sách quyền riêng tư này, Chúng tôi không thể cung cấp sản phẩm và dịch vụ cho Quý Khách hàng."
    },
    {
     "id": "w871070841889",
@@ -663,7 +689,8 @@
     "url": "http://vietstock.vn/2026/11/cpi-muoi-thang-dau-nam-2026-tang-457-lam-phat-co-ban-tang-424-so-voi-cung-ky-nam-truoc-761-1510770.htm",
     "summary": "Chỉ số giá tiêu dùng (CPI) tháng 10 tăng 0.20% so với tháng trước, chủ yếu do giá xăng dầu trong nước điều chỉnh tăng theo giá nhiên liệu thế giới. CPI tháng 10 tăng 5.09% so với cùng kỳ năm trước. Bình quân mười tháng năm 2026, CPI tăng 4.57% so với cùng kỳ năm trước; lạm phát cơ bản tăng 4.24%.",
     "published": "2026-11-03T10:12+07:00",
-    "score": 2
+    "score": 2,
+    "body": "CPI mười tháng đầu năm 2026 tăng 4.57%, lạm phát cơ bản tăng 4.24% so với cùng kỳ năm trước Chỉ số giá tiêu dùng (CPI) tháng 10 tăng 0.20% so với tháng trước, chủ yếu do giá xăng dầu trong nước điều chỉnh tăng theo giá nhiên liệu thế giới. CPI tháng 10 tăng 5.09% so với cùng kỳ năm trước. Bình quân mười tháng năm 2026, CPI tăng 4.57% so với cùng kỳ năm trước; lạm phát cơ bản tăng 4.24%. Cụ thể theo báo cáo của Cục Thống kê vừa công bố, CPI tháng 10 tăng 0.20% so với tháng trước. Trong 11 nhóm hàng hóa, dịch vụ tiêu dùng chính, 07 nhóm có chỉ số giá tăng và 04 nhóm có chỉ số giá giảm. CPI bình quân mười tháng năm 2026 tăng 4.57% so với cùng kỳ năm 2025. Trong đó: Nhóm hàng ăn và dịch vụ ăn uống tăng 4.61%, tác động làm CPI chung tăng 1.65 điểm phần trăm; nhóm nhà ở, điện nước, chất đốt và vật liệu xây dựng tăng 6.66%, tác động làm CPI chung tăng 1.51 điểm phần trăm; nhóm giao thông tăng 6.98%, tác động làm CPI chung tăng 0.70 điểm phần trăm, trong đó giá nhiên liệu tăng 13.09%. Các nhóm hàng hóa và dịch vụ còn lại đều có chỉ số giá tăng, gồm: hàng hóa và dịch vụ khác tăng 4.72%; đồ uống và thuốc lá tăng 3.80%; giáo dục tăng 3.29%; thiết bị và đồ dùng gia đình tăng 2.88%; văn hóa, giải trí và du lịch tăng 2.75%; may mặc, mũ nón và giày dép tăng 2.04%; thuốc và dịch vụ y tế tăng 1.19%; thông tin và truyền thông tăng 0.12%. Lạm phát cơ bản tháng Mười năm 2026 giảm 0.05% so với tháng trước và tăng 4.04% so với cùng kỳ năm trước. Bình quân mười tháng năm 2026, lạm phát cơ bản tăng 4.24% so với cùng kỳ năm trước, thấp hơn mức tăng 4.57% của CPI bình quân chung, chủ yếu do giá xăng dầu, gas, lương thực, thực phẩm tươi sống, dịch vụ y tế biến động làm CPI chung tăng, trong khi các nhóm này được loại trừ trong danh mục tính lạm phát cơ bản."
    },
    {
     "id": "we891c1280701",
@@ -718,7 +745,8 @@
     "url": "https://vneconomy.vn/sp-500-va-nasdaq-mat-diem-vi-co-phieu-cong-nghe-van-bi-ban-gia-dau-boc-hoi-gan-8.htm",
     "summary": "Giá dầu thô lao dốc, với giá dầu WTI trượt sâu dưới ngưỡng 100 USD/thùng, khi xuất hiện những tín hiệu tích cực về đàm phán hòa bình ở Trung Đông...",
     "published": "2026-11-03T08:17+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Thị trường chứng khoán Mỹ kết thúc phiên giao dịch ngày thứ Hai (2/11) trong trạng thái không đồng nhất của các chỉ số, với Nasdaq và S&P 500 sụt giảm vì áp lực bán vẫn chưa “buông tha” nhóm cổ phiếu công nghệ, trong khi Dow Jones tăng nhờ các cổ phiếu phòng thủ được mua nhiều. Giá dầu thô lao dốc, với giá dầu WTI trượt sâu dưới ngưỡng 100 USD/thùng, khi xuất hiện những tín hiệu tích cực về đàm phán hòa bình ở Trung Đông. Lúc đóng cửa, chỉ số Nasdaq giảm 1,07%, còn 25.164,32 điểm. Chỉ số S&P 500 giảm 0,51%, còn 7.541,4 điểm. Chỉ số Dow Jones thể hiện sự vượt trội so với hai chỉ số còn lại, tăng 213,67 điểm, tương đương tăng 0,41%, chốt ở mức 51.983,98 điểm. Trong phiên, có lúc Nasdaq và S&P 500 ghi nhận mức tăng tương ứng 1,4% và 1,1%. Sắc xanh vào đầu phiên của hai chỉ số không thể duy trì lâu khi nhà đầu tư nhanh chóng quay trở lại với việc bán cổ phiếu công nghệ, đặc biệt là các cổ phiếu liên quan tới lĩnh vực trí tuệ nhân tạo (AI). Trái lại, Dow Jones hưởng lợi khi các cổ phiếu truyền thống được mua nhiều. Cổ phiếu của Nvidia và Meta Platforms đều giảm 1%. Cổ phiếu Apple - công ty dự kiến công bố báo cáo thu nhập sau khi thị trường đóng cửa - đóng cửa với mức giảm gần 2%. Cổ phiếu Marvell Technology sụt giảm gần 13% và Lumentum mất 18% sau khi hai công ty thông báo rằng Marvell sẽ mua lại Lumentum trong một thương vụ trị giá 115 tỷ USD. Cổ phiếu Oracle cũng giảm 8% sau khi công ty cho biết có kế hoạch bán 10 tỷ USD cổ phiếu phổ thông cùng 10 tỷ USD trái phiếu để có vốn cho công cuộc đầu tư vào AI. Sự tăng giá ở các cổ phiếu thuộc nhóm \"nền kinh tế truyền thống\" như Sherwin-Williams và Home Depot đã thúc đẩy Dow Jones, với mức tăng lần lượt là gần 6% và 3,6%. Các cổ phiếu Honeywell International, 3M và Boeing cũng đều tăng hơn 2%. Xu hướng rút vốn khỏi nhóm cổ phiếu công nghệ tiếp diễn trong phiên này sau khi các chỉ số chứng khoán chính của Mỹ trải qua một tuần sụt giảm, trong bối cảnh các nhà đầu tư tiếp tục xem xét kỹ lưỡng những cái tên liên quan đến đầu tư cơ sở hạ tầng AI. Ông Chris Larkin, Giám đốc điều hành mảng giao dịch và đầu tư tại E-Trade, nhận định với hãng tin CNBC: “Triển vọng tăng giá dài hạn của thị trường chứng khoán có thể đã chịu một vài tác động tiêu cực trong những tuần gần đây, nhưng nhìn chung vẫn còn nguyên vẹn. Thách thức hiện nay nằm ở đà tăng ngắn hạn, làm sao để duy trì đà tăng trong nhiều ngày liên tiếp mà không bị gián đoạn bởi các yếu tố như biến động giá dầu, những lo ngại về đầu tư vào AI, lạm phát hay các vấn đề địa chính trị”. Tuần trước, Nasdaq và S&P 500 đã khép lại tháng 10 trong sắc đỏ do mối lo ngại về đầu tư AI. Trong đó, Nasdaq ghi nhận mức sụt giảm tồi tệ nhất kể từ tháng 3/2025. Ngược lại, Dow Jones tăng gần 2% trong tháng 10 khi nhà đầu tư chuyển hướng sang những lĩnh vực phòng thủ như chăm sóc sức khỏe. Ông Larkin nói thêm: “Thị trường vẫn còn phải đối mặt với nhiều ‘yếu tố gây biến động’ tiềm tàng, bao gồm cuộc bầu cử giữa nhiệm kỳ và dữ liệu việc làm trong tuần này, nhưng khả năng chịu áp lực mà không gục ngã của thị trường là một tín hiệu tích cực”. Mối quan tâm của nhà đầu tư hiện đang hướng tới cuộc bầu cử giữa quốc hội giữa nhiệm kỳ ngày thứ Ba (3/11) của Mỹ. Kết quả cuộc bỏ phiếu này - quyết định Đảng Cộng hòa của Tổng thống Donald Trump có giữ được quyền kiểm soát Thượng viện và Hạ viện hay không - có thể tác động tới chính sách tài khóa, tình hình địa chính trị và tâm lý nói chung trên thị trường tài chính. Tiếp đó, vào ngày thứ Sáu, Bộ Lao động Mỹ sẽ công bố báo cáo việc làm phi nông nghiệp tháng 10, một điểm dữ liệu có thể tác động nhiều đến triển vọng lãi suất của Cục Dự trữ Liên bang Mỹ (Fed). Trên thị trường năng lượng, giá dầu thô Brent giao sau tại London giảm 8,66 USD/thùng, tương đương giảm 7,63%, đóng cửa ở mức 104,77 USD/thùng. Giá dầu WTI giao sau tại New York giảm 7,66 USD/thùng, tương đương giảm 7,36%, còn 96,46 USD/thùng. Phiên giảm này của giá dầu xuất phát từ hy vọng về một bước đột phá ngoại giao, sau khi Tổng thống Iran Masoud Pezeshkian cho biết…"
    },
    {
     "id": "w663573269212",
@@ -762,7 +790,8 @@
     "url": "https://www.tinnhanhchungkhoan.vn/nhom-co-phieu-thep-hut-dong-tien-vn-index-tiep-tuc-giam-trong-phien-311-post400732.html",
     "summary": "(ĐTCK) Đà đi xuống của VIC đã không cho VN-Index cơ hội hồi phục, trong bối cảnh thanh khoản yếu và giao dịch đầy thận trọng. Mặc dù vậy, động lực đến từ các cổ phiếu thép HPG, HSG, NKG kỳ vọng sẽ giúp thị trường có những bước tiến tích cực hơn trong các phiên tới. Tái cấu trúc thị trường tài chính để thị trường chứng khoán sớm là nơi chủ lực cung ứng vốn cho nền kinh tế Chủ tịch UBCKNN đề nghị rà soát quy định về sở hữu nước ngoài Vốn ngoại tập trung vào lĩnh vực tài chính",
     "published": "2026-11-03T15:16+07:00",
-    "score": 2
+    "score": 2,
+    "body": "Phiên giao dịch đầu tháng 11 hôm qua đã phát đi những tín hiệu kém tích cực khi VN-Index đã có phiên giảm thứ ba liên tiếp và về gần đáy cũ tháng 07/2026, tương đương vùng 1.650-1.680 điểm. Áp lực điều chỉnh dự báo gia tăng trong ngắn hạn khi chỉ số chính nằm dưới các đường MA10, MA20 cùng các chỉ báo động lượng RSI và MFI đều lùi về vùng thận trọng dưới 40. Khởi động tháng mới đìu hiu và thị trường vẫn trong trạng thái thiếu vắng thông tin hỗ trợ, tuy nhiên, một số dữ liệu cho thấy tháng 11 có xác suất tăng điểm khá cao, khoảng 70%, đặc biệt liên tiếp hai tháng 9 và 10 trước đó VN-Index đều giảm, mở ra khả năng tạo vùng đáy. Tuy nhiên, có lẽ sẽ vẫn cần thêm thời gian để “đáy” ngắn hạn được xác định sau phiên hôm nay ngày 3/11, khi giao dịch chủ đạo vẫn là sự thận trọng, thanh khoản thấp và bảng điện tử phân hóa đã khiến VN-Index tiếp tục xu hướng điều chỉnh. Thậm chí, áp lực từ cổ phiếu lớn nhất là VIC gia tăng vào cuối ngày khiến VN-Index lùi về vùng tâm lý 1.700 điểm và để mất mốc này khi đóng cửa. Chốt phiên, sàn HOSE có 154 mã tăng và 141 mã giảm, VN-Index giảm 11,1 điểm, tương đương -0,65% xuống 1.69962 điểm. Tổng khối lượng giao dịch đạt hơn 624,3 triệu đơn vị, giá trị 12.939,6 tỷ đồng, giảm gần 29% về khối lượng và 30% về giá trị so với phiên hôm qua. Giao dịch thỏa thuận đóng góp gần 117 triệu đơn vị, giá trị 2.565 tỷ đồng. Như đã đề cập, cổ phiếu VIC nới đà giảm, mất 3,3% xuống 234.000 đồng và lấy đi hơn 12 điểm của chỉ số. Phần còn lại của các bluechip, hai cổ phiếu dầu khí GAS và BSR theo sau với mức giảm 2% và 3% xuống 75.400 đồng và 26.300 đồng. Trong khi đó, HPG mở rộng đà tăng, đóng cửa +4,2% lên 21.250 đồng, khớp 32,4 triệu đơn vị, mức cao nhất thị trường. Hai cổ phiếu ngân hàng STB và VIB nhích hơn 2%, các cổ phiếu MBB, VRE, CTG, SSI, GVR tăng nhẹ. Các cổ phiếu vừa và nhỏ đa số ảm đạm, với chỉ SMA và SGT tăng kịch trần, khớp 0,86 triệu và 0,1 triệu đơn vị. Hai cổ phiếu ngành thép NKG và HSG chững lại, còn tăng trên dưới 3,5% lên lần lượt 12.100 đồng và 10.700 đồng, khớp lệnh có 7,7 triệu và 3,02 triệu đơn vị. Cổ phiếu nhỏ hơn là TLH nhích 2,5% lên 3.300 đồng. Các mã VCI, MSB, HVN, CTI, FCN tăng trên dưới 3%, OCB +4,4% lên 10.600 đồng, DPG +4,9% lên 30.900 đồng… Ở chiều ngược lại, CRE, ITD, HRC TCO và tân binh DVV giảm sàn. Các mã TNH, APG, HII, NO1, PNJ, BVH giảm từ gần 4% đến gần 6%. Đáng chú ý, cổ phiếu KOS đảo chiều từ mức giá trần về -6,5% xuống 4.060 đồng khi lượng hàng T+ lớn về tài khoản, khớp hơn 38,7 triệu đơn vị. Trên sàn HNX, chỉ số HNX-Index đảo chiều thành công lên trên tham chiếu vào cuối phiên. Đóng cửa, sàn HNX có 70 mã tăng và 49 mã giảm, HNX-Index tăng 0,87 điểm, tương đương +0,35% lên 251,42 điểm. Tổng khối lượng khớp lệnh đạt hơn 36,6 triệu đơn vị, giá trị 512,3 tỷ đồng. Giao dịch thỏa thuận có thêm 1,2 triệu đơn vị, giá trị gần 12 tỷ đồng. Nhóm các cổ phiếu thanh khoản cao phần lớn tăng, dù mức tăng không khác nhiều so với cuối phiên sáng, với IDC, VFS, VC3, MBS, CEO, SHS chỉ tăng nhẹ, còn VGS +3,8% lên 19.000 đồng, còn NVB, PVS, HUT đứng tham chiếu, khớp từ 0,36 triệu đến hơn 6,9 triệu đơn vị. Trên UpCoM, chỉ số UpCoM-Index không giữ được sắc xanh và giảm về dưới tham chiếu, nhưng bất ngờ có nhịp bật mạnh trở lại trên tham chiếu ở những phút cuối. Đóng cửa, UpCoM-Index tăng 0,1 điểm, tương đương +0,08% lên 122,05 điểm. Tổng khối lượng khớp lệnh đạt hơn 20,1 triệu đơn vị, giá trị 353,9 tỷ đồng, Giao dịch thỏa thuận có thêm hơn 6,7 triệu đơn vị, giá trị 90,4 tỷ đồng. Cổ phiếu đáng chú ý nhất là VCP khi +9,9% lên 30.000 đồng, khớp 0,38 triệu đơn vị. Trong khi các mã thanh khoản cao hơn phân hóa với giá cổ phiếu không đổi nhiều, như ABB, PHP, DDV giảm nhẹ, còn ACV, VEA, TVN, MSR tăng 1-2%. Trên thị trường phái sinh, hợp đồng tương lai 41I1GB000 tăng nhẹ 1,4 điểm, tương đương +0,08% lên 1.819,4 điểm, khớp lệnh hơn 201.400 đơn vị, khối lượng mở hơn 34.400 đơn vị. Trên thị trường chứng quyền, hai mã khớp lệnh cao nhất đều tăng, với CHPG2638 khớp 2,93 triệu đơn vị và tăng 5,1% lên 620 đồng/cq…"
    },
    {
     "id": "we1c932758c30",
@@ -798,6 +827,17 @@
     "score": 2
    },
    {
+    "id": "w156f6e47a130",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Chứng khoán Thành Công bổ nhiệm Phó Tổng Giám đốc",
+    "url": "https://cafef.vn/chung-khoan-thanh-cong-bo-nhiem-pho-tong-giam-doc-188261103211952636.chn",
+    "summary": "Chứng khoán Thành Công bổ nhiệm bà Lưu Thị Việt Hà đảm nhiệm chức vụ Phó Tổng Giám đốc kể từ ngày 2/11/2026.",
+    "published": "2026-11-04T07:19+07:00",
+    "score": 1
+   },
+   {
     "id": "wdfc98361b1bd",
     "src": "cafef_ck",
     "src_name": "CafeF — Chứng khoán",
@@ -806,7 +846,8 @@
     "url": "https://cafef.vn/uy-ban-chung-khoan-yeu-cau-cong-ty-chung-khoan-ra-soat-tang-cuong-an-ninh-mang-188261103222147325.chn",
     "summary": "Trước tình hình tấn công mạng ảnh hưởng đến hệ thống tài chính, ngân hàng và một số công ty chứng khoán, Ủy ban Chứng khoán Nhà nước (UBCKNN) yêu cầu các thành viên thị trường khẩn trương rà soát an ninh mạng, tăng cường kiểm soát các giao dịch chuyển tiền bất thường.",
     "published": "2026-11-03T22:21+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Trước tình hình tấn công mạng ảnh hưởng đến hệ thống tài chính, ngân hàng và một số công ty chứng khoán, Ủy ban Chứng khoán Nhà nước (UBCKNN) yêu cầu các thành viên thị trường khẩn trương rà soát an ninh mạng, tăng cường kiểm soát các giao dịch chuyển tiền bất thường. Ngày 30/10/2026, UBCKNN có văn gửi các công ty chứng khoán và công ty quản lý quỹ đầu tư chứng khoán, cơ quan này đề nghị các thành viên thị trường tập trung triển khai tăng cường công tác kiểm tra, rà soát, đánh giá an ninh, an toàn hệ thống thông tin. Các đơn vị cần chuẩn bị sẵn sàng phương án, kịch bản ứng cứu sự cố khẩn cấp về an ninh mạng; thay đổi toàn bộ mật khẩu của các tài khoản quản trị và người dùng. Đồng thời, mở và kiểm tra chính sách thu thập nhật ký (log) từ các thiết bị trong hệ thống nhằm phát hiện những dấu hiệu bất thường như sửa, xóa, thay đổi dữ liệu, địa chỉ IP lạ hoặc IP nước ngoài truy cập từ xa vào hệ thống. UBCKNN cũng yêu cầu kiểm tra hệ thống phần mềm diệt virus (Antivirus) để phát hiện các bất thường như bị tắt hoặc có hoạt động phê duyệt tệp tin; rà soát lịch sử truy cập của người dùng, đặc biệt là tài khoản của nhân viên công nghệ thông tin (IT) và các tài khoản đặc quyền, đồng thời xác nhận thời gian truy cập. Bên cạnh đó, các đơn vị cần thay đổi hoặc loại bỏ những thiết bị, máy chủ, tài khoản được sử dụng trong quá trình thử nghiệm; phân vùng mạng theo đối tượng, mục đích sử dụng và hệ thống thông tin; khắc phục các điểm yếu, cập nhật bản vá lỗ hổng bảo mật trên máy chủ, thiết bị mạng. Đối với các máy sử dụng hệ điều hành cũ không còn được hãng phát hành hỗ trợ, cần thực hiện thay đổi. UBCKNN đề nghị các thành viên thị trường chủ động nghiên cứu, rà soát chính sách truy cập từ xa và chính sách chuyển tiền liên ngân hàng ngoài phiên giao dịch chứng khoán. Trong thời gian tạm ngừng giao dịch, các đơn vị cần cử cán bộ trực giám sát để kịp thời phát hiện những dấu hiệu bất thường. Đáng chú ý, UBCKNN yêu cầu có giải pháp giám sát, đối soát và phát hiện các lệnh chuyển tiền giá trị lớn, tần suất cao từ tài khoản doanh nghiệp và tài khoản khách hàng; các tài khoản có số dư lớn phát sinh liên tiếp giao dịch chuyển tiền bất thường trong thời gian ngắn hoặc ngoài giờ giao dịch chứng khoán. Khi phát hiện các dấu hiệu nêu trên, các đơn vị cần chủ động tạm dừng giao dịch, liên hệ chủ tài khoản để kiểm tra, xác minh việc chuyển tiền. Các yêu cầu này được UBCKNN gửi tới các công ty chứng khoán và công ty quản lý quỹ đầu tư chứng khoán nhằm tăng cường phối hợp triển khai các biện pháp bảo đảm an ninh mạng và an toàn hệ thống thông tin trong bối cảnh xuất hiện các vụ tấn công mạng gây ảnh hưởng đến lĩnh vực tài chính, ngân hàng và chứng khoán."
    },
    {
     "id": "w4e659ad7880a",
@@ -1191,7 +1232,8 @@
     "url": "http://vietstock.vn/2026/11/nhip-dap-thi-truong-0311-co-phieu-thep-co-phien-tich-cuc-1636-1510812.htm",
     "summary": "Dù có nhịp hồi phục đầu phiên chiều, diễn biến thị trường trong phần còn lại của phiên chiều lại thiên về hướng tiêu cực. Kết phiên, VN-Index giảm hơn 11 điểm, tạm dừng ở dưới mốc 1,700. HNX-Index lại diễn biến tích cực với mức tăng gần 1 điểm, đạt hơn 251.4 điểm.",
     "published": "2026-11-03T16:47+07:00",
-    "score": 1
+    "score": 1,
+    "body": "Nhịp đập Thị trường 03/11: Cổ phiếu thép có phiên tích cực Dù có nhịp hồi phục đầu phiên chiều, diễn biến thị trường trong phần còn lại của phiên chiều lại thiên về hướng tiêu cực. Kết phiên, VN-Index giảm hơn 11 điểm, tạm dừng ở dưới mốc 1,700. HNX-Index lại diễn biến tích cực với mức tăng gần 1 điểm, đạt hơn 251.4 điểm. Dòng tiền không có dấu hiệu được cải thiện trong phiên chiều. Kết phiên, giá trị giao dịch toàn thị trường ở mức 13.8 ngàn tỷ đồng. Sàn HOSE ghi nhận thanh khoản sụt giảm tới 30% so với phiên trước. Trong khi đó, tình trạng sụt giảm tại HNX lên tới 45%. Nhìn tổng quan, bên mua chiếm ưu thế trong phiên hôm nay với số mã tăng khá áp đảo, 340 mã tăng so với 300 mã giảm. Tuy nhiên, áp lực từ cổ phiếu vốn hóa lớn đã kéo chỉ số giảm mạnh. VIC giảm 3.3% trong phiên hôm nay, kéo lùi chỉ số tới hơn 12 điểm. Ở chiều ngược lại, HPG có đà tăng tốt trong phiên hôm nay và gỡ gạc lại 1.5 điểm tăng. Tuy nhiên, top 10 mã kéo tăng chỉ số chỉ đóng góp 5 điểm. Cổ phiếu thép có phiên giao dịch tích cực khi các đại diện nổi bật đều tăng điểm tốt. HPG , NKG , HSG , VGS ghi nhận mức tăng từ 3 - 4%. Bên cạnh đó, ở nhóm nguyên vật liệu, cổ phiếu ở các ngành như hóa chất, nhựa, cao su cũng có xu hướng tích cực. Nhóm bất động sản, công nghiệp có phần thiên về sắc đỏ. Trong đó, các cổ phiếu đầu ngành như VIC , VHM , NVL , GMD , GEX giảm điểm đã tạo áp lực đáng kể lên chỉ số. Cổ phiếu tiêu dùng thiết yếu ghi nhận diễn biến tăng tích cực. BAF , VNM , QNS , VHC , ANV , SBT … gia nhập nhóm tăng điểm. Nhóm này không có quá nhiều trường hợp giảm điểm trong phiên. Tuy vậy, không ít cổ phiếu đi ngang cho thấy sự tích cực không hoàn toàn chiếm ưu thế. TCO thậm chí có một phiên giảm sàn. Phiên hôm nay tiếp tục là một phiên bán ròng của khối ngoại. Giá trị bán ở mức gần 500 tỷ đồng. Trong đó, 2 mã tâm điểm là MBB , VCB với giá trị bán ròng lần lượt 255 tỷ đồng và 220 tỷ đồng. Ngược chiều, HPG , SHB được mua ròng mạnh. Phiên sáng: Lực mua trở lại, VN-Index hồi về tham chiếu Trong giai đoạn nửa cuối phiên sáng, VN-Index trở lại với tình trạng giằng co. Chỉ số tạm nghỉ trưa ở mức gần 1,710 điểm. Trong khi đó, HNX-Index dừng ở sát tham chiếu. Thanh khoản khá ảm đạm trong phiên sáng với giá trị giao dịch hơn 6 ngàn tỷ đồng. Lực mua đã hồi phục đáng kể trong nửa sau phiên sáng. Độ rộng thị trường nghiêng về số mã tăng với 330 mã tăng so với 240 mã giảm. Sắc xanh hiện hữu ở các nhóm trụ như tài chính - ngân hàng, bất động sản, kim loại, tiêu dùng thiết yếu. VHM , HPG trở thành đầu tàu chính cho VN-Index với diễn biến tích cực trong phiên sáng. VHM tăng gần 1.5%, HPG tăng 3.2%. Ngoài ra, một số cổ phiếu vốn hóa lớn như STB , GVR , VPB , HVN , CTG , TCB … cũng đóng góp cho đà tăng của chỉ số. Top 10 mã kéo tăng trong phiên sáng đưa chỉ số lên mức tăng 5.6 điểm. Ở chiều ngược lại, VIC vẫn ở vị trí kéo chỉ số giảm mạnh. Riêng mã này khiến VN-Index giảm tới hơn 6 điểm. Xét về điểm số, nhóm bảo hiểm, bất động sản, dầu khí là những nhóm giảm mạnh nhất trong phiên sáng. Ở nhóm bảo hiểm, sắc đỏ chiếm ưu thế ở hầu hết các mã như BVH , BIC , VNR , PRE , PGI , MIG … Trong khi chỉ có một số mã tăng như PVI , ABI , BLI . Trong khi áp lực giảm từ VIC đã kéo chỉ số của nhóm bất động sản về hướng giảm. Thực chất, sắc xanh đang chiếm ưu thế ở nhóm này. VHM , KSF , BCM , VPI , VRE , NVL … cùng nhiều cổ phiếu khác đều đang tăng điểm trong phiên sáng. Khối ngoại bán ròng hơn 430 điểm trong phiên sáng. HPG tiếp tục là tâm điểm mua ròng. Ngược chiều, MBB bị bán ròng mạnh 120 tỷ đồng. 10h40: Cổ phiếu thép tích cực, lực mua dần trở lại Về giữa phiên sáng, VN-Index vẽ đồ thị hình chữ V và hồi phục về gần tham chiếu. Mức giảm điểm được thu hẹp về còn hơn 5 điểm. Tới 10h25, độ rộng thị trường đã phần nào cân bằng hơn với 260 mã tăng và gần 250 mã giảm. Sắc xanh đã trở lại với nhóm nguyên vật liệu. HPG bật tăng gần 5% trở thành trụ cột dẫn dắt ở nhóm này. HSG cũng có mức tăng hơn 4%. NKG tăng trên 5%. Loạt cổ phiếu thép khác như VGS , TVN cũng diễn biến tích cực. Bên cạnh nhóm thép,…"
    },
    {
     "id": "wbad484fd233c",
@@ -1224,6 +1266,17 @@
     "url": "http://vietstock.vn/2026/11/ceo-techcombank-tai-fortune-summit-2026-viet-nam-duy-tri-suc-chong-chiu-va-dong-luc-tang-truong-tich-cuc-757-1511307.htm",
     "summary": "Tại phiên thảo luận trọng tâm của Fortune Southeast Asia 500 Summit 2026, Tổng Giám đốc Techcombank (HOSE: TCB), tiến sĩ Jens Lottner, chia sẻ góc nhìn về triển vọng tăng trưởng của Việt Nam, vai trò của FDI, đầu tư hạ tầng và nhu cầu huy động các nguồn lực dài hạn để hỗ trợ giai đoạn phát triển tiếp theo của nền kinh tế.",
     "published": "2026-11-03T19:51+07:00",
+    "score": 1
+   },
+   {
+    "id": "w5dda729d6086",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Vàng giảm giá trong lúc đợi kết quả bầu cử giữa nhiệm kỳ ở Mỹ",
+    "url": "https://vneconomy.vn/vang-giam-gia-trong-luc-doi-ket-qua-bau-cu-giua-nhiem-ky-o-my.htm",
+    "summary": "Giá vàng thế giới giảm trong phiên giao dịch ngày thứ Ba (3/11), khi nước Mỹ tiến hành cuộc bầu cử giữa nhiệm kỳ nhằm xác định quyền kiểm soát tại hai viện Quốc hội...",
+    "published": "2026-11-04T07:26+07:00",
     "score": 1
    },
    {
@@ -1269,6 +1322,18 @@
     "summary": "Trong phiên (2-3/11), tổng mức tăng giá mua bán đối với vàng miếng SJC phổ biến là 1,6 triệu đồng/lượng. Đối với vàng nhẫn, tổng biên độ tăng dao động từ 1,3 triệu – 2,2 triệu đồng/lượng...",
     "published": "2026-11-03T13:41+07:00",
     "score": 1
+   },
+   {
+    "id": "wd9a78b232111",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Đưa “sandbox” vào chứng khoán",
+    "url": "https://www.tinnhanhchungkhoan.vn/dua-sandbox-vao-chung-khoan-post400587.html",
+    "summary": "(ĐTCK) Đề xuất cơ chế thử nghiệm có kiểm soát (sandbox) tại dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán được kỳ vọng tạo không gian cho đổi mới sáng tạo. Tuy nhiên, yêu cầu đặt ra là phải kiểm soát rủi ro, bảo đảm quyền lợi và an toàn cho nhà đầu tư. Đề xuất cơ chế sandbox trong lĩnh vực chứng khoán Sandbox tài sản mã hóa mở đường cho du lịch số Đà Nẵng Hà Nội: Sandbox đất hiếm tạo lực đẩy cho công nghiệp bán dẫn",
+    "published": "2026-11-04T06:42+07:00",
+    "score": 1,
+    "body": "Từ khoảng trống pháp lý đến nhu cầu thử nghiệm có kiểm soát Ngày 30/3/2026, Công an TP. Đà Nẵng thông báo tìm bị hại trong vụ án lừa đảo chiếm đoạt tài sản liên quan đến “tiền ảo DRK”. Các đối tượng đã tạo lập dự án “ma”, sử dụng thông tin sai sự thật để thu hút nhà đầu tư rồi đánh sập hệ thống vào cuối năm 2021. Kết quả điều tra cho thấy, nhóm đối tượng đã chiếm đoạt hơn 1.880 Bitcoin, hơn 37.000 Ethereum và gần 2,7 triệu USDT, tương đương khoảng 2.000 tỷ đồng. Trước đó, ngày 28/5/2025, Công an tỉnh Đồng Nai cũng triệt phá đường dây lập sàn giao dịch tiền ảo MTC (Matrix Chain), với tổng số tiền nạp vào hệ thống lên tới hơn 10.000 tỷ đồng. Theo hồ sơ điều tra ban đầu, các đối tượng quảng bá lợi nhuận cao, tổ chức sự kiện và xây dựng mạng lưới theo mô hình đa cấp để thu hút người tham gia, sau đó chiếm đoạt tiền. Hai vụ việc cho thấy những rủi ro lớn mà nhà đầu tư có thể đối mặt khi sản phẩm, mô hình tài chính mới phát triển trong khi khuôn khổ quản lý chưa theo kịp. Khi thiếu thông tin và cơ chế giám sát phù hợp, nhà đầu tư khó đánh giá đầy đủ rủi ro; một khi sự cố xảy ra, việc truy tìm dòng tiền, thu hồi tài sản và bảo vệ quyền lợi người bị hại cũng trở nên phức tạp. Khoảng trống pháp lý không chỉ tiềm ẩn rủi ro cho nhà đầu tư mà còn khiến những mô hình có tiềm năng thiếu điều kiện để được thử nghiệm, đánh giá chính thức trước khi triển khai rộng rãi. Với thị trường tài sản mã hóa, cách tiếp cận chính sách tại Việt Nam đã có bước chuyển. Luật Công nghiệp công nghệ số năm 2025 lần đầu ghi nhận khái niệm tài sản số là tài sản theo quy định của Bộ luật Hình sự, bao gồm tài sản mã hóa, tài sản ảo và tài sản số khác. Tiếp đó, Chính phủ ban hành Nghị quyết 05/2025/NQ-CP ngày 9/9/2025 về thí điểm thị trường tài sản mã hóa trong thời hạn 5 năm. Đối với thị trường chứng khoán, yêu cầu thích ứng với sự phát triển của công nghệ cũng ngày càng cấp thiết. Sau khi được FTSE Russell nâng hạng từ thị trường cận biên lên thị trường mới nổi thứ cấp, có hiệu lực từ ngày 21/9/2026, thị trường chứng khoán Việt Nam đứng trước yêu cầu tiếp tục nâng cao chất lượng vận hành, đa dạng hóa sản phẩm, tăng tính minh bạch và mở rộng khả năng huy động vốn trung, dài hạn. Tuy nhiên, không phải mô hình nào cũng có thể triển khai ngay trên diện rộng khi hành lang pháp lý chưa hoàn thiện. Một số sản phẩm, phương thức giao dịch được cơ quan quản lý đề cập gồm cơ chế nhà tạo lập thị trường (market maker) và khả năng ứng dụng giao dịch tần suất cao (high-frequency trading - HFT) đối với một số nhóm cổ phiếu. Chia sẻ tại tọa đàm “Tương lai thị trường chứng khoán: Động lực mới từ công nghệ” sáng 23/7/2026 tại Hà Nội, ông Tô Trần Hòa, đại diện Ủy ban Chứng khoán Nhà nước (Bộ Tài chính) cho biết, nếu triển khai đại trà các sản phẩm mới khi quy định chưa đầy đủ, sai sót hoặc sự cố kỹ thuật có thể gây thiệt hại lớn, thậm chí ảnh hưởng đến toàn hệ thống. Vì vậy, cơ quan quản lý đang nghiên cứu cơ chế sandbox để thử nghiệm trước khi đưa các mô hình mới vào khuôn khổ pháp lý chính thức. Theo dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán được Chính phủ trình Quốc hội chiều 17/10/2026 tại Kỳ họp thứ hai, Quốc hội khóa XVI, cơ chế thử nghiệm có kiểm soát nhằm tạo cơ sở pháp lý cho việc thử nghiệm trong phạm vi giới hạn đối với công nghệ, sản phẩm, dịch vụ và mô hình kinh doanh mới trong lĩnh vực chứng khoán. Dự thảo xác lập các nguyên tắc về phạm vi, đối tượng, không gian, thời gian, tiêu chí lựa chọn và giám sát thử nghiệm, đồng thời giao Chính phủ quy định chi tiết để bảo đảm tính linh hoạt. Thử nghiệm thế nào để không chuyển rủi ro sang nhà đầu tư? Trong khi sandbox cho phép linh hoạt hóa một số yêu cầu pháp lý thông thường, cơ chế bảo vệ quyền lợi của nhà đầu tư cần được duy trì ở mức độ hợp lý. TS. Phạm Tiến Đạt, Viện Chiến lược và Chính sách kinh tế - tài chính (Bộ Tài chính) nhận định, sandbox tạo hành lang pháp lý để các tổ chức đổi mới sáng tạo dưới sự giám sát của cơ quan nhà nước, hạn chế hoạt động tự phát ngoài khuôn khổ quản lý. Tuy nhiên, theo…"
    },
    {
     "id": "w80ee5f071f56",
@@ -1543,7 +1608,8 @@
     "url": "https://cafef.vn/niem-vui-cua-ty-phu-tran-dinh-long-188261103110213945.chn",
     "summary": "Đây là dấu mốc quan trọng, mở ra cơ hội lớn cho tập đoàn của ông Trần Đình Long.",
     "published": "2026-11-03T11:01+07:00",
-    "score": 0
+    "score": 0,
+    "body": "Đây là dấu mốc quan trọng, mở ra cơ hội lớn cho tập đoàn của ông Trần Đình Long. Thông tin từ Tập đoàn Hòa Phát do ông Trần Đình Long làm chủ tịch cho biết, trong quý 4/2026, Tôn Hòa Phát vừa xuất khẩu thành công đơn hàng khoảng 8.000 tấn tôn cuộn mạ kẽm sang Nhật Bản, đánh dấu bước tiến quan trọng trong chiến lược mở rộng thị trường quốc tế, đồng thời khẳng định năng lực cạnh tranh của sản phẩm tại một trong những thị trường có yêu cầu chất lượng khắt khe hàng đầu thế giới. Lô hàng đáp ứng tiêu chuẩn JIS G 3302 của Nhật Bản, với các yêu cầu nghiêm ngặt về quy cách, bề mặt lớp mạ không hoa và công nghệ xử lý bề mặt bằng Crom 3+ hoặc không Crom (Chromium-free), thân thiện với môi trường. Sản phẩm có chứng nhận xuất xứ Việt Nam (C/O), tạo thuận lợi cho đối tác trong việc hưởng các ưu đãi thuế quan theo quy định. Đầu năm 2026, Tôn Hòa Phát chính thức được JICQA (JIC Quality Assurance Ltd.) - tổ chức chứng nhận uy tín của Nhật Bản cấp chứng nhận JIS cho các dòng sản phẩm thép cán nguội, tôn mạ kẽm, tôn mạ hợp kim nhôm kẽm và tôn mạ màu. Đây là dấu mốc quan trọng, ghi nhận năng lực sản xuất, hệ thống kiểm soát chất lượng và khả năng đáp ứng các tiêu chuẩn kỹ thuật quốc tế của Tôn Hòa Phát, làm tiền đề giúp doanh nghiệp mở rộng cơ hội hợp tác và phát triển tại các thị trường có tiêu chuẩn chất lượng cao. Sở hữu hệ thống dây chuyền sản xuất nhập khẩu từ Châu Âu với công suất thiết kế lên tới 600.000 tấn/năm, Tôn Hòa Phát cung cấp đa dạng sản phẩm gồm thép cuộn tẩy gỉ, thép cuộn cán nguội, tôn mạ kẽm, tôn mạ hợp kim nhôm kẽm và tôn mạ màu. Sau đơn hàng đầu tiên sang Nhật Bản, doanh nghiệp định hướng tiếp tục đẩy mạnh xuất khẩu các dòng sản phẩm chiến lược khác, mở rộng hợp tác với các đối tác quốc tế và khai thác hiệu quả những thị trường tiềm năng. Sản phẩm Tôn Hòa Phát đã hiện diện tại 29 quốc gia và vùng lãnh thổ, tập trung tại Châu Âu, Châu Mỹ, Châu Á và Châu Đại Dương. Việc chinh phục thành công thị trường Nhật Bản tiếp tục mở ra cơ hội tăng trưởng mới, góp phần nâng cao vị thế thương hiệu Tôn Hòa Phát trên thị trường quốc tế. Liên quan đến hoạt động kinh doanh, trong 9 tháng đầu năm 2026, Tôn Hòa Phát đạt sản lượng bán hàng 307.000 tấn, tiếp tục duy trì vị thế trong Top 5 doanh nghiệp sản xuất tôn mạ lớn nhất Việt Nam. Thị trường xuất khẩu đóng góp 29,8% tổng sản lượng bán hàng. Còn tại Tập đoàn Hòa Phát, quý 3/2026, Tập đoàn Hòa Phát đạt doanh thu 62.669 tỷ đồng, tăng 70% so với quý 3/2025. Lợi nhuận sau thuế ghi nhận 8.265 tỷ đồng, tăng 106% so với cùng kỳ năm trước. Lũy kế 9 tháng đầu năm 2026, doanh thu, lợi nhuận của Tập đoàn lần lượt là 171.539 tỷ đồng và 23.746 tỷ đồng, tương ứng tăng 54% và 104% so với 9 tháng đầu năm 2025. Năm 2026, Tập đoàn Hòa Phát đặt mục tiêu doanh thu 210.000 tỷ đồng và lợi nhuận sau thuế 22.000 tỷ đồng. Với kết quả này, Hòa Phát đã hoàn thành 82% doanh thu và 108% lợi nhuận kế hoạch năm. Trong đó, lĩnh vực thép đóng góp 97% doanh thu và 77% lợi nhuận. Sau 9 tháng, Tập đoàn nộp ngân sách nhà nước 12.038 tỷ đồng tại 20 tỉnh, thành phố trên cả nước."
    },
    {
     "id": "w82931d5b1b35",
@@ -1576,7 +1642,8 @@
     "url": "https://cafef.vn/ben-trong-nha-may-kiem-thu-va-dong-goi-chip-ban-dan-fpt-vua-dua-vao-van-hanh-188261103103904204.chn",
     "summary": "Nhà máy Kiểm thử và Đóng gói chip bán dẫn FPT (FPT Analysis Technologies Joint Stock Company) có diện tích 1.600 m² đặt tại Khu công nghiệp Yên Phong II-C, tỉnh Bắc Ninh.",
     "published": "2026-11-03T10:38+07:00",
-    "score": 0
+    "score": 0,
+    "body": "Nhà máy Kiểm thử và Đóng gói chip bán dẫn FPT (FPT Analysis Technologies Joint Stock Company) có diện tích 1.600 m² đặt tại Khu công nghiệp Yên Phong II-C, tỉnh Bắc Ninh. Tập đoàn FPT đưa nhà máy Kiểm thử và Đóng gói chip bán dẫn vào vận hành thử nghiệm tại Bắc Ninh, với 06 dây chuyền và công suất thiết kế tối đa 300 triệu chip mỗi năm. Nhà máy góp phần phát triển năng lực kiểm thử chip tại Việt Nam, mục tiêu là thúc đẩy liên thông chuỗi giá trị chip bán dẫn, hiện thực hóa định hướng quốc gia về làm chủ công nghệ lõi, công nghệ có chủ quyền theo Nghị quyết 57-NQ/TW, Quyết định 1131/QĐ-TTg, Quyết định 1018/QĐ-TTg, đưa Việt Nam tiến sâu chuỗi cung ứng toàn cầu. Nhà máy Kiểm thử và Đóng gói chip bán dẫn do người Việt làm chủ Nhà máy Kiểm thử và Đóng gói chip bán dẫn FPT (FPT Analysis Technologies Joint Stock Company) có diện tích 1.600 m² đặt tại Khu công nghiệp Yên Phong II-C, tỉnh Bắc Ninh. Trong giai đoạn vận hành thử nghiệm, nhà máy có công suất tối đa 300 triệu chip mỗi năm, đáp ứng nhu cầu kiểm thử số lượng lớn của các doanh nghiệp. Về tiêu chuẩn chất lượng, nhà máy vận hành theo định hướng áp dụng các tiêu chuẩn quản lý quốc tế. Các tiêu chuẩn được áp dụng gồm: tiêu chuẩn ISO 9001 về quản lý chất lượng, ISO 14001 về quản lý môi trường và ISO 45001 về quản lý an toàn và sức khỏe nghề nghiệp. Đồng thời, nhà máy triển khai các biện pháp kiểm soát môi trường phòng sạch theo tiêu chuẩn ISO 14644, kiểm soát phóng tĩnh điện và áp dụng các phương pháp thử nghiệm độ tin cậy theo tiêu chuẩn chuyên ngành phù hợp với từng sản phẩm. Nhà máy của FPT sử dụng hệ thống máy kiểm thử tự động (ATE Tester) kết hợp với thiết bị Handler để kiểm tra và phân loại chip. ATE Tester sẽ kiểm tra chức năng và đánh giá khả năng hoạt động của chip, trong khi thiết bị Handler đưa chip vào vị trí kiểm tra và sau đó phân loại chip theo kết quả đạt hoặc không đạt. Khu vực kiểm thử bố trí trong phòng sạch Class 10.000 (ISO Class 7) để kiểm soát bụi và các yếu tố môi trường. Bên cạnh đó, đội ngũ kỹ sư FPT phát triển chương trình kiểm thử phù hợp với từng loại chip. Mỗi dòng chip có chức năng và yêu cầu kỹ thuật khác nhau, các kỹ sư phải xác định những yếu tố cần kiểm tra, thiết lập điều kiện thử nghiệm và đánh giá kết quả. FPT cũng đang nghiên cứu và phát triển nền tảng ứng dụng AI hỗ trợ tự động hóa quá trình phát triển chương trình kiểm thử chip bán dẫn, từ chuẩn hóa dữ liệu, yêu cầu kỹ thuật đến thiết kế cấu hình kiểm thử và đánh giá kết quả. Ngoài kiểm thử, nhà máy FPT còn đánh giá độ bền và độ tin cậy của sản phẩm. Để phát hiện nguy cơ chip hư hỏng, các kỹ sư sử dụng phương pháp thử nghiệm: cho chip hoạt động trong môi trường nhiệt độ cao, thay đổi nhiệt độ liên tục hoặc kiểm tra tác động của nhiệt độ và độ ẩm; Triển khai các biện pháp kiểm soát tĩnh điện nhằm giảm nguy cơ hư hỏng khi người hoặc thiết bị tiếp xúc với linh kiện. Kết quả giúp đánh giá khả năng đáp ứng yêu cầu sử dụng và độ tin cậy của sản phẩm. Trong giai đoạn đầu vận hành, nhà máy tập trung kiểm tra chức năng, chất lượng và độ tin cậy của chip, hướng tới cung cấp dịch vụ cho các doanh nghiệp bán dẫn trong nước và quốc tế. Thời gian tới, khu vực thử nghiệm độ tin cậy sẽ phát triển theo tiêu chuẩn quốc tế về năng lực của phòng thử nghiệm và hiệu chuẩn, đáp ứng yêu cầu của khách hàng trong nước và quốc tế. Nhà máy dự kiến triển khai đơn hàng kiểm thử chip đầu tiên cho đối tác Hàn Quốc, đánh dấu bước khởi đầu trong hoạt động cung cấp dịch vụ kiểm thử chip của FPT. Để vận hành nhà máy, FPT xây dựng đội ngũ chuyên gia, kỹ sư giàu kinh nghiệm trong lĩnh vực kiểm thử và đóng gói chip, bao gồm các chuyên gia từng có nhiều năm làm việc tại nhà máy Intel Việt Nam. Đội ngũ đảm nhiệm việc xây dựng quy trình kỹ thuật, vận hành thiết bị và đào tạo nhân sự. Ngoài ra, FPT có kế hoạch sử dụng nhà máy cho hoạt động đào tạo thực hành. Ngay trong giai đoạn đầu, nhà máy phối hợp với Trường Cao đẳng FPT Polytechnic xây dựng chương trình thí điểm để sinh viên tiếp cận dây chuyền kiểm thử chip từ tháng 12/2026.…"
    },
    {
     "id": "wed3d9e5f22fb",
@@ -1786,50 +1853,6 @@
     "summary": "Thiếu hụt cát san lấp và đá xây dựng đang ảnh hưởng tiến độ cao tốc Châu Đốc - Cần Thơ - Sóc Trăng, buộc các đơn vị khẩn trương tìm nguồn cung bổ sung.",
     "published": "2026-11-03T09:31+07:00",
     "score": 0
-   },
-   {
-    "id": "wc1ca95fa1a70",
-    "src": "cafef_vimo",
-    "src_name": "CafeF — Vĩ mô",
-    "group": "bao_vn",
-    "title": "Ngày 3/11, Quốc hội thảo luận về sửa đổi Luật Điện lực",
-    "url": "https://cafef.vn/ngay-3-11-quoc-hoi-thao-luan-ve-sua-doi-luat-dien-luc-188261103075103873.chn",
-    "summary": "Quốc hội sẽ thảo luận ở Hội trường về một số dự án Luật như Luật Đấu giá tài sản (sửa đổi); Luật sửa đổi, bổ sung một số điều của Luật Điện lực...",
-    "published": "2026-11-03T09:00+07:00",
-    "score": 0
-   },
-   {
-    "id": "wec5a7e1d8c1a",
-    "src": "cafef_vimo",
-    "src_name": "CafeF — Vĩ mô",
-    "group": "bao_vn",
-    "title": "Hai cầu vượt nghìn tỷ đồng qua sông Hồng trên Vành đai 4 dần thành hình",
-    "url": "https://cafef.vn/hai-cau-vuot-nghin-ty-dong-qua-song-hong-tren-vanh-dai-4-dan-thanh-hinh-188261103070748311.chn",
-    "summary": "Cầu Hồng Hà và Mễ Sở trên tuyến Vành đai 4 - Vùng Thủ đô đang dần thành hình với hàng loạt trụ cầu, nhịp dầm được thi công, hướng tới mục tiêu hoàn thành năm 2027, tăng kết nối liên vùng qua sông Hồng.",
-    "published": "2026-11-03T07:30+07:00",
-    "score": 0
-   },
-   {
-    "id": "wc9b14ee0cde6",
-    "src": "cafef_nh",
-    "src_name": "CafeF — Tài chính NH",
-    "group": "bao_vn",
-    "title": "Đề xuất cho phép bệnh viện dùng bằng sáng chế làm tài sản thế chấp vay vốn",
-    "url": "https://cafef.vn/de-xuat-cho-phep-benh-vien-dung-bang-sang-che-lam-tai-san-the-chap-vay-von-188261103135404302.chn",
-    "summary": "Nhấn mạnh yếu tố quan trọng để bệnh viện tự chủ, đại biểu Nguyễn Lân Hiếu đề xuất cho phép bệnh viện dùng bằng sáng chế, nhãn hiệu làm tài sản góp vốn, thế chấp vay vốn.",
-    "published": "2026-11-03T14:53+07:00",
-    "score": 0
-   },
-   {
-    "id": "wc49783ab6ae7",
-    "src": "cafef_nh",
-    "src_name": "CafeF — Tài chính NH",
-    "group": "bao_vn",
-    "title": "Thẻ VPBank rút ngắn khoảng cách giữa khán giả Việt và các huyền thoại quốc tế",
-    "url": "https://cafef.vn/the-vpbank-rut-ngan-khoang-cach-giua-khan-gia-viet-va-cac-huyen-thoai-quoc-te-188261103124636181.chn",
-    "summary": "Mua vé sớm, trải nghiệm soundcheck, nhận ưu đãi khi mua merchandise của thần tượng hay tận hưởng sự kết hợp giữa World Tour và Official Pop-up Store ngay tại Việt Nam, những trải nghiệm từng khiến nhiều fan Việt phải tìm đến các thị trường quốc tế đang dần trở nên gần gũi khi có sự góp mặt của VPBank.",
-    "published": "2026-11-03T13:30+07:00",
-    "score": 0
    }
   ],
   "kind": "web",
@@ -1838,60 +1861,35 @@
    {
     "id": "t1",
     "hang": 1,
-    "tieu_de": "SACOMBANK tiếp tục tung gói lãi suất cho vay 7,9%/năm, góp sức cùng mục tiêu tăng trưởng GDP 2 con số",
-    "loai": "vi_mo_vn",
+    "tieu_de": "Tỷ giá ngân hàng lao dốc xuống mức thấp nhất hơn một năm",
+    "loai": "chinh_sach",
     "item_ids": [
-     "w7ff5f2f992e0",
-     "wf7da4ab8a9f7"
-    ],
-    "mot_dong": "Tiếp nối chương trình tín dụng ưu đãi dành cho doanh nghiệp, SACOMBANK triển khai gói vay quy mô 10.000 tỷ đồng với lãi suất 7,9%/năm dành cho khách hàng mới hoạt động trong lĩnh vực xuất nhập khẩu và FDI.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 5,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "w7ff5f2f992e0",
-      "title": "SACOMBANK tiếp tục tung gói lãi suất cho vay 7,9%/năm, góp sức cùng mục tiêu tăng trưởng GDP 2 con số",
-      "summary": "Tiếp nối chương trình tín dụng ưu đãi dành cho doanh nghiệp, SACOMBANK triển khai gói vay quy mô 10.000 tỷ đồng với lãi suất 7,9%/năm dành cho khách hàng mới hoạt động trong lĩnh vực xuất nhập khẩu và FDI.",
-      "url": "https://cafef.vn/sacombank-tiep-tuc-tung-goi-lai-suat-cho-vay-79-nam-gop-suc-cung-muc-tieu-tang-truong-gdp-2-con-so-188261103142159702.chn",
-      "src_name": "CafeF — Tài chính NH",
-      "published": "2026-11-03T15:30+07:00"
-     },
-     {
-      "id": "wf7da4ab8a9f7",
-      "title": "SACOMBANK triển khai gói lãi suất cho vay 7,9%/năm",
-      "summary": "Hưởng ứng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước (NHNN) về giảm lãi suất cho vay, hỗ trợ sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế 2 con số, ngay từ tháng 8/2026, SACOMBANK đã triển khai gói tín dụng với quy mô gần 100.000 tỷ đồng dành cho khách hàng doanh nghiệp hiện hữu, đang hoạt động trong lĩnh vực xuất nhập khẩu, doanh nghiệp có vốn nước ngoài…",
-      "url": "https://vneconomy.vn/sacombank-trien-khai-goi-lai-suat-cho-vay-79nam.htm",
-      "src_name": "VnEconomy — Tài chính",
-      "published": "2026-11-03T08:49+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t2",
-    "hang": 2,
-    "tieu_de": "Giá vàng hồi mạnh khi giá dầu lao dốc, SPDR Gold Trust bán ròng",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wa61856d9d4db",
      "w1e7f2a888782"
     ],
-    "mot_dong": "Giá vàng thế giới tăng mạnh trong phiên giao dịch ngày thứ Hai (2/11) nhờ lực hỗ trợ từ cú giảm sâu của giá dầu và trong bối cảnh nhà đầu tư chờ cuộc bầu cử giữa nhiệm kỳ ở Mỹ...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "mot_dong": "Tỷ giá USD tại các ngân hàng thương mại đồng loạt giảm mạnh xuống vùng 25.560 - 25.970 VND/USD.",
+    "ly_do_top": "Áp lực tỷ giá hạ nhiệt là yếu tố then chốt giúp giải tỏa rủi ro thắt chặt tiền tệ của NHNN, tác động trực tiếp đến chi phí vốn và thanh khoản thị trường.",
+    "su_kien_hay_nhan_dinh": "su_kien",
     "quan_trong": 5,
-    "tin_tho": true,
+    "ma_lien_quan": [
+     "VCB",
+     "BID",
+     "CTG"
+    ],
+    "nganh": [
+     "Ngân hàng"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
-     {
-      "id": "wa61856d9d4db",
-      "title": "Giá vàng hồi mạnh khi giá dầu lao dốc, SPDR Gold Trust bán ròng",
-      "summary": "Giá vàng thế giới tăng mạnh trong phiên giao dịch ngày thứ Hai (2/11) nhờ lực hỗ trợ từ cú giảm sâu của giá dầu và trong bối cảnh nhà đầu tư chờ cuộc bầu cử giữa nhiệm kỳ ở Mỹ...",
-      "url": "https://vneconomy.vn/gia-vang-hoi-manh-khi-gia-dau-lao-doc-spdr-gold-trust-ban-rong.htm",
-      "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-11-03T07:46+07:00"
-     },
      {
       "id": "w1e7f2a888782",
       "title": "Tỷ giá ngân hàng lao dốc",
+      "text": "",
+      "author": null,
       "summary": "Các ngân hàng liên tục hạ giá mua bán USD xuống 25.560 - 25.970 đồng, xuống thấp nhất một năm rưỡi, dù tỷ giá trung tâm gần như đi ngang.",
       "url": "https://vnexpress.net/ty-gia-ngan-hang-lao-doc-5140148.html",
       "src_name": "VnExpress — Kinh doanh",
@@ -1900,99 +1898,137 @@
     ]
    },
    {
-    "id": "t3",
-    "hang": 3,
-    "tieu_de": "CPI 10 tháng tăng 4,57%, xăng dầu lại gây áp lực",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wddb0f77a36d7"
-    ],
-    "mot_dong": "Giá xăng trong nước tăng 6,86% khiến chỉ số giá nhóm giao thông tăng mạnh nhất, kéo chỉ số giá tiêu dùng (CPI) tháng 10 tăng. Tuy nhiên, giá thực phẩm, gạo và một số dịch vụ giảm đã góp phần kiềm chế đà tăng giá. CPI 10 tháng tăng 4,57%.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 5,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "wddb0f77a36d7",
-      "title": "CPI 10 tháng tăng 4,57%, xăng dầu lại gây áp lực",
-      "summary": "Giá xăng trong nước tăng 6,86% khiến chỉ số giá nhóm giao thông tăng mạnh nhất, kéo chỉ số giá tiêu dùng (CPI) tháng 10 tăng. Tuy nhiên, giá thực phẩm, gạo và một số dịch vụ giảm đã góp phần kiềm chế đà tăng giá. CPI 10 tháng tăng 4,57%.",
-      "url": "https://cafef.vn/cpi-10-thang-tang-457-xang-dau-lai-gay-ap-luc-188261103100528824.chn",
-      "src_name": "CafeF — Vĩ mô",
-      "published": "2026-11-03T11:02+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t4",
-    "hang": 4,
-    "tieu_de": "CPI mười tháng đầu năm 2026 tăng 4.57%, lạm phát cơ bản tăng 4.24% so với cùng kỳ năm trước",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "we2dc0aa22b8b"
-    ],
-    "mot_dong": "Chỉ số giá tiêu dùng (CPI) tháng 10 tăng 0.20% so với tháng trước, chủ yếu do giá xăng dầu trong nước điều chỉnh tăng theo giá nhiên liệu thế giới. CPI tháng 10 tăng 5.09% so với cùng kỳ năm trước. Bình quân mười tháng năm 2026, CPI tăng 4.57% so với cùng kỳ năm trước; lạm phát cơ bản tăng 4.24%.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 5,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "we2dc0aa22b8b",
-      "title": "CPI mười tháng đầu năm 2026 tăng 4.57%, lạm phát cơ bản tăng 4.24% so với cùng kỳ năm trước",
-      "summary": "Chỉ số giá tiêu dùng (CPI) tháng 10 tăng 0.20% so với tháng trước, chủ yếu do giá xăng dầu trong nước điều chỉnh tăng theo giá nhiên liệu thế giới. CPI tháng 10 tăng 5.09% so với cùng kỳ năm trước. Bình quân mười tháng năm 2026, CPI tăng 4.57% so với cùng kỳ năm trước; lạm phát cơ bản tăng 4.24%.",
-      "url": "http://vietstock.vn/2026/11/cpi-muoi-thang-dau-nam-2026-tang-457-lam-phat-co-ban-tang-424-so-voi-cung-ky-nam-truoc-761-1510770.htm",
-      "src_name": "Vietstock — Vĩ mô",
-      "published": "2026-11-03T10:12+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t5",
-    "hang": 5,
-    "tieu_de": "Hai cổ phiếu ngân hàng bị khối ngoại \"xả\" gần 500 tỷ phiên 3/11",
+    "id": "t2",
+    "hang": 2,
+    "tieu_de": "VN-Index đánh mất mốc 1.700 điểm, khối ngoại bán ròng 496 tỷ đồng",
     "loai": "thi_truong",
     "item_ids": [
+     "we9e789bb3749",
      "we5c43a6986ca",
-     "w1a0c6f55430a"
+     "w274ad7e6a72f",
+     "w1a0c6f55430a",
+     "w310133915478",
+     "wcdd7047a5740",
+     "w1b2c94f51d27",
+     "wd4f87325a88f",
+     "we891c1280701",
+     "wfead6352eb72"
     ],
-    "mot_dong": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 496 tỷ đồng cổ phiếu trên toàn thị trường.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
+    "mot_dong": "Áp lực bán từ trụ lớn kéo VN-Index giảm 4 phiên liên tiếp gãy mốc 1.700 điểm cùng đà bán ròng dai dẳng của khối ngoại.",
+    "ly_do_top": "Diễn biến chỉ số chung và dòng tiền ngoại rút ròng trực tiếp chi phối tâm lý giao dịch và rủi ro điều chỉnh của toàn bộ thị trường cổ phiếu.",
+    "su_kien_hay_nhan_dinh": "ca_hai",
+    "quan_trong": 5,
+    "ma_lien_quan": [
+     "VIC",
+     "MBB",
+     "VCB"
+    ],
+    "nganh": [
+     "Chứng khoán",
+     "Ngân hàng"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
+     {
+      "id": "we9e789bb3749",
+      "title": "VN-Index lại mất mốc 1.700 điểm, khối ngoại nối dài chuỗi bán ròng",
+      "text": "",
+      "author": null,
+      "summary": "Áp lực từ nhóm cổ phiếu vốn hóa lớn, đặc biệt là VIC và dầu khí, kéo VN-Index xuống dưới ngưỡng 1.700 điểm trong phiên giao dịch ngày 3/11. Trái chiều với diễn biến chỉ số, cổ phiếu thép đồng loạt tăng mạnh, trong khi nhà đầu tư nước ngoài tiếp tục bán ròng phiên thứ 8 liên tiếp.",
+      "url": "https://cafef.vn/vn-index-lai-mat-moc-1700-diem-khoi-ngoai-noi-dai-chuoi-ban-rong-188261103172938695.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-03T18:18+07:00"
+     },
      {
       "id": "we5c43a6986ca",
       "title": "Hai cổ phiếu ngân hàng bị khối ngoại \"xả\" gần 500 tỷ phiên 3/11",
+      "text": "",
+      "author": null,
       "summary": "Giao dịch của khối ngoại là điểm trừ khi bán ròng khoảng 496 tỷ đồng cổ phiếu trên toàn thị trường.",
       "url": "https://cafef.vn/hai-co-phieu-ngan-hang-bi-khoi-ngoai-xa-gan-500-ty-phien-3-11-188261103152515184.chn",
       "src_name": "CafeF — Chứng khoán",
       "published": "2026-11-03T15:45+07:00"
      },
      {
+      "id": "w274ad7e6a72f",
+      "title": "Theo dấu dòng tiền cá mập 03/11: Khối ngoại và tự doanh cùng bán ròng",
+      "text": "",
+      "author": null,
+      "summary": "Phiên 03/11, khối ngoại và tự doanh đồng thuận bán ròng. Tổng giá trị hơn 630 tỷ đồng. Trong đó, phần lớn đến từ lực bán của khối ngoại.",
+      "url": "http://vietstock.vn/2026/11/theo-dau-dong-tien-ca-map-0311-khoi-ngoai-va-tu-doanh-cung-ban-rong-830-1511306.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-11-03T19:42+07:00"
+     },
+     {
       "id": "w1a0c6f55430a",
       "title": "Khối ngoại bán ròng gần 500 tỷ đồng trong phiên 3/11, tâm điểm là hai mã bank",
+      "text": "",
+      "author": null,
       "summary": "(ĐTCK) Nhà đầu tư ngoại vẫn kéo dài chuỗi ngày bán ròng với giá trị đạt gần 500 tỷ đồng trong phiên 3/11. Trong đó, khối này tập trung bán ròng tại 2 cổ phiếu ngân hàng là MBB và VCB. Khối ngoại tập trung bán cổ phiếu ngân hàng trong phiên 2/11 Dòng tiền vẫn là biến số lớn Dấu hiệu đáy thứ hai",
       "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-ban-rong-gan-500-ty-dong-trong-phien-311-tam-diem-la-hai-ma-bank-post400741.html",
       "src_name": "Tin nhanh CK",
       "published": "2026-11-03T17:36+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t6",
-    "hang": 6,
-    "tieu_de": "Giật mình giá trị khối ngoại bán ròng từ khi chứng khoán Việt Nam được nâng hạng",
-    "loai": "thi_truong",
-    "item_ids": [
-     "wfead6352eb72"
-    ],
-    "mot_dong": "Giá trị khối ngoại bán ròng trong một tháng rưỡi từ khi chứng khoán Việt Nam chính thức được nâng hạng bằng 1/4 tổng giá trị bán ròng từ đầu năm.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
+     },
+     {
+      "id": "w310133915478",
+      "title": "VN-Index thủng mốc 1.700 điểm",
+      "text": "",
+      "author": null,
+      "summary": "VN-Index mất tổng cộng 67 điểm và thủng mốc tâm lý 1.700 điểm sau 4 phiên giảm liên tiếp, khiến thị trường đứng trước rủi ro bán mạnh hơn trong những phiên tới.",
+      "url": "https://vnexpress.net/vn-index-thung-moc-1-700-diem-5140312.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-11-03T16:10+07:00"
+     },
+     {
+      "id": "wcdd7047a5740",
+      "title": "Vietstock Daily 04/11/2026: Tiếp tục dò đáy?",
+      "text": "",
+      "author": null,
+      "summary": "VN-Index nối dài chuỗi giảm sang phiên thứ 4 liên tiếp kèm khối lượng giao dịch sụt giảm xuống dưới mức trung bình 20 ngày. Rủi ro điều chỉnh tiếp tục gia tăng khi chỉ số đang nằm dưới đường Middle của Bollinger Bands đồng thời chỉ báo MACD đã cắt xuống dưới đường signal. Đáy cũ tháng 07/2026 (tương đương vùng 1,650-1,680 điểm) sẽ là vùng hỗ trợ đáng chú ý trong các phiên tới.",
+      "url": "http://vietstock.vn/2026/11/vietstock-daily-04112026-tiep-tuc-do-day-1636-1511197.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-11-03T18:18+07:00"
+     },
+     {
+      "id": "w1b2c94f51d27",
+      "title": "Nhịp đập Thị trường 03/11: Cổ phiếu thép có phiên tích cực",
+      "text": "",
+      "author": null,
+      "summary": "Dù có nhịp hồi phục đầu phiên chiều, diễn biến thị trường trong phần còn lại của phiên chiều lại thiên về hướng tiêu cực. Kết phiên, VN-Index giảm hơn 11 điểm, tạm dừng ở dưới mốc 1,700. HNX-Index lại diễn biến tích cực với mức tăng gần 1 điểm, đạt hơn 251.4 điểm.",
+      "url": "http://vietstock.vn/2026/11/nhip-dap-thi-truong-0311-co-phieu-thep-co-phien-tich-cuc-1636-1510812.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-11-03T16:47+07:00"
+     },
+     {
+      "id": "wd4f87325a88f",
+      "title": "VN-Index chưa thủng đáy, vì sao nhiều cổ phiếu đã giảm sâu?",
+      "text": "",
+      "author": null,
+      "summary": "Thị trường chứng khoán bước vào tháng 11 với một nghịch lý đáng chú ý: VN-Index vẫn đứng trên vùng đáy tháng 10, nhưng nhiều nhóm cổ phiếu đã giảm xuống dưới mức thấp nhất của tháng trước. Sau hai tháng điều chỉnh liên tiếp, thanh khoản suy yếu và khối ngoại bán ròng mạnh, khả năng phục hồi không chỉ phụ thuộc vào các ngưỡng điểm số mà còn ở sự trở lại của dòng tiền trên diện rộng.",
+      "url": "https://cafef.vn/vn-index-chua-thung-day-vi-sao-nhieu-co-phieu-da-giam-sau-188261103090011814.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-03T09:00+07:00"
+     },
+     {
+      "id": "we891c1280701",
+      "title": "VN-Index mất mốc 1700, các công ty chứng khoán bình luận gì?",
+      "text": "",
+      "author": null,
+      "summary": "VnEconomy giới thiệu nhận định và khuyến nghị đầu tư của một số công ty chứng khoán về diễn biến thị trường ngày 4/11/2026",
+      "url": "https://vneconomy.vn/vn-index-mat-moc-1700-cac-cong-ty-chung-khoan-binh-luan-gi.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-11-03T22:22+07:00"
+     },
      {
       "id": "wfead6352eb72",
       "title": "Giật mình giá trị khối ngoại bán ròng từ khi chứng khoán Việt Nam được nâng hạng",
+      "text": "",
+      "author": null,
       "summary": "Giá trị khối ngoại bán ròng trong một tháng rưỡi từ khi chứng khoán Việt Nam chính thức được nâng hạng bằng 1/4 tổng giá trị bán ròng từ đầu năm.",
       "url": "https://cafef.vn/giat-minh-gia-tri-khoi-ngoai-ban-rong-tu-khi-chung-khoan-viet-nam-duoc-nang-hang-188261103230005.chn",
       "src_name": "CafeF — Chứng khoán",
@@ -2001,45 +2037,244 @@
     ]
    },
    {
-    "id": "t7",
-    "hang": 7,
-    "tieu_de": "S&P 500 và Nasdaq mất điểm vì cổ phiếu công nghệ vẫn bị bán, giá dầu “bốc hơi” gần 8%",
-    "loai": "the_gioi",
+    "id": "t3",
+    "hang": 3,
+    "tieu_de": "CPI 10 tháng tăng 4,57%, vốn FDI đăng ký đạt kỷ lục gần 55 tỷ USD",
+    "loai": "vi_mo_vn",
     "item_ids": [
-     "w32493e906cf7"
+     "w6062734f64c5",
+     "w38d7c74fff49",
+     "we2dc0aa22b8b",
+     "w3cf81d716e9e",
+     "wddb0f77a36d7",
+     "w3e87ce59f53b",
+     "w193838464c89"
     ],
-    "mot_dong": "Giá dầu thô lao dốc, với giá dầu WTI trượt sâu dưới ngưỡng 100 USD/thùng, khi xuất hiện những tín hiệu tích cực về đàm phán hòa bình ở Trung Đông...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "mot_dong": "Lạm phát bình quân 10 tháng duy trì ở mức 4,57% trong khi thu hút vốn FDI và xuất nhập khẩu thiết lập kỷ lục mới.",
+    "ly_do_top": "Số liệu vĩ mô xác nhận đà phục hồi kinh tế thực tốt nhưng lạm phát vẫn áp sát ngưỡng mục tiêu, tạo nền tảng cho kết quả kinh doanh doanh nghiệp.",
+    "su_kien_hay_nhan_dinh": "su_kien",
     "quan_trong": 4,
-    "tin_tho": true,
+    "ma_lien_quan": [],
+    "nganh": [
+     "Bất động sản khu công nghiệp",
+     "LRetail",
+     "Xuất nhập khẩu"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
      {
-      "id": "w32493e906cf7",
-      "title": "S&P 500 và Nasdaq mất điểm vì cổ phiếu công nghệ vẫn bị bán, giá dầu “bốc hơi” gần 8%",
-      "summary": "Giá dầu thô lao dốc, với giá dầu WTI trượt sâu dưới ngưỡng 100 USD/thùng, khi xuất hiện những tín hiệu tích cực về đàm phán hòa bình ở Trung Đông...",
-      "url": "https://vneconomy.vn/sp-500-va-nasdaq-mat-diem-vi-co-phieu-cong-nghe-van-bi-ban-gia-dau-boc-hoi-gan-8.htm",
+      "id": "w6062734f64c5",
+      "title": "Vốn FDI đăng ký vào Việt Nam cao nhất từ năm 2009",
+      "text": "",
+      "author": null,
+      "summary": "Vốn đầu tư trực tiếp nước ngoài (FDI) đăng ký vào Việt Nam đạt gần 55 tỷ USD sau 10 tháng, tăng 74% so với cùng kỳ và cao nhất kể từ năm 2009. Đáng chú ý, dòng vốn mới tiếp tục tập trung vào công nghiệp chế biến, chế tạo, trong khi vốn FDI giải ngân cũng đạt mức cao nhất 5 năm qua.",
+      "url": "https://cafef.vn/von-fdi-dang-ky-vao-viet-nam-cao-nhat-tu-nam-2009-188261103135738172.chn",
+      "src_name": "CafeF — Vĩ mô",
+      "published": "2026-11-03T14:50+07:00"
+     },
+     {
+      "id": "w38d7c74fff49",
+      "title": "Bên cạnh xuất khẩu, kinh tế Việt Nam ghi nhận một kỷ lục mới trong vòng 17 năm trở lại đây",
+      "text": "",
+      "author": null,
+      "summary": "Theo số liệu mới nhất của Cục Thống kê (Bộ Tài chính), kinh tế Việt Nam tiếp tục ghi nhận tín hiệu bứt phá mạnh mẽ khi tổng vốn đầu tư trực tiếp nước ngoài (FDI) đăng ký trong 10 tháng năm 2026 ghi nhận mức kỷ lục cao nhất trong vòng 17 năm qua.",
+      "url": "https://cafef.vn/ben-canh-xuat-khau-kinh-te-viet-nam-ghi-nhan-mot-ky-luc-moi-trong-vong-17-nam-tro-lai-day-ve-mot-chi-tieu-188261103093408441.chn",
+      "src_name": "CafeF — Vĩ mô",
+      "published": "2026-11-03T09:32+07:00"
+     },
+     {
+      "id": "we2dc0aa22b8b",
+      "title": "CPI mười tháng đầu năm 2026 tăng 4.57%, lạm phát cơ bản tăng 4.24% so với cùng kỳ năm trước",
+      "text": "",
+      "author": null,
+      "summary": "Chỉ số giá tiêu dùng (CPI) tháng 10 tăng 0.20% so với tháng trước, chủ yếu do giá xăng dầu trong nước điều chỉnh tăng theo giá nhiên liệu thế giới. CPI tháng 10 tăng 5.09% so với cùng kỳ năm trước. Bình quân mười tháng năm 2026, CPI tăng 4.57% so với cùng kỳ năm trước; lạm phát cơ bản tăng 4.24%.",
+      "url": "http://vietstock.vn/2026/11/cpi-muoi-thang-dau-nam-2026-tang-457-lam-phat-co-ban-tang-424-so-voi-cung-ky-nam-truoc-761-1510770.htm",
+      "src_name": "Vietstock — Vĩ mô",
+      "published": "2026-11-03T10:12+07:00"
+     },
+     {
+      "id": "w3cf81d716e9e",
+      "title": "Kim ngạch xuất nhập khẩu lần đầu vượt 1.000 tỷ USD, cao nhất từ trước đến nay",
+      "text": "",
+      "author": null,
+      "summary": "10 tháng đầu năm 2026, tổng kim ngạch xuất, nhập khẩu hàng hóa sơ bộ đạt 1.010,55 tỷ USD, tăng 32,3% so với cùng kỳ năm trước.",
+      "url": "https://cafef.vn/kim-ngach-xuat-nhap-khau-lan-dau-vuot-1000-ty-usd-cao-nhat-tu-truoc-den-nay-188261103134414408.chn",
+      "src_name": "CafeF — Vĩ mô",
+      "published": "2026-11-03T14:35+07:00"
+     },
+     {
+      "id": "wddb0f77a36d7",
+      "title": "CPI 10 tháng tăng 4,57%, xăng dầu lại gây áp lực",
+      "text": "",
+      "author": null,
+      "summary": "Giá xăng trong nước tăng 6,86% khiến chỉ số giá nhóm giao thông tăng mạnh nhất, kéo chỉ số giá tiêu dùng (CPI) tháng 10 tăng. Tuy nhiên, giá thực phẩm, gạo và một số dịch vụ giảm đã góp phần kiềm chế đà tăng giá. CPI 10 tháng tăng 4,57%.",
+      "url": "https://cafef.vn/cpi-10-thang-tang-457-xang-dau-lai-gay-ap-luc-188261103100528824.chn",
+      "src_name": "CafeF — Vĩ mô",
+      "published": "2026-11-03T11:02+07:00"
+     },
+     {
+      "id": "w3e87ce59f53b",
+      "title": "Áp lực từ giá nhiên liệu và dịch vụ đẩy CPI tháng 10 tăng 0,20%",
+      "text": "",
+      "author": null,
+      "summary": "Sự biến động của giá xăng dầu theo xu hướng thị trường thế giới cùng việc điều chỉnh giá một số dịch vụ công thiết yếu đã tác động trực tiếp khiến CPI tháng 10 tăng 0,20% so với tháng trước...",
+      "url": "https://vneconomy.vn/ap-luc-tu-gia-nhien-lieu-va-dich-vu-day-cpi-thang-10-tang-020.htm",
       "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-11-03T08:17+07:00"
+      "published": "2026-11-03T10:39+07:00"
+     },
+     {
+      "id": "w193838464c89",
+      "title": "GDP 9 tháng tăng 9.01%, Việt Nam chuyển dịch từ \"thu hút vốn\" sang \"kiến tạo hệ sinh thái\"",
+      "text": "",
+      "author": null,
+      "summary": "Tại Hội nghị Thượng đỉnh 500 Doanh nghiệp lớn nhất Đông Nam Á (Fortune Southeast Asia 500) năm 2026 tổ chức tại TP.HCM, lãnh đạo Bộ Tài chính và UBND TP.HCM đã công bố bức tranh tăng trưởng vĩ mô trong 9 tháng đầu năm, đồng thời phát đi thông điệp về bước ngoặt trong tư duy hợp tác đầu tư quốc tế.",
+      "url": "http://vietstock.vn/2026/11/gdp-9-thang-tang-901-viet-nam-chuyen-dich-tu-thu-hut-von-sang-kien-tao-he-sinh-thai-761-1511203.htm",
+      "src_name": "Vietstock — Vĩ mô",
+      "published": "2026-11-03T18:02+07:00"
      }
     ]
    },
    {
-    "id": "t8",
-    "hang": 8,
-    "tieu_de": "NHNN chấp thuận cho Vietcombank tăng vốn điều lệ thêm 5,431 tỷ đồng",
-    "loai": "vi_mo_vn",
+    "id": "t4",
+    "hang": 4,
+    "tieu_de": "Chờ đợi kết quả bầu cử Mỹ, giá dầu thô giảm mạnh gần 8%",
+    "loai": "quoc_te",
+    "item_ids": [
+     "w4c9ebbbba194",
+     "wa61856d9d4db",
+     "w32493e906cf7",
+     "w5dda729d6086",
+     "wfdd63a470b62",
+     "w409ca7945ad2",
+     "w883c3c78a717"
+    ],
+    "mot_dong": "Thị trường toàn cầu biến động thận trọng trước ngày bầu cử giữa kỳ tại Mỹ cùng đà lao dốc sâu của giá dầu thô.",
+    "ly_do_top": "Biến động giá dầu và kết quả chính trị tại Mỹ tác động ngay tới nhóm cổ phiếu dầu khí Việt Nam và khẩu vị rủi ro của dòng tiền quốc tế.",
+    "su_kien_hay_nhan_dinh": "ca_hai",
+    "quan_trong": 4,
+    "ma_lien_quan": [
+     "PVS",
+     "PVD",
+     "GAS"
+    ],
+    "nganh": [
+     "Dầu khí"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
+    "nguon": [
+     {
+      "id": "w4c9ebbbba194",
+      "title": "Giá vàng thế giới tăng mạnh, thoát đáy một năm",
+      "text": "",
+      "author": null,
+      "summary": "Mỗi ounce vàng có thời điểm tăng gần 100 USD trong phiên đầu tuần, lên sát 4.000 USD, nhờ giá dầu giảm gần 8%.",
+      "url": "https://vnexpress.net/gia-vang-the-gioi-tang-manh-thoat-day-mot-nam-5139951.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-11-03T07:30+07:00"
+     },
+     {
+      "id": "wa61856d9d4db",
+      "title": "Giá vàng hồi mạnh khi giá dầu lao dốc, SPDR Gold Trust bán ròng",
+      "text": "",
+      "author": null,
+      "summary": "Giá vàng thế giới tăng mạnh trong phiên giao dịch ngày thứ Hai (2/11) nhờ lực hỗ trợ từ cú giảm sâu của giá dầu và trong bối cảnh nhà đầu tư chờ cuộc bầu cử giữa nhiệm kỳ ở Mỹ...",
+      "url": "https://vneconomy.vn/gia-vang-hoi-manh-khi-gia-dau-lao-doc-spdr-gold-trust-ban-rong.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-11-03T07:46+07:00"
+     },
+     {
+      "id": "w32493e906cf7",
+      "title": "S&P 500 và Nasdaq mất điểm vì cổ phiếu công nghệ vẫn bị bán, giá dầu “bốc hơi” gần 8%",
+      "text": "",
+      "author": null,
+      "summary": "Giá dầu thô lao dốc, với giá dầu WTI trượt sâu dưới ngưỡng 100 USD/thùng, khi xuất hiện những tín hiệu tích cực về đàm phán hòa bình ở Trung Đông...",
+      "url": "https://vneconomy.vn/sp-500-va-nasdaq-mat-diem-vi-co-phieu-cong-nghe-van-bi-ban-gia-dau-boc-hoi-gan-8.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-11-03T08:17+07:00"
+     },
+     {
+      "id": "w5dda729d6086",
+      "title": "Vàng giảm giá trong lúc đợi kết quả bầu cử giữa nhiệm kỳ ở Mỹ",
+      "text": "",
+      "author": null,
+      "summary": "Giá vàng thế giới giảm trong phiên giao dịch ngày thứ Ba (3/11), khi nước Mỹ tiến hành cuộc bầu cử giữa nhiệm kỳ nhằm xác định quyền kiểm soát tại hai viện Quốc hội...",
+      "url": "https://vneconomy.vn/vang-giam-gia-trong-luc-doi-ket-qua-bau-cu-giua-nhiem-ky-o-my.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-11-04T07:26+07:00"
+     },
+     {
+      "id": "wfdd63a470b62",
+      "title": "Kết quả bầu cử ở Mỹ ngày 3/11 có thể tác động thế nào tới thị trường chứng khoán và tiền số?",
+      "text": "",
+      "author": null,
+      "summary": "Ngày thứ Ba (3/11), cử tri Mỹ đi bỏ phiếu bầu Quốc hội giữa nhiệm kỳ. Việc đảng nào kiểm soát Hạ viện và Thượng viện có thể quyết định doanh nghiệp nào giữ được lợi thế tại Washington, từ quốc phòng, y tế, ngân hàng đến tiền số và trí tuệ nhân tạo (AI)...",
+      "url": "https://vneconomy.vn/ket-qua-bau-cu-o-my-ngay-311-co-the-tac-dong-the-nao-toi-thi-truong-chung-khoan-va-tien-so.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-11-03T13:48+07:00"
+     },
+     {
+      "id": "w409ca7945ad2",
+      "title": "Giới đầu tư thận trọng cao trước cuộc bầu cử tại Mỹ",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Chứng khoán Mỹ trái chiều trong phiên thứ Hai ngày 2/11, với giá dầu lao dốc nhờ hỗ trợ, trong khi cổ phiếu Apple và nhóm chip suy yếu, cũng như các nhà đầu tư thận trọng với cuộc bầu cử giữa nhiệm kỳ vào ngày mai. Hoạt động sản xuất châu Á chững lại khi làn sóng AI dần hạ nhiệt OPEC+ giữ nguyên mục tiêu sản lượng dầu tháng 12 Xuất khẩu của Hàn Quốc tăng trưởng mạnh nhất kể từ năm 1974",
+      "url": "https://www.tinnhanhchungkhoan.vn/gioi-dau-tu-than-trong-cao-truoc-cuoc-bau-cu-tai-my-post400678.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-11-03T10:03+07:00"
+     },
+     {
+      "id": "w883c3c78a717",
+      "title": "Dollar ticks up with eyes on U.S. midterm elections; Aussie slips despite RBA hike",
+      "text": "",
+      "author": null,
+      "summary": "",
+      "url": "https://www.investing.com/news/forex-news/asian-currencies-mixed-as-yuan-slides-after-pboc-move-won-rebounds-4993468",
+      "src_name": "Investing — Ngoại hối",
+      "published": "2026-11-03T22:22+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t5",
+    "hang": 5,
+    "tieu_de": "Ngân hàng Nhà nước chấp thuận cho Vietcombank tăng vốn điều lệ",
+    "loai": "doanh_nghiep",
     "item_ids": [
      "wde003cf7f980",
      "wa2968d8f3185"
     ],
-    "mot_dong": "Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank, HOSE: VCB) cho biết đã nhận được Công văn của Ngân hàng Nhà nước (NHNN) về việc chấp thuận tăng vốn điều lệ theo phương án phát hành cổ phiếu riêng lẻ đã được ĐHĐCĐ thông qua ngày 26/04/2025 và 24/04/2026.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "mot_dong": "Vietcombank được NHNN chấp thuận tăng vốn thêm 5.431 tỷ đồng qua phát hành riêng lẻ, nâng vốn lên khoảng 88.988 tỷ đồng.",
+    "ly_do_top": "Tăng vốn điều lệ giúp VCB nâng cao hệ số CAR, mở rộng dư địa tăng trưởng tín dụng cho ngân hàng đầu ngành.",
+    "su_kien_hay_nhan_dinh": "su_kien",
     "quan_trong": 4,
-    "tin_tho": true,
+    "ma_lien_quan": [
+     "VCB"
+    ],
+    "nganh": [
+     "Ngân hàng"
+    ],
+    "phe": {
+     "lac_quan": null,
+     "than_trong": null,
+     "vi_mo": null
+    },
+    "phan_bien": {},
     "nguon": [
      {
       "id": "wde003cf7f980",
       "title": "NHNN chấp thuận cho Vietcombank tăng vốn điều lệ thêm 5,431 tỷ đồng",
+      "text": "",
+      "author": null,
       "summary": "Ngân hàng TMCP Ngoại thương Việt Nam (Vietcombank, HOSE: VCB) cho biết đã nhận được Công văn của Ngân hàng Nhà nước (NHNN) về việc chấp thuận tăng vốn điều lệ theo phương án phát hành cổ phiếu riêng lẻ đã được ĐHĐCĐ thông qua ngày 26/04/2025 và 24/04/2026.",
       "url": "http://vietstock.vn/2026/11/nhnn-chap-thuan-cho-vietcombank-tang-von-dieu-le-them-5431-ty-dong-757-1511237.htm",
       "src_name": "Vietstock — Ngân hàng",
@@ -2048,6 +2283,8 @@
      {
       "id": "wa2968d8f3185",
       "title": "Vietcombank được Ngân hàng Nhà nước chấp thuận tăng vốn điều lệ thêm 5.431 tỷ đồng",
+      "text": "",
+      "author": null,
       "summary": "Sau khi thực hiện đợt phát hành riêng lẻ, vốn điều lệ ngân hàng sẽ đạt khoảng 88.988 tỷ đồng.",
       "url": "https://cafef.vn/vietcombank-duoc-ngan-hang-nha-nuoc-chap-thuan-tang-von-dieu-le-them-5431-ty-dong-188261103135413186.chn",
       "src_name": "CafeF — Tài chính NH",
@@ -2056,189 +2293,1116 @@
     ]
    },
    {
-    "id": "t9",
-    "hang": 9,
-    "tieu_de": "Công ty giải thể trước Tết, hơn 1.400 công nhân ở TPHCM chới với",
-    "loai": "vi_mo_vn",
+    "id": "t6",
+    "hang": 6,
+    "tieu_de": "Cổ phiếu ngành thép bứt phá ngược dòng hút dòng tiền",
+    "loai": "nganh",
     "item_ids": [
-     "wec5bdf3edfde",
-     "wb3586f82d467"
+     "wecb1d04a1965",
+     "w1b2c94f51d27",
+     "w4b03916fb228"
     ],
-    "mot_dong": "Khoảng 1.400 lao động tại nhà máy ECCO Việt Nam ở TPHCM bàng hoàng khi bất ngờ được thông báo công ty giải thể, chấm dứt hợp đồng trước Tết. Ngoài trợ cấp theo quy định, doanh nghiệp cam kết chi lương tháng 13 và nhiều khoản hỗ trợ cho người lao động.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
+    "mot_dong": "Nhiều cổ phiếu nhóm thép như HPG, HSG, NKG ghi nhận đà tăng mạnh mẽ và trở thành điểm sáng nâng đỡ thị trường.",
+    "ly_do_top": "Tín hiệu dòng tiền vào nhóm thép tạo điểm tựa giao dịch ngắn hạn cho nhà đầu tư theo chiến lược bùng nổ theo đà.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 3,
+    "ma_lien_quan": [
+     "HPG",
+     "HSG",
+     "NKG"
+    ],
+    "nganh": [
+     "Thép"
+    ],
+    "chuyen_gi": "Trong phiên giao dịch ngày 03/11/2026, nhóm cổ phiếu thép đồng loạt tăng điểm tích cực ngược đà giảm chung của VN-Index (-11,1 điểm). Mã HPG đóng cửa tăng 4,2% lên 21.250 đồng/cp, dẫn đầu thanh khoản HOSE với 32,4 triệu cổ phiếu và được khối ngoại mua ròng mạnh. Các mã NKG, HSG, VGS cũng ghi nhận đà tăng từ 3% đến 3,5%. Tín hiệu từ doanh nghiệp cho thấy Tôn Hòa Phát vừa xuất khẩu thành công lô hàng 8.000 tấn tôn mạ kẽm sang Nhật Bản đạt tiêu chuẩn JIS G 3302. Trong 9 tháng đầu năm 2026, sản lượng bán tôn mạ của Hòa Phát đạt 307.000 tấn, riêng Q3/2026 LNST tập đoàn đạt 8.265 tỷ đồng (tăng 106% so với cùng kỳ).",
+    "so_lieu_chinh": [
+     "HPG: +4,2% (21.250đ, khớp 32,4 triệu cp)",
+     "NKG: +3,5% (12.100đ)",
+     "HSG: +3,5% (10.700đ)",
+     "HPG Q3/2026 LNST: 8.265 tỷ đồng (+106% yoy)",
+     "Xuất khẩu Nhật Bản: 8.000 tấn tôn mạ kẽm"
+    ],
+    "boi_canh": "Ngành thép Việt Nam đang nỗ lực mở rộng thị trường xuất khẩu chất lượng cao trong bối cảnh thị trường nội địa chịu sự phân hóa (nền). VN-Index chịu áp lực giảm điểm do nhóm trụ như VIC điều chỉnh sâu.",
+    "vi_sao_quan_trong": "Đà bứt phá của HPG và nhóm thép cung cấp điểm tựa tâm lý quan trọng cho thị trường khi chỉ số chung thủng mốc 1.700. Việc thâm nhập thị trường khó tính như Nhật Bản giúp khẳng định năng lực biên lợi nhuận của Hòa Phát.",
+    "thuat_ngu": [
      {
-      "id": "wec5bdf3edfde",
-      "title": "Công ty giải thể trước Tết, hơn 1.400 công nhân ở TPHCM chới với",
-      "summary": "Khoảng 1.400 lao động tại nhà máy ECCO Việt Nam ở TPHCM bàng hoàng khi bất ngờ được thông báo công ty giải thể, chấm dứt hợp đồng trước Tết. Ngoài trợ cấp theo quy định, doanh nghiệp cam kết chi lương tháng 13 và nhiều khoản hỗ trợ cho người lao động.",
-      "url": "https://cafef.vn/cong-ty-giai-the-truoc-tet-hon-1400-cong-nhan-o-tphcm-choi-voi-188261103093345947.chn",
-      "src_name": "CafeF — Vĩ mô",
-      "published": "2026-11-03T10:30+07:00"
+      "tu": "Tiêu chuẩn JIS G 3302",
+      "nghia": "Bộ tiêu chuẩn công nghiệp Nhật Bản quy định khắt khe về chất lượng và lớp mạ cho thép cuộn mạ kẽm."
+     }
+    ],
+    "danh_gia": "tot",
+    "muc_do": "vua",
+    "vi_mo_to_vi_mo": "DXY và tỷ giá hạ nhiệt giúp giảm áp lực chi phí nhập khẩu nguyên liệu quặng/than cho ngành thép. Dù vậy, giá dầu thế giới tăng lại tạo áp lực lên chi phí cước biển.",
+    "vi_mo_vi_mo": "HPG bứt phá hút dòng tiền khối ngoại lan tỏa tâm lý tích cực sang HSG, NKG, giúp nhóm vật liệu xây dựng duy trì sắc xanh tích cực hơn mặt bằng chung.",
+    "nganh_ma": [
+     {
+      "ten": "HPG",
+      "chieu": "+",
+      "ly_do": "Tăng 4,2%, thanh khoản 32,4 triệu cp, LNST Q3 tăng 106%, xuất khẩu Nhật thành công"
      },
      {
-      "id": "wb3586f82d467",
-      "title": "Công ty giày ở TP.HCM giải thể trước Tết, 1.400 công nhân được hỗ trợ ra sao?",
-      "summary": "Khoảng 1.400 công nhân Công ty ECCO Việt Nam phải nghỉ việc khi doanh nghiệp giải thể, ngoài các chế độ theo quy định, họ được hỗ trợ thêm tiền và lương tháng 13.",
-      "url": "https://cafef.vn/cong-ty-giay-o-tphcm-giai-the-truoc-tet-1400-cong-nhan-duoc-ho-tro-ra-sao-188261103110047035.chn",
-      "src_name": "CafeF — Doanh nghiệp",
-      "published": "2026-11-03T11:38+07:00"
+      "ten": "HSG",
+      "chieu": "+",
+      "ly_do": "Tăng 3,5% theo sóng ngành"
+     },
+     {
+      "ten": "NKG",
+      "chieu": "+",
+      "ly_do": "Tăng 3,5% theo sóng ngành"
      }
-    ]
-   },
-   {
-    "id": "t10",
-    "hang": 10,
-    "tieu_de": "Lãi suất tiết kiệm ngày 4/11 tại Agribank, Vietcombank, BIDV, VietinBank, MB, VPBank, Techcombank, Sacombank, HDBank,...",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "wea4c4029dc90"
     ],
-    "mot_dong": "Khảo sát ngày 4/11, lãi suất huy động trực tuyến tại các ngân hàng có sự phân hóa rõ rệt giữa các kỳ hạn, với mức cao nhất đạt 7,4%/năm. Đáng chú ý, tại kỳ hạn 12 tháng, có 5 ngân hàng cùng niêm yết lãi suất 7%/năm, trong khi nhóm ngân hàng có vốn Nhà nước duy trì mức 6,8%/năm.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
+    "rui_ro": [
+     "VN-Index tiếp tục điều chỉnh kéo lùi tâm lý thị trường chung",
+     "Chi phí vận tải biển tăng theo giá dầu Brent"
+    ],
+    "can_trong": "Theo dõi phiên T+2,5 của lượng hàng 32,4 triệu cp HPG về tài khoản để kiểm tra lực hấp thụ của phe mua.",
+    "hanh_dong": "co_hoi",
+    "xac_minh": "da_xac_minh",
+    "dong_thuan": "Phe Lạc quan thuyết phục hơn về sức mạnh nội tại của HPG và dòng tiền vào rõ ràng. Tuy nhiên Phe Thận trọng đúng về rủi ro áp lực từ VN-Index.",
+    "lien_he_he_thong": "Soi tay mẫu hình bùng nổ vượt nền/MA của HPG trong các phiên tới, kiểm tra khối lượng mua chủ động.",
+    "kiem_chung_sau": "T+3 lượng cổ phiếu HPG phiên 03/11 giữ vững được vùng giá 21.000 đồng.",
+    "do_tin_cay": 85,
+    "phe": {
+     "lac_quan": {
+      "nhan_dinh": "tot",
+      "do_manh": 3,
+      "lap_luan": "Sức mạnh giá của HPG thể hiện dòng tiền chủ động quay lại cổ phiếu đầu ngành có kết quả kinh doanh quý 3 tăng trưởng vượt bậc 106%. Lô hàng xuất khẩu sang Nhật Bản chứng minh năng lực cạnh tranh quốc tế, mở rộng biên lợi nhuận trong dài hạn. Việc khối ngoại quay lại mua ròng HPG sẽ là động lực nâng đỡ giá.",
+      "chuoi_truyen_dan": [
+       "Xuất khẩu Nhật Bản thành công → Mở rộng thị trường giá trị cao → Tăng sản lượng & biên lợi nhuận → Khối ngoại mua ròng HPG → Giá cổ phiếu bứt phá"
+      ],
+      "anh_huong": [
+       {
+        "ten": "HPG",
+        "chieu": "+",
+        "ly_do": "Khớp lệnh dẫn đầu thị trường, KQKD Q3 tăng 106%, mở rộng xuất khẩu Nhật"
+       },
+       {
+        "ten": "HSG",
+        "chieu": "+",
+        "ly_do": "Hưởng ứng sóng dòng ngành thép"
+       },
+       {
+        "ten": "NKG",
+        "chieu": "+",
+        "ly_do": "Hưởng ứng sóng dòng ngành thép"
+       }
+      ],
+      "rui_ro": "Giá dầu Brent tăng 3,6% lên 104,2 USD làm tăng chi phí vận tải logistics xuất khẩu.",
+      "do_tin_cay": 85
+     },
+     "than_trong": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Mặc dù nhóm thép tăng giá, nhưng thanh khoản tổng thể sàn HOSE lại sụt giảm mạnh 30% xuống còn 12.939 tỷ đồng, phản ánh dòng tiền chung rất yếu. Lô hàng 8.000 tấn tôn sang Nhật chỉ là quy mô nhỏ so với tổng công suất, chưa đủ tạo bước ngoặt lớn ngay lập tức. VN-Index vẫn nằm dưới các đường MA10, MA20 nên đà tăng của thép dễ bị áp lực chốt lời khi chỉ số chung giảm tiếp.",
+      "chuoi_truyen_dan": [
+       "VN-Index chịu áp lực bán từ trụ VIC → Thanh khoản toàn thị trường giảm 30% → Đà tăng nhóm thép thiếu sự lan tỏa rộng → Áp lực T+ gia tăng"
+      ],
+      "anh_huong": [
+       {
+        "ten": "VNINDEX",
+        "chieu": "-",
+        "ly_do": "Thanh khoản sụt giảm mạnh, lực đỡ từ thép chưa đủ bù đắp đà rơi của VIC"
+       }
+      ],
+      "rui_ro": "Thị trường chung điều chỉnh sâu kéo tụt đà tăng nhóm cổ phiếu thép.",
+      "do_tin_cay": 75
+     },
+     "vi_mo": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Về mặt vĩ mô, giá dầu Brent tăng lên 104,2 USD/thùng (+3,6%) làm gia tăng áp lực lạm phát và chi phí đầu vào logistics. Tuy nhiên, giá DXY hạ nhẹ (-0,09%) và tỷ giá USD/VND hạ (-0,87%) giúp bớt áp lực tỷ giá ngắn hạn. Ngành thép đang đón dòng tiền ngách nhưng cần theo dõi sự phục hồi của tổng cầu tiêu dùng nội địa và chi phí hàng hải.",
+      "chuoi_truyen_dan": [
+       "Giá dầu Brent cao → Chi phí logistics tăng → Thu hẹp biên lợi nhuận xuất khẩu → Cần kiểm chứng thanh khoản ngành"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Ngành Thép",
+        "chieu": "+",
+        "ly_do": "Sức mạnh nội tại tốt nhưng chịu biến số giá nguyên nhiên liệu quốc tế"
+       }
+      ],
+      "rui_ro": "Giá năng lượng thế giới tăng cao gây áp lực lên chi phí sản xuất và vận tải.",
+      "do_tin_cay": 80
+     }
+    },
+    "phan_bien": {
+     "lac_quan": {
+      "phan_bac": "Phe Thận trọng quá đà khi đánh giá thấp thanh khoản 32,4 triệu cổ phiếu của HPG. Sự bứt phá đột biến của mã đầu ngành luôn là tín hiệu dẫn dắt dòng tiền tiên phong.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "than_trong": {
+      "phan_bac": "Phe Lạc quan chưa nhìn rõ áp lực từ thị trường chung khi VN-Index đóng cửa mất mốc 1.700. Trong một phiên thanh khoản HOSE sụt 30%, đà tăng đơn độc khó kéo dài T+.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "vi_mo": {
+      "phan_bac": "Cả hai phe cần chú ý biến số chi phí vận tải khi Brent lên trên 104 USD. HPG có lợi thế quy mô lớn nhưng các doanh nghiệp thép nhỏ hơn như HSG, NKG sẽ chịu áp lực biên lợi nhuận cao hơn.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     }
+    },
     "nguon": [
      {
-      "id": "wea4c4029dc90",
-      "title": "Lãi suất tiết kiệm ngày 4/11 tại Agribank, Vietcombank, BIDV, VietinBank, MB, VPBank, Techcombank, Sacombank, HDBank,...",
-      "summary": "Khảo sát ngày 4/11, lãi suất huy động trực tuyến tại các ngân hàng có sự phân hóa rõ rệt giữa các kỳ hạn, với mức cao nhất đạt 7,4%/năm. Đáng chú ý, tại kỳ hạn 12 tháng, có 5 ngân hàng cùng niêm yết lãi suất 7%/năm, trong khi nhóm ngân hàng có vốn Nhà nước duy trì mức 6,8%/năm.",
-      "url": "https://cafef.vn/lai-suat-tiet-kiem-ngay-4-11-tai-agribank-vietcombank-bidv-vietinbank-mb-vpbank-techcombank-sacombank-hdbank-188261103232126222.chn",
-      "src_name": "CafeF — Tài chính NH",
-      "published": "2026-11-04T01:17+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t11",
-    "hang": 11,
-    "tieu_de": "Khả năng BOJ tăng lãi suất vào tháng 12 gần như chắc chắn, triển vọng xa hơn khó đoán",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "w4aa6a29f9c53"
-    ],
-    "mot_dong": "Thống đốc Ngân hàng Trung ương Nhật Bản (BOJ) Kazuo Ueda gần như đã phát tín hiệu chắc chắn về một đợt tăng lãi suất vào tháng 12...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
+      "id": "wecb1d04a1965",
+      "title": "Nhóm cổ phiếu Thép hút dòng tiền, VN-Index tiếp tục giảm trong phiên 3/11",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Đà đi xuống của VIC đã không cho VN-Index cơ hội hồi phục, trong bối cảnh thanh khoản yếu và giao dịch đầy thận trọng. Mặc dù vậy, động lực đến từ các cổ phiếu thép HPG, HSG, NKG kỳ vọng sẽ giúp thị trường có những bước tiến tích cực hơn trong các phiên tới. Tái cấu trúc thị trường tài chính để thị trường chứng khoán sớm là nơi chủ lực cung ứng vốn cho nền kinh tế Chủ tịch UBCKNN đề nghị rà soát quy định về sở hữu nước ngoài Vốn ngoại tập trung vào lĩnh vực tài chính",
+      "url": "https://www.tinnhanhchungkhoan.vn/nhom-co-phieu-thep-hut-dong-tien-vn-index-tiep-tuc-giam-trong-phien-311-post400732.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-11-03T15:16+07:00"
+     },
      {
-      "id": "w4aa6a29f9c53",
-      "title": "Khả năng BOJ tăng lãi suất vào tháng 12 gần như chắc chắn, triển vọng xa hơn khó đoán",
-      "summary": "Thống đốc Ngân hàng Trung ương Nhật Bản (BOJ) Kazuo Ueda gần như đã phát tín hiệu chắc chắn về một đợt tăng lãi suất vào tháng 12...",
-      "url": "https://vneconomy.vn/kha-nang-boj-tang-lai-suat-vao-thang-12-gan-nhu-chac-chan-trien-vong-xa-hon-kho-doan.htm",
-      "src_name": "VnEconomy — Chứng khoán",
-      "published": "2026-11-03T13:47+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t12",
-    "hang": 12,
-    "tieu_de": "Lãi suất tiết kiệm kỳ hạn 6 - 12 tháng phổ biến lùi về khoảng 6%/năm",
-    "loai": "vi_mo_vn",
-    "item_ids": [
-     "w663573269212"
-    ],
-    "mot_dong": "Sau đợt giảm phổ biến 0,5 điểm phần trăm cuối tháng 10, lãi suất huy động trực tuyến tại phần lớn ngân hàng ổn định trong những ngày đầu tháng 11. Khảo sát 34 ngân hàng sáng 3/11 cho thấy lãi suất kỳ hạn 6 tháng phổ biến 5,5 - 6,7%/năm, kỳ hạn 12 tháng khoảng 5,6 - 6,9%/năm...",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
+      "id": "w1b2c94f51d27",
+      "title": "Nhịp đập Thị trường 03/11: Cổ phiếu thép có phiên tích cực",
+      "text": "",
+      "author": null,
+      "summary": "Dù có nhịp hồi phục đầu phiên chiều, diễn biến thị trường trong phần còn lại của phiên chiều lại thiên về hướng tiêu cực. Kết phiên, VN-Index giảm hơn 11 điểm, tạm dừng ở dưới mốc 1,700. HNX-Index lại diễn biến tích cực với mức tăng gần 1 điểm, đạt hơn 251.4 điểm.",
+      "url": "http://vietstock.vn/2026/11/nhip-dap-thi-truong-0311-co-phieu-thep-co-phien-tich-cuc-1636-1510812.htm",
+      "src_name": "Vietstock — Cổ phiếu",
+      "published": "2026-11-03T16:47+07:00"
+     },
      {
-      "id": "w663573269212",
-      "title": "Lãi suất tiết kiệm kỳ hạn 6 - 12 tháng phổ biến lùi về khoảng 6%/năm",
-      "summary": "Sau đợt giảm phổ biến 0,5 điểm phần trăm cuối tháng 10, lãi suất huy động trực tuyến tại phần lớn ngân hàng ổn định trong những ngày đầu tháng 11. Khảo sát 34 ngân hàng sáng 3/11 cho thấy lãi suất kỳ hạn 6 tháng phổ biến 5,5 - 6,7%/năm, kỳ hạn 12 tháng khoảng 5,6 - 6,9%/năm...",
-      "url": "https://vneconomy.vn/lai-suat-tiet-kiem-ky-han-6-12-thang-pho-bien-lui-ve-khoang-6nam.htm",
-      "src_name": "VnEconomy — Tài chính",
-      "published": "2026-11-03T13:39+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t13",
-    "hang": 13,
-    "tieu_de": "VN-Index lại mất mốc 1.700 điểm, khối ngoại nối dài chuỗi bán ròng",
-    "loai": "thi_truong",
-    "item_ids": [
-     "we9e789bb3749",
-     "w310133915478"
-    ],
-    "mot_dong": "Áp lực từ nhóm cổ phiếu vốn hóa lớn, đặc biệt là VIC và dầu khí, kéo VN-Index xuống dưới ngưỡng 1.700 điểm trong phiên giao dịch ngày 3/11. Trái chiều với diễn biến chỉ số, cổ phiếu thép đồng loạt tăng mạnh, trong khi nhà đầu tư nước ngoài tiếp tục bán ròng phiên thứ 8 liên tiếp.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "we9e789bb3749",
-      "title": "VN-Index lại mất mốc 1.700 điểm, khối ngoại nối dài chuỗi bán ròng",
-      "summary": "Áp lực từ nhóm cổ phiếu vốn hóa lớn, đặc biệt là VIC và dầu khí, kéo VN-Index xuống dưới ngưỡng 1.700 điểm trong phiên giao dịch ngày 3/11. Trái chiều với diễn biến chỉ số, cổ phiếu thép đồng loạt tăng mạnh, trong khi nhà đầu tư nước ngoài tiếp tục bán ròng phiên thứ 8 liên tiếp.",
-      "url": "https://cafef.vn/vn-index-lai-mat-moc-1700-diem-khoi-ngoai-noi-dai-chuoi-ban-rong-188261103172938695.chn",
+      "id": "w4b03916fb228",
+      "title": "Niềm vui của tỷ phú Trần Đình Long",
+      "text": "",
+      "author": null,
+      "summary": "Đây là dấu mốc quan trọng, mở ra cơ hội lớn cho tập đoàn của ông Trần Đình Long.",
+      "url": "https://cafef.vn/niem-vui-cua-ty-phu-tran-dinh-long-188261103110213945.chn",
       "src_name": "CafeF — Chứng khoán",
-      "published": "2026-11-03T18:18+07:00"
-     },
-     {
-      "id": "w310133915478",
-      "title": "VN-Index thủng mốc 1.700 điểm",
-      "summary": "VN-Index mất tổng cộng 67 điểm và thủng mốc tâm lý 1.700 điểm sau 4 phiên giảm liên tiếp, khiến thị trường đứng trước rủi ro bán mạnh hơn trong những phiên tới.",
-      "url": "https://vnexpress.net/vn-index-thung-moc-1-700-diem-5140312.html",
-      "src_name": "VnExpress — Kinh doanh",
-      "published": "2026-11-03T16:10+07:00"
+      "published": "2026-11-03T11:01+07:00"
      }
     ]
    },
    {
-    "id": "t14",
-    "hang": 14,
-    "tieu_de": "Australia tăng lãi suất lên cao nhất 18 năm",
-    "loai": "vi_mo_vn",
+    "id": "t7",
+    "hang": 7,
+    "tieu_de": "Sacombank tung gói tín dụng ưu đãi lãi suất 7,9%/năm",
+    "loai": "doanh_nghiep",
     "item_ids": [
-     "w618c78e06272"
-    ],
-    "mot_dong": "Để hạ nhiệt lạm phát hơn 4% hiện tại, Australia đã nâng lãi 5 lần năm nay, lên cao nhất kể từ 2008.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
-    "quan_trong": 4,
-    "tin_tho": true,
-    "nguon": [
-     {
-      "id": "w618c78e06272",
-      "title": "Australia tăng lãi suất lên cao nhất 18 năm",
-      "summary": "Để hạ nhiệt lạm phát hơn 4% hiện tại, Australia đã nâng lãi 5 lần năm nay, lên cao nhất kể từ 2008.",
-      "url": "https://vnexpress.net/australia-tang-lai-suat-len-cao-nhat-18-nam-5140080.html",
-      "src_name": "VnExpress — Kinh doanh",
-      "published": "2026-11-03T11:41+07:00"
-     }
-    ]
-   },
-   {
-    "id": "t15",
-    "hang": 15,
-    "tieu_de": "Sacombank cho vay 7,9% một năm với nhóm xuất nhập khẩu, FDI",
-    "loai": "vi_mo_vn",
-    "item_ids": [
+     "wf7da4ab8a9f7",
+     "w7ff5f2f992e0",
      "w96c39bb5d4f9"
     ],
-    "mot_dong": "Sacombank dành gói vay 10.000 tỷ cho khách hàng doanh nghiệp mới, hoạt động trong lĩnh vực xuất nhập khẩu và FDI, mức lãi suất 7,9% một năm.",
-    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "mot_dong": "Sacombank triển khai gói vay 10.000 tỷ đồng với lãi suất 7,9%/năm dành riêng cho doanh nghiệp FDI và xuất nhập khẩu.",
+    "ly_do_top": "Động thái giảm lãi suất cho vay giúp thúc đẩy tăng trưởng tín dụng quý 4 cho ngân hàng và giảm chi phí vốn cho doanh nghiệp sản xuất.",
+    "su_kien_hay_nhan_dinh": "su_kien",
     "quan_trong": 3,
-    "tin_tho": true,
+    "ma_lien_quan": [
+     "STB"
+    ],
+    "nganh": [
+     "Ngân hàng"
+    ],
+    "chuyen_gi": "Sacombank (STB) chính thức công bố triển khai gói tín dụng ưu đãi 10.000 tỷ đồng với lãi suất cho vay chỉ 7,9%/năm từ ngày 02/11 đến 31/12/2026. Gói vay này hướng tới đối tượng khách hàng doanh nghiệp mới thuộc lĩnh vực xuất nhập khẩu và FDI nhằm hỗ trợ bổ sung vốn lưu động cuối năm. Trước đó từ tháng 8/2026, Sacombank đã triển khai gói 100.000 tỷ đồng cho khách hàng hiện hữu với lãi suất 8,5% - 9,5% (đã giảm 1,5% - 2%). Để thực hiện các gói ưu đãi này, ngân hàng đã chủ động giảm biên lợi nhuận (NIM) xuống còn 0,79%/năm. Động thái diễn ra trong bối cảnh kim ngạch xuất nhập khẩu 10 tháng đạt 1.010,6 tỷ USD (tăng 32,3%) và FDI 9 tháng đạt 21,07 tỷ USD.",
+    "so_lieu_chinh": [
+     "Gói vay ưu đãi mới: 10.000 tỷ đồng",
+     "Lãi suất ưu đãi: 7,9%/năm",
+     "Biên lợi nhuận ngân hàng chấp nhận: 0,79%/năm",
+     "Kim ngạch XNK 10 tháng: 1.010,6 tỷ USD (+32,3% yoy)"
+    ],
+    "boi_canh": "Chính phủ và NHNN đẩy mạnh chỉ đạo hạ lãi suất cho vay để hỗ trợ doanh nghiệp đạt mục tiêu tăng trưởng kinh tế (nền). Sacombank tận dụng đà tăng trưởng mạnh của khối FDI và XNK để mở rộng quy mô tín dụng.",
+    "vi_sao_quan_trong": "Việc tung gói vay 7,9% giúp doanh nghiệp XNK giảm bớt áp lực chi phí tài chính trong mùa cao điểm đơn hàng cuối năm. Đồng thời cho thấy cuộc cạnh tranh tài trợ thương mại gay gắt giữa các ngân hàng thương mại.",
+    "thuat_ngu": [
+     {
+      "tu": "Biên lợi nhuận (NIM)",
+      "nghia": "Mức chênh lệch phần trăm giữa thu nhập lãi từ tài sản sinh lời và chi phí trả cho nguồn vốn huy động."
+     },
+     {
+      "tu": "LC UPAS",
+      "nghia": "Thư tín dụng trả chậm nhưng người thụ hưởng được thanh toán trả ngay nhờ ngân hàng tài trợ."
+     }
+    ],
+    "danh_gia": "tot",
+    "muc_do": "vua",
+    "vi_mo_to_vi_mo": "Lãi suất liên ngân hàng duy trì thấp (0,6%) giúp ngân hàng tối ưu chi phí vốn đầu vào, tạo điều kiện cung cấp gói vay 7,9% ra thị trường.",
+    "vi_mo_vi_mo": "Gói vay ưu đãi giúp doanh nghiệp XNK giảm chi phí vốn, thúc đẩy nhu cầu logistics và mua hàng nguyên liệu đầu vào từ các doanh nghiệp sản xuất nội địa.",
+    "nganh_ma": [
+     {
+      "ten": "STB",
+      "chieu": "+",
+      "ly_do": "Đẩy mạnh tín dụng XNK, cổ phiếu bứt phá tăng >2% ngược dòng thị trường"
+     }
+    ],
+    "rui_ro": [
+     "Biên lợi nhuận NIM bị thu hẹp ngắn hạn",
+     "Biến động nợ xấu từ tài trợ thương mại"
+    ],
+    "can_trong": "Quan sát tốc độ tăng trưởng tín dụng quý 4 và khả năng duy trì CASA của STB.",
+    "hanh_dong": "theo_doi",
+    "xac_minh": "da_xac_minh",
+    "dong_thuan": "Phe Lạc quan và Chiến lược gia vĩ mô đồng thuận về tác động tích cực của chính sách hỗ trợ tín dụng nhờ nền tảng chi phí vốn LNH 0,6% thấp.",
+    "lien_he_he_thong": "Theo dõi STB xem có duy trì được đường MA10/MA20 khi dòng tiền ngân hàng phân hóa.",
+    "kiem_chung_sau": "Báo cáo Q4/2026 của STB ghi nhận tăng trưởng tín dụng vượt trội và thu nhập ngoài lãi từ mảng XNK tăng.",
+    "do_tin_cay": 85,
+    "phe": {
+     "lac_quan": {
+      "nhan_dinh": "tot",
+      "do_manh": 2,
+      "lap_luan": "Việc Sacombank chủ động bơm 10.000 tỷ vốn giá rẻ giúp mở rộng quy mô tín dụng nhanh chóng vào các doanh nghiệp FDI và XNK chất lượng cao. Cổ phiếu STB phiên 03/11 đã phản ứng tích cực khi nhích tăng hơn 2%. Tăng trưởng quy mô tài sản và thu nhập từ phí tài trợ thương mại sẽ bù đắp cho việc giảm nhẹ biên NIM.",
+      "chuoi_truyen_dan": [
+       "Tung gói vay 7,9% → Hút doanh nghiệp FDI/XNK mới → Tăng trưởng quy mô tín dụng & thu phí dịch vụ → STB tăng trưởng lợi nhuận bền vững"
+      ],
+      "anh_huong": [
+       {
+        "ten": "STB",
+        "chieu": "+",
+        "ly_do": "Tín dụng tăng trưởng tốt, cổ phiếu nhích +2% bất chấp thị trường giảm"
+       }
+      ],
+      "rui_ro": "NIM bị thu hẹp xuống 0,79% ảnh hưởng trực tiếp đến thu nhập lãi thuần ngân hàng.",
+      "do_tin_cay": 80
+     },
+     "than_trong": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Mức biên lợi nhuận bị hy sinh xuống chỉ còn 0,79%/năm là rất mỏng, sẽ làm giảm hiệu quả sinh lời trên mỗi đồng vốn vay của Sacombank. Ngoài ra, việc tài trợ 100% giá trị không tài sản đảm bảo theo hợp đồng XNK có thể tiềm ẩn rủi ro nợ xấu nếu đối tác quốc tế hủy đơn hàng hoặc chậm thanh toán trong bối cảnh vĩ mô toàn cầu biến động.",
+      "chuoi_truyen_dan": [
+       "Biên LN hạ xuống 0,79% → Thu nhập lãi thuần gặp áp lực → Rủi ro tín dụng không TSĐB tăng → Áp lực trích lập dự phòng"
+      ],
+      "anh_huong": [
+       {
+        "ten": "STB",
+        "chieu": "-",
+        "ly_do": "Biên NIM mỏng và rủi ro tín dụng tài trợ thương mại"
+       }
+      ],
+      "rui_ro": "Rủi ro nợ xấu từ tín dụng không tài sản đảm bảo cho doanh nghiệp XNK nhỏ.",
+      "do_tin_cay": 75
+     },
+     "vi_mo": {
+      "nhan_dinh": "tot",
+      "do_manh": 2,
+      "lap_luan": "Lãi suất liên ngân hàng O/N hiện duy trì ở mức rất thấp 0,6%, tạo điều kiện cho chi phí vốn đầu vào của các ngân hàng thương mại giảm mạnh. Việc Sacombank đưa lãi suất cho vay về 7,9% phù hợp với định hướng bơm thanh khoản và thúc đẩy GDP. Khối XNK đạt hơn 1.000 tỷ USD là động lực tăng trưởng thực sự của nền kinh tế.",
+      "chuoi_truyen_dan": [
+       "Lãi suất LNH ở mức 0,6% → Chi phí huy động rẻ → Ngân hàng tung gói cho vay ưu đãi 7,9% → Hỗ trợ GDP"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Ngành Ngân hàng",
+        "chieu": "+",
+        "ly_do": "Duy trì thanh khoản dồi dào, đẩy mạnh tăng trưởng tín dụng cuối năm"
+       }
+      ],
+      "rui_ro": "Áp lực tỷ giá nếu xuất khẩu chậm lại trong các tháng tới.",
+      "do_tin_cay": 85
+     }
+    },
+    "phan_bien": {
+     "lac_quan": {
+      "phan_bac": "Phe Thận trọng quá lo lắng về NIM mỏng. Trong ngân hàng, việc thu hút được tệp khách hàng FDI/XNK giúp ngân hàng thu được nguồn thu lớn từ phí chuyển tiền quốc tế, kinh doanh ngoại hối và tiền gửi CASA không chi phí.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "than_trong": {
+      "phan_bac": "Phe Lạc quan chưa tính đến việc áp lực tỷ giá vẫn có thể bất ngờ tăng nếu giá hàng hóa toàn cầu biến động, làm gia tăng rủi ro cho các doanh nghiệp nhập khẩu sử dụng LC.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "vi_mo": {
+      "phan_bac": "Lãi suất LNH 0,6% hiện tại chính là dư địa để ngân hàng thương mại giảm lãi suất cho vay mà không làm suy giảm quá nghiêm trọng lợi nhuận ròng.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     }
+    },
     "nguon": [
+     {
+      "id": "wf7da4ab8a9f7",
+      "title": "SACOMBANK triển khai gói lãi suất cho vay 7,9%/năm",
+      "text": "",
+      "author": null,
+      "summary": "Hưởng ứng chỉ đạo của Chính phủ, Thủ tướng Chính phủ và Ngân hàng Nhà nước (NHNN) về giảm lãi suất cho vay, hỗ trợ sản xuất, kinh doanh và thúc đẩy tăng trưởng kinh tế 2 con số, ngay từ tháng 8/2026, SACOMBANK đã triển khai gói tín dụng với quy mô gần 100.000 tỷ đồng dành cho khách hàng doanh nghiệp hiện hữu, đang hoạt động trong lĩnh vực xuất nhập khẩu, doanh nghiệp có vốn nước ngoài…",
+      "url": "https://vneconomy.vn/sacombank-trien-khai-goi-lai-suat-cho-vay-79nam.htm",
+      "src_name": "VnEconomy — Tài chính",
+      "published": "2026-11-03T08:49+07:00"
+     },
+     {
+      "id": "w7ff5f2f992e0",
+      "title": "SACOMBANK tiếp tục tung gói lãi suất cho vay 7,9%/năm, góp sức cùng mục tiêu tăng trưởng GDP 2 con số",
+      "text": "",
+      "author": null,
+      "summary": "Tiếp nối chương trình tín dụng ưu đãi dành cho doanh nghiệp, SACOMBANK triển khai gói vay quy mô 10.000 tỷ đồng với lãi suất 7,9%/năm dành cho khách hàng mới hoạt động trong lĩnh vực xuất nhập khẩu và FDI.",
+      "url": "https://cafef.vn/sacombank-tiep-tuc-tung-goi-lai-suat-cho-vay-79-nam-gop-suc-cung-muc-tieu-tang-truong-gdp-2-con-so-188261103142159702.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-11-03T15:30+07:00"
+     },
      {
       "id": "w96c39bb5d4f9",
       "title": "Sacombank cho vay 7,9% một năm với nhóm xuất nhập khẩu, FDI",
+      "text": "",
+      "author": null,
       "summary": "Sacombank dành gói vay 10.000 tỷ cho khách hàng doanh nghiệp mới, hoạt động trong lĩnh vực xuất nhập khẩu và FDI, mức lãi suất 7,9% một năm.",
       "url": "https://vnexpress.net/sacombank-cho-vay-7-9-mot-nam-voi-nhom-xuat-nhap-khau-fdi-5140282.html",
       "src_name": "VnExpress — Kinh doanh",
       "published": "2026-11-03T16:00+07:00"
      }
     ]
+   },
+   {
+    "id": "t8",
+    "hang": 8,
+    "tieu_de": "Ủy ban Chứng khoán yêu cầu tăng cường an ninh mạng hệ thống giao dịch",
+    "loai": "chinh_sach",
+    "item_ids": [
+     "wdfc98361b1bd"
+    ],
+    "mot_dong": "UBCKNN chỉ đạo các công ty chứng khoán rà soát hạ tầng an ninh mạng và kiểm soát chặt giao dịch chuyển tiền bất thường.",
+    "ly_do_top": "Rủi ro an ninh hệ thống ảnh hưởng trực tiếp đến sự an toàn và tính liên tục trong giao dịch của nhà đầu tư.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 3,
+    "ma_lien_quan": [
+     "SSI",
+     "VND",
+     "VCI"
+    ],
+    "nganh": [
+     "Chứng khoán"
+    ],
+    "chuyen_gi": "Ủy ban Chứng khoán Nhà nước (UBCKNN) ngày 30/10/2026 đã ban hành văn bản chỉ đạo các công ty chứng khoán và công ty quản lý quỹ khẩn trương rà soát, tăng cường an ninh mạng. Cơ quan này yêu cầu các đơn vị thay đổi toàn bộ mật khẩu tài khoản quản trị, rà soát nhật ký truy cập (log), kiểm tra phần mềm diệt virus và vá các lỗ hổng hệ thống. Đáng chú ý, UBCKNN yêu cầu các CTCK có giải pháp giám sát, phát hiện và sẵn sàng tạm dừng giao dịch liên quan đến các lệnh chuyển tiền bất thường (giá trị lớn, tần suất cao, chuyển tiền ngoài giờ giao dịch) từ tài khoản khách hàng và doanh nghiệp để xác minh chính chủ.",
+    "so_lieu_chinh": [
+     "Ngày ban hành văn bản: 30/10/2026",
+     "Đối tượng: Toàn bộ công ty chứng khoán và công ty quản lý quỹ",
+     "Hành động trọng tâm: Rà soát an ninh mạng, kiểm soát chặt lệnh chuyển tiền bất thường"
+    ],
+    "boi_canh": "Gần đây xuất hiện các nguy cơ tấn công mạng nhắm vào hệ thống tài chính, ngân hàng và chứng khoán (nền). Hoạt động giao dịch trực tuyến ngày càng chiếm tỷ trọng tuyệt đối trên thị trường chứng khoán.",
+    "vi_sao_quan_trong": "Việc siết an ninh mạng giúp bảo vệ an toàn tài sản cho nhà đầu tư và ngăn chặn rủi ro hệ thống bị gián đoạn giao dịch. Tuy nhiên, việc rà soát kỹ các giao dịch chuyển tiền ngoài giờ có thể ảnh hưởng ngắn hạn đến tốc độ luân chuyển tiền margin/rút tiền của nhà đầu tư.",
+    "thuat_ngu": [
+     {
+      "tu": "Nhật ký truy cập (Log)",
+      "nghia": "Tệp ghi chép tự động toàn bộ lịch sử hoạt động, sự kiện và kết nối diễn ra trên hệ thống máy chủ."
+     },
+     {
+      "tu": "Tài khoản đặc quyền",
+      "nghia": "Các tài khoản quản trị có quyền truy cập sâu và thay đổi cấu hình quan trọng của hệ thống CNTT."
+     }
+    ],
+    "danh_gia": "trung_tinh",
+    "muc_do": "thap",
+    "vi_mo_to_vi_mo": "Quy định mang tính hành chính bảo vệ an toàn hệ thống thanh toán tài chính, không ảnh hưởng tới chu chuyển vốn vĩ mô.",
+    "vi_mo_vi_mo": "Các CTCK tăng cường lớp bảo mật, phòng ngừa rủi ro thất thoát tiền của NĐT, giúp thị trường chứng khoán vận hành lành mạnh.",
+    "nganh_ma": [
+     {
+      "ten": "Ngành Chứng khoán",
+      "chieu": "-",
+      "ly_do": "Gia tăng chi phí đầu tư CNTT và tuân thủ pháp lý ngắn hạn"
+     }
+    ],
+    "rui_ro": [
+     "Trải nghiệm rút/chuyển tiền của NĐT có thể bị chậm lại khi có cảnh báo hệ thống"
+    ],
+    "can_trong": "Nhà đầu tư chủ động kiểm tra lại mật khẩu tài khoản giao dịch chứng khoán và cập nhật phương thức xác thực OTP.",
+    "hanh_dong": "khong_hanh_dong",
+    "xac_minh": "da_xac_minh",
+    "dong_thuan": "Các phe nhất trí đây là tin tức mang tính quản trị nghiệp vụ (Trung tính), giúp gia tăng độ an toàn cho hệ thống lâu dài.",
+    "lien_he_he_thong": "Không tác động tới các tín hiệu kỹ thuật CANSLIM hay điểm bùng nổ của cổ phiếu.",
+    "kiem_chung_sau": "Không có sự cố gián đoạn hệ thống giao dịch nào xảy ra ở các CTCK lớn trong các tuần tiếp theo.",
+    "do_tin_cay": 90,
+    "phe": {
+     "lac_quan": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 1,
+      "lap_luan": "Đây là hành động quản lý rủi ro mang tính phòng ngừa cần thiết và tích cực từ cơ quan quản lý. Việc củng cố an toàn hạ tầng công nghệ giúp thị trường vận hành ổn định, củng cố niềm tin cho nhà đầu tư cá nhân lẫn tổ chức nước ngoài về lâu dài.",
+      "chuoi_truyen_dan": [
+       "Chỉ đạo tăng cường an ninh mạng → Hệ thống CTCK an toàn hơn → Bảo vệ tài sản NĐT → Thị trường vận hành minh bạch, bền vững"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Thị trường chung",
+        "chieu": "+",
+        "ly_do": "Nâng cao an toàn hệ thống giao dịch"
+       }
+      ],
+      "rui_ro": "Một số công ty chứng khoán nhỏ chịu áp lực chi phí nâng cấp hạ tầng CNTT.",
+      "do_tin_cay": 85
+     },
+     "than_trong": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Yêu cầu kiểm soát chặt và chủ động tạm dừng các giao dịch chuyển tiền giá trị lớn ngoài giờ hoặc có tần suất cao có thể gây tâm lý lo ngại bị tắc nghẽn dòng tiền. Khi CTCK áp dụng chính sách kiểm duyệt thủ công hoặc siết hạn mức chuyển tiền, thanh khoản giao dịch chứng khoán ngắn hạn vốn đang thấp (giảm 30% phiên 03/11) có thể tiếp tục bị ảnh hưởng.",
+      "chuoi_truyen_dan": [
+       "UBCKNN yêu cầu siết chuyển tiền bất thường → CTCK tăng cường kiểm duyệt/tạm dừng lệnh nghi vấn → Tốc độ luân chuyển dòng tiền chậm lại → Thanh khoản ngắn hạn chịu ép"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Ngành Chứng khoán",
+        "chieu": "-",
+        "ly_do": "Phát sinh chi phí tuân thủ và làm giảm độ linh hoạt dòng tiền của khách hàng"
+       }
+      ],
+      "rui_ro": "NĐT gặp khó khăn hoặc chậm trễ khi rút tiền/chuyển tiền trong giai đoạn rà soát.",
+      "do_tin_cay": 80
+     },
+     "vi_mo": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 1,
+      "lap_luan": "Tin tức quản lý này có tính chất kỹ thuật vận hành, không tác động trực tiếp đến các biến số vĩ mô như lãi suất, tỷ giá hay lạm phát. Dù vậy, an toàn hệ thống thanh toán liên ngân hàng và chứng khoán là điều kiện tiên quyết để duy trì thanh khoản hệ thống ổn định.",
+      "chuoi_truyen_dan": [
+       "Kiểm soát an ninh mạng → Duy trì ổn định hệ thống thanh toán → Tránh sốc thanh khoản kỹ thuật"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Hệ thống tài chính",
+        "chieu": "+",
+        "ly_do": "Giảm rủi ro phi tập trung về an ninh mạng"
+       }
+      ],
+      "rui_ro": "Sự cố kỹ thuật bất ngờ tại các công ty chứng khoán trong quá trình nâng cấp hệ thống.",
+      "do_tin_cay": 90
+     }
+    },
+    "phan_bien": {
+     "lac_quan": {
+      "phan_bac": "Phe Thận trọng quá nhạy cảm khi cho rằng việc kiểm soát chuyển tiền làm giảm thanh khoản. Việc dừng các lệnh chuyển tiền bất thường ngoài giờ chủ yếu đánh vào hành vi gian lận/hacker, không ảnh hưởng đến giao dịch nộp/rút tiền hợp lệ ban ngày.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "than_trong": {
+      "phan_bac": "Phe Lạc quan chưa lường trước chi phí vận hành CNTT gia tăng tại các CTCK nhỏ có thể ảnh hưởng tới biên lợi nhuận của họ.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "vi_mo": {
+      "phan_bac": "Sự đồng thuận ở mức Trung tính là hợp lý vì quy định này hoàn toàn là nghiệp vụ hành chính an toàn thông tin.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     }
+    },
+    "nguon": [
+     {
+      "id": "wdfc98361b1bd",
+      "title": "Ủy ban Chứng khoán yêu cầu công ty chứng khoán rà soát, tăng cường an ninh mạng",
+      "text": "",
+      "author": null,
+      "summary": "Trước tình hình tấn công mạng ảnh hưởng đến hệ thống tài chính, ngân hàng và một số công ty chứng khoán, Ủy ban Chứng khoán Nhà nước (UBCKNN) yêu cầu các thành viên thị trường khẩn trương rà soát an ninh mạng, tăng cường kiểm soát các giao dịch chuyển tiền bất thường.",
+      "url": "https://cafef.vn/uy-ban-chung-khoan-yeu-cau-cong-ty-chung-khoan-ra-soat-tang-cuong-an-ninh-mang-188261103222147325.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-03T22:21+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t9",
+    "hang": 9,
+    "tieu_de": "Ngân hàng MSB được chấp thuận tăng vốn lên tối đa 46.800 tỷ đồng",
+    "loai": "doanh_nghiep",
+    "item_ids": [
+     "w2b28e0e23e7e"
+    ],
+    "mot_dong": "MSB được NHNN đồng ý cho chào bán 936 triệu cổ phiếu ra công chúng để tăng vốn điều lệ đợt 2 trong năm.",
+    "ly_do_top": "Kế hoạch phát hành lượng lớn cổ phiếu làm thay đổi quy mô vốn hóa và nguồn lực tài chính của MSB.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 3,
+    "ma_lien_quan": [
+     "MSB"
+    ],
+    "nganh": [
+     "Ngân hàng"
+    ],
+    "chuyen_gi": "Ngân hàng TMCP Hàng hải Việt Nam (MSB) đã nhận được văn bản chấp thuận của Ngân hàng Nhà nước về việc tăng vốn điều lệ từ 37.440 tỷ đồng lên tối đa 46.800 tỷ đồng. MSB dự kiến phát hành 936 triệu cổ phiếu ra công chúng cho cổ đông hiện hữu theo tỷ lệ 100:25 với giá chào bán 10.000 đồng/cổ phiếu (tương ứng số tiền huy động 9.360 tỷ đồng). Thời gian thực hiện dự kiến trong quý 4/2026. Đây là đợt tăng vốn thứ hai trong năm 2026 của MSB. Kết thúc Q3/2026, MSB đạt tổng tài sản 440.000 tỷ đồng, dư nợ cho vay tăng 13,5% và LNST Q3 đạt 2.017 tỷ đồng (+27,1% yoy).",
+    "so_lieu_chinh": [
+     "Số cổ phiếu chào bán: 936 triệu cổ phiếu",
+     "Tỷ lệ thực hiện quyền: 100:25",
+     "Giá chào bán: 10.000 đồng/cổ phiếu",
+     "Vốn điều lệ sau phát hành: 46.800 tỷ đồng",
+     "LNST Q3/2026: 2.017 tỷ đồng (+27,1% yoy)"
+    ],
+    "boi_canh": "Các ngân hàng thương mại Việt Nam nỗ lực tăng vốn cấp 1 để nâng cao hệ số an toàn vốn (CAR) theo chuẩn Basel II/III (nền). Động thái diễn ra khi nhu cầu vốn tín dụng phục hồi mạnh mẽ trong quý cuối năm.",
+    "vi_sao_quan_trong": "Quy mô vốn điều lệ mới đưa MSB củng cố vị trí trong Top 10 ngân hàng niêm yết có vốn lớn nhất, giúp nới rào cản hạn mức tăng trưởng tín dụng. Tuy nhiên việc phát hành cho cổ đông hiện hữu thu tiền sẽ gây áp lực pha loãng và nộp tiền mua cổ phiếu.",
+    "thuat_ngu": [
+     {
+      "tu": "Tỷ lệ thực hiện quyền 100:25",
+      "nghia": "Cổ đông nắm giữ 100 cổ phiếu tại ngày chốt danh sách được quyền mua thêm 25 cổ phiếu mới."
+     },
+     {
+      "tu": "Vốn cấp 1",
+      "nghia": "Nguồn vốn cốt lõi của ngân hàng, bao gồm vốn điều lệ và các quỹ dự trữ, dùng để hấp thụ rủi ro."
+     }
+    ],
+    "danh_gia": "tot",
+    "muc_do": "vua",
+    "vi_mo_to_vi_mo": "NHNN chấp thuận tăng vốn giúp mở rộng room tín dụng cho ngân hàng, tạo kênh dẫn vốn hiệu quả hơn ra nền kinh tế.",
+    "vi_mo_vi_mo": "MSB tăng vốn giúp nâng năng lực cạnh tranh tài chính với các ngân hàng tầm trung khác, hỗ trợ cho vay khách hàng cá nhân và SME.",
+    "nganh_ma": [
+     {
+      "ten": "MSB",
+      "chieu": "+",
+      "ly_do": "NHNN duyệt tăng vốn đợt 2 lên 46.800 tỷ, LNST Q3 tăng 27,1%, thị giá tăng ~3%"
+     }
+    ],
+    "rui_ro": [
+     "Tâm lý ngại nộp tiền mua phát hành thêm của cổ đông cá nhân",
+     "Pha loãng chỉ số EPS ngắn hạn"
+    ],
+    "can_trong": "Theo dõi ngày chốt danh sách cổ đông thực hiện quyền mua và biến động giá MSB trước ngày GDKHQ.",
+    "hanh_dong": "theo_doi",
+    "xac_minh": "da_xac_minh",
+    "dong_thuan": "Phe Lạc quan nắm ưu thế nhờ số liệu thực tế LNST Q3 của MSB tăng 27,1% và phản ứng giá cổ phiếu tăng hơn 3% trong phiên.",
+    "lien_he_he_thong": "Soi tay biến động khối lượng của MSB gần ngày lăn chốt quyền mua.",
+    "kiem_chung_sau": "Tỷ lệ cổ đông đăng ký mua và nộp tiền thành công đợt phát hành Q4/2026 đạt tỷ lệ cao.",
+    "do_tin_cay": 85,
+    "phe": {
+     "lac_quan": {
+      "nhan_dinh": "tot",
+      "do_manh": 2,
+      "lap_luan": "Việc NHNN chấp thuận tăng vốn chứng tỏ năng lực tài chính và chất lượng hoạt động của MSB được đánh giá cao. Nguồn vốn bổ sung 9.360 tỷ đồng giúp ngân hàng tăng năng lực cho vay (dư nợ Q3 đã tăng 13,5%) và thúc đẩy lợi nhuận bứt phá. Lợi nhuận Q3 tăng 27,1% là nền tảng vững chắc hỗ trợ giá cổ phiếu.",
+      "chuoi_truyen_dan": [
+       "Tăng vốn lên 46.800 tỷ → Nâng cao hệ số CAR → Nới room tín dụng → Tăng trưởng dư nợ cho vay & lợi nhuận MSB"
+      ],
+      "anh_huong": [
+       {
+        "ten": "MSB",
+        "chieu": "+",
+        "ly_do": "Nâng cao năng lực tài chính, LNST Q3 tăng 27,1%, cổ phiếu phiên 3/11 tăng >3%"
+       }
+      ],
+      "rui_ro": "Cổ đông không nộp tiền mua hết số lượng cổ phiếu chào bán.",
+      "do_tin_cay": 80
+     },
+     "than_trong": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Phương án chào bán giá 10.000đ/cp theo tỷ lệ 100:25 yêu cầu cổ đông phải bỏ thêm tiền mặt trong bối cảnh thanh khoản thị trường chung đang sụt giảm 30%. Việc gia tăng 936 triệu cổ phiếu mới sẽ tạo áp lực pha loãng EPS của MSB trong năm 2027 nếu tốc độ tăng trưởng lợi nhuận không đuổi kịp tốc độ tăng vốn.",
+      "chuoi_truyen_dan": [
+       "Phát hành 936 triệu cp cho CĐHH → Cổ đông phải nộp thêm tiền → Áp lực pha loãng EPS ngắn hạn → Cổ phiếu chịu lực cung chốt lời trước ngày lăn chốt"
+      ],
+      "anh_huong": [
+       {
+        "ten": "MSB",
+        "chieu": "-",
+        "ly_do": "Rủi ro pha loãng EPS và áp lực nộp tiền mua cổ phiếu mới"
+       }
+      ],
+      "rui_ro": "Áp lực bán điều chỉnh trước ngày giao dịch không hưởng quyền.",
+      "do_tin_cay": 75
+     },
+     "vi_mo": {
+      "nhan_dinh": "tot",
+      "do_manh": 2,
+      "lap_luan": "Trong bối cảnh nền kinh tế cần nguồn vốn để phục hồi (tổng XNK vượt 1.000 tỷ USD), việc hệ thống ngân hàng thương mại tăng được vốn điều lệ là tín hiệu vĩ mô rất tích cực. Lãi suất LNH 0,6% duy trì thấp giúp chi phí vốn của MSB ổn định, tối ưu hóa hiệu quả sử dụng nguồn vốn mới huy động.",
+      "chuoi_truyen_dan": [
+       "MSB tăng vốn thành công → Tăng năng lực cung ứng tín dụng cho nền kinh tế → Hỗ trợ doanh nghiệp phát triển"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Ngành Ngân hàng",
+        "chieu": "+",
+        "ly_do": "Tăng cường sức mạnh tài chính toàn ngành"
+       }
+      ],
+      "rui_ro": "Tốc độ hấp thụ vốn của nền kinh tế chậm lại.",
+      "do_tin_cay": 85
+     }
+    },
+    "phan_bien": {
+     "lac_quan": {
+      "phan_bac": "Phe Thận trọng lo pha loãng nhưng thực tế MSB đã chứng minh hiệu quả kinh doanh qua kết quả LNST Q3 tăng 27,1%. Giá cổ phiếu MSB phiên 03/11 tăng tới trên 3% chứng tỏ dòng tiền đánh giá cao thông tin này.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "than_trong": {
+      "phan_bac": "Phe Lạc quan nên nhớ đợt phát hành này là nộp tiền thật (10.000đ/cp) chứ không phải chia cổ tức bằng cổ phiếu, dòng tiền cá nhân trên thị trường đang yếu sẽ rất đắn đo khi chôn vốn.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "vi_mo": {
+      "phan_bac": "Nâng cao đệm vốn CAR là bắt buộc để phát triển tín dụng an toàn, rủi ro pha loãng chỉ mang tính ngắn hạn.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     }
+    },
+    "nguon": [
+     {
+      "id": "w2b28e0e23e7e",
+      "title": "MSB được chấp thuận chào bán 936 triệu cổ phiếu, tăng vốn điều lệ lên tối đa 46.800 tỷ đồng",
+      "text": "",
+      "author": null,
+      "summary": "Ngày 28/10/2026, MSB đã được Ngân hàng Nhà nước chấp thuận cho tăng vốn điều lệ từ 37.440 tỷ đồng lên tối đa 46.800 tỷ đồng thông qua hình thức chào bán cổ phiếu ra công chúng cho cổ đông hiện hữu. Đây là đợt tăng vốn thứ hai của MSB trong năm.",
+      "url": "https://cafef.vn/msb-duoc-chap-thuan-chao-ban-936-trieu-co-phieu-tang-von-dieu-le-len-toi-da-46800-ty-dong-18826110309423805.chn",
+      "src_name": "CafeF — Doanh nghiệp",
+      "published": "2026-11-03T09:09+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t10",
+    "hang": 10,
+    "tieu_de": "FPT vận hành nhà máy kiểm thử và đóng gói chip bán dẫn",
+    "loai": "doanh_nghiep",
+    "item_ids": [
+     "w9d791000c693"
+    ],
+    "mot_dong": "FPT chính thức đưa nhà máy kiểm thử và đóng gói chip rộng 1.600 m2 tại Bắc Ninh vào hoạt động.",
+    "ly_do_top": "Bước tiến quan trọng nâng cao năng lực chuỗi giá trị bán dẫn của tập đoàn công nghệ hàng đầu Việt Nam.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 3,
+    "ma_lien_quan": [
+     "FPT"
+    ],
+    "nganh": [
+     "Công nghệ thông tin"
+    ],
+    "chuyen_gi": "Tập đoàn FPT chính thức đưa nhà máy Kiểm thử và Đóng gói chip bán dẫn (FPT Analysis Technologies) vào vận hành thử nghiệm tại Khu công nghiệp Yên Phong II-C, Bắc Ninh. Nhà máy có diện tích 1.600 m², trang bị 6 dây chuyền sản xuất với công suất thiết kế tối đa 300 triệu chip/năm. Nhà máy sử dụng hệ thống kiểm thử tự động ATE Tester kết hợp thiết bị Handler trong phòng sạch Class 10.000, đồng thời tích hợp các giải pháp AI tự động hóa chương trình kiểm thử. Sự kiện giúp hiện thực hóa định hướng quốc gia về làm chủ công nghệ lõi và đưa Việt Nam tiến sâu vào chuỗi cung ứng bán dẫn toàn cầu.",
+    "so_lieu_chinh": [
+     "Diện tích nhà máy: 1.600 m² tại Bắc Ninh",
+     "Số dây chuyền: 6 dây chuyền",
+     "Công suất thiết kế tối đa: 300 triệu chip/năm",
+     "Tiêu chuẩn phòng sạch: Class 10.000 (ISO Class 7)"
+    ],
+    "boi_canh": "Chính phủ đẩy mạnh Chiến lược quốc gia về phát triển công nghệ bán dẫn (Nghị quyết 57-NQ/TW, Quyết định 1018/QĐ-TTg) (nền). FPT là doanh nghiệp công nghệ tiên phong tại Việt Nam dịch chuyển từ thiết kế sang công đoạn đóng gói/kiểm thử chip.",
+    "vi_sao_quan_trong": "Bước đi này hoàn thiện một mắt xích quan trọng trong chuỗi giá trị chip bán dẫn của FPT, gia tăng giá trị gia tăng nội địa. Nó khẳng định năng lực công nghệ cao của FPT và mở ra triển vọng hợp tác với các tập đoàn toàn cầu.",
+    "thuat_ngu": [
+     {
+      "tu": "ATE Tester",
+      "nghia": "Thiết bị kiểm thử tự động dùng để đánh giá chức năng và thông số kỹ thuật của vi mạch bán dẫn."
+     },
+     {
+      "tu": "Phòng sạch Class 10.000",
+      "nghia": "Môi trường kiểm soát không quá 10.000 hạt bụi kích thước 0,5 micromet trên mỗi foot khối không khí."
+     }
+    ],
+    "danh_gia": "tot",
+    "muc_do": "vua",
+    "vi_mo_to_vi_mo": "Chính sách hỗ trợ ngành công nghệ cao của Chính phủ chuyển hóa thành dự án thực tế của doanh nghiệp, giúp nâng cao năng lực công nghiệp quốc gia.",
+    "vi_mo_vi_mo": "Nhà máy chip FPT đi vào hoạt động gia tăng nhu cầu thuê đất KCN công nghệ cao (tại Yên Phong II-C Bắc Ninh) và thúc đẩy các dịch vụ hỗ trợ kỹ thuật đi kèm.",
+    "nganh_ma": [
+     {
+      "ten": "FPT",
+      "chieu": "+",
+      "ly_do": "Khai trương nhà máy kiểm thử chip 300 triệu chip/năm, củng cố định giá dài hạn"
+     }
+    ],
+    "rui_ro": [
+     "Thời gian hòa vốn của nhà máy kéo dài",
+     "Biến động thương mại công nghệ toàn cầu"
+    ],
+    "can_trong": "Theo dõi tiến độ chuyển đổi từ chạy thử nghiệm sang sản xuất thương mại hàng loạt của nhà máy.",
+    "hanh_dong": "co_hoi",
+    "xac_minh": "da_xac_minh",
+    "dong_thuan": "Phe Lạc quan và Vĩ mô thuyết phục hơn về tầm quan trọng chiến lược nâng tầm định giá lâu dài cho FPT, dù Phe Thận trọng đúng về đóng góp LN ngắn hạn.",
+    "lien_he_he_thong": "Soi tay cổ phiếu FPT khi tích lũy quanh các đường trung bình động lớn MA50/MA200 để tìm điểm kích hoạt CANSLIM.",
+    "kiem_chung_sau": "FPT ký kết được các hợp đồng thương mại kiểm thử chip đầu tiên với các đối tác quốc tế trong Q1/2027.",
+    "do_tin_cay": 88,
+    "phe": {
+     "lac_quan": {
+      "nhan_dinh": "tot",
+      "do_manh": 3,
+      "lap_luan": "Sự kiện đưa nhà máy đóng gói và kiểm thử chip 300 triệu chip/năm vào vận hành là cột mốc chiến lược giúp FPT nâng tầm giá trị doanh nghiệp. FPT không chỉ bán phần mềm mà đã tự chủ mắt xích hạ nguồn quan trọng của ngành bán dẫn. Đây là động lực tăng trưởng định giá dài hạn cực mạnh cho cổ phiếu FPT.",
+      "chuoi_truyen_dan": [
+       "Vận hành nhà máy kiểm thử chip → Hoàn thiện chuỗi giá trị bán dẫn → Nhận đơn hàng quốc tế lớn → Tăng trưởng LN dài hạn & Nâng định giá FPT"
+      ],
+      "anh_huong": [
+       {
+        "ten": "FPT",
+        "chieu": "+",
+        "ly_do": "Khẳng định vị thế dẫn đầu công nghệ bán dẫn tại Việt Nam, mở rộng dư địa tăng trưởng"
+       }
+      ],
+      "rui_ro": "Giai đoạn thử nghiệm ban đầu cần thời gian để tối ưu hóa hiệu suất dây chuyền.",
+      "do_tin_cay": 85
+     },
+     "than_trong": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Mảng kiểm thử chip mới ở giai đoạn vận hành thử nghiệm (pilot) với diện tích 1.600 m2 khá khiêm tốn so với các đại gia bán dẫn quốc tế. Đóng góp về mặt doanh thu và lợi nhuận cho tập đoàn FPT trong ngắn hạn (quý 4/2026 - 2027) sẽ chưa đáng kể. Nhà đầu tư không nên kỳ vọng bùng nổ lợi nhuận ngay từ dự án này.",
+      "chuoi_truyen_dan": [
+       "Vận hành thử nghiệm quy mô 1.600m2 → Chi phí đầu tư ban đầu và khấu hao lớn → Chưa đóng góp LN đáng kể ngắn hạn → Cổ phiếu phản ứng trung tính"
+      ],
+      "anh_huong": [
+       {
+        "ten": "FPT",
+        "chieu": "trung_tinh",
+        "ly_do": "Tác động tâm lý tích cực nhưng hiệu quả tài chính ngắn hạn chưa cao"
+       }
+      ],
+      "rui_ro": "Chi phí khấu hao nhà máy ảnh hưởng ngắn hạn tới biên lợi nhuận mảng mới.",
+      "do_tin_cay": 80
+     },
+     "vi_mo": {
+      "nhan_dinh": "tot",
+      "do_manh": 3,
+      "lap_luan": "Việc doanh nghiệp Việt Nam đưa nhà máy kiểm thử chip vào hoạt động khớp hoàn hảo với định hướng chiến lược quốc gia theo Quyết định 1018/QĐ-TTg. Đây là bước tiến cụ thể giúp Việt Nam tham gia sâu hơn vào chuỗi giá trị bán dẫn toàn cầu, nâng cao thu hút vốn FDI công nghệ cao.",
+      "chuoi_truyen_dan": [
+       "FPT vận hành nhà máy chip → Thúc đẩy chuỗi giá trị công nghệ nội địa → Thu hút FDI ngành bán dẫn vào Việt Nam"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Ngành Công nghệ",
+        "chieu": "+",
+        "ly_do": "Tạo tiền đề phát triển hệ sinh thái bán dẫn Việt Nam"
+       }
+      ],
+      "rui_ro": "Sự cạnh tranh gay gắt từ các trung tâm kiểm thử chip ở Đông Nam Á như Malaysia, Singapore.",
+      "do_tin_cay": 90
+     }
+    },
+    "phan_bien": {
+     "lac_quan": {
+      "phan_bac": "Phe Thận trọng đúng về mặt con số ngắn hạn, nhưng giao dịch cổ phiếu công nghệ như FPT là giao dịch triển vọng tương lai. Việc đưa nhà máy vào chạy thực tế chứng minh năng lực thực thi đỉnh cao của FPT.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "than_trong": {
+      "phan_bac": "Phe Lạc quan cần phân biệt giữa tiềm năng tầm nhìn vĩ mô và thực tế báo cáo tài chính. Nhà đầu tư CANSLIM cần chờ đợi doanh thu từ mảng chip phản ánh vào kết quả kinh doanh.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "vi_mo": {
+      "phan_bac": "Đồng ý rằng lợi nhuận ngay lập tức chưa lớn nhưng đây là bước ngoặt về định vị thương hiệu quốc gia và định giá P/E cho FPT.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     }
+    },
+    "nguon": [
+     {
+      "id": "w9d791000c693",
+      "title": "Bên trong nhà máy Kiểm thử và Đóng gói chip bán dẫn FPT vừa đưa vào vận hành",
+      "text": "",
+      "author": null,
+      "summary": "Nhà máy Kiểm thử và Đóng gói chip bán dẫn FPT (FPT Analysis Technologies Joint Stock Company) có diện tích 1.600 m² đặt tại Khu công nghiệp Yên Phong II-C, tỉnh Bắc Ninh.",
+      "url": "https://cafef.vn/ben-trong-nha-may-kiem-thu-va-dong-goi-chip-ban-dan-fpt-vua-dua-vao-van-hanh-188261103103904204.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-03T10:38+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t11",
+    "hang": 11,
+    "tieu_de": "Dự thảo quy định cơ chế thử nghiệm sandbox trong chứng khoán",
+    "loai": "chinh_sach",
+    "item_ids": [
+     "wd9a78b232111"
+    ],
+    "mot_dong": "Đề xuất cơ chế thử nghiệm có kiểm soát (sandbox) được kỳ vọng thúc đẩy đổi mới công nghệ tài chính trên thị trường vốn.",
+    "ly_do_top": "Tạo khung pháp lý phát triển các dịch vụ tài chính mới nhưng đòi hỏi quy trình kiểm soát rủi ro nghiêm ngặt.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 2,
+    "ma_lien_quan": [],
+    "nganh": [
+     "Chứng khoán"
+    ],
+    "chuyen_gi": "Dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán đang đề xuất cơ chế thử nghiệm có kiểm soát (sandbox) nhằm tạo hành lang pháp lý cho các đổi mới công nghệ tài chính. Động thái này xuất phát từ việc thiếu khung pháp lý dẫn đến nhiều vụ lừa đảo tài chính lớn như vụ tiền ảo DRK chiếm đoạt 2.000 tỷ đồng hay sàn MTC thu hút hơn 10.000 tỷ đồng. Ngoài ra, Nghị quyết 05/2025/NQ-CP đã cho thí điểm thị trường tài sản mã hóa 5 năm và Luật Công nghiệp công nghệ số 2025 cũng đã công nhận tài sản số. Sau khi FTSE Russell nâng hạng Việt Nam lên thị trường mới nổi thứ cấp có hiệu lực từ ngày 21/09/2026, thị trường tài chính chịu áp lực lớn về việc nâng cao chất lượng vận hành. Các cơ chế mới như nhà tạo lập thị trường (market maker) và giao dịch tần suất cao (HFT) cũng được cân nhắc thử nghiệm.",
+    "so_lieu_chinh": [
+     "Vụ DRK: chiếm đoạt 2.000 tỷ đồng (1.880 BTC, 37.000 ETH, 2.7 triệu USDT)",
+     "Vụ MTC: nạp vào hệ thống hơn 10.000 tỷ đồng",
+     "Nghị quyết 05/2025/NQ-CP: thí điểm tài sản mã hóa 5 năm từ 09/09/2025",
+     "Nâng hạng FTSE Russell: hiệu lực 21/09/2026"
+    ],
+    "boi_canh": "Sandbox là khung pháp lý thử nghiệm cho phép các mô hình kinh doanh hoặc công nghệ mới hoạt động dưới sự giám sát giới hạn của cơ quan quản lý trước khi áp dụng đại trà (nền). Thị trường chứng khoán Việt Nam chuẩn bị đón dòng vốn ngoại sau nâng hạng nên nhu cầu đa dạng hóa sản phẩm tài chính hiện đại là cấp thiết.",
+    "vi_sao_quan_trong": "Quy định sandbox giúp thu hẹp khoảng trống pháp lý, vừa bảo vệ nhà đầu tư khỏi các sàn chui vừa mở đường cho các dòng sản phẩm mới như HFT hay Market Maker vào thị trường. Điều này tác động trực tiếp đến thanh khoản và doanh thu phí giao dịch/tự doanh của các công ty chứng khoán TOP đầu.",
+    "thuat_ngu": [
+     {
+      "tu": "Sandbox",
+      "nghia": "Cơ chế thử nghiệm có kiểm soát cho các công nghệ/mô hình tài chính mới trong phạm vi và thời gian giới hạn."
+     },
+     {
+      "tu": "Market Maker",
+      "nghia": "Nhà tạo lập thị trường, bên sẵn sàng mua/bán liên tục để cung cấp thanh khoản cho cổ phiếu."
+     },
+     {
+      "tu": "HFT",
+      "nghia": "Giao dịch tần suất cao, sử dụng thuật toán máy tính để thực hiện hàng ngàn lệnh trong thời gian ngắn."
+     }
+    ],
+    "danh_gia": "trung_tinh",
+    "muc_do": "vua",
+    "vi_mo_to_vi_mo": "Hoàn thiện khung pháp lý sandbox giúp thị trường tài chính nâng cao chuẩn mực vận hành, đáp ứng các tiêu chuẩn khắt khe của các quỹ đầu tư quốc tế post-nâng hạng FTSE. Tuy nhiên cơ chế này cần thời gian thử nghiệm, không làm hạ lãi suất chiết khấu hay bơm tiền ngay lập tức vào nền kinh tế.",
+    "vi_mo_vi_mo": "Nếu các công ty chứng khoán lớn như SSI hay VCI đi đầu trong việc thử nghiệm Market Maker hay hạ tầng HFT, họ sẽ gia tăng thị phần môi giới và thu hút dòng vốn giao dịch thuật toán từ các quỹ ngoại, tạo khoảng cách lớn với các CTCK nhỏ thiếu tiềm lực công nghệ.",
+    "nganh_ma": [
+     {
+      "ten": "SSI",
+      "chieu": "+",
+      "ly_do": "Hưởng lợi từ hạ tầng công nghệ và vị thế đầu ngành khi áp dụng cơ chế mới"
+     },
+     {
+      "ten": "VCI",
+      "chieu": "+",
+      "ly_do": "Năng lực phục vụ khách hàng tổ chức lớn"
+     }
+    ],
+    "rui_ro": [
+     "Tiến độ thông qua và ban hành hướng dẫn thi hành bị chậm trễ",
+     "Áp lực vĩ mô ngắn hạn (VN-Index giảm, Brent tăng) áp đảo tâm lý thị trường"
+    ],
+    "can_trong": "Theo dõi tiến độ thảo luận dự thảo Luật Chứng khoán tại Quốc hội; không mua đón đầu cổ phiếu chứng khoán chỉ dựa trên tin sandbox khi VN-Index đang trong nhịp điều chỉnh -3.53%.",
+    "hanh_dong": "theo_doi",
+    "xac_minh": "da_xac_minh",
+    "dong_thuan": "Phe Thận trọng và Chiến lược gia Vĩ mô thuyết phục hơn vì chính sách cần thời gian dài để đi vào thực tế, không thể đảo ngược xu hướng điều chỉnh ngắn hạn của thị trường.",
+    "lien_he_he_thong": "Kiểm tra danh mục nhóm chứng khoán (SSI, VCI) xem có vi phạm điểm thoát lệnh MA/van thời gian trong nhịp giảm chung của VN-Index hay không.",
+    "kiem_chung_sau": "T+5 quan sát thanh khoản nhóm chứng khoán và phản ứng giá tại các vùng hỗ trợ kỹ thuật.",
+    "do_tin_cay": 85,
+    "phe": {
+     "lac_quan": {
+      "nhan_dinh": "tot",
+      "do_manh": 2,
+      "lap_luan": "Khung pháp lý sandbox giúp chuẩn hóa các công cụ như Market Maker và HFT, kéo thanh khoản thị trường tăng vọt sau mốc nâng hạng FTSE vào tháng 9/2026. Các công ty chứng khoán có hạ tầng công nghệ mạnh sẽ tăng mạnh doanh thu mảng môi giới và tự doanh. Đây là bước ngoặt thể chế giúp thu hút dòng vốn tổ chức dài hạn.",
+      "chuoi_truyen_dan": [
+       "Khung sandbox ban hành → Triển khai HFT & Market Maker → Thanh khoản thị trường tăng → Doanh thu khối chứng khoán bứt phá"
+      ],
+      "anh_huong": [
+       {
+        "ten": "SSI",
+        "chieu": "+",
+        "ly_do": "Hạ tầng công nghệ dẫn đầu, hưởng lợi trực tiếp nếu triển khai Market Maker và HFT"
+       },
+       {
+        "ten": "VCI",
+        "chieu": "+",
+        "ly_do": "Mảnh tự doanh và khách hàng tổ chức lớn được hưởng lợi từ thanh khoản tăng"
+       }
+      ],
+      "rui_ro": "Tiến độ ban hành văn bản hướng dẫn bị kéo dài so với dự kiến.",
+      "do_tin_cay": 75
+     },
+     "than_trong": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Dự thảo mới dừng ở mức đề xuất khung, chưa phải luật chính thức được thông qua hay áp dụng ngay. Việc kiểm soát rủi ro cho nhà đầu tư cá nhân khi thử nghiệm HFT hay Market Maker là thách thức lớn, có thể khiến tiến độ cấp phép bị ngâm lâu. Hơn nữa thị trường đang chịu áp lực vĩ mô quốc tế xấu nên tin chính sách khó tạo sóng ngay lập tức.",
+      "chuoi_truyen_dan": [
+       "Đề xuất sandbox → Mất nhiều thời gian soạn thảo nghị định/thông tư → Chưa tác động ngay tới lợi nhuận DN chứng khoán"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Nhom chung khoan",
+        "chieu": "-",
+        "ly_do": "Kỳ vọng quá ngắn hạn dễ bị thất vọng khi chính sách cần thời gian dài để đi vào cuộc sống"
+       }
+      ],
+      "rui_ro": "Thị trường chung đang trong đà giảm (VN-Index -3.53% 5 phiên) khiến lực cầu không hưởng ứng tin tốt.",
+      "do_tin_cay": 80
+     },
+     "vi_mo": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 2,
+      "lap_luan": "Tin tức nâng cấp thể chế mang tính dài hạn cho chu kỳ 2026-2027. Tuy nhiên vĩ mô ngắn hạn đang chịu áp lực từ giá dầu Brent tăng cao (104.22 USD, +3.62%), DXY ở mức 101.73 và VN-Index điều chỉnh -3.38% trong 20 phiên. Cải thiện thể chế là điều kiện cần để hấp thụ vốn ngoại sau mốc FTSE 09/2026, nhưng không cứu được áp lực rút vốn ngắn hạn khi lãi suất US10Y tiệm cận 4.95%.",
+      "chuoi_truyen_dan": [
+       "Tỷ giá & lãi suất Mỹ cao → Dòng vốn ngoại rút ngắn hạn → Sandbox là bệ đỡ dài hạn cho thanh khoản post-2026"
+      ],
+      "anh_huong": [
+       {
+        "ten": "VNINDEX",
+        "chieu": "-",
+        "ly_do": "Áp lực vĩ mô ngắn hạn lấn áp tin tức chính sách dài hạn"
+       }
+      ],
+      "rui_ro": "US10Y tăng cao đe dọa thanh khoản toàn cầu.",
+      "do_tin_cay": 85
+     }
+    },
+    "phan_bien": {
+     "lac_quan": {
+      "phan_bac": "Phe Thận trọng nói đúng về độ trễ chính sách, nhưng thị trường chứng khoán luôn phản ánh trước kỳ vọng. Việc ghi nhận tài sản số và sandbox trong luật là bước ngoặt chưa từng có.",
+      "nhan_dinh_cuoi": "tot",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "than_trong": {
+      "phan_bac": "Phe Lạc quan đang quá đà khi gán HFT và Market Maker vào lợi nhuận ngay lập tức. Dữ liệu vĩ mô hiện tại với Brent > 104 USD sẽ ép thanh khoản ngắn hạn trước khi sandbox kịp có hiệu lực.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "vi_mo": {
+      "phan_bac": "Cả hai phe vi mô và thận trọng đều thống nhất rằng độ trễ chính sách sẽ không thể chống lại áp lực vĩ mô xấu hiện tại trong ngắn hạn.",
+      "nhan_dinh_cuoi": "trung_tinh",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     }
+    },
+    "nguon": [
+     {
+      "id": "wd9a78b232111",
+      "title": "Đưa “sandbox” vào chứng khoán",
+      "text": "",
+      "author": null,
+      "summary": "(ĐTCK) Đề xuất cơ chế thử nghiệm có kiểm soát (sandbox) tại dự thảo Luật sửa đổi, bổ sung một số điều của Luật Chứng khoán được kỳ vọng tạo không gian cho đổi mới sáng tạo. Tuy nhiên, yêu cầu đặt ra là phải kiểm soát rủi ro, bảo đảm quyền lợi và an toàn cho nhà đầu tư. Đề xuất cơ chế sandbox trong lĩnh vực chứng khoán Sandbox tài sản mã hóa mở đường cho du lịch số Đà Nẵng Hà Nội: Sandbox đất hiếm tạo lực đẩy cho công nghiệp bán dẫn",
+      "url": "https://www.tinnhanhchungkhoan.vn/dua-sandbox-vao-chung-khoan-post400587.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-11-04T06:42+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t12",
+    "hang": 12,
+    "tieu_de": "Ngân hàng Trung ương Úc nâng lãi suất lên đỉnh 18 năm",
+    "loai": "quoc_te",
+    "item_ids": [
+     "w618c78e06272"
+    ],
+    "mot_dong": "RBA có đợt tăng lãi suất thứ 5 trong năm để kiềm chế lạm phát đang vượt mức 4%.",
+    "ly_do_top": "Cho thấy xu hướng thắt chặt tiền tệ ở một số nền kinh tế phát triển vẫn chưa kết thúc hoàn toàn.",
+    "su_kien_hay_nhan_dinh": "su_kien",
+    "quan_trong": 2,
+    "ma_lien_quan": [],
+    "nganh": [],
+    "chuyen_gi": "Ngân hàng Trung ương Úc (RBA) đã quyết định nâng lãi suất tham chiếu thêm 25 điểm cơ bản lên 4.85% vào ngày 03/11/2026. Đây là lần tăng lãi suất thứ 5 trong năm 2026 của RBA, đưa lãi suất lên mức cao nhất kể từ tháng 11/2008 (đỉnh 18 năm). Quyết định này nhằm hạ nhiệt CPI tháng 9 tăng lên 4.3% (so với 4% tháng 8). Thống đốc Michelle Bullock cảnh báo lạm phát vẫn quá cao do giá dầu tăng từ xung đột Trung Đông và chi phí đầu tư AI tăng vọt, đồng thời khẳng định khó đưa lạm phát về mục tiêu 2-3% trước cuối năm 2027.",
+    "so_lieu_chinh": [
+     "Lãi suất tham chiếu Úc: tăng thêm 0.25% lên 4.85% (cao nhất từ 11/2008)",
+     "Số lần tăng lãi suất năm 2026: 5 lần",
+     "CPI tháng 9/2026 của Úc: 4.3% (tháng 8 là 4.0%)",
+     "Mục tiêu lạm phát 2-3%: dự kiến tới cuối 2027 mới đạt",
+     "GDP quý II/2026 Úc: tăng 2.1% (quý I tăng 2.5%)"
+    ],
+    "boi_canh": "RBA gia nhập nhóm các Ngân hàng Trung ương lớn (BOJ, ECB, Anh) tiếp tục siết chặt tiền tệ để chống lạm phát dính thắt (nền). Lạm phát toàn cầu bị kích hoạt trở lại do cú sốc giá năng lượng (dầu Brent hiện ở mức 104.22 USD/thùng).",
+    "vi_sao_quan_trong": "Động thái siết tiền tệ của Úc củng cố xu hướng 'lãi suất cao hơn trong thời gian dài hơn' (higher for longer) trên toàn cầu. Điều này duy trì áp lực lên lãi suất chiết khấu, thắt chặt thanh khoản toàn cầu và gây khó khăn cho dòng vốn đầu tư vào các thị trường mới nổi như Việt Nam.",
+    "thuat_ngu": [
+     {
+      "tu": "RBA",
+      "nghia": "Reserve Bank of Australia - Ngân hàng Trung ương Úc."
+     },
+     {
+      "tu": "Điểm cơ bản (bps)",
+      "nghia": "Đơn vị đo lường lãi suất, 1 bps = 0.01%, 25 bps = 0.25%."
+     }
+    ],
+    "danh_gia": "xau",
+    "muc_do": "vua",
+    "vi_mo_to_vi_mo": "Việc RBA tăng lãi suất do lạm phát (kích hoạt bởi giá dầu Brent > 104 USD) khẳng định môi trường lãi suất toàn cầu sẽ neo ở mức cao trong thời gian dài hơn. Chi phí vốn quốc tế tăng giữ US10Y ở mức 4.952%, gây áp lực trực tiếp lên tỷ giá USD/VND (25.761), làm triệt tiêu khả năng nới lỏng tiền tệ của NHNN và làm tăng chi phí margin/thanh khoản trên thị trường chứng khoán.",
+    "vi_mo_vi_mo": "Lãi suất ngoại tệ cao và lạm phát chi phí đẩy làm giảm biên lợi nhuận của các doanh nghiệp nhập khẩu nguyên liệu đầu vào, đồng thời ép định giá P/E chung của toàn thị trường giảm xuống để bù đắp cho mức lãi suất chiết khấu tăng.",
+    "nganh_ma": [
+     {
+      "ten": "VNINDEX",
+      "chieu": "-",
+      "ly_do": "Chịu áp lực chiết khấu định giá khi mặt bằng lãi suất toàn cầu neo cao"
+     }
+    ],
+    "rui_ro": [
+     "Giá dầu thế giới duy trì trên 100 USD kéo dài đợt sóng lạm phát thứ hai",
+     "Tỷ giá USD/VND vượt ngưỡng kiểm soát ép NHNN phải có biện pháp hút tiền mạnh hơn"
+    ],
+    "can_trong": "Thắt chặt quản trị rủi ro; tuân thủ nghiêm ngặt các quy tắc cắt lót/thoát lệnh theo hệ thống MA khi chỉ số VN-Index đã giảm -3.53% trong 5 phiên.",
+    "hanh_dong": "han_che_rui_ro",
+    "xac_minh": "da_xac_minh",
+    "dong_thuan": "Đồng thuận cao giữa các phe về tác động tiêu cực của việc lãi suất toàn cầu neo cao kết hợp giá dầu bùng nổ.",
+    "lien_he_he_thong": "Soi tay kỹ danh mục hiện tại: kiểm tra các mã chạm van thời gian hoặc thủng MA hỗ trợ để kích hoạt bộ thoát lệnh, tuyệt đối không bình quân giá xuống.",
+    "kiem_chung_sau": "T+1 đến T+5 theo dõi sát biến động của DXY, US10Y và giá dầu Brent để đánh giá áp lực lên tỷ giá trong nước.",
+    "do_tin_cay": 90,
+    "phe": {
+     "lac_quan": {
+      "nhan_dinh": "trung_tinh",
+      "do_manh": 1,
+      "lap_luan": "Việc RBA tăng lãi suất đã nằm trong dự báo của thị trường (khảo sát Reuters) nên không gây bất ngờ lớn. GDP Úc vẫn tăng trưởng dương 2.1% và Thống đốc phủ nhận kịch bản suy thoái, cho thấy sức cầu tiêu thụ ở Úc vẫn ổn định, ít tác động tiêu cực đến xuất khẩu hàng hóa Việt Nam sang Úc.",
+      "chuoi_truyen_dan": [
+       "RBA tăng đúng dự báo → Kinh tế Úc không suy thoái → Nhu cầu nhập khẩu hàng hóa duy trì ổn định"
+      ],
+      "anh_huong": [
+       {
+        "ten": "Nhom xuat khau",
+        "chieu": "+",
+        "ly_do": "Nhu cầu tiêu dùng tại Úc không sụp đổ đột ngột"
+       }
+      ],
+      "rui_ro": "Lạm phát Úc tiếp tục vượt kiểm soát ép RBA tăng lãi tiếp.",
+      "do_tin_cay": 70
+     },
+     "than_trong": {
+      "nhan_dinh": "xau",
+      "do_manh": 2,
+      "lap_luan": "Việc RBA nâng lãi suất lần thứ 5 và đẩy mốc kiểm soát lạm phát sang tận 2027 là minh chứng lạm phát toàn cầu rất dai dẳng. Chi phí vốn quốc tế neo cao làm suy giảm nhu cầu tiêu dùng và đầu tư. Các doanh nghiệp Việt Nam có nợ vay lớn hoặc định giá cao sẽ chịu áp lực hạ định giá do lãi suất chiết khấu không thể giảm.",
+      "chuoi_truyen_dan": [
+       "RBA siết tiền tệ → Chi phí vốn toàn cầu tăng → Lãi suất chiết khấu cổ phiếu tăng → Định giá định lại thấp hơn"
+      ],
+      "anh_huong": [
+       {
+        "ten": "VNINDEX",
+        "chieu": "-",
+        "ly_do": "Khẩu vị rủi ro rớt xuống khi các NHTW toàn cầu tiếp tục thắt chặt tiền tệ"
+       }
+      ],
+      "rui_ro": "Áp lực tăng lãi lan rộng sang các NHTW lớn khác làm gia tăng nguy cơ suy thoái.",
+      "do_tin_cay": 85
+     },
+     "vi_mo": {
+      "nhan_dinh": "xau",
+      "do_manh": 3,
+      "lap_luan": "Động thái của RBA phản ánh chính xác bối cảnh vĩ mô toàn cầu: Giá dầu Brent vọt lên 104.22 USD (+3.62%), US10Y neo rất cao ở 4.952%. Lạm phát từ chi phí đẩy (năng lượng) quay lại khiến chính sách tiền tệ toàn cầu bị kẹt trong thế thắt chặt. Tại Việt Nam, tỷ giá USD/VND đang ở mức cao 25.761 VND, hạn chế dư địa hạ lãi suất của NHNN. Đây là yếu tố tiêu cực trực tiếp lên thanh khoản thị trường cổ phiếu.",
+      "chuoi_truyen_dan": [
+       "Giá dầu tăng (Brent 104$) → Lạm phát toàn cầu dính thắt → NHTW (RBA...) tăng lãi suất → USD & US10Y neo cao → Tỷ giá USDVND 25,761 căng thẳng → NHNN không thể nới lỏng → Thanh khoản thị trường CK chịu áp lực"
+      ],
+      "anh_huong": [
+       {
+        "ten": "VND",
+        "chieu": "-",
+        "ly_do": "Áp lực tỷ giá duy trì cao làm thu hẹp dư địa chính sách tiền tệ trong nước"
+       }
+      ],
+      "rui_ro": "Giá dầu Brent tiếp tục bứt phá vượt 110 USD/thùng.",
+      "do_tin_cay": 90
+     }
+    },
+    "phan_bien": {
+     "lac_quan": {
+      "phan_bac": "Phe Vĩ mô phân tích rất chuẩn về chuỗi truyền dẫn giá dầu → lạm phát → lãi suất. Góc nhìn trung tính ngắn hạn của tôi cần điều chỉnh sang cẩn trọng hơn trước áp lực tỷ giá và US10Y 4.95%.",
+      "nhan_dinh_cuoi": "xau",
+      "doi_y": true,
+      "ly_do_doi_y": "Bị thuyết phục bởi lập luận về áp lực từ giá dầu Brent 104 USD và US10Y neo ở mức cực cao 4.952% cản trở dư địa chính sách tiền tệ."
+     },
+     "than_trong": {
+      "phan_bac": "Đồng tình hoàn toàn với Chiến lược gia Vĩ mô. Sự kiện RBA tăng lãi là một mảnh ghép khẳng định làn sóng thắt chặt tiền tệ đợt 2 trên toàn cầu đang diễn ra.",
+      "nhan_dinh_cuoi": "xau",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     },
+     "vi_mo": {
+      "phan_bac": "Không có phản bác, các bằng chứng định lượng từ Brent (104.22), US10Y (4.952%) và tỷ giá USD/VND (25.761) đều hỗ trợ cho nhận định tiêu cực.",
+      "nhan_dinh_cuoi": "xau",
+      "doi_y": false,
+      "ly_do_doi_y": ""
+     }
+    },
+    "nguon": [
+     {
+      "id": "w618c78e06272",
+      "title": "Australia tăng lãi suất lên cao nhất 18 năm",
+      "text": "",
+      "author": null,
+      "summary": "Để hạ nhiệt lạm phát hơn 4% hiện tại, Australia đã nâng lãi 5 lần năm nay, lên cao nhất kể từ 2008.",
+      "url": "https://vnexpress.net/australia-tang-lai-suat-len-cao-nhat-18-nam-5140080.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-11-03T11:41+07:00"
+     }
+    ]
    }
   ],
-  "loi": "AI không chạy được (AI không tìm thấy chủ đề đáng kể) — đang hiện bản tin thô xếp bằng code",
-  "so_lieu": {},
-  "so_tin_bo_qua": null,
-  "tin_tho": true
+  "loi": null,
+  "so_lieu": {
+   "lnh_qua_dem": null,
+   "lnh_1_tuan": null,
+   "omo_bom_rong_ty": null,
+   "tin_phieu_ty": null,
+   "ty_gia_trung_tam": null,
+   "khoi_ngoai_rong_ty": -496,
+   "ghi_chu": "Số liệu bán ròng khối ngoại 496 tỷ đồng tính trong phiên giao dịch 03/11/2026 trên toàn thị trường theo dữ liệu CafeF và Vietstock."
+  },
+  "so_tin_bo_qua": 93,
+  "so_bai_doc_duoc": 23,
+  "tong_ket_lo": [
+   null,
+   "Bản tin ghi nhận sự phân hóa tích cực từ nội tại doanh nghiệp: Nhóm Thép (HPG) bứt phá nhờ KQKD vượt trội và xuất khẩu Nhật; Sacombank (STB) và MSB thúc đẩy tín dụng/tăng vốn; FPT khẳng định vị thế công nghệ với nhà máy chip mới. Dù VN-Index chịu áp lực từ VIC, các cơ hội ngách theo câu chuyện riêng lẻ vẫn xuất hiện.",
+   "Hội đồng đánh giá thị trường đang đối mặt với thách thức vĩ mô ngắn hạn rõ rệt (giá dầu Brent >104 USD, US10Y >4.95%, thắt chặt tiền tệ toàn cầu từ RBA) lấn áp các tin tức hỗ trợ thể chế dài hạn như Sandbox. Hệ thống cần ưu tiên phòng thủ, quản trị rủi ro danh mục và tuân thủ tuyệt đối quy tắc thoát lệnh."
+  ],
+  "dem": {
+   "tot": 4,
+   "xau": 1,
+   "trung_tinh": 2
+  }
  },
  "zalo": {
   "items": [],
@@ -2252,16 +3416,43 @@
    "gemini-3.6-flash",
    "gemini-3.5-flash"
   ],
-  "so_luot": 1,
-  "token_vao": 18434,
-  "token_ra": 4045
+  "so_luot": 5,
+  "token_vao": 47400,
+  "token_ra": 33227
  },
- "trang_thai_chay": "chi_tin_tho",
+ "trang_thai_chay": "dat",
  "pb_ver": 1,
  "tong_hop": {
-  "loi": "bỏ qua tổng hợp vì cả hai tab không có chủ đề (tránh AI viết khi không có tin)"
+  "trang_thai": "trung_tinh",
+  "tieu_de": "Tỷ giá và giá dầu hạ nhiệt giúp giảm áp lực vĩ mô nhưng VN-Index vẫn điều chỉnh ngắn hạn",
+  "ba_dieu_can_biet": [
+   "Tỷ giá USD/VND giảm 0,88% xuống 25.761 VND/USD và lạm phát CPI 10 tháng dừng ở mức 4,57%. Điều này cho thấy áp lực tỷ giá và lạm phát trong nước đang hạ nhiệt, giúp Ngân hàng Nhà nước duy trì không gian chính sách tiền tệ nới lỏng mà chưa cần can thiệp thắt chặt.",
+   "Cổ phiếu ngành thép bứt phá ngược dòng đà giảm chung với HPG tăng 4,2% và đạt 32,4 triệu cổ phiếu thanh khoản. Sự đồng thuận tăng giá ở NKG, HSG cho thấy dòng tiền nội và ngoại đang tập trung vào nhóm có tin tức hỗ trợ sản lượng xuất khẩu và kết quả kinh doanh hồi phục.",
+   "Lãi suất liên ngân hàng kỳ hạn qua đêm duy trì ở mức thấp 0,6% trong khi VN-Index giảm -3,53% trong 5 phiên gần nhất về 1.699,62 điểm. Thanh khoản hệ thống ngân hàng dồi dào là điểm tựa vĩ mô, nhưng chỉ số giảm phản ánh sự điều chỉnh định giá ngắn hạn và tâm lý thận trọng của nhà đầu tư."
+  ],
+  "doi_chieu_web_zalo": [
+   "Tab Zalo không có thông tin mới. Tất cả các dữ liệu về tỷ giá, chỉ số VN-Index, biến động nhóm thép và động thái của NHNN đều được cập nhật minh bạch từ các nguồn báo chí chính thống trên tab Web."
+  ],
+  "viec_hom_nay": [
+   "Theo dõi lực bán hấp thụ vào phiên chiều T+2,5 của lượng hàng 32,4 triệu cổ phiếu HPG bùng nổ ngày 03/11.",
+   "Kiểm tra danh mục vi phạm quy tắc thoát lệnh theo MA khi chỉ số VN-Index đã đánh mất mốc 1.700 điểm."
+  ],
+  "canh_bao": "",
+  "bai_luyen_vi_mo": {
+   "tinh_huong": "Lãi suất liên ngân hàng (LNH) qua đêm tăng đột ngột từ 0,6%/năm lên 5,5%/năm trong 2 phiên liên tiếp do NHNN hút tiền qua kênh tín phiếu để ổn định tỷ giá USD/VND.",
+   "cau_hoi": "Anh Sơn cần phân tích chuỗi tác động vĩ mô này tới chi phí giao dịch cổ phiếu trên thị trường chứng khoán và hành động ứng xử đúng theo hệ thống là gì?",
+   "dap_an": "Lãi suất LNH tăng sốc phản ánh thanh khoản hệ thống ngân hàng bị thắt chặt ngắn hạn. Chi phí vốn đầu vào của các công ty chứng khoán tăng lên, buộc CTCK phải nâng lãi suất margin hoặc giảm hạn mức cho vay. Áp lực bán hạ tỷ trọng sẽ xuất hiện ở nhóm cổ phiếu đầu cơ. Nhà đầu tư không bán tháo hoảng loạn nhưng cần đưa cờ cảnh báo vĩ mô vào trạng thái theo dõi sát, tuyệt đối tuân thủ điểm cắt lót theo hệ thống kỹ thuật chứ không mua gia tăng vị thế.",
+   "chuoi_nhan_qua": [
+    "Tỷ giá tăng mạnh → NHNN phát hành tín phiếu hút VND về → Lãi suất LNH tăng sốc",
+    "Lãi suất LNH tăng → Chi phí vốn của CTCK tăng → CTCK thu hẹp hạn mức margin hoặc tăng lãi suất vay",
+    "Chi phí margin tăng + dòng tiền thắt chặt → Áp lực chốt lời/bán giải chấp ở nhóm cổ phiếu beta cao/đầu cơ",
+    "Giá cổ phiếu chịu áp lực ngắn hạn → Hệ thống kích hoạt các điểm quản trị rủi ro vi mô (chạm MA/điểm cắt lót)"
+   ],
+   "luat_lien_quan": "LNH_SOC_NGAN"
+  },
+  "_model": "gemini-3.6-flash"
  },
- "xong_luc": "2026-11-04T07:05+07:00",
- "chay_giay": 267,
+ "xong_luc": "2026-11-04T07:52+07:00",
+ "chay_giay": 369,
  "dung_han": true
 }

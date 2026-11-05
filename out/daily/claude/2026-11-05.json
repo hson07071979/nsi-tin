@@ -1,0 +1,115 @@
+{
+ "ngay": "2026-11-05",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Breadth hai nguồn lệch: 163 tăng/137 giảm (chính) và 168/139 (đếm đối chiếu). Giữ số chính.",
+  "Khớp lệnh 13.892 tỷ cao hơn TB20 11% nhưng THẤP hơn phiên trước (15.284 tỷ, ~−9%) → 'dòng tiền bắt đầu nhập cuộc' là diễn giải hơi mạnh.",
+  "'Khối ngoại bán ròng phiên thứ 5 liên tiếp' không có trong FACT → bỏ vế này.",
+  "Regime 'Bottoming process' chưa có tín hiệu xác nhận từ nhóm chứng khoán (DV tài chính chỉ +0,26%) → đổi 'Hồi kỹ thuật / dò đáy, chưa xác nhận'.",
+  "Ngân hàng không phải 'nhóm dẫn dắt': ngành +0,15%, VCB −1,04đ, VPB −0,52đ, BID −0,32đ kéo ngược → sửa nhận định.",
+  "'IPO / cơ cấu danh mục quỹ' trong signature và xoay vòng không có căn cứ trong FACT → thay bằng diễn biến ngành thực tế.",
+  "Giá vàng 4.000 USD/oz không có trong dữ liệu → bỏ câu. 'DXY giảm giúp tỷ giá hạ nhiệt' là tương quan → sửa thành nêu song song USD/VND −0,24%.",
+  "CTG: khoảng cách tới 29,3 là ~7,3% (không phải 5%) → rộng hơn chuẩn 7%. 'Thanh khoản khớp 559,8 tỷ' không có trong FACT → bỏ.",
+  "HPG/VIC/FPT không có số liệu mã trong brief: mốc theo dõi 21,01 / 235,6 / 50,4 không truy được căn cứ → bỏ khỏi lời thoại. Giá đóng cửa HPG 21,5, VIC 238,0, FPT 52,9 và kết quả đối chiếu dự báo HPG/VIC chưa kiểm chứng được, Sơn xem lại.",
+  "du_bao_moi trùng dự báo đang mở VNINDEX giữ 1.715,21 (đã qua 1 phiên) → bỏ để không ghi trùng sổ."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "regime.ten",
+   "gia_tri": "Hồi kỹ thuật / dò đáy, chưa xác nhận"
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "signature.co_phieu_noi_gi",
+   "gia_tri": "Phân hóa: bất động sản, du lịch, ô tô tăng; công nghệ và tài nguyên cơ bản giảm; điểm số dựa chủ yếu vào VIC."
+  },
+  {
+   "duong_dan": "dong_tien",
+   "gia_tri": "Khối ngoại bán ròng 237,6 tỷ đồng, bán nhiều VCB, VHM, VPB; mua ròng mạnh nhất VIX (452 tỷ) và CTG. Dòng tiền nội nghiêng về bất động sản, ngân hàng phân hóa."
+  },
+  {
+   "duong_dan": "xoay_vong",
+   "gia_tri": "Chưa đủ dữ liệu để kết luận xoay vòng từ một phiên. Bất động sản (+1,28%) và du lịch (+1,35%) mạnh, công nghệ thông tin (−1,71%) yếu nhất."
+  },
+  {
+   "duong_dan": "nganh[0].nhan_dinh",
+   "gia_tri": "Phân hóa: CTG, STB, MBB góp điểm dương nhưng VCB, VPB, BID kéo ngược; cả ngành chỉ +0,15%."
+  },
+  {
+   "duong_dan": "nganh[0].ma[0].diem_dung_cach_pct",
+   "gia_tri": 7.3
+  },
+  {
+   "duong_dan": "nganh[0].ma[0].rong_hon_chuan_7",
+   "gia_tri": true
+  },
+  {
+   "duong_dan": "nganh[0].ma[0].thung_thi",
+   "gia_tri": "Thủng 30,65 thì hỗ trợ kế tiếp 29,3 (rủi ro rộng hơn chuẩn)."
+  },
+  {
+   "duong_dan": "du_bao_moi",
+   "gia_tri": []
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "Đáng nói là DXY đang ở mức 101,39 điểm, giảm nhẹ, điều này giúp áp lực tỷ giá USD/VND hạ nhiệt.",
+   "thay": "DXY ở mức 101,39 điểm, giảm nhẹ; USD/VND cũng giảm 0,24%."
+  },
+  {
+   "tim": "nếu vượt 5,3% thì dòng vốn ngoại sẽ chịu áp lực lớn.",
+   "thay": "nếu vượt 5,3% thì đó là áp lực cần theo dõi với dòng vốn ngoại."
+  },
+  {
+   "tim": " Giá vàng thế giới vượt 4.000 USD/oz cũng là tín hiệu cho thấy khẩu vị rủi ro đang thay đổi.",
+   "thay": ""
+  },
+  {
+   "tim": "Dòng tiền nội đang tập trung vào nhóm tài chính và bất động sản.",
+   "thay": "Dòng tiền nội nghiêng về bất động sản, ngân hàng phân hóa."
+  },
+  {
+   "tim": "tăng 1,77% với thanh khoản khớp 559,8 tỷ đồng.",
+   "thay": "tăng 1,77% với khối lượng gấp hơn 2 lần trung bình."
+  },
+  {
+   "tim": "Mốc theo dõi là 30,65, nếu thủng thì cấu trúc gãy.",
+   "thay": "Mốc theo dõi là 30,65, nếu thủng thì hỗ trợ kế tiếp là 29,3."
+  },
+  {
+   "tim": "giảm 0,92%. Mốc theo dõi 21,01.",
+   "thay": "giảm 0,92%."
+  },
+  {
+   "tim": "đóng góp 6,4 điểm vào chỉ số. Mốc theo dõi 235,6.",
+   "thay": "đóng góp 6,4 điểm vào chỉ số."
+  },
+  {
+   "tim": "đóng cửa 52,9, mốc theo dõi 50,4.",
+   "thay": "đóng cửa 52,9."
+  }
+ ],
+ "slide": {
+  "regime": "Hồi kỹ thuật / dò đáy, chưa xác nhận",
+  "ma_dang_noi": [
+   "VIC",
+   "CTG",
+   "FPT"
+  ],
+  "ly_do": {
+   "VIC": "Một mình góp 6,4 trong 7,7 điểm tăng của chỉ số.",
+   "CTG": "Ngân hàng khỏe nhất phiên, khối lượng gấp 2,4 lần, khối ngoại mua ròng 101 tỷ.",
+   "FPT": "Kéo chỉ số giảm, ngành công nghệ yếu nhất phiên (−1,71%)."
+  },
+  "tieu_de_ma": {
+   "VIC": "gánh gần hết điểm tăng",
+   "CTG": "vượt MA50, áp sát kháng cự 32,6",
+   "FPT": "công nghệ yếu nhất phiên"
+  }
+ }
+}

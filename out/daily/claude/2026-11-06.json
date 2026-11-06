@@ -1,0 +1,175 @@
+{
+ "ngay": "2026-11-06",
+ "ban_goc": "cach_1_luot",
+ "nguoi_kiem": "Claude",
+ "kiem_tra": [
+  "Signature ghi khớp lệnh 1.523 tỷ — sai một chữ số, đúng là 15.152 tỷ.",
+  "Lời thoại nói 'bỏ Vin ra thì thị trường đi ngang' — sai: phần còn lại −7,86 điểm, breadth 99/206. phan_tich cũng ghi 'độ rộng không đồng thuận' — thực tế đồng thuận chiều giảm.",
+  "BỎ (không có căn cứ trong FACT): ngưỡng 'thấp 20 phiên' của DXY 101,51, US10Y 4,837, Brent 94,62, VIX 14,84; SL FPT 46,8 → null.",
+  "diem_dung_cach_pct của 10/11 mã lệch so với giá − SL → tính lại từ FACT.",
+  "Dầu khí: bản Gemini nói 'giá dầu giảm' nhưng Brent +0,34% → sửa.",
+  "Chứng khoán 'bùng nổ' quá tay: ngành +0,43%, SSI 0,00% (KL×1,57) → sửa giọng.",
+  "TNG ghi 'quanh MA20, MA200' nhưng giá dưới cả hai, đang dưới đáy vùng test 18,23 → sửa.",
+  "Đáng chú ý cho Sơn, bản Gemini BỎ SÓT: phiên Mỹ đêm qua S&P −4,36%, Nasdaq −5,52%, Dow −3,44%, VIX +69,66%; Nikkei −5,96% hôm nay. Không viết lại văn, anh cân nhắc thêm vào phần Thế giới.",
+  "Sổ dự báo: thấp nhất phiên 1.713,46 đã xuyên mốc 1.715,21 trong phiên (đóng cửa vẫn trên). Đề xuất dự báo mới trùng lần thứ 3 dòng 1.715,21 → bỏ du_bao_moi. Ba dòng 'ĐÚNG' (1.695,95; HPG 20,4; VIC 227,8) không có trong sổ đang mở của brief, chưa đối chiếu được.",
+  "Breadth hai nguồn lệch: 99/206 (chính) và 101/212 (đếm đối chiếu). Giữ số chính.",
+  "Tự doanh chỉ có tới phiên 05/11.",
+  "Bỏ 'Đèn NSI không đọc được' khỏi phan_tich; lời thoại 'SL', 'mục tiêu' đổi thành hỗ trợ/kháng cự kế tiếp; 'bảo vệ tài khoản' bỏ.",
+  "Mốc kỹ thuật VN-Index và 11 mã khác đều truy được về biên vùng test/HT/KC trong FACT."
+ ],
+ "sua_phan_tich": [
+  {
+   "duong_dan": "signature.dong_tien_noi_gi",
+   "gia_tri": "Khối ngoại mua ròng 367,3 tỷ đồng, khớp lệnh đạt 15.152 tỷ đồng (gấp 1,2 lần trung bình 20 phiên)."
+  },
+  {
+   "duong_dan": "suc_khoe_vn",
+   "gia_tri": "VN-Index giảm 15,37 điểm (-0,88%), đóng cửa tại 1.725,36 điểm. Độ rộng nghiêng hẳn về bên giảm với 99 mã tăng, 206 mã giảm, 55 mã đứng, 2 trần và 6 sàn. Độ rộng đồng thuận với chiều giảm của chỉ số: áp lực không chỉ nằm ở nhóm Vin."
+  },
+  {
+   "duong_dan": "the_gioi[0].nguong",
+   "gia_tri": "Cao 20 phiên 102,58"
+  },
+  {
+   "duong_dan": "the_gioi[1].nguong",
+   "gia_tri": "Cao 20 phiên 5,244%"
+  },
+  {
+   "duong_dan": "the_gioi[2].nguong",
+   "gia_tri": "Cao 20 phiên 117,64"
+  },
+  {
+   "duong_dan": "the_gioi[3].nguong",
+   "gia_tri": "Cao nhất 20 phiên (28,18), tăng 69,66% trong đêm"
+  },
+  {
+   "duong_dan": "regime.so_voi_den_nsi",
+   "gia_tri": ""
+  },
+  {
+   "duong_dan": "nganh[1].nhol_dinh",
+   "gia_tri": "Thước đo độ nhạy: Dịch vụ tài chính là ngành duy nhất tăng (+0,43%), SSI đứng giá với khối lượng gấp 1,57 lần bình quân."
+  },
+  {
+   "duong_dan": "nganh[6].nhol_dinh",
+   "gia_tri": "Ngành giảm 1,01%, BSR dưới cả MA20, MA50 và MA200; Brent hôm nay tăng nhẹ +0,34% nên chưa thấy kênh truyền dẫn từ giá dầu."
+  },
+  {
+   "duong_dan": "nganh[10].ma[0].cau_truc",
+   "gia_tri": "Dưới MA20 và MA200, trên MA50"
+  },
+  {
+   "duong_dan": "nganh[10].ma[0].xac_niên",
+   "gia_tri": "Lấy lại 18,23"
+  },
+  {
+   "duong_dan": "nganh[11].ma[0].sl",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[11].ma[0].diem_dung_cach_pct",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "nganh[11].ma[0].rong_hon_chuan_7",
+   "gia_tri": null
+  },
+  {
+   "duong_dan": "du_bao_moi",
+   "gia_tri": []
+  },
+  {
+   "duong_dan": "nganh[0].ma[0].diem_dung_cach_pct",
+   "gia_tri": 5.1
+  },
+  {
+   "duong_dan": "nganh[1].ma[0].diem_dung_cach_pct",
+   "gia_tri": 3.7
+  },
+  {
+   "duong_dan": "nganh[2].ma[0].diem_dung_cach_pct",
+   "gia_tri": 6.6
+  },
+  {
+   "duong_dan": "nganh[3].ma[0].diem_dung_cach_pct",
+   "gia_tri": 4.0
+  },
+  {
+   "duong_dan": "nganh[4].ma[0].diem_dung_cach_pct",
+   "gia_tri": 4.8
+  },
+  {
+   "duong_dan": "nganh[5].ma[0].diem_dung_cach_pct",
+   "gia_tri": 6.1
+  },
+  {
+   "duong_dan": "nganh[6].ma[0].diem_dung_cach_pct",
+   "gia_tri": 5.4
+  },
+  {
+   "duong_dan": "nganh[7].ma[0].diem_dung_cach_pct",
+   "gia_tri": 4.7
+  },
+  {
+   "duong_dan": "nganh[8].ma[0].diem_dung_cach_pct",
+   "gia_tri": 4.2
+  },
+  {
+   "duong_dan": "nganh[9].ma[0].diem_dung_cach_pct",
+   "gia_tri": 4.8
+  },
+  {
+   "duong_dan": "nganh[10].ma[0].diem_dung_cach_pct",
+   "gia_tri": 3.5
+  }
+ ],
+ "sua_loi_thoai": [
+  {
+   "tim": "các mốc này đã bảo vệ tài khoản anh chị an toàn",
+   "thay": "các mốc này đã giữ được"
+  },
+  {
+   "tim": "Tức là nếu bỏ nhóm Vin ra, thị trường hôm nay đi ngang chứ không hề rơi sâu.",
+   "thay": "Tức là bỏ nhóm Vin ra, phần còn lại vẫn giảm gần 8 điểm, độ rộng 99 tăng 206 giảm, áp lực không chỉ nằm ở Vin."
+  },
+  {
+   "tim": "thủng thì SL quanh 30,23",
+   "thay": "thủng thì hỗ trợ kế tiếp quanh 30,23"
+  },
+  {
+   "tim": "Nhóm chứng khoán bùng nổ, SSI giao dịch quanh 20,38, mục tiêu hướng tới 21,0.",
+   "thay": "Chứng khoán là nhóm duy nhất giữ sắc xanh, SSI đứng giá ở 20,4 với khối lượng gấp rưỡi bình quân, kháng cự kế tiếp quanh 21."
+  },
+  {
+   "tim": "Công nghệ chịu áp lực lớn với FPT lùi về 50,4.",
+   "thay": "Công nghệ chịu áp lực lớn, FPT giảm gần 4% về 50,8, sát hỗ trợ 50,4."
+  },
+  {
+   "tim": "Mã nổi bật hôm nay là VND với thanh khoản lớn và dòng tiền ngoại mua ròng gần 100 tỷ. VIX cũng thu hút dòng tiền mạnh với khối ngoại gom đột biến.",
+   "thay": "Mã nổi bật hôm nay là VND với khối ngoại mua ròng gần 100 tỷ. Cổ phiếu chứng khoán VIX cũng được khối ngoại mua ròng hơn 90 tỷ."
+  },
+  {
+   "tim": "FPT bị xả mạnh",
+   "thay": "FPT bị khối ngoại bán ròng hơn 150 tỷ"
+  }
+ ],
+ "slide": {
+  "cau_hoi": "VN-Index mất 15 điểm: chỉ do Vin hay cả thị trường?",
+  "regime": "Phân hóa / xoay vòng",
+  "ma_dang_noi": [
+   "VIC",
+   "FPT",
+   "SSI"
+  ],
+  "ly_do": {
+   "VIC": "Một mình lấy đi 5,6 điểm của chỉ số, giá về sát vùng hỗ trợ 227,8–232.",
+   "FPT": "Giảm gần 4% với khối ngoại bán ròng hơn 150 tỷ, sát hỗ trợ 50,4 và dưới cả bốn đường MA.",
+   "SSI": "Thước đo nhóm chứng khoán: đứng giá với khối lượng gấp 1,57 lần, đang thử biên dưới vùng 20,38."
+  },
+  "tieu_de_ma": {
+   "VIC": "kéo chỉ số, sát hỗ trợ",
+   "FPT": "khối ngoại xả, sát 50,4",
+   "SSI": "KL tăng, thử 20,38"
+  }
+ }
+}

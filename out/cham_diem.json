@@ -1,33 +1,33 @@
 {
- "cap_nhat": "2026-11-05T22:15+07:00",
+ "cap_nhat": "2026-11-06T07:09+07:00",
  "tong_ket": {
   "phe_lac_quan": {
-   "n": 454,
-   "ty_le_dung": 46.0
+   "n": 481,
+   "ty_le_dung": 47.6
   },
   "phe_than_trong": {
-   "n": 321,
-   "ty_le_dung": 56.4
+   "n": 333,
+   "ty_le_dung": 56.5
   },
   "phe_vi_mo": {
-   "n": 377,
-   "ty_le_dung": 51.2
+   "n": 389,
+   "ty_le_dung": 52.2
   },
   "tab_web": {
-   "n": 525,
-   "ty_le_dung": 50.1
+   "n": 554,
+   "ty_le_dung": 51.3
   },
   "tab_zalo": {
    "n": 75,
    "ty_le_dung": 50.7
   },
   "trong_tai": {
-   "n": 600,
-   "ty_le_dung": 50.2
+   "n": 629,
+   "ty_le_dung": 51.2
   },
   "xac_minh_da_xac_minh": {
-   "n": 563,
-   "ty_le_dung": 50.3
+   "n": 592,
+   "ty_le_dung": 51.4
   },
   "xac_minh_mot_nguon": {
    "n": 10,
@@ -39,499 +39,6 @@
   }
  },
  "chi_tiet": [
-  {
-   "ngay": "2026-10-14",
-   "tab": "zalo",
-   "chu_de": "Techcombank được chấp thuận tăng vốn lớn nhất hệ thống",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "TCB",
-   "du_bao": 1,
-   "vuot_t0": 1.0,
-   "vuot_t4": 4.63,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-14",
-   "tab": "zalo",
-   "chu_de": "FPT tiệm cận điểm mua kỹ thuật nhưng rủi ro Index",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "FPT",
-   "du_bao": 1,
-   "vuot_t0": 2.27,
-   "vuot_t4": 3.55,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-15",
-   "tab": "web",
-   "chu_de": "VN-Index thủng mốc 1.700 điểm, khối ngoại bán ròng kỷ lục",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VIC",
-   "du_bao": -1,
-   "vuot_t0": 0.2,
-   "vuot_t4": 0.4,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-15",
-   "tab": "web",
-   "chu_de": "VN-Index thủng mốc 1.700 điểm, khối ngoại bán ròng kỷ lục",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VHM",
-   "du_bao": -1,
-   "vuot_t0": -3.06,
-   "vuot_t4": -0.67,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-15",
-   "tab": "web",
-   "chu_de": "VN-Index thủng mốc 1.700 điểm, khối ngoại bán ròng kỷ lục",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": 3.22,
-   "vuot_t4": 1.38,
-   "dung": true,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-15",
-   "tab": "web",
-   "chu_de": "Doanh nghiệp lớn liên tục cập nhật kết quả kinh doanh quý 3 khả quan",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "HHV",
-   "du_bao": 1,
-   "vuot_t0": 5.69,
-   "vuot_t4": 5.98,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-15",
-   "tab": "web",
-   "chu_de": "Doanh nghiệp lớn liên tục cập nhật kết quả kinh doanh quý 3 khả quan",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "GAS",
-   "du_bao": 1,
-   "vuot_t0": -2.67,
-   "vuot_t4": -4.02,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-15",
-   "tab": "web",
-   "chu_de": "HDBank tung gói tín dụng 2.000 tỷ đồng ưu đãi cho doanh nghiệp nữ làm chủ",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "HDB",
-   "du_bao": 1,
-   "vuot_t0": -1.34,
-   "vuot_t4": -6.72,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "VN-Index thủng 1.700 điểm, thanh khoản tăng 32% nhờ dòng tiền bắt đáy",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "SSI",
-   "du_bao": 1,
-   "vuot_t0": 0.59,
-   "vuot_t4": 1.01,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "VN-Index thủng 1.700 điểm, thanh khoản tăng 32% nhờ dòng tiền bắt đáy",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": -0.7,
-   "vuot_t4": -3.67,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "VN-Index thủng 1.700 điểm, thanh khoản tăng 32% nhờ dòng tiền bắt đáy",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VIC",
-   "du_bao": -1,
-   "vuot_t0": -1.82,
-   "vuot_t4": 3.17,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Khối ngoại xả hàng hơn 710 tỷ đồng, VPB đi ngược dòng được gom",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "VPB",
-   "du_bao": 1,
-   "vuot_t0": -0.24,
-   "vuot_t4": -5.71,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Khối ngoại xả hàng hơn 710 tỷ đồng, VPB đi ngược dòng được gom",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": -0.7,
-   "vuot_t4": -3.67,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Khối ngoại xả hàng hơn 710 tỷ đồng, VPB đi ngược dòng được gom",
-   "xac_minh": "da_xac_minh",
-   "loai": "thi_truong",
-   "doi_tuong": "STB",
-   "du_bao": -1,
-   "vuot_t0": -0.45,
-   "vuot_t4": -1.6,
-   "dung": true,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Lạm phát Mỹ tháng 9 nóng hơn dự báo, Fed chịu áp lực duy trì lãi suất cao",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "GAS",
-   "du_bao": 1,
-   "vuot_t0": -0.58,
-   "vuot_t4": -1.17,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": true,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Lạm phát Mỹ tháng 9 nóng hơn dự báo, Fed chịu áp lực duy trì lãi suất cao",
-   "xac_minh": "da_xac_minh",
-   "loai": "quoc_te",
-   "doi_tuong": "VND",
-   "du_bao": -1,
-   "vuot_t0": -0.45,
-   "vuot_t4": 0.11,
-   "dung": false,
-   "phe": {
-    "lac_quan": null,
-    "than_trong": false,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Ngân hàng Việt đua tăng vốn điều lệ lên mốc 100.000 tỷ đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "MBB",
-   "du_bao": 1,
-   "vuot_t0": -0.7,
-   "vuot_t4": -3.67,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Ngân hàng Việt đua tăng vốn điều lệ lên mốc 100.000 tỷ đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "TCB",
-   "du_bao": 1,
-   "vuot_t0": 0.47,
-   "vuot_t4": 0.14,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Ngân hàng Việt đua tăng vốn điều lệ lên mốc 100.000 tỷ đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "VPB",
-   "du_bao": 1,
-   "vuot_t0": -0.24,
-   "vuot_t4": -5.71,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "SHB ước lãi 14.300 tỷ 9 tháng, trái phiếu USD đạt xếp hạng AA từ S&P",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "SHB",
-   "du_bao": 1,
-   "vuot_t0": 1.96,
-   "vuot_t4": 0.18,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Cổ phiếu chứng khoán ngược dòng tăng mạnh, hé lộ kết quả kinh doanh quý 3",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "CTS",
-   "du_bao": 1,
-   "vuot_t0": 2.73,
-   "vuot_t4": 2.2,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Cổ phiếu chứng khoán ngược dòng tăng mạnh, hé lộ kết quả kinh doanh quý 3",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "MBS",
-   "du_bao": 1,
-   "vuot_t0": -1.1,
-   "vuot_t4": -1.04,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": true,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Cổ phiếu chứng khoán ngược dòng tăng mạnh, hé lộ kết quả kinh doanh quý 3",
-   "xac_minh": "da_xac_minh",
-   "loai": "nganh",
-   "doi_tuong": "SSI",
-   "du_bao": -1,
-   "vuot_t0": 0.59,
-   "vuot_t4": 1.01,
-   "dung": false,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": false,
-    "vi_mo": null
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Vinhomes hợp tác xây 5 tuyến Metro Hà Nội gần 900.000 tỷ đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VHM",
-   "du_bao": 1,
-   "vuot_t0": 3.12,
-   "vuot_t4": 4.99,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Vinhomes hợp tác xây 5 tuyến Metro Hà Nội gần 900.000 tỷ đồng",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "VIC",
-   "du_bao": 1,
-   "vuot_t0": -1.82,
-   "vuot_t4": 3.17,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Đề xuất bỏ thuế xuất khẩu phân bón giúp doanh nghiệp tiết kiệm trăm tỷ",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "DCM",
-   "du_bao": 1,
-   "vuot_t0": -0.45,
-   "vuot_t4": 0.32,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Đề xuất bỏ thuế xuất khẩu phân bón giúp doanh nghiệp tiết kiệm trăm tỷ",
-   "xac_minh": "da_xac_minh",
-   "loai": "chinh_sach",
-   "doi_tuong": "DPM",
-   "du_bao": 1,
-   "vuot_t0": -0.45,
-   "vuot_t4": -0.6,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "Digiworld đạt doanh thu kỷ lục 10.757 tỷ đồng trong quý 3",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "DGW",
-   "du_bao": 1,
-   "vuot_t0": -1.67,
-   "vuot_t4": -2.22,
-   "dung": false,
-   "phe": {
-    "lac_quan": false,
-    "than_trong": null,
-    "vi_mo": false
-   }
-  },
-  {
-   "ngay": "2026-10-16",
-   "tab": "web",
-   "chu_de": "EVF công bố danh sách nhà đầu tư tham gia đợt phát hành riêng lẻ",
-   "xac_minh": "da_xac_minh",
-   "loai": "doanh_nghiep",
-   "doi_tuong": "EVF",
-   "du_bao": 1,
-   "vuot_t0": -0.01,
-   "vuot_t4": 0.23,
-   "dung": true,
-   "phe": {
-    "lac_quan": true,
-    "than_trong": null,
-    "vi_mo": true
-   }
-  },
   {
    "ngay": "2026-10-16",
    "tab": "web",
@@ -5122,6 +4629,499 @@
     "lac_quan": null,
     "than_trong": false,
     "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "VN-Index chịu áp lực bán mạnh, khối ngoại và tự doanh xả hơn 800 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -0.15,
+   "vuot_t4": 2.26,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "VN-Index chịu áp lực bán mạnh, khối ngoại và tự doanh xả hơn 800 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "PVT",
+   "du_bao": -1,
+   "vuot_t0": 0.56,
+   "vuot_t4": -2.44,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "VN-Index chịu áp lực bán mạnh, khối ngoại và tự doanh xả hơn 800 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "thi_truong",
+   "doi_tuong": "FPT",
+   "du_bao": -1,
+   "vuot_t0": 0.8,
+   "vuot_t4": 1.23,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Fed giữ nguyên lãi suất 3,75–4%, để ngỏ khả năng tăng tháng 12",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "VCB",
+   "du_bao": 1,
+   "vuot_t0": -0.78,
+   "vuot_t4": -4.4,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Fed giữ nguyên lãi suất 3,75–4%, để ngỏ khả năng tăng tháng 12",
+   "xac_minh": "da_xac_minh",
+   "loai": "quoc_te",
+   "doi_tuong": "MSN",
+   "du_bao": -1,
+   "vuot_t0": -2.12,
+   "vuot_t4": 0.15,
+   "dung": false,
+   "phe": {
+    "lac_quan": null,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Kim ngạch xuất nhập khẩu Việt Nam lần đầu vượt mốc 1.000 tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "GMD",
+   "du_bao": 1,
+   "vuot_t0": 1.95,
+   "vuot_t4": 1.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Kim ngạch xuất nhập khẩu Việt Nam lần đầu vượt mốc 1.000 tỷ USD",
+   "xac_minh": "da_xac_minh",
+   "loai": "vi_mo_vn",
+   "doi_tuong": "KBC",
+   "du_bao": 1,
+   "vuot_t0": -1.09,
+   "vuot_t4": 3.3,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Hòa Phát lãi quý 3 đạt 8.265 tỷ đồng, nợ vay vượt 100.000 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HPG",
+   "du_bao": 1,
+   "vuot_t0": -0.15,
+   "vuot_t4": 2.26,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Hòa Phát lãi quý 3 đạt 8.265 tỷ đồng, nợ vay vượt 100.000 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "HSG",
+   "du_bao": 1,
+   "vuot_t0": -1.89,
+   "vuot_t4": -0.05,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Hòa Phát lãi quý 3 đạt 8.265 tỷ đồng, nợ vay vượt 100.000 tỷ",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "NKG",
+   "du_bao": 1,
+   "vuot_t0": -0.86,
+   "vuot_t4": 4.15,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Cổ phiếu dầu khí bị bán mạnh, nhiều mã giảm sàn theo giá dầu",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "PVT",
+   "du_bao": -1,
+   "vuot_t0": 0.56,
+   "vuot_t4": -2.44,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Cổ phiếu dầu khí bị bán mạnh, nhiều mã giảm sàn theo giá dầu",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "BSR",
+   "du_bao": -1,
+   "vuot_t0": 0.62,
+   "vuot_t4": -3.31,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Cổ phiếu dầu khí bị bán mạnh, nhiều mã giảm sàn theo giá dầu",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "PVD",
+   "du_bao": -1,
+   "vuot_t0": -1.38,
+   "vuot_t4": -4.87,
+   "dung": true,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": true,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Doanh thu cho vay margin quý 3 của các CTCK đạt 36.200 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "VCK",
+   "du_bao": -1,
+   "vuot_t0": -0.12,
+   "vuot_t4": 5.43,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Doanh thu cho vay margin quý 3 của các CTCK đạt 36.200 tỷ đồng",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "TCX",
+   "du_bao": 1,
+   "vuot_t0": -0.28,
+   "vuot_t4": 4.8,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": false,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Vinhomes chào bán riêng lẻ 2.000 tỷ đồng trái phiếu doanh nghiệp",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VHM",
+   "du_bao": 1,
+   "vuot_t0": 2.25,
+   "vuot_t4": 2.78,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Điện Máy Xanh thông qua gói thưởng 100 tỷ trái phiếu kèm chứng quyền",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "DMX",
+   "du_bao": 1,
+   "vuot_t0": 0.8,
+   "vuot_t4": 0.45,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Điện Máy Xanh thông qua gói thưởng 100 tỷ trái phiếu kèm chứng quyền",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "MWG",
+   "du_bao": 1,
+   "vuot_t0": -1.58,
+   "vuot_t4": -0.21,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": false
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Vinpearl và Vincom Retail công bố lợi nhuận quý 3 tăng trưởng mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VRE",
+   "du_bao": 1,
+   "vuot_t0": 0.38,
+   "vuot_t4": 1.05,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Vinpearl và Vincom Retail công bố lợi nhuận quý 3 tăng trưởng mạnh",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VPL",
+   "du_bao": 1,
+   "vuot_t0": 0.8,
+   "vuot_t4": 2.96,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": true,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Lợi nhuận 18 ngân hàng đạt gần 141.600 tỷ đồng trong 9 tháng",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "ACB",
+   "du_bao": 1,
+   "vuot_t0": -0.61,
+   "vuot_t4": -2.67,
+   "dung": false,
+   "phe": {
+    "lac_quan": false,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Lợi nhuận 18 ngân hàng đạt gần 141.600 tỷ đồng trong 9 tháng",
+   "xac_minh": "da_xac_minh",
+   "loai": "nganh",
+   "doi_tuong": "STB",
+   "du_bao": -1,
+   "vuot_t0": -0.1,
+   "vuot_t4": 4.29,
+   "dung": false,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Xem xét cơ chế giao dịch vốn cho Trung tâm Tài chính quốc tế TP.HCM",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "GMD",
+   "du_bao": 1,
+   "vuot_t0": 1.95,
+   "vuot_t4": 1.81,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Xem xét cơ chế giao dịch vốn cho Trung tâm Tài chính quốc tế TP.HCM",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "REE",
+   "du_bao": 1,
+   "vuot_t0": 0.58,
+   "vuot_t4": 2.06,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Vinamilk và VEAM chuẩn bị chi hàng nghìn tỷ đồng trả cổ tức tiền mặt",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VNM",
+   "du_bao": 1,
+   "vuot_t0": -0.59,
+   "vuot_t4": 0.5,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Vinamilk và VEAM chuẩn bị chi hàng nghìn tỷ đồng trả cổ tức tiền mặt",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "VEA",
+   "du_bao": 1,
+   "vuot_t0": -0.53,
+   "vuot_t4": 0.58,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Vinamilk và VEAM chuẩn bị chi hàng nghìn tỷ đồng trả cổ tức tiền mặt",
+   "xac_minh": "da_xac_minh",
+   "loai": "doanh_nghiep",
+   "doi_tuong": "SAB",
+   "du_bao": 1,
+   "vuot_t0": 1.03,
+   "vuot_t4": 0.49,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": true
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Sửa Luật Chứng khoán: Đặt trọng tâm bảo vệ quyền lợi nhà đầu tư",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "SSI",
+   "du_bao": 1,
+   "vuot_t0": -0.73,
+   "vuot_t4": 4.93,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
+   }
+  },
+  {
+   "ngay": "2026-10-30",
+   "tab": "web",
+   "chu_de": "Sửa Luật Chứng khoán: Đặt trọng tâm bảo vệ quyền lợi nhà đầu tư",
+   "xac_minh": "da_xac_minh",
+   "loai": "chinh_sach",
+   "doi_tuong": "VCI",
+   "du_bao": 1,
+   "vuot_t0": -1.83,
+   "vuot_t4": 6.37,
+   "dung": true,
+   "phe": {
+    "lac_quan": true,
+    "than_trong": null,
+    "vi_mo": null
    }
   }
  ],

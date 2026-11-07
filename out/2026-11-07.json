@@ -1,0 +1,2222 @@
+{
+ "ngay": "2026-11-07",
+ "bat_dau_luc": "2026-11-07T07:00+07:00",
+ "cua_so": {
+  "tu": "2026-11-06T07:00+07:00",
+  "den": "2026-11-07T07:00+07:00"
+ },
+ "nguon_web": [
+  {
+   "id": "cafef_ck",
+   "name": "CafeF — Chứng khoán",
+   "group": "bao_vn",
+   "n": 33,
+   "err": null
+  },
+  {
+   "id": "cafef_vimo",
+   "name": "CafeF — Vĩ mô",
+   "group": "bao_vn",
+   "n": 29,
+   "err": null
+  },
+  {
+   "id": "cafef_nh",
+   "name": "CafeF — Tài chính NH",
+   "group": "bao_vn",
+   "n": 14,
+   "err": null
+  },
+  {
+   "id": "cafef_dn",
+   "name": "CafeF — Doanh nghiệp",
+   "group": "bao_vn",
+   "n": 27,
+   "err": null
+  },
+  {
+   "id": "vnx_kd",
+   "name": "VnExpress — Kinh doanh",
+   "group": "bao_vn",
+   "n": 20,
+   "err": null
+  },
+  {
+   "id": "vs_cp",
+   "name": "Vietstock — Cổ phiếu",
+   "group": "bao_vn",
+   "n": 8,
+   "err": null
+  },
+  {
+   "id": "vs_vimo",
+   "name": "Vietstock — Vĩ mô",
+   "group": "bao_vn",
+   "n": 3,
+   "err": null
+  },
+  {
+   "id": "vs_nh",
+   "name": "Vietstock — Ngân hàng",
+   "group": "bao_vn",
+   "n": 11,
+   "err": null
+  },
+  {
+   "id": "vne_ck",
+   "name": "VnEconomy — Chứng khoán",
+   "group": "bao_vn",
+   "n": 9,
+   "err": null
+  },
+  {
+   "id": "vne_tc",
+   "name": "VnEconomy — Tài chính",
+   "group": "bao_vn",
+   "n": 4,
+   "err": null
+  },
+  {
+   "id": "tnck",
+   "name": "Tin nhanh CK",
+   "group": "bao_vn",
+   "n": 11,
+   "err": null
+  },
+  {
+   "id": "sbv_lnh",
+   "name": "NHNN — Lãi suất LNH",
+   "group": "chinh_thuc",
+   "n": 0,
+   "err": "NHNN không phản hồi (hay chặn IP nước ngoài) — lấy số LNH từ tin báo"
+  },
+  {
+   "id": "fed",
+   "name": "Fed — Chính sách tiền tệ",
+   "group": "quoc_te",
+   "n": 0,
+   "err": null
+  },
+  {
+   "id": "mw_top",
+   "name": "MarketWatch — Top",
+   "group": "quoc_te",
+   "n": 10,
+   "err": null
+  },
+  {
+   "id": "mw_pulse",
+   "name": "MarketWatch — Pulse",
+   "group": "quoc_te",
+   "n": 0,
+   "err": null
+  },
+  {
+   "id": "inv_eco",
+   "name": "Investing — Kinh tế",
+   "group": "quoc_te",
+   "n": 10,
+   "err": null
+  },
+  {
+   "id": "inv_fx",
+   "name": "Investing — Ngoại hối",
+   "group": "quoc_te",
+   "n": 5,
+   "err": null
+  },
+  {
+   "id": "vnx_tg",
+   "name": "VnExpress — Thế giới",
+   "group": "quoc_te",
+   "n": 3,
+   "err": null
+  },
+  {
+   "id": "fisc",
+   "name": "FinSuccess (fisc.vn)",
+   "group": "nguon_5",
+   "n": 0,
+   "err": null
+  }
+ ],
+ "zalo_status": {
+  "so_tin_tho": 0,
+  "so_tin_dung": 0,
+  "theo_nhom": {
+   "money_noobs": 0,
+   "finsuccess": 0,
+   "lavender": 0,
+   "balance": 0,
+   "finedu": 0
+  },
+  "heartbeat": "2026-10-21T17:30:12.274Z",
+  "listener_version": "1.0.0",
+  "listener_song": false,
+  "nhom_da_nghe": {
+   "money_noobs": "MONEY NOOBS",
+   "finsuccess": "FinSuccess 4",
+   "lavender": "[Room 7] Cộng đồng đợi đáy Lavender",
+   "balance": "Balance - Nền tảng đầu tư định lượng và số hóa",
+   "finedu": "FinEdu - Go To The Moon"
+  }
+ },
+ "vi_mo": {
+  "so_lieu": {
+   "at": "2026-11-07T07:00+07:00",
+   "dxy": 102.279,
+   "dxy_chg5_pct": 0.392,
+   "dxy_chg20_pct": 0.068,
+   "us10y": 4.859,
+   "us10y_chg5_bp": -7.0,
+   "us10y_chg20_bp": -38.5,
+   "usdvnd": 25680.0,
+   "usdvnd_chg5_pct": -0.461,
+   "usdvnd_chg20_pct": -0.807,
+   "brent": 97.76,
+   "brent_chg5_pct": -16.899,
+   "brent_chg20_pct": -6.646,
+   "gold": 4079.5,
+   "gold_chg5_pct": 4.632,
+   "gold_chg20_pct": -3.245,
+   "vix": 25.64,
+   "vix_chg5_pct": 32.029,
+   "vix_chg20_pct": 72.776,
+   "spx": 7376.8599,
+   "spx_chg5_pct": -2.681,
+   "spx_chg20_pct": -5.565,
+   "vnindex": 1725.36,
+   "vnindex_chg5_pct": -0.934,
+   "vnindex_chg20_pct": -0.561,
+   "lnh_on": 0.6,
+   "lnh_n_obs": 1
+  },
+  "playbook": {
+   "flags": [
+    {
+     "id": "LS_CAO_ON_DINH",
+     "ten": "Lãi suất LNH cao nhưng ổn định",
+     "trang_thai": "tat",
+     "muc": "khong_hanh_dong",
+     "muc_ten": "Không hành động",
+     "doc": "Mặt bằng cao đã nằm trong giá. Không có cú sốc mới → không hành động, bộ máy chạy bình thường.",
+     "vi_mo_to_vi_mo": "Chi phí vốn cao đều → ưu tiên DN ít nợ, CFO dương (bộ máy đã có cổng CFO/ICR/DE).",
+     "goi_y_he_thong": "Không đổi gì.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    },
+    {
+     "id": "LNH_SOC_NGAN",
+     "ten": "Lãi suất LNH qua đêm tăng sốc",
+     "trang_thai": "thieu_du_lieu",
+     "muc": "than_trong",
+     "muc_ten": "Thận trọng",
+     "doc": "Thanh khoản hệ thống căng ngắn hạn. Thường do tỷ giá (NHNN hút VND), mùa vụ (cuối quý/Tết) hoặc đáo hạn OMO. Phải xem NHNN có bơm OMO lại không.",
+     "vi_mo_to_vi_mo": "CTCK: chi phí vốn margin tăng, có thể siết margin → nhóm đầu cơ, penny chịu bán. Ngân hàng nhỏ vốn mỏng chịu COF. BĐS nợ vay cao nhạy nhất.",
+     "goi_y_he_thong": "Không pyramid/top-up mới trong 5 phiên; soi tay mã CK/BĐS trước khi vào. Lệnh thăm dò giữ nguyên cỡ.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    },
+    {
+     "id": "LNH_CANG_KEO_DAI",
+     "ten": "LNH neo cao và tăng kéo dài",
+     "trang_thai": "tat",
+     "muc": "han_che_rui_ro",
+     "muc_ten": "Hạn chế rủi ro",
+     "doc": "Căng thanh khoản không còn là mùa vụ. Kết hợp tỷ giá căng thì NHNN mất room nới lỏng (bộ ba bất khả thi).",
+     "vi_mo_to_vi_mo": "Dòng tiền margin co lại → thanh khoản toàn thị trường giảm → breakout dễ thất bại. Ngành hưởng lợi tương đối: xuất khẩu thu USD, DN tiền mặt ròng lớn.",
+     "goi_y_he_thong": "Không pyramid/top-up; chú ý đèn thị trường. Không tự hạ probe. Đây là cờ ứng viên số 1 để kiểm bằng research.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    },
+    {
+     "id": "LNH_HA_NHIET",
+     "ten": "LNH hạ nhiệt sau đợt căng",
+     "trang_thai": "thieu_du_lieu",
+     "muc": "tich_cuc",
+     "muc_ten": "Tích cực",
+     "doc": "Áp lực thanh khoản qua đỉnh. Thường đi trước một nhịp hồi của nhóm CK/NH.",
+     "vi_mo_to_vi_mo": "CTCK, ngân hàng, BĐS nhạy lãi suất hồi trước.",
+     "goi_y_he_thong": "Không đổi luật; ưu tiên soi tín hiệu nhóm CK/NH.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    },
+    {
+     "id": "TY_GIA_CANG",
+     "ten": "USD/VND tăng nhanh",
+     "trang_thai": "tat",
+     "muc": "than_trong",
+     "muc_ten": "Thận trọng",
+     "doc": "Tỷ giá căng → NHNN ưu tiên ổn định tỷ giá, hút VND, lãi suất LNH có thể bị đẩy lên. Khối ngoại thường bán ròng.",
+     "vi_mo_to_vi_mo": "Hại: DN nợ USD lớn (điện, hàng không, thép nhập nguyên liệu). Lợi: xuất khẩu (thuỷ sản, dệt may, gỗ), DN thu USD.",
+     "goi_y_he_thong": "Theo dõi cặp cờ TY_GIA_CANG + LNH_SOC_NGAN: cặp này mới đáng lo.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    },
+    {
+     "id": "DXY_US10Y_CUNG_TANG",
+     "ten": "DXY và lợi suất Mỹ 10 năm cùng tăng",
+     "trang_thai": "tat",
+     "muc": "than_trong",
+     "muc_ten": "Thận trọng",
+     "doc": "Điều kiện tài chính toàn cầu thắt lại, vốn rút khỏi thị trường mới nổi.",
+     "vi_mo_to_vi_mo": "Truyền về VN qua tỷ giá (4–8 quý mới vào lợi nhuận DN, nhưng vào giá cổ phiếu ngay).",
+     "goi_y_he_thong": "Theo dõi; chỉ đáng kể nếu kéo theo TY_GIA_CANG.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    },
+    {
+     "id": "DAU_SOC",
+     "ten": "Giá dầu Brent biến động mạnh",
+     "trang_thai": "tat",
+     "muc": "theo_doi",
+     "muc_ten": "Theo dõi",
+     "doc": "Cú sốc hàng hoá: tác động vi mô theo ngành rõ hơn tác động vĩ mô.",
+     "vi_mo_to_vi_mo": "Dầu tăng: lợi PVS, PVD, GAS, BSR (crack spread), hại HVN, VJC, nhựa, phân bón (khí đầu vào). Dầu giảm: ngược lại; CPI dịu.",
+     "goi_y_he_thong": "Không đổi luật; ghi chú khi bộ máy báo mua mã trong nhóm dầu khí/hàng không.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    },
+    {
+     "id": "VIX_CAO",
+     "ten": "Chỉ số sợ hãi VIX cao",
+     "trang_thai": "bat",
+     "muc": "theo_doi",
+     "muc_ten": "Theo dõi",
+     "doc": "Risk-off toàn cầu. VN thường phản ứng trễ và yếu hơn.",
+     "vi_mo_to_vi_mo": "Khối ngoại bán nhóm vốn hoá lớn trước.",
+     "goi_y_he_thong": "Không đổi luật.",
+     "kiem_chung": "giả thuyết — chưa kiểm bằng backtest"
+    }
+   ],
+   "so_co_bat": 1,
+   "muc_cao_nhat": "Theo dõi",
+   "cap_ty_gia_lnh": false,
+   "loi_nhac": "Cờ mềm: gợi ý soi tay, không chặn lệnh, không hạ cỡ probe."
+  }
+ },
+ "nsi": {},
+ "web": {
+  "items": [
+   {
+    "id": "w3ab782e58ecd",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Khối ngoại bất ngờ mua ròng, chứng khoán vẫn chìm trong sắc đỏ",
+    "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-chung-khoan-van-chim-trong-sac-do-188261106172625659.chn",
+    "summary": "Sau chuỗi 10 phiên bán ròng liên tiếp, nhà đầu tư nước ngoài bất ngờ quay lại mua ròng hơn 435 tỷ đồng trong phiên 6/11. Tuy nhiên, lực mua này chưa đủ sức nâng đỡ thị trường khi áp lực chốt lời trong nước gia tăng, kéo VN-Index giảm hơn 15 điểm.",
+    "published": "2026-11-06T17:49+07:00",
+    "score": 5
+   },
+   {
+    "id": "w4e20b1fc6feb",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Thị trường tài chính 24h: Giá dầu thô tiếp tục xu hướng giảm",
+    "url": "https://www.tinnhanhchungkhoan.vn/thi-truong-tai-chinh-24h-gia-dau-tho-tiep-tuc-xu-huong-giam-post400943.html",
+    "summary": "(ĐTCK) VN-Index điều chỉnh; Quý III: Nhiều doanh nghiệp hụt lợi nhuận; Lợi nhuận ngành tăng 18,9%, SSI \"điểm tên\" các cổ phiếu ngân hàng triển vọng; ECB đứng trước khả năng tăng lãi suất…là những thông tin đáng chú ý của thị trường trong 24h qua. Lãi suất đồng loạt giảm, doanh nghiệp nhẹ gánh chi phí vốn Cổ phiếu công nghệ châu Á chịu sức ép từ nguy cơ siết chặt trung tâm dữ liệu AI tại Mỹ Bàn giải pháp tăng trưởng ngành thủy sản 2027 - 2029",
+    "published": "2026-11-06T18:16+07:00",
+    "score": 5
+   },
+   {
+    "id": "wfc30813f51d9",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Lợi nhuận ngành tăng 18,9%, SSI \"điểm tên\" các cổ phiếu ngân hàng triển vọng",
+    "url": "https://www.tinnhanhchungkhoan.vn/loi-nhuan-nganh-tang-189-ssi-diem-ten-cac-co-phieu-ngan-hang-trien-vong-post400931.html",
+    "summary": "(ĐTCK) Theo báo cáo cập nhật ngành ngân hàng của SSI Research, lợi nhuận trước thuế của các ngân hàng trong danh mục theo dõi tăng 18,9% trong quý III/2026, nhờ tín dụng tăng trưởng và thu nhập ngoài lãi cải thiện. Cơ hội ở dòng bank Lãi suất và chứng khoán Triển vọng lợi nhuận doanh nghiệp là điểm tựa cho giá cổ phiếu",
+    "published": "2026-11-06T10:56+07:00",
+    "score": 5
+   },
+   {
+    "id": "wc7605d158b3a",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Dư nợ cho vay ngoại tệ tại TPHCM tăng 42%",
+    "url": "https://cafef.vn/du-no-cho-vay-ngoai-te-tai-tphcm-tang-42-188261106224042313.chn",
+    "summary": "Chiều 5-11, Ngân hàng Nhà nước (NHNN) chi nhánh Khu vực 2 cho biết, trong 10 tháng của năm 2026, dư nợ cho vay bằng ngoại tệ trên địa bàn TPHCM ước đạt 288.000 tỷ đồng, chiếm 4,9% tổng dư nợ tín dụng, tăng 42% so với cuối năm 2025. Kết quả này phản ánh sự tăng trưởng tích cực của hoạt động xuất nhập khẩu.",
+    "published": "2026-11-06T22:40+07:00",
+    "score": 4
+   },
+   {
+    "id": "w93f1788cee4b",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Dư địa giảm lãi suất còn đến đâu?",
+    "url": "https://cafef.vn/du-dia-giam-lai-suat-con-den-dau-188261106215141875.chn",
+    "summary": "Lãi suất huy động đồng loạt giảm cùng với các biện pháp hỗ trợ thanh khoản từ Ngân hàng Nhà nước đang tạo điều kiện để các ngân hàng tiếp tục hạ lãi suất cho vay, chia sẻ chi phí với người dân và doanh nghiệp. Tuy nhiên, theo giới chuyên gia, mức giảm và tốc độ điều chỉnh thời gian tới còn phụ thuộc vào nhiều yếu tố như chi phí vốn, chất lượng tín dụng và diễn biến kinh tế vĩ mô.",
+    "published": "2026-11-06T21:51+07:00",
+    "score": 4
+   },
+   {
+    "id": "w6f8532a16e10",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "“Choáng váng” với biến động quốc tế, dòng tiền bắt đáy nỗ lực cân bằng, khối ngoại mua ròng",
+    "url": "https://vneconomy.vn/choang-vang-voi-bien-dong-quoc-te-dong-tien-bat-day-no-luc-can-bang-khoi-ngoai-mua-rong.htm",
+    "summary": "Áp lực bán tháo dữ dội trên thị trường chứng khoán Mỹ đêm qua đã “nhấn chìm” chứng khoán châu Á sáng nay và Việt Nam cũng không ngoại lệ. Thanh khoản đang tăng mạnh cho thấy nỗ lực bắt đáy đã xuất hiện, nhưng chưa thể đảo ngược tình thế. Khối ngoại cũng mua ròng nhẹ 118 tỷ sau 12 phiên sáng bán ròng liên tục.",
+    "published": "2026-11-06T12:08+07:00",
+    "score": 4
+   },
+   {
+    "id": "wa84b489ba22a",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Giá vàng giữ đà tăng trong lúc chờ báo cáo việc làm Mỹ",
+    "url": "https://vneconomy.vn/gia-vang-giu-da-tang-trong-luc-cho-bao-cao-viec-lam-my.htm",
+    "summary": "Giá vàng thế giới tăng trong phiên giao dịch ngày thứ Năm (5/11), đạt mức cao nhất trong hơn 2 tuần, nhờ đồng USD còn yếu và lợi suất trái phiếu kho bạc Mỹ tiếp tục giảm...",
+    "published": "2026-11-06T07:30+07:00",
+    "score": 4
+   },
+   {
+    "id": "wb44545f92d03",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Khối ngoại trở lại mua ròng hơn 435 tỷ đồng trong phiên 6/11",
+    "url": "https://www.tinnhanhchungkhoan.vn/khoi-ngoai-tro-lai-mua-rong-hon-435-ty-dong-trong-phien-611-post400959.html",
+    "summary": "(ĐTCK) Sau chuỗi 10 phiên bán ròng liên tiếp, nhà đầu tư ngoại đã trở lại mua ròng hơn 435 tỷ đồng trong phiên 6/11, trong đó, cổ phiếu bất động sản KDH dẫn đầu danh mục được rót ròng mạnh nhất. Thanh khoản HNX tăng hơn 31% trong tháng 10, khối ngoại bán ròng gần 139 tỷ đồng Khối ngoại mua ròng hơn 450 tỷ đồng một cổ phiếu chứng khoán trong phiên 5/11 Khối ngoại giảm tới 86% giá trị bán ròng trong phiên dậy sóng ngày 4/11",
+    "published": "2026-11-06T16:45+07:00",
+    "score": 4
+   },
+   {
+    "id": "w6a88c4268933",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Khối ngoại bất ngờ đổ tiền mua cổ phiếu Việt Nam giữa lúc chứng khoán toàn cầu lao dốc",
+    "url": "https://cafef.vn/phien-6-11-khoi-ngoai-do-tien-mua-rong-hon-400-ty-dong-co-phieu-viet-nam-giua-luc-chung-khoan-toan-cau-lao-doc-188261106153537479.chn",
+    "summary": "Tại chiều mua, KDH được khối ngoại mua ròng mạnh nhất với giá trị khoảng 171 tỷ đồng.",
+    "published": "2026-11-06T15:45+07:00",
+    "score": 3
+   },
+   {
+    "id": "w635e50e1e0c9",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Chứng khoán Shinhan: Nhịp cầu kết nối thị trường vốn Hàn - Việt",
+    "url": "https://cafef.vn/chung-khoan-shinhan-nhip-cau-ket-noi-thi-truong-von-han-viet-188261106132824682.chn",
+    "summary": "Ngày 30/10/2026, Chứng khoán Shinhan (SSV), đơn vị tư vấn và thu xếp duy nhất, hỗ trợ Vingroup phát hành 230 tỷ won trái phiếu Arirang (4.500 tỷ đồng), đánh dấu lần đầu doanh nghiệp Việt huy động vốn bằng trái phiếu đồng won tại Hàn Quốc.",
+    "published": "2026-11-06T13:30+07:00",
+    "score": 3
+   },
+   {
+    "id": "wd14a0e647cd6",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Anh tăng lãi suất lần đầu tiên sau 3 năm",
+    "url": "https://vnexpress.net/anh-tang-lai-suat-lan-dau-tien-sau-3-nam-5141653.html",
+    "summary": "Nối gót các nền kinh tế lớn khác, Anh nâng lãi suất tham chiếu lần đầu kể từ năm 2023 để ghìm lạm phát do giá năng lượng.",
+    "published": "2026-11-06T16:18+07:00",
+    "score": 3
+   },
+   {
+    "id": "w48e45417c268",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Giá vàng thế giới tiếp tục tăng, chứng khoán Mỹ lao dốc",
+    "url": "https://vnexpress.net/gia-vang-the-gioi-tiep-tuc-tang-chung-khoan-my-lao-doc-5141385.html",
+    "summary": "Mỗi ounce vàng vượt 4.100 USD, trong khi nhóm cổ phiếu công nghệ tại Wall Street giảm 10-17% chỉ trong một phiên.",
+    "published": "2026-11-06T07:43+07:00",
+    "score": 3
+   },
+   {
+    "id": "w3f9c7855b45b",
+    "src": "vs_cp",
+    "src_name": "Vietstock — Cổ phiếu",
+    "group": "bao_vn",
+    "title": "Theo dấu dòng tiền cá mập 06/11: Khối ngoại quay lại mua ròng, tự doanh gom mạnh nhóm ngân hàng",
+    "url": "http://vietstock.vn/2026/11/theo-dau-dong-tien-ca-map-0611-khoi-ngoai-quay-lai-mua-rong-tu-doanh-gom-manh-nhom-ngan-hang-830-1512594.htm",
+    "summary": "Phiên giao dịch ngày 06/11 chứng kiến sự đồng thuận giải ngân từ cả hai dòng tiền lớn. Trong khi khối ngoại đảo chiều mua ròng 446 tỷ đồng, khối tự doanh công ty chứng khoán cũng gom 228 tỷ đồng.",
+    "published": "2026-11-06T19:00+07:00",
+    "score": 3
+   },
+   {
+    "id": "we851bfea4593",
+    "src": "vs_cp",
+    "src_name": "Vietstock — Cổ phiếu",
+    "group": "bao_vn",
+    "title": "Nhịp đập Thị trường 06/11: Khối ngoại đảo chiều mua ròng",
+    "url": "http://vietstock.vn/2026/11/nhip-dap-thi-truong-0611-khoi-ngoai-dao-chieu-mua-rong-1636-1512213.htm",
+    "summary": "Kết thúc phiên giao dịch, VN-Index giảm 15.37 điểm (-0.88%), xuống mức 1,725.36 điểm; HNX-Index tăng 0.12 điểm (+0.05%), lên mức 256.73 điểm. Độ rộng toàn thị trường với sắc đỏ áp đảo hơn khi bên bán có 440 mã giảm và bên mua có 281 mã tăng. Tương tự, sắc đỏ lấn lướt hơn trong rổ VN30 với 19 mã giảm, 10 mã tăng và 1 mã tham chiếu.",
+    "published": "2026-11-06T16:37+07:00",
+    "score": 3
+   },
+   {
+    "id": "wbcd5502522c9",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Lãi suất đạt đỉnh, VN-Index tạo đáy trong tháng 11 và tăng mạnh đến quý 1 năm 2027?",
+    "url": "https://vneconomy.vn/lai-suat-dat-dinh-vn-index-tao-day-trong-thang-11-va-tang-manh-den-quy-1-nam-2027.htm",
+    "summary": "Theo thống kê, nhịp hồi phục sau tháng 11 thường kéo dài hơn so với nhịp hồi phục trong tháng 8, với VN-Index tăng bình quân khoảng 19,0% từ đáy tháng 11 đến vùng đỉnh trong quý I năm tiếp theo, tính trên bốn năm gần nhất.",
+    "published": "2026-11-06T20:41+07:00",
+    "score": 3
+   },
+   {
+    "id": "w855ad0dee8ac",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Giới đầu tư bán tháo cổ phiếu liên quan đến AI",
+    "url": "https://www.tinnhanhchungkhoan.vn/gioi-dau-tu-ban-thao-co-phieu-lien-quan-den-ai-post400906.html",
+    "summary": "(ĐTCK) Chứng khoán Mỹ lao dốc trong phiên thứ Năm ngày 5/11, với Nasdaq Composite nhận mức giảm mạnh nhất trong trong 19 tháng và xác nhận rơi xuống vùng điều chỉnh, khi các nhà sản xuất chip bị bán tháo do lo ngại về việc kiểm soát AI nghiêm ngặt hơn sau khi Đảng Dân chủ giành chiến thắng trong cuộc bầu cử Quốc hội vừa qua. Bầu cử Mỹ làm thay đổi kỳ vọng về giá dầu và xung đột Trung Đông Các tập đoàn dầu khí toàn cầu chưa sẵn sàng đầu tư công suất lọc dầu mới dù giá nhiên liệu tăng Thị trường…",
+    "published": "2026-11-06T11:57+07:00",
+    "score": 3
+   },
+   {
+    "id": "w6d109775862b",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Góc nhìn kỹ thuật phiên giao dịch chứng khoán ngày 6/11: Nhiều khả năng tiếp tục hồi phục",
+    "url": "https://www.tinnhanhchungkhoan.vn/goc-nhin-ky-thuat-phien-giao-dich-chung-khoan-ngay-611-nhieu-kha-nang-tiep-tuc-hoi-phuc-post400903.html",
+    "summary": "(ĐTCK) Các nhịp tăng và giảm có thể đan xen trong phiên khi VN-Index kiểm định cụm kháng cự 1.750-1.760 điểm, nhất là khi lượng cổ phiếu mua bắt đáy ngày 4/11 về tài khoản có thể làm gia tăng áp lực chốt lời. Vận tải biển: Triển vọng, thách thức đan xen Đo tác động của thuế xuất khẩu 0% với ngành phân bón MBS: Trong 10 năm qua, xác suất chứng khoán tăng điểm trong tháng 11 đạt 70%",
+    "published": "2026-11-06T09:40+07:00",
+    "score": 3
+   },
+   {
+    "id": "w1803337a4b26",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Ba cổ phiếu ngân hàng bất ngờ trở thành tâm điểm \"xả\" hàng của khối ngoại trong tuần đầu tháng 11",
+    "url": "https://cafef.vn/ba-co-phieu-ngan-hang-bat-ngo-tro-thanh-tam-diem-xa-hang-cua-khoi-ngoai-trong-tuan-dau-thang-11-188261106235313544.chn",
+    "summary": "Tín hiệu tích cực diễn ra vào cuối tuần khi dòng vốn của nhà đầu tư nước ngoài bất ngờ trở lại và giải ngân mua ròng cổ phiếu Việt Nam.",
+    "published": "2026-11-07T00:03+07:00",
+    "score": 2
+   },
+   {
+    "id": "w0dc41fe5e8f7",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "VPBankS dự kiến phát hành hơn 843 triệu cổ phiếu thưởng",
+    "url": "https://cafef.vn/vpbanks-du-kien-phat-hanh-hon-843-trieu-co-phieu-thuong-188261106103306712.chn",
+    "summary": "VPBankS sẽ phát hành 843,75 triệu cổ phiếu thưởng cho cổ đông để tăng vốn điều lệ lên mức 27.187,5 tỷ đồng.",
+    "published": "2026-11-06T11:25+07:00",
+    "score": 2
+   },
+   {
+    "id": "we1672e88a874",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Phó Tổng Giám đốc sinh năm 1991 được giao điều hành một công ty chứng khoán",
+    "url": "https://cafef.vn/pho-tong-giam-doc-sinh-nam-1991-duoc-giao-dieu-hanh-mot-cong-ty-chung-khoan-188261106104118616.chn",
+    "summary": "Theo giới thiệu, vị này có hơn 10 năm kinh nghiệm trong lĩnh vực tài chính - ngân hàng, với chuyên môn sâu về thẩm định tín dụng, tài trợ vốn.",
+    "published": "2026-11-06T10:47+07:00",
+    "score": 2
+   },
+   {
+    "id": "w547097fbe365",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Xuất nhập khẩu vượt 1.000 tỷ USD, 6 nhóm hàng được kỳ vọng bứt phá năm 2027",
+    "url": "https://cafef.vn/xuat-nhap-khau-vuot-1000-ty-usd-6-nhom-hang-duoc-ky-vong-but-pha-nam-2027-18826110615345187.chn",
+    "summary": "Chuyên gia dự báo đồ gỗ, dệt may, giày dép, linh kiện điện tử, linh kiện ô tô và tàu thuyền có thể trở thành những nhóm hàng xuất khẩu triển vọng trong năm 2027.",
+    "published": "2026-11-06T17:30+07:00",
+    "score": 2
+   },
+   {
+    "id": "w58501b3c6243",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Ngày 7/11, gửi dưới 1 tỷ đồng tại MB, VPBank, Techcombank, Sacombank, SHB, HDBank và ACB nhận được bao nhiêu tiền lãi sau 3 tháng?",
+    "url": "https://cafef.vn/ngay-7-11-gui-duoi-1-ty-dong-tai-mb-vpbank-techcombank-sacombank-shb-hdbank-va-acb-nhan-duoc-bao-nhieu-tien-lai-sau-3-thang-18826110622451738.chn",
+    "summary": "Với khoản tiền gửi kỳ hạn 3 tháng, lãi suất tại 7 ngân hàng được khảo sát dao động từ 3,6% đến 4,75%/năm, tùy ngân hàng, số tiền gửi và hình thức giao dịch.",
+    "published": "2026-11-07T01:00+07:00",
+    "score": 2
+   },
+   {
+    "id": "w053a781638f2",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Mở rộng 'lá chắn' bảo vệ giao dịch tài chính số",
+    "url": "https://cafef.vn/mo-rong-la-chan-bao-ve-giao-dich-tai-chinh-so-188261106215625179.chn",
+    "summary": "Hệ thống cảnh báo gian lận đã giúp ngành Ngân hàng bảo vệ khách hàng tạm dừng hoặc hủy giao dịch trị giá gần 7.200 tỷ đồng và đang tiếp mở rộng giải pháp truy vết, ngăn chặn dòng tiền lừa đảo liên ngân hàng.",
+    "published": "2026-11-06T23:09+07:00",
+    "score": 2
+   },
+   {
+    "id": "wf1565bf3f7d8",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Lãi suất ngân hàng ngày 6/11 tại Agribank, Vietcombank, BIDV, VietinBank, MB, VPBank, Techcombank, Sacombank, HDBank,...",
+    "url": "https://cafef.vn/lai-suat-ngan-hang-ngay-6-11-tai-agribank-vietcombank-bidv-vietinbank-mb-vpbank-techcombank-sacombank-hdbank-18826110620433468.chn",
+    "summary": "Lãi suất huy động trực tuyến niêm yết tại 35 ngân hàng tiếp tục ghi nhận sự phân hóa đáng kể giữa các kỳ hạn. Theo bảng lãi suất tổng hợp ngày 6/11, VPBank có mức niêm yết cao nhất ở kỳ hạn 18 tháng với 7,4%/năm, trong khi 5 ngân hàng cùng áp dụng lãi suất 7%/năm ở kỳ hạn 12 tháng.",
+    "published": "2026-11-06T21:52+07:00",
+    "score": 2
+   },
+   {
+    "id": "wa6bf4547cfab",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Giá vàng nhẫn trơn, vàng miếng chiều tối 6/11 tại SJC, PNJ, Bảo Tín Minh Châu, DOJI và Bảo Tín Mạnh Hải",
+    "url": "https://cafef.vn/gia-vang-nhan-tron-vang-mieng-chieu-toi-6-11-tai-sjc-pnj-bao-tin-minh-chau-doji-va-bao-tin-manh-hai-188261106073345843.chn",
+    "summary": "Giá vàng trong nước kết phiên 6/11 đồng loạt giảm, trong đó vàng miếng SJC mất 1,4 triệu đồng/lượng, xuống còn 141 triệu đồng/lượng ở chiều bán ra. Vàng nhẫn cũng giảm tại một số thương hiệu, trong khi SJC và DOJI giữ nguyên giá. Trên thị trường quốc tế, giá vàng giao ngay giảm 0,7%, xuống 4.059 USD/ounce, sau khi tăng tổng cộng hơn 4% trong hai phiên trước đó.",
+    "published": "2026-11-06T20:11+07:00",
+    "score": 2
+   },
+   {
+    "id": "w3999112a09dc",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Ngày 6/11, một ngân hàng cộng thêm lãi suất tiền gửi, cao nhất lên tới 9,1%/năm",
+    "url": "https://cafef.vn/ngay-6-11-mot-ngan-hang-cong-them-lai-suat-cao-nhat-len-toi-91-nam-18826110614422182.chn",
+    "summary": "Chương trình cộng lãi suất này chỉ kéo dài đến 11/11/2026.",
+    "published": "2026-11-06T14:42+07:00",
+    "score": 2
+   },
+   {
+    "id": "w06cbc5e97a2b",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Việt Nam cần vốn 1.500 tỷ USD trong 5 năm: FiinGroup cảnh báo ngân hàng quá tải, Maybank dự báo thị trường trái phiếu có thể lọt Top 3 ASEAN",
+    "url": "https://cafef.vn/viet-nam-can-von-1500-ty-usd-trong-5-nam-fiingroup-canh-bao-ngan-hang-qua-tai-maybank-du-bao-thi-truong-trai-phieu-co-the-lot-top-3-asean-188261106230333667.chn",
+    "summary": "Nhu cầu vốn khổng lồ cho tăng trưởng đang đặt ra bài toán lớn với hệ thống tài chính Việt Nam, trong khi thị trường vốn được kỳ vọng đóng vai trò ngày càng quan trọng trong những năm tới.",
+    "published": "2026-11-07T00:03+07:00",
+    "score": 2
+   },
+   {
+    "id": "w440f2cd7d451",
+    "src": "vs_cp",
+    "src_name": "Vietstock — Cổ phiếu",
+    "group": "bao_vn",
+    "title": "VinaCapital: Đảng Dân chủ thắng áp đảo là chất xúc tác cho VN-Index",
+    "url": "http://vietstock.vn/2026/11/vinacapital-dang-dan-chu-thang-ap-dao-la-chat-xuc-tac-cho-vn-index-830-1512609.htm",
+    "summary": "Chiến thắng áp đảo mang tính lịch sử của Đảng Dân chủ trong cuộc bầu cử giữa nhiệm kỳ tại Mỹ trong tuần này là một tín hiệu tích cực đối với nền kinh tế Việt Nam, và thậm chí còn tích cực hơn đối với thị trường chứng khoán.",
+    "published": "2026-11-06T20:00+07:00",
+    "score": 2
+   },
+   {
+    "id": "wd1d92a53ee36",
+    "src": "vs_cp",
+    "src_name": "Vietstock — Cổ phiếu",
+    "group": "bao_vn",
+    "title": "Chứng khoán Tuần 02-06/11/2026: Giằng co mạnh",
+    "url": "http://vietstock.vn/2026/11/chung-khoan-tuan-02-06112026-giang-co-manh-1636-1512517.htm",
+    "summary": "VN-Index điều chỉnh trở lại trong phiên cuối tuần và ghi nhận tuần giảm điểm thứ hai liên tiếp. Dù lực cầu bắt đáy tích cực xuất hiện tại các vùng giá thấp, sự phân hóa vẫn hiện hữu khiến nhịp phục hồi thiếu tính lan tỏa và nhanh chóng gặp trở ngại trước áp lực bán. Diễn biến này cho thấy thị trường vẫn đang trong trạng thái giằng co và chưa xác lập được xu hướng rõ ràng trong ngắn hạn.",
+    "published": "2026-11-06T18:17+07:00",
+    "score": 2
+   },
+   {
+    "id": "we8135af89d2c",
+    "src": "vs_nh",
+    "src_name": "Vietstock — Ngân hàng",
+    "group": "bao_vn",
+    "title": "Hơn 1.3 triệu khách hàng thẻ tín dụng: Dấu ấn vị thế và đổi mới của SACOMBANK",
+    "url": "http://vietstock.vn/2026/11/hon-13-trieu-khach-hang-the-tin-dung-dau-an-vi-the-va-doi-moi-cua-sacombank-757-1512512.htm",
+    "summary": "Tiếp tục ghi dấu ấn tại các hạng mục giải thưởng Visa năm 2026, SACOMBANK khẳng định vị thế trong lĩnh vực phát hành và thanh toán thẻ, đồng thời cho thấy những bước tiến trong ứng dụng công nghệ số, phát triển sản phẩm và nâng cao trải nghiệm cho hơn 1.3 triệu khách hàng thẻ tín dụng.",
+    "published": "2026-11-06T17:42+07:00",
+    "score": 2
+   },
+   {
+    "id": "w5a8d7c35b1a7",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "\"Soi\" phiên mua ròng hiếm hoi của khối ngoại cuối tuần",
+    "url": "https://vneconomy.vn/soi-phien-mua-rong-hiem-hoi-cua-khoi-ngoai-cuoi-tuan.htm",
+    "summary": "Nhà đầu tư nước ngoài hôm nay mua ròng 435,3 tỷ đồng. Riêng giao dịch khớp lệnh, khối này mua ròng 170,2 tỷ đồng.",
+    "published": "2026-11-06T20:42+07:00",
+    "score": 2
+   },
+   {
+    "id": "wc972abab0e9b",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Chứng khoán Mỹ giảm mạnh nhất hơn 1 năm rưỡi, giá dầu bật tăng trở lại",
+    "url": "https://vneconomy.vn/chung-khoan-my-giam-manh-nhat-hon-1-nam-ruoi-gia-dau-bat-tang-tro-lai.htm",
+    "summary": "Áp lực bán tháo lan rộng từ cổ phiếu công nghệ sang các nhóm khác, khiến cả ba chỉ số chính đồng loạt giảm chóng mặt, dẫn đầu là Nasdaq với mức giảm hơn 5,5%...",
+    "published": "2026-11-06T08:19+07:00",
+    "score": 2
+   },
+   {
+    "id": "wc5dfd86a9875",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Sự kiện chứng khoán đáng chú ý ngày 7/11",
+    "url": "https://www.tinnhanhchungkhoan.vn/su-kien-chung-khoan-dang-chu-y-ngay-711-post400956.html",
+    "summary": "(ĐTCK) Thông tin lịch sự kiện chứng khoán đáng chú ý ngày 7/11 về các doanh nghiệp niêm yết trên thị trường chứng khoán. Công ty chứng khoán qua những lần chuyển vai Đưa “sandbox” vào chứng khoán Cuộc đua tăng vốn trong ngành ngân hàng",
+    "published": "2026-11-06T18:16+07:00",
+    "score": 2
+   },
+   {
+    "id": "w37f24fe3c904",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Nhìn lại diễn biến nhóm cổ phiếu được các công ty chứng khoán khuyến nghị tuần qua",
+    "url": "https://www.tinnhanhchungkhoan.vn/nhin-lai-dien-bien-nhom-co-phieu-duoc-cac-cong-ty-chung-khoan-khuyen-nghi-tuan-qua-post400954.html",
+    "summary": "(ĐTCK) Các cổ phiếu bất động sản đã có tuần hồi phục tích cực, điểm sáng là TCH tăng gần 15%. Cùng Đầu tư Chứng khoán nhìn lại nhận định của các công ty chứng khoán về cổ phiếu cần quan tâm trong tuần qua. Lợi nhuận quý III tăng 45%, nhưng gần một nửa doanh nghiệp không tăng trưởng MBS: Trong 10 năm qua, xác suất chứng khoán tăng điểm trong tháng 11 đạt 70% Doanh nghiệp bất động sản khu công nghiệp khởi sắc",
+    "published": "2026-11-06T17:38+07:00",
+    "score": 2
+   },
+   {
+    "id": "w4cbc53985ce5",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Lực cung tiết giảm, VN-Index thu hẹp đà giảm trong phiên 6/11",
+    "url": "https://www.tinnhanhchungkhoan.vn/luc-cung-tiet-giam-vn-index-thu-hep-da-giam-trong-phien-611-post400952.html",
+    "summary": "(ĐTCK) Áp lực bán chững lại vào cuối phiên giúp thị trường bớt tiêu cực, đà giảm được thu hẹp và không xuất hiện những điểm nóng đáng quan ngại nào khi đóng cửa. MBS: Trong 10 năm qua, xác suất chứng khoán tăng điểm trong tháng 11 đạt 70% Công ty chứng khoán qua những lần chuyển vai Doanh nghiệp bất động sản khu công nghiệp khởi sắc",
+    "published": "2026-11-06T15:25+07:00",
+    "score": 2
+   },
+   {
+    "id": "wd0394df92f37",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Giao dịch chứng khoán phiên sáng 6/11: Sắc đỏ lan rộng, VN-Index điều chỉnh",
+    "url": "https://www.tinnhanhchungkhoan.vn/giao-dich-chung-khoan-phien-sang-611-sac-do-lan-rong-vn-index-dieu-chinh-post400930.html",
+    "summary": "(ĐTCK) Sau hai phiên hồi phục liên tiếp, chỉ số VN-Index đã chịu áp lực bán gia tăng từ rất sớm khi bước vào phiên giao dịch 6/11 bởi tâm lý thận trọng quay trở lại trước diễn biến tiêu cực từ các thị trường bên ngoài. Vốn ngoại vào nền kinh tế, vì sao chứng khoán vẫn thiếu lực đẩy? Công ty chứng khoán qua những lần chuyển vai Đưa “sandbox” vào chứng khoán",
+    "published": "2026-11-06T11:44+07:00",
+    "score": 2
+   },
+   {
+    "id": "w0bec85886257",
+    "src": "inv_eco",
+    "src_name": "Investing — Kinh tế",
+    "group": "quoc_te",
+    "title": "Daly says Fed rate hike likely, despite ’painful’ tech-stock dive",
+    "url": "https://www.investing.com/news/economy-news/daly-says-fed-rate-hike-likely-despite-painful-techstock-dive-5009005",
+    "summary": "",
+    "published": "2026-11-06T18:36+07:00",
+    "score": 2
+   },
+   {
+    "id": "w41208c19d459",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Một \"đại gia\" dầu khí bất ngờ nâng kế hoạch lợi nhuận gấp 9 lần, lãi quý 4 sẽ gây bất ngờ?",
+    "url": "https://cafef.vn/mot-dai-gia-dau-khi-bat-ngo-nang-ke-hoach-loi-nhuan-gap-9-lan-lai-quy-4-se-gay-bat-ngo-188261107001452602.chn",
+    "summary": "Dù nâng mục tiêu lợi nhuận sau thuế năm 2026 thêm hơn 16.400 tỷ đồng, doanh nghiệp vẫn đang vượt xa kế hoạch mới khi còn một quý kinh doanh cuối năm.",
+    "published": "2026-11-07T00:14+07:00",
+    "score": 1
+   },
+   {
+    "id": "wb00a935ecc04",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Bầu Đức thông báo tin vui lớn",
+    "url": "https://cafef.vn/bau-duc-thong-bao-tin-vui-lon-188261107000541461.chn",
+    "summary": "3 ngày trước phiên giao dịch đầu tiên trên UPCoM, doanh nghiệp do bầu Đức làm Chủ tịch HĐQT đã công bố kế hoạch tạm ứng cổ tức bằng tiền mặt cho cổ đông.",
+    "published": "2026-11-07T00:05+07:00",
+    "score": 1
+   },
+   {
+    "id": "w4ed144a2e7f8",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Một \"tín hiệu lạ\" bất ngờ xuất hiện trên TTCK sau 3 năm",
+    "url": "https://cafef.vn/mot-tin-hieu-la-bat-ngo-xuat-hien-tren-ttck-sau-3-nam-188261106154712795.chn",
+    "summary": "Theo dữ liệu BSC tổng hợp, kết thúc phiên 30/10/2026, hệ số P/E của VN-Index đạt 11,05 lần, giảm hơn 10,2% so với tháng trước và thấp hơn 16,8% so với mức trung bình 5 năm.",
+    "published": "2026-11-07T00:04+07:00",
+    "score": 1
+   },
+   {
+    "id": "w0ec21ae43767",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "TCBS rót 1.100 tỷ, thêm công ty sắp đủ điều kiện làm sàn tài sản mã hóa tại Việt Nam",
+    "url": "https://cafef.vn/tcbs-rot-1100-ty-them-cong-ty-sap-du-dieu-kien-lam-san-tai-san-ma-hoa-tai-viet-nam-188261106234022837.chn",
+    "summary": "Công ty Cổ phần Sàn giao dịch Tài sản mã hóa Techcom (TCEX) lên kế hoạch tăng vốn điều lệ lên 10.000 tỷ đồng.",
+    "published": "2026-11-07T00:02+07:00",
+    "score": 1
+   },
+   {
+    "id": "wf82c3a5013a0",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Giá vàng rời đỉnh, người Hà Nội đang mua- bán thế nào?",
+    "url": "https://cafef.vn/gia-vang-roi-dinh-nguoi-ha-noi-dang-mua-ban-the-nao-188261106155549351.chn",
+    "summary": "Giá vàng đã rời xa vùng đỉnh lịch sử, khiến những người mua vào ở mức cao chịu khoản lỗ đáng kể. Quan sát thực tế trên các phố vàng tại Hà Nội như Cầu Giấy, Trần Nhân Tông, người dân, nhà đầu tư giao dịch thong thả, nơi lưa thưa vài người mua bán, nơi vẫn giữ nhịp giao dịch thong thả bình thường.",
+    "published": "2026-11-06T15:56+07:00",
+    "score": 1
+   },
+   {
+    "id": "wd3a7c2652e8e",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Chứng khoán toàn cầu lao dốc, Việt Nam chịu ảnh hưởng gì?",
+    "url": "https://cafef.vn/chung-khoan-toan-cau-lao-doc-viet-nam-chiu-anh-huong-gi-188261106155114043.chn",
+    "summary": "Chứng khoán toàn cầu giảm mạnh do chịu sức ép từ làn sóng bán tháo cổ phiếu công nghệ, chuyên gia nhận định gì về chứng khoán Việt Nam hôm nay?",
+    "published": "2026-11-06T15:54+07:00",
+    "score": 1
+   },
+   {
+    "id": "w461d449f6d57",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "TCBS hoàn tất chào bán 1.500 tỷ đồng trái phiếu",
+    "url": "https://cafef.vn/tcbs-hoan-tat-chao-ban-1500-ty-dong-trai-phieu-188261106154640497.chn",
+    "summary": "TCBS đã hoàn tất chào bán trái phiếu mã TCXPO2628003 trị giá 1.500 tỷ đồng.",
+    "published": "2026-11-06T15:52+07:00",
+    "score": 1
+   },
+   {
+    "id": "w101c28d8f89e",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "CTCK đưa ra dự báo bất ngờ về lợi nhuận quý 4 của FPT",
+    "url": "https://cafef.vn/ctck-dua-ra-du-bao-bat-ngo-ve-loi-nhuan-quy-4-cua-fpt-188261106144829129.chn",
+    "summary": "Theo Mirae Asset, mức tăng trưởng dự kiến trong quý cuối năm phù hợp với tính chu kỳ trong hoạt động kinh doanh của FPT.",
+    "published": "2026-11-06T15:05+07:00",
+    "score": 1
+   },
+   {
+    "id": "w358d85749b31",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Thị trường vốn vào giai đoạn mới: Cần gì để dòng tiền ở lại?",
+    "url": "https://cafef.vn/thi-truong-von-vao-giai-doan-moi-can-gi-de-dong-tien-o-lai-188261106150328306.chn",
+    "summary": "Sau ba thập kỷ phát triển, thị trường chứng khoán Việt Nam đã mở rộng về quy mô, thanh khoản và số lượng nhà đầu tư. Nhưng theo ông Nguyễn Duy Linh, Tổng Giám đốc Công ty CP Chứng khoán Sài Gòn - Hà Nội (SHS), chặng đường tiếp theo không thể chỉ dựa vào những con số tăng trưởng. Thị trường cần doanh nghiệp chất lượng cao, nguồn vốn dài hạn, định chế trung gian chuyên nghiệp và những giải pháp giúp người dân quản lý tài sản bền vững.",
+    "published": "2026-11-06T15:03+07:00",
+    "score": 1
+   },
+   {
+    "id": "w2da1c054e54e",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Giá vàng 'bốc hơi' 3,5 triệu đồng/lượng sau 1 ngày",
+    "url": "https://cafef.vn/gia-vang-boc-hoi-35-trieu-dong-luong-sau-1-ngay-188261106133450872.chn",
+    "summary": "Chỉ sau 1 ngày, giá vàng trong nước đã giảm 3,5 triệu đồng/lượng, từ mức 144,5 triệu đồng/lượng cao nhất trong hôm qua về 141 triệu đồng/lượng hôm nay.",
+    "published": "2026-11-06T13:34+07:00",
+    "score": 1
+   },
+   {
+    "id": "wee320bb2fb2b",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Cựu sinh viên Bách khoa TPHCM đi làm tài chính, giờ có tài sản hơn 4.000 tỷ đồng",
+    "url": "https://cafef.vn/cuu-sinh-vien-bach-khoa-tphcm-di-lam-tai-chinh-gio-co-tai-san-hon-4000-ty-dong-188261106113659845.chn",
+    "summary": "Xuất phát từ ngành Quản trị công nghiệp, Đại học Bách khoa TPHCM, từng làm việc tại một doanh nghiệp viễn thông, vị này sau đó rẽ hướng sang chứng khoán.",
+    "published": "2026-11-06T11:36+07:00",
+    "score": 1
+   },
+   {
+    "id": "w418958825149",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "'Núi tiền' của Elon Musk bị vô hiệu hóa",
+    "url": "https://cafef.vn/nui-tien-cua-elon-musk-bi-vo-hieu-hoa-188261106111213676.chn",
+    "summary": "Dù rót hàng trăm triệu USD vào các chiến dịch tranh cử của đảng Cộng hòa, tỷ phú Elon Musk vẫn không thể ngăn ứng viên đảng Dân chủ James Talarico giành chiến thắng tại Texas, Mỹ. Kết quả này cho thấy sức mạnh tài chính của giới tỷ phú không phải lúc nào cũng quyết định được cục diện chính trị Mỹ.",
+    "published": "2026-11-06T11:12+07:00",
+    "score": 1
+   },
+   {
+    "id": "wce220102d1c4",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Giá vàng hôm nay 6/11: Lao dốc khỏi mốc đỉnh tuần",
+    "url": "https://cafef.vn/gia-vang-hom-nay-6-11-lao-doc-khoi-moc-dinh-tuan-188261106104456637.chn",
+    "summary": "Với mức giảm đến 3,5 triệu đồng mỗi lượng, giá vàng hôm nay đã rời khỏi mốc đỉnh tuần được thiết lập trong sáng qua.",
+    "published": "2026-11-06T10:58+07:00",
+    "score": 1
+   },
+   {
+    "id": "w2836990aef86",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Nasdaq chỉ mất 6 phút để xóa sạch thành quả Phố Wall",
+    "url": "https://cafef.vn/nasdaq-chi-mat-6-phut-de-xoa-sach-thanh-qua-pho-wall-188261106081704607.chn",
+    "summary": "Chỉ một ngày sau đà tăng nhờ kết quả bầu cử giữa nhiệm kỳ Mỹ, Phố Wall bất ngờ đảo chiều. Làn sóng bán tháo cổ phiếu công nghệ và bán dẫn khiến hàng nghìn tỷ USD vốn hóa thị trường bị thổi bay, trong bối cảnh nhà đầu tư lo ngại triển vọng chi tiêu cho AI.",
+    "published": "2026-11-06T08:33+07:00",
+    "score": 1
+   },
+   {
+    "id": "we88cfd0d29bb",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Giá vàng 9999 Bảo Tín Minh Châu hôm nay 6/11/2026 bao nhiêu 1 chỉ?",
+    "url": "https://cafef.vn/gia-vang-9999-bao-tin-minh-chau-hom-nay-6-11-2026-bao-nhieu-1-chi-188261106081549918.chn",
+    "summary": "Giá vàng hôm nay 6/11/2026, cập nhật mới nhất giá vàng 9999 tại Bảo Tín Minh Châu cùng nhiều thương hiệu lớn trên thị trường.",
+    "published": "2026-11-06T08:15+07:00",
+    "score": 1
+   },
+   {
+    "id": "w69e5316150a0",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "'Đại gia' bán lẻ Thái Lan muốn đầu tư 15-20 triệu USD xây TTTM tại một tỉnh miền Trung, cam kết đi vào hoạt động trong 12 tháng từ khi giao đất",
+    "url": "https://cafef.vn/dai-gia-ban-le-thai-lan-muon-dau-tu-15-20-trieu-usd-xay-tttm-tai-mot-tinh-mien-trung-cam-ket-di-vao-hoat-dong-trong-12-thang-tu-khi-giao-dat-188261106142922659.chn",
+    "summary": "Dự kiến, trung tâm thương mại có quy mô diện tích 1,2-2ha, được xây dựng từ 1 đến 2 tầng (không có tầng hầm).",
+    "published": "2026-11-06T15:25+07:00",
+    "score": 1
+   },
+   {
+    "id": "we022769b667f",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Lợi nhuận tăng vọt, một ngân hàng tăng gần 20% quỹ lương cho nhân viên, thu nhập bình quân vượt 40 triệu đồng/tháng",
+    "url": "https://cafef.vn/loi-nhuan-tang-vot-mot-ngan-hang-tang-gan-20-quy-luong-cho-nhan-vien-thu-nhap-binh-quan-vuot-40-trieu-dong-thang-188261106110048894.chn",
+    "summary": "Trong 9 tháng đầu năm 2026, một ngân hàng đã chi gần 828 tỷ đồng cho quỹ lương, phụ cấp và các khoản thu nhập khác của nhân viên, tăng hơn 18% so với cùng kỳ. Thu nhập bình quân của người lao động tại ngân hàng này cũng tăng mạnh, vượt 40 triệu đồng/người/tháng.",
+    "published": "2026-11-06T10:59+07:00",
+    "score": 1
+   },
+   {
+    "id": "wd6874c4d4ffc",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "VIB One Card được vinh danh là sáng tạo nổi bật trong lĩnh vực thẻ tín dụng cá nhân hóa",
+    "url": "https://cafef.vn/vib-one-card-duoc-vinh-danh-la-sang-tao-noi-bat-trong-linh-vuc-the-tin-dung-ca-nhan-hoa-188261106101418559.chn",
+    "summary": "Với triết lý “ONE là ĐỦ”, VIB One Card mang đến cách tiếp cận mới trong cá nhân hóa thẻ tín dụng: một chiếc thẻ đáp ứng đa dạng nhu cầu chi tiêu, phát triển cùng khách hàng qua các giai đoạn tài chính và tích hợp nhiều đặc quyền tài chính, phong cách sống.",
+    "published": "2026-11-06T10:14+07:00",
+    "score": 1
+   },
+   {
+    "id": "w62ab2c209c86",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Thêm một Phó Tổng Giám đốc doanh nghiệp ngành điện bị bắt tạm giam vì sai phạm tại một dự án tỷ đô",
+    "url": "https://cafef.vn/them-mot-pho-tong-giam-doc-doanh-nghiep-nganh-dien-bi-bat-tam-giam-vi-sai-pham-tai-mot-du-an-ty-do-188261106184757306.chn",
+    "summary": "Công ty Cổ phần Thủy điện A Vương (mã chứng khoán: AVC) vừa phát đi văn bản công bố thông tin bất thường gửi Ủy ban Chứng khoán Nhà nước và Sở Giao dịch Chứng khoán Hà Nội liên quan đến nhân sự nội bộ cấp cao của doanh nghiệp.",
+    "published": "2026-11-06T18:47+07:00",
+    "score": 1
+   },
+   {
+    "id": "wefc4baec7bc9",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "4 lãnh đạo Vietcap chi thêm 649 tỷ đồng, nắm giữ 13% vốn một ngân hàng",
+    "url": "https://cafef.vn/4-lanh-dao-vietcap-chi-them-649-ty-dong-nam-giu-13-von-mot-ngan-hang-188261106161754398.chn",
+    "summary": "BVBank đã huy động thành công hơn 3.200 tỷ đồng từ đợt chào bán cổ phiếu. Trong đó, 10 nhà đầu tư cá nhân mua trọn 875 tỷ đồng cổ phiếu được phân phối lại, với sự góp mặt của nhiều lãnh đạo Chứng khoán Vietcap.",
+    "published": "2026-11-06T16:36+07:00",
+    "score": 1
+   },
+   {
+    "id": "w4cc8a277eca3",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Vừa tăng vốn gần 37.000 tỷ đồng, Đại Quang Minh của đại gia 'Khoa Khàn' được giao 4,3ha đất vàng Thủ Thiêm",
+    "url": "https://cafef.vn/vua-tang-von-gan-37000-ty-dong-dai-quang-minh-cua-dai-gia-khoa-khan-duoc-giao-43ha-dat-vang-thu-thiem-188261106163036649.chn",
+    "summary": "Sau khi tăng vốn điều lệ lên gần 37.000 tỷ đồng, Công ty cổ phần Đầu tư Địa ốc Đại Quang Minh của đại gia Trần Đăng Khoa (Khoa Khàn) tiếp tục được TP.HCM giao 4 lô đất với tổng diện tích gần 43.000m2 tại Thủ Thiêm để thanh toán hợp đồng BT xây dựng cầu Ba Son.",
+    "published": "2026-11-06T16:30+07:00",
+    "score": 1
+   },
+   {
+    "id": "w0a22adbd087c",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "1 công ty nhựa trên sàn muốn mang 500 tỷ đồng sang Mỹ mua công ty bất động sản",
+    "url": "https://cafef.vn/1-cong-ty-nhua-tren-san-muon-mang-500-ty-dong-sang-my-mua-cong-ty-bat-dong-san-18826110613284559.chn",
+    "summary": "Trong khi cổ phiếu AAA đang giao dịch quanh mức 7.000 đồng, Nhựa An Phát Xanh vừa thông qua chủ trương đầu tư 20 triệu USD vào một doanh nghiệp tại Mỹ thông qua công ty con.",
+    "published": "2026-11-06T13:32+07:00",
+    "score": 1
+   },
+   {
+    "id": "w706ea2ebad68",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Viettel đưa linh kiện vào chuỗi cung ứng Boeing, Airbus: Kế hoạch đầu tư 200 triệu USD cho bước tiếp theo",
+    "url": "https://cafef.vn/viettel-dua-linh-kien-vao-chuoi-cung-ung-boeing-airbus-ke-hoach-dau-tu-200-trieu-usd-cho-buoc-tiep-theo-188261106102150931.chn",
+    "summary": "Tổng Giám đốc Tổng công ty Sản xuất thiết bị Viettel, Nguyễn Thế Nghĩa phát biểu tại phiên khai mạc VAF 2026 rằng: \"Chúng tôi có mặt tại đây để chứng minh một năng lực đã được kiểm chứng và đang vận hành, chứ không dừng ở việc giới thiệu tiềm năng hay tuyên bố ý định\".",
+    "published": "2026-11-06T10:20+07:00",
+    "score": 1
+   },
+   {
+    "id": "we7e9dbe7a6b3",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Thiên Long trên hành trình 45 năm: Khẳng định vị thế thương hiệu Việt",
+    "url": "https://cafef.vn/thien-long-tren-hanh-trinh-45-nam-khang-dinh-vi-the-thuong-hieu-viet-188261106065705085.chn",
+    "summary": "Kết quả kinh doanh khả quan trong Quý III/2026, cùng 8 danh hiệu giải thưởng và danh hiệu uy tín của Quốc gia và địa phương được đón nhận trong tháng 10, đánh dấu một giai đoạn nhiều chuyển biến tích cực của Thiên Long trong năm 2026 – năm kỷ niệm 45 năm hình thành và phát triển.",
+    "published": "2026-11-06T10:00+07:00",
+    "score": 1
+   },
+   {
+    "id": "w13b390e96165",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Quốc Cường Gia Lai có 2 động thái mới liên quan room ngoại và cổ tức",
+    "url": "https://cafef.vn/quoc-cuong-gia-lai-co-2-dong-thai-moi-lien-quan-room-ngoai-va-co-tuc-188261106094753093.chn",
+    "summary": "Quốc Cường Gia Lai vừa có loạt động thái mới liên quan đến ngành nghề kinh doanh và kế hoạch cổ tức đã kéo dài hơn 4 năm.",
+    "published": "2026-11-06T09:48+07:00",
+    "score": 1
+   },
+   {
+    "id": "wf474444df7f7",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Giá USD ngân hàng giảm 2,8% trong ba tháng",
+    "url": "https://vnexpress.net/gia-usd-ngan-hang-giam-2-8-trong-ba-thang-5141708.html",
+    "summary": "Giá USD ngân hàng chiều nay tiếp tục giảm xuống 25.780 đồng, về ngang với thời điểm cuối tháng 3 năm ngoái.",
+    "published": "2026-11-06T18:17+07:00",
+    "score": 1
+   },
+   {
+    "id": "w75819b2cbba4",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Sẽ thí điểm hệ thống truy vết, thu hồi tiền lừa đảo trực tuyến",
+    "url": "https://vnexpress.net/se-thi-diem-he-thong-truy-vet-thu-hoi-tien-lua-dao-truc-tuyen-5141607.html",
+    "summary": "Bộ Công an và Ngân hàng Nhà nước đang nghiên cứu thí điểm vận hành hệ thống truy vết, thu hồi tiền lừa đảo qua không gian mạng.",
+    "published": "2026-11-06T16:02+07:00",
+    "score": 1
+   },
+   {
+    "id": "w8e45c5caceb0",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Áp lực bán bao phủ hơn 200 cổ phiếu",
+    "url": "https://vnexpress.net/ap-luc-ban-bao-phu-hon-200-co-phieu-5141621.html",
+    "summary": "Nguồn cung giá thấp áp đảo khiến 206 cổ phiếu đi lùi, chiếm hơn 57% mã trên sàn HoSE, kéo theo chứng khoán giảm hơn 15 điểm.",
+    "published": "2026-11-06T15:35+07:00",
+    "score": 1
+   },
+   {
+    "id": "w393db6e68641",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Vốn hoá SpaceX, Tesla bốc hơi hơn 450 tỷ USD sau bầu cử Mỹ",
+    "url": "https://vnexpress.net/von-hoa-spacex-tesla-boc-hoi-hon-450-ty-usd-sau-bau-cu-my-5141448.html",
+    "summary": "Chiến thắng của đảng Dân chủ tại Mỹ khiến cổ phiếu hai công ty của Elon Musk bị bán tháo hai phiên liên tiếp, kéo tụt vốn hóa.",
+    "published": "2026-11-06T10:58+07:00",
+    "score": 1
+   },
+   {
+    "id": "wc95e8f569f16",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Giá vàng giảm 3,5 triệu về sát 141 triệu đồng",
+    "url": "https://vnexpress.net/gia-vang-giam-3-5-trieu-ve-sat-141-trieu-dong-5141437.html",
+    "summary": "Giá vàng miếng sáng nay nhanh chóng đảo chiều, giảm tổng cộng 3,5 triệu đồng trong 24 giờ, sau khi bật lên trên 144 triệu đồng vào đầu ngày hôm qua.",
+    "published": "2026-11-06T10:02+07:00",
+    "score": 1
+   },
+   {
+    "id": "wceb4d7b44ae4",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "Bitcoin và tiền số bị bán tháo",
+    "url": "https://vnexpress.net/bitcoin-va-tien-so-bi-ban-thao-5141422.html",
+    "summary": "Bitcoin giảm mạnh khi làn sóng bán tháo cổ phiếu công nghệ Mỹ lan sang thị trường tiền số, thổi bay hơn 1 tỷ USD vị thế phái sinh.",
+    "published": "2026-11-06T09:16+07:00",
+    "score": 1
+   },
+   {
+    "id": "w73fa5b68f5e9",
+    "src": "vnx_kd",
+    "src_name": "VnExpress — Kinh doanh",
+    "group": "bao_vn",
+    "title": "BSR lãi hợp nhất gần 25.000 tỷ đồng sau 9 tháng",
+    "url": "https://vnexpress.net/bsr-lai-hop-nhat-gan-25-000-ty-dong-sau-9-thang-5140193.html",
+    "summary": "BSR ghi nhận lợi nhuận sau thuế hợp nhất 24.901,7 tỷ đồng trong 9 tháng, gấp gần 11,6 lần cùng kỳ, nhờ thị trường thuận lợi và duy trì công suất vận hành cao.",
+    "published": "2026-11-06T10:00+07:00",
+    "score": 1
+   },
+   {
+    "id": "wc886545e2eaa",
+    "src": "vs_cp",
+    "src_name": "Vietstock — Cổ phiếu",
+    "group": "bao_vn",
+    "title": "Phạt 1.5 tỷ đồng, cấm giao dịch đối với nhóm cá nhân thao túng cổ phiếu Becamex BCE",
+    "url": "http://vietstock.vn/2026/11/phat-15-ty-dong-cam-giao-dich-doi-voi-nhom-ca-nhan-thao-tung-co-phieu-becamex-bce-830-1512642.htm",
+    "summary": "Ngày 05/11/2026, UBCKNN đã ban hành các quyết định xử phạt vi phạm hành chính đối với 5 cá nhân do có hành vi thao túng và tiếp tay thao túng thị trường chứng khoán đối với cổ phiếu của CTCP Xây dựng và Giao thông Bình Dương (Becamex BCE, HOSE: BCE). Trong đó, một cá nhân bị phạt tiền 1.5 tỷ đồng và áp dụng nhiều biện pháp cấm đảm nhiệm chức vụ, cấm giao dịch.",
+    "published": "2026-11-06T19:47+07:00",
+    "score": 1
+   },
+   {
+    "id": "w4ca951153718",
+    "src": "vs_cp",
+    "src_name": "Vietstock — Cổ phiếu",
+    "group": "bao_vn",
+    "title": "Phân tích kỹ thuật phiên chiều 06/11: Áp lực bán mạnh bất ngờ xuất hiện",
+    "url": "http://vietstock.vn/2026/11/phan-tich-ky-thuat-phien-chieu-0611-ap-luc-ban-manh-bat-ngo-xuat-hien-585-1512362.htm",
+    "summary": "VN-Index bất ngờ giảm điểm đồng thời xuất hiện mẫu hình nến Inverted Hammer kèm theo khối lượng giao dịch gia tăng cho thấy áp lực bán hiện hữu. HNX-Index diễn biến giằng co đồng thời xuất hiện mẫu hình nến Doji và tiếp tục vận động quanh ngưỡng Fibonacci Projection 61.8% (tương đương vùng 253-258 điểm).",
+    "published": "2026-11-06T13:01+07:00",
+    "score": 1
+   },
+   {
+    "id": "w4cec0e9e048e",
+    "src": "vs_cp",
+    "src_name": "Vietstock — Cổ phiếu",
+    "group": "bao_vn",
+    "title": "DNSE Future Tech Summit 2026 trở lại với chủ đề nâng cấp tư duy đầu tư trong kỷ nguyên AI",
+    "url": "http://vietstock.vn/2026/11/dnse-future-tech-summit-2026-tro-lai-voi-chu-de-nang-cap-tu-duy-dau-tu-trong-ky-nguyen-ai-830-1512350.htm",
+    "summary": "DNSE Future Tech Summit 2026, sự kiện công nghệ thường niên ngành chứng khoán sẽ trở lại vào ngày 20/11 tại TP. Hồ Chí Minh, quy tụ các chuyên gia, diễn giả hàng đầu trong lĩnh vực tài chính, đầu tư và công nghệ, mang đến góc nhìn chuyên sâu về thị trường và xu hướng ứng dụng AI tối ưu chiến lược đầu tư.",
+    "published": "2026-11-06T12:28+07:00",
+    "score": 1
+   },
+   {
+    "id": "w191ba51b6ac4",
+    "src": "vs_vimo",
+    "src_name": "Vietstock — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Chuyên gia World Bank: Năng suất và thị trường vốn là chìa khóa đưa Việt Nam thành nước thu nhập cao",
+    "url": "http://vietstock.vn/2026/11/chuyen-gia-world-bank-nang-suat-va-thi-truong-von-la-chia-khoa-dua-viet-nam-thanh-nuoc-thu-nhap-cao-761-1512424.htm",
+    "summary": "Chuyên gia từ World Bank (WB) nhận định để thoát khỏi \"bẫy thu nhập trung bình\" và gia nhập nhóm quốc gia thu nhập cao, Việt Nam không thể tiếp tục dựa vào mô hình tăng trưởng cũ. Việc tập trung bứt phá năng suất lao động và đẩy mạnh cải cách, nâng hạng thị trường vốn chính là 2 chìa khóa giúp định hình chất lượng tăng trưởng cho chương phát triển tiếp theo.",
+    "published": "2026-11-06T16:19+07:00",
+    "score": 1
+   },
+   {
+    "id": "w29081f77b4b8",
+    "src": "vs_nh",
+    "src_name": "Vietstock — Ngân hàng",
+    "group": "bao_vn",
+    "title": "Tuần 02-06/11: USD-Index tăng vọt, giá USD trong nước đồng loạt giảm",
+    "url": "http://vietstock.vn/2026/11/tuan-02-0611-usd-index-tang-vot-gia-usd-trong-nuoc-dong-loat-giam-757-1512726.htm",
+    "summary": "Trong tuần đầu của tháng 11 (02-06/11), USD-Index (DXY) trên thị trường quốc tế bật tăng mạnh lên 101.87 điểm chi phối bởi sự kết hợp giữa biến động chính trị tại Mỹ, các dữ liệu kinh tế vĩ mô và dòng tiền kỹ thuật trên thị trường ngoại hối.",
+    "published": "2026-11-06T20:18+07:00",
+    "score": 1
+   },
+   {
+    "id": "w9e14308a0a92",
+    "src": "vs_nh",
+    "src_name": "Vietstock — Ngân hàng",
+    "group": "bao_vn",
+    "title": "Chiều sâu bán lẻ tạo lợi thế cho VPBank trước chuẩn mực quản trị mới",
+    "url": "http://vietstock.vn/2026/11/chieu-sau-ban-le-tao-loi-the-cho-vpbank-truoc-chuan-muc-quan-tri-moi-757-1512236.htm",
+    "summary": "VPBank mở rộng hoạt động bán lẻ bằng cách phân tích dữ liệu khách hàng hiện hữu để thiết kế sản phẩm phù hợp với nhu cầu của từng nhóm. Cách tiếp cận này mở ra dư địa tăng trưởng mạnh mẽ về tín dụng và dịch vụ, đồng thời góp phần củng cố nguồn vốn huy động khi ngân hàng chuẩn bị đáp ứng các yêu cầu về quản trị thanh khoản theo Basel III.",
+    "published": "2026-11-06T14:07+07:00",
+    "score": 1
+   },
+   {
+    "id": "w268630f8b5fe",
+    "src": "vs_nh",
+    "src_name": "Vietstock — Ngân hàng",
+    "group": "bao_vn",
+    "title": "VPBank giành “cú đúp” giải thưởng về quản lý dòng tiền tại The Euromoney Transaction Banking Awards",
+    "url": "http://vietstock.vn/2026/11/vpbank-gianh-cu-dup-giai-thuong-ve-quan-ly-dong-tien-tai-the-euromoney-transaction-banking-awards-757-1512230.htm",
+    "summary": "Tại lễ trao giải The Euromoney Transaction Banking Awards, Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank; HOSE: VPB) xuất sắc được xướng tên ở hai hạng mục “Vietnam's Best Cash Management Bank 2026” (Ngân hàng cung cấp Giải pháp Quản lý dòng tiền tốt nhất Việt Nam 2026) và “Vietnam's Best Cash Management Deal 2026” (Thương vụ quản lý dòng tiền tốt nhất Việt Nam 2026).",
+    "published": "2026-11-06T11:02+07:00",
+    "score": 1
+   },
+   {
+    "id": "w4fab7bf5017f",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Thanh khoản cải thiện trong nhóm blue-chips, đà phục hồi vẫn yếu ớt",
+    "url": "https://vneconomy.vn/thanh-khoan-cai-thien-trong-nhom-blue-chips-da-phuc-hoi-van-yeu-ot.htm",
+    "summary": "Giao dịch đã sôi động hơn và bên mua chủ động hơn trong nhóm VN30 phiên chiều nay. Đáng tiếc dòng tiền vào vẫn kém khiến biên độ phục hồi chưa đủ để cải thiện rõ nét trên chỉ số. VN-Index đóng cửa vẫn giảm 0,88% (-15,37 điểm) và thất bại trước ngưỡng trung bình 20 phiên.",
+    "published": "2026-11-06T15:39+07:00",
+    "score": 1
+   },
+   {
+    "id": "wb8bc17f5387d",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Thanh khoản cực thấp, nhà đầu tư cá nhân vẫn mở mới 252.000 tài khoản chứng khoán trong tháng 10",
+    "url": "https://vneconomy.vn/thanh-khoan-cuc-thap-nha-dau-tu-ca-nhan-van-mo-moi-252000-tai-khoan-chung-khoan-trong-thang-10.htm",
+    "summary": "Theo số liệu từ Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC), tính đến ngày 31/10/2026, số lượng tài khoản giao dịch chứng khoán của nhà đầu tư trong nước đạt 14.331.814 tài khoản, tăng 252.159 tài khoản so với cuối tháng 9/2026.",
+    "published": "2026-11-06T13:35+07:00",
+    "score": 1
+   },
+   {
+    "id": "wdae5bddc50fc",
+    "src": "vne_ck",
+    "src_name": "VnEconomy — Chứng khoán",
+    "group": "bao_vn",
+    "title": "DNSE Future Tech Summit 2026: Góc nhìn công nghệ và quản lý đầu tư",
+    "url": "https://vneconomy.vn/dnse-future-tech-summit-2026-goc-nhin-cong-nghe-va-quan-ly-dau-tu.htm",
+    "summary": "DNSE Future Tech Summit 2026, sự kiện công nghệ thường niên ngành chứng khoán sẽ trở lại vào ngày 20/11 tại TP. Hồ Chí Minh, quy tụ các chuyên gia, diễn giả hàng đầu trong lĩnh vực tài chính, đầu tư và công nghệ, mang đến góc nhìn chuyên sâu về thị trường và xu hướng ứng dụng AI tối ưu chiến lược đầu tư.",
+    "published": "2026-11-06T10:52+07:00",
+    "score": 1
+   },
+   {
+    "id": "w689b4cd6df03",
+    "src": "vne_tc",
+    "src_name": "VnEconomy — Tài chính",
+    "group": "bao_vn",
+    "title": "Giá vàng trong nước \"bốc hơi” 1,5 - 1,8 triệu đồng mỗi lượng sau 4 phiên tăng",
+    "url": "https://vneconomy.vn/gia-vang-trong-nuoc-boc-hoi-15-18-trieu-dong-moi-luong-sau-4-phien-tang.htm",
+    "summary": "Trong phiên sáng 6/11, giá mua, bán vàng miếng SJC sụt phổ biến 1,5 triệu đồng, vàng nhẫn giảm từ 1 triệu – 1,8 triệu đồng/lượng mỗi chiều…",
+    "published": "2026-11-06T13:12+07:00",
+    "score": 1
+   },
+   {
+    "id": "w8cadda64ae4d",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "VSDC tăng tốc triển khai CCP, sẵn sàng hạ tầng công nghệ vào tháng 3/2027",
+    "url": "https://www.tinnhanhchungkhoan.vn/vsdc-tang-toc-trien-khai-ccp-san-sang-ha-tang-cong-nghe-vao-thang-32027-post400960.html",
+    "summary": "(ĐTCK) Ngày 6/11, tại Quy Nhơn, Tổng công ty Lưu ký và Bù trừ chứng khoán Việt Nam (VSDC) tổ chức Hội nghị thành viên năm 2026, tổng kết công tác phối hợp xử lý nghiệp vụ giữa VSDC và các thành viên năm 2026, hướng tới triển khai CCP trong năm 2027. Dòng vốn tìm động lực mới Ông Nguyễn Sơn: CCP sẽ tạo bước chuyển quan trọng trong hạ tầng thanh toán chứng khoán Mở đường triển khai CCP trên thị trường chứng khoán Việt Nam",
+    "published": "2026-11-07T06:29+07:00",
+    "score": 1
+   },
+   {
+    "id": "w184fb40435b7",
+    "src": "tnck",
+    "src_name": "Tin nhanh CK",
+    "group": "bao_vn",
+    "title": "Phó Chủ tịch UBCKNN Nguyễn Hoàng Dương: Tập trung nguồn lực triển khai cơ chế CCP trong năm 2027",
+    "url": "https://www.tinnhanhchungkhoan.vn/pho-chu-tich-ubcknn-nguyen-hoang-duong-tap-trung-nguon-luc-trien-khai-co-che-ccp-trong-nam-2027-post400962.html",
+    "summary": "(ĐTCK) Lãnh đạo UBCKNN yêu cầu VSDC và các thành viên thị trường tập trung nguồn lực, hoàn thiện hạ tầng công nghệ, quy trình nghiệp vụ, bảo đảm triển khai cơ chế đối tác bù trừ trung tâm (CCP) đối với thị trường chứng khoán cơ sở theo lộ trình năm 2026.",
+    "published": "2026-11-06T23:40+07:00",
+    "score": 1
+   },
+   {
+    "id": "wd56964648161",
+    "src": "inv_eco",
+    "src_name": "Investing — Kinh tế",
+    "group": "quoc_te",
+    "title": "BOJ chief Ueda sees ’some upside risks’ to inflation",
+    "url": "https://www.investing.com/news/economy-news/boj-chief-ueda-sees-some-upside-risks-to-inflation-5008920",
+    "summary": "",
+    "published": "2026-11-06T20:30+07:00",
+    "score": 1
+   },
+   {
+    "id": "w89e4e5eeb740",
+    "src": "inv_eco",
+    "src_name": "Investing — Kinh tế",
+    "group": "quoc_te",
+    "title": "Dollar jumps after strong US payrolls report",
+    "url": "https://www.investing.com/news/economy-news/dollar-holds-yen-gains-as-equity-rout-saps-risk-appetite-ahead-of-payrolls-5006269",
+    "summary": "",
+    "published": "2026-11-06T19:48+07:00",
+    "score": 1
+   },
+   {
+    "id": "wc97a68a4e4b7",
+    "src": "inv_fx",
+    "src_name": "Investing — Ngoại hối",
+    "group": "quoc_te",
+    "title": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+    "url": "https://www.investing.com/news/forex-news/us-treasury-sanctions-canadian-money-services-firms-over-iranrelated-transactions-5009126",
+    "summary": "",
+    "published": "2026-11-06T22:48+07:00",
+    "score": 1
+   },
+   {
+    "id": "w517070347406",
+    "src": "inv_fx",
+    "src_name": "Investing — Ngoại hối",
+    "group": "quoc_te",
+    "title": "Dollar sees best day since June after stellar jobs report, set for weekly gain",
+    "url": "https://www.investing.com/news/forex-news/asian-fx-mixed-as-yen-gains-on-risk-aversion-taiwan-dollar-breaks-33-amid-ai-rout-5006410",
+    "summary": "",
+    "published": "2026-11-06T20:54+07:00",
+    "score": 1
+   },
+   {
+    "id": "w871675f19f73",
+    "src": "inv_fx",
+    "src_name": "Investing — Ngoại hối",
+    "group": "quoc_te",
+    "title": "U.S. Treasuries fall as blowout payrolls lift yields across the curve",
+    "url": "https://www.investing.com/news/forex-news/jgb-yields-plunge-to-july-lows-as-wall-st-tech-tout-sparks-haven-rush-5006590",
+    "summary": "",
+    "published": "2026-11-06T13:49+07:00",
+    "score": 1
+   },
+   {
+    "id": "wa282aeb04062",
+    "src": "inv_fx",
+    "src_name": "Investing — Ngoại hối",
+    "group": "quoc_te",
+    "title": "Sterling today: Pound slips as dollar holds firm before U.S. payrolls",
+    "url": "https://www.investing.com/news/forex-news/sterling-today-pound-slips-as-dollar-holds-firm-before-us-payrolls-5007166",
+    "summary": "",
+    "published": "2026-11-06T10:44+07:00",
+    "score": 1
+   },
+   {
+    "id": "wa679fbe64dfa",
+    "src": "vnx_tg",
+    "src_name": "VnExpress — Thế giới",
+    "group": "quoc_te",
+    "title": "Houthi yêu cầu Arab Saudi 'chuyển 51 tỷ USD để dừng xung đột'",
+    "url": "https://vnexpress.net/houthi-yeu-cau-arab-saudi-chuyen-51-ty-usd-de-dung-xung-dot-5141509.html",
+    "summary": "Houthi có thể đã nêu điều kiện chấm dứt xung đột với Arab Saudi, trong đó có công nhận quyền lãnh đạo ở Yemen và chuyển 51 tỷ USD.",
+    "published": "2026-11-06T14:14+07:00",
+    "score": 1
+   },
+   {
+    "id": "wdba61b885c51",
+    "src": "vnx_tg",
+    "src_name": "VnExpress — Thế giới",
+    "group": "quoc_te",
+    "title": "Ông Zelensky: Ukraine sẽ đấu tranh cho 16 tỷ USD viện trợ bị Mỹ đình chỉ",
+    "url": "https://vnexpress.net/ong-zelensky-ukraine-se-dau-tranh-cho-16-ty-usd-vien-tro-bi-my-dinh-chi-5141464.html",
+    "summary": "Tổng thống Zelensky nói Ukraine phải \"đấu tranh\" để nhận được 16 tỷ USD viện trợ bị Mỹ đình chỉ, cũng như mang về thêm đạn tên lửa Patriot.",
+    "published": "2026-11-06T12:03+07:00",
+    "score": 1
+   },
+   {
+    "id": "w8cc4ba643533",
+    "src": "vnx_tg",
+    "src_name": "VnExpress — Thế giới",
+    "group": "quoc_te",
+    "title": "Gen Z Mỹ ngại hẹn hò vì giá cả leo thang",
+    "url": "https://vnexpress.net/gen-z-my-ngai-hen-ho-vi-gia-ca-leo-thang-5140216.html",
+    "summary": "Bữa tối giá 130 USD, ly cocktail 20 USD, hay vé xem phim 28 USD… trở thành khoản chi không hề nhỏ khiến Gen Z ít hẹn hò hơn.",
+    "published": "2026-11-06T08:00+07:00",
+    "score": 1
+   },
+   {
+    "id": "wbe50dd4bddc0",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Doanh nghiệp 167.000 tỷ của ông Phạm Nhật Vượng thay Giám đốc Tài chính",
+    "url": "https://cafef.vn/doanh-nghiep-167000-ty-cua-ong-pham-nhat-vuong-thay-giam-doc-tai-chinh-18826110700322295.chn",
+    "summary": "Quyết định có hiệu lực từ ngày 6/11.",
+    "published": "2026-11-07T00:31+07:00",
+    "score": 0
+   },
+   {
+    "id": "w44b38bc7bc50",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Tập đoàn Nhật Bản nắm giữ gần 47% vốn của Thiên Long",
+    "url": "https://cafef.vn/tap-doan-nhat-ban-nam-giu-gan-47-von-cua-thien-long-188261106203233608.chn",
+    "summary": "Tập đoàn Kokuyo của Nhật Bản hoàn tất mua lại toàn bộ cổ phần tại TLAT, qua đó gián tiếp nắm giữ 46,82% vốn điều lệ của Tập đoàn Thiên Long.",
+    "published": "2026-11-07T00:03+07:00",
+    "score": 0
+   },
+   {
+    "id": "wd187118d05bf",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Luật sư xin cho bố mẹ Mr Pips hưởng án treo, nhận lại loạt tài sản 34 lượng vàng SJC, 40,8 tỷ đồng và ô tô Lexus",
+    "url": "https://cafef.vn/luat-su-xin-cho-bo-me-mr-pips-huong-an-treo-nhan-lai-loat-tai-san-34-luong-vang-sjc-408-ty-dong-va-o-to-lexus-188261106235209683.chn",
+    "summary": "Luật sư bào chữa cho bố mẹ Mr Pips đề nghị trả lại 34 lượng vàng SJC, xe Lexus, 40,8 tỷ đồng cùng nhiều tài sản khác, đồng thời xin cho hai bị cáo được hưởng án treo vì cho rằng họ không biết nguồn gốc phạm tội của tiền và tài sản do con trai đưa.",
+    "published": "2026-11-06T23:51+07:00",
+    "score": 0
+   },
+   {
+    "id": "w5fa610b05bfb",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Khởi tố Phó Tổng Giám đốc Thủy điện A Vương",
+    "url": "https://cafef.vn/khoi-to-pho-tong-giam-doc-thuy-dien-a-vuong-188261106203019172.chn",
+    "summary": "Ông Phạm Đình Quang - Phó Tổng Giám đốc Công ty cổ phần Thủy điện A Vương - bị khởi tố, bắt tạm giam để điều tra vụ án hình sự liên quan đến thời gian công tác tại Nhà máy Nhiệt điện Vĩnh Tân 4.",
+    "published": "2026-11-06T21:16+07:00",
+    "score": 0
+   },
+   {
+    "id": "wd07125dededf",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "HSC đã giải ngân xong gần 2.700 tỷ đồng huy động từ cổ phiếu",
+    "url": "https://cafef.vn/hsc-da-giai-ngan-xong-gan-2700-ty-dong-huy-dong-tu-co-phieu-188261106154804445.chn",
+    "summary": "HSC đã giải ngân xong gần 2.700 tỷ đồng vốn huy động từ đợt chào bán gần 270 triệu cổ phiếu tại ngày 22/9/2026.",
+    "published": "2026-11-06T15:51+07:00",
+    "score": 0
+   },
+   {
+    "id": "we60932a8065e",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Yeah1 có Chủ tịch HĐQT và Tổng giám đốc mới",
+    "url": "https://cafef.vn/yeah1-co-chu-tich-hdqt-va-tong-giam-doc-moi-188261106154603211.chn",
+    "summary": "Bà Ngô Thị Vân Hạnh đảm nhiệm chức vụ Chủ tịch HĐQT Yeah1 thay thế bà Lê Phương Thảo kể từ ngày 6/11/2026.",
+    "published": "2026-11-06T15:50+07:00",
+    "score": 0
+   },
+   {
+    "id": "w53257909f7e1",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Gia nhập quân giải phóng từ năm 16 tuổi, bà Nguyễn Thị Mai Thanh tự dặn lòng: Hãy quên mình là con gái của một vị tướng chỉ huy",
+    "url": "https://cafef.vn/gia-nhap-quan-giai-phong-tu-nam-16-tuoi-ba-nguyen-thi-mai-thanh-tu-dan-long-hay-quen-minh-la-con-gai-cua-mot-vi-tuong-chi-huy-18826110615045685.chn",
+    "summary": "Năm 16 tuổi, giữa chiến trường bận rộn chăm sóc thương binh, bà Nguyễn Thị Mai Thanh - Nhà sáng lập REE đã tự dặn lòng: “Hãy quên mình là con gái của một vị tướng chỉ huy. Càng không được xem mình là phụ nữ để đòi hỏi sự quan tâm và hãy làm việc bình đẳng như những đồng đội nam”",
+    "published": "2026-11-06T15:04+07:00",
+    "score": 0
+   },
+   {
+    "id": "w68e4da9c2d5e",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Gia đình nhà sáng lập Cô Gia Thọ từ nhiệm loạt vị trí tại HĐQT Thiên Long",
+    "url": "https://cafef.vn/gia-dinh-nha-sang-lap-co-gia-tho-tu-nhiem-loat-vi-tri-tai-hdqt-thien-long-188261106133239063.chn",
+    "summary": "Chủ tịch HĐQT Cô Gia Thọ và người thân trong gia đình gồm: em gái Cô Cẩm Nguyệt, con trai Cô Trần Cơ Nguyên và con gái Cô Trần Dinh Dinh đã có đơn xin từ nhiệm loạt vị trí tại HĐQT Thiên Long.",
+    "published": "2026-11-06T14:03+07:00",
+    "score": 0
+   },
+   {
+    "id": "w8d1c89bad843",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Công ty của nữ Chủ tịch 27 tuổi phát thông báo quan trọng",
+    "url": "https://cafef.vn/cong-ty-cua-nu-chu-tich-27-tuoi-phat-thong-bao-quan-trong-188261106113423265.chn",
+    "summary": "Tập đoàn PC1, doanh nghiệp do nữ Chủ tịch sinh năm 1999 Trịnh Khánh Linh đứng đầu, vừa phát đi thông báo đính chính một nội dung trong Báo cáo thường niên năm 2025.",
+    "published": "2026-11-06T13:32+07:00",
+    "score": 0
+   },
+   {
+    "id": "w751b9791ddd1",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "DN của tỷ phú Phạm Nhật Vượng cần tuyển thợ 3 năm kinh nghiệm làm trợ giảng xây dựng, lương hơn 20 triệu đồng/tháng",
+    "url": "https://cafef.vn/dn-cua-ty-phu-pham-nhat-vuong-can-tuyen-tho-3-nam-kinh-nghiem-lam-tro-giang-xay-dung-luong-hon-20-trieu-dong-thang-188261106102944254.chn",
+    "summary": "VinCons đang tìm kiếm những thợ xây dựng lành nghề để bổ sung lực lượng đào tạo, hướng dẫn công nhân trong bối cảnh doanh nghiệp cần tuyển lượng lớn lao động.",
+    "published": "2026-11-06T11:31+07:00",
+    "score": 0
+   },
+   {
+    "id": "w19070f83c7d8",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "Con gái Chủ tịch Cao Thị Ngọc Dung tiếp tục bị bán giải chấp hơn 2,3 triệu cổ phiếu PNJ",
+    "url": "https://cafef.vn/con-gai-chu-tich-cao-thi-ngoc-dung-tiep-tuc-bi-ban-giai-chap-hon-23-trieu-co-phieu-pnj-188261106104258622.chn",
+    "summary": "Bà Trần Phương Ngọc Giao- con gái Chủ tịch Cao Thị Ngọc Dung, tiếp tục bị bán giải chấp hơn 2,3 triệu cổ phiếu PNJ trong phiên 4/11/2026.",
+    "published": "2026-11-06T10:44+07:00",
+    "score": 0
+   },
+   {
+    "id": "wf790047fe671",
+    "src": "cafef_ck",
+    "src_name": "CafeF — Chứng khoán",
+    "group": "bao_vn",
+    "title": "TPS miễn nhiệm Tổng Giám đốc",
+    "url": "https://cafef.vn/tps-mien-nhiem-tong-giam-doc-188261106103201913.chn",
+    "summary": "TPS tiến hành miễn nhiệm chức vụ Tổng Giám đốc kiêm Người đại diện pháp luật đối với ông Nguyễn Chí Thành theo Nghị quyết HĐQT.",
+    "published": "2026-11-06T10:31+07:00",
+    "score": 0
+   },
+   {
+    "id": "w7ed18a874935",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Một tỉnh miền Trung nghiên cứu lập 'siêu xã' hơn 680km² làm khu kinh tế đặc biệt ven biển",
+    "url": "https://cafef.vn/mot-tinh-mien-trung-nghien-cuu-lap-sieu-xa-hon-680km-lam-khu-kinh-te-dac-biet-ven-bien-188261107031818577.chn",
+    "summary": "Mới đây, UBND tỉnh Quảng Trị vừa có văn bản gửi Đảng ủy UBND tỉnh đề nghị xem xét, cho ý kiến về dự thảo kế hoạch thành lập Khu kinh tế đặc biệt tỉnh Quảng Trị gắn với Hành lang kinh tế Đông - Tây.",
+    "published": "2026-11-07T03:17+07:00",
+    "score": 0
+   },
+   {
+    "id": "w4b562a664f4d",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Một công ty có đến 1 triệu nhân viên toàn cầu, riêng 140.000 người làm việc tại một thành phố của Việt Nam",
+    "url": "https://cafef.vn/mot-cong-ty-co-den-1-trieu-nhan-vien-toan-cau-rieng-140000-nguoi-lam-viec-tai-mot-thanh-pho-cua-viet-nam-188261106165929818.chn",
+    "summary": "Tập đoàn công nghệ này đã có mặt tại Việt Nam từ năm 2007.",
+    "published": "2026-11-06T18:01+07:00",
+    "score": 0
+   },
+   {
+    "id": "wb5cb8bd939fd",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Đại biểu Quốc hội: 'Siết thì cán bộ sợ, nới thì sai phạm tăng'",
+    "url": "https://cafef.vn/dai-bieu-quoc-hoi-siet-thi-can-bo-so-noi-thi-sai-pham-tang-188261106144757327.chn",
+    "summary": "Góp ý vào dự thảo Luật Đấu thầu (sửa đổi), đại biểu Lê Hoàng Anh (Gia Lai) nêu về các vụ án lớn như Việt Á, AIC đều bị xử lý theo luật hiện hành, cho rằng, luật không thiếu chế tài, cái thiếu là phát hiện sớm, ngăn chặn từ đầu. \"Cứ có sai phạm lại sửa luật thì rơi vào vòng “siết - nới”: siết thì cán bộ sợ, nới thì sai phạm tăng, đại biểu nêu.",
+    "published": "2026-11-06T17:00+07:00",
+    "score": 0
+   },
+   {
+    "id": "w61127a8de1a0",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Du lịch Hà Nội xác lập kỷ lục mới với hơn 30 triệu lượt khách",
+    "url": "https://cafef.vn/du-lich-ha-noi-xac-lap-ky-luc-moi-voi-hon-30-trieu-luot-khach-188261106145601836.chn",
+    "summary": "Trong 10 tháng năm 2026, Hà Nội đón 30,36 triệu lượt khách du lịch, tăng 6,8% so với cùng kỳ năm trước; trong đó, khách quốc tế tăng 21,4%. Kết quả này tiếp tục khẳng định sức hấp dẫn của điểm đến Thủ đô, tạo đà để ngành Du lịch tăng tốc trong những tháng cuối năm.",
+    "published": "2026-11-06T16:30+07:00",
+    "score": 0
+   },
+   {
+    "id": "wcd5150d9eed0",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Cận cảnh đường Giải Phóng đang giải phóng mặt bằng cho dự án 162.000 tỷ đồng: Hàng loạt nhà mặt phố được tháo dỡ",
+    "url": "https://cafef.vn/can-canh-duong-giai-phong-dang-giai-phong-mat-bang-cho-du-an-162000-ty-dong-hang-loat-nha-mat-pho-duoc-thao-do-188261106135205997.chn",
+    "summary": "Hàng loạt nhà mặt phố trên đường Giải Phóng, đoạn qua phường Kim Liên (Hà Nội), đang được tháo dỡ để nhường mặt bằng cho dự án Quốc lộ 1A dài 36,3 km, quy mô 16 làn xe.",
+    "published": "2026-11-06T15:45+07:00",
+    "score": 0
+   },
+   {
+    "id": "wc97415f6ed1a",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Xây mới trung tâm hành chính Phú Quốc cao 9 tầng, vốn hơn 500 tỷ đồng",
+    "url": "https://cafef.vn/xay-moi-trung-tam-hanh-chinh-phu-quoc-cao-9-tang-von-hon-500-ty-dong-188261106140729864.chn",
+    "summary": "Trung tâm hành chính mới của Đặc khu Phú Quốc cao 9 tầng, có vốn đầu tư khoảng 530 tỷ đồng được khởi công sáng nay 6/11.",
+    "published": "2026-11-06T15:00+07:00",
+    "score": 0
+   },
+   {
+    "id": "w3e60bb92096a",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Rà soát phương án, điều kiện cần thiết đưa sân bay Long Thành khai thác trước 31/12",
+    "url": "https://cafef.vn/ra-soat-phuong-an-dieu-kien-can-thiet-dua-san-bay-long-thanh-khai-thac-truoc-31-12-188261106134501416.chn",
+    "summary": "Phó Thủ tướng Thường trực yêu cầu rà soát, đánh giá các phương án, điều kiện cần thiết để đưa sân bay Long Thành giai đoạn 1 vào khai thác trước ngày 31/12/2026.",
+    "published": "2026-11-06T14:30+07:00",
+    "score": 0
+   },
+   {
+    "id": "w4289516cfaf2",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Người Việt hào hứng với du lịch Trung Quốc, Hàn Quốc, Nhật Bản",
+    "url": "https://cafef.vn/nguoi-viet-hao-hung-voi-du-lich-trung-quoc-han-quoc-nhat-ban-188261106141853816.chn",
+    "summary": "Dữ liệu Traveloka ghi nhận lượng đặt dịch vụ du lịch đến Trung Quốc, Nhật Bản và Hàn Quốc tăng tới 1,5 lần trong quý 3/2026, cùng với sự quan tâm ngày càng lớn dành cho nhiều điểm đến đa dạng hơn.",
+    "published": "2026-11-06T14:18+07:00",
+    "score": 0
+   },
+   {
+    "id": "w081642d757c6",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Người phụ nữ 76 tuổi bị cấm xuất cảnh vì nợ thuế hơn 3 triệu đồng, mất trắng chuyến du lịch 120 triệu đồng",
+    "url": "https://cafef.vn/nguoi-phu-nu-76-tuoi-bi-cam-xuat-canh-vi-no-thue-hon-3-trieu-dong-mat-trang-chuyen-du-lich-120-trieu-dong-188261106133817374.chn",
+    "summary": "Háo hức chờ chuyến du lịch đã đặt trước nhiều tháng, người phụ nữ 76 tuổi ở Hải Phòng bất ngờ bị chặn xuất cảnh tại sân bay vì khoản nợ thuế hơn 3 triệu đồng từ phòng khám đã đóng cửa từ lâu. Chuyến đi lỡ, 120 triệu đồng tiền tour không được hoàn lại.",
+    "published": "2026-11-06T14:00+07:00",
+    "score": 0
+   },
+   {
+    "id": "wc323d8fd5f1a",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Ngoài kho báu được Trung Quốc 2 lần ngỏ ý dù nắm trữ lượng gấp 12 lần, Việt Nam có kho báu khác lớn gấp 3 lần, cả thế giới đều thèm khát",
+    "url": "https://cafef.vn/ngoai-kho-bau-duoc-trung-quoc-2-lan-ngo-y-du-nam-tru-luong-gap-12-lan-viet-nam-co-kho-bau-khac-lon-gap-3-lan-ca-the-gioi-deu-them-khat-188261106131825734.chn",
+    "summary": "Việt Nam có kho báu cả thế giới đều thèm khát.",
+    "published": "2026-11-06T13:48+07:00",
+    "score": 0
+   },
+   {
+    "id": "wca1aeaadff15",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Bộ trưởng Bộ Tài chính: Dự kiến miễn thuế hơn 2.000 tỷ đồng mỗi năm cho các cơ sở giáo dục",
+    "url": "https://cafef.vn/bo-truong-bo-tai-chinh-du-kien-mien-thue-hon-2000-ty-dong-moi-nam-cho-cac-co-so-giao-duc-188261106133626511.chn",
+    "summary": "Theo Bộ trưởng Bộ Tài chính Ngô Văn Tuấn, khi áp dụng chính sách thuế mới, số thuế được miễn cho các cơ sở giáo dục ước tính hơn 2.000 tỷ đồng mỗi năm.",
+    "published": "2026-11-06T13:36+07:00",
+    "score": 0
+   },
+   {
+    "id": "wb4e28fc02ca1",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Thêm một nhà máy sản xuất, chế tác lớn nhất thế giới đặt tại Việt Nam",
+    "url": "https://cafef.vn/them-mot-nha-may-san-xuat-che-tac-lon-nhat-the-gioi-dat-tai-viet-nam-188261106122317017.chn",
+    "summary": "Việt Nam có một nhà máy sản xuất lớn nhất thế giới trong lĩnh vực đặc biệt.",
+    "published": "2026-11-06T12:53+07:00",
+    "score": 0
+   },
+   {
+    "id": "wf4e04e9978f3",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Bộ trưởng Tài chính làm rõ cách xác định đất bỏ hoang để đánh thuế 0,2%",
+    "url": "https://cafef.vn/bo-truong-tai-chinh-lam-ro-cach-xac-dinh-dat-bo-hoang-de-danh-thue-02-188261106110723567.chn",
+    "summary": "Bộ trưởng Ngô Văn Tuấn cho biết việc xác định đất bỏ hoang để áp thuế 0,2% phải căn cứ quy định pháp luật về đất đai và cơ sở dữ liệu quốc gia về đất đai.",
+    "published": "2026-11-06T11:55+07:00",
+    "score": 0
+   },
+   {
+    "id": "wfed044767d1e",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Ngay tháng sau, dự kiến khởi công tuyến cao tốc gần 30.000 tỷ đồng, dài 82km rút ngắn thời gian đi Thái Nguyên - Cao Bằng",
+    "url": "https://cafef.vn/ngay-thang-sau-du-kien-khoi-cong-tuyen-cao-toc-gan-30000-ty-dong-dai-82km-rut-ngan-thoi-gian-di-thai-nguyen-cao-bang-188261106111626394.chn",
+    "summary": "Dự án Đầu tư xây dựng tuyến đường bộ cao tốc Bắc Kạn - Cao Bằng dự kiến được khởi công vào 19/12/2026.",
+    "published": "2026-11-06T11:28+07:00",
+    "score": 0
+   },
+   {
+    "id": "wc82d467ecbe6",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Phát hiện một cỗ máy lớn nhất châu Á đang hoạt động tại Việt Nam, sở hữu công nghệ hiện đại chưa từng xuất hiện trước đó",
+    "url": "https://cafef.vn/phat-hien-mot-co-may-lon-nhat-chau-a-dang-hoat-dong-tai-viet-nam-so-huu-cong-nghe-hien-dai-chua-tung-xuat-hien-truoc-do-188261106110424017.chn",
+    "summary": "Cỗ máy lớn nhất châu Á đang hoạt động tại Việt Nam có gì đặc biệt?",
+    "published": "2026-11-06T11:20+07:00",
+    "score": 0
+   },
+   {
+    "id": "wcd7d23fa3192",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Điều kiện giảm trừ vào thuế TNCN khoản chi cho y tế",
+    "url": "https://cafef.vn/dieu-kien-giam-tru-vao-thue-tncn-khoan-chi-cho-y-te-188261106111622263.chn",
+    "summary": "Vừa qua, vợ của ông Trần Anh (Hà Nội) phải làm phẫu thuật, không có BHYT hỗ trợ, tổng chi phí khám, chữa bệnh khoảng 100 triệu đồng (chi phí này được thanh toán làm nhiều đợt). Ông hỏi, gia đình ông có được khấu trừ, hoàn thuế TNCN hay chính sách hỗ trợ nào hay không?",
+    "published": "2026-11-06T11:15+07:00",
+    "score": 0
+   },
+   {
+    "id": "wb410b8cb1561",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Toàn cảnh 90km Vành đai qua 3 tỉnh thành sau nhiều năm thi công",
+    "url": "https://cafef.vn/toan-canh-90km-vanh-dai-qua-3-tinh-thanh-sau-nhieu-nam-thi-cong-188261106100457459.chn",
+    "summary": "Sau 3 năm khởi công, Vành đai 3 TP.HCM hơn 90km đang bước vào giai đoạn nước rút, nhiều đoạn cơ bản hoàn thiện, hướng tới mục tiêu thông xe một số đoạn trọng điểm.",
+    "published": "2026-11-06T10:49+07:00",
+    "score": 0
+   },
+   {
+    "id": "w43a43bf472ac",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "TP. HCM 'lỡ hẹn' bàn giao mặt bằng cao tốc, nhà thầu phải điều chuyển bớt thiết bị",
+    "url": "https://cafef.vn/tp-hcm-lo-hen-ban-giao-mat-bang-cao-toc-nha-thau-phai-dieu-chuyen-bot-thiet-bi-188261106100118324.chn",
+    "summary": "Dù UBND TP. Hồ Chí Minh đã có chỉ đạo hoàn thành công tác bồi thường, giải phóng mặt bằng trong tháng 10/2026, tuy nhiên đến tháng 11, một số thủ tục bồi thường tại xã Tân Nhựt vẫn chưa hoàn tất. Mặt bằng chưa được bàn giao khiến nhiều nhà thầu thiếu công địa, phải điều chuyển thiết bị, nhân lực và đứng trước nguy cơ gián đoạn thi công.",
+    "published": "2026-11-06T10:15+07:00",
+    "score": 0
+   },
+   {
+    "id": "wd9d1a9a4767a",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Hà Nội: Hiện trạng đường Tam Trinh trước hạn thông xe kỹ thuật 31/12",
+    "url": "https://cafef.vn/ha-noi-hien-trang-duong-tam-trinh-truoc-han-thong-xe-ky-thuat-31-12-188261106091022426.chn",
+    "summary": "Dự án mở rộng đường Tam Trinh dài 3,5km, vốn hơn 3.500 tỷ đồng đang hoàn thiện hạ tầng kỹ thuật, vỉa hè, hướng tới thông xe ngày 31/12; nhiều đoạn đã dần thành hình.",
+    "published": "2026-11-06T10:04+07:00",
+    "score": 0
+   },
+   {
+    "id": "wb81c73d4db23",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Khẩn trương bổ sung trạm sạc điện, cung cấp nhiên liệu xanh trên các trạm dừng nghỉ cao tốc",
+    "url": "https://cafef.vn/khan-truong-bo-sung-tram-sac-dien-cung-cap-nhien-lieu-xanh-tren-cac-tram-dung-nghi-cao-toc-188261106085246113.chn",
+    "summary": "Với việc thúc đẩy chuyển đổi phương tiện giao thông cơ giới đường bộ sử dụng điện, Cục Đường bộ Việt Nam (Bộ Xây dựng) yêu cầu các nhà đầu tư cần thực hiện hoàn thiện hệ thống hạ tầng trạm sạc điện, cung cấp nhiên liệu xanh tại các trạm dừng nghỉ trên các tuyến cao tốc nhằm đáp ứng nhu cầu của chủ phương tiện.",
+    "published": "2026-11-06T09:15+07:00",
+    "score": 0
+   },
+   {
+    "id": "w5b3897ea00df",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Một người có được tự ký chuyển nhượng đất đứng tên hộ gia đình?",
+    "url": "https://cafef.vn/mot-nguoi-co-duoc-tu-ky-chuyen-nhuong-dat-dung-ten-ho-gia-dinh-18826110508574901.chn",
+    "summary": "Khoản 2 Điều 27 Luật Đất đai năm 2024 quy định trường hợp quyền sử dụng đất của nhóm người sử dụng đất không phân chia được theo phần thì các thành viên cùng nhau thực hiện hoặc ủy quyền cho người đại diện thực hiện quyền và nghĩa vụ.",
+    "published": "2026-11-06T08:57+07:00",
+    "score": 0
+   },
+   {
+    "id": "w336d0c439a0d",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Hướng dẫn xử lý lỗi quyết toán thuế TNCN trực tuyến",
+    "url": "https://cafef.vn/huong-dan-xu-ly-loi-quyet-toan-thue-tncn-truc-tuyen-188261106080509876.chn",
+    "summary": "Ông Tống Phước Đức (Hà Nội) đã thực hiện lập hồ sơ quyết toán thuế thu nhập cá nhân (TNCN) với 3 người đăng ký giảm trừ gia cảnh hợp lệ. Hiện tại, trên ứng dụng eTax Mobile, hệ thống đã hiển thị đầy đủ thông tin của những người phụ thuộc.",
+    "published": "2026-11-06T08:54+07:00",
+    "score": 0
+   },
+   {
+    "id": "w1558e4dffc65",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Bộ Nội vụ trả lời về cách tính ngày công khi người lao động làm thêm vào Chủ nhật, nghỉ bù trước",
+    "url": "https://cafef.vn/bo-noi-vu-tra-loi-ve-cach-tinh-ngay-cong-khi-nguoi-lao-dong-lam-them-vao-chu-nhat-nghi-bu-truoc-188261105085442126.chn",
+    "summary": "Người lao động làm thêm 8 tiếng vào ngày Chủ nhật, được doanh nghiệp bố trí nghỉ bù trước vào thứ Bảy thì số ngày công thực tế tính lương được xác định thế nào?",
+    "published": "2026-11-06T08:54+07:00",
+    "score": 0
+   },
+   {
+    "id": "w5a290bba4d6c",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Lương thử việc 16 triệu đồng, được trả thêm tiền bảo hiểm: Có phải khấu trừ thuế TNCN 10% trên tổng thu nhập?",
+    "url": "https://cafef.vn/luong-thu-viec-16-trieu-dong-duoc-tra-them-tien-bao-hiem-co-phai-khau-tru-thue-tncn-10-tren-tong-thu-nhap-188261105085330372.chn",
+    "summary": "Người lao động thử việc 2 tháng, nhận lương 16 triệu đồng/tháng và được doanh nghiệp trả thêm 3,44 triệu đồng tương đương khoản đóng bảo hiểm bắt buộc. Khoản tiền bổ sung này có phải tính vào tổng thu nhập để khấu trừ 10% thuế thu nhập cá nhân hay không?",
+    "published": "2026-11-06T08:53+07:00",
+    "score": 0
+   },
+   {
+    "id": "wcae1d834d7c0",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Đẩy nhanh tiến độ triển khai Dự án Cảng hàng không quốc tế Long Thành giai đoạn 1",
+    "url": "https://cafef.vn/day-nhanh-tien-do-trien-khai-du-an-cang-hang-khong-quoc-te-long-thanh-giai-doan-1-18826110608024729.chn",
+    "summary": "Văn phòng Chính phủ vừa ban hành Công văn số 11272/VPCP-CN ngày 5/11/2026 truyền đạt ý kiến chỉ đạo của Phó Thủ tướng Thường trực Chính phủ Phạm Gia Túc về việc đẩy nhanh tiến độ triển khai Dự án Cảng hàng không quốc tế Long Thành giai đoạn 1.",
+    "published": "2026-11-06T08:29+07:00",
+    "score": 0
+   },
+   {
+    "id": "w69a17594542b",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "Nhiều nhóm phương tiện được giảm phí đăng kiểm",
+    "url": "https://cafef.vn/nhieu-nhom-phuong-tien-duoc-giam-phi-dang-kiem-18826110607525896.chn",
+    "summary": "Trên cơ sở mức giá tối đa do Nhà nước quy định, các cơ sở đăng kiểm được chủ động quyết định mức giá dịch vụ kiểm định xe cơ giới, xe máy chuyên dùng cụ thể.",
+    "published": "2026-11-06T07:52+07:00",
+    "score": 0
+   },
+   {
+    "id": "wcedbfbd764ac",
+    "src": "cafef_vimo",
+    "src_name": "CafeF — Vĩ mô",
+    "group": "bao_vn",
+    "title": "TPHCM dự kiến thu gần 38.000 tỷ từ đấu giá nhà đất ở Thủ Thiêm",
+    "url": "https://cafef.vn/tphcm-du-kien-thu-gan-38000-ty-tu-dau-gia-nha-dat-o-thu-thiem-188261105221205872.chn",
+    "summary": "TPHCM dự kiến đấu giá 4 khu đất, 3.790 căn hộ và 5 lô đất tại Khu đô thị mới Thủ Thiêm, với tổng nguồn thu kỳ vọng hơn 37.500 tỷ đồng, góp phần thực hiện mục tiêu thu ngân sách 1 triệu tỷ đồng năm 2026.",
+    "published": "2026-11-06T07:20+07:00",
+    "score": 0
+   },
+   {
+    "id": "wd547ddd4011b",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Digital Banker, xu hướng phát triển nhân lực ngân hàng thế hệ mới",
+    "url": "https://cafef.vn/digital-banker-xu-huong-phat-trien-nhan-luc-ngan-hang-the-he-moi-188261106174151904.chn",
+    "summary": "Chuyển đổi số không chỉ làm thay đổi cách ngân hàng cung cấp sản phẩm, dịch vụ mà còn thay đổi cả cách một nhân viên ngân hàng (banker) làm việc và kết nối với khách hàng. Ngày nay, bên cạnh kiến thức nghiệp vụ, banker cần biết tận dụng công nghệ, sử dụng mạng xã hội hiệu quả và truyền tải những thông tin tài chính theo cách gần gũi, dễ hiểu hơn.",
+    "published": "2026-11-06T17:41+07:00",
+    "score": 0
+   },
+   {
+    "id": "w016d9ed23dfb",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Đột nhập nhà dân trộm nhiều vàng, trang sức",
+    "url": "https://cafef.vn/dot-nhap-nha-dan-trom-nhieu-vang-trang-suc-188261106160643375.chn",
+    "summary": "Lê Thanh Lợi lợi dụng gia chủ đi vắng đã đột nhập vào nhà dân ở Vĩnh Long, lục lọi phòng ngủ lấy trộm nhiều tài sản có giá trị, như vàng, trang sức bạch kim, điện thoại di động.",
+    "published": "2026-11-06T16:06+07:00",
+    "score": 0
+   },
+   {
+    "id": "w4abe720a7a94",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Techcombank kết nối giải pháp tài chính, đồng hành cùng doanh nghiệp biên mậu Việt – Trung",
+    "url": "https://cafef.vn/techcombank-ket-noi-giai-phap-tai-chinh-dong-hanh-cung-doanh-nghiep-bien-mau-viet-trung-18826110614091641.chn",
+    "summary": "Tại Lạng Sơn, cửa ngõ giao thương quan trọng giữa hai nước, Techcombank đã tổ chức hội thảo kết nối thông tin thị trường, chính sách với các giải pháp tài chính thiết thực, hỗ trợ doanh nghiệp nắm bắt cơ hội, nâng cao hiệu quả giao thương.",
+    "published": "2026-11-06T14:09+07:00",
+    "score": 0
+   },
+   {
+    "id": "w6e57526315d4",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "Lợi thế cạnh tranh mới của ngành tài chính",
+    "url": "https://cafef.vn/loi-the-canh-tranh-moi-cua-nganh-tai-chinh-188261106135359235.chn",
+    "summary": "Techcombank với Anh Trai Vượt Ngàn Chông Gai, VIB và TPBank với các concert “Say Hi”, MB với Golden Disc Awards và mới đây là VPBank với BIGBANG World Tour – các ngân hàng đang có một cuộc cạnh tranh trên địa hạt văn hóa, giải trí và phong cách sống.",
+    "published": "2026-11-06T14:00+07:00",
+    "score": 0
+   },
+   {
+    "id": "w04b9fc553d57",
+    "src": "cafef_nh",
+    "src_name": "CafeF — Tài chính NH",
+    "group": "bao_vn",
+    "title": "ACB mang hơn 1,7 triệu phần thưởng lên ACB ONE, trúng iPhone 18 Pro Max mỗi tuần",
+    "url": "https://cafef.vn/acb-mang-hon-17-trieu-phan-thuong-len-acb-one-trung-iphone-18-pro-max-moi-tuan-188261106133025656.chn",
+    "summary": "Dịp cuối năm, ACB triển khai chương trình “Bịt Mắt Bắt Dê” trên ACB ONE với hàng triệu phần quà và cơ hội trúng iPhone 18 Pro Max mỗi tuần. Đồng thời, Kho quà mang đến thêm nhiều ưu đãi hấp dẫn cho nhu cầu tiêu dùng hằng ngày.",
+    "published": "2026-11-06T13:30+07:00",
+    "score": 0
+   },
+   {
+    "id": "wd90cbf2f0f2b",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Đà Nẵng thúc tiến độ siêu dự án gần 189 ha, vốn gần 19.000 tỷ đồng của Đại Quang Minh",
+    "url": "https://cafef.vn/da-nang-thuc-tien-do-sieu-du-an-gan-189-ha-von-gan-19000-ty-dong-cua-dai-quang-minh-188261106230520709.chn",
+    "summary": "Dự án do Đại Quang Minh làm nhà đầu tư được yêu cầu phấn đấu khởi công trong tháng 12/2026.",
+    "published": "2026-11-07T00:05+07:00",
+    "score": 0
+   },
+   {
+    "id": "w607335cf1670",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Mỏ khí cách Vũng Tàu 320 km đã khai thác hơn 20 tỷ m³ ngoài khơi Việt Nam chuẩn bị khoan thêm 2 giếng sau 13 năm hoạt động",
+    "url": "https://cafef.vn/mo-khi-cach-vung-tau-320-km-da-khai-thac-hon-20-ty-m-ngoai-khoi-viet-nam-chuan-bi-khoan-them-2-gieng-sau-13-nam-hoat-dong-188261106230611876.chn",
+    "summary": "Theo kế hoạch phát triển mỏ điều chỉnh, chiến dịch dự kiến triển khai từ quý II/2028, bao gồm khoan bổ sung 2 giếng tại mỏ Hải Thạch, nhằm tăng khả năng thu hồi khí và kéo dài thời gian khai thác.",
+    "published": "2026-11-07T00:02+07:00",
+    "score": 0
+   },
+   {
+    "id": "w9ebf5cac5b3a",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Geleximco chuẩn bị khởi công khu đô thị gần 18.000 tỷ đồng tại Đà Nẵng vào tháng 4/2027",
+    "url": "https://cafef.vn/geleximco-chuan-bi-khoi-cong-khu-do-thi-gan-18000-ty-dong-tai-da-nang-vao-thang-4-2027-188261106141626995.chn",
+    "summary": "Chỉ sau hơn một năm thành lập, Geleximco Phố Hiến đã nâng vốn điều lệ từ 1.000 tỷ đồng lên 8.500 tỷ đồng. Doanh nghiệp này vừa đứng đầu liên danh trúng thầu dự án khu đô thị gần 300 ha tại Đà Nẵng.",
+    "published": "2026-11-07T00:01+07:00",
+    "score": 0
+   },
+   {
+    "id": "w185db2397bbd",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Bắt giang hồ mạng Hiệp “đen” nổi tiếng trên TikTok: Khám xét khách sạn Hồng Hạnh phát hiện súng giấu trên trần nhà",
+    "url": "https://cafef.vn/bat-giang-ho-mang-hiep-den-noi-tieng-tren-tiktok-kham-xet-khach-san-hong-hanh-phat-hien-sung-giau-tren-tran-nha-188261106220234071.chn",
+    "summary": "Hiệp “đen”, chủ một khách sạn tại TP.HCM, vừa bị bắt cùng 13 người liên quan sau khi công an phát hiện hàng loạt hành vi vi phạm pháp luật.",
+    "published": "2026-11-06T22:54+07:00",
+    "score": 0
+   },
+   {
+    "id": "w5270f7ff85df",
+    "src": "cafef_dn",
+    "src_name": "CafeF — Doanh nghiệp",
+    "group": "bao_vn",
+    "title": "Khởi tố Phó Tổng Giám đốc Tập đoàn Cường Hưng Thịnh về hành vi lừa đảo liên quan dự án Diamond",
+    "url": "https://cafef.vn/khoi-to-pho-tong-giam-doc-tap-doan-cuong-hung-thinh-ve-hanh-vi-lua-dao-lien-quan-du-an-diamond-188261106201127857.chn",
+    "summary": "Công an TP Đà Nẵng thông báo những khách hàng đã nộp tiền mua đất tại dự án “Khu khách sạn, căn hộ và dân cư cao cấp Diamond” tại Đà Nẵng nhưng chưa trình báo, làm việc với cơ quan công an cần khẩn trương liên hệ Phòng Cảnh sát kinh tế, địa chỉ số 47 Lý Tự Trọng, phường Hải Châu, TP Đà Nẵng.",
+    "published": "2026-11-06T21:11+07:00",
+    "score": 0
+   }
+  ],
+  "kind": "web",
+  "n_items": 140,
+  "topics": [
+   {
+    "id": "t1",
+    "hang": 1,
+    "tieu_de": "Khối ngoại bất ngờ đổ tiền mua cổ phiếu Việt Nam giữa lúc chứng khoán toàn cầu lao dốc",
+    "loai": "thi_truong",
+    "item_ids": [
+     "w6a88c4268933",
+     "wd3a7c2652e8e"
+    ],
+    "mot_dong": "Tại chiều mua, KDH được khối ngoại mua ròng mạnh nhất với giá trị khoảng 171 tỷ đồng.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w6a88c4268933",
+      "title": "Khối ngoại bất ngờ đổ tiền mua cổ phiếu Việt Nam giữa lúc chứng khoán toàn cầu lao dốc",
+      "summary": "Tại chiều mua, KDH được khối ngoại mua ròng mạnh nhất với giá trị khoảng 171 tỷ đồng.",
+      "url": "https://cafef.vn/phien-6-11-khoi-ngoai-do-tien-mua-rong-hon-400-ty-dong-co-phieu-viet-nam-giua-luc-chung-khoan-toan-cau-lao-doc-188261106153537479.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-06T15:45+07:00"
+     },
+     {
+      "id": "wd3a7c2652e8e",
+      "title": "Chứng khoán toàn cầu lao dốc, Việt Nam chịu ảnh hưởng gì?",
+      "summary": "Chứng khoán toàn cầu giảm mạnh do chịu sức ép từ làn sóng bán tháo cổ phiếu công nghệ, chuyên gia nhận định gì về chứng khoán Việt Nam hôm nay?",
+      "url": "https://cafef.vn/chung-khoan-toan-cau-lao-doc-viet-nam-chiu-anh-huong-gi-188261106155114043.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-06T15:54+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t2",
+    "hang": 2,
+    "tieu_de": "Lãi suất đạt đỉnh, VN-Index tạo đáy trong tháng 11 và tăng mạnh đến quý 1 năm 2027?",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "wbcd5502522c9"
+    ],
+    "mot_dong": "Theo thống kê, nhịp hồi phục sau tháng 11 thường kéo dài hơn so với nhịp hồi phục trong tháng 8, với VN-Index tăng bình quân khoảng 19,0% từ đáy tháng 11 đến vùng đỉnh trong quý I năm tiếp theo, tính trên bốn năm gần nhất.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "wbcd5502522c9",
+      "title": "Lãi suất đạt đỉnh, VN-Index tạo đáy trong tháng 11 và tăng mạnh đến quý 1 năm 2027?",
+      "summary": "Theo thống kê, nhịp hồi phục sau tháng 11 thường kéo dài hơn so với nhịp hồi phục trong tháng 8, với VN-Index tăng bình quân khoảng 19,0% từ đáy tháng 11 đến vùng đỉnh trong quý I năm tiếp theo, tính trên bốn năm gần nhất.",
+      "url": "https://vneconomy.vn/lai-suat-dat-dinh-vn-index-tao-day-trong-thang-11-va-tang-manh-den-quy-1-nam-2027.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-11-06T20:41+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t3",
+    "hang": 3,
+    "tieu_de": "Dư nợ cho vay ngoại tệ tại TPHCM tăng 42%",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "wc7605d158b3a"
+    ],
+    "mot_dong": "Chiều 5-11, Ngân hàng Nhà nước (NHNN) chi nhánh Khu vực 2 cho biết, trong 10 tháng của năm 2026, dư nợ cho vay bằng ngoại tệ trên địa bàn TPHCM ước đạt 288.000 tỷ đồng, chiếm 4,9% tổng dư nợ tín dụng, tăng 42% so với cuối năm 2025. Kết quả này phản ánh sự tăng trưởng tích cực của hoạt động xuất nhập khẩu.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "wc7605d158b3a",
+      "title": "Dư nợ cho vay ngoại tệ tại TPHCM tăng 42%",
+      "summary": "Chiều 5-11, Ngân hàng Nhà nước (NHNN) chi nhánh Khu vực 2 cho biết, trong 10 tháng của năm 2026, dư nợ cho vay bằng ngoại tệ trên địa bàn TPHCM ước đạt 288.000 tỷ đồng, chiếm 4,9% tổng dư nợ tín dụng, tăng 42% so với cuối năm 2025. Kết quả này phản ánh sự tăng trưởng tích cực của hoạt động xuất nhập khẩu.",
+      "url": "https://cafef.vn/du-no-cho-vay-ngoai-te-tai-tphcm-tang-42-188261106224042313.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-11-06T22:40+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t4",
+    "hang": 4,
+    "tieu_de": "Lãi suất ngân hàng ngày 6/11 tại Agribank, Vietcombank, BIDV, VietinBank, MB, VPBank, Techcombank, Sacombank, HDBank,...",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "wf1565bf3f7d8"
+    ],
+    "mot_dong": "Lãi suất huy động trực tuyến niêm yết tại 35 ngân hàng tiếp tục ghi nhận sự phân hóa đáng kể giữa các kỳ hạn. Theo bảng lãi suất tổng hợp ngày 6/11, VPBank có mức niêm yết cao nhất ở kỳ hạn 18 tháng với 7,4%/năm, trong khi 5 ngân hàng cùng áp dụng lãi suất 7%/năm ở kỳ hạn 12 tháng.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "wf1565bf3f7d8",
+      "title": "Lãi suất ngân hàng ngày 6/11 tại Agribank, Vietcombank, BIDV, VietinBank, MB, VPBank, Techcombank, Sacombank, HDBank,...",
+      "summary": "Lãi suất huy động trực tuyến niêm yết tại 35 ngân hàng tiếp tục ghi nhận sự phân hóa đáng kể giữa các kỳ hạn. Theo bảng lãi suất tổng hợp ngày 6/11, VPBank có mức niêm yết cao nhất ở kỳ hạn 18 tháng với 7,4%/năm, trong khi 5 ngân hàng cùng áp dụng lãi suất 7%/năm ở kỳ hạn 12 tháng.",
+      "url": "https://cafef.vn/lai-suat-ngan-hang-ngay-6-11-tai-agribank-vietcombank-bidv-vietinbank-mb-vpbank-techcombank-sacombank-hdbank-18826110620433468.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-11-06T21:52+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t5",
+    "hang": 5,
+    "tieu_de": "Dư địa giảm lãi suất còn đến đâu?",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "w93f1788cee4b"
+    ],
+    "mot_dong": "Lãi suất huy động đồng loạt giảm cùng với các biện pháp hỗ trợ thanh khoản từ Ngân hàng Nhà nước đang tạo điều kiện để các ngân hàng tiếp tục hạ lãi suất cho vay, chia sẻ chi phí với người dân và doanh nghiệp. Tuy nhiên, theo giới chuyên gia, mức giảm và tốc độ điều chỉnh thời gian tới còn phụ thuộc vào nhiều yếu tố như chi phí vốn, chất lượng tín dụng và diễn biến kinh tế vĩ mô.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w93f1788cee4b",
+      "title": "Dư địa giảm lãi suất còn đến đâu?",
+      "summary": "Lãi suất huy động đồng loạt giảm cùng với các biện pháp hỗ trợ thanh khoản từ Ngân hàng Nhà nước đang tạo điều kiện để các ngân hàng tiếp tục hạ lãi suất cho vay, chia sẻ chi phí với người dân và doanh nghiệp. Tuy nhiên, theo giới chuyên gia, mức giảm và tốc độ điều chỉnh thời gian tới còn phụ thuộc vào nhiều yếu tố như chi phí vốn, chất lượng tín dụng và diễn biến kinh tế vĩ mô.",
+      "url": "https://cafef.vn/du-dia-giam-lai-suat-con-den-dau-188261106215141875.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-11-06T21:51+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t6",
+    "hang": 6,
+    "tieu_de": "Tuần 02-06/11: USD-Index tăng vọt, giá USD trong nước đồng loạt giảm",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "w29081f77b4b8"
+    ],
+    "mot_dong": "Trong tuần đầu của tháng 11 (02-06/11), USD-Index (DXY) trên thị trường quốc tế bật tăng mạnh lên 101.87 điểm chi phối bởi sự kết hợp giữa biến động chính trị tại Mỹ, các dữ liệu kinh tế vĩ mô và dòng tiền kỹ thuật trên thị trường ngoại hối.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w29081f77b4b8",
+      "title": "Tuần 02-06/11: USD-Index tăng vọt, giá USD trong nước đồng loạt giảm",
+      "summary": "Trong tuần đầu của tháng 11 (02-06/11), USD-Index (DXY) trên thị trường quốc tế bật tăng mạnh lên 101.87 điểm chi phối bởi sự kết hợp giữa biến động chính trị tại Mỹ, các dữ liệu kinh tế vĩ mô và dòng tiền kỹ thuật trên thị trường ngoại hối.",
+      "url": "http://vietstock.vn/2026/11/tuan-02-0611-usd-index-tang-vot-gia-usd-trong-nuoc-dong-loat-giam-757-1512726.htm",
+      "src_name": "Vietstock — Ngân hàng",
+      "published": "2026-11-06T20:18+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t7",
+    "hang": 7,
+    "tieu_de": "Giá USD ngân hàng giảm 2,8% trong ba tháng",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "wf474444df7f7"
+    ],
+    "mot_dong": "Giá USD ngân hàng chiều nay tiếp tục giảm xuống 25.780 đồng, về ngang với thời điểm cuối tháng 3 năm ngoái.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "wf474444df7f7",
+      "title": "Giá USD ngân hàng giảm 2,8% trong ba tháng",
+      "summary": "Giá USD ngân hàng chiều nay tiếp tục giảm xuống 25.780 đồng, về ngang với thời điểm cuối tháng 3 năm ngoái.",
+      "url": "https://vnexpress.net/gia-usd-ngan-hang-giam-2-8-trong-ba-thang-5141708.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-11-06T18:17+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t8",
+    "hang": 8,
+    "tieu_de": "Anh tăng lãi suất lần đầu tiên sau 3 năm",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "wd14a0e647cd6"
+    ],
+    "mot_dong": "Nối gót các nền kinh tế lớn khác, Anh nâng lãi suất tham chiếu lần đầu kể từ năm 2023 để ghìm lạm phát do giá năng lượng.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "wd14a0e647cd6",
+      "title": "Anh tăng lãi suất lần đầu tiên sau 3 năm",
+      "summary": "Nối gót các nền kinh tế lớn khác, Anh nâng lãi suất tham chiếu lần đầu kể từ năm 2023 để ghìm lạm phát do giá năng lượng.",
+      "url": "https://vnexpress.net/anh-tang-lai-suat-lan-dau-tien-sau-3-nam-5141653.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-11-06T16:18+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t9",
+    "hang": 9,
+    "tieu_de": "Ngày 6/11, một ngân hàng cộng thêm lãi suất tiền gửi, cao nhất lên tới 9,1%/năm",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "w3999112a09dc"
+    ],
+    "mot_dong": "Chương trình cộng lãi suất này chỉ kéo dài đến 11/11/2026.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w3999112a09dc",
+      "title": "Ngày 6/11, một ngân hàng cộng thêm lãi suất tiền gửi, cao nhất lên tới 9,1%/năm",
+      "summary": "Chương trình cộng lãi suất này chỉ kéo dài đến 11/11/2026.",
+      "url": "https://cafef.vn/ngay-6-11-mot-ngan-hang-cong-them-lai-suat-cao-nhat-len-toi-91-nam-18826110614422182.chn",
+      "src_name": "CafeF — Tài chính NH",
+      "published": "2026-11-06T14:42+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t10",
+    "hang": 10,
+    "tieu_de": "VPBank giành “cú đúp” giải thưởng về quản lý dòng tiền tại The Euromoney Transaction Banking Awards",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "w268630f8b5fe"
+    ],
+    "mot_dong": "Tại lễ trao giải The Euromoney Transaction Banking Awards, Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank; HOSE: VPB) xuất sắc được xướng tên ở hai hạng mục “Vietnam's Best Cash Management Bank 2026” (Ngân hàng cung cấp Giải pháp Quản lý dòng tiền tốt nhất Việt Nam 2026) và “Vietnam's Best Cash Management Deal 2026” (Thương vụ quản lý dòng tiền tốt nhất Việt Nam 2026).",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w268630f8b5fe",
+      "title": "VPBank giành “cú đúp” giải thưởng về quản lý dòng tiền tại The Euromoney Transaction Banking Awards",
+      "summary": "Tại lễ trao giải The Euromoney Transaction Banking Awards, Ngân hàng TMCP Việt Nam Thịnh Vượng (VPBank; HOSE: VPB) xuất sắc được xướng tên ở hai hạng mục “Vietnam's Best Cash Management Bank 2026” (Ngân hàng cung cấp Giải pháp Quản lý dòng tiền tốt nhất Việt Nam 2026) và “Vietnam's Best Cash Management Deal 2026” (Thương vụ quản lý dòng tiền tốt nhất Việt Nam 2026).",
+      "url": "http://vietstock.vn/2026/11/vpbank-gianh-cu-dup-giai-thuong-ve-quan-ly-dong-tien-tai-the-euromoney-transaction-banking-awards-757-1512230.htm",
+      "src_name": "Vietstock — Ngân hàng",
+      "published": "2026-11-06T11:02+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t11",
+    "hang": 11,
+    "tieu_de": "Ba cổ phiếu ngân hàng bất ngờ trở thành tâm điểm \"xả\" hàng của khối ngoại trong tuần đầu tháng 11",
+    "loai": "thi_truong",
+    "item_ids": [
+     "w1803337a4b26"
+    ],
+    "mot_dong": "Tín hiệu tích cực diễn ra vào cuối tuần khi dòng vốn của nhà đầu tư nước ngoài bất ngờ trở lại và giải ngân mua ròng cổ phiếu Việt Nam.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w1803337a4b26",
+      "title": "Ba cổ phiếu ngân hàng bất ngờ trở thành tâm điểm \"xả\" hàng của khối ngoại trong tuần đầu tháng 11",
+      "summary": "Tín hiệu tích cực diễn ra vào cuối tuần khi dòng vốn của nhà đầu tư nước ngoài bất ngờ trở lại và giải ngân mua ròng cổ phiếu Việt Nam.",
+      "url": "https://cafef.vn/ba-co-phieu-ngan-hang-bat-ngo-tro-thanh-tam-diem-xa-hang-cua-khoi-ngoai-trong-tuan-dau-thang-11-188261106235313544.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-07T00:03+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t12",
+    "hang": 12,
+    "tieu_de": "Khối ngoại bất ngờ mua ròng, chứng khoán vẫn chìm trong sắc đỏ",
+    "loai": "thi_truong",
+    "item_ids": [
+     "w3ab782e58ecd"
+    ],
+    "mot_dong": "Sau chuỗi 10 phiên bán ròng liên tiếp, nhà đầu tư nước ngoài bất ngờ quay lại mua ròng hơn 435 tỷ đồng trong phiên 6/11. Tuy nhiên, lực mua này chưa đủ sức nâng đỡ thị trường khi áp lực chốt lời trong nước gia tăng, kéo VN-Index giảm hơn 15 điểm.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w3ab782e58ecd",
+      "title": "Khối ngoại bất ngờ mua ròng, chứng khoán vẫn chìm trong sắc đỏ",
+      "summary": "Sau chuỗi 10 phiên bán ròng liên tiếp, nhà đầu tư nước ngoài bất ngờ quay lại mua ròng hơn 435 tỷ đồng trong phiên 6/11. Tuy nhiên, lực mua này chưa đủ sức nâng đỡ thị trường khi áp lực chốt lời trong nước gia tăng, kéo VN-Index giảm hơn 15 điểm.",
+      "url": "https://cafef.vn/khoi-ngoai-bat-ngo-mua-rong-chung-khoan-van-chim-trong-sac-do-188261106172625659.chn",
+      "src_name": "CafeF — Chứng khoán",
+      "published": "2026-11-06T17:49+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t13",
+    "hang": 13,
+    "tieu_de": "Chứng khoán Mỹ giảm mạnh nhất hơn 1 năm rưỡi, giá dầu bật tăng trở lại",
+    "loai": "the_gioi",
+    "item_ids": [
+     "wc972abab0e9b"
+    ],
+    "mot_dong": "Áp lực bán tháo lan rộng từ cổ phiếu công nghệ sang các nhóm khác, khiến cả ba chỉ số chính đồng loạt giảm chóng mặt, dẫn đầu là Nasdaq với mức giảm hơn 5,5%...",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "wc972abab0e9b",
+      "title": "Chứng khoán Mỹ giảm mạnh nhất hơn 1 năm rưỡi, giá dầu bật tăng trở lại",
+      "summary": "Áp lực bán tháo lan rộng từ cổ phiếu công nghệ sang các nhóm khác, khiến cả ba chỉ số chính đồng loạt giảm chóng mặt, dẫn đầu là Nasdaq với mức giảm hơn 5,5%...",
+      "url": "https://vneconomy.vn/chung-khoan-my-giam-manh-nhat-hon-1-nam-ruoi-gia-dau-bat-tang-tro-lai.htm",
+      "src_name": "VnEconomy — Chứng khoán",
+      "published": "2026-11-06T08:19+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t14",
+    "hang": 14,
+    "tieu_de": "Giá vàng thế giới tiếp tục tăng, chứng khoán Mỹ lao dốc",
+    "loai": "vi_mo_vn",
+    "item_ids": [
+     "w48e45417c268"
+    ],
+    "mot_dong": "Mỗi ounce vàng vượt 4.100 USD, trong khi nhóm cổ phiếu công nghệ tại Wall Street giảm 10-17% chỉ trong một phiên.",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 4,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w48e45417c268",
+      "title": "Giá vàng thế giới tiếp tục tăng, chứng khoán Mỹ lao dốc",
+      "summary": "Mỗi ounce vàng vượt 4.100 USD, trong khi nhóm cổ phiếu công nghệ tại Wall Street giảm 10-17% chỉ trong một phiên.",
+      "url": "https://vnexpress.net/gia-vang-the-gioi-tiep-tuc-tang-chung-khoan-my-lao-doc-5141385.html",
+      "src_name": "VnExpress — Kinh doanh",
+      "published": "2026-11-06T07:43+07:00"
+     }
+    ]
+   },
+   {
+    "id": "t15",
+    "hang": 15,
+    "tieu_de": "Thị trường tài chính 24h: Giá dầu thô tiếp tục xu hướng giảm",
+    "loai": "the_gioi",
+    "item_ids": [
+     "w4e20b1fc6feb"
+    ],
+    "mot_dong": "(ĐTCK) VN-Index điều chỉnh; Quý III: Nhiều doanh nghiệp hụt lợi nhuận; Lợi nhuận ngành tăng 18,9%, SSI \"điểm tên\" các cổ phiếu ngân hàng triển vọng; ECB đứng trước khả năng tăng lãi suất…là những thông tin đáng chú ý của thị trường trong 24h qua. Lãi suất đồng loạt giảm, doanh nghiệp nhẹ gánh chi phí vốn Cổ phiếu công nghệ châu Á chịu sức ép từ nguy cơ siết chặt trung tâm dữ liệu AI tại Mỹ Bàn giả",
+    "su_kien_hay_nhan_dinh": "chua_phan_loai",
+    "quan_trong": 3,
+    "tin_tho": true,
+    "nguon": [
+     {
+      "id": "w4e20b1fc6feb",
+      "title": "Thị trường tài chính 24h: Giá dầu thô tiếp tục xu hướng giảm",
+      "summary": "(ĐTCK) VN-Index điều chỉnh; Quý III: Nhiều doanh nghiệp hụt lợi nhuận; Lợi nhuận ngành tăng 18,9%, SSI \"điểm tên\" các cổ phiếu ngân hàng triển vọng; ECB đứng trước khả năng tăng lãi suất…là những thông tin đáng chú ý của thị trường trong 24h qua. Lãi suất đồng loạt giảm, doanh nghiệp nhẹ gánh chi phí vốn Cổ phiếu công nghệ châu Á chịu sức ép từ nguy cơ siết chặt trung tâm dữ liệu AI tại Mỹ Bàn giải pháp tăng trưởng ngành thủy sản 2027 - 2029",
+      "url": "https://www.tinnhanhchungkhoan.vn/thi-truong-tai-chinh-24h-gia-dau-tho-tiep-tuc-xu-huong-giam-post400943.html",
+      "src_name": "Tin nhanh CK",
+      "published": "2026-11-06T18:16+07:00"
+     }
+    ]
+   }
+  ],
+  "loi": "AI không chạy được (AI không tìm thấy chủ đề đáng kể) — đang hiện bản tin thô xếp bằng code",
+  "so_lieu": {},
+  "so_tin_bo_qua": null,
+  "tin_tho": true
+ },
+ "zalo": {
+  "items": [],
+  "kind": "zalo",
+  "n_items": 0,
+  "topics": [],
+  "loi": "không có tin trong cửa sổ"
+ },
+ "ai": {
+  "models": [
+   "gemini-3.6-flash",
+   "gemini-3.5-flash"
+  ],
+  "so_luot": 1,
+  "token_vao": 18495,
+  "token_ra": 3779
+ },
+ "trang_thai_chay": "chi_tin_tho",
+ "pb_ver": 1,
+ "tong_hop": {
+  "loi": "bỏ qua tổng hợp vì cả hai tab không có chủ đề (tránh AI viết khi không có tin)"
+ },
+ "xong_luc": "2026-11-07T07:02+07:00",
+ "chay_giay": 107,
+ "dung_han": true
+}
